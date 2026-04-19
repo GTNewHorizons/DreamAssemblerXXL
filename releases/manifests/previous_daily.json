@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "2.8.4",
-  "last_updated": "2026-04-18T14:39:14.168507",
-  "config": "2.9.0-nightly-2026-04-17-2",
+  "last_version": "previous_daily",
+  "last_updated": "2026-04-19T05:40:51.300302",
+  "config": "2.9.0-nightly-2026-04-19",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-897-GTNH",
+      "version": "rv3-beta-899-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.435",
+      "version": "5.09.52.439",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.209",
+      "version": "2.8.211",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.34-GTNH",
+      "version": "1.12.35-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.11",
+      "version": "1.4.12",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.0.17",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "ModularUI2": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.24-GTNH",
+      "version": "0.1.25-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.40",
+      "version": "2.0.41",
       "side": "BOTH"
     },
     "Fether": {

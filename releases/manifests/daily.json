@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-19T05:40:51.300302",
+  "last_updated": "2026-04-19T13:43:43.659316",
   "config": "2.9.0-nightly-2026-04-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.73-gtnh",
+      "version": "1.5.74-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-899-GTNH",
+      "version": "rv3-beta-900-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.439",
+      "version": "5.09.52.440",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.120",
+      "version": "2.7.121",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.211",
+      "version": "2.8.213",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.42-GTNH",
+      "version": "1.7.43-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -573,7 +573,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.12.13",
+      "version": "1.12.14",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.12",
+      "version": "1.4.13",
       "side": "BOTH"
     },
     "WitchingGadgets": {
