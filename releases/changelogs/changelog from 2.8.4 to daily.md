@@ -353,10 +353,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-898-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-898-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-899-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-899-GTNH
 
 ## What's Changed:
+>* Fix IO Port cell moving by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1197 (rv3-beta-899-GTNH)
+>* add test stack for stack type by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1211 (rv3-beta-899-GTNH)
 >* Use blank patterns directly from the network by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1200 (rv3-beta-898-GTNH)
 >* Fix StackOverflowError in P2P Interface updateCraftingList   by @Luca-Guettinger in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1205 (rv3-beta-897-GTNH)
 >* Fix changes not saved in some blocks by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1203 (rv3-beta-896-GTNH)
@@ -989,10 +991,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.40
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.40
+# New Mod - CropsNH:2.0.41
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.41
 
 ## What's Changed:
+>* Allow crops that can see the sky to get watered by rain by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/109 (2.0.41)
 >* Fix structure localisations in the projector ui by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/107 (2.0.40)
 >* Add AoE to ExU watering can compat. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/106 (2.0.40)
 >* Add better default tooltip and visuals handling for quest book. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/108 (2.0.40)
@@ -1288,10 +1291,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.437
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.437
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.439
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.439
 
 ## What's Changed:
+>* Fix washer structure check by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6415 (5.09.52.439)
+>* Minor godforge statistics panel UI fixes by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6417 (5.09.52.439)
+>* Beamcrafter logic fixes (round 2) by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6239 (5.09.52.439)
+>* Structure Rework various fixes by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6423 (5.09.52.439)
+>* fix world leak caused by MobHandlerLoader$MobEECRecipe#entityCopy by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6427 (5.09.52.439)
 >* Add more power ICs by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6396 (5.09.52.437)
 >* Allow Laser Hatches on LATEX by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6411 (5.09.52.435)
 >* Fix vajra ghost block by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6402 (5.09.52.434)
@@ -2900,10 +2908,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Separated tile vs gui title string in lang by @Ranzuu in https://github.com/GTNewHorizons/MalisisDoors/pull/24 (1.19.2-GTNH)
 >* Small thread-safety fix to prevent certain NullPointers by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/23 (1.19.0-GTNH)
 
-# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.24-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.24-GTNH
+# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.25-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.25-GTNH
 
 ## What's Changed:
+>* [MatterManipulator] Fix: Matter Manipulator does not move wireless hubs and wireless connectors correctly by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/37 (0.1.25-GTNH)
+>* [MatterManipulator] add Advanced Copy Options by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/40 (0.1.25-GTNH)
+>* [MatterManipulator]  Fix AE2 not detecting GT hatches after replacement without server restart by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/36 (0.1.25-GTNH)
+>* Fix stacked Fluid Cells where not filled by MM  by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/42 (0.1.25-GTNH)
 >* [MatterManipulator] Fix Disconnect when trying to create a Plan by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/41 (0.1.24-GTNH)
 >* Matter Manipulator does not copy fluids in dual interfaces by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/33 (0.1.23-GTNH)
 >* Implement FMP and Project Red in Matter Manipulator in copy mode by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/34 (0.1.23-GTNH)
@@ -3079,6 +3091,12 @@ Mod is client-side only.
 >* Prevent mobs from spawning on Topiary Blocks by @zacharylott94 in https://github.com/GTNewHorizons/Natura/pull/35 (2.8.15)
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
+
+# Updated - Navigator - 1.0.17 --> 1.1.0
+**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.17...1.1.0
+
+## What's Changed:
+>* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
 # Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.211
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.211
@@ -3461,10 +3479,11 @@ Mod is client-side only.
 >* Fix non-deployed glider position for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/34 (1.12.1-GTNH)
 >* Fix glider upside-down for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/33 (1.12.0-GTNH)
 
-# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.34-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.34-GTNH
+# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.35-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.35-GTNH
 
 ## What's Changed:
+>* fix server leak caused by StaticSimpleEnvironment by @Alexdoru in https://github.com/GTNewHorizons/OpenComputers/pull/186 (1.12.35-GTNH)
 >* feat(thaumcraft): Added new item ArcaneCraftingUpgrade by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/170 (1.12.34-GTNH)
 >* fix(appeng): use long instead of int for item sizes by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/183 (1.12.33-GTNH)
 >* Special handling for ae2 P2Ps by @MarkinoTeck in https://github.com/GTNewHorizons/OpenComputers/pull/182 (1.12.32-GTNH)
@@ -4063,10 +4082,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix armor slot index and duplicated tooltip by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/45 (1.12.11)
 >* Universal GUI by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/44 (1.12.10)
 
-# Updated - WitcheryExtras - 1.3.8 --> 1.4.11
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.11
+# Updated - WitcheryExtras - 1.3.8 --> 1.4.12
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.12
 
 ## What's Changed:
+>* fix memory leak caused by PowerSources by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/38 (1.4.12)
 >* Localized GUI titles with mixin by @Ranzuu in https://github.com/GTNewHorizons/WitcheryExtras/pull/35 (1.4.11)
 >* Use correct mixin extras by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/36 (1.4.9)
 >* Add way to force disable blocks; disable silver vat by @Caedis in https://github.com/GTNewHorizons/WitcheryExtras/pull/33 (1.4.7)
