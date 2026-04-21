@@ -1,15 +1,15 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-04-18T16:01:57.611548",
-  "config": "2.9.0-nightly-2026-04-17-2",
+  "last_updated": "2026-04-19T14:01:28.794757",
+  "config": "2.9.0-nightly-2026-04-19",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.73-gtnh",
+      "version": "1.5.74-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-898-GTNH",
+      "version": "rv3-beta-900-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.438-pre",
+      "version": "5.09.52.441-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.120",
+      "version": "2.7.121",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.212-pre",
+      "version": "2.8.214-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.34-GTNH",
+      "version": "1.12.35-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.42-GTNH",
+      "version": "1.7.43-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.54-GTNH",
+      "version": "1.14.55-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -573,7 +573,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.12.13",
+      "version": "1.12.14",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.11",
+      "version": "1.4.13",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.0.17",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "ModularUI2": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.24-GTNH",
+      "version": "0.1.25-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.40",
+      "version": "2.0.41",
       "side": "BOTH"
     },
     "Freecam": {
