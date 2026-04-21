@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-04-21T05:53:52.324567",
-  "config": "2.9.0-nightly-2026-04-21",
+  "last_version": "2.8.4",
+  "last_updated": "2026-04-21T18:08:46.458575",
+  "config": "2.9.0-nightly-2026-04-21-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-903-GTNH",
+      "version": "rv3-beta-904-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.3.2",
+      "version": "1.3.3",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.60",
+      "version": "0.4.61",
       "side": "BOTH"
     },
     "Freecam": {
@@ -831,6 +831,14 @@
     "VillageNames": {
       "version": "4.5.8-GTNH",
       "side": "BOTH"
+    },
+    "ChromaticTooltips": {
+      "version": "1.0.17-GTNH",
+      "side": "CLIENT"
+    },
+    "ChromaticTooltipsCompat": {
+      "version": "1.0.23-GTNH",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
