@@ -1319,10 +1319,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.446
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.446
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.447
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.447
 
 ## What's Changed:
+>* Titanium Dust Based Titaniumtetrachloride Nerf by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6449 (5.09.52.447)
+>* Fix incorrect quantum circuit encasement texture by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6450 (5.09.52.447)
+>* Fix infinite eternity foil generator by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6451 (5.09.52.447)
 >* Fix wrong hint number on top-center of distillation tower by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6446 (5.09.52.446)
 >* Add coal tar back to ICO by @TotallyNotOndre in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6443 (5.09.52.446)
 >* show computation on waila of quantum computer by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6413 (5.09.52.446)
