@@ -1,5 +1,7 @@
 # New Mods: 
 > * AspectRecipeIndex
+> * ChromaticTooltips
+> * ChromaticTooltipsCompat
 > * CosmeticArmorReworked
 > * CropsNH
 > * Extreme Sound Muffler
@@ -363,10 +365,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-903-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-903-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-904-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-904-GTNH
 
 ## What's Changed:
+>* fix World Leak in GuiMEMonitorable by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1222 (rv3-beta-904-GTNH)
 >* Fix crafting tree counts for mixed recipes by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1212 (rv3-beta-903-GTNH)
 >* Changed button tooltip from "No crafting Job Active" to "Inactive" by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1216 (rv3-beta-903-GTNH)
 >* Fix memory leak caused by ThreadLocal<RenderBlocksWorkaround> by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1215 (rv3-beta-903-GTNH)
@@ -949,6 +952,18 @@ Mod is client-side only.
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
 
+# New Mod - ChromaticTooltips:1.0.17-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/commits/1.0.17-GTNH/compare/1.0.17-GTNH...1.0.17-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# New Mod - ChromaticTooltipsCompat:1.0.23-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/commits/1.0.23-GTNH/compare/1.0.23-GTNH...1.0.23-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - CodeChickenCore - 1.4.10 --> 1.4.12
 **Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.10...1.4.12
 
@@ -3043,10 +3058,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* change message to logs folder by @Alexdoru in https://github.com/GTNewHorizons/ModTweaker/pull/8 (0.13.0)
 
-# Updated - ModularUI - 1.2.20 --> 1.3.2
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.20...1.3.2
+# Updated - ModularUI - 1.2.20 --> 1.3.3
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.20...1.3.3
 
 ## What's Changed:
+>* Fix memory leak in ModularUIContext by @Alexdoru in https://github.com/GTNewHorizons/ModularUI/pull/94 (1.3.3)
 >* [Sub-PR] Reduce the size of the GregTech.lang, and standardize the Line Break, etc. by @iouter in https://github.com/GTNewHorizons/ModularUI/pull/93 (1.3.2)
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
@@ -4046,10 +4062,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.60
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.60
+# New Mod - VendingMachine:0.4.61
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.61
 
 ## What's Changed:
+>* Swap out slot labels and refactor deprecated methods by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/84 (0.4.61)
 >* Add styling by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/82 (0.4.60)
 >* Fix drops on vending machine break by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/81 (0.4.59)
 >* chore(fix): prevent unwanted inventory hotkey caused gui close by @Nana-Sakura in https://github.com/GTNewHorizons/VendingMachine/pull/80 (0.4.58)
