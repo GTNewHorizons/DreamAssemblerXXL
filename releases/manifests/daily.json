@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-20T06:01:00.699380",
-  "config": "2.9.0-nightly-2026-04-20",
+  "last_updated": "2026-04-21T05:39:35.175727",
+  "config": "2.9.0-nightly-2026-04-21",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-902-GTNH",
+      "version": "rv3-beta-903-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.35-GTNH",
+      "version": "3.8.36-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.5.7",
+      "version": "1.5.8",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.21-GTNH",
+      "version": "2.17.23-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.443",
+      "version": "5.09.52.446",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.121",
+      "version": "2.7.122",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.23",
+      "version": "1.6.24",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.215",
+      "version": "2.8.216",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.17",
+      "version": "2.1.18",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "CoreTweaks": {
-      "version": "0.3.4.1-GTNH",
+      "version": "0.3.4.2-GTNH",
       "side": "BOTH"
     },
     "ModernMarkings": {
@@ -789,11 +789,11 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.59",
+      "version": "0.4.60",
       "side": "BOTH"
     },
     "Freecam": {
-      "version": "1.0.7",
+      "version": "1.0.8",
       "side": "BOTH"
     },
     "MouseTweaks": {
