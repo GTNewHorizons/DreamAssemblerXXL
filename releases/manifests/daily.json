@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-21T18:18:32.430468",
-  "config": "2.9.0-nightly-2026-04-21-2",
+  "last_updated": "2026-04-22T05:38:42.106079",
+  "config": "2.9.0-nightly-2026-04-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.2.3-carrot",
+      "version": "2.2.7-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.42",
+      "version": "2.0.43",
       "side": "BOTH"
     },
     "Fether": {
