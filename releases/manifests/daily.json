@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-23T05:42:46.742335",
+  "last_updated": "2026-04-23T18:50:12.980198",
   "config": "2.9.0-nightly-2026-04-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-904-GTNH",
+      "version": "rv3-beta-905-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.23-GTNH",
+      "version": "2.17.25-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.449",
+      "version": "5.09.52.451",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.52",
+      "version": "0.9.53",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.123",
+      "version": "2.7.124",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.18",
+      "version": "1.5.19",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.18-GTNH",
+      "version": "1.5.20-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.35-GTNH",
+      "version": "1.12.36-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.32-GTNH",
+      "version": "4.12.33-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.43-GTNH",
+      "version": "1.7.45-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -878,10 +878,6 @@
       "version": "4.2.3.5",
       "side": "BOTH"
     },
-    "JourneyMap": {
-      "version": "5.2.11-fairplay",
-      "side": "CLIENT"
-    },
     "JourneyMap Server": {
       "version": "1.0.5",
       "side": "SERVER"
@@ -931,7 +927,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.2.1",
+      "version": "0.3.0",
       "side": "BOTH"
     },
     "Archaicfix": {
