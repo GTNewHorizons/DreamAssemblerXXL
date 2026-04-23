@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-23T18:50:12.980198",
+  "last_updated": "2026-04-23T18:56:53.274612",
   "config": "2.9.0-nightly-2026-04-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -952,6 +952,10 @@
     },
     "Extreme Sound Muffler": {
       "version": "1.0.14",
+      "side": "CLIENT"
+    },
+    "JourneyMap": {
+      "version": "5.2.12-fairplay",
       "side": "CLIENT"
     }
   }
