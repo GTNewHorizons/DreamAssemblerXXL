@@ -365,10 +365,13 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-905-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-905-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-907-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-907-GTNH
 
 ## What's Changed:
+>* Support NEI ghost items for terminal pins by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1220 (rv3-beta-907-GTNH)
+>* Fix buffered leading spaces in terminal search by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1217 (rv3-beta-906-GTNH)
+>* EquivalentEnergistics compatibility by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1227 (rv3-beta-906-GTNH)
 >* Fix pattern terminal shift-click ghosts by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1226 (rv3-beta-905-GTNH)
 >* Interface Terminal: add block icon to section headers and priority tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1219 (rv3-beta-905-GTNH)
 >* fix World Leak in GuiMEMonitorable by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1222 (rv3-beta-904-GTNH)
@@ -1343,10 +1346,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.451
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.451
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.452
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.452
 
 ## What's Changed:
+>* fix texture update on steam mixer by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6480 (5.09.52.452)
+>* Fix Recipe Conflict with Forming Core by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6481 (5.09.52.452)
+>* Optimize Image From #6466 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6483 (5.09.52.452)
 >* Planck integration by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6474 (5.09.52.451)
 >* Optimize recipe loading by almost 4s by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6476 (5.09.52.451)
 >* optimize removeFurnaceSmelting by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6468 (5.09.52.450)
@@ -3213,10 +3219,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.218
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.218
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.219
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.219
 
 ## What's Changed:
+>* Fix Obsidian Chisel Recipe Conflict by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1723 (2.8.219)
 >* Fix recipes from structure rework by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1719 (2.8.218)
 >* Planck circuit recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1721 (2.8.218)
 >* Fix EFR barrel upgrade recipes by @Nana-Sakura in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1720 (2.8.218)
@@ -3611,10 +3618,11 @@ Mod is client-side only.
 >* Fix non-deployed glider position for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/34 (1.12.1-GTNH)
 >* Fix glider upside-down for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/33 (1.12.0-GTNH)
 
-# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.36-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.36-GTNH
+# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.37-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.37-GTNH
 
 ## What's Changed:
+>* Localize transposer tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenComputers/pull/187 (1.12.37-GTNH)
 >* optimize asm transformer by @danyadev in https://github.com/GTNewHorizons/OpenComputers/pull/176 (1.12.36-GTNH)
 >* fix server leak caused by StaticSimpleEnvironment by @Alexdoru in https://github.com/GTNewHorizons/OpenComputers/pull/186 (1.12.35-GTNH)
 >* feat(thaumcraft): Added new item ArcaneCraftingUpgrade by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/170 (1.12.34-GTNH)
