@@ -23,10 +23,11 @@
 > * Pam's Harvest the Nether
 > * TCNEIAdditions
 > * Thaumcraft NEI Plugin
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.75-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.75-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.76-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.76-gtnh
 
 ## What's Changed:
+>* Load walrus model only once by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/421 (1.5.76-gtnh)
 >* Migrate storage bus config by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/420 (1.5.75-gtnh)
 >* fix: remove redundant tooltip in itemBlock by @CaelixOrbit in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/419 (1.5.74-gtnh)
 >* fix: ensure fluid packets drop when part is broken by @CaelixOrbit in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/418 (1.5.73-gtnh)
@@ -1146,10 +1147,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Stop connecting to remote location from main thread by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/11 (1.7.3)
 
-# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.21-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.21-GTNH
+# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.22-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.22-GTNH
 
 ## What's Changed:
+>* Add config to disable earth block by @Alexdoru in https://github.com/GTNewHorizons/Draconic-Evolution/pull/98 (1.5.22-GTNH)
 >* Add redstone + hopper automation (w/ XP jar draining) by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/95 (1.5.21-GTNH)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Draconic-Evolution/pull/94 (1.5.19-GTNH)
 >* BrandonCore deprecation by @Connor-Colenso in https://github.com/GTNewHorizons/Draconic-Evolution/pull/86 (1.5.18-GTNH)
@@ -1346,10 +1348,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.452
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.452
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.453
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.453
 
 ## What's Changed:
+>* Fix steam multis being locked to void mode by @jamiehu427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6484 (5.09.52.453)
+>* Fix Coke Oven spilling fluids when clicked with bucket by @ROBERT-PARKOURCIVILIZATIONGOD in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6469 (5.09.52.453)
+>* Set tooltip delay to 0 by @ROBERT-PARKOURCIVILIZATIONGOD in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6486 (5.09.52.453)
 >* fix texture update on steam mixer by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6480 (5.09.52.452)
 >* Fix Recipe Conflict with Forming Core by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6481 (5.09.52.452)
 >* Optimize Image From #6466 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6483 (5.09.52.452)
@@ -2705,10 +2710,12 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.124
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.124
+# Updated - Hodgepodge - 2.6.112 --> 2.7.125
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.125
 
 ## What's Changed:
+>* IC2 tin cans now run their food logic on the client as well by @tiffit in https://github.com/GTNewHorizons/Hodgepodge/pull/849 (2.7.125)
+>* Optimize wavefront object model loading by 1.2s by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/850 (2.7.125)
 >* Change certain client memory leak fix to run on each dimension swap by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/843 (2.7.124)
 >* Disable mixin for MrTJPCoreMod for version >= 1.1.3 by @AnsonYeung in https://github.com/GTNewHorizons/Hodgepodge/pull/847 (2.7.123)
 >* Fix portals not spawning when changing dimension by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/848 (2.7.123)
@@ -4240,6 +4247,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix armor slot index and duplicated tooltip by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/45 (1.12.11)
 >* Universal GUI by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/44 (1.12.10)
 
+# Updated - WirelessRedstone-CBE - 1.7.1 --> 1.7.2
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.1...1.7.2
+
+## What's Changed:
+>* Do some cleanup + fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/14 (1.7.2)
+
 # Updated - WitcheryExtras - 1.3.8 --> 1.4.13
 **Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.13
 
@@ -4254,10 +4267,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
-# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.41-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.41-GTNH
+# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.42-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.42-GTNH
 
 ## What's Changed:
+>* Delete elite armor model by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/130 (1.8.42-GTNH)
 >* Adds transparency support by @Ranzuu in https://github.com/GTNewHorizons/WitchingGadgets/pull/128 (1.8.41-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/WitchingGadgets/pull/125 (1.8.40-GTNH)
 >* Update Postea dependency version to 1.2.3 by @C0bra5 in https://github.com/GTNewHorizons/WitchingGadgets/pull/123 (1.8.39-GTNH)
