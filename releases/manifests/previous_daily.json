@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "2.8.4",
-  "last_updated": "2026-04-25T08:50:59.889273",
+  "last_updated": "2026-04-25T19:26:02.719036",
   "config": "2.9.0-nightly-2026-04-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-907-GTNH",
+      "version": "rv3-beta-909-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.456",
+      "version": "5.09.52.457",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.10-GTNH",
+      "version": "1.12.11-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "ProjectBlue": {
-      "version": "1.2.1-GTNH",
+      "version": "1.2.4-GTNH",
       "side": "BOTH"
     },
     "ProjectRed": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.15",
+      "version": "3.0.16",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -955,7 +955,7 @@
       "side": "BOTH"
     },
     "Extreme Sound Muffler": {
-      "version": "1.0.14",
+      "version": "1.0.15",
       "side": "CLIENT"
     },
     "JourneyMap": {
