@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-25T19:33:02.829823",
-  "config": "2.9.0-nightly-2026-04-25-2",
+  "last_updated": "2026-04-26T05:56:07.717354",
+  "config": "2.9.0-nightly-2026-04-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-910-GTNH",
+      "version": "rv3-beta-911-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.36-GTNH",
+      "version": "3.8.37-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.459",
+      "version": "5.09.52.461",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.56-GTNH",
+      "version": "1.14.58-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.18",
+      "version": "2.1.19",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.20-GTNH",
+      "version": "2.6.22-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -837,7 +837,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.24-GTNH",
+      "version": "1.0.25-GTNH",
       "side": "CLIENT"
     },
     "SharedProspecting": {
