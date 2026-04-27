@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-26T10:47:16.275459",
-  "config": "2.9.0-nightly-2026-04-26",
+  "last_updated": "2026-04-27T06:13:59.965963",
+  "config": "2.9.0-nightly-2026-04-26-2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.18-GTNH",
+      "version": "1.4.19-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.76-gtnh",
+      "version": "1.5.77-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-911-GTNH",
+      "version": "rv3-beta-912-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.20",
+      "version": "1.7.21",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -197,11 +197,11 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.9",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.24-GTNH",
+      "version": "3.4.25-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.461",
+      "version": "5.09.52.463",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,23 +233,23 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.127",
+      "version": "2.7.128",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.8-GTNH",
+      "version": "2.5.12-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.17",
+      "version": "1.4.18",
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.11.6",
+      "version": "1.11.7",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.1",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.19.5-GTNH",
+      "version": "1.19.6-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.221",
+      "version": "2.8.223",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -353,11 +353,11 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.7",
+      "version": "2.7.8",
       "side": "BOTH"
     },
     "oauth": {
-      "version": "1.3.3-GTNH",
+      "version": "1.3.4-GTNH",
       "side": "CLIENT"
     },
     "OCGlasses": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.11-GTNH",
+      "version": "1.12.12-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenSecurity": {
-      "version": "1.2.0-GTNH",
+      "version": "1.2.1-GTNH",
       "side": "BOTH"
     },
     "Opis": {
@@ -433,7 +433,7 @@
       "side": "BOTH"
     },
     "Share-Where-I-am": {
-      "version": "2.1.4",
+      "version": "2.1.5",
       "side": "BOTH"
     },
     "SleepingBags": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.28",
+      "version": "2.7.29",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.3-GTNH",
+      "version": "1.5.4-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.42-GTNH",
+      "version": "1.8.43-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -593,7 +593,7 @@
       "side": "BOTH"
     },
     "OpenPrinter": {
-      "version": "0.3.0-GTNH",
+      "version": "0.3.1-GTNH",
       "side": "BOTH"
     },
     "BlockRenderer6343": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "side": "BOTH"
     },
     "ModularUI2": {
@@ -749,11 +749,11 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.25-GTNH",
+      "version": "0.1.26-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.52-GTNH",
+      "version": "1.1.53-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "SimpleSkinBackport": {
-      "version": "1.0.0-GTNH",
+      "version": "1.0.1-GTNH",
       "side": "CLIENT"
     },
     "VillageNames": {
