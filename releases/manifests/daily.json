@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-28T06:17:58.998436",
+  "last_updated": "2026-04-29T06:12:39.510770",
   "config": "2.9.0-nightly-2026-04-26-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-914-GTNH",
+      "version": "rv3-beta-915-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.37-GTNH",
+      "version": "3.8.39-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.16",
+      "version": "4.11.17",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.466",
+      "version": "5.09.52.467",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.128",
+      "version": "2.7.129",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.23-GTNH",
+      "version": "1.5.24-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.223",
+      "version": "2.8.225",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.33-GTNH",
+      "version": "4.12.34-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -577,7 +577,7 @@
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
-      "version": "1.7.3",
+      "version": "1.7.4",
       "side": "BOTH"
     },
     "WitcheryExtras": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "ForgeRelocation": {
-      "version": "0.3.5",
+      "version": "0.3.6",
       "side": "BOTH"
     },
     "HelpFixer": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "MrTJPCore": {
-      "version": "1.3.6",
+      "version": "1.3.7",
       "side": "BOTH"
     },
     "Random-Things": {
@@ -833,11 +833,11 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.19-GTNH",
+      "version": "1.0.20-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.25-GTNH",
+      "version": "1.0.26-GTNH",
       "side": "CLIENT"
     },
     "SharedProspecting": {
