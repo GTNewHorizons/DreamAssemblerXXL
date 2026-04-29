@@ -1,15 +1,15 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-04-29T06:12:39.510770",
-  "config": "2.9.0-nightly-2026-04-26-2",
+  "last_version": "2.8.4",
+  "last_updated": "2026-04-29T20:03:41.667757",
+  "config": "2.9.0-nightly-2026-04-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.77-gtnh",
+      "version": "1.5.78-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-915-GTNH",
+      "version": "rv3-beta-916-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.10-GTNH",
+      "version": "1.4.11-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.25-GTNH",
+      "version": "3.4.26-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.467",
+      "version": "5.09.52.468",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.225",
+      "version": "2.8.226",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.34-GTNH",
+      "version": "4.12.35-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.58-GTNH",
+      "version": "1.14.60-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.23",
+      "version": "1.19.24",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.13-GTNH",
+      "version": "2.2.14-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.26-GTNH",
+      "version": "0.1.27-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.45",
+      "version": "2.0.46",
       "side": "BOTH"
     },
     "Fether": {
@@ -821,7 +821,7 @@
       "side": "CLIENT"
     },
     "CosmeticArmorReworked": {
-      "version": "1.0.2-GTNH",
+      "version": "1.0.3-GTNH",
       "side": "BOTH"
     },
     "SimpleSkinBackport": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.20-GTNH",
+      "version": "1.0.21-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
@@ -955,11 +955,11 @@
       "side": "BOTH"
     },
     "Extreme Sound Muffler": {
-      "version": "1.0.15",
+      "version": "1.0.17",
       "side": "CLIENT"
     },
     "JourneyMap": {
-      "version": "5.2.12-fairplay",
+      "version": "5.2.14-fairplay",
       "side": "CLIENT"
     }
   }
