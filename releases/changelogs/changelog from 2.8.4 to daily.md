@@ -826,10 +826,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.39-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.39-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.40-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.40-GTNH
 
 ## What's Changed:
+>* Fix scroll container to current position when new items are added by @sudojunior in https://github.com/GTNewHorizons/BetterQuesting/pull/204 (3.8.40-GTNH)
 >* Mark ignored tasks complete when quest finishes by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/201 (3.8.39-GTNH)
 >* fix client leaks by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/206 (3.8.38-GTNH)
 >* Update native style button to include associated formatting by @sudojunior in https://github.com/GTNewHorizons/BetterQuesting/pull/203 (3.8.37-GTNH)
@@ -1460,10 +1461,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.468
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.468
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.471
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.471
 
 ## What's Changed:
+>* add BlockCasings14 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6560 (5.09.52.471)
+>* [BEC] Add Shijima and Churitsu Materials by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6550 (5.09.52.470)
 >* Fix not being able to manually insert HV circuits into auto-maintenance hatch by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6553 (5.09.52.468)
 >* fix fluid tank duplication in waila for machines with only one fluid slot by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6525 (5.09.52.468)
 >* Add OrePrefixes to all StoneTypes that lack one by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6499 (5.09.52.468)
@@ -2877,10 +2880,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.129
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.129
+# Updated - Hodgepodge - 2.6.112 --> 2.7.130
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.130
 
 ## What's Changed:
+>* Revert "simplify NBT copy ASM" by @UltraProdigy in https://github.com/GTNewHorizons/Hodgepodge/pull/862 (2.7.130)
 >* add missing remaps by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/855 (2.7.129)
 >* Make a deep copy when sending objects from the data watcher to the client in SinglePlayer by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/830 (2.7.129)
 >* fix-invalid-mixins by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/857 (2.7.129)
@@ -3244,10 +3248,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Mantle/pull/11 (0.5.2)
 
-# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.27-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.27-GTNH
+# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.28-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.28-GTNH
 
 ## What's Changed:
+>* Use Correct Orientation for OpenComputer TEs by @Vlamonster in https://github.com/GTNewHorizons/MatterManipulator/pull/48 (0.1.28-GTNH)
 >* Implement `IItemProvider` for OpenComputer Components by @Vlamonster in https://github.com/GTNewHorizons/MatterManipulator/pull/47 (0.1.27-GTNH)
 >* [MatterManipulator] Fix: Matter Manipulator voids half the slab it uses  by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/39 (0.1.26-GTNH)
 >* Fix copying Crafting Input Buffer manual slots with Matter Manipulator by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/43 (0.1.26-GTNH)
@@ -3977,10 +3982,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Update buildscript by @Ruling-0 in https://github.com/GTNewHorizons/ProjectBlue/pull/7 (1.2.4-GTNH)
 
-# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.35-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.35-GTNH
+# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.36-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.36-GTNH
 
 ## What's Changed:
+>* Change license to MIT by @xronin01 in https://github.com/GTNewHorizons/ProjectRed/pull/80 (4.12.36-GTNH)
 >* Change license to MIT by @xronin01 in https://github.com/GTNewHorizons/ProjectRed/pull/80 (4.12.35-GTNH)
 >* [Memory-opti:fix leak] fix world client leak caused by light matrix by @Alexdoru in https://github.com/GTNewHorizons/ProjectRed/pull/81 (4.12.34-GTNH)
 >* Optimize memory usage of model pt. 2 by @AnsonYeung in https://github.com/GTNewHorizons/ProjectRed/pull/78 (4.12.33-GTNH)
