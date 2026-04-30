@@ -1,15 +1,15 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-04-29T21:01:55.840095",
-  "config": "2.9.0-nightly-2026-04-29",
+  "last_updated": "2026-04-30T16:24:53.771813",
+  "config": "2.9.0-nightly-2026-04-30-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.78-gtnh",
+      "version": "1.5.79-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-916-GTNH",
+      "version": "rv3-beta-917-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.39-GTNH",
+      "version": "3.8.40-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.5",
+      "version": "1.7.6",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.469-pre",
+      "version": "5.09.52.473-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.129",
+      "version": "2.7.131",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.227-pre",
+      "version": "2.8.228-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.35-GTNH",
+      "version": "4.12.36-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.13",
+      "version": "1.4.14",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -677,7 +677,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.13-GTNH",
+      "version": "0.5.14-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -741,11 +741,11 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.26-GTNH",
+      "version": "1.3.27-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.27-GTNH",
+      "version": "0.1.28-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -829,11 +829,11 @@
       "side": "CLIENT"
     },
     "ChromaticTooltips": {
-      "version": "1.0.21-GTNH",
+      "version": "1.0.22-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.26-GTNH",
+      "version": "1.0.27-GTNH",
       "side": "CLIENT"
     },
     "SharedProspecting": {
@@ -888,7 +888,7 @@
     },
     "Thaumic Machina": {
       "version": "0.2.1",
-      "side": "BOTH"
+      "side": "NONE"
     },
     "Advanced Solar Panel For 1.7.10 (Unofficial)": {
       "version": "1.7.10 Edition",
@@ -935,7 +935,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.8",
+      "version": "0.7.9",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
@@ -955,7 +955,7 @@
       "side": "BOTH"
     },
     "FalsepatternLib": {
-      "version": "1.10.7",
+      "version": "1.11.0",
       "side": "BOTH"
     },
     "EndlessIDs": {
