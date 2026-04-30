@@ -24,10 +24,11 @@
 > * Pam's Harvest the Nether
 > * TCNEIAdditions
 > * Thaumcraft NEI Plugin
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.79-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.79-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.80-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.80-gtnh
 
 ## What's Changed:
+>* Fluid Planes by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/424 (1.5.80-gtnh)
 >* Fix item config blocking fluid interface by @daxsc in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/423 (1.5.79-gtnh)
 >* Separated Fluid Interface fullblock vs part by @Ranzuu in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/426 (1.5.78-gtnh)
 >* Fix dual interface returning internal fluids only once by @daxsc in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/422 (1.5.77-gtnh)
@@ -393,10 +394,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-917-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-917-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-919-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-919-GTNH
 
 ## What's Changed:
+>* plane by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1246 (rv3-beta-919-GTNH)
+>* Fix gui closed when inv keybind pressed while text field in focus by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1255 (rv3-beta-918-GTNH)
 >* [Memory-opti:fix leak] fix world client leak in MEGuiTextField by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1252 (rv3-beta-917-GTNH)
 >* Fix delayed missing-mode crafting retries by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1231 (rv3-beta-916-GTNH)
 >* Fix item insertion into parts on different sides by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1251 (rv3-beta-916-GTNH)
@@ -863,10 +866,11 @@ Mod is client-side only.
 >* Use GTNHLib string methods by @DeathFuel in https://github.com/GTNewHorizons/BetterQuesting/pull/172 (3.8.4-GTNH)
 >* Fix NPE in icon display by @ah-OOG-ah in https://github.com/GTNewHorizons/BetterQuesting/pull/173 (3.8.2-GTNH)
 
-# Updated - Binnie - 2.5.24 --> 2.6.24
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.24...2.6.24
+# Updated - Binnie - 2.5.24 --> 2.6.26
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.24...2.6.26
 
 ## What's Changed:
+>* Fix ceramic tiles + Add config option to disable compartments by @brandyyn in https://github.com/GTNewHorizons/Binnie/pull/83 (2.6.26)
 >* fix world client leak in RendererMachine by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/90 (2.6.24)
 >* Move out larvae from splicer even when no serum is present anymore by @DarkShadow44 in https://github.com/GTNewHorizons/Binnie/pull/76 (2.6.22)
 >* Fix Genetics machines' VFX incorrectly appearing at 0;0;0 coordinates by @TweksTY in https://github.com/GTNewHorizons/Binnie/pull/89 (2.6.22)
@@ -964,10 +968,11 @@ Mod is client-side only.
 >* Feature: updated wrench textures by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/43 (1.12.0-GTNH)
 >* Feature: Use the center mana pool as an additional mana source. by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/42 (1.12.0-GTNH)
 
-# Updated - BuildCraft - 7.1.44 --> 7.1.57
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.57
+# Updated - BuildCraft - 7.1.44 --> 7.1.59
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.59
 
 ## What's Changed:
+>* Experimental Content - Obsidian Fluid Pipe by @DrParadox7 in https://github.com/GTNewHorizons/BuildCraft/pull/27 (7.1.59)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/BuildCraft/pull/31 (7.1.57)
 >* Update GUI titles and localization strings for various components. Texture fixes. by @Ranzuu in https://github.com/GTNewHorizons/BuildCraft/pull/26 (7.1.55)
 >* Fewer Allocations by @mitchej123 in https://github.com/GTNewHorizons/BuildCraft/pull/30 (7.1.54)
@@ -2801,10 +2806,11 @@ Mod is client-side only.
 >* Add Brigadier by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/149 (0.8.2)
 >* Updates to JSON model API by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/100 (0.8.0)
 
-# Updated - Gadomancy - 1.4.8 --> 1.5.10
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.8...1.5.10
+# Updated - Gadomancy - 1.4.8 --> 1.5.11
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.8...1.5.11
 
 ## What's Changed:
+>* Fix two world server leaks by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/55 (1.5.11)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Gadomancy/pull/54 (1.5.10)
 >* Fixed and Improved Gate of the Voidwalkers roguelike Thaumcraft Dungeon by @thehoblit in https://github.com/GTNewHorizons/Gadomancy/pull/52 (1.5.10)
 >* Update descriptions for Essentia Compressor research by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gadomancy/pull/50 (1.5.9)
@@ -2889,10 +2895,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.131
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.131
+# Updated - Hodgepodge - 2.6.112 --> 2.7.132
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.132
 
 ## What's Changed:
+>* fix world leak in TeleporterThaumcraft caused by LongHashMap transformer by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/863 (2.7.132)
 >* Fix resetRainAndThunder setting weather timers to zero by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/859 (2.7.131)
 >* Revert "simplify NBT copy ASM" by @UltraProdigy in https://github.com/GTNewHorizons/Hodgepodge/pull/862 (2.7.130)
 >* add missing remaps by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/855 (2.7.129)
@@ -3342,10 +3349,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.58-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.58-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.59-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.59-1.7.10
 
 ## What's Changed:
+>* disable thaumcraft compat mixins with salis arcana by @Alexdoru in https://github.com/GTNewHorizons/ModularUI2/pull/116 (2.3.59-1.7.10)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ModularUI2/pull/115 (2.3.58-1.7.10)
 >* Localize the Debug Screen / Add color config by @Ranzuu in https://github.com/GTNewHorizons/ModularUI2/pull/114 (2.3.57-1.7.10)
 >* Added opacity to UITexture copy() method by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/112 (2.3.56-1.7.10)
@@ -3876,10 +3884,11 @@ Mod is client-side only.
 >* Make witchery compatibility for vampire work by @YamiKami-Sama in https://github.com/GTNewHorizons/Nutrition/pull/30 (0.1.6)
 >* [Memory-opti:fix leak] Fix world leak in PlayerDataHandler (0.1.4)
 
-# Updated - OCGlasses - 1.6.1-GTNH --> 1.6.5-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.1-GTNH...1.6.5-GTNH
+# Updated - OCGlasses - 1.6.1-GTNH --> 1.6.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.1-GTNH...1.6.7-GTNH
 
 ## What's Changed:
+>* feat(Computronics): add chatbox upgrade for glasses. by @hinyb in https://github.com/GTNewHorizons/OCGlasses/pull/22 (1.6.7-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/OCGlasses/pull/24 (1.6.5-GTNH)
 >* Update buildscript and Baubles dep by @Ruling-0 in https://github.com/GTNewHorizons/OCGlasses/pull/23 (1.6.3-GTNH)
 >* Fixed black screen when rendering ItemIcon by @SvineruS in https://github.com/GTNewHorizons/OCGlasses/pull/21 (1.6.3-GTNH)
