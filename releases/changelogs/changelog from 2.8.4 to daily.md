@@ -24,10 +24,11 @@
 > * Pam's Harvest the Nether
 > * TCNEIAdditions
 > * Thaumcraft NEI Plugin
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.78-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.78-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.79-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.79-gtnh
 
 ## What's Changed:
+>* Fix item config blocking fluid interface by @daxsc in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/423 (1.5.79-gtnh)
 >* Separated Fluid Interface fullblock vs part by @Ranzuu in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/426 (1.5.78-gtnh)
 >* Fix dual interface returning internal fluids only once by @daxsc in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/422 (1.5.77-gtnh)
 >* Load walrus model only once by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/421 (1.5.76-gtnh)
@@ -392,10 +393,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-916-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-916-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-917-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-917-GTNH
 
 ## What's Changed:
+>* [Memory-opti:fix leak] fix world client leak in MEGuiTextField by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1252 (rv3-beta-917-GTNH)
 >* Fix delayed missing-mode crafting retries by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1231 (rv3-beta-916-GTNH)
 >* Fix item insertion into parts on different sides by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1251 (rv3-beta-916-GTNH)
 >* Prevent crafting by machines from being merged by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1234 (rv3-beta-915-GTNH)
@@ -1365,7 +1367,7 @@ Mod is client-side only.
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Eternal-Singularity/pull/14 (1.4.2)
 >* Fix Spaghettic Singularity typo by @GDCloudstrike in https://github.com/GTNewHorizons/Eternal-Singularity/pull/11 (1.3.0)
 
-# New Mod - Extreme Sound Muffler:1.0.17
+# New Mod - Extreme Sound Muffler:1.1.0
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
