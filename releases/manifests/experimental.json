@@ -1,7 +1,7 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2026-04-30T20:37:40.101304",
+  "last_version": "2.8.4",
+  "last_updated": "2026-04-30T20:59:48.451736",
   "config": "2.9.0-nightly-2026-04-30-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -839,6 +839,10 @@
     "SharedProspecting": {
       "version": "2.0.5",
       "side": "BOTH"
+    },
+    "ThaumicMachina": {
+      "version": "0.2.2-GTNH",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -885,10 +889,6 @@
     "JourneyMap Server": {
       "version": "1.0.5",
       "side": "SERVER"
-    },
-    "Thaumic Machina": {
-      "version": "0.2.1",
-      "side": "NONE"
     },
     "Advanced Solar Panel For 1.7.10 (Unofficial)": {
       "version": "1.7.10 Edition",
