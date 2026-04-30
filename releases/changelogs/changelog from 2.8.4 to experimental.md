@@ -1532,7 +1532,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Spotless apply for branch fix-universium for #12 by @github-actions[bot] in https://github.com/GTNewHorizons/Eternal-Singularity/pull/13 (1.3.1-pre)
 >* Fix Spaghettic Singularity typo by @GDCloudstrike in https://github.com/GTNewHorizons/Eternal-Singularity/pull/11 (1.3.0)
 
-# New Mod - Extreme Sound Muffler:1.0.17
+# New Mod - Extreme Sound Muffler:1.1.0
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
