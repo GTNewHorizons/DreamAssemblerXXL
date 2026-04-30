@@ -684,7 +684,7 @@ Mod is client-side only.
 >* Refactor (advanced) network tools: remove redundancy using inheritance and code cleanup. by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/799 (rv3-beta-700-GTNH)
 >* Added Color to the ME Drives to reflect ME Chests. by @chrombread in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/862 (rv3-beta-700-GTNH)
 
-# Updated - Archaicfix - 0.7.7 --> 0.7.8
+# Updated - Archaicfix - 0.7.7 --> 0.7.9
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ArchitectureCraft - 1.11.6 --> 1.12.10
@@ -1027,19 +1027,20 @@ Mod is client-side only.
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
 
-# New Mod - ChromaticTooltips:1.0.21-GTNH
+# New Mod - ChromaticTooltips:1.0.22-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.17-GTNH...1.0.21-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.17-GTNH...1.0.22-GTNH
 
 ## What's Changed:
 >* Add Theme Inheritance by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/3 (1.0.21-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ChromaticTooltips/pull/1 (1.0.18-GTNH)
 
-# New Mod - ChromaticTooltipsCompat:1.0.26-GTNH
+# New Mod - ChromaticTooltipsCompat:1.0.27-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/compare/1.0.23-GTNH...1.0.26-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/compare/1.0.23-GTNH...1.0.27-GTNH
 
 ## What's Changed:
+>* Fix ItemStack normalization by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/4 (1.0.27-GTNH)
 >* Add Waila Default Theme by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/3 (1.0.26-GTNH)
 >* Fix NEI Tooltip Filter by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/2 (1.0.25-GTNH)
 >* Delete tooltip modifier cache by @Alexdoru in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/1 (1.0.24-GTNH)
@@ -1429,10 +1430,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - ForgeMultipart - 1.7.2 --> 1.7.5
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.2...1.7.5
+# Updated - ForgeMultipart - 1.7.2 --> 1.7.6
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.2...1.7.6
 
 ## What's Changed:
+>* [Memory-opti:fix leak] fix world client from keybind handler by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/43 (1.7.6)
+>* [Memory-opti:fix leak] fix world client leak in renderer by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/44 (1.7.6)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ForgeMultipart/pull/42 (1.7.5)
 >* fix world server leak by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/41 (1.7.4)
 >* Update buildscript to v2 by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/40 (1.7.3)
@@ -1461,10 +1464,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.471
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.471
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.472
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.472
 
 ## What's Changed:
+>* Fix duplicate structure check + Add highlight button for multiblock structure errors with locations by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6538 (5.09.52.472)
+>* Multiblock diagnostics V2 by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6555 (5.09.52.472)
+>* Reverted Space Elevator Module GUIs that were not done yet by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6561 (5.09.52.472)
+>* Fixed array out of bounds in Space Miner calculator by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6564 (5.09.52.472)
 >* add BlockCasings14 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6560 (5.09.52.471)
 >* [BEC] Add Shijima and Churitsu Materials by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6550 (5.09.52.470)
 >* Fix not being able to manually insert HV circuits into auto-maintenance hatch by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6553 (5.09.52.468)
@@ -2880,10 +2887,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.130
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.130
+# Updated - Hodgepodge - 2.6.112 --> 2.7.131
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.131
 
 ## What's Changed:
+>* Fix resetRainAndThunder setting weather timers to zero by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/859 (2.7.131)
 >* Revert "simplify NBT copy ASM" by @UltraProdigy in https://github.com/GTNewHorizons/Hodgepodge/pull/862 (2.7.130)
 >* add missing remaps by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/855 (2.7.129)
 >* Make a deep copy when sending objects from the data watcher to the client in SinglePlayer by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/830 (2.7.129)
@@ -3084,10 +3092,11 @@ Mod is client-side only.
 >* Fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/Infernal-Mobs/pull/23 (1.10.5-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Infernal-Mobs/pull/22 (1.10.4-GTNH)
 
-# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.26-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.26-GTNH
+# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.27-GTNH
 
 ## What's Changed:
+>* [Memory-opti:fix leak] Fix 4 world leaks by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/182 (1.3.27-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/181 (1.3.26-GTNH)
 >* Localize dropoff messages and add translations by @Eldrinn-Elantey in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/179 (1.3.25-GTNH)
 >* Update to mui2 2.3.56 and fix deprecation uses by @tiffit in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/180 (1.3.24-GTNH)
@@ -3302,8 +3311,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Change plasma arc furnace -> arc furnace, slicing recipes -> cutting by @kuba6000 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/73 (2.3.3)
 >* Replace fluid canner map with canner by @FourIsTheNumber in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/72 (2.3.2)
 
-# Updated - Mobs-Info - 0.5.6-GTNH --> 0.5.13-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.6-GTNH...0.5.13-GTNH
+# Updated - Mobs-Info - 0.5.6-GTNH --> 0.5.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.6-GTNH...0.5.14-GTNH
 
 ## What's Changed:
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Mobs-Info/pull/15 (0.5.12-GTNH)
@@ -4601,10 +4610,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/15 (1.7.3)
 >* Do some cleanup + fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/14 (1.7.2)
 
-# Updated - WitcheryExtras - 1.3.8 --> 1.4.13
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.13
+# Updated - WitcheryExtras - 1.3.8 --> 1.4.14
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.14
 
 ## What's Changed:
+>* refactor(shapeshift): use yOffset instead of temporary render offsets by @hinyb in https://github.com/GTNewHorizons/WitcheryExtras/pull/37 (1.4.14)
 >* Fix NPE proudly introduced by myself yesterday by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/39 (1.4.13)
 >* fix memory leak caused by PowerSources by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/38 (1.4.12)
 >* Localized GUI titles with mixin by @Ranzuu in https://github.com/GTNewHorizons/WitcheryExtras/pull/35 (1.4.11)
