@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "2.8.4",
-  "last_updated": "2026-04-29T20:03:41.667757",
-  "config": "2.9.0-nightly-2026-04-29",
+  "last_version": "previous_daily",
+  "last_updated": "2026-04-30T06:17:51.359410",
+  "config": "2.9.0-nightly-2026-04-30",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.39-GTNH",
+      "version": "3.8.40-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.468",
+      "version": "5.09.52.471",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.129",
+      "version": "2.7.130",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.35-GTNH",
+      "version": "4.12.36-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.27-GTNH",
+      "version": "0.1.28-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {

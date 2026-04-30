@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-04-30T06:17:51.359410",
-  "config": "2.9.0-nightly-2026-04-30",
+  "last_version": "2.8.4",
+  "last_updated": "2026-04-30T15:59:23.854912",
+  "config": "2.9.0-nightly-2026-04-30-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.5",
+      "version": "1.7.6",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.471",
+      "version": "5.09.52.472",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.130",
+      "version": "2.7.131",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.13",
+      "version": "1.4.14",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -681,7 +681,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.13-GTNH",
+      "version": "0.5.14-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.26-GTNH",
+      "version": "1.3.27-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -833,15 +833,19 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.21-GTNH",
+      "version": "1.0.22-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.26-GTNH",
+      "version": "1.0.27-GTNH",
       "side": "CLIENT"
     },
     "SharedProspecting": {
       "version": "2.0.5",
+      "side": "BOTH"
+    },
+    "ThaumicMachina": {
+      "version": "0.2.2-GTNH",
       "side": "BOTH"
     }
   },
@@ -885,10 +889,6 @@
     "JourneyMap Server": {
       "version": "1.0.5",
       "side": "SERVER"
-    },
-    "Thaumic Machina": {
-      "version": "0.2.1",
-      "side": "BOTH"
     },
     "Advanced Solar Panel For 1.7.10 (Unofficial)": {
       "version": "1.7.10 Edition",
@@ -935,7 +935,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.8",
+      "version": "0.7.9",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
