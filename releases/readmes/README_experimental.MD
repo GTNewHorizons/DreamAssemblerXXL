@@ -343,7 +343,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.23-GTNH-pre |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.4.2 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
-| [Extreme Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy) | 1.0.17 |
+| [Extreme Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy) | 1.1.0 |
 | [FalsepatternLib](https://www.curseforge.com/minecraft/mc-mods/fplib) | 1.11.0 |
 | [Fether](https://github.com/GTNewHorizons/Fether) | 2.0.5 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.3 |
