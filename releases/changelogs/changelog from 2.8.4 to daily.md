@@ -394,10 +394,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-919-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-919-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-920-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-920-GTNH
 
 ## What's Changed:
+>* Changed styling of CPU Selectro GUI by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1257 (rv3-beta-920-GTNH)
 >* plane by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1246 (rv3-beta-919-GTNH)
 >* Fix gui closed when inv keybind pressed while text field in focus by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1255 (rv3-beta-918-GTNH)
 >* [Memory-opti:fix leak] fix world client leak in MEGuiTextField by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1252 (rv3-beta-917-GTNH)
@@ -1416,10 +1417,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - ForestryMC - 4.10.17 --> 4.11.17
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.17...4.11.17
+# Updated - ForestryMC - 4.10.17 --> 4.11.18
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.17...4.11.18
 
 ## What's Changed:
+>* Fix crash when rendering creative tab by @Yoshy2002 in https://github.com/GTNewHorizons/ForestryMC/pull/118 (4.11.18)
 >* change an integer to a float in a division to avoid possible rounding error in apiary comb production formula by @Faltsolph in https://github.com/GTNewHorizons/ForestryMC/pull/117 (4.11.17)
 >* fix crash if block is null in TileWood#getPickBlock by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/114 (4.11.17)
 >* Fix world client leaks in butterfly and analyzer renderer by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/116 (4.11.16)
@@ -1471,10 +1473,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.472
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.472
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.474
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.474
 
 ## What's Changed:
+>* Fix MTEMultiBlockBaseGui crash by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6566 (5.09.52.474)
+>* Improve message that triggers when the dragon is killed. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6203 (5.09.52.474)
+>* Fix wildcard plank iteration creating bogus Oak Slab recipes by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6420 (5.09.52.474)
 >* Fix duplicate structure check + Add highlight button for multiblock structure errors with locations by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6538 (5.09.52.472)
 >* Multiblock diagnostics V2 by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6555 (5.09.52.472)
 >* Reverted Space Elevator Module GUIs that were not done yet by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6561 (5.09.52.472)
