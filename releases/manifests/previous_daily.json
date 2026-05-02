@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-30T16:42:32.198022",
-  "config": "2.9.0-nightly-2026-04-30-2",
+  "last_updated": "2026-05-02T05:48:14.153620",
+  "config": "2.9.0-nightly-2026-05-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.79-gtnh",
+      "version": "1.5.80-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-917-GTNH",
+      "version": "rv3-beta-920-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.7.7-GTNH",
+      "version": "1.7.8-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.24",
+      "version": "2.6.26",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.57",
+      "version": "7.1.59",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -145,7 +145,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.24-GTNH",
+      "version": "1.5.25-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.17",
+      "version": "4.11.19",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -197,11 +197,11 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.10",
+      "version": "1.5.11",
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.26-GTNH",
+      "version": "3.4.27-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.472",
+      "version": "5.09.52.476",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.54",
+      "version": "0.9.56",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.131",
+      "version": "2.7.133",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.11.7",
+      "version": "1.11.8",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.11-GTNH",
+      "version": "2.6.12-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.20",
+      "version": "1.8.21",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -361,7 +361,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.6.5-GTNH",
+      "version": "1.6.7-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.2.8-carrot",
+      "version": "2.2.9-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.22",
+      "version": "2.2.23",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.58-1.7.10",
+      "version": "2.3.59-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.62",
+      "version": "0.4.63",
       "side": "BOTH"
     },
     "Freecam": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.46",
+      "version": "2.0.48",
       "side": "BOTH"
     },
     "Fether": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "GTNH-Credits": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "side": "CLIENT"
     },
     "CosmeticArmorReworked": {
