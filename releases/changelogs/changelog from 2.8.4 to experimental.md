@@ -13,6 +13,7 @@
 > * GTNH-Credits
 > * GregoryTweaksForCrafting
 > * MouseTweaks
+> * NoHotbarNeeded
 > * RandomBoubles
 > * SharedProspecting
 > * SimpleSkinBackport
@@ -4489,6 +4490,11 @@ Mod is client-side only.
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
+# New Mod - NoHotbarNeeded:0.0.3
+**Full Changelog**: https://github.com/GTNewHorizons/NoHotbarNeeded/compare/0.0.3...0.0.3
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Nodal-Mechanics - 1.3.1-GTNH --> 1.3.4-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.3.1-GTNH...1.3.4-GTNH
 
