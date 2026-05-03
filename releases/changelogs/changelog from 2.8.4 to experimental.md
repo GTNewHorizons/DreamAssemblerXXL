@@ -1656,8 +1656,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.481-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.481-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.482-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.482-pre
 
 ## What's Changed:
 >* Migrate CoreMod Potassium Hydroxide to GregTech Potassium Hydroxide and move relevant recipes by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6552 (5.09.52.481-pre)
@@ -4156,10 +4156,12 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.232
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.232
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.233-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.233-pre
 
 ## What's Changed:
+>* Add missing source meta value to alu gravel transformer by @C0bra5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1733 (2.8.233-pre)
+>* Remove Potassium Hydroxide, switch recipes to use GregTech Potassium Hydroxide + update GregTech dependency by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1731 (2.8.233-pre)
 >* Add missing source meta value to alu gravel transformer by @C0bra5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1733 (2.8.232)
 >* Remove Potassium Hydroxide, switch recipes to use GregTech Potassium Hydroxide + update GregTech dependency by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1731 (2.8.232)
 >* Adds mising oredict to sulfur block by @OTPANNIEXD in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1732 (2.8.230)
