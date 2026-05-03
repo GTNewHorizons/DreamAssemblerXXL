@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-03T06:15:38.630525",
-  "config": "2.9.0-nightly-2026-05-03",
+  "last_updated": "2026-05-03T10:28:33.694427",
+  "config": "2.9.0-nightly-2026-05-03-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.43-GTNH",
+      "version": "3.8.44-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.14",
+      "version": "1.8.15",
       "side": "BOTH"
     },
     "Botania": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.24",
+      "version": "1.19.25",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.63",
+      "version": "0.4.64",
       "side": "BOTH"
     },
     "Freecam": {
