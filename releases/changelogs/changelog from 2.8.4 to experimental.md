@@ -3287,11 +3287,10 @@ Mod is client-side only.
 >* Regex filter input by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/1 (1.1.0)
 >* Update README.md by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/2 (1.1.0)
 
-# Updated - GTNH-TC-Wands - 1.4.6 --> 1.4.13-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.6...1.4.13-pre
+# Updated - GTNH-TC-Wands - 1.4.6 --> 1.4.12
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.6...1.4.12
 
 ## What's Changed:
->* Spotless apply for branch refactor for #31 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/32 (1.4.13-pre)
 >* TCWand side of Forbidden Magic pr by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/30 (1.4.12)
 >* Replace wood rod's vanilla stick with impregnated stick for Salis tooltips by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/29 (1.4.11)
 >* Update buildscript and deps by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/28 (1.4.10)
@@ -4156,10 +4155,11 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.233-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.233-pre
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.234-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.234-pre
 
 ## What's Changed:
+>* Spotless apply for branch arc-furnace-recipes for #1705 by @github-actions[bot] in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1724 (2.8.234-pre)
 >* Add missing source meta value to alu gravel transformer by @C0bra5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1733 (2.8.233-pre)
 >* Remove Potassium Hydroxide, switch recipes to use GregTech Potassium Hydroxide + update GregTech dependency by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1731 (2.8.233-pre)
 >* Add missing source meta value to alu gravel transformer by @C0bra5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1733 (2.8.232)
