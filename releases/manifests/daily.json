@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-05-04T06:26:46.864152",
-  "config": "2.9.0-nightly-2026-05-03-04",
+  "last_version": "2.8.4",
+  "last_updated": "2026-05-04T18:41:17.766690",
+  "config": "2.9.0-nightly-2026-05-04",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-923-GTNH",
+      "version": "rv3-beta-924-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.26",
+      "version": "2.10.27",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.484",
+      "version": "5.09.52.487",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.8-GTNH",
+      "version": "2.10.9-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.18",
+      "version": "2.8.19",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -608,10 +608,6 @@
       "version": "1.8.10",
       "side": "CLIENT"
     },
-    "NotEnoughIds": {
-      "version": "2.1.11",
-      "side": "BOTH"
-    },
     "FloodLights": {
       "version": "1.5.6",
       "side": "BOTH"
@@ -693,7 +689,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.1.8",
+      "version": "0.1.9",
       "side": "BOTH"
     },
     "Default-Configs": {
@@ -733,7 +729,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.59-1.7.10",
+      "version": "2.3.60-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -781,7 +777,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.8",
+      "version": "1.8.9",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -829,11 +825,11 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.11-GTNH",
+      "version": "4.5.12-GTNH",
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.22-GTNH",
+      "version": "1.0.23-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
@@ -961,6 +957,18 @@
     "JourneyMap": {
       "version": "5.2.14-fairplay",
       "side": "CLIENT"
+    },
+    "EndlessIDs": {
+      "version": "1.7.1",
+      "side": "BOTH"
+    },
+    "Chunk API": {
+      "version": "0.8.2",
+      "side": "BOTH"
+    },
+    "FalsepatternLib": {
+      "version": "1.11.0",
+      "side": "BOTH"
     }
   }
 }

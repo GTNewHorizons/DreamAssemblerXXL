@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-03T06:15:38.630525",
-  "config": "2.9.0-nightly-2026-05-03",
+  "last_updated": "2026-05-04T06:26:46.864152",
+  "config": "2.9.0-nightly-2026-05-03-04",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-922-GTNH",
+      "version": "rv3-beta-923-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,11 +69,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.43-GTNH",
+      "version": "3.8.44-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.26",
+      "version": "2.6.27",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.14",
+      "version": "1.8.15",
       "side": "BOTH"
     },
     "Botania": {
@@ -153,11 +153,11 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.13",
+      "version": "0.5.14",
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.25",
+      "version": "2.10.26",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.480",
+      "version": "5.09.52.484",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.57",
+      "version": "0.9.59",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.232",
+      "version": "2.8.236",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.60-GTNH",
+      "version": "1.14.62-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.24",
+      "version": "1.19.25",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.23",
+      "version": "2.2.24",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.19",
+      "version": "2.1.20",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.63",
+      "version": "0.4.65",
       "side": "BOTH"
     },
     "Freecam": {
@@ -829,7 +829,7 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.8-GTNH",
+      "version": "4.5.11-GTNH",
       "side": "BOTH"
     },
     "ChromaticTooltips": {
