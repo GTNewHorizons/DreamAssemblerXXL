@@ -1003,10 +1003,11 @@ Mod is client-side only.
 >* Feature: updated wrench textures by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/43 (1.12.0-GTNH)
 >* Feature: Use the center mana pool as an additional mana source. by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/42 (1.12.0-GTNH)
 
-# Updated - BuildCraft - 7.1.44 --> 7.1.59
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.59
+# Updated - BuildCraft - 7.1.44 --> 7.1.60
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.60
 
 ## What's Changed:
+>* [Memory-opti:fix leak] fix three world leaks by @Alexdoru in https://github.com/GTNewHorizons/BuildCraft/pull/32 (7.1.60)
 >* Experimental Content - Obsidian Fluid Pipe by @DrParadox7 in https://github.com/GTNewHorizons/BuildCraft/pull/27 (7.1.59)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/BuildCraft/pull/31 (7.1.57)
 >* Update GUI titles and localization strings for various components. Texture fixes. by @Ranzuu in https://github.com/GTNewHorizons/BuildCraft/pull/26 (7.1.55)
@@ -1278,10 +1279,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Stop connecting to remote location from main thread by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/11 (1.7.3)
 
-# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.25-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.25-GTNH
+# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.26-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.26-GTNH
 
 ## What's Changed:
+>* prevent dedicated server crash by @Alexdoru in https://github.com/GTNewHorizons/Draconic-Evolution/pull/100 (1.5.26-GTNH)
 >* Update zh-CN.lang by @NealDeal34 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/83 (1.5.25-GTNH)
 >* Localizaton of elements and gui adjustements by @Ranzuu in https://github.com/GTNewHorizons/Draconic-Evolution/pull/96 (1.5.24-GTNH)
 >* Avoid instantiating EntityItem in the render loop by @Alexdoru in https://github.com/GTNewHorizons/Draconic-Evolution/pull/99 (1.5.23-GTNH)
@@ -1527,10 +1529,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.489
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.489
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.490
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.490
 
 ## What's Changed:
+>* [MUI2] Parameter overhaul for TT multis, ported parametrizer card by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6602 (5.09.52.490)
+>* Fix the issue where the NBT of the crafted milling ball is inconsistent with that marked in the container. by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6607 (5.09.52.490)
+>* Add the Bose-Einstein Condensate Multiblocks by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6120 (5.09.52.490)
 >* [Structure Rework] Large Sifter by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6533 (5.09.52.489)
 >* Localize bee frame tooltips via GTUtility.translate() by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6605 (5.09.52.489)
 >* Add chance to tooltip for vein to spawn by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6603 (5.09.52.489)
@@ -3262,7 +3267,7 @@ Mod is client-side only.
 >* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.13)
 >* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.13)
 
-# Updated - JourneyMap - 5.2.10-fairplay --> 5.2.14-fairplay
+# Updated - JourneyMap - 5.2.10-fairplay --> 5.2.15-fairplay
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -4746,10 +4751,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/15 (1.7.3)
 >* Do some cleanup + fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/14 (1.7.2)
 
-# Updated - WitcheryExtras - 1.3.8 --> 1.4.14
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.14
+# Updated - WitcheryExtras - 1.3.8 --> 1.4.15
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.8...1.4.15
 
 ## What's Changed:
+>* Fix witchery trying to be loaded in early stage by @tiffit in https://github.com/GTNewHorizons/WitcheryExtras/pull/40 (1.4.15)
 >* refactor(shapeshift): use yOffset instead of temporary render offsets by @hinyb in https://github.com/GTNewHorizons/WitcheryExtras/pull/37 (1.4.14)
 >* Fix NPE proudly introduced by myself yesterday by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/39 (1.4.13)
 >* fix memory leak caused by PowerSources by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/38 (1.4.12)
