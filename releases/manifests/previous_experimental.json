@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-05-03T11:48:55.427022",
-  "config": "2.9.0-nightly-2026-05-04-pre",
+  "last_updated": "2026-05-04T19:51:37.643697",
+  "config": "2.9.0-nightly-2026-05-04-03-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -10,10 +10,6 @@
     },
     "AE2FluidCraft-Rework": {
       "version": "1.5.80-gtnh",
-      "side": "BOTH"
-    },
-    "ae2stuff": {
-      "version": "0.10.19-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-922-GTNH",
+      "version": "rv3-beta-925-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.26",
+      "version": "2.6.27",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -153,11 +149,11 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.13",
+      "version": "0.5.14",
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.25",
+      "version": "2.10.27",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -213,15 +209,15 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.482-pre",
+      "version": "5.09.52.488-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.12",
+      "version": "1.4.13-pre",
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.58-pre",
+      "version": "0.9.59",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +289,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.8-GTNH",
+      "version": "2.10.9-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -317,7 +313,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.18",
+      "version": "2.8.19",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -337,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.234-pre",
+      "version": "2.8.237-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -517,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.61-GTNH-pre",
+      "version": "1.14.63-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -689,7 +685,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.1.8",
+      "version": "0.1.9",
       "side": "BOTH"
     },
     "Default-Configs": {
@@ -705,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.23",
+      "version": "2.2.24",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -717,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.19",
+      "version": "2.1.20",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -729,11 +725,11 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.59-1.7.10",
+      "version": "2.3.60-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.15-GTNH-pre",
+      "version": "2.2.16-GTNH-pre",
       "side": "BOTH"
     },
     "Postea": {
@@ -745,11 +741,11 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.29-GTNH",
+      "version": "0.1.30-GTNH-pre",
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.53-GTNH",
+      "version": "1.1.54-GTNH-pre",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -777,7 +773,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.8",
+      "version": "1.8.9",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -785,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.64",
+      "version": "0.4.65",
       "side": "BOTH"
     },
     "Fether": {
@@ -821,7 +817,7 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.8-GTNH",
+      "version": "4.5.12-GTNH",
       "side": "BOTH"
     },
     "GTNH-Credits": {
@@ -829,7 +825,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltips": {
-      "version": "1.0.22-GTNH",
+      "version": "1.0.23-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {

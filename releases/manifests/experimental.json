@@ -1,7 +1,7 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2026-05-04T19:51:37.643697",
+  "last_version": "2.8.4",
+  "last_updated": "2026-05-05T19:26:23.563118",
   "config": "2.9.0-nightly-2026-05-04-03-pre",
   "github_mods": {
     "AdventureBackpack2": {
@@ -842,6 +842,10 @@
     },
     "NoHotbarNeeded": {
       "version": "0.0.3",
+      "side": "BOTH"
+    },
+    "supernova": {
+      "version": "0.1.0",
       "side": "BOTH"
     }
   },
