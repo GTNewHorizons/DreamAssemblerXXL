@@ -148,11 +148,15 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.20
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.21
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.20
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.21
 
 ## What's Changed:
+>* Remove DSA from GLSM & other stuff by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1723 (2.1.21)
+>* Fix intel detection by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1722 (2.1.21)
+>* fix world client leak in CTMUtils by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1724 (2.1.21)
+>* Fix CTM inventory texture bleed by @Ruling-0 in https://github.com/GTNewHorizons/Angelica/pull/1721 (2.1.21)
 >* [Memory-opti:fix leak] fix world client leak caused by lambda in IrisExclusiveUniforms$WorldInfoUniforms by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1701 (2.1.20)
 >* [Memory-opti:fix leak] Fix dynamic lights world client leaks by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1700 (2.1.20)
 >* Fix AO Lighting for compact CTM by @Yoshy2002 in https://github.com/GTNewHorizons/Angelica/pull/1697 (2.1.20)
@@ -407,10 +411,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-924-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-924-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-926-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-926-GTNH
 
 ## What's Changed:
+>* [Memory-opti:fix leak] Delete cache in waila plugin to avoid memory leak by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1264 (rv3-beta-926-GTNH)
+>* fix blocking mode gt hatches by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1263 (rv3-beta-926-GTNH)
 >* clear view helper player on each dimension change by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1262 (rv3-beta-924-GTNH)
 >* Implement Sync Handler by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1214 (rv3-beta-924-GTNH)
 >* fix by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1260 (rv3-beta-923-GTNH)
@@ -1072,11 +1078,12 @@ Mod is client-side only.
 >* Add Theme Inheritance by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/3 (1.0.21-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ChromaticTooltips/pull/1 (1.0.18-GTNH)
 
-# New Mod - ChromaticTooltipsCompat:1.0.27-GTNH
+# New Mod - ChromaticTooltipsCompat:1.0.28-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/compare/1.0.23-GTNH...1.0.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/compare/1.0.23-GTNH...1.0.28-GTNH
 
 ## What's Changed:
+>* Fix NEI ITooltipLineHandler by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/5 (1.0.28-GTNH)
 >* Fix ItemStack normalization by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/4 (1.0.27-GTNH)
 >* Add Waila Default Theme by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/3 (1.0.26-GTNH)
 >* Fix NEI Tooltip Filter by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/2 (1.0.25-GTNH)
@@ -1159,10 +1166,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.48
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.48
+# New Mod - CropsNH:2.0.49
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.49
 
 ## What's Changed:
+>* Add back missing emerald drop to bob's by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/122 (2.0.49)
 >* Add missing bop mod loaded check by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/119 (2.0.48)
 >* Fixed GUI for 🌽Crop Manager 🍅 by @OTPANNIEXD in https://github.com/GTNewHorizons/CropsNH/pull/117 (2.0.47)
 >* Add 🪫battery🔋 slot to 🌽Crop Manager 🍅 by @OTPANNIEXD in https://github.com/GTNewHorizons/CropsNH/pull/116 (2.0.46)
@@ -1519,10 +1527,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.487
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.487
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.489
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.489
 
 ## What's Changed:
+>* [Structure Rework] Large Sifter by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6533 (5.09.52.489)
+>* Localize bee frame tooltips via GTUtility.translate() by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6605 (5.09.52.489)
+>* Add chance to tooltip for vein to spawn by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6603 (5.09.52.489)
 >* Fix super chest not checking item equality when importing items by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6544 (5.09.52.487)
 >* [MUI2] Small fixes in MTEBufferBaseGui by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6439 (5.09.52.486)
 >* Don't render CTM in inventory, use default IIcon by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6592 (5.09.52.485)
@@ -4469,10 +4480,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix boots losing their speed when enchanted and Thaumic Boots is not installed by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/76 (2.12.2)
 >* Merge #74 to master by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/75 (2.12.0)
 
-# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.23-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.23-GTNH
+# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.24-GTNH
 
 ## What's Changed:
+>* Fix NPE on Talisman of Nutrition by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/59 (1.5.24-GTNH)
 >* Combine the Food and Saturation Points of the Talisman of Nourishment by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/56 (1.5.23-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/58 (1.5.22-GTNH)
 >* Replicator NEI Handler by @koolkrafter5 in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/55 (1.5.21-GTNH)
