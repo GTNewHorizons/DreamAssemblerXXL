@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-05-05T06:01:23.061487",
+  "last_version": "2.8.4",
+  "last_updated": "2026-05-05T18:51:44.100170",
   "config": "2.9.0-nightly-2026-05-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.59",
+      "version": "7.1.60",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -145,7 +145,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.25-GTNH",
+      "version": "1.5.26-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.489",
+      "version": "5.09.52.490",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.14",
+      "version": "1.4.15",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -955,7 +955,7 @@
       "side": "CLIENT"
     },
     "JourneyMap": {
-      "version": "5.2.14-fairplay",
+      "version": "5.2.15-fairplay",
       "side": "CLIENT"
     },
     "EndlessIDs": {
