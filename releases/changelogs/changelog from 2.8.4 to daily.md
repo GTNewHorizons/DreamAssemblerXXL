@@ -1531,10 +1531,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.493
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.493
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.494
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.494
 
 ## What's Changed:
+>* [MUI2] Ported MTEChestBuffer to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6441 (5.09.52.494)
+>* [Structure Rework] Steam Grinder by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6471 (5.09.52.494)
+>* Fix Energy in some Reworked Multis by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6611 (5.09.52.494)
+>* Fix new forgehammer solenoid detection by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6616 (5.09.52.494)
 >* [Structure Rework] Industrial Sledgehammer / Forge Hammer by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6530 (5.09.52.493)
 >* [MUI2] Parameter overhaul for TT multis, ported parametrizer card by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6602 (5.09.52.490)
 >* Fix the issue where the NBT of the crafted milling ball is inconsistent with that marked in the container. by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6607 (5.09.52.490)
@@ -2979,10 +2983,11 @@ Mod is client-side only.
 >* Check for GT5U specifically in compat code by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/136 (1.1.122-GTNH)
 >* Remove several unused items by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/137 (1.1.122-GTNH)
 
-# Updated - Gravitation-Suite-Neo - 1.3.6 --> 1.3.9
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.6...1.3.9
+# Updated - Gravitation-Suite-Neo - 1.3.6 --> 1.3.10
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.6...1.3.10
 
 ## What's Changed:
+>* Create ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/31 (1.3.10)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/30 (1.3.9)
 >* Disabled fire extinguishing for Advanced NanoChestPlate and GraviChestPlate if fire resistance is active by @loenaaaa in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/29 (1.3.8)
 
@@ -3199,10 +3204,11 @@ Mod is client-side only.
 >* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/25 (2.7.1)
 >* Config option to allow fake players by @ThePixelbrain in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/24 (2.7.0)
 
-# Updated - InGame-Info-XML - 2.8.30 --> 2.9.2
-**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.30...2.9.2
+# Updated - InGame-Info-XML - 2.8.30 --> 2.9.3
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.30...2.9.3
 
 ## What's Changed:
+>* stop registering tags for all available potion IDs by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/39 (2.9.3)
 >* Fix IGI not showing slime chunks on server by @sbancuz in https://github.com/GTNewHorizons/InGame-Info-XML/pull/38 (2.9.2)
 >* Add 3‑state HUD toggle with optional second config by @Ranzuu in https://github.com/GTNewHorizons/InGame-Info-XML/pull/37 (2.9.1)
 >* Enable the lp to be calculated and make the code writing method on the wiki usable. by @PinkYuDeer in https://github.com/GTNewHorizons/InGame-Info-XML/pull/35 (2.9.0)
@@ -3923,10 +3929,14 @@ Mod is client-side only.
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.94-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.94-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.96-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.96-GTNH
 
 ## What's Changed:
+>* GuiInfo: fix memory leaks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/927 (2.8.96-GTNH)
+>* Options: fix memory leaks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/928 (2.8.96-GTNH)
+>* Add Horizontal Scroll to Recipe GUI by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/924 (2.8.95-GTNH)
+>* Prevent ConcurrentModificationException while searching for fuels in ItemList by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/926 (2.8.95-GTNH)
 >* Fix Filter Loading by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/925 (2.8.94-GTNH)
 >* Much faster recipe dumper by @danyadev in https://github.com/GTNewHorizons/NotEnoughItems/pull/920 (2.8.93-GTNH)
 >* Fix bookmark recipe item order being inconsistent by @Luca-Guettinger in https://github.com/GTNewHorizons/NotEnoughItems/pull/921 (2.8.92-GTNH)
@@ -4234,10 +4244,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.53-GTNH)
 
-# Updated - ServerUtilities - 2.2.2 --> 2.2.24
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.24
+# Updated - ServerUtilities - 2.2.2 --> 2.2.25
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.25
 
 ## What's Changed:
+>* Cleanup on Aisle 5 by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/280 (2.2.25)
+>* feat(witchery): add witchery vampire support for sleep percentage. by @hinyb in https://github.com/GTNewHorizons/ServerUtilities/pull/268 (2.2.25)
 >* Make /tpl able to tp cross dim by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/279 (2.2.24)
 >* feat: add regions listing in /dump_chunkloaders by @LeonidMem in https://github.com/GTNewHorizons/ServerUtilities/pull/257 (2.2.24)
 >* strip extended format codes in formatting regex by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/274 (2.2.23)
