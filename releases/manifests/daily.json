@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-05T18:54:58.522941",
-  "config": "2.9.0-nightly-2026-05-05",
+  "last_updated": "2026-05-06T06:16:16.327816",
+  "config": "2.9.0-nightly-2026-05-06",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.44-GTNH",
+      "version": "3.8.45-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.490",
+      "version": "5.09.52.493",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.59",
+      "version": "0.9.60",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.12-GTNH",
+      "version": "2.5.13-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.93-GTNH",
+      "version": "2.8.94-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.62-GTNH",
+      "version": "1.14.64-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.4-GTNH",
+      "version": "1.5.7-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.22-GTNH",
+      "version": "2.6.24-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {

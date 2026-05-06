@@ -860,10 +860,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.44-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.44-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.45-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.45-GTNH
 
 ## What's Changed:
+>* Canvas search optimizations by @tiffit in https://github.com/GTNewHorizons/BetterQuesting/pull/211 (3.8.45-GTNH)
 >* Item Adding QoL (Dev Tool)  by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/210 (3.8.44-GTNH)
 >* Added widthScale property to DirectionalLine by @tiffit in https://github.com/GTNewHorizons/BetterQuesting/pull/209 (3.8.43-GTNH)
 >* Directional arrows for quest lines by @tiffit in https://github.com/GTNewHorizons/BetterQuesting/pull/205 (3.8.42-GTNH)
@@ -1394,10 +1395,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Disable show favorites button show overlay button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnhancedLootBags/pull/17 (1.3.1)
 >* Update NEI Handler by @slprime in https://github.com/GTNewHorizons/EnhancedLootBags/pull/16 (1.2.10)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.22-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.22-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.24-GTNH
 
 ## What's Changed:
+>* [Memory-opti:fix leak] Fix two world leaks by @Alexdoru in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/63 (2.6.24-GTNH)
 >* Add Russian translations for shulker and barrel upgrades by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/59 (2.6.22-GTNH)
 >* Bubble Column Rework by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/44 (2.6.20-GTNH)
 >* Fix double slabs dropping full block instead of 2 single slabs with silk touch by @jamiehu427 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/58 (2.6.18-GTNH)
@@ -1529,10 +1531,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.490
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.490
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.493
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.493
 
 ## What's Changed:
+>* [Structure Rework] Industrial Sledgehammer / Forge Hammer by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6530 (5.09.52.493)
 >* [MUI2] Parameter overhaul for TT multis, ported parametrizer card by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6602 (5.09.52.490)
 >* Fix the issue where the NBT of the crafted milling ball is inconsistent with that marked in the container. by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6607 (5.09.52.490)
 >* Add the Bose-Einstein Condensate Multiblocks by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6120 (5.09.52.490)
@@ -2805,10 +2808,11 @@ Mod is client-side only.
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.59
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.59
+# Updated - GTNHLib - 0.7.10 --> 0.9.60
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.60
 
 ## What's Changed:
+>* Update documentation on JSON models by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/337 (0.9.60)
 >* Fix ModelISBRH.INSTANCE ThreadLocal incompatibility by @ABKQPO in https://github.com/GTNewHorizons/GTNHLib/pull/341 (0.9.59)
 >* Add world deletion event mixin by @Algent in https://github.com/GTNewHorizons/GTNHLib/pull/338 (0.9.57)
 >* Fix/use game locale for numbers by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/266 (0.9.56)
@@ -3154,10 +3158,11 @@ Mod is client-side only.
 >* Reduce initial capacity of tagMap by @sisyphussy in https://github.com/GTNewHorizons/Hodgepodge/pull/630 (2.7.1)
 >* Fix Last Millenium mixin mixup by @wlhlm in https://github.com/GTNewHorizons/Hodgepodge/pull/635 (2.7.0)
 
-# Updated - HoloInventory - 2.5.5-GTNH --> 2.5.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.5-GTNH...2.5.12-GTNH
+# Updated - HoloInventory - 2.5.5-GTNH --> 2.5.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.5-GTNH...2.5.13-GTNH
 
 ## What's Changed:
+>* Add baubles expanded compat to HoloGlasses (head slot) by @Caedis in https://github.com/GTNewHorizons/HoloInventory/pull/60 (2.5.13-GTNH)
 >* Optimize BlockInventoryMessage by @ABKQPO in https://github.com/GTNewHorizons/HoloInventory/pull/56 (2.5.12-GTNH)
 >* Add GTNHLib to dependencies by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/HoloInventory/pull/59 (2.5.12-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/HoloInventory/pull/58 (2.5.10-GTNH)
@@ -3918,10 +3923,11 @@ Mod is client-side only.
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.93-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.93-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.94-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.94-GTNH
 
 ## What's Changed:
+>* Fix Filter Loading by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/925 (2.8.94-GTNH)
 >* Much faster recipe dumper by @danyadev in https://github.com/GTNewHorizons/NotEnoughItems/pull/920 (2.8.93-GTNH)
 >* Fix bookmark recipe item order being inconsistent by @Luca-Guettinger in https://github.com/GTNewHorizons/NotEnoughItems/pull/921 (2.8.92-GTNH)
 >* Fix StringIndexOutOfBoundsException in FormattedTextField by @Luca-Guettinger in https://github.com/GTNewHorizons/NotEnoughItems/pull/922 (2.8.92-GTNH)
@@ -4518,10 +4524,11 @@ Mod is client-side only.
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.31
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.62-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.62-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.64-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.64-GTNH
 
 ## What's Changed:
+>* add null check to prevent crashing by @MCTBL in https://github.com/GTNewHorizons/TinkersConstruct/pull/280 (1.14.64-GTNH)
 >* Add whitelist mode for slime island and ore bush dimension generation by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TinkersConstruct/pull/281 (1.14.62-GTNH)
 >* Dump button, dumps the grid to linked inventory by @ChromaPIE in https://github.com/GTNewHorizons/TinkersConstruct/pull/228 (1.14.60-GTNH)
 >* Fixes the smeltry temperature texture by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/277 (1.14.60-GTNH)
@@ -4722,10 +4729,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/WanionLib/pull/4 (1.10.1)
 
-# Updated - WarpTheory - 1.5.0-GTNH --> 1.5.4-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.0-GTNH...1.5.4-GTNH
+# Updated - WarpTheory - 1.5.0-GTNH --> 1.5.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.0-GTNH...1.5.7-GTNH
 
 ## What's Changed:
+>* New Item: Potion of Blissful Oblivion by @koolkrafter5 in https://github.com/GTNewHorizons/WarpTheory/pull/48 (1.5.7-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/WarpTheory/pull/49 (1.5.4-GTNH)
 >* Amulet Research Tooltip for pack support by @Ruling-0 in https://github.com/GTNewHorizons/WarpTheory/pull/47 (1.5.3-GTNH)
 >* Warp Event Handler Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/WarpTheory/pull/46 (1.5.2-GTNH)
