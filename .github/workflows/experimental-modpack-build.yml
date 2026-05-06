@@ -140,46 +140,42 @@ jobs:
       - name: Relocate built zips
         shell: bash
         run: |
-          mv releases/zip/GT_New_Horizons_experimental_Server_Java_8.zip "GTNH-${{ steps.date.outputs.today }}-server.zip"
-          mv releases/zip/GT_New_Horizons_experimental_Server_Java_17-25.zip "GTNH-${{ steps.date.outputs.today }}-server-new-java.zip"
-          mv releases/multi_poly/GT_New_Horizons_experimental_Java_8.zip "GTNH-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
-          mv releases/multi_poly/GT_New_Horizons_experimental_Java_17-25.zip "GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip"
+          mv releases/zip/GT_New_Horizons_experimental_Server_Java_8.zip "GTNH-experimental-${{ steps.date.outputs.today }}-server.zip"
+          mv releases/zip/GT_New_Horizons_experimental_Server_Java_17-25.zip "GTNH-experimental-${{ steps.date.outputs.today }}-server-new-java.zip"
+          mv releases/multi_poly/GT_New_Horizons_experimental_Java_8.zip "GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
+          mv releases/multi_poly/GT_New_Horizons_experimental_Java_17-25.zip "GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-new-java.zip"
 
       - name: Upload server zip
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
+        uses: actions/upload-artifact@v7
+        # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-experimental-${{ steps.date.outputs.today }}-server
-          path: GTNH-${{ steps.date.outputs.today }}-server.zip
-          compression-level: 0 # already compressed by Python
+          path: GTNH-experimental-${{ steps.date.outputs.today }}-server.zip
+          archive: false
 
       - name: Upload modern java server zip
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
+        uses: actions/upload-artifact@v7
+        # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-experimental-${{ steps.date.outputs.today }}-server-new-java
-          path: GTNH-${{ steps.date.outputs.today }}-server-new-java.zip
-          compression-level: 0 # already compressed by Python
+          path: GTNH-experimental-${{ steps.date.outputs.today }}-server-new-java.zip
+          archive: false
 
       - name: Upload MMC zip
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
+        uses: actions/upload-artifact@v7
+        # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-experimental-${{ steps.date.outputs.today }}-mmcprism-java8
-          path: GTNH-${{ steps.date.outputs.today }}-mmcprism-java8.zip
-          compression-level: 0 # already compressed by Python
+          path: GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+          archive: false
 
       - name: Upload modern java Prism zip
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
+        uses: actions/upload-artifact@v7
+        # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-experimental-${{ steps.date.outputs.today }}-mmcprism-new-java
-          path: GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
-          compression-level: 0 # already compressed by Python
+          path: GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
+          archive: false
 
       # Pulls the newest changelog filename and stores it in an env variable
       # so we can use it in the commit
