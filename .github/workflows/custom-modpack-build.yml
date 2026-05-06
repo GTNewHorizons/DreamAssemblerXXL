@@ -130,9 +130,9 @@ jobs:
         shell: bash
         run: |
           mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_8.zip" "GTNH-${DAXXL_TAG}-server.zip"
-          mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_17-25.zip" "GTNH-${DAXXL_TAG}-server-new-java.zip"
+          mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_17-25.zip" "GTNH-${DAXXL_TAG}-server-java17-25.zip"
           mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_8.zip" "GTNH-${DAXXL_TAG}-mmcprism-java8.zip"
-          mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_17-25.zip" "GTNH-${DAXXL_TAG}-mmcprism-new-java.zip"
+          mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_17-25.zip" "GTNH-${DAXXL_TAG}-mmcprism-java17-25.zip"
 
       - name: Upload server zip
         uses: actions/upload-artifact@v7
@@ -147,7 +147,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-${{ inputs.daxxl-tag }}-server-new-java.zip
+          path: GTNH-${{ inputs.daxxl-tag }}-server-java17-25.zip
           archive: false
 
       - name: Upload MMC zip
@@ -163,5 +163,5 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-${{ inputs.daxxl-tag }}-mmcprism-new-java.zip
+          path: GTNH-${{ inputs.daxxl-tag }}-mmcprism-java17-25.zip
           archive: false

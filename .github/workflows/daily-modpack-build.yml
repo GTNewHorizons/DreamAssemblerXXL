@@ -143,9 +143,9 @@ jobs:
         shell: bash
         run: |
           mv releases/zip/GT_New_Horizons_daily_Server_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-server.zip"
-          mv releases/zip/GT_New_Horizons_daily_Server_Java_17-25.zip "GTNH-daily-${{ steps.date.outputs.today }}-server-new-java.zip"
+          mv releases/zip/GT_New_Horizons_daily_Server_Java_17-25.zip "GTNH-daily-${{ steps.date.outputs.today }}-server-java17-25.zip"
           mv releases/multi_poly/GT_New_Horizons_daily_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
-          mv releases/multi_poly/GT_New_Horizons_daily_Java_17-25.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-new-java.zip"
+          mv releases/multi_poly/GT_New_Horizons_daily_Java_17-25.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip"
 
       - name: Upload server zip
         uses: actions/upload-artifact@v7
@@ -160,7 +160,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-server-new-java.zip
+          path: GTNH-daily-${{ steps.date.outputs.today }}-server-java17-25.zip
           archive: false
 
       - name: Upload MMC zip
@@ -176,7 +176,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
+          path: GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip
           archive: false
 
       # Pulls the newest changelog filename and stores it in an env variable
