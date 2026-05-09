@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-05-08T10:17:24.996288",
-  "config": "2.9.0-nightly-2026-05-06-03-pre",
+  "last_updated": "2026-05-09T14:55:14.076445",
+  "config": "2.9.0-nightly-2026-05-09-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -65,11 +65,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.46-GTNH-pre",
+      "version": "3.8.47-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.27",
+      "version": "2.6.28",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.16-pre",
+      "version": "1.8.18-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.22-pre",
+      "version": "4.11.24-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.497-pre",
+      "version": "5.09.52.501-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.62",
+      "version": "0.9.64",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.134",
+      "version": "2.7.135",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "NaturesCompass": {
-      "version": "1.5.1-GTNH",
+      "version": "1.5.2-GTNH",
       "side": "BOTH"
     },
     "nei-custom-diagram": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.239-pre",
+      "version": "2.8.243-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.12-GTNH",
+      "version": "1.12.13-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -393,11 +393,11 @@
       "side": "BOTH"
     },
     "ProjectBlue": {
-      "version": "1.2.7-GTNH-pre",
+      "version": "1.2.8-GTNH-pre",
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.36-GTNH",
+      "version": "4.12.37-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -425,7 +425,7 @@
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.11-GTNH",
+      "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "Share-Where-I-am": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.20",
+      "version": "2.12.21",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.67-GTNH-pre",
+      "version": "1.14.69-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -569,11 +569,11 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.12.15",
+      "version": "1.12.16",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "side": "BOTH"
     },
     "WitcheryExtras": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.44-GTNH-pre",
+      "version": "1.8.45-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -693,7 +693,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.5.9",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.26",
+      "version": "2.2.29",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.25-GTNH-pre",
+      "version": "2.6.26-GTNH-pre",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.65",
+      "version": "0.4.66",
       "side": "BOTH"
     },
     "Fether": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.49",
+      "version": "2.0.51-pre",
       "side": "BOTH"
     },
     "Freecam": {
