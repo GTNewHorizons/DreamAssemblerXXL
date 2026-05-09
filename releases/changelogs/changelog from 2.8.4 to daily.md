@@ -960,10 +960,11 @@ Mod is client-side only.
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
 >* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
 
-# Updated - BloodMagic - 1.7.52 --> 1.8.15
-**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.15
+# Updated - BloodMagic - 1.7.52 --> 1.8.17
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.17
 
 ## What's Changed:
+>* Lossless blood orb capacity by @Florexiz in https://github.com/GTNewHorizons/BloodMagic/pull/126 (1.8.17)
 >* Allow Ritual of Magnetism to Pull GT Ores by @SHARKY-au in https://github.com/GTNewHorizons/BloodMagic/pull/125 (1.8.15)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/BloodMagic/pull/123 (1.8.14)
 >* Made lava sigil not damaging self during craft in conformity with water sigil by @kopatych3348 in https://github.com/GTNewHorizons/BloodMagic/pull/121 (1.8.13)
@@ -1179,10 +1180,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.49
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.49
+# New Mod - CropsNH:2.0.50
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.50
 
 ## What's Changed:
+>* Replace Titania with Rubyne for the Platina mutation by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/123 (2.0.50)
 >* Add back missing emerald drop to bob's by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/122 (2.0.49)
 >* Add missing bop mod loaded check by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/119 (2.0.48)
 >* Fixed GUI for 🌽Crop Manager 🍅 by @OTPANNIEXD in https://github.com/GTNewHorizons/CropsNH/pull/117 (2.0.47)
@@ -1542,10 +1544,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.496
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.496
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.499
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.499
 
 ## What's Changed:
+>* fix plutonium and titanium ore processing by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6631 (5.09.52.499)
+>* fix callisto ice ore processing by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6632 (5.09.52.499)
+>* [MUI2] Refactored ALL deprecated MUI2 code by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6412 (5.09.52.498)
 >* [MUI2] Migrate Space Pump and Space Assembler by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6620 (5.09.52.496)
 >* Supports Ross128b(a) and Everglades EoH recipe; Fix DD Eye doesn't give everything that DD void miners do; Cleanup GT++ ore code by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6245 (5.09.52.496)
 >* Rework for GT NEI Ore Plugin RecipeHandlers by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6537 (5.09.52.496)
@@ -2831,10 +2836,11 @@ Mod is client-side only.
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.62
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.62
+# Updated - GTNHLib - 0.7.10 --> 0.9.63
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.63
 
 ## What's Changed:
+>* Fix team names with spaces not working due to greedystring by @cubefury in https://github.com/GTNewHorizons/GTNHLib/pull/346 (0.9.63)
 >* Make config options reloadable from file by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/342 (0.9.62)
 >* GTNHTeams: Arbitrary-data team system by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/297 (0.9.61)
 >* redo ITeamData#copyData signature by @tiffit in https://github.com/GTNewHorizons/GTNHLib/pull/344 (0.9.61)
@@ -3031,10 +3037,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.134
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.134
+# Updated - Hodgepodge - 2.6.112 --> 2.7.135
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.135
 
 ## What's Changed:
+>* fix /say, /tell, /me losing formatting after the first word by @alppp in https://github.com/GTNewHorizons/Hodgepodge/pull/874 (2.7.135)
 >* Hodgepodge textfield cursor by @alppp in https://github.com/GTNewHorizons/Hodgepodge/pull/846 (2.7.134)
 >* Add a config to disable potion effect icons from the inventory screen by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/865 (2.7.133)
 >* fix world leak in TeleporterThaumcraft caused by LongHashMap transformer by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/863 (2.7.132)
@@ -3624,10 +3631,11 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NaturesCompass - 1.5.0-GTNH --> 1.5.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.5.0-GTNH...1.5.1-GTNH
+# Updated - NaturesCompass - 1.5.0-GTNH --> 1.5.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.5.0-GTNH...1.5.2-GTNH
 
 ## What's Changed:
+>* Fix/change biome search by @Majora320 in https://github.com/GTNewHorizons/NaturesCompass/pull/11 (1.5.2-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/NaturesCompass/pull/12 (1.5.1-GTNH)
 
 # Updated - Navigator - 1.0.17 --> 1.1.2
@@ -3638,10 +3646,11 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.238
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.238
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.240
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.240
 
 ## What's Changed:
+>* Use OreDict for Shuttle Schematic by @czqwq in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1740 (2.8.240)
 >* Add recipe for Potion of Blissful Oblivion by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1738 (2.8.238)
 >* Fix Potassium Hydroxide Dupe/Exploit by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1739 (2.8.238)
 >* New & improved textures for metal bars! by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1741 (2.8.238)
@@ -4273,10 +4282,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.53-GTNH)
 
-# Updated - ServerUtilities - 2.2.2 --> 2.2.26
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.26
+# Updated - ServerUtilities - 2.2.2 --> 2.2.28
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.28
 
 ## What's Changed:
+>* Localize config by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/282 (2.2.28)
+>* Fix rank config handler sometimes not registering by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/281 (2.2.27)
 >* Reloadable MOTD by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/278 (2.2.26)
 >* Add option to disable mob spawns in claims by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/277 (2.2.26)
 >* Cleanup on Aisle 5 by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/280 (2.2.25)
@@ -4656,10 +4667,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.65
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.65
+# New Mod - VendingMachine:0.4.66
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.66
 
 ## What's Changed:
+>* Team wallets by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/95 (0.4.66)
+>* Fix VM causing a chunk update every tick by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/97 (0.4.66)
 >* Addhighlighting for tabs when searching for items by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/93 (0.4.65)
 >* Missed an equals sign by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/96 (0.4.65)
 >* Make renamed items look better by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/91 (0.4.64)
@@ -4797,10 +4810,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix armor slot index and duplicated tooltip by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/45 (1.12.11)
 >* Universal GUI by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/44 (1.12.10)
 
-# Updated - WirelessRedstone-CBE - 1.7.1 --> 1.7.4
-**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.1...1.7.4
+# Updated - WirelessRedstone-CBE - 1.7.1 --> 1.7.5
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.1...1.7.5
 
 ## What's Changed:
+>* Fix transceiver GUI bypassing chunk protection by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/17 (1.7.5)
 >* fix npe by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/16 (1.7.4)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/15 (1.7.3)
 >* Do some cleanup + fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/14 (1.7.2)
