@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-09T06:03:03.866740",
+  "last_updated": "2026-05-09T14:44:23.722959",
   "config": "2.9.0-nightly-2026-05-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.27",
+      "version": "2.6.28",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.19",
+      "version": "4.11.23",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.499",
+      "version": "5.09.52.500",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.63",
+      "version": "0.9.64",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.240",
+      "version": "2.8.242",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.12-GTNH",
+      "version": "1.12.13-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.36-GTNH",
+      "version": "4.12.37-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -429,7 +429,7 @@
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.11-GTNH",
+      "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "Share-Where-I-am": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.20",
+      "version": "2.12.21",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.66-GTNH",
+      "version": "1.14.68-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -573,7 +573,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.12.15",
+      "version": "1.12.16",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.43-GTNH",
+      "version": "1.8.45-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.5.9",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -705,7 +705,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.28",
+      "version": "2.2.29",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "side": "BOTH"
     },
     "RandomBoubles": {
