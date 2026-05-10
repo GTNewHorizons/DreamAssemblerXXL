@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-09T22:35:59.670110",
+  "last_updated": "2026-05-10T06:22:24.646822",
   "config": "2.9.0-nightly-2026-05-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -213,11 +213,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.502",
+      "version": "5.09.52.504",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.12",
+      "version": "1.4.14",
       "side": "BOTH"
     },
     "GTNHLib": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.242",
+      "version": "2.8.244",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -669,7 +669,7 @@
       "side": "BOTH_JAVA9"
     },
     "amunra": {
-      "version": "0.8.10",
+      "version": "0.8.11",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.50",
+      "version": "2.0.53",
       "side": "BOTH"
     },
     "Fether": {
