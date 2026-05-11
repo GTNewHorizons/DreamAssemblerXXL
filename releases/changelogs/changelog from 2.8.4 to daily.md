@@ -3686,10 +3686,11 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.246
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.246
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.247
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.247
 
 ## What's Changed:
+>* Bartworks Material Cleanup CoreMod Edition by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1752 (2.8.247)
 >* Clean up scepter research and fix thaum script crashing with TCWands changes by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1695 (2.8.246)
 >* Remove deprecated ae2fc by @lc-1337 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1744 (2.8.245)
 >* Make coke oven bricks recipe less restrictive (3x3 into 2x2) by @Algent in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1749 (2.8.245)
