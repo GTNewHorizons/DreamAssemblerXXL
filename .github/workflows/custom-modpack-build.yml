@@ -129,7 +129,7 @@ jobs:
       - name: Relocate built zips
         shell: bash
         run: |
-          mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_8.zip" "GTNH-${DAXXL_TAG}-server.zip"
+          mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_8.zip" "GTNH-${DAXXL_TAG}-server-java8.zip"
           mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_17-25.zip" "GTNH-${DAXXL_TAG}-server-java17-25.zip"
           mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_8.zip" "GTNH-${DAXXL_TAG}-mmcprism-java8.zip"
           mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_17-25.zip" "GTNH-${DAXXL_TAG}-mmcprism-java17-25.zip"
@@ -139,7 +139,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-${{ inputs.daxxl-tag }}-server.zip
+          path: GTNH-${{ inputs.daxxl-tag }}-server-java8.zip
           archive: false
 
       - name: Upload modern java server zip
