@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-11T07:59:34.741545",
+  "last_updated": "2026-05-12T06:24:54.338674",
   "config": "2.9.0-nightly-2026-05-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-933-GTNH",
+      "version": "rv3-beta-934-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.48-GTNH",
+      "version": "3.8.49-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.136-GTNH",
+      "version": "1.1.137-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.505",
+      "version": "5.09.52.506",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.137",
+      "version": "2.7.138",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.12",
+      "version": "6.1.13",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Irontanks": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "Jabba": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.247",
+      "version": "2.8.248",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.97-GTNH",
+      "version": "2.8.98-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -393,7 +393,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.35",
+      "version": "1.0.36",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.26",
+      "version": "1.19.27",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -705,7 +705,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.30",
+      "version": "2.2.31",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.62-1.7.10",
+      "version": "2.3.63-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -829,7 +829,7 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.24-GTNH",
+      "version": "1.0.25-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
