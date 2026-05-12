@@ -852,11 +852,12 @@ Mod is client-side only.
 >* Add more mod compatibility by @ABKQPO in https://github.com/GTNewHorizons/BetterBuildersWands/pull/20 (0.13.9-GTNH)
 >* made buildwands work with ofanix by @JustACasualDay in https://github.com/GTNewHorizons/BetterBuildersWands/pull/22 (0.13.6-GTNH)
 
-# Updated - BetterCrashes - 1.4.0-GTNH --> 1.4.2-GTNH
+# Updated - BetterCrashes - 1.4.0-GTNH --> 1.4.3-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.4.0-GTNH...1.4.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.4.0-GTNH...1.4.3-GTNH
 
 ## What's Changed:
+>* Add some cache to avoid making things worse and masking the issue. by @Algent in https://github.com/GTNewHorizons/BetterCrashes/pull/18 (1.4.3-GTNH)
 >* try catch when we got IllegalStateException by @czqwq in https://github.com/GTNewHorizons/BetterCrashes/pull/17 (1.4.2-GTNH)
 >* update buildscript by @danyadev in https://github.com/GTNewHorizons/BetterCrashes/pull/16 (1.4.1-GTNH)
 
