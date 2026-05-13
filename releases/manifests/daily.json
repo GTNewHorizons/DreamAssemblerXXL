@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-12T12:58:37.277540",
-  "config": "2.9.0-nightly-2026-05-11",
+  "last_updated": "2026-05-13T06:36:41.065270",
+  "config": "2.9.0-nightly-2026-05-13",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-934-GTNH",
+      "version": "rv3-beta-935-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,11 +81,11 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.5.8",
+      "version": "1.5.9",
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.17",
+      "version": "1.9.0",
       "side": "BOTH"
     },
     "Botania": {
@@ -201,11 +201,11 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.27-GTNH",
+      "version": "3.4.28-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.137-GTNH",
+      "version": "1.1.138-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.506",
+      "version": "5.09.52.507",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,11 +221,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.65",
+      "version": "0.9.66",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.21-GTNH",
+      "version": "1.12.22-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.138",
+      "version": "2.7.139",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.2",
+      "version": "2.7.3",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.21",
+      "version": "1.8.26",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.248",
+      "version": "2.8.249",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.39-GTNH",
+      "version": "1.12.40-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
-      "version": "1.3.11-GTNH",
+      "version": "1.3.12-GTNH",
       "side": "BOTH"
     },
     "StevesAddons": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.48-GTNH",
+      "version": "1.7.49-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.68-GTNH",
+      "version": "1.14.70-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.30",
+      "version": "2.7.31",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.27",
+      "version": "1.19.28",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.7.5",
+      "version": "2.7.6",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.14-GTNH",
+      "version": "2.2.17-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.66",
+      "version": "0.4.67",
       "side": "BOTH"
     },
     "Freecam": {
