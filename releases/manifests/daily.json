@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-14T06:34:02.737001",
+  "last_updated": "2026-05-15T06:45:26.873465",
   "config": "2.9.0-nightly-2026-05-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-936-GTNH",
+      "version": "rv3-beta-937-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.508",
+      "version": "5.09.52.509",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.66",
+      "version": "0.9.67",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.3",
+      "version": "2.7.4",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.15",
+      "version": "1.8.16",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -545,7 +545,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.20",
+      "version": "1.5.21",
       "side": "BOTH"
     },
     "waila": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
-      "version": "0.4.5-GTNH",
+      "version": "0.4.6-GTNH",
       "side": "CLIENT"
     },
     "AlchemyGrate": {
@@ -705,7 +705,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.31",
+      "version": "2.2.32",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.55",
+      "version": "2.0.56",
       "side": "BOTH"
     },
     "Fether": {
