@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-16T06:10:46.910046",
+  "last_updated": "2026-05-16T11:05:09.065464",
   "config": "2.9.0-nightly-2026-05-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.513",
+      "version": "5.09.52.514",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.27-GTNH",
+      "version": "2.6.29-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
