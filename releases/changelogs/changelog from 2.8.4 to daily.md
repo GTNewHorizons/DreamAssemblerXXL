@@ -1449,10 +1449,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Disable show favorites button show overlay button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnhancedLootBags/pull/17 (1.3.1)
 >* Update NEI Handler by @slprime in https://github.com/GTNewHorizons/EnhancedLootBags/pull/16 (1.2.10)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.27-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.27-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.29-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.29-GTNH
 
 ## What's Changed:
+>* BOP and Witchery Support by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/35 (2.6.29-GTNH)
 >* remove loaded chunks set in ServerEventHandler by @Alexdoru in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/66 (2.6.27-GTNH)
 >* [Memory-opti:fix leak] Fix two world leaks by @Alexdoru in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/63 (2.6.24-GTNH)
 >* Add Russian translations for shulker and barrel upgrades by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/59 (2.6.22-GTNH)
@@ -1587,10 +1588,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.513
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.513
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.514
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.514
 
 ## What's Changed:
+>* Fix a few Large Turbine recipes by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6702 (5.09.52.514)
+>* Fixed parameter mixup in the Space Miner by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6706 (5.09.52.514)
 >* Re-add textures that were accidentally removed by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6701 (5.09.52.513)
 >* [Structure Rework] Drone Centre by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6510 (5.09.52.513)
 >* Fix machine front face blinking on place by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6696 (5.09.52.513)
