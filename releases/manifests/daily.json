@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-17T06:32:59.330252",
+  "last_updated": "2026-05-17T10:14:49.251757",
   "config": "2.9.0-nightly-2026-05-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.50-GTNH",
+      "version": "3.8.52-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.521",
+      "version": "5.09.52.522",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.59-GTNH",
+      "version": "1.1.60-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.29-GTNH",
+      "version": "2.6.31-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.56",
+      "version": "2.0.59",
       "side": "BOTH"
     },
     "Fether": {
