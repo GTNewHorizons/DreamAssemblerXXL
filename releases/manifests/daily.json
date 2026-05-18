@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-18T07:09:06.894271",
+  "last_updated": "2026-05-18T19:24:53.929986",
   "config": "2.9.0-nightly-2026-05-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -33,7 +33,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.10",
+      "version": "1.12.11",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -69,11 +69,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.52-GTNH",
+      "version": "3.8.54-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.29",
+      "version": "2.6.30",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.0",
+      "version": "1.9.2",
       "side": "BOTH"
     },
     "Botania": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.524",
+      "version": "5.09.52.525",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.69",
+      "version": "0.10.0",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.141",
+      "version": "2.7.142",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.4",
+      "version": "2.7.5",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.9.15",
+      "version": "1.9.16",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.31",
+      "version": "2.7.32",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -669,7 +669,7 @@
       "side": "BOTH_JAVA9"
     },
     "amunra": {
-      "version": "0.8.11",
+      "version": "0.8.12",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -841,7 +841,7 @@
       "side": "BOTH"
     },
     "ThaumicMachina": {
-      "version": "0.2.2-GTNH",
+      "version": "0.2.3-GTNH",
       "side": "BOTH"
     }
   },
