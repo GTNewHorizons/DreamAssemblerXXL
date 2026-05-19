@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-18T19:24:53.929986",
-  "config": "2.9.0-nightly-2026-05-18",
+  "last_updated": "2026-05-19T06:59:47.862446",
+  "config": "2.9.0-nightly-2026-05-19",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -57,7 +57,7 @@
       "side": "BOTH"
     },
     "BetterCrashes": {
-      "version": "1.4.4-GTNH",
+      "version": "1.4.5-GTNH",
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.17-GTNH",
+      "version": "1.13.19-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.5",
+      "version": "2.7.6",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.27",
+      "version": "1.8.29",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.255",
+      "version": "2.8.257",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.40-GTNH",
+      "version": "1.12.42-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.21",
+      "version": "2.12.22",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.72-GTNH",
+      "version": "1.14.73-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "CoreTweaks": {
-      "version": "0.3.4.3-GTNH",
+      "version": "0.3.4.4-GTNH",
       "side": "BOTH"
     },
     "ModernMarkings": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.70",
+      "version": "0.4.71",
       "side": "BOTH"
     },
     "Freecam": {
