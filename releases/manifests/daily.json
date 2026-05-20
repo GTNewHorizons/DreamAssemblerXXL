@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-19T06:59:47.862446",
+  "last_updated": "2026-05-20T06:59:59.251480",
   "config": "2.9.0-nightly-2026-05-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-938-GTNH",
+      "version": "rv3-beta-940-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.2",
+      "version": "1.9.3",
       "side": "BOTH"
     },
     "Botania": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.525",
+      "version": "5.09.52.527",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.142",
+      "version": "2.7.143",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -633,7 +633,7 @@
       "side": "CLIENT"
     },
     "DummyCore": {
-      "version": "1.20.0",
+      "version": "1.21.0",
       "side": "BOTH"
     },
     "Controlling": {
@@ -717,7 +717,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.23",
+      "version": "2.1.25",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.31-GTNH",
+      "version": "2.6.32-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "CoreTweaks": {
-      "version": "0.3.4.4-GTNH",
+      "version": "0.3.4.5-GTNH",
       "side": "BOTH"
     },
     "ModernMarkings": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.71",
+      "version": "0.4.73",
       "side": "BOTH"
     },
     "Freecam": {
