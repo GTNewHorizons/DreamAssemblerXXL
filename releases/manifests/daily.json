@@ -1,19 +1,15 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-05-21T07:04:59.555108",
-  "config": "2.9.0-nightly-2026-05-21",
+  "last_version": "2.8.4",
+  "last_updated": "2026-05-21T21:02:12.660584",
+  "config": "2.9.0-nightly-2026-05-21-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.84-gtnh",
-      "side": "BOTH"
-    },
-    "ae2stuff": {
-      "version": "0.10.19-GTNH",
+      "version": "1.5.85-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-943-GTNH",
+      "version": "rv3-beta-945-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.529",
+      "version": "5.09.52.530",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.144",
+      "version": "2.7.145",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -497,7 +493,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.50-GTNH",
+      "version": "1.7.51-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -665,7 +661,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.17",
+      "version": "3.0.18",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -749,7 +745,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.60-GTNH",
+      "version": "1.1.61-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -757,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.33-GTNH",
+      "version": "2.6.34-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -829,11 +825,11 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.26-GTNH",
+      "version": "1.0.27-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.29-GTNH",
+      "version": "1.0.30-GTNH",
       "side": "CLIENT"
     },
     "SharedProspecting": {
@@ -842,6 +838,14 @@
     },
     "ThaumicMachina": {
       "version": "0.2.3-GTNH",
+      "side": "BOTH"
+    },
+    "JarJar": {
+      "version": "0.3.0-beta",
+      "side": "BOTH"
+    },
+    "supernova": {
+      "version": "0.1.1",
       "side": "BOTH"
     }
   },
