@@ -441,10 +441,15 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-947-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-947-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-948-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-948-GTNH
 
 ## What's Changed:
+>* fix WirelessKit config manager not read nbt correct by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1311 (rv3-beta-948-GTNH)
+>* Make sure during fuzzy crafting we can fulfill pattern by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1253 (rv3-beta-948-GTNH)
+>* fix WirelessKit Advanced mode Line mode binding was 1 block shorter than expected by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1313 (rv3-beta-948-GTNH)
+>* Remove GTNH Specific Co-Processor Recipes by @UltraProdigy in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1314 (rv3-beta-948-GTNH)
+>* fix forge event action performed not triggered by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1312 (rv3-beta-948-GTNH)
 >* fix Incorrect item usage when shift crafting in crafting terminal by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1301 (rv3-beta-947-GTNH)
 >* Fix/Improve wireless toolkit gui by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1309 (rv3-beta-945-GTNH)
 >* Fix Wireless Connector power usage by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1306 (rv3-beta-945-GTNH)
@@ -856,10 +861,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow Quiver in bauble slot by @Kynake in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/10 (1.6.3-backhand)
 >* Allow Thaumcraft's Primal Arrows to be used from the Quiver by @Kynake in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/11 (1.6.2-backhand)
 
-# Updated - Baubles-Expanded - 2.1.19-GTNH --> 2.2.19-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.19-GTNH...2.2.19-GTNH
+# Updated - Baubles-Expanded - 2.1.19-GTNH --> 2.2.21-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.19-GTNH...2.2.21-GTNH
 
 ## What's Changed:
+>* rewrite initial sync by @Glease in https://github.com/GTNewHorizons/Baubles-Expanded/pull/21 (2.2.21-GTNH)
 >* Tinker Tab Removal - Baubles Slot Limit Config by @Ranzuu in https://github.com/GTNewHorizons/Baubles-Expanded/pull/32 (2.2.19-GTNH)
 >* [Memory-opti:fix leak] Fix memory leak from PlayerHandler by @Alexdoru in https://github.com/GTNewHorizons/Baubles-Expanded/pull/33 (2.2.17-GTNH)
 >* Fixed click guard by @Ranzuu in https://github.com/GTNewHorizons/Baubles-Expanded/pull/31 (2.2.14-GTNH)
@@ -976,10 +982,11 @@ Mod is client-side only.
 >* Use GTNHLib string methods by @DeathFuel in https://github.com/GTNewHorizons/BetterQuesting/pull/172 (3.8.4-GTNH)
 >* Fix NPE in icon display by @ah-OOG-ah in https://github.com/GTNewHorizons/BetterQuesting/pull/173 (3.8.2-GTNH)
 
-# Updated - Binnie - 2.5.24 --> 2.6.30
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.24...2.6.30
+# Updated - Binnie - 2.5.24 --> 2.6.31
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.24...2.6.31
 
 ## What's Changed:
+>* fix CraftGUI.render going null on GUI open/reopen by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Binnie/pull/96 (2.6.31)
 >* fix world client leak caused by static CraftGUI by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/95 (2.6.30)
 >* Only send NEI keybinds when no widget is focused by @tiffit in https://github.com/GTNewHorizons/Binnie/pull/94 (2.6.29)
 >* Fixed Compartment help tooltip display by @Ranzuu in https://github.com/GTNewHorizons/Binnie/pull/93 (2.6.28)
@@ -1196,10 +1203,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Added color override helper by @Ranzuu in https://github.com/GTNewHorizons/CodeChickenCore/pull/43 (1.4.12)
 >* optimize ClassHeirachyManager by @danyadev in https://github.com/GTNewHorizons/CodeChickenCore/pull/42 (1.4.11)
 
-# Updated - Computronics - 1.9.3-GTNH --> 1.9.6-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.3-GTNH...1.9.6-GTNH
+# Updated - Computronics - 1.9.3-GTNH --> 1.9.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.3-GTNH...1.9.7-GTNH
 
 ## What's Changed:
+>* Fix support for tectech parameters. by @Engineer12798 in https://github.com/GTNewHorizons/Computronics/pull/39 (1.9.7-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Computronics/pull/38 (1.9.6-GTNH)
 >* Fixes Past pr by @Ranzuu in https://github.com/GTNewHorizons/Computronics/pull/37 (1.9.5-GTNH)
 >* Modernize Repository by @glowredman in https://github.com/GTNewHorizons/Computronics/pull/36 (1.9.4-GTNH)
@@ -1657,10 +1665,26 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.532
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.532
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.535
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.535
 
 ## What's Changed:
+>* Fix machines being really quiet by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6775 (5.09.52.535)
+>* [Feature] Move TeslaTowers histogram data to constant ring/cyclic buffer by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6734 (5.09.52.534)
+>* Fix fluid display colors broken by custom GTPP renderer by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6770 (5.09.52.534)
+>* Change Dilithium Dust to Unstable Dust in Shijima Dust recipes by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6773 (5.09.52.534)
+>* Fix Auto-Taping Maintenance Hatch rotation on place by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6750 (5.09.52.533)
+>* Drone Centre missing a steel frame box in layer 2 by @PLASMAchicken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6762 (5.09.52.533)
+>* [Fix] Make Gorge "base" 2nd furthest layer from controller symmetric by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6760 (5.09.52.533)
+>* Add seemingly forgotten blocks to new IOF structure by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6763 (5.09.52.533)
+>* [Structure Rework] Industrial Cutting Factory by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6633 (5.09.52.533)
+>* [Structure Rework] MEBF by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6548 (5.09.52.533)
+>* [Structure Rework] MVF by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6714 (5.09.52.533)
+>* change references of old mebf in recipes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6766 (5.09.52.533)
+>* rebalance hypogen and eoh materials processing voltages for foundry (and the overall game) by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6765 (5.09.52.533)
+>* Fix min Casings for Exo-Foundry by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6767 (5.09.52.533)
+>* migrate Mega Apiary to MUI2 and fix NEI filter by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6288 (5.09.52.533)
+>* Added sync key prefixes to parameters by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6724 (5.09.52.533)
 >* Remove unnecessary Recipe Map registrations for AE2FC by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6755 (5.09.52.532)
 >* Fix output hatch not locking fluids in default mode by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6738 (5.09.52.530)
 >* Universium MetaItem Render + Voltage Coil Textures! by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6749 (5.09.52.530)
@@ -3072,10 +3096,11 @@ Mod is client-side only.
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.10.2
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.10.2
+# Updated - GTNHLib - 0.7.10 --> 0.10.3
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.10.3
 
 ## What's Changed:
+>* LivingEquipmentChangeEvent init detection by @Roadhog360 in https://github.com/GTNewHorizons/GTNHLib/pull/363 (0.10.3)
 >* Add NetworkChannel and IPacket by @0hwx in https://github.com/GTNewHorizons/GTNHLib/pull/349 (0.10.2)
 >* Fix display lists by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/358 (0.10.1)
 >* Angelica patch by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/353 (0.10.0)
@@ -3935,10 +3960,12 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.258
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.258
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.260
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.260
 
 ## What's Changed:
+>* Update cutter recipe by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1757 (2.8.260)
+>* Adds New Recipes For Co-Processors by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1767 (2.8.260)
 >* Port AE2Stuff contents to AE2 by @Kogepan229 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1735 (2.8.258)
 >* [Sub-PR] Make bio name can be translated by @iouter in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1737 (2.8.258)
 >* Make soldering recipes use SubstituteFluidStack by @TotallyNotOndre in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1765 (2.8.257)
@@ -5119,10 +5146,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
 >* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
 
-# New Mod - VillageNames:4.5.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.0-GTNH-pre...4.5.12-GTNH
+# New Mod - VillageNames:4.5.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.0-GTNH-pre...4.5.13-GTNH
 
 ## What's Changed:
+>* fix npe in ModObjects.setModLecternBlock by @Alexdoru in https://github.com/GTNewHorizons/VillageNames/pull/10 (4.5.13-GTNH)
 >* Remove gold name and fix version by @tiffit in https://github.com/GTNewHorizons/VillageNames/pull/9 (4.5.12-GTNH)
 >* Implement Gui color name override by @Ranzuu in https://github.com/GTNewHorizons/VillageNames/pull/8 (4.5.11-GTNH)
 >* Add bed spawning config (default true) by @Caedis in https://github.com/GTNewHorizons/VillageNames/pull/7 (4.5.10-GTNH)
