@@ -1,8 +1,8 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-05-21T21:24:34.241621",
-  "config": "2.9.0-nightly-2026-05-21-02",
+  "last_updated": "2026-05-23T19:55:04.912724",
+  "config": "2.9.0-nightly-2026-05-23-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-946-GTNH-pre",
+      "version": "rv3-beta-950-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,11 +65,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.55-GTNH-pre",
+      "version": "3.8.56-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.30",
+      "version": "2.6.31",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.6-GTNH",
+      "version": "1.9.7-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.531-pre",
+      "version": "5.09.52.537-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.10.2",
+      "version": "0.10.3",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.145",
+      "version": "2.7.146",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.25",
+      "version": "1.6.26",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.259-pre",
+      "version": "2.8.261-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.21-GTNH",
+      "version": "2.2.22-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.34",
+      "version": "1.4.36",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.18",
+      "version": "1.8.19",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.32",
+      "version": "2.2.33",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.20-GTNH-pre",
+      "version": "2.2.21-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.73",
+      "version": "0.4.74",
       "side": "BOTH"
     },
     "Fether": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.61",
+      "version": "2.0.62",
       "side": "BOTH"
     },
     "Freecam": {
@@ -817,7 +817,7 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.12-GTNH",
+      "version": "4.5.13-GTNH",
       "side": "BOTH"
     },
     "GTNH-Credits": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "JarJar": {
-      "version": "0.3.0-beta",
+      "version": "0.3.1-beta",
       "side": "BOTH"
     }
   },
@@ -943,7 +943,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.9",
+      "version": "0.8.0",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
@@ -959,7 +959,7 @@
       "side": "BOTH"
     },
     "Chunk API": {
-      "version": "0.8.2",
+      "version": "0.8.3",
       "side": "BOTH"
     },
     "FalsepatternLib": {
