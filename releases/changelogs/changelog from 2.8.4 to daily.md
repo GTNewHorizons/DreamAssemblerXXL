@@ -441,10 +441,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-948-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-948-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-949-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-949-GTNH
 
 ## What's Changed:
+>* Grammar Lang Pass by @UltraProdigy in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1316 (rv3-beta-949-GTNH)
+>* Fix Amode Wireless Kit Crash by @UltraProdigy in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1315 (rv3-beta-949-GTNH)
 >* fix WirelessKit config manager not read nbt correct by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1311 (rv3-beta-948-GTNH)
 >* Make sure during fuzzy crafting we can fulfill pattern by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1253 (rv3-beta-948-GTNH)
 >* fix WirelessKit Advanced mode Line mode binding was 1 block shorter than expected by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1313 (rv3-beta-948-GTNH)
@@ -782,7 +784,7 @@ Mod is client-side only.
 >* Refactor (advanced) network tools: remove redundancy using inheritance and code cleanup. by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/799 (rv3-beta-700-GTNH)
 >* Added Color to the ME Drives to reflect ME Chests. by @chrombread in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/862 (rv3-beta-700-GTNH)
 
-# Updated - Archaicfix - 0.7.7 --> 0.7.9
+# Updated - Archaicfix - 0.7.7 --> 0.8.0
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ArchitectureCraft - 1.11.6 --> 1.12.11
@@ -1193,7 +1195,7 @@ Mod is client-side only.
 >* Fix NEI Tooltip Filter by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/2 (1.0.25-GTNH)
 >* Delete tooltip modifier cache by @Alexdoru in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/1 (1.0.24-GTNH)
 
-# New Mod - Chunk API:0.8.2
+# New Mod - Chunk API:0.8.3
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - CodeChickenCore - 1.4.10 --> 1.4.12
@@ -1665,10 +1667,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.535
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.535
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.536
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.536
 
 ## What's Changed:
+>* Fixes toolbox's inappropriate durability use on PR gates by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6772 (5.09.52.536)
+>* Molds! by @seventh-june in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6097 (5.09.52.536)
+>* [MUI2] The great hatch refactor by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6739 (5.09.52.536)
+>* Revert "Optimize performance" by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6779 (5.09.52.536)
+>* Show expected blocks in multiblock structure error diagnostics by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6740 (5.09.52.536)
+>* Cleanup relevant code for initial rotation by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6758 (5.09.52.536)
+>* Instant Pipe Connections by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6748 (5.09.52.536)
+>* Remove Distillery Machine Type from DT and MDT Tooltip by @NotKaizul in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6782 (5.09.52.536)
+>* Fix small diagnostics mistakes by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6780 (5.09.52.536)
 >* Fix machines being really quiet by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6775 (5.09.52.535)
 >* [Feature] Move TeslaTowers histogram data to constant ring/cyclic buffer by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6734 (5.09.52.534)
 >* Fix fluid display colors broken by custom GTPP renderer by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6770 (5.09.52.534)
@@ -3313,10 +3324,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.145
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.145
+# Updated - Hodgepodge - 2.6.112 --> 2.7.146
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.146
 
 ## What's Changed:
+>* Update MixinChunkProviderServer_DisableTerrain_EndlessIDs.java by @june-dev-username in https://github.com/GTNewHorizons/Hodgepodge/pull/897 (2.7.146)
 >* Add configurable threshold for "moved too quickly" server-side speed check by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/869 (2.7.145)
 >* Fix disconnect screen layout for long kick messages by @alppp in https://github.com/GTNewHorizons/Hodgepodge/pull/837 (2.7.144)
 >* Show IntCache size in F3 by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/868 (2.7.143)
@@ -3615,10 +3627,11 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.5.14-GTNH --> 1.6.25
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.25
+# Updated - LittleTiles - 1.5.14-GTNH --> 1.6.26
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.26
 
 ## What's Changed:
+>* Refactor placement logic by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/60 (1.6.26)
 >* Implement placement mode like upstream has by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/56 (1.6.25)
 >* Fix 4 World memory leaks and delete one unused file by @Alexdoru in https://github.com/GTNewHorizons/LittleTiles/pull/58 (1.6.24)
 >* Fix various NPEs caused by tiles with no NBT by @tiffit in https://github.com/GTNewHorizons/LittleTiles/pull/59 (1.6.24)
@@ -4639,10 +4652,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.59-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.53-GTNH)
 
-# Updated - ServerUtilities - 2.2.2 --> 2.2.32
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.32
+# Updated - ServerUtilities - 2.2.2 --> 2.2.33
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.33
 
 ## What's Changed:
+>* Add transfer packet backport (1.20.5 for 1.7.10) by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/299 (2.2.33)
+>* Add arg "=oc" to chat command for run OnlyClaimed backup by @lc-1337 in https://github.com/GTNewHorizons/ServerUtilities/pull/291 (2.2.33)
 >* Fix buttons not rendering for 1 tick when changing inv tabs by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/292 (2.2.32)
 >* Fix blockMobSpawningInClaims not working when set to `TRUE` by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/289 (2.2.31)
 >* Prevent crash when viewing too many claims in JourneyMap by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/290 (2.2.31)
@@ -4762,10 +4777,12 @@ Mod is client-side only.
 >* Revert right-click interaction with items in the offhand (Backhand) by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/51 (2.2.1-GTNH)
 >* Add Backhand Support for Storage Drawers by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/47 (2.2.0-GTNH)
 
-# Updated - StructureLib - 1.4.23 --> 1.4.34
-**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.23...1.4.34
+# Updated - StructureLib - 1.4.23 --> 1.4.36
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.23...1.4.36
 
 ## What's Changed:
+>* improve description fallback by @Luca-Guettinger in https://github.com/GTNewHorizons/StructureLib/pull/59 (1.4.36)
+>* Add getDescription() to IStructureElement by @Luca-Guettinger in https://github.com/GTNewHorizons/StructureLib/pull/57 (1.4.35)
 >* Add more info by @evgengoldwar in https://github.com/GTNewHorizons/StructureLib/pull/56 (1.4.34)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/StructureLib/pull/55 (1.4.32)
 >* optimize StructureDefinition.addShape by @danyadev in https://github.com/GTNewHorizons/StructureLib/pull/54 (1.4.30)
