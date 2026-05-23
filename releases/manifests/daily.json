@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-05-23T06:22:47.641389",
-  "config": "2.9.0-nightly-2026-05-23",
+  "last_version": "2.8.4",
+  "last_updated": "2026-05-23T19:34:13.364680",
+  "config": "2.9.0-nightly-2026-05-23-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-948-GTNH",
+      "version": "rv3-beta-949-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.535",
+      "version": "5.09.52.536",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.145",
+      "version": "2.7.146",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.25",
+      "version": "1.6.26",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.34",
+      "version": "1.4.36",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.32",
+      "version": "2.2.33",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -935,7 +935,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.9",
+      "version": "0.8.0",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
@@ -967,7 +967,7 @@
       "side": "BOTH"
     },
     "Chunk API": {
-      "version": "0.8.2",
+      "version": "0.8.3",
       "side": "BOTH"
     },
     "FalsepatternLib": {
