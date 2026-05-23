@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-22T07:00:36.356676",
-  "config": "2.9.0-nightly-2026-05-21-02",
+  "last_updated": "2026-05-23T06:22:47.641389",
+  "config": "2.9.0-nightly-2026-05-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-947-GTNH",
+      "version": "rv3-beta-948-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.30",
+      "version": "2.6.31",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.6-GTNH",
+      "version": "1.9.7-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.532",
+      "version": "5.09.52.535",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.10.2",
+      "version": "0.10.3",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.258",
+      "version": "2.8.260",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.19-GTNH",
+      "version": "2.2.21-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -821,7 +821,7 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.12-GTNH",
+      "version": "4.5.13-GTNH",
       "side": "BOTH"
     },
     "ChromaticTooltips": {
