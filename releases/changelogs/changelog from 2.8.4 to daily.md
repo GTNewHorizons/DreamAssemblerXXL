@@ -792,10 +792,13 @@ Mod is client-side only.
 # Updated - Archaicfix - 0.7.7 --> 0.8.0
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ArchitectureCraft - 1.11.6 --> 1.12.11
-**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.11.6...1.12.11
+# Updated - ArchitectureCraft - 1.11.6 --> 1.12.12
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.11.6...1.12.12
 
 ## What's Changed:
+>* fix preview renderer using wrong texture and no lightmap by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/41 (1.12.12)
+>* Fix isSideSolid for shape blocks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/40 (1.12.12)
+>* Revert glow shapes to blockShapeSE block type by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/38 (1.12.12)
 >* fix world client leak in PreviewRenderer by @Alexdoru in https://github.com/GTNewHorizons/ArchitectureCraft/pull/36 (1.12.11)
 >* Fix ShapeItem losing its display name when used with tooltip mods by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/34 (1.12.10)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ArchitectureCraft/pull/33 (1.12.9)
@@ -1677,10 +1680,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.541
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.541
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.545
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.545
 
 ## What's Changed:
+>* Fix BHC Stability Handling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6801 (5.09.52.545)
+>* Fix Black Hole Compressor not voiding stuff with space time in the hatch with unstable black hole by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6793 (5.09.52.543)
 >* Small tooltip unification/cleanup by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6795 (5.09.52.541)
 >* Remove bad EEC check by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6797 (5.09.52.541)
 >* fix thermal boilers water consumption by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6798 (5.09.52.541)
@@ -3349,10 +3354,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.148
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.148
+# Updated - Hodgepodge - 2.6.112 --> 2.7.149
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.149
 
 ## What's Changed:
+>* Intern MODID strings of ResourceLocation and GameRegistry$UniqueIdentifier by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/892 (2.7.149)
 >* Intern Strings of the ASMDataTable by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/893 (2.7.148)
 >* Adds a late tweaker/transformer so the oredictionary transformer registers after NEI by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/895 (2.7.147)
 >* Update MixinChunkProviderServer_DisableTerrain_EndlessIDs.java by @june-dev-username in https://github.com/GTNewHorizons/Hodgepodge/pull/897 (2.7.146)
