@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-05-24T17:00:43.701684",
-  "config": "2.9.0-nightly-2026-05-23-02",
+  "last_version": "2.8.4",
+  "last_updated": "2026-05-24T20:57:11.229503",
+  "config": "2.9.0-nightly-2026-05-24-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.11",
+      "version": "1.12.12",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.54-GTNH",
+      "version": "3.8.58-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.541",
+      "version": "5.09.52.545",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.147",
+      "version": "2.7.149",
       "side": "BOTH"
     },
     "HoloInventory": {
