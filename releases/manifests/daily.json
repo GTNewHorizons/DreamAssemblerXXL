@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-23T19:40:32.477436",
+  "last_updated": "2026-05-24T06:49:52.444740",
   "config": "2.9.0-nightly-2026-05-23-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-949-GTNH",
+      "version": "rv3-beta-951-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.536",
+      "version": "5.09.52.539",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.146",
+      "version": "2.7.147",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.260",
+      "version": "2.8.262",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.36",
+      "version": "1.4.37",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -545,7 +545,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.28",
+      "version": "1.19.29",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.25",
+      "version": "2.1.26",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -829,7 +829,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.30-GTNH",
+      "version": "1.0.31-GTNH",
       "side": "CLIENT"
     },
     "SharedProspecting": {
@@ -841,7 +841,7 @@
       "side": "BOTH"
     },
     "JarJar": {
-      "version": "0.3.1-beta",
+      "version": "0.3.2-beta",
       "side": "BOTH"
     },
     "supernova": {
