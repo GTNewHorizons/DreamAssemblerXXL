@@ -948,10 +948,12 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.58-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.58-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.60-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.60-GTNH
 
 ## What's Changed:
+>* Change the color of gui divider to match the theme by @Ranzuu in https://github.com/GTNewHorizons/BetterQuesting/pull/222 (3.8.60-GTNH)
+>* feat: add global and per-chapter completion percent by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/223 (3.8.60-GTNH)
 >* Add color system integration by @alppp in https://github.com/GTNewHorizons/BetterQuesting/pull/199 (3.8.58-GTNH)
 >* Sync checkbox and consume quest progress by @tiffit in https://github.com/GTNewHorizons/BetterQuesting/pull/220 (3.8.54-GTNH)
 >* NetQuestEdit refactor by @danyadev in https://github.com/GTNewHorizons/BetterQuesting/pull/212 (3.8.52-GTNH)
@@ -1680,10 +1682,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.545
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.545
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.547
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.547
 
 ## What's Changed:
+>* Fix shutdown reason translation keys broken by recipe result unification by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6804 (5.09.52.547)
+>* [MUI2] Small fixed to the c2s changes by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6805 (5.09.52.547)
+>* Remove White Metal from the Game by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6807 (5.09.52.547)
+>* fix renderer for new Drone Centre structure by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6764 (5.09.52.547)
+>* Add deprecated tooltip to legacy Drone Centre by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6809 (5.09.52.547)
+>* Improve chisel hatches by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6754 (5.09.52.547)
 >* Fix BHC Stability Handling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6801 (5.09.52.545)
 >* Fix Black Hole Compressor not voiding stuff with space time in the hatch with unstable black hole by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6793 (5.09.52.543)
 >* Small tooltip unification/cleanup by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6795 (5.09.52.541)
@@ -3354,10 +3362,12 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.149
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.149
+# Updated - Hodgepodge - 2.6.112 --> 2.7.150
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.150
 
 ## What's Changed:
+>* Strip Signature from dropped Optional Interfaces. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/898 (2.7.150)
+>* Extra F1 toggle to hide GUI and show hand by @Apis035 in https://github.com/GTNewHorizons/Hodgepodge/pull/894 (2.7.150)
 >* Intern MODID strings of ResourceLocation and GameRegistry$UniqueIdentifier by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/892 (2.7.149)
 >* Intern Strings of the ASMDataTable by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/893 (2.7.148)
 >* Adds a late tweaker/transformer so the oredictionary transformer registers after NEI by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/895 (2.7.147)
@@ -3857,10 +3867,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.66-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.66-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.67-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.67-1.7.10
 
 ## What's Changed:
+>* Fixed tooltips showing up when a panel was dragged over them by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/126 (2.3.67-1.7.10)
 >* Disallow sync handler c2s by default by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/121 (2.3.66-1.7.10)
 >* Fixed typo in disableCoverChildrenHeight by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/125 (2.3.65-1.7.10)
 >* Fix closing logic by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/123 (2.3.64-1.7.10)
@@ -4008,10 +4019,12 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.264
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.264
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.265
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.265
 
 ## What's Changed:
+>* Removes White Metal Reference by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1768 (2.8.265)
+>* Adds recipes and chisel variations to twilight forest blocks by @Quollveth in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1681 (2.8.265)
 >* Add recipes for all Mechanical Armor components by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1606 (2.8.264)
 >* Pushback Pattern Repeater to UV Voltage by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1766 (2.8.262)
 >* Add Circuit to Jabba Barrel Recipe by @NotKaizul in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1759 (2.8.262)
