@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-26T06:59:06.110815",
+  "last_updated": "2026-05-26T19:11:46.183467",
   "config": "2.9.0-nightly-2026-05-25-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -831,10 +831,6 @@
     "ChromaticTooltipsCompat": {
       "version": "1.0.31-GTNH",
       "side": "CLIENT"
-    },
-    "SharedProspecting": {
-      "version": "2.0.5",
-      "side": "BOTH"
     },
     "ThaumicMachina": {
       "version": "0.2.3-GTNH",
