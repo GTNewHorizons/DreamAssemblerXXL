@@ -16,7 +16,6 @@
 > * MouseTweaks
 > * NoHotbarNeeded
 > * RandomBoubles
-> * SharedProspecting
 > * SimpleSkinBackport
 > * VendingMachine
 > * VillageNames
@@ -1542,7 +1541,7 @@ Mod is client-side only.
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/EnderZoo/pull/14 (1.3.4)
 
-# New Mod - EndlessIDs:1.7.1
+# New Mod - EndlessIDs:1.7.3
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - EnhancedLootBags - 1.2.8 --> 1.3.4
@@ -1597,7 +1596,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - FalsepatternLib:1.11.0
+# New Mod - FalsepatternLib:1.12.0
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # New Mod - Fether:2.0.5
@@ -1699,10 +1698,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.551
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.551
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.553
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.553
 
 ## What's Changed:
+>* Fix sheetmetal particle and structure hint render by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6790 (5.09.52.553)
+>* Add ability to add per-dim ore vein height by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6820 (5.09.52.553)
+>* Fix VM Stone Type Output by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6826 (5.09.52.553)
+>* reduce memory allocations in `compactInventory` by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6829 (5.09.52.553)
+>* Fix c2s sync by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6828 (5.09.52.553)
+>* Fix Compact Fusion 5 Energy Hatch Texture Missing by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6816 (5.09.52.552)
+>* Remove Electric Air Filter Bus Requirements / Improve Diagnostics Display God Forge / Fix Exo Foundry Structure Check by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6814 (5.09.52.552)
+>* Fix Mega Industrial Apiary crash / lags with large bee counts by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6803 (5.09.52.552)
 >* Fix vein names having duplicate ores by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6824 (5.09.52.551)
 >* NightVisionBehavior: use context.toggleBehavior() on key press by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6811 (5.09.52.550)
 >* Use OreDict plankWood/slabWood in MegaIndustrialApiary structure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6781 (5.09.52.550)
@@ -4785,11 +4792,6 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: render shared waypoint beacons without distance fade by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Share-Where-I-am/pull/8 (2.1.5)
 
-# New Mod - SharedProspecting:2.0.5
-**Full Changelog**: https://github.com/GTNewHorizons/SharedProspecting/commits/2.0.5/compare/2.0.5...2.0.5
-
-## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # New Mod - SimpleSkinBackport:1.0.2-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/SimpleSkinBackport/compare/1.0.0-GTNH...1.0.2-GTNH
@@ -5255,10 +5257,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
 >* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
 
-# New Mod - VillageNames:4.5.13-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.0-GTNH-pre...4.5.13-GTNH
+# New Mod - VillageNames:4.5.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.0-GTNH-pre...4.5.14-GTNH
 
 ## What's Changed:
+>* Cleanup the EntityMonitorHandler by @boubou19 in https://github.com/GTNewHorizons/VillageNames/pull/11 (4.5.14-GTNH)
 >* fix npe in ModObjects.setModLecternBlock by @Alexdoru in https://github.com/GTNewHorizons/VillageNames/pull/10 (4.5.13-GTNH)
 >* Remove gold name and fix version by @tiffit in https://github.com/GTNewHorizons/VillageNames/pull/9 (4.5.12-GTNH)
 >* Implement Gui color name override by @Ranzuu in https://github.com/GTNewHorizons/VillageNames/pull/8 (4.5.11-GTNH)
