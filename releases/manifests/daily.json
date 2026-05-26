@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-25T08:01:35.983724",
-  "config": "2.9.0-nightly-2026-05-24-03",
+  "last_updated": "2026-05-26T06:59:06.110815",
+  "config": "2.9.0-nightly-2026-05-25-3",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,11 +25,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-951-GTNH",
+      "version": "rv3-beta-957-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.12",
+      "version": "1.12.13",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -65,11 +65,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.60-GTNH",
+      "version": "3.8.63-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.31",
+      "version": "2.6.32",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.19-GTNH",
+      "version": "1.13.21-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.11-GTNH",
+      "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.547",
+      "version": "5.09.52.551",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.10.3",
+      "version": "0.10.7",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.12-GTNH",
+      "version": "2.6.13-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.42-GTNH",
+      "version": "1.12.43-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.9.16",
+      "version": "1.9.17",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.19",
+      "version": "1.8.20",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.32",
+      "version": "2.7.33",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.21",
+      "version": "1.5.23",
       "side": "BOTH"
     },
     "waila": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.26",
+      "version": "2.1.27",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.75",
+      "version": "0.4.76",
       "side": "BOTH"
     },
     "Freecam": {
@@ -841,7 +841,7 @@
       "side": "BOTH"
     },
     "JarJar": {
-      "version": "0.3.2-beta",
+      "version": "0.3.3-beta",
       "side": "BOTH"
     },
     "NoHotbarNeeded": {
