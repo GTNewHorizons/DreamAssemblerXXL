@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-27T07:17:13.640079",
-  "config": "2.9.0-nightly-2026-05-27",
+  "last_updated": "2026-05-27T18:33:25.950785",
+  "config": "2.9.0-nightly-2026-05-27-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -389,7 +389,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.37",
+      "version": "1.0.38",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.73-GTNH",
+      "version": "1.14.75-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -927,7 +927,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.3.0",
+      "version": "0.3.1",
       "side": "BOTH"
     },
     "Archaicfix": {
@@ -955,7 +955,7 @@
       "side": "CLIENT"
     },
     "JourneyMap": {
-      "version": "5.2.16-fairplay",
+      "version": "5.2.17-fairplay",
       "side": "CLIENT"
     },
     "EndlessIDs": {
