@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-26T19:22:28.855942",
-  "config": "2.9.0-nightly-2026-05-25-3",
+  "last_updated": "2026-05-27T07:17:13.640079",
+  "config": "2.9.0-nightly-2026-05-27",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-957-GTNH",
+      "version": "rv3-beta-959-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.28-GTNH",
+      "version": "3.4.29-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.10.7",
+      "version": "0.10.8",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.150",
+      "version": "2.7.151",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.265",
+      "version": "2.8.266",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.98-GTNH",
+      "version": "2.8.99-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.43-GTNH",
+      "version": "1.12.44-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "ProjectBlue": {
-      "version": "1.2.9-GTNH",
+      "version": "1.2.10-GTNH",
       "side": "BOTH"
     },
     "ProjectRed": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.27-GTNH",
+      "version": "1.3.28-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.76",
+      "version": "0.4.77",
       "side": "BOTH"
     },
     "Freecam": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.62",
+      "version": "2.0.63",
       "side": "BOTH"
     },
     "Fether": {
@@ -821,11 +821,11 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.14-GTNH",
+      "version": "4.5.15-GTNH",
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.27-GTNH",
+      "version": "1.0.28-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
