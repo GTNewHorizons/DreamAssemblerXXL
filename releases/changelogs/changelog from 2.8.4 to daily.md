@@ -11,6 +11,7 @@
 > * Fether
 > * Freecam
 > * GTNH-Credits
+> * GTNHExtLib
 > * GregoryTweaksForCrafting
 > * JarJar
 > * MouseTweaks
@@ -159,11 +160,20 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.27
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.28
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.27
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.28
 
 ## What's Changed:
+>* Fix issues that directly affects Euphoria Patches + Complementary by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1782 (2.1.28)
+>* Mark ClientFixer as incompatible by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1786 (2.1.28)
+>* Add gbuffer_lightning by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1787 (2.1.28)
+>* Fix GL_FEEDBACK readback using correct attribute 0 VBO by @MassAnarchyy in https://github.com/GTNewHorizons/Angelica/pull/1783 (2.1.28)
+>* Fix shadow map from being clobbered on Windows by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1789 (2.1.28)
+>* add per-segment drop shadow (&u) by @alppp in https://github.com/GTNewHorizons/Angelica/pull/1754 (2.1.28)
+>* fix: refresh ClonedChunkSection biome data on cache hit by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1769 (2.1.28)
+>* Fix tests by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1791 (2.1.28)
+>* Make shader based clouds work with iris shaderpacks, and port optimizations from #1685 by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1793 (2.1.28)
 >* Fix osx crash by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1778 (2.1.27)
 >* Add NBT matching to list of valid block/item entries by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1771 (2.1.27)
 >* Port modern's damage overlay by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1777 (2.1.27)
@@ -1710,10 +1720,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.557
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.557
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.558
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.558
 
 ## What's Changed:
+>* Defer GT++ Material fluid/cell registration from constructor by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6686 (5.09.52.558)
 >* Fix PseudoStar recipe null fluid by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6843 (5.09.52.557)
 >* fix Slot config may be null by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6833 (5.09.52.556)
 >* Pseudo Star and Cosmic Solder by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6655 (5.09.52.556)
@@ -3193,6 +3204,11 @@ Mod is client-side only.
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
+# New Mod - GTNHExtLib:1.0.0
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/commits/1.0.0/compare/1.0.0...1.0.0
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - GTNHLib - 0.7.10 --> 0.11.0
 **Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.11.0
 
@@ -5212,10 +5228,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.78
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.78
+# New Mod - VendingMachine:0.4.79
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.79
 
 ## What's Changed:
+>* Scale trade limit with online team member count by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/128 (0.4.79)
+>* ME Uplink Hatch now Autopulls coins from ME system for purchases by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/119 (0.4.79)
 >* Fix music not looping by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/127 (0.4.78)
 >* Add item chute by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/120 (0.4.77)
 >* Update for newer GTNHLib team stuff by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/124 (0.4.76)
