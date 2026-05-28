@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-27T18:33:25.950785",
+  "last_updated": "2026-05-28T12:42:58.581436",
   "config": "2.9.0-nightly-2026-05-27-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.85-gtnh",
+      "version": "1.5.86-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -21,11 +21,11 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.3.10",
+      "version": "3.3.11",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-959-GTNH",
+      "version": "rv3-beta-960-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.3",
+      "version": "1.9.4",
       "side": "BOTH"
     },
     "Botania": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.15-GTNH",
+      "version": "0.9.16-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.553",
+      "version": "5.09.52.557",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.10.8",
+      "version": "0.11.0",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.151",
+      "version": "2.7.153",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.19",
+      "version": "1.4.20",
       "side": "BOTH"
     },
     "IFU": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.266",
+      "version": "2.8.268",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,11 +345,11 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.99-GTNH",
+      "version": "2.8.100-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.8",
+      "version": "2.7.9",
       "side": "BOTH"
     },
     "oauth": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.22-GTNH",
+      "version": "2.2.23-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.9.17",
+      "version": "1.9.18",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.23",
+      "version": "1.5.24",
       "side": "BOTH"
     },
     "waila": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.14-GTNH",
+      "version": "0.5.15-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.34",
+      "version": "2.2.35",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.67-1.7.10",
+      "version": "2.3.68-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.77",
+      "version": "0.4.78",
       "side": "BOTH"
     },
     "Freecam": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "side": "BOTH"
     },
     "GTNH-Credits": {
