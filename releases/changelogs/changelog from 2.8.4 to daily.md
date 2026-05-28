@@ -1710,10 +1710,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.556
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.556
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.557
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.557
 
 ## What's Changed:
+>* Fix PseudoStar recipe null fluid by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6843 (5.09.52.557)
 >* fix Slot config may be null by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6833 (5.09.52.556)
 >* Pseudo Star and Cosmic Solder by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6655 (5.09.52.556)
 >* remove centri recipe since it no longer lines up with the mix by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6835 (5.09.52.554)
@@ -3605,10 +3606,11 @@ Mod is client-side only.
 >* localization of tooltip by @Discreater in https://github.com/GTNewHorizons/HoloInventory/pull/54 (2.5.6-GTNH)
 >* Include transient deps for storage drawers by @RecursivePineapple in https://github.com/GTNewHorizons/HoloInventory/pull/55 (2.5.6-GTNH)
 
-# Updated - HydroEnergy - 1.4.10 --> 1.4.19
-**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.10...1.4.19
+# Updated - HydroEnergy - 1.4.10 --> 1.4.20
+**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.10...1.4.20
 
 ## What's Changed:
+>* EID and multiblock diagnostics compat by @tiffit in https://github.com/GTNewHorizons/HydroEnergy/pull/45 (1.4.20)
 >* fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/HydroEnergy/pull/44 (1.4.19)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/HydroEnergy/pull/43 (1.4.18)
 >* Use tooltip builder system by @Alexdoru in https://github.com/GTNewHorizons/HydroEnergy/pull/42 (1.4.17)
@@ -3898,8 +3900,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Change plasma arc furnace -> arc furnace, slicing recipes -> cutting by @kuba6000 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/73 (2.3.3)
 >* Replace fluid canner map with canner by @FourIsTheNumber in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/72 (2.3.2)
 
-# Updated - Mobs-Info - 0.5.6-GTNH --> 0.5.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.6-GTNH...0.5.14-GTNH
+# Updated - Mobs-Info - 0.5.6-GTNH --> 0.5.15-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.6-GTNH...0.5.15-GTNH
 
 ## What's Changed:
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Mobs-Info/pull/15 (0.5.12-GTNH)
