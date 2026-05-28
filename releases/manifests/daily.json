@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-27T20:46:35.204481",
+  "last_updated": "2026-05-28T07:06:49.166729",
   "config": "2.9.0-nightly-2026-05-27-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.3.10",
+      "version": "3.3.11",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.15-GTNH",
+      "version": "0.9.16-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.554",
+      "version": "5.09.52.556",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.10.8",
+      "version": "0.11.0",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.152",
+      "version": "2.7.153",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.267",
+      "version": "2.8.268",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.8",
+      "version": "2.7.9",
       "side": "BOTH"
     },
     "oauth": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.34",
+      "version": "2.2.35",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.77",
+      "version": "0.4.78",
       "side": "BOTH"
     },
     "Freecam": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "side": "BOTH"
     },
     "GTNH-Credits": {

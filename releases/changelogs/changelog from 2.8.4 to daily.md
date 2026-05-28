@@ -442,10 +442,11 @@ Mod is client-side only.
 >* Remove a bit of chaff from the rewrite by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/AngerMod/pull/13 (1.0.1)
 >* Rewrite Everything by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/AngerMod/pull/12 (1.0.0)
 
-# Updated - AppleCore - 3.3.7 --> 3.3.10
-**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.7...3.3.10
+# Updated - AppleCore - 3.3.7 --> 3.3.11
+**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.7...3.3.11
 
 ## What's Changed:
+>* delete difficulty sync by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/39 (3.3.11)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/AppleCore/pull/38 (3.3.10)
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
@@ -834,8 +835,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/AsieLib/pull/6 (0.7.2)
 >* delete empty event class by @Alexdoru in https://github.com/GTNewHorizons/AsieLib/pull/5 (0.7.1)
 
-# New Mod - AspectRecipeIndex:1.1.0
-**Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.0.0...1.1.0
+# New Mod - AspectRecipeIndex:1.1.1
+**Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.0.0...1.1.1
 
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/AspectRecipeIndex/pull/5 (1.0.16)
@@ -1633,10 +1634,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/FloodLights/pull/16 (1.5.6)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/FloodLights/pull/15 (1.5.5)
 
-# Updated - ForbiddenMagic - 0.8.4-GTNH --> 0.9.15-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.8.4-GTNH...0.9.15-GTNH
+# Updated - ForbiddenMagic - 0.8.4-GTNH --> 0.9.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.8.4-GTNH...0.9.16-GTNH
 
 ## What's Changed:
+>* Array Index Guard by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/29 (0.9.16-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ForbiddenMagic/pull/28 (0.9.15-GTNH)
 >* use bfs leaf decay from nh lib by @Alexdoru in https://github.com/GTNewHorizons/ForbiddenMagic/pull/27 (0.9.14-GTNH)
 >* Change Lust shards to drop from breeding by @Ruling-0 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/26 (0.9.13-GTNH)
@@ -1708,10 +1710,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.554
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.554
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.556
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.556
 
 ## What's Changed:
+>* fix Slot config may be null by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6833 (5.09.52.556)
+>* Pseudo Star and Cosmic Solder by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6655 (5.09.52.556)
 >* remove centri recipe since it no longer lines up with the mix by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6835 (5.09.52.554)
 >* Replace Industrial Diamond with Exquisite Diamond in HV Lathe Recipe by @NotKaizul in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6834 (5.09.52.554)
 >* Fix controller slot circuit ignored with input separation and no input buses by @dipo33 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6818 (5.09.52.554)
@@ -3188,10 +3192,13 @@ Mod is client-side only.
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.10.8
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.10.8
+# Updated - GTNHLib - 0.7.10 --> 0.11.0
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.11.0
 
 ## What's Changed:
+>* Extract External Deps to GTNHExtLib/Deploader by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/359 (0.11.0)
+>* Add whitelabeling to gtnh teams by @tiffit in https://github.com/GTNewHorizons/GTNHLib/pull/372 (0.10.9)
+>* Fix large quad batches by using 32-bit index buffers when needed by @Kai-Z-JP in https://github.com/GTNewHorizons/GTNHLib/pull/332 (0.10.9)
 >* Support major.minor.patch version format in PackVersion by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/371 (0.10.8)
 >* extend TitleAPI with icon, particle effects, and config by @alppp in https://github.com/GTNewHorizons/GTNHLib/pull/365 (0.10.7)
 >* Include more data client-side for UI display by @cubefury in https://github.com/GTNewHorizons/GTNHLib/pull/352 (0.10.6)
@@ -3409,10 +3416,11 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.152
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.152
+# Updated - Hodgepodge - 2.6.112 --> 2.7.153
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.153
 
 ## What's Changed:
+>* Fix enchant glint being applied on every render pass by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/905 (2.7.153)
 >* fix MixinModAnnotation_Intern by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/902 (2.7.152)
 >* Add configurable music delay by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/885 (2.7.151)
 >* Strip Signature from dropped Optional Interfaces. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/898 (2.7.150)
@@ -4072,10 +4080,11 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.267
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.267
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.268
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.268
 
 ## What's Changed:
+>* Add smeltery groups to GT ores by @tiffit in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1777 (2.8.268)
 >* Nerf Alumite mixing by @LazyFleshWasTaken in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1776 (2.8.267)
 >* New coin icons by Embri by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1774 (2.8.267)
 >* Add Macerator Recipes for Magnesia Ingot/Nugget and Calcium Nugget by @NotKaizul in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1773 (2.8.266)
@@ -4500,10 +4509,11 @@ Mod is client-side only.
 >* Restore NEIModContainer public plugins field by @PLASMAchicken in https://github.com/GTNewHorizons/NotEnoughItems/pull/829 (2.8.47-GTNH)
 >* Add tooltip for "Required Crafts" with shift by @Emilgardis in https://github.com/GTNewHorizons/NotEnoughItems/pull/810 (2.8.47-GTNH)
 
-# Updated - Nuclear-Control - 2.6.20 --> 2.7.8
-**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.20...2.7.8
+# Updated - Nuclear-Control - 2.6.20 --> 2.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.20...2.7.9
 
 ## What's Changed:
+>* Fix line config buttons invisible on auto GUI scale by @dipo33 in https://github.com/GTNewHorizons/Nuclear-Control/pull/42 (2.7.9)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Nuclear-Control/pull/41 (2.7.8)
 >* Adapt to AE2 changes to fix compile by @Kogepan229 in https://github.com/GTNewHorizons/Nuclear-Control/pull/38 (2.7.7)
 >* Update ItemCard55Reactor.java by @Blubstr in https://github.com/GTNewHorizons/Nuclear-Control/pull/37 (2.7.6)
@@ -4773,10 +4783,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.59-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.53-GTNH)
 
-# Updated - ServerUtilities - 2.2.2 --> 2.2.34
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.34
+# Updated - ServerUtilities - 2.2.2 --> 2.2.35
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.35
 
 ## What's Changed:
+>* add u (drop shadow) to formatting code pattern by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/294 (2.2.35)
 >* fix transfer command block permission and host:port parsing by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/301 (2.2.34)
 >* Add transfer packet backport (1.20.5 for 1.7.10) by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/299 (2.2.33)
 >* Add arg "=oc" to chat command for run OnlyClaimed backup by @lc-1337 in https://github.com/GTNewHorizons/ServerUtilities/pull/291 (2.2.33)
@@ -5199,10 +5210,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.77
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.77
+# New Mod - VendingMachine:0.4.78
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.78
 
 ## What's Changed:
+>* Fix music not looping by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/127 (0.4.78)
 >* Add item chute by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/120 (0.4.77)
 >* Update for newer GTNHLib team stuff by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/124 (0.4.76)
 >* [MUI2] C2S fixes by @TheYoingLad in https://github.com/GTNewHorizons/VendingMachine/pull/122 (0.4.75)
