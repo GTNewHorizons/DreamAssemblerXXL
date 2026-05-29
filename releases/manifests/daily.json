@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-28T15:52:31.178157",
+  "last_updated": "2026-05-29T07:07:26.868055",
   "config": "2.9.0-nightly-2026-05-27-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.558",
+      "version": "5.09.52.560",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.0",
+      "version": "0.11.1",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.268",
+      "version": "2.8.270",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -449,11 +449,11 @@
       "side": "BOTH"
     },
     "StevesAddons": {
-      "version": "0.15.4",
+      "version": "0.15.5",
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.23-GTNH",
+      "version": "2.2.24-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.24",
+      "version": "1.5.25",
       "side": "BOTH"
     },
     "waila": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.45-GTNH",
+      "version": "1.8.46-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.18",
+      "version": "3.0.20",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.35",
+      "version": "2.2.36",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.79",
+      "version": "0.4.80",
       "side": "BOTH"
     },
     "Freecam": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "GTNHExtLib": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "side": "BOTH"
     }
   },
