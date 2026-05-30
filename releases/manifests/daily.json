@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-29T07:07:26.868055",
-  "config": "2.9.0-nightly-2026-05-27-2",
+  "last_updated": "2026-05-30T06:33:30.970932",
+  "config": "2.9.0-nightly-2026-05-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.86-gtnh",
+      "version": "1.5.87-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.11",
+      "version": "1.5.12",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.560",
+      "version": "5.09.52.563",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.153",
+      "version": "2.7.154",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.270",
+      "version": "2.8.271",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.46-GTNH",
+      "version": "1.8.47-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "HelpFixer": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "Player-API": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.34-GTNH",
+      "version": "2.6.35-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.80",
+      "version": "0.4.81",
       "side": "BOTH"
     },
     "Freecam": {
