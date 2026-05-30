@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-05-30T06:33:30.970932",
-  "config": "2.9.0-nightly-2026-05-29",
+  "last_updated": "2026-05-30T16:58:03.408262",
+  "config": "2.9.0-nightly-2026-05-30",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-960-GTNH",
+      "version": "rv3-beta-964-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.63-GTNH",
+      "version": "3.8.64-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.563",
+      "version": "5.09.52.566",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.1",
+      "version": "0.11.2",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.154",
+      "version": "2.7.155",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.271",
+      "version": "2.8.272",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.20",
+      "version": "3.0.21",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.68-1.7.10",
+      "version": "2.3.69-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.35-GTNH",
+      "version": "0.1.36-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.81",
+      "version": "0.4.82",
       "side": "BOTH"
     },
     "Freecam": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.63",
+      "version": "2.0.64",
       "side": "BOTH"
     },
     "Fether": {
