@@ -1725,10 +1725,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.566
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.566
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.568
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.568
 
 ## What's Changed:
+>* Fix pipe entities returning "Unknown" in debug scanner and remove stale FIXME by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6839 (5.09.52.568)
+>* Structure Rework Fixes (and Suggestions) by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6855 (5.09.52.568)
+>* Fix crash when breaking a multi while someone is using it by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6878 (5.09.52.568)
+>* remove the final modifier from connectedtex by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6880 (5.09.52.568)
+>* Allow Jackhammer to Perform Hardhammer Maintenance by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6881 (5.09.52.568)
 >* Reduce arc furnace recipe map size by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6864 (5.09.52.566)
 >* Another pass to use TierEU.Recipe by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6861 (5.09.52.564)
 >* Return laser plate texture directly by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6863 (5.09.52.564)
@@ -3232,10 +3237,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix two crashes by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/1 (1.0.1)
 
-# Updated - GTNHLib - 0.7.10 --> 0.11.2
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.11.2
+# Updated - GTNHLib - 0.7.10 --> 0.11.3
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.11.3
 
 ## What's Changed:
+>* Fix position hash for random models by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/381 (0.11.3)
 >* Add more model patches by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/373 (0.11.2)
 >* Fix two crashes: by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/374 (0.11.1)
 >* Extract External Deps to GTNHExtLib/Deploader by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/359 (0.11.0)
@@ -3465,10 +3471,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Calls to ICommand interface methods are now wrapped in try, and catch the common CommandException exception. by @Viptunbeqwfwew in https://github.com/GTNewHorizons/HelpFixer/pull/3 (1.3.1)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.155
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.155
+# Updated - Hodgepodge - 2.6.112 --> 2.7.156
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.156
 
 ## What's Changed:
+>* add u (drop shadow) to format code lists by @alppp in https://github.com/GTNewHorizons/Hodgepodge/pull/887 (2.7.156)
 >* disable interning by default by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/910 (2.7.155)
 >* Fix fast block lookup by @NeutronSelector in https://github.com/GTNewHorizons/Hodgepodge/pull/883 (2.7.154)
 >* Fix enchant glint being applied on every render pass by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/905 (2.7.153)
@@ -3678,10 +3685,11 @@ Mod is client-side only.
 >* Separated tile vs gui title string in lang by @Ranzuu in https://github.com/GTNewHorizons/IFU/pull/22 (1.11.6)
 >* Ore refactor changes + bug fixes by @RecursivePineapple in https://github.com/GTNewHorizons/IFU/pull/21 (1.11.4)
 
-# Updated - IguanaTweaksTConstruct - 2.6.6 --> 2.7.6
-**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.6...2.7.6
+# Updated - IguanaTweaksTConstruct - 2.6.6 --> 2.7.7
+**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.6...2.7.7
 
 ## What's Changed:
+>* fixed backhand compat by @thehoblit in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/34 (2.7.7)
 >* Add Backhand compatibility for ranged Tinkers Weapons by @thehoblit in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/32 (2.7.6)
 >* Swapping parts instead of AmmoItem repair by @Krepyn in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/30 (2.7.5)
 >* Fix non weapon XP gain by @thehoblit in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/28 (2.7.4)
@@ -4677,10 +4685,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/OpenPrinter/pull/7 (0.3.1-GTNH)
 
-# Updated - OpenSecurity - 1.2.0-GTNH --> 1.2.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/compare/1.2.0-GTNH...1.2.1-GTNH
+# Updated - OpenSecurity - 1.2.0-GTNH --> 1.2.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/compare/1.2.0-GTNH...1.2.2-GTNH
 
 ## What's Changed:
+>* Remove updater and logging to standard output by @Alexdoru in https://github.com/GTNewHorizons/OpenSecurity/pull/7 (1.2.2-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/OpenSecurity/pull/6 (1.2.1-GTNH)
 
 # Updated - Opis - 1.4.6-mapless --> 1.4.8-mapless
@@ -4822,10 +4831,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/SC2/pull/18 (2.3.14)
 >* reduce memory usage caused by intensive call to `ComponentTypes.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/16 (2.3.13)
 
-# Updated - SGCraft - 1.4.5-GTNH --> 1.4.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.5-GTNH...1.4.12-GTNH
+# Updated - SGCraft - 1.4.5-GTNH --> 1.4.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.5-GTNH...1.4.13-GTNH
 
 ## What's Changed:
+>* Disable SG chunk data if ore gen config is not enable by @Alexdoru in https://github.com/GTNewHorizons/SGCraft/pull/28 (1.4.13-GTNH)
 >* Fix for ring not fully forming sometimes by @pierrei in https://github.com/GTNewHorizons/SGCraft/pull/27 (1.4.12-GTNH)
 >* hardcode modid and name by @Caedis in https://github.com/GTNewHorizons/SGCraft/pull/26 (1.4.11-GTNH)
 >* Localization of elements by @Ranzuu in https://github.com/GTNewHorizons/SGCraft/pull/23 (1.4.10-GTNH)
@@ -5182,10 +5192,11 @@ Mod is client-side only.
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.31
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.75-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.75-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.78-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.78-GTNH
 
 ## What's Changed:
+>* Part replacement instead of repair by @Krepyn in https://github.com/GTNewHorizons/TinkersConstruct/pull/286 (1.14.78-GTNH)
 >* Add API to group items together for the smeltery in NEI by @tiffit in https://github.com/GTNewHorizons/TinkersConstruct/pull/278 (1.14.75-GTNH)
 >* Fix main Inventory Tab render logic by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/288 (1.14.73-GTNH)
 >* Removed Tinkers Inventory GUI Tab by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/279 (1.14.72-GTNH)
@@ -5387,10 +5398,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Remove Brewing Stands from Village Generation by @UltraProdigy in https://github.com/GTNewHorizons/VillageNames/pull/3 (4.5.4-GTNH)
 >* remove __OBFID strings by @Dream-Master in https://github.com/GTNewHorizons/VillageNames/pull/1 (4.5.1-GTNH)
 
-# Updated - VisualProspecting - 1.4.8 --> 1.5.25
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.25
+# Updated - VisualProspecting - 1.4.8 --> 1.5.26
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.26
 
 ## What's Changed:
+>* Attempt at improving performance of vein/fluid layer in map by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/89 (1.5.26)
 >* Add admin command to upload client cache into your team by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/88 (1.5.25)
 >* Rework server and client cache into a more optimized system by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/87 (1.5.24)
 >* Add compatibility with EndlessIds to redo server cache command by @assusdan in https://github.com/GTNewHorizons/VisualProspecting/pull/84 (1.5.23)
