@@ -161,11 +161,16 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.28
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.29
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.28
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.29
 
 ## What's Changed:
+>* Remove registerIcons call in MCPF MixinTextureMap by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1795 (2.1.29)
+>* switch to new RFB transform signature by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/1421 (2.1.29)
+>* Document why I did this so I remember next time someone asks about this cursed function by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1802 (2.1.29)
+>* Add compat for hodgepodge's async icon loading by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1799 (2.1.29)
+>* More class loading order fun with java 8... by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1804 (2.1.29)
 >* Fix issues that directly affects Euphoria Patches + Complementary by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1782 (2.1.28)
 >* Mark ClientFixer as incompatible by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1786 (2.1.28)
 >* Add gbuffer_lightning by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1787 (2.1.28)
@@ -1726,10 +1731,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.570
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.570
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.572
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.572
 
 ## What's Changed:
+>* Adds forced structure for 90°/180° beam mirrors by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6866 (5.09.52.572)
+>* Let Structures correctly check for flowing water by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6262 (5.09.52.572)
+>* Yet another language pass by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6897 (5.09.52.572)
+>* Fix augment tooltip showing description twice by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6891 (5.09.52.572)
+>* Fix NAC module NBT saving by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6875 (5.09.52.572)
+>* [Structure Rework] Mega Distillation Tower by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6868 (5.09.52.572)
 >* Fix bug by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6889 (5.09.52.570)
 >* Structure rework cleanup by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6877 (5.09.52.570)
 >* Move from deprecated MUI2 methods to new ones with fixes for TextFieldWidget by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6887 (5.09.52.570)
