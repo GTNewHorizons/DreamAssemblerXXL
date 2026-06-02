@@ -3231,9 +3231,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix: Missing side check crash when hint is called on a frame (#5209) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5555 (5.09.51.483)
 >* Fix Tantalum Hafnium Carbide Material Stats for 2.8.4 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5566 (5.09.51.483)
 
-# New Mod - GTNH-Credits:1.3.0
+# New Mod - GTNH-Credits:1.3.1
 Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Credits/compare/1.0.0...1.3.1
+
 ## What's Changed:
+>* feat(editor): release ready-to-run editor bundle by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/18 (1.3.1)
 >* cleanup(unused): remove unused phoney package by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/4 (1.2.0)
 >* Code cleanup and security fixes by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/5 (1.2.0)
 >* feat(schema): introduce credits.json schema version 2 by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/6 (1.2.0)
