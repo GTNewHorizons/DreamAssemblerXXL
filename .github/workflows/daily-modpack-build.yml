@@ -2,6 +2,8 @@ name: Daily modpack build
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '20 3 * * *' # 3:20am UTC every day
 
 jobs:
   build:
@@ -74,7 +76,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          poetry run python -m gtnh.cli.generate_daily --id "$((${{ github.run_number }} + 1000))" --update-available
+          poetry run python -m gtnh.cli.generate_daily --id "${{ github.run_number }}" --update-available
           poetry run python -m gtnh.cli.assemble_daily
 
       - name: Save cached mod zips
