@@ -1,11 +1,13 @@
 import itertools
 import os
+import stat
 from bisect import bisect_left
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
 from typing import Any, Iterable, Iterator, List
 from urllib import parse
+from zipfile import ZipFile
 
 from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
 
@@ -125,3 +127,21 @@ def index(elements_list: List[Any], element: Any) -> int:
     if i != len(elements_list) and elements_list[i] == element:
         return i
     raise ValueError
+
+
+def normalize_archive_permissions(archive: ZipFile) -> None:
+    """
+    Normalize a ZipFile with canonical unix permissions.
+    Directories become 0o777 and files 0o644 (Or 0o755 if file is flagged as executable).
+    If a file was flagged as executable it's
+
+    :param archive: the ZipFile object to be normalized
+    :return: None
+    """
+    for zinfo in archive.infolist():
+        source_perm = (zinfo.external_attr >> 16) & 0o777
+        if zinfo.is_dir():
+            zinfo.external_attr = ((stat.S_IFDIR | 0o755) << 16) | 0x10
+        else:
+            perm = 0o755 if source_perm & 0o111 else 0o644
+            zinfo.external_attr = (stat.S_IFREG | perm) << 16
