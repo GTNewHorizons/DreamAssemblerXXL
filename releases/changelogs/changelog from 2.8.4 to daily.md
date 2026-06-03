@@ -467,10 +467,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-969-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-969-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-970-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-970-GTNH
 
 ## What's Changed:
+>* Fix the CPU Active color by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1344 (rv3-beta-970-GTNH)
 >* Add crafting diagnostic terminal by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1210 (rv3-beta-969-GTNH)
 >* Enum Refactor / AEButton refactor by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1340 (rv3-beta-969-GTNH)
 >* Fix Pattern Repeater StackOverflow with loops by @Redderpears in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1338 (rv3-beta-969-GTNH)
@@ -990,10 +991,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.64-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.64-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.65-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.65-GTNH
 
 ## What's Changed:
+>* fix questId copy on macos by @danyadev in https://github.com/GTNewHorizons/BetterQuesting/pull/229 (3.8.65-GTNH)
 >* Add QuestContextMenuRegistry for external context menu entries by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/227 (3.8.64-GTNH)
 >* feat: add option to exclude quests from completion count by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/224 (3.8.63-GTNH)
 >* Show quest notifications as titles by @alppp in https://github.com/GTNewHorizons/BetterQuesting/pull/200 (3.8.62-GTNH)
@@ -1508,10 +1510,11 @@ Mod is client-side only.
 >* Made certain dependencies optional to prevent crashes when running outside GTNH by @system64MC in https://github.com/GTNewHorizons/DuraDisplay/pull/24 (1.4.2)
 >* Adds a custom overlay for Forestry backpacks by @querns in https://github.com/GTNewHorizons/DuraDisplay/pull/23 (1.4.0)
 
-# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.21
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.21
+# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.22
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.22
 
 ## What's Changed:
+>* Remove spacesuit from nano armor by @FourIsTheNumber in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/117 (1.7.22)
 >* Fix EMT machines dropping wrong items when broken by @Luca-Guettinger in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/116 (1.7.21)
 >* Remove smelting recipes Amber and Cinnabar Ore by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/115 (1.7.20)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/114 (1.7.19)
@@ -1537,10 +1540,11 @@ Mod is client-side only.
 >* Add durability tooltip to chisels and forgemultipart saws by @JohnButlerThird in https://github.com/GTNewHorizons/EnderCore/pull/27 (0.5.5)
 >* Convert ASM code to mixin; Move void fog and Anvil max XP config tweak to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/EnderCore/pull/28 (0.5.3)
 
-# Updated - EnderIO - 2.9.28 --> 2.10.28
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.28
+# Updated - EnderIO - 2.9.28 --> 2.10.29
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.29
 
 ## What's Changed:
+>* Remove space suit from end steel armor by @FourIsTheNumber in https://github.com/GTNewHorizons/EnderIO/pull/237 (2.10.29)
 >* Localization of gui title elemets by @Ranzuu in https://github.com/GTNewHorizons/EnderIO/pull/236 (2.10.28)
 >* Intellij quick fixes by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/234 (2.10.27)
 >* Fix 4 world client leaks by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/235 (2.10.27)
@@ -1739,10 +1743,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.575
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.575
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.577
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.577
 
 ## What's Changed:
+>* Beamcrafter hatch priority fixes and disallow CRIBs by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6928 (5.09.52.577)
+>* Unified side selection tooltip by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6931 (5.09.52.577)
+>* Use tag version in mod annotation, remove explicit newlines from modinfo by @MalTeeez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6741 (5.09.52.577)
+>* LHC rate scaling nerf by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6930 (5.09.52.577)
+>* increase durability of mutagenic frames by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6926 (5.09.52.576)
+>* Remove space suit from nano/hazmat by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6925 (5.09.52.576)
 >* GT Large Boiler "rework" by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5171 (5.09.52.575)
 >* Only check PCB min casing for T3 by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6912 (5.09.52.574)
 >* Fix energy infuser did not output charged draconium blocks to output bus by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6914 (5.09.52.574)
@@ -3484,10 +3494,11 @@ Mod is client-side only.
 >* Check for GT5U specifically in compat code by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/136 (1.1.122-GTNH)
 >* Remove several unused items by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/137 (1.1.122-GTNH)
 
-# Updated - Gravitation-Suite-Neo - 1.3.6 --> 1.3.11
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.6...1.3.11
+# Updated - Gravitation-Suite-Neo - 1.3.6 --> 1.3.12
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.6...1.3.12
 
 ## What's Changed:
+>* Remove spacesuit from nano armor by @FourIsTheNumber in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/34 (1.3.12)
 >* Fix server-side chat messages not being localized by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/32 (1.3.11)
 >* Create ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/31 (1.3.10)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/30 (1.3.9)
@@ -3518,10 +3529,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Calls to ICommand interface methods are now wrapped in try, and catch the common CommandException exception. by @Viptunbeqwfwew in https://github.com/GTNewHorizons/HelpFixer/pull/3 (1.3.1)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.157
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.157
+# Updated - Hodgepodge - 2.6.112 --> 2.7.158
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.158
 
 ## What's Changed:
+>* Clamp looting to a minimum of 0 by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/916 (2.7.158)
 >* Clip the entity renders within vanilla GUIs using `glScissor` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/834 (2.7.157)
 >* Fix BOP colorized sapling icon when growth stage bit is set in meta by @dipo33 in https://github.com/GTNewHorizons/Hodgepodge/pull/904 (2.7.157)
 >* add u (drop shadow) to format code lists by @alppp in https://github.com/GTNewHorizons/Hodgepodge/pull/887 (2.7.156)
@@ -3763,10 +3775,11 @@ Mod is client-side only.
 >* Fix world client leak by @Alexdoru in https://github.com/GTNewHorizons/Infernal-Mobs/pull/23 (1.10.5-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Infernal-Mobs/pull/22 (1.10.4-GTNH)
 
-# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.28-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.28-GTNH
+# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.29-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.29-GTNH
 
 ## What's Changed:
+>* Simple NTM update fix by @re7gog in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/188 (1.3.29-GTNH)
 >* fix(network): validate and gate custom packets by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/185 (1.3.28-GTNH)
 >* [Memory-opti:fix leak] Fix 4 world leaks by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/182 (1.3.27-GTNH)
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/181 (1.3.26-GTNH)
@@ -4196,10 +4209,11 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.273
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.273
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.274
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.274
 
 ## What's Changed:
+>* fix window not closing after confirming on macos by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1662 (2.8.274)
 >* Use oredict for project red illumar by @tiffit in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1785 (2.8.273)
 >* Split coin icon and background textures by @tiffit in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1787 (2.8.273)
 >* use recipe not tier by @LazyFleshWasTaken in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1783 (2.8.272)
@@ -5081,10 +5095,11 @@ Mod is client-side only.
 >* Fix File moving/copying by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/21 (1.8.9)
 >* Inject non-force Resources later // Use Java's NIO by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/19 (1.8.7)
 
-# Updated - Tainted-Magic - 7.6.26-GTNH --> 7.7.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.26-GTNH...7.7.7-GTNH
+# Updated - Tainted-Magic - 7.6.26-GTNH --> 7.7.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.26-GTNH...7.7.8-GTNH
 
 ## What's Changed:
+>* Remove spacesuit from fortress armor and voidmetal goggles by @FourIsTheNumber in https://github.com/GTNewHorizons/Tainted-Magic/pull/48 (7.7.8-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Tainted-Magic/pull/47 (7.7.7-GTNH)
 >* [Tainted Magic] Fix Thaumic Disassembler not being able to break certain blocks. by @thenextelement in https://github.com/GTNewHorizons/Tainted-Magic/pull/46 (7.7.6-GTNH)
 >* use bfs leaf decay from nh lib by @Alexdoru in https://github.com/GTNewHorizons/Tainted-Magic/pull/45 (7.7.5-GTNH)
@@ -5113,10 +5128,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cap enchantment level to max+1 by @Caedis in https://github.com/GTNewHorizons/ThaumicBases/pull/56 (1.9.0)
 >* Revert "Cap enchantment level to max+1 (#56)" by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/57 (1.9.0)
 
-# Updated - ThaumicBoots - 1.4.14 --> 1.5.11
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.14...1.5.11
+# Updated - ThaumicBoots - 1.4.14 --> 1.5.12
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.14...1.5.12
 
 ## What's Changed:
+>* Remove spacesuit from nano armor by @FourIsTheNumber in https://github.com/GTNewHorizons/ThaumicBoots/pull/54 (1.5.12)
 >* Swap TCNEIAdditions for AspectRecipeIndex by @tiffit in https://github.com/GTNewHorizons/ThaumicBoots/pull/53 (1.5.11)
 >* Fix `Config.gtnhLibActive` using wrong config name by @unilock in https://github.com/GTNewHorizons/ThaumicBoots/pull/52 (1.5.11)
 >* Fix step assist not working for ThaumicBoots by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ThaumicBoots/pull/51 (1.5.10)
@@ -5497,10 +5513,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Animal time fix with hunger overhaul by @chochem in https://github.com/GTNewHorizons/WAWLA/pull/9 (1.3.3-GTNH)
 >* Move villager names to GTNHLib by @SuperSoupr in https://github.com/GTNewHorizons/WAWLA/pull/8 (1.3.2-GTNH)
 
-# Updated - WailaHarvestability - 1.3.4-GTNH --> 1.3.5-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.4-GTNH...1.3.5-GTNH
+# Updated - WailaHarvestability - 1.3.4-GTNH --> 1.3.6-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.4-GTNH...1.3.6-GTNH
 
 ## What's Changed:
+>* Fix natural GT ores not showing mining level by @tiffit in https://github.com/GTNewHorizons/WailaHarvestability/pull/12 (1.3.6-GTNH)
 >* Fix gregtech blocks showing incorrect harvest info by @tiffit in https://github.com/GTNewHorizons/WailaHarvestability/pull/11 (1.3.5-GTNH)
 
 # Updated - WanionLib - 1.10.0 --> 1.10.1
@@ -5790,4 +5807,4 @@ Mod is client-side only.
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @12411234, @2ndDerivative, @3ricbae, @52871299hzy, @54M44R, @6C-C6, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Ableytner, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @aidenfarley, @Alexdoru, @alfarelcynthesis, @Algent, @ALongStringOfNumbers, @alppp, @Ameobea, @and-reas-se, @Angry3vilbot, @AnsonYeung, @Apis035, @arch1t3cht, @arisado, @Ashen-sysadmin, @asquared31415, @assusdan, @asukaonly, @Auynonymous, @bencimp, @Bjdufre1, @bk5115545, @Blubstr, @BlueWeabo, @bombcar, @boubou19, @Brabb3l, @brachy84, @branan, @brandyyn, @Breviel, @BroFaceMcgee, @broscolotos, @bumbleBee945, @C-Remilian, @C0bra5, @Caedis, @CaelixOrbit, @Calvin304, @cambech, @captainjolt, @carbotaniuman, @Cardinalstars, @cargocats, @ChaosTheLegend, @Charsy89, @Chi31415, @chochem, @ChromaPIE, @chrombread, @clawdbot-silly-waddle, @Cleptomania, @CN132DAS, @combusterf, @Connor-Colenso, @copi143, @cubefury, @czerwonogrodzki, @czqwq, @danyadev, @DarkShadow44, @DatLycan, @daxsc, @DeathFuel, @Deviouslrd, @devpikachu, @dfddgge, @DialecticalMaterialist, @dibbydoda, @DioEgizio, @dipo33, @Discreater, @doshibadev, @dragongod100, @Dragovorn, @Dream-Master, @Dredonkey, @DrParadox7, @DTK-MrRaccoon, @dvdmandt, @DylanTaylor1, @echeese, @Eclipse-Sol, @eigenraven, @Eldrinn-Elantey, @embeddedt, @Emilgardis, @EmperorSuper, @EnderProyects, @Engineer12798, @envoidia, @EricC808, @Erixonich, @Ethryan, @evgengoldwar, @FabienChatton, @FalsePattern, @Faltsolph, @Faotik, @felixfour, @fengluo2, @Firenezz, @Flakxo, @flamingowrangler2869, @Florexiz, @FourIsTheNumber, @fowdre, @FrostyFire1, @Gamingb3ast, @gaogao-qwq, @GDCloudstrike, @Georggi, @Ghezra, @ghostflyby, @GirixK, @github-actions[bot], @Glease, @glektarssza, @glowredman, @Goldenlion5648, @GribanovIvan, @grimly, @GTNH-Afx237v7, @guid118, @guneykabel, @guusw, @ham-corp, @hanben02, @harrynull, @hinyb, @hiroscho, @ImaMapleTree, @imTheSupremeOne, @iouter, @iR3turnZ, @IX-git, @JackOfNoneTrades, @jamiehu427, @JeromeBollinger, @JL2210, @JMan-Zx, @JohnButlerThird, @Johnnycyan, @jordanamr, @jude123412, @june-dev-username, @Junyan721113, @JustACasualDay, @Kai-Z-JP, @KenzoWVY, @khaskelbergTAU, @KleinGrrmpf, @ko-lja, @Kogepan229, @konkers, @konradmoesch, @koolkrafter5, @kopatych3348, @kotmatross28729, @Krepyn, @kuba6000, @kx08, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @LeonidMem, @lesteenman, @leumasme, @liryril1, @Litten95, @loenaaaa, @lonei-G, @LooseEthics, @ls-r, @Luca-Guettinger, @LunarLambda, @luoyangyuli2001, @Lyfts, @lynxx131, @Majora320, @malabudi, @MalTeeez, @mamiemru, @MarkinoTeck, @MarloGr, @MassAnarchyy, @maxashen, @MaxLunar, @maybemattie, @MCTBL, @MeiTianyou, @MellowArpeggiation, @michaeldoylecs, @mikkerlo, @Miklebe, @miozune, @mist475, @mitchej123, @MLGfruitshoot, @mM4ri, @ModularityEnjoyer, @Morilli, @MuXiu1997, @Nana-Sakura, @NealDeal34, @NeOzay, @NeutronSelector, @Nightyyi, @Nikolay-Sitnikov, @noah-cope-dev, @Nockyx, @NotAPenguin0, @NotKaizul, @NovanOfLowat, @nshark, @nullTheCoder, @nwmqpa, @oddstr13, @ohentis, @OmdaCZ, @Omgise, @OneEyeMaker, @openblocki, @OTPANNIEXD, @PantACRO4life, @paulbatum, @pierrei, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @qiuxtao, @querns, @Quollveth, @rainbowjose, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @ReignOfFROZE, @rhobold, @riggzh, @Rikka-Kitani, @Roadhog360, @ROBERT-PARKOURCIVILIZATIONGOD, @Roelof033, @RSCCV, @Ruling-0, @Sanduhr32, @sbancuz, @sbwaz, @serenibyss, @seventh-june, @ShadowQFT, @SHARKY-au, @Sheodar, @Shigure-Ruiseki, @simojoki, @Sinerum, @sisyphussy, @SkorchedEU, @SKProCH, @slprime, @SmileYik, @SomeonePerson123, @Sopel97, @SpacEagle17, @Spaghetti-OberNub, @Spicierspace153, @SST-03, @StaffiX, @StoneLegion, @sudojunior, @Sunrunner37, @SuperSoupr, @SvineruS, @SwingURM, @system64MC, @Tahkeh, @Taskeren, @TechLord22, @Teteros, @TheElan, @thehoblit, @thenextelement, @ThePixelbrain, @TheYoingLad, @thiago-solfo, @tiffit, @timb8g, @TKDMzq, @tomprince, @TotallyNotOndre, @tuodekun, @TweksTY, @Tyronadre, @UltraProdigy, @unilock, @unix-supremacist, @Viptunbeqwfwew, @Vlamonster, @VortexSo4, @vulcandragi, @WanderingHero, @WayneYam, @WhyDoLogic2, @wlhlm, @WNP78, @Worive, @xronin01, @YamiKami-Sama, @YannickMG, @Yoshy2002, @youkoaona, @zach2039, @zacharylott94, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @12411234, @2ndDerivative, @3ricbae, @52871299hzy, @54M44R, @6C-C6, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Ableytner, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @aidenfarley, @Alexdoru, @alfarelcynthesis, @Algent, @ALongStringOfNumbers, @alppp, @Ameobea, @and-reas-se, @Angry3vilbot, @AnsonYeung, @Apis035, @arch1t3cht, @arisado, @Ashen-sysadmin, @asquared31415, @assusdan, @asukaonly, @Auynonymous, @bencimp, @Bjdufre1, @bk5115545, @Blubstr, @BlueWeabo, @bombcar, @boubou19, @Brabb3l, @brachy84, @branan, @brandyyn, @Breviel, @BroFaceMcgee, @broscolotos, @bumbleBee945, @C-Remilian, @C0bra5, @Caedis, @CaelixOrbit, @Calvin304, @cambech, @captainjolt, @carbotaniuman, @Cardinalstars, @cargocats, @ChaosTheLegend, @Charsy89, @Chi31415, @chochem, @ChromaPIE, @chrombread, @clawdbot-silly-waddle, @Cleptomania, @CN132DAS, @combusterf, @Connor-Colenso, @copi143, @cubefury, @czerwonogrodzki, @czqwq, @danyadev, @DarkShadow44, @DatLycan, @daxsc, @DeathFuel, @Deviouslrd, @devpikachu, @dfddgge, @DialecticalMaterialist, @dibbydoda, @DioEgizio, @dipo33, @Discreater, @doshibadev, @dragongod100, @Dragovorn, @Dream-Master, @Dredonkey, @DrParadox7, @DTK-MrRaccoon, @dvdmandt, @DylanTaylor1, @echeese, @Eclipse-Sol, @eigenraven, @Eldrinn-Elantey, @embeddedt, @Emilgardis, @EmperorSuper, @EnderProyects, @Engineer12798, @envoidia, @EricC808, @Erixonich, @Ethryan, @evgengoldwar, @FabienChatton, @FalsePattern, @Faltsolph, @Faotik, @felixfour, @fengluo2, @Firenezz, @Flakxo, @flamingowrangler2869, @Florexiz, @FourIsTheNumber, @fowdre, @FrostyFire1, @Gamingb3ast, @gaogao-qwq, @GDCloudstrike, @Georggi, @Ghezra, @ghostflyby, @GirixK, @github-actions[bot], @Glease, @glektarssza, @glowredman, @Goldenlion5648, @GribanovIvan, @grimly, @GTNH-Afx237v7, @guid118, @guneykabel, @guusw, @ham-corp, @hanben02, @harrynull, @hinyb, @hiroscho, @ImaMapleTree, @imTheSupremeOne, @iouter, @iR3turnZ, @IX-git, @JackOfNoneTrades, @jamiehu427, @JeromeBollinger, @JL2210, @JMan-Zx, @JohnButlerThird, @Johnnycyan, @jordanamr, @jude123412, @june-dev-username, @Junyan721113, @JustACasualDay, @Kai-Z-JP, @KenzoWVY, @khaskelbergTAU, @KleinGrrmpf, @ko-lja, @Kogepan229, @konkers, @konradmoesch, @koolkrafter5, @kopatych3348, @kotmatross28729, @Krepyn, @kuba6000, @kx08, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @LeonidMem, @lesteenman, @leumasme, @liryril1, @Litten95, @loenaaaa, @lonei-G, @LooseEthics, @ls-r, @Luca-Guettinger, @LunarLambda, @luoyangyuli2001, @Lyfts, @lynxx131, @Majora320, @malabudi, @MalTeeez, @mamiemru, @MarkinoTeck, @MarloGr, @MassAnarchyy, @maxashen, @MaxLunar, @maybemattie, @MCTBL, @MeiTianyou, @MellowArpeggiation, @michaeldoylecs, @mikkerlo, @Miklebe, @miozune, @mist475, @mitchej123, @MLGfruitshoot, @mM4ri, @ModularityEnjoyer, @Morilli, @MuXiu1997, @Nana-Sakura, @NealDeal34, @NeOzay, @NeutronSelector, @Nightyyi, @Nikolay-Sitnikov, @noah-cope-dev, @Nockyx, @NotAPenguin0, @NotKaizul, @NovanOfLowat, @nshark, @nullTheCoder, @nwmqpa, @oddstr13, @ohentis, @OmdaCZ, @Omgise, @OneEyeMaker, @openblocki, @OTPANNIEXD, @PantACRO4life, @paulbatum, @pierrei, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @qiuxtao, @querns, @Quollveth, @rainbowjose, @Ranzuu, @re7gog, @RealSilverMoon, @RecursivePineapple, @Redderpears, @ReignOfFROZE, @rhobold, @riggzh, @Rikka-Kitani, @Roadhog360, @ROBERT-PARKOURCIVILIZATIONGOD, @Roelof033, @RSCCV, @Ruling-0, @Sanduhr32, @sbancuz, @sbwaz, @serenibyss, @seventh-june, @ShadowQFT, @SHARKY-au, @Sheodar, @Shigure-Ruiseki, @simojoki, @Sinerum, @sisyphussy, @SkorchedEU, @SKProCH, @slprime, @SmileYik, @SomeonePerson123, @Sopel97, @SpacEagle17, @Spaghetti-OberNub, @Spicierspace153, @SST-03, @StaffiX, @StoneLegion, @sudojunior, @Sunrunner37, @SuperSoupr, @SvineruS, @SwingURM, @system64MC, @Tahkeh, @Taskeren, @TechLord22, @Teteros, @TheElan, @thehoblit, @thenextelement, @ThePixelbrain, @TheYoingLad, @thiago-solfo, @tiffit, @timb8g, @TKDMzq, @tomprince, @TotallyNotOndre, @tuodekun, @TweksTY, @Tyronadre, @UltraProdigy, @unilock, @unix-supremacist, @Viptunbeqwfwew, @Vlamonster, @VortexSo4, @vulcandragi, @WanderingHero, @WayneYam, @WhyDoLogic2, @wlhlm, @WNP78, @Worive, @xronin01, @YamiKami-Sama, @YannickMG, @Yoshy2002, @youkoaona, @zach2039, @zacharylott94, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
