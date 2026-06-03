@@ -12,6 +12,7 @@ from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+from gtnh.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
 
@@ -134,10 +135,12 @@ class ZipAssembler(GenericAssembler):
             log.info("Adding server assets to the server release.")
             with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
                 self.add_server_assets(archive, server_brand, side)
+                normalize_archive_permissions(archive)
         if side.is_client():
             log.info("Adding locales to client release.")
             with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
                 self.add_localisation_files(archive)
+                normalize_archive_permissions(archive)
 
     def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
         """

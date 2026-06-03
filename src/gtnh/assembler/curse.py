@@ -18,6 +18,7 @@ from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+from gtnh.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
 
@@ -178,6 +179,7 @@ class CurseAssembler(GenericAssembler):
             self.add_overrides(side, archive)
             log.info("Adding locales to the archive")
             self.add_localisation_files(archive, str(self.overrides_folder))
+            normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
     def add_overrides(self, side: Side, archive: ZipFile) -> None:
@@ -264,6 +266,7 @@ class CurseAssembler(GenericAssembler):
                         progress, f"Adding {mod.name} to the archives of the mods to be uploaded"
                     )
                 file.write(path, arcname=path.name)
+            normalize_archive_permissions(file)
         if task_progressbar is not None:
             task_progressbar.add_progress(1, "Done!")
 

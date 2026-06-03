@@ -17,6 +17,7 @@ from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+from gtnh.utils import normalize_archive_permissions
 
 log = get_logger("technic process")
 
@@ -113,6 +114,7 @@ class TechnicAssembler(GenericAssembler):
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             log.info("Generating the readme for the modpack repo")
             self.generate_readme()
+            normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
         log.info(
@@ -124,6 +126,7 @@ class TechnicAssembler(GenericAssembler):
             self.add_mods(
                 side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose
             )
+            normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
         with open(removed_modlist_name, "w") as file:
@@ -195,6 +198,7 @@ class TechnicAssembler(GenericAssembler):
             # set up temp zip
             with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
                 temp_zip.write(source_file, arcname=archive_path)
+                normalize_archive_permissions(temp_zip)
 
             archive.write(
                 temp_zip_path,
@@ -249,6 +253,8 @@ class TechnicAssembler(GenericAssembler):
             self.add_localisation_files(temp_zip)
 
             self.add_changelog(temp_zip)
+
+            normalize_archive_permissions(temp_zip)
 
         # writing the config zip in the technic archive
         archive.write(
