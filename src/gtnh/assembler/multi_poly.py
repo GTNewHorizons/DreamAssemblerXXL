@@ -11,6 +11,7 @@ from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+from gtnh.utils import normalize_archive_permissions
 
 
 class MMCAssembler(GenericAssembler):
@@ -124,6 +125,7 @@ class MMCAssembler(GenericAssembler):
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
             self.add_localisation_files(archive, str(self.mmc_modpack_files.as_posix()))  # otherwise file check fails
             # on windows
+            normalize_archive_permissions(archive)
 
         self.add_mmc_meta_data(side)
 
@@ -146,3 +148,4 @@ class MMCAssembler(GenericAssembler):
             with archive.open(str(self.mmc_archive_root) + "/gtnh_icon.png", "w") as target:
                 with open(MMC_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
                     shutil.copyfileobj(icon, target)
+            normalize_archive_permissions(archive)

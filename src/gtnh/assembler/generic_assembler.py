@@ -16,6 +16,7 @@ from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
+from gtnh.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
 
@@ -247,6 +248,7 @@ class GenericAssembler:
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             log.info("Generating the readme for the modpack repo")
             self.generate_readme()
+            normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
     def get_archive_path(self, side: Side) -> Path:
