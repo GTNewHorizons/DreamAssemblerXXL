@@ -467,10 +467,13 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-968-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-968-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-969-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-969-GTNH
 
 ## What's Changed:
+>* Add crafting diagnostic terminal by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1210 (rv3-beta-969-GTNH)
+>* Enum Refactor / AEButton refactor by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1340 (rv3-beta-969-GTNH)
+>* Fix Pattern Repeater StackOverflow with loops by @Redderpears in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1338 (rv3-beta-969-GTNH)
 >* fix wireless waila power draw by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1339 (rv3-beta-968-GTNH)
 >* Delete redundant color call from lang files by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1341 (rv3-beta-968-GTNH)
 >* fixes Wireless Manager by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1336 (rv3-beta-966-GTNH)
@@ -1534,10 +1537,11 @@ Mod is client-side only.
 >* Add durability tooltip to chisels and forgemultipart saws by @JohnButlerThird in https://github.com/GTNewHorizons/EnderCore/pull/27 (0.5.5)
 >* Convert ASM code to mixin; Move void fog and Anvil max XP config tweak to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/EnderCore/pull/28 (0.5.3)
 
-# Updated - EnderIO - 2.9.28 --> 2.10.27
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.27
+# Updated - EnderIO - 2.9.28 --> 2.10.28
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.28
 
 ## What's Changed:
+>* Localization of gui title elemets by @Ranzuu in https://github.com/GTNewHorizons/EnderIO/pull/236 (2.10.28)
 >* Intellij quick fixes by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/234 (2.10.27)
 >* Fix 4 world client leaks by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/235 (2.10.27)
 >* Fix world client leak in TechneMachineRenderer by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/233 (2.10.26)
@@ -1588,10 +1592,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Disable show favorites button show overlay button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnhancedLootBags/pull/17 (1.3.1)
 >* Update NEI Handler by @slprime in https://github.com/GTNewHorizons/EnhancedLootBags/pull/16 (1.2.10)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.35-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.35-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.36-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.36-GTNH
 
 ## What's Changed:
+>* Adjusted liquid physics by @MalTeeez in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/37 (2.6.36-GTNH)
 >* Fix entity tracking duplication by @tiffit in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/76 (2.6.35-GTNH)
 >* feat(boats): count new boat distance in stats by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/71 (2.6.34-GTNH)
 >* feat(barrel): add slot count tooltip by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/70 (2.6.33-GTNH)
@@ -1734,10 +1739,22 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.573
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.573
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.575
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.575
 
 ## What's Changed:
+>* GT Large Boiler "rework" by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5171 (5.09.52.575)
+>* Only check PCB min casing for T3 by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6912 (5.09.52.574)
+>* Fix energy infuser did not output charged draconium blocks to output bus by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6914 (5.09.52.574)
+>* Fix crash of Legacy Chisel Multiblock by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6911 (5.09.52.574)
+>* Add oredict support for RecipeGenMultisUsingFluidInsteadOfCells by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6898 (5.09.52.574)
+>* Allow for looting mechanic to work in EEC for the staballoy construct by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6916 (5.09.52.574)
+>* Allow output side selection in singleblock GUI by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6909 (5.09.52.574)
+>* replace textures for side selection by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6918 (5.09.52.574)
+>* LHC calculator widgets by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6815 (5.09.52.574)
+>* add batch mode to solar factory by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6921 (5.09.52.574)
+>* Fix Gorge modules NEI preview by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6923 (5.09.52.574)
+>* Fix Hearth not being able to do unlimited tierskips by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6924 (5.09.52.574)
 >* Move LNE tooltip registration to en_US.lang by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6902 (5.09.52.573)
 >* Optimize recipemap checking and startup with recipe deduplication by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6813 (5.09.52.573)
 >* Fix owner being set to null by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6900 (5.09.52.573)
@@ -4179,10 +4196,12 @@ Mod is client-side only.
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Navigator/pull/15 (1.1.1)
 >* Fix JourneyMap RenderWaypointBeaconMixin injection failure by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/13 (1.1.0)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.272
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.272
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.273
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.273
 
 ## What's Changed:
+>* Use oredict for project red illumar by @tiffit in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1785 (2.8.273)
+>* Split coin icon and background textures by @tiffit in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1787 (2.8.273)
 >* use recipe not tier by @LazyFleshWasTaken in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1783 (2.8.272)
 >* Add recipes for the Vending Machine Casing by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1782 (2.8.272)
 >* update dreamcraft mold textures to match the new style by @seventh-june in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1771 (2.8.271)
@@ -5109,10 +5128,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add hint text for TB aspects by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBoots/pull/45 (1.5.2)
 >* Add glease' maven as required by tc4recipelib by @wlhlm in https://github.com/GTNewHorizons/ThaumicBoots/pull/43 (1.5.0)
 
-# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.51-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.51-GTNH
+# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.52-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.52-GTNH
 
 ## What's Changed:
+>* ec2 compatibility by @lc-1337 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/133 (1.7.52-GTNH)
 >* adapt by @lc-1337 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/131 (1.7.51-GTNH)
 >* Fix crash with EndlessIds by @YannickMG in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/132 (1.7.50-GTNH)
 >* Clean up by @lc-1337 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/130 (1.7.49-GTNH)
@@ -5325,10 +5345,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.83
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.83
+# New Mod - VendingMachine:0.4.84
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.84
 
 ## What's Changed:
+>* Switch to small coin BGs by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/139 (0.4.84)
 >* New casing texture by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/136 (0.4.83)
 >* Add Vending Machine Casing by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/135 (0.4.82)
 >* Fix several bugs by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/134 (0.4.81)
@@ -5625,9 +5646,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add tooltips for Iron Chest item variants by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ironchest/pull/35 (6.1.8)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.21
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.21
-
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.22
 ## What's Changed:
 >* Fix crash when sorting null launch class loader exclusions by @Kai-Z-JP in https://github.com/GTNewHorizons/lwjgl3ify/pull/336 (3.0.21)
 >* switch to new RFB transform signature by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/314 (3.0.20)
