@@ -1,11 +1,11 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-04T09:16:45.366194",
+  "last_updated": "2026-06-04T21:50:44.895311",
   "config": "2.9.0-nightly-2026-06-04",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.19-GTNH",
+      "version": "1.4.21-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.21-GTNH",
+      "version": "1.13.25-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.24-GTNH",
+      "version": "1.5.25-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.80-GTNH",
+      "version": "1.14.87-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.62-GTNH",
+      "version": "1.1.64-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
