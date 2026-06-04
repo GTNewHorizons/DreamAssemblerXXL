@@ -279,7 +279,6 @@ jobs:
 
       - name: Create and push build tag
         shell: bash
-        if: success() || failure()
         run: |
           tag="daily-${{ github.run_number }}"
           git tag "$tag"
