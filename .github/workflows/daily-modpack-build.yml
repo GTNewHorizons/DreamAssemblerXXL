@@ -200,4 +200,12 @@ jobs:
           git add ./gtnh-assets.json
           git commit -m "Upload daily $changelog_name"
           git push origin master
-      
+
+      - name: Create and push build tag
+        shell: bash
+        if: success() || failure()
+        run: |
+          tag="daily-${{ github.run_number }}"
+          git tag "$tag"
+          git push origin "$tag"
+
