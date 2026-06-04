@@ -467,10 +467,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-970-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-970-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-971-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-971-GTNH
 
 ## What's Changed:
+>* Refactor GT constructor to remove version check by @PLASMAchicken in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1348 (rv3-beta-971-GTNH)
 >* Fix the CPU Active color by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1344 (rv3-beta-970-GTNH)
 >* Add crafting diagnostic terminal by @ShadowQFT in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1210 (rv3-beta-969-GTNH)
 >* Enum Refactor / AEButton refactor by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1340 (rv3-beta-969-GTNH)
@@ -991,10 +992,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.65-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.65-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.66-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.66-GTNH
 
 ## What's Changed:
+>* Ore Dict Item Cycling  by @tiffit in https://github.com/GTNewHorizons/BetterQuesting/pull/230 (3.8.66-GTNH)
 >* fix questId copy on macos by @danyadev in https://github.com/GTNewHorizons/BetterQuesting/pull/229 (3.8.65-GTNH)
 >* Add QuestContextMenuRegistry for external context menu entries by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/227 (3.8.64-GTNH)
 >* feat: add option to exclude quests from completion count by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/224 (3.8.63-GTNH)
@@ -1270,10 +1272,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Added color override helper by @Ranzuu in https://github.com/GTNewHorizons/CodeChickenCore/pull/43 (1.4.12)
 >* optimize ClassHeirachyManager by @danyadev in https://github.com/GTNewHorizons/CodeChickenCore/pull/42 (1.4.11)
 
-# Updated - Computronics - 1.9.3-GTNH --> 1.9.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.3-GTNH...1.9.7-GTNH
+# Updated - Computronics - 1.9.3-GTNH --> 1.9.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.3-GTNH...1.9.8-GTNH
 
 ## What's Changed:
+>* Remove version pin on MC1710 for GT5 by @MalTeeez in https://github.com/GTNewHorizons/Computronics/pull/40 (1.9.8-GTNH)
 >* Fix support for tectech parameters. by @Engineer12798 in https://github.com/GTNewHorizons/Computronics/pull/39 (1.9.7-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Computronics/pull/38 (1.9.6-GTNH)
 >* Fixes Past pr by @Ranzuu in https://github.com/GTNewHorizons/Computronics/pull/37 (1.9.5-GTNH)
@@ -1596,10 +1599,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Disable show favorites button show overlay button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnhancedLootBags/pull/17 (1.3.1)
 >* Update NEI Handler by @slprime in https://github.com/GTNewHorizons/EnhancedLootBags/pull/16 (1.2.10)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.36-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.36-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.37-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.37-GTNH
 
 ## What's Changed:
+>* Add support for spectator mode for thaumostatic harness by @tiffit in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/78 (2.6.37-GTNH)
 >* Adjusted liquid physics by @MalTeeez in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/37 (2.6.36-GTNH)
 >* Fix entity tracking duplication by @tiffit in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/76 (2.6.35-GTNH)
 >* feat(boats): count new boat distance in stats by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/71 (2.6.34-GTNH)
@@ -1743,10 +1747,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.577
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.577
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.578
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.578
 
 ## What's Changed:
+>* [MUI2] Added type parameter for MTEBasicMachineBaseGui by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6932 (5.09.52.578)
+>* Various BEC Fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6645 (5.09.52.578)
 >* Beamcrafter hatch priority fixes and disallow CRIBs by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6928 (5.09.52.577)
 >* Unified side selection tooltip by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6931 (5.09.52.577)
 >* Use tag version in mod annotation, remove explicit newlines from modinfo by @MalTeeez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6741 (5.09.52.577)
@@ -4924,10 +4930,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.59-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.53-GTNH)
 
-# Updated - ServerUtilities - 2.2.2 --> 2.2.36
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.36
+# Updated - ServerUtilities - 2.2.2 --> 2.2.37
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.37
 
 ## What's Changed:
+>* fix(backup): flush pending world writes before backup by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/305 (2.2.37)
 >* Gate crashreports to parent folder by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/303 (2.2.36)
 >* add u (drop shadow) to formatting code pattern by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/294 (2.2.35)
 >* fix transfer command block permission and host:port parsing by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/301 (2.2.34)
@@ -5361,10 +5368,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.84
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.84
+# New Mod - VendingMachine:0.4.85
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.85
 
 ## What's Changed:
+>* Fix mute button having weird behavior by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/140 (0.4.85)
 >* Switch to small coin BGs by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/139 (0.4.84)
 >* New casing texture by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/136 (0.4.83)
 >* Add Vending Machine Casing by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/135 (0.4.82)
@@ -5663,8 +5671,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add tooltips for Iron Chest item variants by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ironchest/pull/35 (6.1.8)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.22
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.23
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.23
+
 ## What's Changed:
+>* Fix book and quill double type by @tiffit in https://github.com/GTNewHorizons/lwjgl3ify/pull/339 (3.0.23)
 >* Fix crash when sorting null launch class loader exclusions by @Kai-Z-JP in https://github.com/GTNewHorizons/lwjgl3ify/pull/336 (3.0.21)
 >* switch to new RFB transform signature by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/314 (3.0.20)
 >* Fix plugin errors when analyzing class files by @ah-OOG-ah in https://github.com/GTNewHorizons/lwjgl3ify/pull/334 (3.0.19)
