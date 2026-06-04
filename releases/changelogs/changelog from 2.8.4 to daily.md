@@ -1747,10 +1747,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.578
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.578
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.579
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.579
 
 ## What's Changed:
+>* partial revert of revert #6779 by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6927 (5.09.52.579)
 >* [MUI2] Added type parameter for MTEBasicMachineBaseGui by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6932 (5.09.52.578)
 >* Various BEC Fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6645 (5.09.52.578)
 >* Beamcrafter hatch priority fixes and disallow CRIBs by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6928 (5.09.52.577)
@@ -5271,9 +5272,6 @@ Mod is client-side only.
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Tinkers-Defense/pull/8 (1.3.4)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/Tinkers-Defense/pull/7 (1.3.3)
 
-# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.32
-## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.80-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.80-GTNH
 
