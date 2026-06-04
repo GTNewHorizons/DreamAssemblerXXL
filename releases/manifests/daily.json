@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-04T08:03:52.132101",
-  "config": "2.9.0-nightly-2026-06-03",
+  "last_updated": "2026-06-04T08:58:42.038942",
+  "config": "2.9.0-nightly-2026-06-04",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.578",
+      "version": "5.09.52.579",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -847,6 +847,10 @@
     "GTNHExtLib": {
       "version": "1.0.1",
       "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.35",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -948,10 +952,6 @@
     },
     "Bug-Torch": {
       "version": "1.2.14",
-      "side": "BOTH"
-    },
-    "Tinkers-Gregworks": {
-      "version": "1.0.32",
       "side": "BOTH"
     },
     "Extreme Sound Muffler": {
