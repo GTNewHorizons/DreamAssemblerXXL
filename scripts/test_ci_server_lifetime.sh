@@ -3,14 +3,18 @@ set -euo pipefail
 
 # Taken from https://github.com/MalTeeez/packscripts-auto-builds/blob/gtnh-daily/packaging/scripts/entrypoint.sh
 
-WORKDIR=$1
+WORKDIR="${WORKDIR:?WORKDIR must be set}"
+JAVA_ARGS="${JAVA_ARGS:?JAVA_ARGS must be set}"
+STARTUP_TIMEOUT="${STARTUP_TIMEOUT:-240}"
+SETTLE_TIMEOUT="${SETTLE_TIMEOUT:-60}"
+
 cd $WORKDIR
 
 echo "Agreeing to eula"
 sed -i "s|eula=false|eula=true|g" eula.txt
 
-echo "Starting server..."
-java -Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui > server.log 2>&1 &
+echo "Starting server with 'java $JAVA_ARGS > server.log 2>&1 &'"
+java $JAVA_ARGS > server.log 2>&1 &
 SERVER_PID=$!
 
 tail -f server.log &
@@ -18,28 +22,28 @@ TAIL_PID=$!
 
 echo "Waiting for startup..."
 i=0
-while [ $i -lt 24 ]; do
+while [ $i -lt $STARTUP_TIMEOUT ]; do
     if ! kill -0 $SERVER_PID 2>/dev/null; then
         echo "Server exited unexpectedly during startup"
         wait $SERVER_PID
         exit 1
     fi
     if grep -q "Done.*For help, type \"help\" or \"\?\"" server.log; then
-        echo "Server started after $((i * 5))s"
+        echo "Server started after ${i}s"
         break
     fi
-    i=$((i + 1))
+    i=$((i + 5))
     sleep 5
 done
 
-if [ $i -eq 24 ]; then
-    echo "Startup timed out"
+if [ $i -gt $STARTUP_TIMEOUT ]; then
+    echo "Startup timed out after waiting $STARTUP_TIMEOUT seconds"
     kill $SERVER_PID || true
     exit 1
 fi
 
-echo "Waiting 60s for server to settle..."
-sleep 60
+echo "Waiting ${SETTLE_TIMEOUT}s for server to settle..."
+sleep $SETTLE_TIMEOUT
 
 if ! kill -0 $SERVER_PID 2>/dev/null; then
     echo "Server crashed during settling"

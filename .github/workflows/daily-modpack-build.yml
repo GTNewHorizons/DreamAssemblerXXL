@@ -17,17 +17,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
           ref: master
+
       - name: Set up python
         id: setup-python
         uses: actions/setup-python@v6
         with:
           python-version: 3.10.5
-      - name: Setup private repo access token
-        shell: bash
-        run: echo "${{ secrets.NIGHTLY_GITHUB_TOKEN }}" > ~/.github_personal_token
 
       # install & configure poetry
       - name: Install Poetry
@@ -69,7 +66,6 @@ jobs:
           key: daxxl-daily-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
           restore-keys: |
             daxxl-daily-${{ runner.os }}-
-
 
       - name: Build modpack archives
         shell: bash
@@ -168,14 +164,27 @@ jobs:
           if-no-files-found: error
           retention-days: 1
 
+
   test:
     needs: build
     runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        include:
+          - java-version: 25
+            zip-variant: "server-java17-25"
+            java-args: "-Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui"
+            startup-timeout: 120
+            settle-timeout: 60
+          - java-version: 8
+            zip-variant: "server-java8"
+            java-args: "-Xms1G -Xmx2500m -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=5 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui"
+            startup-timeout: 240
+            settle-timeout: 120
     steps:
       - name: Check out repository for scripts
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
           ref: master
           sparse-checkout: 
@@ -188,32 +197,43 @@ jobs:
 
       - name: Unpack server artifact
         run: |
-          mkdir -p /tmp/gtnh-server-unpacked
-          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-server-java17-25.zip" -d /tmp/gtnh-server-unpacked/
-          chmod -R u+rX /tmp/gtnh-server-unpacked
+          mkdir -p /tmp/gtnh-unpacked
+          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.zip-variant }}.zip" -d /tmp/gtnh-unpacked/
+          chmod -R u+rX /tmp/gtnh-unpacked
 
       - name: Install Java
         uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165
         with:
           distribution: temurin
-          java-version: 25
+          java-version: ${{ matrix.java-version }}
         
       - name: Install RCON
+        shell: bash
         run: |
-          curl -sSL https://github.com/itzg/rcon-cli/releases/download/1.7.4/rcon-cli_1.7.4_linux_amd64.tar.gz \
-            | tar -xz -C /usr/local/bin rcon-cli
+          set -euo pipefail
+          curl -sSL -o rcon-cli.tar.gz https://github.com/itzg/rcon-cli/releases/download/1.7.5/rcon-cli_1.7.5_linux_amd64.tar.gz
+          echo "587f771ae5d4424eb6c15cdf76634049cb29c3ff2b2020500fe26c64c66aab62  rcon-cli.tar.gz" | sha256sum -c -
+          tar -xz -C /usr/local/bin -f rcon-cli.tar.gz rcon-cli
+          rm rcon-cli.tar.gz
       
       - name: Prepare files for ci run
         run: |
-          sed -i 's|enable-rcon=false|enable-rcon=true\nrcon.password=whoahaplaintextpassword\nrcon.port=25575|' /tmp/gtnh-server-unpacked/server.properties
+          sed -i 's|enable-rcon=false|enable-rcon=true\nrcon.password=whoahaplaintextpassword\nrcon.port=25575|' /tmp/gtnh-unpacked/server.properties
           cp scripts/* /tmp/
 
       - name: Run pack test
-        timeout-minutes: 30
-        run: bash /tmp/test_ci_server_lifetime.sh /tmp/gtnh-server-unpacked
+        timeout-minutes: 10
+        env:
+          WORKDIR: "/tmp/gtnh-unpacked"
+          JAVA_ARGS: "${{ matrix.java-args }}"
+          STARTUP_TIMEOUT: ${{ matrix.startup-timeout }}
+          SETTLE_TIMEOUT: ${{ matrix.settle-timeout }}
+        run: bash /tmp/test_ci_server_lifetime.sh
 
 
   upload:
+    permissions:
+      contents: write # push commit
     needs: [build, test]
     runs-on: ubuntu-24.04
     env:
@@ -223,7 +243,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
           ref: master
 
@@ -232,7 +251,6 @@ jobs:
         with:
           name: daily-build-bundle
 
-          
       # Upload the actual variants of the modpack now that we've tested them
       - name: Upload manifest
         uses: actions/upload-artifact@v7
@@ -283,4 +301,3 @@ jobs:
           tag="daily-${{ github.run_number }}"
           git tag "$tag"
           git push origin "$tag"
-
