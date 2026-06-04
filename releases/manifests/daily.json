@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-03T19:57:19.419981",
+  "last_updated": "2026-06-04T08:03:52.132101",
   "config": "2.9.0-nightly-2026-06-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-970-GTNH",
+      "version": "rv3-beta-971-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.65-GTNH",
+      "version": "3.8.66-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.7-GTNH",
+      "version": "1.9.8-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.577",
+      "version": "5.09.52.578",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.22",
+      "version": "3.0.23",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.36",
+      "version": "2.2.37",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.36-GTNH",
+      "version": "2.6.37-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.84",
+      "version": "0.4.85",
       "side": "BOTH"
     },
     "Freecam": {
