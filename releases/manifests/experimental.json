@@ -1,8 +1,8 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-06-03T20:05:12.499059",
-  "config": "2.9.0-nightly-2026-06-03",
+  "last_updated": "2026-06-04T10:50:32.187902",
+  "config": "2.9.0-nightly-2026-06-04",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-970-GTNH",
+      "version": "rv3-beta-971-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.65-GTNH",
+      "version": "3.8.66-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.7-GTNH",
+      "version": "1.9.8-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.577",
+      "version": "5.09.52.579",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.81-GTNH-pre",
+      "version": "1.14.85-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.22",
+      "version": "3.0.23",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.36",
+      "version": "2.2.37",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.36-GTNH",
+      "version": "2.6.37-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.84",
+      "version": "0.4.85",
       "side": "BOTH"
     },
     "Fether": {
@@ -844,12 +844,12 @@
       "version": "0.0.5",
       "side": "BOTH"
     },
-    "supernova": {
-      "version": "0.1.1",
-      "side": "NONE"
-    },
     "JarJar": {
       "version": "0.3.3-beta",
+      "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.35",
       "side": "BOTH"
     }
   },
@@ -968,10 +968,6 @@
     },
     "EndlessIDs": {
       "version": "1.7.3",
-      "side": "BOTH"
-    },
-    "Tinkers-Gregworks": {
-      "version": "1.0.32",
       "side": "BOTH"
     },
     "Extreme Sound Muffler": {
