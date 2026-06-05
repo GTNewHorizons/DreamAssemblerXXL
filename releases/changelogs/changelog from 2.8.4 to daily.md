@@ -13,6 +13,7 @@
 > * GTNH-Credits
 > * GTNHExtLib
 > * GregoryTweaksForCrafting
+> * GuideNH
 > * JarJar
 > * MouseTweaks
 > * NoHotbarNeeded
@@ -3538,6 +3539,11 @@ Mod is client-side only.
 >* fix TF compat by @Alexdoru in https://github.com/GTNewHorizons/GregoryTweaksForCrafting/pull/2 (1.0.1)
 >* forgot to spotless by @Caedis in https://github.com/GTNewHorizons/GregoryTweaksForCrafting/pull/1 (1.0.0)
 
+# New Mod - GuideNH:1.3.3
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/commits/1.3.3/compare/1.3.3...1.3.3
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Hardcore-Ender-Expansion - 1.12.16-GTNH --> 1.12.22-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.16-GTNH...1.12.22-GTNH
 
