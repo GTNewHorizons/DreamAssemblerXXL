@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-03T08:32:24.179472",
-  "config": "2.9.0-nightly-2026-06-02",
+  "last_updated": "2026-06-04T08:03:52.132101",
+  "config": "2.9.0-nightly-2026-06-03",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.19-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-969-GTNH",
+      "version": "rv3-beta-971-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.64-GTNH",
+      "version": "3.8.66-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.7-GTNH",
+      "version": "1.9.8-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.21",
+      "version": "1.7.22",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.28",
+      "version": "2.10.29",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.575",
+      "version": "5.09.52.578",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.157",
+      "version": "2.7.158",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.273",
+      "version": "2.8.274",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "WailaHarvestability": {
-      "version": "1.3.5-GTNH",
+      "version": "1.3.6-GTNH",
       "side": "BOTH"
     },
     "WAILAPlugins": {
@@ -645,7 +645,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.3.11",
+      "version": "1.3.12",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -657,11 +657,11 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.7.7-GTNH",
+      "version": "7.7.8-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.22",
+      "version": "3.0.23",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -693,7 +693,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.5.11",
+      "version": "1.5.12",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.36",
+      "version": "2.2.37",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.28-GTNH",
+      "version": "1.3.29-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.36-GTNH",
+      "version": "2.6.37-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.84",
+      "version": "0.4.85",
       "side": "BOTH"
     },
     "Freecam": {
