@@ -76,7 +76,7 @@ class AvailableAssets(GTNHBaseModel):
     ) -> tuple[GTNHModInfo, GTNHVersion] | None:
         try:
             mod = self.get_mod(mod_name)
-        except KeyError:
+        except NoModAssetFound:
             log.warn(f"Mod {mod_name} in {source} cannot be found, returning None")
             return None
 

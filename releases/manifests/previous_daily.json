@@ -1,11 +1,11 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-04T08:03:52.132101",
-  "config": "2.9.0-nightly-2026-06-03",
+  "last_updated": "2026-06-05T22:41:40.468492",
+  "config": "2.9.0-nightly-2026-06-04",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.19-GTNH",
+      "version": "1.4.21-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-971-GTNH",
+      "version": "rv3-beta-972-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.21-GTNH",
+      "version": "1.13.25-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "Eternal-Singularity": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "FindIt": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.578",
+      "version": "5.09.52.581",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.24-GTNH",
+      "version": "1.5.25-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.274",
+      "version": "2.8.275",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.80-GTNH",
+      "version": "1.14.87-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.14.2",
+      "version": "8.15.1",
       "side": "BOTH"
     },
     "VisualProspecting": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.62-GTNH",
+      "version": "1.1.64-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -846,6 +846,10 @@
     },
     "GTNHExtLib": {
       "version": "1.0.1",
+      "side": "BOTH"
+    },
+    "GuideNH": {
+      "version": "1.3.3",
       "side": "BOTH"
     }
   },
@@ -950,10 +954,6 @@
       "version": "1.2.14",
       "side": "BOTH"
     },
-    "Tinkers-Gregworks": {
-      "version": "1.0.32",
-      "side": "BOTH"
-    },
     "Extreme Sound Muffler": {
       "version": "1.1.0",
       "side": "CLIENT"
@@ -972,6 +972,10 @@
     },
     "FalsepatternLib": {
       "version": "1.12.0",
+      "side": "BOTH"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.33",
       "side": "BOTH"
     }
   }
