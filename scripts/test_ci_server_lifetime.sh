@@ -36,7 +36,7 @@ while [ $i -lt $STARTUP_TIMEOUT ]; do
     sleep 5
 done
 
-if [ $i -gt $STARTUP_TIMEOUT ]; then
+if [ $i -ge $STARTUP_TIMEOUT ]; then
     echo "Startup timed out after waiting $STARTUP_TIMEOUT seconds"
     kill $SERVER_PID || true
     exit 1
