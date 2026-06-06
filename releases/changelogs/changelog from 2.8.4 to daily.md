@@ -481,10 +481,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-972-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-972-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-973-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-973-GTNH
 
 ## What's Changed:
+>* Fix MEItemIO by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1354 (rv3-beta-973-GTNH)
 >* Fix reusable substituted tools in crafting calculation by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1351 (rv3-beta-972-GTNH)
 >* Disable integration when gt6 is present instead of failing loudly by @MalTeeez in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1353 (rv3-beta-972-GTNH)
 >* Refactor GT constructor to remove version check by @PLASMAchicken in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1348 (rv3-beta-971-GTNH)
@@ -1769,10 +1770,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.582
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.582
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.583
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.583
 
 ## What's Changed:
+>* make latin names appear in italics by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6838 (5.09.52.583)
 >* Fix RecipeHandler Background Position by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6961 (5.09.52.582)
 >* Fix crash when accessing a TileEntity in a GTDummyWorld by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6966 (5.09.52.582)
 >* Fix TFFT Multi I/O Hatches tooltip by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6965 (5.09.52.582)
@@ -5431,10 +5433,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.85
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.85
+# New Mod - VendingMachine:0.4.86
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.86
 
 ## What's Changed:
+>* ME Vending Uplink improvements by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/141 (0.4.86)
 >* Fix mute button having weird behavior by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/140 (0.4.85)
 >* Switch to small coin BGs by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/139 (0.4.84)
 >* New casing texture by @YannickMG in https://github.com/GTNewHorizons/VendingMachine/pull/136 (0.4.83)
