@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-05T22:47:01.251861",
-  "config": "2.9.0-nightly-2026-06-06",
+  "last_updated": "2026-06-06T06:42:13.932866",
+  "config": "2.9.0-nightly-2026-06-06-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.21-GTNH",
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.87-GTNH",
+      "version": "1.14.88-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.38",
+      "version": "2.2.39",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.30",
+      "version": "2.1.31",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.65",
+      "version": "2.0.66",
       "side": "BOTH"
     },
     "Fether": {
