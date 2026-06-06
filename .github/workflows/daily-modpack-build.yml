@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: master
-          persist-credentials: none
+          persist-credentials: false
 
       - name: Set up python
         id: setup-python
