@@ -165,11 +165,15 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.30
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.31
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.30
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.31
 
 ## What's Changed:
+>* Link up block outline shader to iris shaders by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1814 (2.1.31)
+>* Fix beacon beams by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1821 (2.1.31)
+>* Fixes a regression with TFC.   by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1822 (2.1.31)
+>* Fix bottom-face being flipped for compact CTM by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1820 (2.1.31)
 >* Improve perf of EmissiveTextureAutoloader.resourceExists by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1805 (2.1.30)
 >* feat(hand): add cancellable RenderHandEvent for canRender by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1806 (2.1.30)
 >* Upload fewer things by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1811 (2.1.30)
@@ -1362,10 +1366,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.65
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.65
+# New Mod - CropsNH:2.0.66
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.66
 
 ## What's Changed:
+>* Breeder/Generator Bug Fixes and QoL improvements by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/146 (2.0.66)
+>* Fix IF only crops being sometimes harvestable by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/147 (2.0.66)
 >* Switch output mode to output items via mOutputItems by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/145 (2.0.65)
 >* Single Block Machine Textures (#141) by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/142 (2.0.64)
 >* Finalize IF Structure Diagnostics by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/140 (2.0.63)
@@ -4978,10 +4984,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.59-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Salis-Arcana/pull/7 (1.1.53-GTNH)
 
-# Updated - ServerUtilities - 2.2.2 --> 2.2.38
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.38
+# Updated - ServerUtilities - 2.2.2 --> 2.2.39
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.39
 
 ## What's Changed:
+>* Remove Brigadier transformer exception by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/308 (2.2.39)
 >* add `/motd` command by @sawyergt in https://github.com/GTNewHorizons/ServerUtilities/pull/304 (2.2.38)
 >* Add command permissions support for brigadier commands by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/287 (2.2.38)
 >* fix(backup): flush pending world writes before backup by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/305 (2.2.37)
@@ -5325,10 +5332,11 @@ Mod is client-side only.
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.33
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.87-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.87-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.88-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.88-GTNH
 
 ## What's Changed:
+>* Default whitelist mode to true for slime islands and ore bushes by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TinkersConstruct/pull/295 (1.14.88-GTNH)
 >* Improve glass pane rendering by @Majora320 in https://github.com/GTNewHorizons/TinkersConstruct/pull/270 (1.14.87-GTNH)
 >* Modern toolstation behavior by @FrostyFire1 in https://github.com/GTNewHorizons/TinkersConstruct/pull/294 (1.14.86-GTNH)
 >* Improve perf of TextureHelper.textureExists by @tiffit in https://github.com/GTNewHorizons/TinkersConstruct/pull/292 (1.14.80-GTNH)
