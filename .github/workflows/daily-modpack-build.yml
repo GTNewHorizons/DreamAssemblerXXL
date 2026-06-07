@@ -234,8 +234,6 @@ jobs:
 
 
   upload:
-    permissions:
-      contents: write # push commit
     needs: [build, test]
     runs-on: ubuntu-24.04
     env:
@@ -245,6 +243,8 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v5
         with:
+          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+          persist-credentials: true
           fetch-depth: 0
           ref: master
 
