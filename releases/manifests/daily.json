@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-06T09:41:56.436063",
-  "config": "2.9.0-nightly-2026-06-06-03",
+  "last_updated": "2026-06-07T07:16:41.172057",
+  "config": "2.9.0-nightly-2026-06-07",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.21-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-973-GTNH",
+      "version": "rv3-beta-974-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.583",
+      "version": "5.09.52.584",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.26",
+      "version": "1.6.27",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.37",
+      "version": "1.4.38",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.26",
+      "version": "1.5.27",
       "side": "BOTH"
     },
     "waila": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.39",
+      "version": "2.2.40",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.31",
+      "version": "2.1.32",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.36-GTNH",
+      "version": "0.1.37-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
