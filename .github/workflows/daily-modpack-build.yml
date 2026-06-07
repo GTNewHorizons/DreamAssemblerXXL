@@ -6,24 +6,26 @@ on:
     - cron: '20 3 * * *' # 3:20am UTC every day
 
 jobs:
-  daily-modpack-build:
+  build:
     runs-on: ubuntu-24.04
+    outputs:
+      today: ${{ steps.date.outputs.today }}
+      daily_non_daily_changelog_file: ${{ steps.release-info.outputs.daily_non_daily_changelog_file }}
+      changelog_name: ${{ steps.changelog-name.outputs.changelog_name }}
     steps:
       #  check-out repo and set-up python
       - name: Check out repository
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
           ref: master
+          persist-credentials: false
+
       - name: Set up python
         id: setup-python
         uses: actions/setup-python@v6
         with:
           python-version: 3.10.5
-      - name: Setup private repo access token
-        shell: bash
-        run: echo "${{ secrets.NIGHTLY_GITHUB_TOKEN }}" > ~/.github_personal_token
 
       # install & configure poetry
       - name: Install Poetry
@@ -66,7 +68,6 @@ jobs:
           restore-keys: |
             daxxl-daily-${{ runner.os }}-
 
-
       - name: Build modpack archives
         shell: bash
         env:
@@ -83,8 +84,8 @@ jobs:
           key: daxxl-daily-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
 
       - name: Retrieve last non-daily release name
+        id: release-info
         shell: bash
-        if: success() || failure()
         run: |
           last_non_daily_release_name=$(jq -r '
           .releases
@@ -98,8 +99,10 @@ jobs:
               ]
           ) | last
           ' ./gtnh-modpack.json)
-          echo "daily_non_daily_changelog_file=./releases/changelogs/changelog from ${last_non_daily_release_name} to daily.md" >> $GITHUB_ENV
-          echo "last_non_daily_release_name=${last_non_daily_release_name}" >> $GITHUB_ENV
+          changelog_file="./releases/changelogs/changelog from ${last_non_daily_release_name} to daily.md"
+          echo "daily_non_daily_changelog_file=${changelog_file}" >> "$GITHUB_ENV"
+          echo "last_non_daily_release_name=${last_non_daily_release_name}" >> "$GITHUB_ENV"
+          echo "daily_non_daily_changelog_file=${changelog_file}" >> "$GITHUB_OUTPUT"
 
       - name: Generate changelog between daily and last non-daily release
         shell: bash
@@ -107,16 +110,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
           poetry run python -m gtnh.cli.generate_changelog --previous-release-name "$last_non_daily_release_name" daily > "$daily_non_daily_changelog_file"
-
-      # Upload modpack
-
-      - name: Upload manifest
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
-        if: success() || failure()
-        with:
-          name: gtnh-daily-${{ steps.date.outputs.today }}-manifest.json
-          path: releases/manifests/daily.json
 
       - name: Upload manifest job summary
         shell: bash
@@ -147,49 +140,152 @@ jobs:
           mv releases/multi_poly/GT_New_Horizons_daily_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
           mv releases/multi_poly/GT_New_Horizons_daily_Java_17-25.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip"
 
+      # Pulls the newest changelog filename and stores it in an env variable
+      # so we can use it in the commit
+      - name: Retrieve Changelog Name
+        id: changelog-name
+        shell: bash
+        run: |
+          changelog_name=$(./scripts/newest_changelog.sh './releases/changelogs/daily builds')
+          echo "changelog_name=${changelog_name}" >> "$GITHUB_OUTPUT"
+
+      # Bundle everything the test/upload jobs need into a single internal artifact
+      - name: Upload build bundle for downstream jobs
+        uses: actions/upload-artifact@v7
+        with:
+          name: daily-build-bundle
+          path: |
+            GTNH-daily-${{ steps.date.outputs.today }}-server-java8.zip
+            GTNH-daily-${{ steps.date.outputs.today }}-server-java17-25.zip
+            GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+            GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip
+            releases/manifests/daily.json
+            releases/changelogs/
+            gtnh-assets.json
+          if-no-files-found: error
+          retention-days: 1
+
+
+  test:
+    needs: build
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        include:
+          - java-version: 25
+            zip-variant: "server-java17-25"
+            java-args: "-Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui"
+            startup-timeout: 120
+            settle-timeout: 60
+          - java-version: 8
+            zip-variant: "server-java8"
+            java-args: "-Xms1G -Xmx2500m -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=5 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui"
+            startup-timeout: 240
+            settle-timeout: 120
+    steps:
+      - name: Check out repository for scripts
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: master
+          persist-credentials: false
+          sparse-checkout: 
+            scripts/
+
+      - name: Download build bundle
+        uses: actions/download-artifact@v8
+        with:
+          name: daily-build-bundle
+
+      - name: Unpack server artifact
+        run: |
+          mkdir -p /tmp/gtnh-unpacked
+          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.zip-variant }}.zip" -d /tmp/gtnh-unpacked/
+          chmod -R u+rX /tmp/gtnh-unpacked
+
+      - name: Install Java
+        uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java-version }}
+        
+      - name: Install RCON
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -sSL -o rcon-cli.tar.gz https://github.com/itzg/rcon-cli/releases/download/1.7.5/rcon-cli_1.7.5_linux_amd64.tar.gz
+          echo "587f771ae5d4424eb6c15cdf76634049cb29c3ff2b2020500fe26c64c66aab62  rcon-cli.tar.gz" | sha256sum -c -
+          tar -xz -C /usr/local/bin -f rcon-cli.tar.gz rcon-cli
+          rm rcon-cli.tar.gz
+      
+      - name: Prepare files for ci run
+        run: |
+          sed -i 's|enable-rcon=false|enable-rcon=true\nrcon.password=whoahaplaintextpassword\nrcon.port=25575|' /tmp/gtnh-unpacked/server.properties
+          cp scripts/* /tmp/
+
+      - name: Run pack test
+        timeout-minutes: 10
+        env:
+          WORKDIR: "/tmp/gtnh-unpacked"
+          JAVA_ARGS: "${{ matrix.java-args }}"
+          STARTUP_TIMEOUT: ${{ matrix.startup-timeout }}
+          SETTLE_TIMEOUT: ${{ matrix.settle-timeout }}
+        run: bash /tmp/test_ci_server_lifetime.sh
+
+
+  upload:
+    needs: [build, test]
+    runs-on: ubuntu-24.04
+    env:
+      daily_non_daily_changelog_file: ${{ needs.build.outputs.daily_non_daily_changelog_file }}
+      changelog_name: ${{ needs.build.outputs.changelog_name }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 0
+          ref: master
+
+      - name: Download build bundle
+        uses: actions/download-artifact@v7
+        with:
+          name: daily-build-bundle
+
+      # Upload the actual variants of the modpack now that we've tested them
+      - name: Upload manifest
+        uses: actions/upload-artifact@v7
+        with:
+          name: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
+          path: releases/manifests/daily.json
+
       - name: Upload server zip
         uses: actions/upload-artifact@v7
-        # Upload even if one of the zips fails to upload
-        if: success() || failure()
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-server-java8.zip
+          path: GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
           archive: false
 
       - name: Upload modern java server zip
         uses: actions/upload-artifact@v7
-        # Upload even if one of the zips fails to upload
-        if: success() || failure()
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-server-java17-25.zip
+          path: GTNH-daily-${{ needs.build.outputs.today }}-server-java17-25.zip
           archive: false
 
       - name: Upload MMC zip
         uses: actions/upload-artifact@v7
-        # Upload even if one of the zips fails to upload
-        if: success() || failure()
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+          path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
           archive: false
 
       - name: Upload modern java Prism zip
         uses: actions/upload-artifact@v7
-        # Upload even if one of the zips fails to upload
-        if: success() || failure()
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip
+          path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-25.zip
           archive: false
-
-      # Pulls the newest changelog filename and stores it in an env variable
-      # so we can use it in the commit
-      - name: Retrieve Changelog Name
-        shell: bash
-        if: success() || failure()
-        run: |
-          echo "changelog_name=$(./scripts/newest_changelog.sh './releases/changelogs/daily builds')" >> $GITHUB_ENV
 
       - name: Push daily changelog in commit to master
         shell: bash
-        if: success() || failure()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -200,4 +296,3 @@ jobs:
           git add ./gtnh-assets.json
           git commit -m "Upload daily $changelog_name"
           git push origin master
-      

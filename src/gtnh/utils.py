@@ -39,15 +39,15 @@ def get_curse_token() -> str:
 
 
 def _get_token(token_name: str, token_env: str, token_path: str) -> str:
-    if os.getenv(token_name, None) is None:
+    if os.getenv(token_env, None) is None:
         token_file = os.path.expanduser(token_path)
         if os.path.exists(token_file):
             with open(token_file) as f:
                 token = f.readline().rstrip()
-                os.environ[token_name] = token
+                os.environ[token_env] = token
         else:
             raise Exception(f"Token '{token_name}' not found in '{token_env}' or '{token_file}'")
-    return os.getenv(token_name, "<unset>")
+    return os.getenv(token_env, "<unset>")
 
 
 def copy_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
