@@ -173,15 +173,29 @@ jobs:
       matrix:
         include:
           - java-version: 25
-            zip-variant: "server-java17-25"
-            java-args: "-Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui"
-            startup-timeout: 120
-            settle-timeout: 60
+            server-zip-variant: server-java17-25
+            client-zip-variant: mmcprism-java17-25
+            server-java-args: "-Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui"
+            server-startup-timeout: 120
+            server-settle-time: 60
+            client-max-memory: 3400m
+
           - java-version: 8
-            zip-variant: "server-java8"
-            java-args: "-Xms1G -Xmx2500m -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=5 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui"
-            startup-timeout: 240
-            settle-timeout: 120
+            server-zip-variant: server-java8
+            client-zip-variant: mmcprism-java17-25
+            server-java-args: "-Xms1G -Xmx2500m -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=5 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui"
+            server-startup-timeout: 240
+            server-settle-time: 120
+            client-max-memory: 4400m
+
+    env:
+      WORK_DIR: /tmp/daily-test
+      SERVER_JAVA_ARGS: ${{ matrix.server-java-args }}
+      SERVER_START_TIMEOUT: ${{ matrix.server-startup-timeout }}
+      SERVER_SETTLE_DURATION: ${{ matrix.server-settle-time }}
+      RCON_PASSWORD: whoahaplaintextpassword
+      CLIENT_WINDOW_NAME: "GT New Horizons"
+
     steps:
       - name: Check out repository for scripts
         uses: actions/checkout@v5
@@ -192,23 +206,32 @@ jobs:
           sparse-checkout: 
             scripts/
 
+      - name: Install dependencies (for clientside)
+        run: |
+          sudo apt update
+          sudo apt install -y xvfb libgl1-mesa-dri xauth libegl1 libegl-mesa0 ffmpeg fonts-dejavu-core python3-xlib xdotool x11-xserver-utils scrot
+
       - name: Download build bundle
         uses: actions/download-artifact@v8
         with:
           name: daily-build-bundle
 
-      - name: Unpack server artifact
+      - name: Unpack build artifacts
         run: |
-          mkdir -p /tmp/gtnh-unpacked
-          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.zip-variant }}.zip" -d /tmp/gtnh-unpacked/
-          chmod -R u+rX /tmp/gtnh-unpacked
+          set -euo pipefail
+          mkdir -p /tmp/${{ env.WORK_DIR }}/server
+          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.server-zip-variant }}.zip" -d /tmp/${{ env.WORK_DIR }}/server
+          chmod -R u+rX /tmp/${{ env.WORK_DIR }}/server
+          mkdir -p /tmp/${{ env.WORK_DIR }}/client
+          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.client-zip-variant }}.zip" -d /tmp/${{ env.WORK_DIR }}/client
+          chmod -R u+rX /tmp/${{ env.WORK_DIR }}/client
 
       - name: Install Java
         uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165
         with:
           distribution: temurin
           java-version: ${{ matrix.java-version }}
-        
+
       - name: Install RCON
         shell: bash
         run: |
@@ -217,20 +240,101 @@ jobs:
           echo "587f771ae5d4424eb6c15cdf76634049cb29c3ff2b2020500fe26c64c66aab62  rcon-cli.tar.gz" | sha256sum -c -
           tar -xz -C /usr/local/bin -f rcon-cli.tar.gz rcon-cli
           rm rcon-cli.tar.gz
-      
-      - name: Prepare files for ci run
-        run: |
-          sed -i 's|enable-rcon=false|enable-rcon=true\nrcon.password=whoahaplaintextpassword\nrcon.port=25575|' /tmp/gtnh-unpacked/server.properties
-          cp scripts/* /tmp/
 
-      - name: Run pack test
+      - name: Install prism-bootstrap
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -sSL -o prism-bootstrap https://github.com/MalTeeez/prism-bootstrap/releases/download/1.0.1/prism-bootstrap-1.0.1-x86_64-unknown-linux-gnu
+          echo "3ea7f72289dd3ea95f0b871c8cd021730a5a28a75c4f199c18f4cf308f4f3e0f  prism-bootstrap" | sha256sum -c -
+          chmod +x prism-bootstrap && mv prism-bootstrap /usr/local/bin/
+
+      - name: Install client
+        shell: bash
+        working-directory: ${{ env.WORK_DIR }}/client
+        run: >-
+          prism-bootstrap .
+          --platform linux
+          --headless
+          --xmx ${{ matrix.client-max-memory }}
+          --jvm-arg "-Dheadlessnh.active=true"
+          --jvm-arg "-Dheadlessnh.combined=true"
+          --jvm-arg "-Dheadlessnh.markerDir=${{ env.WORK_DIR }}/run"
+          --game-dir ${{ env.WORK_DIR }}/client/.minecraft
+
+      - name: Add HeadlessNH to client mods
+        shell: bash
+        working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
+        run: |
+          set -euo pipefail
+          curl -sSL -o headlessnh-1.0.1.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.1/headlessnh-1.0.1.jar
+          echo "7c0c53eddd5d12c6f10dafa515dfb139eac26e4f07de19e270826e7893b8d14a  headlessnh-1.0.1.jar " | sha256sum -c -
+
+      - name: Start server
         timeout-minutes: 10
+        run: bash scripts/tests/orchestrator.sh start-server
+
+      - name: Run client
+        timeout-minutes: 10
+        run: bash scripts/tests/orchestrator.sh run-client
+
+      - name: Stop server
+        run: bash scripts/tests/orchestrator.sh stop-server
+
+      - name: Verify server
+        if: always()
+        run: bash scripts/tests/orchestrator.sh verify-server
+
+      - name: Verify client
+        if: always()
+        run: bash scripts/tests/orchestrator.sh verify-client
+
+      - name: Upload client recording
+        id: upload-video
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-java${{ matrix.java-version }}
+          path: ${{ env.WORK_DIR }}/rundir/client.mp4
+          if-no-files-found: ignore
+
+      - name: Upload client screenshots
+        id: upload-screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-java${{ matrix.java-version }}
+          path: ${{ env.WORK_DIR }}/rundir/screenshot.*.png
+          if-no-files-found: ignore
+
+      - name: Upload test job summary
+        shell: bash
+        if: success() || failure()
+        continue-on-error: true
         env:
-          WORKDIR: "/tmp/gtnh-unpacked"
-          JAVA_ARGS: "${{ matrix.java-args }}"
-          STARTUP_TIMEOUT: ${{ matrix.startup-timeout }}
-          SETTLE_TIMEOUT: ${{ matrix.settle-timeout }}
-        run: bash /tmp/test_ci_server_lifetime.sh
+          SCREENSHOTS_URL: ${{ steps.upload-screenshots.outputs.artifact-url }}
+          VIDEO_URL: ${{ steps.upload-video.outputs.artifact-url }}
+        run: |
+          echo "## Client test stages (Java ${{ matrix.java-version }})" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Stage | Java ${{ matrix.java-version }} |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| ----- | ------ |" >> "$GITHUB_STEP_SUMMARY"
+
+          for stage in "mainMenu:Main menu" "serverLoaded:Joined server" "worldLoaded:Joined singleplayer"; do
+            marker="${stage%%:*}"
+            label="${stage#*:}"
+            if [ -f "$WORK_DIR/rundir/screenshot.$marker.png" ] && [ -n "$SCREENSHOTS_URL" ]; then
+              echo "| $label | [+ screenshot]($SCREENSHOTS_URL) |" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "| $label | - |" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
+          if [ -n "$VIDEO_URL" ]; then
+            echo "| Recording | [+ client.mp4]($VIDEO_URL) |" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "| Recording | - |" >> "$GITHUB_STEP_SUMMARY"
+          fi
 
 
   upload:
