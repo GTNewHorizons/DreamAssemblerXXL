@@ -233,6 +233,26 @@ jobs:
         run: bash /tmp/test_ci_server_lifetime.sh
 
 
+  notify-failure:
+    needs: [build, test]
+    if: always() && needs.test.result == 'failure'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Send Discord webhook on test failure
+        shell: bash
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
+            echo "DISCORD_WEBHOOK_URL secret not set, skipping notification"
+            exit 0
+          fi
+          content=":x: Daily modpack build **${{ needs.build.outputs.today }}** failed the pack test.\n${RUN_URL}"
+          payload=$(jq -n --arg content "$content" '{content: $content}')
+          curl -fsS -X POST -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL"
+
   upload:
     needs: [build, test]
     runs-on: ubuntu-24.04
