@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-11T16:07:52.601733",
-  "config": "2.9.0-nightly-2026-06-10",
+  "last_updated": "2026-06-12T08:05:39.457778",
+  "config": "2.9.0-nightly-2026-06-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.21-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-979-GTNH",
+      "version": "rv3-beta-980-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.598",
+      "version": "5.09.52.600",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.13",
+      "version": "0.11.14",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.284",
+      "version": "2.8.285",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.30",
+      "version": "1.7.31",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.35",
+      "version": "2.1.36",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.88",
+      "version": "0.4.89",
       "side": "BOTH"
     },
     "Freecam": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.71",
+      "version": "2.0.72",
       "side": "BOTH"
     },
     "Fether": {
@@ -837,7 +837,7 @@
       "side": "BOTH"
     },
     "JarJar": {
-      "version": "0.3.3-beta",
+      "version": "0.3.4-beta",
       "side": "BOTH"
     },
     "NoHotbarNeeded": {
