@@ -9,15 +9,16 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 WORK_DIR="${WORK_DIR:?WORK_DIR must be set}"
 CLIENT_DIR="${CLIENT_DIR:-$WORK_DIR/client}"
+CLIENT_MC_DIR="${CLIENT_MC_DIR:-$CLIENT_DIR/.minecraft}"
 SERVER_DIR="${SERVER_DIR:-$WORK_DIR/server}"
 RUN_DIR="${RUN_DIR:-$WORK_DIR/run}"
-export CLIENT_DIR SERVER_DIR RUN_DIR
+export CLIENT_DIR CLIENT_MC_DIR SERVER_DIR RUN_DIR
 
 SERVER_READY_FLAG="$RUN_DIR/server.ready"
 SERVER_EXIT_FLAG="$RUN_DIR/server.exit"
-CLIENT_LOADED_FLAG="$RUN_DIR/headlessnh.marker.mainMenu"
-CLIENT_JOINED_FLAG="$RUN_DIR/headlessnh.marker.serverLoaded"
-CLIENT_SINGLEP_FLAG="$RUN_DIR/headlessnh.marker.worldLoaded"
+CLIENT_LOADED_FLAG="$RUN_DIR/.mainmenu.headlessnh"
+CLIENT_JOINED_FLAG="$RUN_DIR/.serverloaded.headlessnh"
+CLIENT_SINGLEP_FLAG="$RUN_DIR/.worldloaded.headlessnh"
 export SERVER_READY_FLAG SERVER_EXIT_FLAG CLIENT_LOADED_FLAG CLIENT_JOINED_FLAG CLIENT_SINGLEP_FLAG
 
 SERVER_STOP_TIMEOUT="${SERVER_STOP_TIMEOUT:-20}"
@@ -35,7 +36,7 @@ watch_markers() {
     for m in "$CLIENT_LOADED_FLAG" "$CLIENT_JOINED_FLAG" "$CLIENT_SINGLEP_FLAG"; do
       if [ -e "$m" ] && [ -z "${seen[$m]:-}" ]; then
         seen[$m]=1
-        name="${m##*.}"
+        name="$(basename "$m" | cut -d. -f2)"
         if scrot -o "$RUN_DIR/screenshot.$name.png" 2>/dev/null; then
           echo "marker '$name' appeared -- saved screenshot.$name.png"
         else
@@ -43,14 +44,15 @@ watch_markers() {
         fi
       fi
     done
-    sleep 1
+    sleep 0.5
   done
 }
 
 run_client() {
   [ -e "$SERVER_READY_FLAG" ] || { echo "server never signalled ready"; exit 1; }
 
-  DISPLAY=":${DISPLAY_NUM:-99}" watch_markers &
+  export DISPLAY=":${DISPLAY_NUM:-99}"
+  watch_markers &
   local watcher_pid=$!
 
   local rc=0

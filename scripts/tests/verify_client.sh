@@ -8,10 +8,11 @@ set -uo pipefail
 shopt -s nullglob
 
 RUN_DIR="${RUN_DIR:?RUN_DIR must be set}"
-CLIENT_DIR="${CLIENT_DIR:?CLIENT_DIR must be set}"
+CLIENT_MC_DIR="${CLIENT_MC_DIR:?CLIENT_MC_DIR must be set}"
 
 CLIENT_LOG="$RUN_DIR/client.log"
 CLIENT_EXIT_FLAG="$RUN_DIR/client.exit"
+CLIENT_KILLED_FLAG="$RUN_DIR/client.killed"
 
 rc=0
 
@@ -22,18 +23,25 @@ else
   exit_code=missing
 fi
 echo "client exit code: $exit_code"
-[ "$exit_code" = "0" ] || rc=1
+
+# 137/143 are fine only when we signalled the game itself, i.e.
+# the client wouldn't close nicely, otherwise a non-zero code is a failure.
+case "$exit_code" in
+  0) ;;
+  137|143) [ -e "$CLIENT_KILLED_FLAG" ] || rc=1 ;;
+  *) rc=1 ;;
+esac
 
 # Progress markers dropped by HeadlessNH as the client reaches each stage
-for marker in $CLIENT_LOADED_FLAG $CLIENT_JOINED_FLAG $CLIENT_SINGLEP_FLAG; do
-  if [ ! -e "$RUN_DIR/$marker" ]; then
+for marker in "$CLIENT_LOADED_FLAG" "$CLIENT_JOINED_FLAG" "$CLIENT_SINGLEP_FLAG"; do
+  if [ ! -e "$marker" ]; then
     echo "headlessnh marker missing: $marker -- client never reached the stage?"
     rc=1
   fi
 done
 
 # Crash reports
-crash_reports=("$CLIENT_DIR/crash-reports/crash"*.txt)
+crash_reports=("$CLIENT_MC_DIR/crash-reports/crash"*.txt)
 if [ "${#crash_reports[@]}" -gt 0 ]; then
   latest_crash_report="${crash_reports[-1]}"
   echo "latest crash report detected ${latest_crash_report##*/}:"
@@ -42,7 +50,7 @@ if [ "${#crash_reports[@]}" -gt 0 ]; then
 fi
 
 # JVM fatal error logs
-hs_err_logs=("$CLIENT_DIR/hs_err_pid"*.log)
+hs_err_logs=("$CLIENT_MC_DIR/hs_err_pid"*.log)
 if [ "${#hs_err_logs[@]}" -gt 0 ]; then
   latest_hs_err="${hs_err_logs[-1]}"
   echo "JVM fatal error log detected ${latest_hs_err##*/}:"
@@ -52,6 +60,7 @@ fi
 
 if [ -r "$CLIENT_LOG" ]; then
   # idk can't find anything that we want to heck the logs for, but would do it here
+  echo ""
 else
   echo "client log missing or unreadable: $CLIENT_LOG"
   rc=1

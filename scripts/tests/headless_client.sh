@@ -22,6 +22,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 CLIENT_LOG="$RUN_DIR/client.log"
 CLIENT_EXIT_FLAG="$RUN_DIR/client.exit"
+CLIENT_KILLED_FLAG="$RUN_DIR/client.killed"
 CLIENT_VIDEO="$RUN_DIR/client.mp4"
 XVFB_LOG="$RUN_DIR/xvfb.log"
 
@@ -100,7 +101,7 @@ echo "Xvfb up on :$DISPLAY_NUM"
 ffmpeg -nostdin -loglevel warning -y \
   -f x11grab -draw_mouse 0 -framerate "$RECORD_FPS" -video_size "$RECORD_RESOLUTION" -i "$DISPLAY" \
   -vf "drawtext=fontfile=$RECORD_FONT:text='%{localtime\:%F %T}':x=10:y=10:fontsize=24:fontcolor=white:box=1:boxcolor=black@0.6:boxborderw=8" \
-  -t "$RECORD_MAX_SECONDS" -c:v libx264 -pix_fmt yuv420p -g 1 -r "$RECORD_FPS" \
+  -t "$RECORD_MAX_SECONDS" -c:v libx264 -pix_fmt yuv420p -g 10 -r "$RECORD_FPS" \
   -movflags +frag_keyframe+empty_moov+default_base_moof -f mp4 "$CLIENT_VIDEO" &
 FFMPEG_PID=$!
 sleep 2
@@ -114,6 +115,7 @@ fi
 # 3. launch the game in its own process group so a single signal cleans up everything. 
 #    run_with_exit.sh records the game's code to client.exit
 cd "$CLIENT_MC_DIR"
+echo "maxFps:10" >> options.txt
 setsid bash "$SCRIPT_DIR/run_with_exit.sh" "$CLIENT_EXIT_FLAG" \
   bash -c 'env $(grep -v "^\s*#" "$1" | xargs) "$(head -1 "$2")" @<(tail -n +2 "$2")' \
   _ "$CLIENT_LAUNCH_ENV" "$CLIENT_LAUNCH_ARGV" \
@@ -125,7 +127,7 @@ tail -n +1 -F "$CLIENT_LOG" 2>/dev/null &
 TAIL_PID=$!
 
 # focus window, --sync blocks until the window maps
-if timeout 60 xdotool search --sync --onlyvisible --name "$CLIENT_WINDOW_NAME" windowfocus 2>/dev/null; then
+if timeout ${CLIENT_FOCUS_TIMEOUT:-60} xdotool search --sync --onlyvisible --name "$CLIENT_WINDOW_NAME" windowfocus 2>/dev/null; then
   echo "focused '$CLIENT_WINDOW_NAME' window"
 else
   echo "WARNING: no '$CLIENT_WINDOW_NAME' window to focus within 60s"
@@ -144,6 +146,11 @@ while kill -0 -- "-$GAME_PGID" 2>/dev/null; do
     echo "game exceeded ${CLIENT_RUN_TIMEOUT}s -- closing it"
     break
   fi
+
+  if [ -n "$(ls -A "$CLIENT_MC_DIR/crash-reports" 2>/dev/null)" ]; then
+    echo "client crash report found but game is still running -- ending early"
+    break
+  fi
   sleep 1
 done
 
@@ -159,6 +166,8 @@ if kill -0 -- "-$GAME_PGID" 2>/dev/null; then
     sleep 0.5
   done
   if kill -0 -- "-$GAME_PGID" 2>/dev/null; then
+    # game ignored the nice close; record that the exit code is ours to own
+    : > "$CLIENT_KILLED_FLAG"
     kill -TERM -- "-$GAME_PGID" 2>/dev/null
     for _ in $(seq 1 20); do
       kill -0 -- "-$GAME_PGID" 2>/dev/null || break

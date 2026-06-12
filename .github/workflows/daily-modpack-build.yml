@@ -38,7 +38,7 @@ jobs:
       # load cached venv if cache exists
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .venv
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('poetry.lock', '*/poetry.lock') }}
@@ -61,7 +61,7 @@ jobs:
 
       - name: Load cached mod zips
         id: load_mod_cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: cache
           key: daxxl-daily-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
@@ -77,7 +77,7 @@ jobs:
           poetry run python -m gtnh.cli.assemble_daily
 
       - name: Save cached mod zips
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: steps.load_mod_cache.outputs.cache-hit != 'true'
         with:
           path: cache
@@ -116,21 +116,25 @@ jobs:
         if: success() || failure()
         continue-on-error: true
         run: |
-          echo "# GTNH Daily build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "## GTNH Daily build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
 
-          echo "## Github mods" >> "$GITHUB_STEP_SUMMARY"
+          echo "<details><summary><b>Github mods</b></summary>" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
           echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
           jq -r '.github_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/daily.json | sort >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "</details>" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
 
-          echo "## External mods" >> "$GITHUB_STEP_SUMMARY"
+          echo "<details><summary><b>External mods</b></summary>" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
           echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
           jq -r '.external_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/daily.json | sort >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "</details>" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Relocate built zips
         shell: bash
@@ -169,7 +173,10 @@ jobs:
   test:
     needs: build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write # publish release
     strategy:
+      fail-fast: false
       matrix:
         include:
           - java-version: 25
@@ -195,6 +202,7 @@ jobs:
       SERVER_SETTLE_DURATION: ${{ matrix.server-settle-time }}
       RCON_PASSWORD: whoahaplaintextpassword
       CLIENT_WINDOW_NAME: "GT New Horizons"
+      CLIENT_FOCUS_TIMEOUT: 180
 
     steps:
       - name: Check out repository for scripts
@@ -219,12 +227,14 @@ jobs:
       - name: Unpack build artifacts
         run: |
           set -euo pipefail
-          mkdir -p /tmp/${{ env.WORK_DIR }}/server
-          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.server-zip-variant }}.zip" -d /tmp/${{ env.WORK_DIR }}/server
-          chmod -R u+rX /tmp/${{ env.WORK_DIR }}/server
-          mkdir -p /tmp/${{ env.WORK_DIR }}/client
-          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.client-zip-variant }}.zip" -d /tmp/${{ env.WORK_DIR }}/client
-          chmod -R u+rX /tmp/${{ env.WORK_DIR }}/client
+          mkdir -p ${{ env.WORK_DIR }}/server
+          unzip -q -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.server-zip-variant }}.zip" -d ${{ env.WORK_DIR }}/server
+          chmod -R u+rX ${{ env.WORK_DIR }}/server
+          mkdir -p ${{ env.WORK_DIR }}/client
+          unzip -q -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.client-zip-variant }}.zip" -d /tmp/client-unpacked
+          inner_dir=$(find /tmp/client-unpacked -mindepth 1 -maxdepth 1 -type d | head -n1)
+          chmod -R u+rX "$inner_dir"
+          cp -r "$inner_dir/." ${{ env.WORK_DIR }}/client
 
       - name: Install Java
         uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165
@@ -245,8 +255,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          curl -sSL -o prism-bootstrap https://github.com/MalTeeez/prism-bootstrap/releases/download/1.0.1/prism-bootstrap-1.0.1-x86_64-unknown-linux-gnu
-          echo "3ea7f72289dd3ea95f0b871c8cd021730a5a28a75c4f199c18f4cf308f4f3e0f  prism-bootstrap" | sha256sum -c -
+          curl -sSL -o prism-bootstrap https://github.com/MalTeeez/prism-bootstrap/releases/download/1.0.2/prism-bootstrap-1.0.2-x86_64-unknown-linux-gnu
+          echo "c9701ac81478b808a9bd13a2290e12398cc139a0a40468081e8c4b00aabdc893  prism-bootstrap" | sha256sum -c -
           chmod +x prism-bootstrap && mv prism-bootstrap /usr/local/bin/
 
       - name: Install client
@@ -259,7 +269,11 @@ jobs:
           --xmx ${{ matrix.client-max-memory }}
           --jvm-arg "-Dheadlessnh.active=true"
           --jvm-arg "-Dheadlessnh.combined=true"
-          --jvm-arg "-Dheadlessnh.markerDir=${{ env.WORK_DIR }}/run"
+          --jvm-arg "-Dheadlessnh.markerdir=${{ env.WORK_DIR }}/run"
+          --jvm-arg "-Dheadlessnh.delay.cooldown=2500"
+          --jvm-arg "-Dheadlessnh.delay.mainmenu=7500"
+          --jvm-arg "-Dheadlessnh.delay.serverjoin=10000"
+          --jvm-arg "-Dheadlessnh.delay.singleplayer=10000"
           --game-dir ${{ env.WORK_DIR }}/client/.minecraft
 
       - name: Add HeadlessNH to client mods
@@ -267,8 +281,8 @@ jobs:
         working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
         run: |
           set -euo pipefail
-          curl -sSL -o headlessnh-1.0.1.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.1/headlessnh-1.0.1.jar
-          echo "7c0c53eddd5d12c6f10dafa515dfb139eac26e4f07de19e270826e7893b8d14a  headlessnh-1.0.1.jar " | sha256sum -c -
+          curl -sSL -o headlessnh-1.0.8.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.8/headlessnh-1.0.8.jar
+          echo "a6ca650bdf6fd308432a9e6b6414e018b34ad603ab6665a851a339a6f60873cc  headlessnh-1.0.8.jar" | sha256sum -c -
 
       - name: Start server
         timeout-minutes: 10
@@ -276,6 +290,8 @@ jobs:
 
       - name: Run client
         timeout-minutes: 10
+        env: 
+          XDG_DATA_HOME: ${{ env.WORK_DIR }}/run
         run: bash scripts/tests/orchestrator.sh run-client
 
       - name: Stop server
@@ -289,52 +305,85 @@ jobs:
         if: always()
         run: bash scripts/tests/orchestrator.sh verify-client
 
-      - name: Upload client recording
-        id: upload-video
+      # GH markdown seems to only embed media from CSP-allowlisted domains, which does not include artifacts.
+      # Release asset URLs redirect to release-assets.githubusercontent.com (which is allowed), 
+      # so we use a rolling prerelease as the media host for the summary embeds.
+      - name: Publish screenshots to rolling release
+        id: publish-media
         if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-java${{ matrix.java-version }}
-          path: ${{ env.WORK_DIR }}/rundir/client.mp4
-          if-no-files-found: ignore
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: daily-screenshots
+        run: |
+          set -uo pipefail
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --prerelease \
+              --title "Daily test screenshots" \
+              --notes "Storage for the screenshots embedded in daily test run summaries. Not an actual release." || true
 
-      - name: Upload client screenshots
-        id: upload-screenshots
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: screenshots-java${{ matrix.java-version }}
-          path: ${{ env.WORK_DIR }}/rundir/screenshot.*.png
-          if-no-files-found: ignore
+          for marker in mainmenu serverloaded worldloaded; do
+            src="$WORK_DIR/run/screenshot.$marker.png"
+            [ -f "$src" ] || continue
+            asset="java${{ matrix.java-version }}-$marker.png"
+            cp "$src" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              echo "url_$marker=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          done
+
+          video="$WORK_DIR/run/client.mp4"
+          if [ -f "$video" ]; then
+            asset="java${{ matrix.java-version }}-client.mp4"
+            cp "$video" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              echo "url_video=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          fi
 
       - name: Upload test job summary
         shell: bash
         if: success() || failure()
         continue-on-error: true
         env:
-          SCREENSHOTS_URL: ${{ steps.upload-screenshots.outputs.artifact-url }}
-          VIDEO_URL: ${{ steps.upload-video.outputs.artifact-url }}
+          URL_mainmenu: ${{ steps.publish-media.outputs.url_mainmenu }}
+          URL_serverloaded: ${{ steps.publish-media.outputs.url_serverloaded }}
+          URL_worldloaded: ${{ steps.publish-media.outputs.url_worldloaded }}
+          VIDEO_RELEASE_URL: ${{ steps.publish-media.outputs.url_video }}
         run: |
-          echo "## Client test stages (Java ${{ matrix.java-version }})" >> "$GITHUB_STEP_SUMMARY"
+          echo "<details open><summary><b>Client test results (Java ${{ matrix.java-version }})</b></summary>" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "| Stage | Java ${{ matrix.java-version }} |" >> "$GITHUB_STEP_SUMMARY"
           echo "| ----- | ------ |" >> "$GITHUB_STEP_SUMMARY"
 
-          for stage in "mainMenu:Main menu" "serverLoaded:Joined server" "worldLoaded:Joined singleplayer"; do
-            marker="${stage%%:*}"
-            label="${stage#*:}"
-            if [ -f "$WORK_DIR/rundir/screenshot.$marker.png" ] && [ -n "$SCREENSHOTS_URL" ]; then
-              echo "| $label | [+ screenshot]($SCREENSHOTS_URL) |" >> "$GITHUB_STEP_SUMMARY"
+          while IFS=: read -r marker label; do
+            url_var="URL_$marker"
+            url="${!url_var}"
+            if [ -n "$url" ]; then
+              echo "| $label | ![screenshot]($url) |" >> "$GITHUB_STEP_SUMMARY"
             else
-              echo "| $label | - |" >> "$GITHUB_STEP_SUMMARY"
+              echo "| $label | :x: |" >> "$GITHUB_STEP_SUMMARY"
             fi
-          done
+          done <<'EOF'
+          mainmenu:Main menu
+          serverloaded:Joined server
+          worldloaded:Joined singleplayer
+          EOF
 
-          if [ -n "$VIDEO_URL" ]; then
-            echo "| Recording | [+ client.mp4]($VIDEO_URL) |" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$VIDEO_RELEASE_URL" ]; then
+            echo "| Recording | [:white_check_mark: recording]($VIDEO_RELEASE_URL) |" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "| Recording | - |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Recording | :x: |" >> "$GITHUB_STEP_SUMMARY"
           fi
+
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "</details>" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Final important summary append
+        shell: bash
+        if: success()
+        run: |
+          echo "# :shipit:" >> "$GITHUB_STEP_SUMMARY"
 
 
   upload:
