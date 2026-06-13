@@ -107,10 +107,13 @@ Mod is client-side only.
 >* Fix concurency issue: Client and Server thread both mutating same collection by @Algent in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/82 (2.6.42-GTNH)
 >* Add oredict to bop/witchery Logs by @NotKaizul in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/80 (2.6.41-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.603
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.603
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.604
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.604
 
 ## What's Changed:
+>* [MUI2] Better Gui Slot Filtering by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7116 (5.09.52.604)
+>* Implemented the Terrasteel/Terrestrial Enhancement Augment by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7122 (5.09.52.604)
+>* Defer getInfoData() translation to client for Nuclear Control compatibility by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7105 (5.09.52.604)
 >* Fix Mixer Multi controller tooltip to use correct casing name by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7115 (5.09.52.603)
 >* [MUI2] Port MTEFusionComputer by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7095 (5.09.52.603)
 >* Scanner sends translation keys instead of pre-translated strings by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7090 (5.09.52.603)
@@ -181,10 +184,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Bump fastutil version by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/2 (1.0.2)
 
-# Updated - GTNHLib - 0.11.9 --> 0.11.15
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.15
+# Updated - GTNHLib - 0.11.9 --> 0.11.16
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.16
 
 ## What's Changed:
+>* Update docs on ColorResource by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/400 (0.11.16)
 >* Add a getter to GlyphReplacements by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/398 (0.11.14)
 >* Remove dependency loop and change logger to mc one by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/392 (0.11.14)
 >* wrap ChatComponentItemName text in brackets like vanilla func_151000_E() by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/396 (0.11.13)
@@ -216,6 +220,13 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Remove he_water_config gui texture from block atlas by @tiffit in https://github.com/GTNewHorizons/HydroEnergy/pull/46 (1.4.21)
+
+# Updated - IFU - 1.11.8 --> 1.12.0
+**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.8...1.12.0
+
+## What's Changed:
+>* I.F.U. by @Algent in https://github.com/GTNewHorizons/IFU/pull/27 (1.12.0)
+>* Bug fix that scope creeped into a huge refactor by @Algent in https://github.com/GTNewHorizons/IFU/pull/26 (1.11.9)
 
 # Updated - IguanaTweaksTConstruct - 2.7.7 --> 2.7.8
 **Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.7.7...2.7.8
@@ -290,10 +301,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Change virtual slot updating by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/68 (1.7.31)
 
-# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.102-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.102-GTNH
+# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.103-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.103-GTNH
 
 ## What's Changed:
+>* Fix Autocrefing Permission by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/948 (2.8.103-GTNH)
+>* Fix Broken DisplayName in Untranslator by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/949 (2.8.103-GTNH)
 >* Add server-controlled autocraft permission by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/942 (2.8.102-GTNH)
 
 # Updated - Nuclear-Control - 2.7.9 --> 2.7.10
@@ -308,10 +321,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Remove TConstruct slot support from grave auto-equip when tab is disabled by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/50 (1.12.15-GTNH)
 
-# Updated - OpenComputers - 1.12.44-GTNH --> 1.12.45-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.44-GTNH...1.12.45-GTNH
+# Updated - OpenComputers - 1.12.44-GTNH --> 1.12.46-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.44-GTNH...1.12.46-GTNH
 
 ## What's Changed:
+>* Hopefully fix sounds leak by @Alexdoru in https://github.com/GTNewHorizons/OpenComputers/pull/193 (1.12.46-GTNH)
 >* chore: Clarify NBT data requirement in getItemInNetwork by @Keridos in https://github.com/GTNewHorizons/OpenComputers/pull/198 (1.12.45-GTNH)
 >* Update AE API Usage by @UltraProdigy in https://github.com/GTNewHorizons/OpenComputers/pull/200 (1.12.45-GTNH)
 
@@ -327,6 +341,15 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix cursor jumping when closing rank editor GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/313 (2.3.1)
 
+# Updated - SpiceOfLife - 2.2.9-carrot --> 2.2.10-carrot
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.9-carrot...2.2.10-carrot
+
+## What's Changed:
+>* Separate localization on gui titles by @Ranzuu in https://github.com/GTNewHorizons/SpiceOfLife/pull/56 (2.2.10-carrot)
+
+# Updated - TC-4-Tweaks - 1.5.44 --> 1.5.45
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ThaumicEnergistics - 1.7.53-GTNH --> 1.7.54-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.53-GTNH...1.7.54-GTNH
 
@@ -391,10 +414,11 @@ Mod is client-side only.
 >* Revert "Swap IC2 crops from NH crops in lang keys" by @C0bra5 in https://github.com/GTNewHorizons/gendustry/pull/23 (1.9.11-GTNH)
 >* Swap IC2 crops from NH crops in lang keys by @C0bra5 in https://github.com/GTNewHorizons/gendustry/pull/22 (1.9.10-GTNH)
 
-# Updated - lwjgl3ify - 3.0.23 --> 3.0.24
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.23...3.0.24
+# Updated - lwjgl3ify - 3.0.23 --> 3.0.25
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.23...3.0.25
 
 ## What's Changed:
+>* SDL-GPU and ES support by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/324 (3.0.25)
 >* Fix textBuffer keeping buffered text and bleeding it into the next input by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/344 (3.0.24)
 
 # Credits
