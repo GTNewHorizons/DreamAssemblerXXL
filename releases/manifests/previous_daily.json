@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-13T07:09:40.524572",
-  "config": "2.9.0-nightly-2026-06-12-03",
+  "last_updated": "2026-06-13T18:37:28.418395",
+  "config": "2.9.0-nightly-2026-06-13-03",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.21-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.603",
+      "version": "5.09.52.606",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.15",
+      "version": "0.11.16",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.11.8",
+      "version": "1.12.0",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.286",
+      "version": "2.8.287",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.102-GTNH",
+      "version": "2.8.103-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.45-GTNH",
+      "version": "1.12.46-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.2.9-carrot",
+      "version": "2.2.10-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.24",
+      "version": "3.0.25",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.30-GTNH",
+      "version": "1.3.31-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.6",
+      "version": "1.3.7",
       "side": "BOTH"
     }
   },
@@ -919,7 +919,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.44",
+      "version": "1.5.45",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
