@@ -1,10 +1,8 @@
 # New Mods: 
 > * Foreman
-> * SharedProspecting
 # Mods Removed: 
 > * GTNHExtLib
 > * GuideNH
-> * Tinkers-Gregworks
 # Updated - AE2FluidCraft-Rework - 1.5.88-gtnh --> 1.5.91-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.88-gtnh...1.5.91-gtnh
 
@@ -120,10 +118,18 @@ Mod is client-side only.
 ## What's Changed:
 >* Add ColorUtils using GTNHLib ColorResource by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/1 (0.5.1)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.605-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.605-pre
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.607
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.607
 
 ## What's Changed:
+>* Missed Image Optimizations by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7134 (5.09.52.607)
+>* Fixed phantom slot interaction bug by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7132 (5.09.52.607)
+>* Fix serialization bug in ClientMetaManager by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7131 (5.09.52.606)
+>* Lower Minimum Casings On Vacuum Furnace by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7119 (5.09.52.606)
+>* Add Horizon QA Tests by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6979 (5.09.52.606)
+>* Add new parts for updated dyson swarm module recipe by @flamingowrangler2869 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7059 (5.09.52.606)
+>* Fix stone wildcard retrieved by GTOreDictUnificator by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7133 (5.09.52.606)
+>* New 16x16 Industrial Apiary Upgrade Textures by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7128 (5.09.52.606)
 >* Remove generic "chip" oredict from circuit chips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7032 (5.09.52.605-pre)
 >* Full Borosilicate Glass Refactor + UXV Glass Tier by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7025 (5.09.52.605-pre)
 >* Fix Missing Test Deps by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7102 (5.09.52.605-pre)
@@ -245,10 +251,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Enhance diamond level boost logic by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/35 (2.7.8)
 
-# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.30-GTNH
+# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.31-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.31-GTNH
 
 ## What's Changed:
+>* Fix dupe by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/195 (1.3.31-GTNH)
 >* Added AE2 and Thaumic Energistics NEI integration by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/184 (1.3.30-GTNH)
 >* Fixes Desugaring Baubles by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/190 (1.3.30-GTNH)
 
@@ -291,10 +298,11 @@ Mod is client-side only.
 >* Add check for "." being parsed with exponent E by @Miklebe in https://github.com/GTNewHorizons/ModularUI2/pull/136 (2.3.74-1.7.10)
 >* Fixed toggle button bgOverlay overriding theme bg by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/137 (2.3.74-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.286
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.286
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.287
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.287
 
 ## What's Changed:
+>* Remove GraviSuite Vajra Shapeless Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1813 (2.8.287)
 >* Fix Borosilicate Glass Ids in Coremod Recipes by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1801 (2.8.286)
 >* watering can assembling by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1811 (2.8.285)
 >* deconflict Watering can recipe; add circuit to modular turrets recipes by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1812 (2.8.285)
@@ -352,11 +360,6 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix cursor jumping when closing rank editor GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/313 (2.3.1)
 
-# New Mod - SharedProspecting:2.0.5
-**Full Changelog**: https://github.com/GTNewHorizons/SharedProspecting/commits/2.0.5/compare/2.0.5...2.0.5
-
-## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - SpiceOfLife - 2.2.9-carrot --> 2.2.10-carrot
 **Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.9-carrot...2.2.10-carrot
 
@@ -384,6 +387,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Awakened Ichorium Pickaxe Fixes by @jude123412 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/97 (2.12.24)
 >* Use golden leggings for ichor leggings recipe by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/96 (2.12.23)
+
+# Updated - TinkersConstruct - 1.14.91-GTNH --> 1.14.92-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.91-GTNH...1.14.92-GTNH
+
+## What's Changed:
+>* Multiple dupe/void Fix by @Algent in https://github.com/GTNewHorizons/TinkersConstruct/pull/296 (1.14.92-GTNH)
 
 # Updated - VendingMachine - 0.4.87 --> 0.4.89
 **Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.89
@@ -438,4 +447,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix textBuffer keeping buffered text and bleeding it into the next input by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/344 (3.0.24)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Charsy89, @chrombread, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Charsy89, @chrombread, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
