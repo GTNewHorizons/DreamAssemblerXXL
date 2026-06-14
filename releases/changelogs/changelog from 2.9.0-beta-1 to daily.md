@@ -111,10 +111,12 @@ Mod is client-side only.
 >* Fix concurency issue: Client and Server thread both mutating same collection by @Algent in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/82 (2.6.42-GTNH)
 >* Add oredict to bop/witchery Logs by @NotKaizul in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/80 (2.6.41-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.607
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.607
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.608
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.608
 
 ## What's Changed:
+>* Always allow proxy to function as input hatch by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7137 (5.09.52.608)
+>* Removes forced full-block hitbox for toolbox by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7050 (5.09.52.608)
 >* Missed Image Optimizations by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7134 (5.09.52.607)
 >* Fixed phantom slot interaction bug by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7132 (5.09.52.607)
 >* Fix serialization bug in ClientMetaManager by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7131 (5.09.52.606)
@@ -452,4 +454,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
