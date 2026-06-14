@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-06-13T21:37:03.447521",
-  "config": "2.9.0-nightly-2026-06-13-03",
+  "last_updated": "2026-06-14T09:00:10.945773",
+  "config": "2.9.0-nightly-2026-06-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.21-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.607",
+      "version": "5.09.52.609-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.8",
+      "version": "2.7.9",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.38",
+      "version": "1.4.9-pre",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.33",
+      "version": "2.7.34",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.36",
+      "version": "2.1.37",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.75",
+      "version": "2.0.76",
       "side": "BOTH"
     },
     "Freecam": {
