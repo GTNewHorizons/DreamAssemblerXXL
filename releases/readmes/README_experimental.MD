@@ -365,7 +365,9 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.609-pre |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.3.1 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.14 |
+| [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.0.2 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.11.16 |
+| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.3.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.22-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.11-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
