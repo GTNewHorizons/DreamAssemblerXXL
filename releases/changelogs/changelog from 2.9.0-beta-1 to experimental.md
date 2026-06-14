@@ -1,8 +1,5 @@
 # New Mods: 
 > * Foreman
-# Mods Removed: 
-> * GTNHExtLib
-> * GuideNH
 # Updated - AE2FluidCraft-Rework - 1.5.88-gtnh --> 1.5.91-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.88-gtnh...1.5.91-gtnh
 
@@ -222,6 +219,12 @@ Mod is client-side only.
 >* Add asteroid exclusion zone around DE chaos island  by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7034 (5.09.52.595)
 >* Mech armor frame textures by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7020 (5.09.52.595)
 
+# Updated - GTNHExtLib - 1.0.1 --> 1.0.2
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.1...1.0.2
+
+## What's Changed:
+>* Bump fastutil version by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/2 (1.0.2)
+
 # Updated - GTNHLib - 0.11.9 --> 0.11.16
 **Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.16
 
@@ -233,6 +236,20 @@ Mod is client-side only.
 >* Fix DirectTessellator AGAIN (again) by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/397 (0.11.12)
 >* Fix deps for mods depending on mods using jvmdg by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/394 (0.11.11)
 >* LocalTessellator stuff by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/393 (0.11.10)
+
+# Updated - GuideNH - 1.3.5 --> 1.3.7
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.5...1.3.7
+
+## What's Changed:
+>* Update dependencies.gradle by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/17 (1.3.7)
+>* Update lang by @ChromicRedBrick in https://github.com/GTNewHorizons/GuideNH/pull/16 (1.3.7)
+>* adjust GuideLightweightReloadService so that loading logs are not printed in non debug mode by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/18 (1.3.7)
+>* fix lang key by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/8 (1.3.6)
+>* Update zh_CN.lang by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/9 (1.3.6)
+>* Add multi-recipe usage tag by @koolkrafter5 in https://github.com/GTNewHorizons/GuideNH/pull/10 (1.3.6)
+>* fix some issues by @Windorain in https://github.com/GTNewHorizons/GuideNH/pull/5 (1.3.6)
+>* fix the numeric id issue caused by gt cover by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/12 (1.3.6)
+>* add nbt support for front matter icon and icons by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/14 (1.3.6)
 
 # Updated - Hodgepodge - 2.7.160 --> 2.7.162
 **Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.162
@@ -464,4 +481,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
