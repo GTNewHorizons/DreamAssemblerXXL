@@ -11,11 +11,14 @@
 >* Allow to copy Fluid Interface fluid config to Memory Card by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/443 (1.5.90-gtnh)
 >* Make Fluid Cells storable in Item Cells again by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/441 (1.5.89-gtnh)
 
-# Updated - Angelica - 2.1.32 --> 2.1.36
+# Updated - Angelica - 2.1.32 --> 2.1.37
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.36
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.37
 
 ## What's Changed:
+>* A few redirects for calls that DH was using that we weren't redirecting by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1859 (2.1.37)
+>* VAO stuff by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1858 (2.1.37)
+>* Fix enchant glint fix so that it looks proper by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1856 (2.1.37)
 >* Fix ctm crash due to null by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1852 (2.1.36)
 >* Support extended metas for NEID and EID by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1853 (2.1.36)
 >* Support glPixelStore in display lists by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1854 (2.1.36)
@@ -75,10 +78,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.75
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.75
+# Updated - CropsNH - 2.0.69 --> 2.0.76
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.76
 
 ## What's Changed:
+>* Show alternate seed items in a new NEI handler by @koolkrafter5 in https://github.com/GTNewHorizons/CropsNH/pull/163 (2.0.76)
 >* Add removal noise for cross crop by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/161 (2.0.75)
 >* Fix cross crops when sneaking and change sounds to wood by @koolkrafter5 in https://github.com/GTNewHorizons/CropsNH/pull/160 (2.0.74)
 >* re-add missing oil comb extraction recipe by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/159 (2.0.72)
@@ -118,10 +122,16 @@ Mod is client-side only.
 ## What's Changed:
 >* Add ColorUtils using GTNHLib ColorResource by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/1 (0.5.1)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.607
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.607
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.609-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.609-pre
 
 ## What's Changed:
+>* Missed Image Optimizations by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7134 (5.09.52.609-pre)
+>* Fixed phantom slot interaction bug by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7132 (5.09.52.609-pre)
+>* Always allow proxy to function as input hatch by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7137 (5.09.52.609-pre)
+>* Removes forced full-block hitbox for toolbox by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7050 (5.09.52.609-pre)
+>* Always allow proxy to function as input hatch by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7137 (5.09.52.608)
+>* Removes forced full-block hitbox for toolbox by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7050 (5.09.52.608)
 >* Missed Image Optimizations by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7134 (5.09.52.607)
 >* Fixed phantom slot interaction bug by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7132 (5.09.52.607)
 >* Fix serialization bug in ClientMetaManager by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7131 (5.09.52.606)
@@ -245,10 +255,11 @@ Mod is client-side only.
 >* I.F.U. by @Algent in https://github.com/GTNewHorizons/IFU/pull/27 (1.12.0)
 >* Bug fix that scope creeped into a huge refactor by @Algent in https://github.com/GTNewHorizons/IFU/pull/26 (1.11.9)
 
-# Updated - IguanaTweaksTConstruct - 2.7.7 --> 2.7.8
-**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.7.7...2.7.8
+# Updated - IguanaTweaksTConstruct - 2.7.7 --> 2.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.7.7...2.7.9
 
 ## What's Changed:
+>* Fix validity check due to new logic for gem boost by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/36 (2.7.9)
 >* Enhance diamond level boost logic by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/35 (2.7.8)
 
 # Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.31-GTNH
@@ -446,5 +457,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* SDL-GPU and ES support by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/324 (3.0.25)
 >* Fix textBuffer keeping buffered text and bleeding it into the next input by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/344 (3.0.24)
 
+# Updated - twilightforest - 2.7.33 --> 2.7.34
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.33...2.7.34
+
+## What's Changed:
+>* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
+
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Charsy89, @chrombread, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Marsietiss, @MassAnarchyy, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Worive, @YannickMG, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
