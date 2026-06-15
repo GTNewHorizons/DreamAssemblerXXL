@@ -6,11 +6,13 @@
 >* Allow to copy Fluid Interface fluid config to Memory Card by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/443 (1.5.90-gtnh)
 >* Make Fluid Cells storable in Item Cells again by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/441 (1.5.89-gtnh)
 
-# Updated - Angelica - 2.1.32 --> 2.1.37
+# Updated - Angelica - 2.1.32 --> 2.1.38
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.37
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.38
 
 ## What's Changed:
+>* Rework DH matrix handling by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1861 (2.1.38)
+>* Force invalidate dh depth tex when reconnecting DH Textures by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1862 (2.1.38)
 >* A few redirects for calls that DH was using that we weren't redirecting by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1859 (2.1.37)
 >* VAO stuff by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1858 (2.1.37)
 >* Fix enchant glint fix so that it looks proper by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1856 (2.1.37)
@@ -27,10 +29,12 @@ Mod is client-side only.
 >* More specific shader fixes pertaining to EP by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1831 (2.1.33)
 >* Remove CTM adding .png to tile paths by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1832 (2.1.33)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-982-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-982-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-983-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-983-GTNH
 
 ## What's Changed:
+>* fix blocking mode fix incorrect reason by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1374 (rv3-beta-983-GTNH)
+>* Convert colors to ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1343 (rv3-beta-983-GTNH)
 >* Order from cpu screen only active stack size by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1367 (rv3-beta-982-GTNH)
 >* Fix smart blocking mode on full-block interfaces by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1369 (rv3-beta-982-GTNH)
 >* Fix FMP compatibility by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1368 (rv3-beta-982-GTNH)
@@ -110,6 +114,12 @@ Mod is client-side only.
 >* Bump MCLib from 0.3.7.7 to 0.3.7.8 by @PLASMAchicken in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/83 (2.6.43-GTNH)
 >* Fix concurency issue: Client and Server thread both mutating same collection by @Algent in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/82 (2.6.42-GTNH)
 >* Add oredict to bop/witchery Logs by @NotKaizul in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/80 (2.6.41-GTNH)
+
+# Updated - ForestryMC - 4.11.26 --> 4.11.27
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.26...4.11.27
+
+## What's Changed:
+>* Add API method for protection amount on IArmorApiarist by @FourIsTheNumber in https://github.com/GTNewHorizons/ForestryMC/pull/122 (4.11.27)
 
 # Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.608
 **Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.608
@@ -224,6 +234,12 @@ Mod is client-side only.
 >* fix the numeric id issue caused by gt cover by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/12 (1.3.6)
 >* add nbt support for front matter icon and icons by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/14 (1.3.6)
 
+# Updated - Hardcore-Ender-Expansion - 1.12.22-GTNH --> 1.12.23-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.22-GTNH...1.12.23-GTNH
+
+## What's Changed:
+>* Close GUI when the block is destroyed by @Kogepan229 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/40 (1.12.23-GTNH)
+
 # Updated - Hodgepodge - 2.7.160 --> 2.7.162
 **Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.162
 
@@ -260,10 +276,12 @@ Mod is client-side only.
 >* Added AE2 and Thaumic Energistics NEI integration by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/184 (1.3.30-GTNH)
 >* Fixes Desugaring Baubles by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/190 (1.3.30-GTNH)
 
-# Updated - JarJar - 0.3.3-beta --> 0.3.4-beta
-**Full Changelog**: https://github.com/GTNewHorizons/JarJar/compare/0.3.3-beta...0.3.4-beta
+# Updated - JarJar - 0.3.3-beta --> 0.3.6-beta
+**Full Changelog**: https://github.com/GTNewHorizons/JarJar/compare/0.3.3-beta...0.3.6-beta
 
 ## What's Changed:
+>* Fix classloader shenanigans by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/25 (0.3.6-beta)
+>* SortingIndex override config for modpacks by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/23 (0.3.5-beta)
 >* Fix MR Jars by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/22 (0.3.4-beta)
 
 # Updated - LittleTiles - 1.6.28 --> 1.6.29
@@ -285,10 +303,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow scroll wheel to change page in books by @Goldenlion5648 in https://github.com/GTNewHorizons/Mantle/pull/12 (0.5.3)
 
-# Updated - MatterManipulator - 0.1.37-GTNH --> 0.1.39-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.37-GTNH...0.1.39-GTNH
+# Updated - MatterManipulator - 0.1.37-GTNH --> 0.1.40-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.37-GTNH...0.1.40-GTNH
 
 ## What's Changed:
+>* Fix container duping in some specific conditions by @Algent in https://github.com/GTNewHorizons/MatterManipulator/pull/59 (0.1.40-GTNH)
 >* Use memory card methods for copying AE2 parts by @Kogepan229 in https://github.com/GTNewHorizons/MatterManipulator/pull/58 (0.1.39-GTNH)
 >* CapturingTessellator -> LocalTessellator by @sisyphussy in https://github.com/GTNewHorizons/MatterManipulator/pull/57 (0.1.38-GTNH)
 
@@ -299,10 +318,12 @@ Mod is client-side only.
 >* Add check for "." being parsed with exponent E by @Miklebe in https://github.com/GTNewHorizons/ModularUI2/pull/136 (2.3.74-1.7.10)
 >* Fixed toggle button bgOverlay overriding theme bg by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/137 (2.3.74-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.287
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.287
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.288
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.288
 
 ## What's Changed:
+>* Add recipe for Toxic Everglades Tiny Planet by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1810 (2.8.288)
+>* Fix Energy Core Nano recipe requiring discharged IC2 energy crystal by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1815 (2.8.288)
 >* Remove GraviSuite Vajra Shapeless Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1813 (2.8.287)
 >* Fix Borosilicate Glass Ids in Coremod Recipes by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1801 (2.8.286)
 >* watering can assembling by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1811 (2.8.285)
@@ -446,6 +467,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* SDL-GPU and ES support by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/324 (3.0.25)
 >* Fix textBuffer keeping buffered text and bleeding it into the next input by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/344 (3.0.24)
+
+# Updated - thaumcraft-research-tweaks - 1.3.2 --> 1.4.0
+**Full Changelog**: https://github.com/GTNewHorizons/thaumcraft-research-tweaks/compare/1.3.2...1.4.0
+
+## What's Changed:
+>* Fix cutoff text for research page by @Goldenlion5648 in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/20 (1.4.0)
+>* Don't waste aspects if an aspect is dragged onto itself by @Goldenlion5648 in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/21 (1.4.0)
+>* Add different ordering options in research table by @Goldenlion5648 in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/22 (1.4.0)
 
 # Updated - twilightforest - 2.7.33 --> 2.7.34
 **Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.33...2.7.34
