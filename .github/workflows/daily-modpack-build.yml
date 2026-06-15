@@ -233,6 +233,44 @@ jobs:
         run: bash /tmp/test_ci_server_lifetime.sh
 
 
+  notify-failure:
+    needs: [build, test]
+    if: failure()
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Send Discord webhook on build failure
+        shell: bash
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          BUILD_ID: ${{ needs.build.outputs.today }}
+          RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          set -euo pipefail
+          if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
+            echo "DISCORD_WEBHOOK_URL secret not set, skipping notification"
+            exit 0
+          fi
+          timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          payload=$(jq -n \
+            --arg build "${BUILD_ID:-unknown}" \
+            --arg run_url "$RUN_URL" \
+            --arg run_number "$RUN_NUMBER" \
+            --arg ts "$timestamp" \
+            '{
+              embeds: [{
+                title: "Daily Build Failure",
+                color: 15548997,
+                fields: [
+                  { name: "Build", value: $build, inline: true },
+                  { name: "Run", value: ("[#" + $run_number + "](" + $run_url + ")"), inline: true }
+                ],
+                footer: { text: "GitHub Actions" },
+                timestamp: $ts
+              }]
+            }')
+          curl -fsS -X POST -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL"
+
   upload:
     needs: [build, test]
     runs-on: ubuntu-24.04
