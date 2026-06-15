@@ -233,18 +233,22 @@ jobs:
         run: bash /tmp/test_ci_server_lifetime.sh
 
 
-  notify-failure:
-    needs: [build, test]
-    if: failure()
+  notify-status:
+    needs: [build, test, upload]
+    if: ${{ always() }}
     runs-on: ubuntu-24.04
     steps:
-      - name: Send Discord webhook on build failure
+      - name: Send Discord webhook with build status
         shell: bash
+        continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           BUILD_ID: ${{ needs.build.outputs.today }}
           RUN_NUMBER: ${{ github.run_number }}
+          BUILD_RESULT: ${{ needs.build.result }}
+          TEST_RESULT: ${{ needs.test.result }}
+          UPLOAD_RESULT: ${{ needs.upload.result }}
         run: |
           set -euo pipefail
           if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
@@ -252,19 +256,39 @@ jobs:
             exit 0
           fi
           timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          # Precedence: failure > cancelled > success
+          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
+            title="Daily Build Failure"
+            color=15548997
+            artifacts_field='[]'
+          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ]; then
+            title="Daily Build Cancelled"
+            color=9807270
+            artifacts_field='[]'
+          else
+            title="Daily Build Success"
+            color=5763719
+            artifacts_field=$(jq -n --arg url "${RUN_URL}#artifacts" \
+              '[{ name: "Artifacts", value: ("[Download](" + $url + ")"), inline: true }]')
+          fi
+
           payload=$(jq -n \
+            --arg title "$title" \
+            --argjson color "$color" \
             --arg build "${BUILD_ID:-unknown}" \
             --arg run_url "$RUN_URL" \
             --arg run_number "$RUN_NUMBER" \
             --arg ts "$timestamp" \
+            --argjson extra "$artifacts_field" \
             '{
               embeds: [{
-                title: "Daily Build Failure",
-                color: 15548997,
-                fields: [
+                title: $title,
+                color: $color,
+                fields: ([
                   { name: "Build", value: $build, inline: true },
                   { name: "Run", value: ("[#" + $run_number + "](" + $run_url + ")"), inline: true }
-                ],
+                ] + $extra),
                 footer: { text: "GitHub Actions" },
                 timestamp: $ts
               }]
