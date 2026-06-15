@@ -240,6 +240,7 @@ jobs:
     steps:
       - name: Send Discord webhook with build status
         shell: bash
+        continue-on-error: true
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
