@@ -24,7 +24,14 @@ cleanup() {
 }
 
 start() {
-  local java_args="${SERVER_JAVA_ARGS:?SERVER_JAVA_ARGS must be set}"
+  : "${SERVER_JAVA_ARGS:?SERVER_JAVA_ARGS must be set}"
+  # SERVER_JAVA_ARGS can arrive as a multi-line string.
+  # Split it on whitespace into a proper argv array so the launch below stays happy
+  local java_args=()
+  local arg
+  for arg in $SERVER_JAVA_ARGS; do
+    java_args+=("$arg")
+  done
   local start_timeout="${SERVER_START_TIMEOUT:-240}"
   local settle_duration="${SERVER_SETTLE_DURATION:-30}"
 
@@ -39,7 +46,7 @@ start() {
 
   # Backgrounded and logged to a file so this CI step can finish while the JVM
   # keeps running into the next steps.
-  bash "$SCRIPT_DIR/run_with_exit.sh" "$SERVER_EXIT_FLAG" java $java_args > "$SERVER_LOG" 2>&1 &
+  bash "$SCRIPT_DIR/run_with_exit.sh" "$SERVER_EXIT_FLAG" java "${java_args[@]}" > "$SERVER_LOG" 2>&1 &
 
   tail -n +1 -F "$SERVER_LOG" 2>/dev/null &
   TAIL_PID=$!

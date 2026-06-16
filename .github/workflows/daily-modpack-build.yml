@@ -182,7 +182,14 @@ jobs:
           - java-version: 25
             server-zip-variant: server-java17-25
             client-zip-variant: mmcprism-java17-25
-            server-java-args: "-Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui"
+            server-java-args: |
+              -Xms1G -Xmx2G
+              -Dfml.readTimeout=5
+              -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
+              -Dhorizonqa.reportDir=/tmp/daily-test/run
+              @java9args.txt
+              -jar lwjgl3ify-forgePatches.jar
+              nogui
             server-startup-timeout: 120
             server-settle-time: 60
             client-max-memory: 3400m
@@ -190,7 +197,14 @@ jobs:
           - java-version: 8
             server-zip-variant: server-java8
             client-zip-variant: mmcprism-java17-25
-            server-java-args: "-Xms1G -Xmx2500m -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=5 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui"
+            server-java-args: |
+              -Xms1G -Xmx2500m
+              -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing
+              -Dfml.readTimeout=5
+              -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
+              -Dhorizonqa.reportDir=/tmp/daily-test/run
+              -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+              nogui
             server-startup-timeout: 240
             server-settle-time: 120
             client-max-memory: 4400m
@@ -217,7 +231,7 @@ jobs:
       - name: Install dependencies (for clientside)
         run: |
           sudo apt update
-          sudo apt install -y xvfb libgl1-mesa-dri xauth libegl1 libegl-mesa0 ffmpeg fonts-dejavu-core python3-xlib xdotool x11-xserver-utils scrot
+          sudo apt install -y xvfb libgl1-mesa-dri xauth libegl1 libegl-mesa0 ffmpeg fonts-dejavu-core python3-xlib xdotool x11-xserver-utils scrot x11-utils
 
       - name: Download build bundle
         uses: actions/download-artifact@v8
@@ -274,6 +288,9 @@ jobs:
           --jvm-arg "-Dheadlessnh.delay.mainmenu=7500"
           --jvm-arg "-Dheadlessnh.delay.serverjoin=10000"
           --jvm-arg "-Dheadlessnh.delay.singleplayer=10000"
+          --jvm-arg "-Dheadlessnh.gate.mainmenu=server.ready"
+          --jvm-arg "-Dheadlessnh.gate.serverloaded=serverloaded.gate"
+          --jvm-arg "-Dheadlessnh.gate.timeout=60000"
           --game-dir ${{ env.WORK_DIR }}/client/.minecraft
 
       - name: Add HeadlessNH to client mods
@@ -281,8 +298,18 @@ jobs:
         working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
         run: |
           set -euo pipefail
-          curl -sSL -o headlessnh-1.0.8.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.8/headlessnh-1.0.8.jar
-          echo "a6ca650bdf6fd308432a9e6b6414e018b34ad603ab6665a851a339a6f60873cc  headlessnh-1.0.8.jar" | sha256sum -c -
+          curl -sSL -o headlessnh-1.0.10.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.10/headlessnh-1.0.10.jar
+          echo "660508cc8033ae28483774dd574667316762e7b1b96b7a606d4e8cc04de24c03  headlessnh-1.0.10.jar" | sha256sum -c -
+
+      - name: Add HorizonQA to both client & server mods
+        shell: bash
+        working-directory: ${{ env.WORK_DIR }}
+        run: |
+          set -euo pipefail
+          curl -sSL -o horizonqa-0.6.0.jar https://github.com/GTNewHorizons/Horizon-QA/releases/download/0.6.0/horizonqa-0.6.0.jar
+          echo "52319f44a7b13143a7b4ba7f99d6caaf335bcea2b708085bbbbf82374f63c181  horizonqa-0.6.0.jar" | sha256sum -c -
+          cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/client/.minecraft/mods/
+          cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/server/mods/
 
       - name: Start server
         timeout-minutes: 10
@@ -297,12 +324,22 @@ jobs:
       - name: Stop server
         run: bash scripts/tests/orchestrator.sh stop-server
 
+      - name: Print logs from dual run
+        if: success() || failure()
+        run: |
+         echo "--- Logs from dual test : executor ---"
+         cat ${{ env.WORK_DIR }}/run/dual_test_executor.log
+         echo "--- Logs from dual test : client ---"
+         cat ${{ env.WORK_DIR }}/run/dual_test_client.log
+         echo "--- Logs from dual test : server ---"
+         cat ${{ env.WORK_DIR }}/run/dual_test_server.log
+
       - name: Verify server
-        if: always()
+        if: success() || failure()
         run: bash scripts/tests/orchestrator.sh verify-server
 
       - name: Verify client
-        if: always()
+        if: success() || failure()
         run: bash scripts/tests/orchestrator.sh verify-client
 
       # GH markdown seems to only embed media from CSP-allowlisted domains, which does not include artifacts.
@@ -310,7 +347,7 @@ jobs:
       # so we use a rolling prerelease as the media host for the summary embeds.
       - name: Publish screenshots to rolling release
         id: publish-media
-        if: always()
+        if: success() || failure()
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -322,7 +359,7 @@ jobs:
               --title "Daily test screenshots" \
               --notes "Storage for the screenshots embedded in daily test run summaries. Not an actual release." || true
 
-          for marker in mainmenu serverloaded worldloaded; do
+          for marker in mainmenu serverloaded dual worldloaded; do
             src="$WORK_DIR/run/screenshot.$marker.png"
             [ -f "$src" ] || continue
             asset="java${{ matrix.java-version }}-$marker.png"
@@ -348,6 +385,7 @@ jobs:
         env:
           URL_mainmenu: ${{ steps.publish-media.outputs.url_mainmenu }}
           URL_serverloaded: ${{ steps.publish-media.outputs.url_serverloaded }}
+          URL_dual: ${{ steps.publish-media.outputs.url_dual }}
           URL_worldloaded: ${{ steps.publish-media.outputs.url_worldloaded }}
           VIDEO_RELEASE_URL: ${{ steps.publish-media.outputs.url_video }}
         run: |
@@ -367,6 +405,7 @@ jobs:
           done <<'EOF'
           mainmenu:Main menu
           serverloaded:Joined server
+          dual:HQA tests
           worldloaded:Joined singleplayer
           EOF
 
@@ -378,6 +417,30 @@ jobs:
 
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "</details>" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Format HQA test report
+        id: hqa-format
+        uses: mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d
+        if: success() || failure()
+        with:
+          report_paths: "${{ env.WORK_DIR }}/run/*horizonqa.xml"
+          annotate_only: true
+          job_summary: false
+          detailed_summary: true
+          include_passed: true
+
+      - name: Write HQA test results to summary
+        if: success() || failure()
+        env:
+          TABLE: ${{ steps.hqa-format.outputs.detailed_summary }}
+          JAVA: ${{ matrix.java-version }}
+        run: |
+          {
+            printf '<details><summary><b>HQA test results (Java %s)</b></summary>\n' "$JAVA"
+            printf '%s\n' "$TABLE"
+            printf '</details>\n'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Final important summary append
         shell: bash
