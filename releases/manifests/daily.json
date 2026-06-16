@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-15T18:28:30.124812",
-  "config": "2.9.0-nightly-2026-06-15",
+  "last_updated": "2026-06-16T09:07:45.818277",
+  "config": "2.9.0-nightly-2026-06-16",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.21-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.91-gtnh",
+      "version": "1.5.92-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-983-GTNH",
+      "version": "rv3-beta-984-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.4.3",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -77,7 +77,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.5.10",
+      "version": "1.5.11",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.608",
+      "version": "5.09.52.612",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.288",
+      "version": "2.8.289",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.103-GTNH",
+      "version": "2.8.104-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -361,11 +361,11 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.15-GTNH",
+      "version": "1.12.16-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.46-GTNH",
+      "version": "1.12.47-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.26",
+      "version": "9.17.27",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.54-GTNH",
+      "version": "1.7.55-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.92-GTNH",
+      "version": "1.14.93-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.29",
+      "version": "1.5.30",
       "side": "BOTH"
     },
     "waila": {
