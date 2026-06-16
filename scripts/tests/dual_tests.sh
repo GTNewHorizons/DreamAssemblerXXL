@@ -21,7 +21,15 @@ RCON_PASSWORD="${RCON_PASSWORD:?RCON_PASSWORD must be set}"
 HQA_RESULT_JSON="$RUN_DIR/horizonqa-result.json"
 HQA_RESULT_TIMEOUT="${HQA_RESULT_TIMEOUT:-45}" # Has to be lower than -Dheadlessnh.gate.timeout passed to client
 
+# Send a command to the server via rcon, allows failures
 rcon() {
+  if ! rcon-cli --host "$RCON_HOST" --port "$RCON_PORT" --password "$RCON_PASSWORD" "$@"; then
+    echo "rcon command failed (ignored): $*"
+  fi
+}
+
+# Same as above, but doesnt allow failures
+rcon_strict() {
   if ! rcon-cli --host "$RCON_HOST" --port "$RCON_PORT" --password "$RCON_PASSWORD" "$@"; then
     echo "rcon command failed: $*"
     rc=1
@@ -49,7 +57,7 @@ else
 fi
 
 # Setup & run HQA tests
-gamemode 1 CI
+rcon_strict "gamemode 1 CI"
 rcon "setblock -2 134 -2 0"
 rcon "setblock -2 133 -2 0"
 rcon "setblock -2 132 -2 0"
@@ -62,7 +70,7 @@ sleep 5
 
 rcon "tp CI -2 132 -2"
 rcon "tp CI -2 132 -2"
-rcon "horizonqa runall"
+rcon_strict "horizonqa runall"
 
 crash_reports=("$CLIENT_MC_DIR/crash-reports/crash"*.txt)
 if [ "${#crash_reports[@]}" -gt 0 ]; then
