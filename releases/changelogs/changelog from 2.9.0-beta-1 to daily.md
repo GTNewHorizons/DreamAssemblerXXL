@@ -8,11 +8,14 @@
 >* Allow to copy Fluid Interface fluid config to Memory Card by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/443 (1.5.90-gtnh)
 >* Make Fluid Cells storable in Item Cells again by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/441 (1.5.89-gtnh)
 
-# Updated - Angelica - 2.1.32 --> 2.1.39
+# Updated - Angelica - 2.1.32 --> 2.1.40
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.39
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.40
 
 ## What's Changed:
+>* Separate out entity overlay render mixins by @MalTeeez in https://github.com/GTNewHorizons/Angelica/pull/1872 (2.1.40)
+>* Make Glass CTM Compact, Add Stained Glass Compact CTM by @Auynonymous in https://github.com/GTNewHorizons/Angelica/pull/1873 (2.1.40)
+>* Handle glDrawArraysInstanced and variants, as well as dynamic TE bounds. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1874 (2.1.40)
 >* Add policy for AI contributions & a PR template by @MalTeeez in https://github.com/GTNewHorizons/Angelica/pull/1864 (2.1.39)
 >* Bump glsl-transformation-lib and buildscript by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1865 (2.1.39)
 >* Announce releases by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1867 (2.1.39)
@@ -35,10 +38,11 @@ Mod is client-side only.
 >* More specific shader fixes pertaining to EP by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1831 (2.1.33)
 >* Remove CTM adding .png to tile paths by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1832 (2.1.33)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-985-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-985-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-986-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-986-GTNH
 
 ## What's Changed:
+>* Bump GTNHLib Dep and add to readme by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1389 (rv3-beta-986-GTNH)
 >* Fix filling containers by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1383 (rv3-beta-985-GTNH)
 >* Fix 1k Crafting Storage shown as Singularity Crafting Storage by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1381 (rv3-beta-984-GTNH)
 >* Fix crafting storage rendering by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1380 (rv3-beta-984-GTNH)
@@ -157,10 +161,27 @@ Mod is client-side only.
 ## What's Changed:
 >* Add API method for protection amount on IArmorApiarist by @FourIsTheNumber in https://github.com/GTNewHorizons/ForestryMC/pull/122 (4.11.27)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.613
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.613
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.52.614
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.52.614
 
 ## What's Changed:
+>* Fixed crib manual slot not accepting items by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7155 (5.09.52.614)
+>* Fix cable swap to match on same cable instead of spec by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7154 (5.09.52.614)
+>* Add EBF heat to waila by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7145 (5.09.52.614)
+>* Improve WAILA for transformer by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7127 (5.09.52.614)
+>* Rename inputs and outputs where they are not always inputs and outputs by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7172 (5.09.52.614)
+>* [Mechanical Armor] Fix wrong armor index check for rendering jetpack by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7176 (5.09.52.614)
+>* Fix LCR preview by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7177 (5.09.52.614)
+>* Added tier filtering to nei recipe query by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7139 (5.09.52.614)
+>* Remove deprecated GlyphReplacements stuff by @sisyphussy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7140 (5.09.52.614)
+>* add independent terminal textures by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7171 (5.09.52.614)
+>* Make GT++ framebox able to trigger machine updates by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7180 (5.09.52.614)
+>* Make cutting great again by @TotallyNotOndre in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6731 (5.09.52.614)
+>* remove unused BW casings by @LazyFlesh in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7178 (5.09.52.614)
+>* Some misc perf improvement in hot paths by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7182 (5.09.52.614)
+>* Workaround for scanner crash by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7183 (5.09.52.614)
+>* Fix Modular Armor step assist compatibility with EnderIO by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7181 (5.09.52.614)
+>* Move Materials.Air init to loadDegree2Compounds() by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7184 (5.09.52.614)
 >* Migrate basicgenerator names and tooltips to lang files by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7148 (5.09.52.613)
 >* Show non-consumed recipe inputs in AE2 terminal name for basic machines by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7062 (5.09.52.613)
 >* Fix oob and missing me output hatch check in DT by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7168 (5.09.52.613)
@@ -266,16 +287,19 @@ Mod is client-side only.
 >* Add asteroid exclusion zone around DE chaos island  by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7034 (5.09.52.595)
 >* Mech armor frame textures by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7020 (5.09.52.595)
 
-# Updated - GTNHExtLib - 1.0.1 --> 1.0.2
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.1...1.0.2
+# Updated - GTNHExtLib - 1.0.1 --> 1.0.3
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.1...1.0.3
 
 ## What's Changed:
+>* Any remote version by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/3 (1.0.3)
+>* Thermos console output fix by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/4 (1.0.3)
 >* Bump fastutil version by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/2 (1.0.2)
 
-# Updated - GTNHLib - 0.11.9 --> 0.11.16
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.16
+# Updated - GTNHLib - 0.11.9 --> 0.11.17
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.17
 
 ## What's Changed:
+>* Fix thermos console logging by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/403 (0.11.17)
 >* Update docs on ColorResource by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/400 (0.11.16)
 >* Add a getter to GlyphReplacements by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/398 (0.11.14)
 >* Remove dependency loop and change logger to mc one by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/392 (0.11.14)
@@ -340,10 +364,11 @@ Mod is client-side only.
 >* Added AE2 and Thaumic Energistics NEI integration by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/184 (1.3.30-GTNH)
 >* Fixes Desugaring Baubles by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/190 (1.3.30-GTNH)
 
-# Updated - JarJar - 0.3.3-beta --> 0.3.6-beta
-**Full Changelog**: https://github.com/GTNewHorizons/JarJar/compare/0.3.3-beta...0.3.6-beta
+# Updated - JarJar - 0.3.3-beta --> 0.3.7-beta
+**Full Changelog**: https://github.com/GTNewHorizons/JarJar/compare/0.3.3-beta...0.3.7-beta
 
 ## What's Changed:
+>* Ensure API owners are added to the classpath before mods that repackage other mods APIs by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/27 (0.3.7-beta)
 >* Fix classloader shenanigans by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/25 (0.3.6-beta)
 >* SortingIndex override config for modpacks by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/23 (0.3.5-beta)
 >* Fix MR Jars by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/22 (0.3.4-beta)
@@ -427,10 +452,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Downscale all info panel textures by @tiffit in https://github.com/GTNewHorizons/Nuclear-Control/pull/44 (2.7.10)
 
-# Updated - OpenBlocks - 1.12.14-GTNH --> 1.12.16-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.14-GTNH...1.12.16-GTNH
+# Updated - OpenBlocks - 1.12.14-GTNH --> 1.12.17-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.14-GTNH...1.12.17-GTNH
 
 ## What's Changed:
+>* Cosmetic Armor Grave Support by @koolkrafter5 in https://github.com/GTNewHorizons/OpenBlocks/pull/55 (1.12.17-GTNH)
 >* Add GalactiCraft gear auto-equip from grave by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/52 (1.12.16-GTNH)
 >* Remove TConstruct slot support from grave auto-equip when tab is disabled by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/50 (1.12.15-GTNH)
 
@@ -496,6 +522,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix crash when repairing or upgrading tools by @Algent in https://github.com/GTNewHorizons/TinkersConstruct/pull/297 (1.14.93-GTNH)
 >* Multiple dupe/void Fix by @Algent in https://github.com/GTNewHorizons/TinkersConstruct/pull/296 (1.14.92-GTNH)
+
+# Updated - Universal-Singularities - 8.15.1 --> 8.15.2
+**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.15.1...8.15.2
+
+## What's Changed:
+>* Add blank computational singularity by @GDCloudstrike in https://github.com/GTNewHorizons/Universal-Singularities/pull/20 (8.15.2)
 
 # Updated - VendingMachine - 0.4.87 --> 0.4.89
 **Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.89
@@ -565,4 +597,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @MalTeeez, @Marsietiss, @MassAnarchyy, @mhowell9, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @Worive, @YannickMG, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Inphysible, @iouter, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @MalTeeez, @Marsietiss, @MassAnarchyy, @mhowell9, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
