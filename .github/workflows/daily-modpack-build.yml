@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '20 3 * * *' # 3:20am UTC every day
+    
+concurrency:
+  group: ${{ github.workflow }}-${{ github.run_number }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -190,13 +194,14 @@ jobs:
               @java9args.txt
               -jar lwjgl3ify-forgePatches.jar
               nogui
-            server-startup-timeout: 120
-            server-settle-time: 60
+            server-startup-timeout: 140
+            server-settle-time: 45
+            client-join-settle-time: 5000
             client-max-memory: 3400m
-
+            
           - java-version: 8
             server-zip-variant: server-java8
-            client-zip-variant: mmcprism-java17-25
+            client-zip-variant: mmcprism-java8
             server-java-args: |
               -Xms1G -Xmx2500m
               -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing
@@ -206,7 +211,8 @@ jobs:
               -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
               nogui
             server-startup-timeout: 240
-            server-settle-time: 120
+            server-settle-time: 85
+            client-join-settle-time: 10000
             client-max-memory: 4400m
 
     env:
@@ -215,8 +221,8 @@ jobs:
       SERVER_START_TIMEOUT: ${{ matrix.server-startup-timeout }}
       SERVER_SETTLE_DURATION: ${{ matrix.server-settle-time }}
       RCON_PASSWORD: whoahaplaintextpassword
-      CLIENT_WINDOW_NAME: "GT New Horizons"
-      CLIENT_FOCUS_TIMEOUT: 180
+      CLIENT_WINDOW_NAME: "GT: New Horizons"
+      CLIENT_FOCUS_TIMEOUT: 120
 
     steps:
       - name: Check out repository for scripts
@@ -280,14 +286,15 @@ jobs:
           prism-bootstrap .
           --platform linux
           --headless
+          --meta-url https://meta.prismlauncher.org/v1/
           --xmx ${{ matrix.client-max-memory }}
           --jvm-arg "-Dheadlessnh.active=true"
           --jvm-arg "-Dheadlessnh.combined=true"
           --jvm-arg "-Dheadlessnh.markerdir=${{ env.WORK_DIR }}/run"
           --jvm-arg "-Dheadlessnh.delay.cooldown=2500"
           --jvm-arg "-Dheadlessnh.delay.mainmenu=7500"
-          --jvm-arg "-Dheadlessnh.delay.serverjoin=10000"
-          --jvm-arg "-Dheadlessnh.delay.singleplayer=10000"
+          --jvm-arg "-Dheadlessnh.delay.serverjoin=${{ matrix.client-join-settle-time }}"
+          --jvm-arg "-Dheadlessnh.delay.singleplayer=${{ matrix.client-join-settle-time }}"
           --jvm-arg "-Dheadlessnh.gate.mainmenu=server.ready"
           --jvm-arg "-Dheadlessnh.gate.serverloaded=serverloaded.gate"
           --jvm-arg "-Dheadlessnh.gate.timeout=60000"
@@ -298,8 +305,8 @@ jobs:
         working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
         run: |
           set -euo pipefail
-          curl -sSL -o headlessnh-1.0.10.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.10/headlessnh-1.0.10.jar
-          echo "660508cc8033ae28483774dd574667316762e7b1b96b7a606d4e8cc04de24c03  headlessnh-1.0.10.jar" | sha256sum -c -
+          curl -sSL -o headlessnh-1.0.12.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.12/headlessnh-1.0.12.jar
+          echo "ce4057fb47d9659b4771feb2f8cdf5311aaadc1c8f6378f390841c547a2db402  headlessnh-1.0.12.jar" | sha256sum -c -
 
       - name: Add HorizonQA to both client & server mods
         shell: bash

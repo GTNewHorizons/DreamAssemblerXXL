@@ -141,7 +141,7 @@ fi
 cd "$CLIENT_MC_DIR"
 echo "maxFps:10" >> options.txt
 setsid bash "$SCRIPT_DIR/run_with_exit.sh" "$CLIENT_EXIT_FLAG" \
-  bash -c 'env $(grep -v "^\s*#" "$1" | xargs) "$(head -1 "$2")" @<(tail -n +2 "$2")' \
+  bash -c 'mapfile -t argv < "$2"; env $(grep -v "^\s*#" "$1" | xargs) "${argv[0]}" "${argv[@]:1}"' \
   _ "$CLIENT_LAUNCH_ENV" "$CLIENT_LAUNCH_ARGV" \
   > "$CLIENT_LOG" 2>&1 &
 GAME_PGID=$!
