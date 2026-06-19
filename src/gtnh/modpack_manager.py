@@ -1006,11 +1006,10 @@ class GTNHModpackManager:
         for is_github, mods in [(True, release.github_mods), (False, release.external_mods)]:
             for mod_name, mod_version in mods.items():
                 mod = self.assets.get_mod(mod_name)
-                mod_callback = (
-                    lambda name: download_callback(delta_progress, f"mod {name} downloaded!")
-                    if download_callback
-                    else None
-                )  # noqa, type: ignore
+                def mod_callback(name):
+                    return (download_callback(delta_progress, f"mod {name} downloaded!")
+                                    if download_callback
+                                    else None)
                 downloaders.append(
                     self.download_asset(
                         mod,
@@ -1022,11 +1021,10 @@ class GTNHModpackManager:
                 )
 
         # download the modpack configs
-        config_callback = (
-            lambda name: download_callback(delta_progress, f"config for release {release.version} downloaded!")
-            if download_callback
-            else None
-        )  # noqa, type: ignore
+        def config_callback(name):
+            return (download_callback(delta_progress, f"config for release {release.version} downloaded!")
+                    if download_callback
+                    else None)
 
         downloaders.append(
             self.download_asset(
@@ -1040,13 +1038,12 @@ class GTNHModpackManager:
 
         if not ignore_translations:
             # download the translations for the pack
-            translation_callback = (
-                lambda name: download_callback(
-                    delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
-                )
-                if download_callback
-                else None
-            )  # noqa, type: ignore
+            def translation_callback(name):
+                return (download_callback(
+                                delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
+                            )
+                            if download_callback
+                            else None)
 
             for language in self.assets.translations.versions:
                 downloaders.append(

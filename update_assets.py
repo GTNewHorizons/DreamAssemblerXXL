@@ -1,9 +1,9 @@
 import asyncclick as click
+import httpx
 import orjson
 
 from gtnh.defs import ModSource
 from gtnh.modpack_manager import GTNHModpackManager
-import httpx
 
 
 def update_external_mods():
