@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '20 3 * * *' # 3:20am UTC every day
-    
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.run_number }}
   cancel-in-progress: true
@@ -198,7 +198,7 @@ jobs:
             server-settle-time: 45
             client-join-settle-time: 5000
             client-max-memory: 3400m
-            
+
           - java-version: 8
             server-zip-variant: server-java8
             client-zip-variant: mmcprism-java8
@@ -247,10 +247,9 @@ jobs:
       - name: Unpack build artifacts
         run: |
           set -euo pipefail
-          mkdir -p ${{ env.WORK_DIR }}/server
+          mkdir -p ${{ env.WORK_DIR }}/run ${{ env.WORK_DIR }}/server ${{ env.WORK_DIR }}/client
           unzip -q -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.server-zip-variant }}.zip" -d ${{ env.WORK_DIR }}/server
           chmod -R u+rX ${{ env.WORK_DIR }}/server
-          mkdir -p ${{ env.WORK_DIR }}/client
           unzip -q -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.client-zip-variant }}.zip" -d /tmp/client-unpacked
           inner_dir=$(find /tmp/client-unpacked -mindepth 1 -maxdepth 1 -type d | head -n1)
           chmod -R u+rX "$inner_dir"
@@ -271,6 +270,19 @@ jobs:
           tar -xz -C /usr/local/bin -f rcon-cli.tar.gz rcon-cli
           rm rcon-cli.tar.gz
 
+      - name: Install async-profiler & flamegraph
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -sSL -o async-profiler.tar.gz https://github.com/async-profiler/async-profiler/releases/download/v4.4/async-profiler-4.4-linux-x64.tar.gz
+          echo "1233f26fc95753e75ce32733bbcaf8f0bedc2c098b0e798af87935b08a63b24e  async-profiler.tar.gz" | sha256sum -c -
+          mkdir -p /tmp/async-profiler
+          tar -xz --strip-components=1 -C /tmp/async-profiler -f async-profiler.tar.gz
+          ln -s /tmp/async-profiler/bin/asprof /usr/local/bin/asprof
+          curl -sSL -o flamegraph.pl https://raw.githubusercontent.com/brendangregg/FlameGraph/41fee1f99f9276008b7cd112fca19dc3ea84ac32/flamegraph.pl
+          chmod +x flamegraph.pl
+          mv flamegraph.pl ${{ env.WORK_DIR }}/run/
+
       - name: Install prism-bootstrap
         shell: bash
         run: |
@@ -288,6 +300,7 @@ jobs:
           --headless
           --meta-url https://meta.prismlauncher.org/v1/
           --xmx ${{ matrix.client-max-memory }}
+          --jvm-arg "-agentpath:/tmp/async-profiler/lib/libasyncProfiler.so=start,event=ctimer,collapsed,file=${{ env.WORK_DIR }}/run/client_profile.collapsed"
           --jvm-arg "-Dheadlessnh.active=true"
           --jvm-arg "-Dheadlessnh.combined=true"
           --jvm-arg "-Dheadlessnh.markerdir=${{ env.WORK_DIR }}/run"
@@ -335,11 +348,11 @@ jobs:
         if: success() || failure()
         run: |
          echo "--- Logs from dual test : executor ---"
-         cat ${{ env.WORK_DIR }}/run/dual_test_executor.log
+         cat ${{ env.WORK_DIR }}/run/dual_test_executor.log || true
          echo "--- Logs from dual test : client ---"
-         cat ${{ env.WORK_DIR }}/run/dual_test_client.log
+         cat ${{ env.WORK_DIR }}/run/dual_test_client.log || true
          echo "--- Logs from dual test : server ---"
-         cat ${{ env.WORK_DIR }}/run/dual_test_server.log
+         cat ${{ env.WORK_DIR }}/run/dual_test_server.log || true
 
       - name: Verify server
         if: success() || failure()
@@ -349,27 +362,52 @@ jobs:
         if: success() || failure()
         run: bash scripts/tests/orchestrator.sh verify-client
 
+
+      - name: Create flamegraph
+        if: success() || failure()
+        working-directory: ${{ env.WORK_DIR }}/run
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          # Low-detail preview svg (small file); full detail lives in the linked html.
+          ./flamegraph.pl --color=java --width=840 --minwidth=1 client_profile.collapsed > client_profile.svg
+          # Scale the summary <img> to fit within 840x480 preserving aspect ratio
+          # (GitHub strips css, so we set width/height attributes computed from the svg).
+          w=$(sed -nE 's/.*<svg[^>]* width="([0-9.]+)".*/\1/p' client_profile.svg | head -1)
+          h=$(sed -nE 's/.*<svg[^>]* height="([0-9.]+)".*/\1/p' client_profile.svg | head -1)
+          if [ -n "$w" ] && [ -n "$h" ]; then
+            dims=$(awk -v w="$w" -v h="$h" 'BEGIN{s=840/w; if(480/h<s)s=480/h; if(s>1)s=1; printf "%d %d", w*s, h*s}')
+            echo "FLAMEGRAPH_W=${dims% *}" >> "$GITHUB_ENV"
+            echo "FLAMEGRAPH_H=${dims#* }" >> "$GITHUB_ENV"
+          fi
+          # Full-detail html with (also has more features, that ARENT laggy)
+          /tmp/async-profiler/bin/jfrconv -o html --title "GTNH daily startup (Java ${{ matrix.java-version }})" client_profile.collapsed client_profile.html
+
       # GH markdown seems to only embed media from CSP-allowlisted domains, which does not include artifacts.
-      # Release asset URLs redirect to release-assets.githubusercontent.com (which is allowed), 
-      # so we use a rolling prerelease as the media host for the summary embeds.
-      - name: Publish screenshots to rolling release
+      # Release asset URLs redirect to release-assets.githubusercontent.com (which is allowed),
+      # so we use a rolling prerelease as the media host for the summary embeds. Assets are keyed by
+      # date and run number so every run is preserved; the prune step below rolls assets with a 90-day retention.
+      - name: Publish media to rolling asset store
         id: publish-media
         if: success() || failure()
         shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: daily-screenshots
+          TODAY: ${{ needs.build.outputs.today }}
         run: |
           set -uo pipefail
           gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
             gh release create "$TAG" -R "$GITHUB_REPOSITORY" --prerelease \
-              --title "Daily test screenshots" \
-              --notes "Storage for the screenshots embedded in daily test run summaries. Not an actual release." || true
+              --title "Daily test media (90-day rolling store)" \
+              --notes "**This is not an actual release.** This is the asset storage for modpack builds." || true
+
+          prefix="${TODAY/+/-daily-}-java${{ matrix.java-version }}"
 
           for marker in mainmenu serverloaded dual worldloaded; do
             src="$WORK_DIR/run/screenshot.$marker.png"
             [ -f "$src" ] || continue
-            asset="java${{ matrix.java-version }}-$marker.png"
+            asset="${prefix}-$marker.png"
             cp "$src" "/tmp/$asset"
             if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
               echo "url_$marker=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
@@ -378,10 +416,31 @@ jobs:
 
           video="$WORK_DIR/run/client.mp4"
           if [ -f "$video" ]; then
-            asset="java${{ matrix.java-version }}-client.mp4"
+            asset="${prefix}-client.mp4"
             cp "$video" "/tmp/$asset"
             if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
-              echo "url_video=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+              # Use a proxy so we can get the correct content type
+              echo "url_video=https://githubproxy.samuelcolvin.workers.dev/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+          flamegraph="$WORK_DIR/run/client_profile.svg"
+          if [ -f "$flamegraph" ]; then
+            asset="${prefix}-flamegraph.svg"
+            cp "$flamegraph" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              # Use a proxy so we can get the correct content type
+              echo "url_flamegraph=https://githubproxy.samuelcolvin.workers.dev/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+          flamegraph_html="$WORK_DIR/run/client_profile.html"
+          if [ -f "$flamegraph_html" ]; then
+            asset="${prefix}-flamegraph.html"
+            cp "$flamegraph_html" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              # Use a proxy so the interactive flamegraph is served as text/html and renders in the browser
+              echo "url_flamegraph_html=https://githubproxy.samuelcolvin.workers.dev/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
             fi
           fi
 
@@ -395,6 +454,8 @@ jobs:
           URL_dual: ${{ steps.publish-media.outputs.url_dual }}
           URL_worldloaded: ${{ steps.publish-media.outputs.url_worldloaded }}
           VIDEO_RELEASE_URL: ${{ steps.publish-media.outputs.url_video }}
+          FLAMEGRAPH_RELEASE_URL: ${{ steps.publish-media.outputs.url_flamegraph }}
+          FLAMEGRAPH_HTML_URL: ${{ steps.publish-media.outputs.url_flamegraph_html }}
         run: |
           echo "<details open><summary><b>Client test results (Java ${{ matrix.java-version }})</b></summary>" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
@@ -404,11 +465,19 @@ jobs:
           while IFS=: read -r marker label; do
             url_var="URL_$marker"
             url="${!url_var}"
+            cell=""
             if [ -n "$url" ]; then
-              echo "| $label | ![screenshot]($url) |" >> "$GITHUB_STEP_SUMMARY"
+              cell="![screenshot]($url)"
             else
-              echo "| $label | :x: |" >> "$GITHUB_STEP_SUMMARY"
+              cell=":x:"
             fi
+            # Show the flamegraph svg side by side with the main menu screenshot,
+            # linking to the interactive html version (and falling back to the svg).
+            if [ "$marker" = "mainmenu" ] && [ -n "$FLAMEGRAPH_RELEASE_URL" ]; then
+              href="${FLAMEGRAPH_HTML_URL:-$FLAMEGRAPH_RELEASE_URL}"
+              cell="$cell <a href=\"$href\"><img src=\"$FLAMEGRAPH_RELEASE_URL\" alt=\"flamegraph\" width=\"${FLAMEGRAPH_W:-840}\" height=\"${FLAMEGRAPH_H:-480}\"></a>"
+            fi
+            echo "| $label | $cell |" >> "$GITHUB_STEP_SUMMARY"
           done <<'EOF'
           mainmenu:Main menu
           serverloaded:Joined server
@@ -454,6 +523,38 @@ jobs:
         if: success()
         run: |
           echo "# :shipit:" >> "$GITHUB_STEP_SUMMARY"
+
+
+  prune-old-media:
+    needs: test
+    if: always()
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write # delete old release assets
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TAG: daily-screenshots
+      RETENTION_DAYS: 90
+    steps:
+      - name: Prune media older than retention window
+        shell: bash
+        run: |
+          set -uo pipefail
+          cutoff=$(date -d "$RETENTION_DAYS days ago" +%Y-%m-%d)
+          echo "Pruning $TAG assets dated before $cutoff"
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name' | \
+          while read -r name; do
+            # Asset names should start with the ISO date they were produced (YYYY-MM-DD)
+            asset_date="${name:0:10}"
+            case "$asset_date" in
+              [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) ;;
+              *) continue ;;
+            esac
+            if [[ "$asset_date" < "$cutoff" ]]; then
+              echo "Deleting $name (dated $asset_date) since it's older than $RETENTION_DAYS days"
+              gh release delete-asset "$TAG" "$name" -R "$GITHUB_REPOSITORY" --yes || true
+            fi
+          done
 
 
   upload:

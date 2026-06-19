@@ -27,7 +27,6 @@ SERVER_STOP_TIMEOUT="${SERVER_STOP_TIMEOUT:-20}"
 DUAL_TEST_WAIT="${DUAL_TEST_WAIT:-360}"
 
 start_server() {
-  rm -rf "$RUN_DIR" && mkdir -p "$RUN_DIR"
   bash "$SCRIPT_DIR/server.sh" start
 }
 
@@ -47,6 +46,17 @@ watch_markers() {
         fi
       fi
     done
+    sleep 0.5
+  done
+}
+
+watch_markers_for_startup() {
+  local m name
+  while :; do
+      if [ -e "$CLIENT_LOADED_FLAG" ] && [ -e "$RUN_DIR/client.pid" ]; then
+        asprof stop -o collapsed -f "$RUN_DIR/client_profile.collapsed" $(cat "$RUN_DIR/client.pid") || true
+        break
+      fi
     sleep 0.5
   done
 }
@@ -78,14 +88,16 @@ run_client() {
   export DISPLAY=":${DISPLAY_NUM:-99}"
   watch_markers &
   local watcher_pid=$!
+  watch_markers_for_startup &
+  local watch_startup_pid=$!
   run_dual_tests &
   local dual_pid=$!
 
   local rc=0
   bash "$SCRIPT_DIR/headless_client.sh" || rc=$?
 
-  kill "$watcher_pid" "$dual_pid" 2>/dev/null || true
-  wait "$watcher_pid" "$dual_pid" 2>/dev/null || true
+  kill "$watcher_pid" "$watch_startup_pid" "$dual_pid" 2>/dev/null || true
+  wait "$watcher_pid" "$watch_startup_pid" "$dual_pid" 2>/dev/null || true
   return "$rc"
 }
 

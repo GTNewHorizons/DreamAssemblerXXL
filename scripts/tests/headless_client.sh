@@ -46,6 +46,7 @@ FFMPEG_PID=""
 GAME_PGID=""
 XVFB_PID=""
 TAIL_PID=""
+JAVA_PID=""
 
 stop_ffmpeg() {
   if [ -n "$FFMPEG_PID" ] && kill -0 "$FFMPEG_PID" 2>/dev/null; then
@@ -145,10 +146,25 @@ setsid bash "$SCRIPT_DIR/run_with_exit.sh" "$CLIENT_EXIT_FLAG" \
   _ "$CLIENT_LAUNCH_ENV" "$CLIENT_LAUNCH_ARGV" \
   > "$CLIENT_LOG" 2>&1 &
 GAME_PGID=$!
-echo "launched game (process group $GAME_PGID) -> $CLIENT_LOG"
 
 tail -n +1 -F "$CLIENT_LOG" 2>/dev/null &
 TAIL_PID=$!
+
+# give the jvm a moment (5 seconds)
+for _ in $(seq 1 10); do
+  JAVA_PID=$(pgrep -n -g "$GAME_PGID" -f java || true)
+  [ -n "$JAVA_PID" ] && break
+  sleep 0.5
+done
+
+echo "launched game (process group $GAME_PGID, java pid ${JAVA_PID:-none}) -> $CLIENT_LOG"
+
+# start profiling the underlying java process
+if [ -n "$JAVA_PID" ]; then
+  echo "$JAVA_PID" > "$RUN_DIR/client.pid"
+else
+  echo "Failed to find java process in group $GAME_PGID, skipping profiling"
+fi
 
 # focus window, block until the window maps or we timeout
 if focus_client_window "${CLIENT_FOCUS_TIMEOUT:-60}"; then
