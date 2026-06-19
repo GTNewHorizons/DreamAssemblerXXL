@@ -1,8 +1,8 @@
 [project]
-name = "gtnh"
-version = "0.9.0"
-description = "GTNH Modpack Updater and Assembler"
-authors = [{ name = "Jason Mitchell", email = "mitchej@gmail.com" }]
+name = "DAXXL"
+version = "1.0.0"
+description = "GTNH Modpack Updater and Assembler - Dream Assembler XXL"
+authors = [{ name = "The GT New Horizons Contributors" }]
 requires-python = ">=3.10,<4"
 
 dependencies = [
@@ -24,6 +24,9 @@ dependencies = [
     "types-ttkthemes>=3.2.4.2,<4",
     "packaging-legacy>=23.0.post0,<24",
 ]
+
+[project.urls]
+Repository = "https://github.com/GTNewHorizons/DreamAssemblerXXL"
 
 [build-system]
 requires = ["uv_build>=0.10.3,<0.11.0"]
@@ -55,3 +58,6 @@ dev = [
     "ruff>=0.15.18",
     "ty>=0.0.50",
 ]
+
+[tool.uv]
+exclude-newer = "12 days"
