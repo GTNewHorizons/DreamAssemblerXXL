@@ -93,7 +93,6 @@ class ZipAssembler(GenericAssembler):
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-
             for item in [x for x in config_zip.namelist() if x != "server.properties"]:  # little hack to remove the
                 # server.properties file from old releases
                 if item in self.exclusions[side]:

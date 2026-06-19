@@ -135,16 +135,16 @@ class Window(ThemedTk, Tk):
             self, frame_name="Modpack release actions", callbacks=modpack_panel_callbacks
         )
 
-        self.progress_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_current_task.add_progress
-        self.global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        self.progress_callback: Callable[[float, str], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_current_task.add_progress
+        )
+        self.global_callback: Callable[[float, str], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        )
         self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.progress_bar_global.reset
-        self.current_task_reset_callback: Callable[
-            [], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_current_task.reset
+        self.current_task_reset_callback: Callable[[], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_current_task.reset
+        )
 
         # frame for the github mods
         github_panel_callbacks: GithubPanelCallback = GithubPanelCallback(
@@ -287,9 +287,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        global_callback: Callable[[float, str], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        )
 
         try:
             self.set_progress(100 / 2)
@@ -314,9 +314,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        global_callback: Callable[[float, str], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        )
         task_callback_object: CustomProgressBar = self.modpack_list_frame.action_frame.progress_bar_current_task
         try:
             self.set_progress(100 / 3)
@@ -344,9 +344,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        global_callback: Callable[[float, str], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        )
 
         try:
             self.set_progress(100 / 2)
@@ -432,9 +432,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        global_callback: Callable[[float, str], None] = (
+            self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        )
         try:
             self.trigger_toggle()
 
@@ -772,7 +772,7 @@ class Window(ThemedTk, Tk):
         except BaseException as e:
             showerror(
                 "An error occured during the update of the assets",
-                "An error occurended during the update of the assets." "\n Please check the logs for more information",
+                "An error occurended during the update of the assets.\n Please check the logs for more information",
             )
             if not self.toggled:
                 self.trigger_toggle()

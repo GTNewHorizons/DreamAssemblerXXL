@@ -180,7 +180,7 @@ class TechnicAssembler(GenericAssembler):
                     log.warn(f"Mod {mod_name} is a java 9+ mod but currently packing only java 8 mods. Skipping it.")
                 else:
                     log.warn(
-                        f"Mod {mod_name} was detected as an updated mod" ", but is not a github mod nor an external one"
+                        f"Mod {mod_name} was detected as an updated mod, but is not a github mod nor an external one"
                     )
 
         return mods
@@ -202,7 +202,7 @@ class TechnicAssembler(GenericAssembler):
 
             archive.write(
                 temp_zip_path,
-                arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}" f"-{technify(version.version_tag)}.zip"),
+                arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}-{technify(version.version_tag)}.zip"),
             )
 
             if self.task_progress_callback is not None:
@@ -228,10 +228,8 @@ class TechnicAssembler(GenericAssembler):
 
         # set up a temp zip
         with ZipFile(Path("./temp.zip"), "w", compression=ZIP_DEFLATED) as temp_zip:
-
             # reading the config files
             with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-
                 for item in config_zip.namelist():
                     # excluding files
                     if item in self.exclusions[side]:
@@ -239,10 +237,8 @@ class TechnicAssembler(GenericAssembler):
 
                     # reading the file
                     with config_zip.open(item) as config_item:
-
                         # creating a new file in the temp zip
                         with temp_zip.open(item, "w") as target:
-
                             # copying the file
                             shutil.copyfileobj(config_item, target)
 

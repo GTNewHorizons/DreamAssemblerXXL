@@ -54,8 +54,8 @@ UNKNOWN = "Unknown"
 OTHER = "Other"
 MAVEN_BASE_URL = "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/"
 
-GREEN_CHECK = "\N{white heavy check mark}"
-RED_CROSS = "\N{cross mark}"
+GREEN_CHECK = "\N{WHITE HEAVY CHECK MARK}"
+RED_CROSS = "\N{CROSS MARK}"
 
 
 CURSE_BASE_URL = "https://api.curseforge.com"

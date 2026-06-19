@@ -82,7 +82,6 @@ class MMCAssembler(GenericAssembler):
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-
             for item in config_zip.namelist():
                 if item in self.exclusions[side]:
                     continue

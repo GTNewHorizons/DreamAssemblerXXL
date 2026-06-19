@@ -211,7 +211,6 @@ class ReleaseAssembler:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
 
         with open(changelog_path, "w") as file:
-
             for mod, mod_changelog in changelog.items():
                 for item in mod_changelog:
                     try:

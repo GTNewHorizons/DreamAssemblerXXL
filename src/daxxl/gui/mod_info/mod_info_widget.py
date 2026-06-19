@@ -103,7 +103,9 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
             ]
         else:
             self.widgets = [self.mod_name, self.version, self.license, self.side, self.side_default]
-        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])  # type: ignore
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )  # type: ignore
 
     async def edit_version(self) -> None:
         if not self.callbacks.listbox.has_selection():
