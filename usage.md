@@ -7,7 +7,7 @@ To setup DreamAssemblerXXL do the following steps:
 
 To run DreamAssemblerXXL do type the following commands in a terminal/console at the root of the repository:
 - (only if you are on windows) `chcp 65001`
-- `uv run python -m gtnh.gui.gui`
+- `uv run python -m daxxl.gui.gui`
 
 DreamAssemblerXXL can be split up in 3 categories: Modpack management (in green), Mod management (in red) and File exclusion management (in yellow)
 

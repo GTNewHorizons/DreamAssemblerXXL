@@ -45,8 +45,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          uv run python -m gtnh.cli.generate_experimental --id "${{ github.run_number }}" --update-available
-          uv run python -m gtnh.cli.assemble_experimental
+          uv run python -m daxxl.cli.generate_experimental --id "${{ github.run_number }}" --update-available
+          uv run python -m daxxl.cli.assemble_experimental
 
       - name: Save cached mod zips
         uses: actions/cache/save@v4
@@ -79,7 +79,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          uv run python -m gtnh.cli.generate_changelog --previous-release-name "$last_non_experimental_release_name" experimental > "$experimental_non_experimental_changelog_file"
+          uv run python -m daxxl.cli.generate_changelog --previous-release-name "$last_non_experimental_release_name" experimental > "$experimental_non_experimental_changelog_file"
 
       # Upload modpack
       - name: Upload manifest

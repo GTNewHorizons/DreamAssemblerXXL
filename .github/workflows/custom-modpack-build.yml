@@ -59,11 +59,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          uv run python -m gtnh.cli.download_release "${DAXXL_TAG}"
-          uv run python -m gtnh.cli.assemble_release CLIENT "${DAXXL_TAG}"
-          uv run python -m gtnh.cli.assemble_release SERVER "${DAXXL_TAG}"
-          uv run python -m gtnh.cli.assemble_release CLIENT_JAVA9 "${DAXXL_TAG}"
-          uv run python -m gtnh.cli.assemble_release SERVER_JAVA9 "${DAXXL_TAG}"
+          uv run python -m daxxl.cli.download_release "${DAXXL_TAG}"
+          uv run python -m daxxl.cli.assemble_release CLIENT "${DAXXL_TAG}"
+          uv run python -m daxxl.cli.assemble_release SERVER "${DAXXL_TAG}"
+          uv run python -m daxxl.cli.assemble_release CLIENT_JAVA9 "${DAXXL_TAG}"
+          uv run python -m daxxl.cli.assemble_release SERVER_JAVA9 "${DAXXL_TAG}"
 
       - name: Save cached mod zips
         uses: actions/cache/save@v4

@@ -8,22 +8,22 @@ A replacement for DreamMasterXXL, minus the nerfs.
 
 
 ### CLI - CLI Tools
-* [add_mod.py](src/gtnh/cli/add_mod.py): Add a new (github) mod to the pack
-* [assemble_release.py](src/gtnh/cli/assemble_release.py): Assemble a release ZIP (CLIENT/SERVER)
-* [download_mod.py](src/gtnh/cli/download_mod.py): Download a mod to the cache
-* [download_release.py](src/gtnh/cli/download_release.py): Download an entire release to the cache
-* [generate_experimental.py](src/gtnh/cli/generate_experimental.py): Generate a manifest for a experimental release based on the latest version for all mods and config
-* [generate_daily.py](src/gtnh/cli/generate_daily.py): Generate a manifest for a daily release based on the latest non-pre version for all mods and config
-* [update_check.py](src/gtnh/cli/update_check.py): Check for new releases on GitHub
-* [update_deps.py](src/gtnh/cli/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
+* [add_mod.py](src/daxxl/cli/add_mod.py): Add a new (github) mod to the pack
+* [assemble_release.py](src/daxxl/cli/assemble_release.py): Assemble a release ZIP (CLIENT/SERVER)
+* [download_mod.py](src/daxxl/cli/download_mod.py): Download a mod to the cache
+* [download_release.py](src/daxxl/cli/download_release.py): Download an entire release to the cache
+* [generate_experimental.py](src/daxxl/cli/generate_experimental.py): Generate a manifest for a experimental release based on the latest version for all mods and config
+* [generate_daily.py](src/daxxl/cli/generate_daily.py): Generate a manifest for a daily release based on the latest non-pre version for all mods and config
+* [update_check.py](src/daxxl/cli/update_check.py): Check for new releases on GitHub
+* [update_deps.py](src/daxxl/cli/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
 
 ### Assembler - Modpack Assemble!
-* [assembler.py](src/gtnh/assembler/assembler.py) Assemble the client and server pack (ZIP)
-* [curse.py](src/gtnh/assembler/curse.py) Maybe, at some point, assemble the pack for Curse
-* [downloader.py](src/gtnh/assembler/downloader.py): Download and cache the pack's mods
-* [modrinth.py](src/gtnh/assembler/modrinth.py) Hopefully in the near future assemble the pack for Modrinth
-* [multi_poly.py](src/gtnh/assembler/multi_poly.py) Hopefully in the near future assemble the pack for MultiMC/PolyMC
-* [technic.py](src/gtnh/assembler/technic.py) Assemble the pack for Technic
+* [assembler.py](src/daxxl/assembler/assembler.py) Assemble the client and server pack (ZIP)
+* [curse.py](src/daxxl/assembler/curse.py) Maybe, at some point, assemble the pack for Curse
+* [downloader.py](src/daxxl/assembler/downloader.py): Download and cache the pack's mods
+* [modrinth.py](src/daxxl/assembler/modrinth.py) Hopefully in the near future assemble the pack for Modrinth
+* [multi_poly.py](src/daxxl/assembler/multi_poly.py) Hopefully in the near future assemble the pack for MultiMC/PolyMC
+* [technic.py](src/daxxl/assembler/technic.py) Assemble the pack for Technic
 
 ### Scripts
 * [black.sh](scripts/black.sh): Format things using the Black Formatter
@@ -33,7 +33,7 @@ A replacement for DreamMasterXXL, minus the nerfs.
 * [update_buildscript.sh](scripts/update_buildscript.sh): Script to add CODEOWNERS for maven publication
 
 ### GUI
-* [gui.py](src/gtnh/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
+* [gui.py](src/daxxl/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
 
 # Note to contributors
 Code PRs should always be done against the master branch.

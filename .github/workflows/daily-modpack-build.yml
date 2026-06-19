@@ -51,8 +51,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          uv run python -m gtnh.cli.generate_daily --id "$((${{ github.run_number }} + 1000))" --update-available
-          uv run python -m gtnh.cli.assemble_daily
+          uv run python -m daxxl.cli.generate_daily --id "$((${{ github.run_number }} + 1000))" --update-available
+          uv run python -m daxxl.cli.assemble_daily
 
       - name: Save cached mod zips
         uses: actions/cache/save@v4
@@ -87,7 +87,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          uv run python -m gtnh.cli.generate_changelog --previous-release-name "$last_non_daily_release_name" daily > "$daily_non_daily_changelog_file"
+          uv run python -m daxxl.cli.generate_changelog --previous-release-name "$last_non_daily_release_name" daily > "$daily_non_daily_changelog_file"
 
       - name: Upload manifest job summary
         shell: bash
