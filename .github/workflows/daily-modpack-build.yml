@@ -6,7 +6,7 @@ on:
     - cron: '20 3 * * *' # 3:20am UTC every day
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.run_number }}
+  group: ${{ github.workflow }}
   cancel-in-progress: true
 
 jobs:
@@ -332,6 +332,7 @@ jobs:
           cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/server/mods/
 
       - name: Start server
+        id: start-server
         timeout-minutes: 10
         run: bash scripts/tests/orchestrator.sh start-server
 
@@ -342,6 +343,7 @@ jobs:
         run: bash scripts/tests/orchestrator.sh run-client
 
       - name: Stop server
+        if: success() || (failure() && steps.start-server.outcome == 'success')
         run: bash scripts/tests/orchestrator.sh stop-server
 
       - name: Print logs from dual run
