@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-19T08:44:13.155829",
+  "last_updated": "2026-06-19T20:39:28.100986",
   "config": "2.9.0-nightly-2026-06-18-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.71-GTNH",
+      "version": "3.8.72-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.27",
+      "version": "4.11.28",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.615",
+      "version": "5.09.52.618",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.18",
+      "version": "0.11.19",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.162",
+      "version": "2.7.163",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.290",
+      "version": "2.8.291",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.32",
+      "version": "1.7.33",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -389,7 +389,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.39",
+      "version": "1.0.40",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.38",
+      "version": "1.4.39",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.24",
+      "version": "2.12.25",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.15.2",
+      "version": "8.15.3",
       "side": "BOTH"
     },
     "VisualProspecting": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.42-GTNH",
+      "version": "0.1.43-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.77",
+      "version": "2.0.78",
       "side": "BOTH"
     },
     "Fether": {
@@ -829,7 +829,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.31-GTNH",
+      "version": "1.0.32-GTNH",
       "side": "CLIENT"
     },
     "ThaumicMachina": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.7",
+      "version": "1.3.8",
       "side": "BOTH"
     }
   },
