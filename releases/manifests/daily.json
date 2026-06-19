@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-18T08:23:02.204394",
-  "config": "2.9.0-nightly-2026-06-18",
+  "last_updated": "2026-06-19T08:44:13.155829",
+  "config": "2.9.0-nightly-2026-06-18-2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.21-GTNH",
+      "version": "1.4.22-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.92-gtnh",
+      "version": "1.5.93-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-986-GTNH",
+      "version": "rv3-beta-987-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "CarpentersBlocks": {
-      "version": "3.7.2-GTNH",
+      "version": "3.7.3-GTNH",
       "side": "BOTH"
     },
     "Catwalks-2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.614",
+      "version": "5.09.52.615",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.17",
+      "version": "0.11.18",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.13-GTNH",
+      "version": "2.5.14-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.27",
+      "version": "9.17.28",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.40",
+      "version": "2.1.42",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.74-1.7.10",
+      "version": "2.3.75-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.89",
+      "version": "0.4.90",
       "side": "BOTH"
     },
     "Freecam": {
