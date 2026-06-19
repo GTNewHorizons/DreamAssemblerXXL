@@ -55,8 +55,8 @@ unresolved-import = "ignore"
 
 [dependency-groups]
 dev = [
-    "ruff>=0.15.18",
-    "ty>=0.0.50",
+    "ruff>=0.15.16",
+    "ty>=0.0.44",
 ]
 
 [tool.uv]

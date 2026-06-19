@@ -1,0 +1,31 @@
+import asyncclick as click
+from colorama import Fore
+from httpx import AsyncClient
+
+from daxxl.assembler.assembler import ReleaseAssembler
+from daxxl.defs import Side
+from daxxl.gtnh_logger import get_logger
+from daxxl.modpack_manager import GTNHModpackManager
+
+log = get_logger(__name__)
+
+
+@click.command()
+@click.argument("side", type=click.Choice([Side.CLIENT, Side.CLIENT_JAVA9, Side.SERVER, Side.SERVER_JAVA9]))
+@click.argument("release_name")
+@click.option("--verbose", default=False, is_flag=True)
+async def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
+    modpack_manager = GTNHModpackManager(AsyncClient(http2=True))
+    release = modpack_manager.get_release(release_name)
+    if not release:
+        log.error(
+            f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building {Fore.YELLOW}"
+            f"{side.value}{Fore.RESET} archive."
+        )
+        return
+
+    await ReleaseAssembler(modpack_manager, release).assemble(side, verbose=verbose)
+
+
+if __name__ == "__main__":
+    assemble_release()
