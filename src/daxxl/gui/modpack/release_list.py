@@ -26,7 +26,7 @@ class ReleaseListCallback:
         self.add: Callable[[str, str], Task[None]] = add
 
 
-class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
+class ReleaseList(LabelFrame, TtkLabelFrame):
     """Widget ruling the list of modpack versions"""
 
     def __init__(

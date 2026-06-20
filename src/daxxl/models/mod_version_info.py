@@ -11,7 +11,7 @@ if TYPE_CHECKING:
 
 class ModVersionInfo(GTNHBaseModel):
     version: str
-    side: Optional[Side]
+    side: Optional[Side] = None
 
     @classmethod
     def create(

@@ -5,7 +5,7 @@ from typing import Any, Union
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
-class CustomLabel(Frame, TtkFrame, CustomWidget):  # type: ignore
+class CustomLabel(Frame, TtkFrame, CustomWidget):
     def __init__(
         self, master: Any, label_text: str, value: str, themed: bool = False, *args: Any, **kwargs: Any
     ) -> None:

@@ -320,7 +320,13 @@ class CurseAssembler(GenericAssembler):
         :return: None
         """
 
-        metadata = {
+        metadata: dict[
+            str,
+            dict[str, str | list[dict[str, str | bool | int]]]
+            | list[dict[str, str | bool | int]]
+            | str
+            | int,
+        ] = {
             "minecraft": {"version": "1.7.10", "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}]},
             "manifestType": "minecraftModpack",
             "manifestVersion": 1,
@@ -332,7 +338,7 @@ class CurseAssembler(GenericAssembler):
 
         mod: GTNHModInfo
         version: GTNHVersion
-        files = []
+        files: list[dict[str, str | int | bool]] = []
         for mod, version in self.get_mods(side):
             if is_valid_curse_mod(mod, version):
                 assert version.curse_file  # make mypy happy

@@ -6,7 +6,7 @@ from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
-class RadioChoice(Frame, TtkFrame, CustomWidget):  # type: ignore
+class RadioChoice(Frame, TtkFrame, CustomWidget):
     def __init__(
         self,
         master: Any,

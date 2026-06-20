@@ -16,7 +16,7 @@ class ExclusionPanelCallback:
         self.delete: Callable[[str], Task[None]] = delete
 
 
-class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
+class ExclusionPanel(LabelFrame, TtkLabelFrame):
     """Widget managing an exclusion list."""
 
     def __init__(

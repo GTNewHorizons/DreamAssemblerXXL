@@ -12,7 +12,7 @@ from zipfile import ZipFile
 from daxxl.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
 
 
-class AttributeDict(dict):  # type: ignore
+class AttributeDict(dict):
     def __getattr__(self, name: str) -> Any:
         res = self.get(name)
         if isinstance(res, dict):

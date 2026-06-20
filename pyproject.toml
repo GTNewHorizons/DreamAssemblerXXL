@@ -48,8 +48,8 @@ max-line-length = 160
 combine-as-imports = true
 case-sensitive = true
 
-[tool.ty.src]
-root = "./src"
+[tool.ty.environment]
+root = ["./src"]
 
 [tool.ty.rules]
 unresolved-import = "ignore"

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict
 
 from colorama import Fore
@@ -16,7 +16,7 @@ log = get_logger(__name__)
 class GTNHRelease(GTNHBaseModel):
     version: str = Field(default="experimental")
     last_version: str | None = Field(default=None)
-    last_updated: datetime = Field(default_factory=datetime.utcnow)
+    last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     # ModName, Version
     config: str
@@ -57,7 +57,7 @@ class GTNHRelease(GTNHBaseModel):
 class __GTNHReleaseV1(GTNHBaseModel):
     version: str = Field(default="experimental")
     last_version: str | None = Field(default=None)
-    last_updated: datetime = Field(default_factory=datetime.utcnow)
+    last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     # ModName, Version
     config: str

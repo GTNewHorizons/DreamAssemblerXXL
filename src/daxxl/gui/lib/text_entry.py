@@ -6,7 +6,7 @@ from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
-class TextEntry(Frame, TtkFrame, CustomWidget):  # type: ignore
+class TextEntry(Frame, TtkFrame, CustomWidget):
     def __init__(
         self,
         master: Any,
@@ -55,7 +55,7 @@ class TextEntry(Frame, TtkFrame, CustomWidget):  # type: ignore
         self.entry.grid_forget()
         super().grid_forget()
 
-    def grid(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
+    def grid(self, *args: Any, **kwargs: Any) -> None:
         if not self.hide_label:
             self.label.grid(row=0, column=0, sticky=self.position_sticky_label)
             self.entry.grid(row=0, column=1, sticky=self.position_sticky_entry)

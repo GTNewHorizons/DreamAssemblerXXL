@@ -275,7 +275,7 @@ class Window(ThemedTk, Tk):
             state = DISABLED
 
         if check(widget):
-            widget.configure(state=state)  # type: ignore
+            widget.configure(state=state)
         else:
             if len(widget.winfo_children()) > 0:
                 for child in widget.winfo_children():

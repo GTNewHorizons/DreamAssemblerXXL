@@ -6,7 +6,7 @@ from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
-class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
+class CustomListbox(Frame, TtkFrame, CustomWidget):
     def __init__(
         self,
         master: Any,
@@ -56,7 +56,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
         # no resizing of the vertical scrollbar, hence the only columnconfigure
 
     def get_values(self) -> List[str]:
-        return list(self.listbox.get(0, END))  # type: ignore
+        return list(self.listbox.get(0, END))
 
     def set_values(self, values: List[str]) -> None:
         self.listbox.delete(0, END)
@@ -78,10 +78,10 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
             self.listbox.insert(position, value)
 
     def has_selection(self) -> bool:
-        return self.listbox.curselection() != ()  # type: ignore
+        return self.listbox.curselection() != ()
 
     def get_value_at_index(self, index: int) -> str:
-        return self.listbox.get(index)  # type: ignore
+        return self.listbox.get(index)
 
     def del_value_at_index(self, index: int) -> None:
         self.listbox.delete(index)
@@ -96,7 +96,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
         self.scrollbar_vertical.grid_forget()
         super().grid_forget()
 
-    def grid(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
+    def grid(self, *args: Any, **kwargs: Any) -> None:
         x = 0
         y = 0
         self.label.grid(row=x + 0, column=y + 0, sticky=Position.LEFT)

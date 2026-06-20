@@ -124,7 +124,7 @@ class ReleaseAssembler:
                 self.current_task_reset_callback()
 
             if self.callback:
-                self.callback(self.get_progress(), f"Assembling {side} {platform} archive")  # type: ignore
+                self.callback(self.get_progress(), f"Assembling {side} {platform} archive")
             await assembling(side, verbose)
 
         # TODO: Remove when the maven urls are calculated on add, instead of in curse

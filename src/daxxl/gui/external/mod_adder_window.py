@@ -34,7 +34,7 @@ class ModAdderCallback:
         self.del_mod_from_memory: Callable[[str], None] = del_mod_from_memory
 
 
-class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
+class ModAdderWindow(LabelFrame, TtkLabelFrame):
     """
     Class handling the widgets for the toplevel window about the mod addition.
     """
@@ -437,7 +437,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         if mod is None:
             return
-        self.name.set(mod.name)  # type: ignore
+        self.name.set(mod.name)
         self.license.set(mod.license)  # type: ignore
         source = Sources.CURSEFORGE.value if mod.source == ModSource.curse else Sources.OTHERS.value
         self.mod_choice.set(source)

@@ -44,7 +44,7 @@ class ButtonArrayCallback:
         self.generate_intermediate_cf_files: Callable[[], Task[None]] = generate_intermediate_cf_files
 
 
-class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
+class ButtonArray(LabelFrame, TtkLabelFrame):
     """
     Widget managing the buttons related to pack assembling.
     """

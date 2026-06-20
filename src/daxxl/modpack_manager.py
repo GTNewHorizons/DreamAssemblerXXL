@@ -17,7 +17,7 @@ from httpx import AsyncClient, HTTPStatusError
 from daxxl.assembler.changelog import ChangelogCollection, ChangelogEntry
 
 try:
-    from packaging.version import LegacyVersion  # type: ignore
+    from packaging.version import LegacyVersion
 except ImportError:
     from packaging_legacy.version import LegacyVersion
 
@@ -77,11 +77,11 @@ class GTNHModpackManager:
         self.client = client
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
 
-    @AsyncLRU(maxsize=None)  # type: ignore
+    @AsyncLRU(maxsize=None)
     async def get_all_repos(self) -> dict[str, AttributeDict]:
         return {r["name"]: AttributeDict(r) async for r in self.gh.getiter(org_repos_uri(self.org))}
 
-    @AsyncLRU(maxsize=None)  # type: ignore
+    @AsyncLRU(maxsize=None)
     async def get_repo(self, name: str) -> AttributeDict:
         try:
             return AttributeDict(await self.gh.getitem(repo_uri(self.org, name)))
@@ -329,7 +329,7 @@ class GTNHModpackManager:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
         # Sorted releases, newest version first
-        sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)  # type: ignore
+        sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
 
         if releaseVersion == "daily":
             sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
@@ -516,7 +516,7 @@ class GTNHModpackManager:
 
                     continue
 
-                override = overrides and overrides.get(mod.name)
+                override = overrides.get(mod.name) if overrides else None
                 mod_version = override if override else mod.latest_version
 
                 if not mod.has_version(mod_version):
@@ -1242,7 +1242,7 @@ class GTNHModpackManager:
                 pack_release_version=release.version,
                 mod_name=mod_name,
                 changelog_entries=mod_version_changelogs,
-                oldest_side=None if is_new_mod else old_version.side,  # type: ignore
+                oldest_side=None if is_new_mod else old_version.side,
                 newest_side=new_version.side,  # type: ignore
                 new_mod=is_new_mod,
             )

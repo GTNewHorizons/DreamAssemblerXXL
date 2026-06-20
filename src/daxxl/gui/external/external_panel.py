@@ -41,7 +41,7 @@ class ExternalPanelCallback(ModInfoCallback):
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = refresh_external_modlist
 
 
-class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
+class ExternalPanel(LabelFrame, TtkLabelFrame):
     """Main frame widget for the external mods' management."""
 
     def __init__(
@@ -283,7 +283,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             """
             if event.widget is top_level:
                 self.toggle_freeze()
-                asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
+                asyncio.ensure_future(self.refresh_external_modlist())
 
         top_level.bind("<Destroy>", close)
 
@@ -348,7 +348,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             """
             if event.widget is top_level:
                 self.toggle_freeze()
-                asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
+                asyncio.ensure_future(self.refresh_external_modlist())
 
         top_level.bind("<Destroy>", close)
 

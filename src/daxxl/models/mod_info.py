@@ -16,9 +16,9 @@ class GTNHModInfo(GTNHBaseModel, Versionable):
     side: Side = Field(default=Side.BOTH)
     source: ModSource = Field(default=ModSource.github)
 
-    external_url: str | None
-    project_id: str | None
-    slug: str | None
+    external_url: str | None = Field(default=None)
+    project_id: str | None = Field(default=None)
+    slug: str | None = Field(default=None)
 
     disabled: bool = Field(default=False)
 

@@ -52,7 +52,7 @@ class GithubPanelCallback(ModInfoCallback):
         self.set_modpack_version: Callable[[str], None] = set_modpack_version
 
 
-class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
+class GithubPanel(LabelFrame, TtkLabelFrame):
     """
     Main frame widget for the github mods' management.
     """
@@ -310,18 +310,11 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
         assert latest_version
-        current_version: str = (
-            self.get_github_mods_callback()[name].version
-            if name in self.get_github_mods_callback()
-            else latest_version.version_tag
-        )
+        github_mod = self.get_github_mods_callback().get(name)
+        current_version: str = github_mod.version if github_mod is not None else latest_version.version_tag
         mod_license: str = mod_info.license or "No license detected"
 
-        side: Side = (
-            self.get_github_mods_callback()[name].side  # type: ignore
-            if (name in self.get_github_mods_callback() and self.get_github_mods_callback()[name].side is not None)
-            else Side.NONE
-        )
+        side: Side = github_mod.side if github_mod is not None and github_mod.side is not None else Side.NONE
 
         side_default: Side = mod_info.side
 

@@ -5,7 +5,7 @@ from typing import Any
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
-class CustomButton(Button, TtkButton, CustomWidget):  # type: ignore
+class CustomButton(Button, TtkButton, CustomWidget):
     def __init__(self, *args: Any, themed: bool = False, **kwargs: Any):
         self.themed = themed
         if themed:
@@ -20,7 +20,7 @@ class CustomButton(Button, TtkButton, CustomWidget):  # type: ignore
     def grid_forget(self) -> None:
         return Button.grid_forget(self)
 
-    def grid(self, *args, **kwargs) -> None:  # type: ignore
+    def grid(self, *args, **kwargs) -> None:
         return Button.grid(self, *args, **kwargs)
 
     def reset(self) -> None:

@@ -1,7 +1,7 @@
 import bisect
 
 try:
-    from packaging.version import LegacyVersion  # type: ignore
+    from packaging.version import LegacyVersion
 except ImportError:
     from packaging_legacy.version import LegacyVersion
 
@@ -28,7 +28,7 @@ class Versionable(BaseModel):
         if idx is not None:
             self.versions[idx] = version
         else:
-            bisect.insort_right(self.versions, version, key=version_sort_key)  # type: ignore
+            bisect.insort_right(self.versions, version, key=version_sort_key)
         self.reset_latest()
 
     def remove_version(self, version: GTNHVersion) -> bool:
@@ -62,7 +62,7 @@ class Versionable(BaseModel):
         return None
 
     def get_version_idx(self, version: str) -> int | None:
-        i = bisect.bisect_left(self.versions, LegacyVersion(version), key=version_sort_key)  # type: ignore
+        i = bisect.bisect_left(self.versions, LegacyVersion(version), key=version_sort_key)
         if i != len(self.versions) and self.versions[i] and self.versions[i].version_tag == version:
             return i
         return None
@@ -71,11 +71,11 @@ class Versionable(BaseModel):
         return self.get_version_idx(version) is not None
 
     def get_versions(self, left: str | None, right: str) -> list[GTNHVersion]:
-        right_idx = bisect.bisect_right(self.versions, LegacyVersion(right), key=version_sort_key)  # type: ignore
+        right_idx = bisect.bisect_right(self.versions, LegacyVersion(right), key=version_sort_key)
         if not left:
             return self.versions[:right_idx]
 
-        left_idx = bisect.bisect_left(self.versions, LegacyVersion(left), key=version_sort_key)  # type: ignore
+        left_idx = bisect.bisect_left(self.versions, LegacyVersion(left), key=version_sort_key)
         return self.versions[left_idx:right_idx]
 
 

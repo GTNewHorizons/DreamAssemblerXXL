@@ -32,7 +32,7 @@ class ModInfoCallback:
         self.listbox = listbox
 
 
-class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
+class ModInfoWidget(LabelFrame, TtkLabelFrame):
     """
     Widget used to display info about a mod passed to it.
     """
@@ -105,7 +105,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
             self.widgets = [self.mod_name, self.version, self.license, self.side, self.side_default]
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )  # type: ignore
+        )
 
     async def edit_version(self) -> None:
         if not self.callbacks.listbox.has_selection():
@@ -137,7 +137,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         gtnh = await self.mod_adder_callbacks.get_gtnh_callback()  # type: ignore
         data = gtnh.assets.get_mod(mod_name)
         version = data.get_version(version)
-        mod_addition_frame.populate_data(mod=data, version=version)  # type: ignore
+        mod_addition_frame.populate_data(mod=data, version=version)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("Edit new version")

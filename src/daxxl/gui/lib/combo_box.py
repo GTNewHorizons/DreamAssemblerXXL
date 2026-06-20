@@ -6,7 +6,7 @@ from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
-class CustomCombobox(Frame, TtkFrame, CustomWidget):  # type: ignore
+class CustomCombobox(Frame, TtkFrame, CustomWidget):
     def __init__(
         self,
         master: Any,
@@ -51,7 +51,7 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):  # type: ignore
         self.columnconfigure(1, weight=1)
 
     def get_values(self) -> List[str]:
-        return self.combobox["values"]  # type: ignore
+        return self.combobox["values"]
 
     def set_values(self, values: List[str]) -> None:
         self.combobox["values"] = values

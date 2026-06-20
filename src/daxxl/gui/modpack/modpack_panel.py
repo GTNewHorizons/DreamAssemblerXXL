@@ -52,7 +52,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)
 
 
-class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
+class ModpackPanel(LabelFrame, TtkLabelFrame):
     """Main frame for managing the releases."""
 
     def __init__(
