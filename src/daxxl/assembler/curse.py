@@ -322,10 +322,7 @@ class CurseAssembler(GenericAssembler):
 
         metadata: dict[
             str,
-            dict[str, str | list[dict[str, str | bool | int]]]
-            | list[dict[str, str | bool | int]]
-            | str
-            | int,
+            dict[str, str | list[dict[str, str | bool | int]]] | list[dict[str, str | bool | int]] | str | int,
         ] = {
             "minecraft": {"version": "1.7.10", "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}]},
             "manifestType": "minecraftModpack",
