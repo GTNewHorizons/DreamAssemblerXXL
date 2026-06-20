@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-19T20:45:13.346650",
+  "last_updated": "2026-06-20T07:11:46.089001",
   "config": "2.9.0-nightly-2026-06-18-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-987-GTNH",
+      "version": "rv3-beta-988-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.163",
+      "version": "2.7.164",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.31-GTNH",
+      "version": "1.3.32-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.90",
+      "version": "0.4.91",
       "side": "BOTH"
     },
     "Freecam": {

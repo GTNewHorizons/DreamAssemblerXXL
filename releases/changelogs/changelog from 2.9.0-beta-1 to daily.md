@@ -47,10 +47,11 @@ Mod is client-side only.
 >* More specific shader fixes pertaining to EP by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1831 (2.1.33)
 >* Remove CTM adding .png to tile paths by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1832 (2.1.33)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-987-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-987-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-988-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-988-GTNH
 
 ## What's Changed:
+>* Optimize powered insert/extract by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1391 (rv3-beta-988-GTNH)
 >* change the access modifiers of some fields in the cpu class and remove final by @ABKQPO in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1384 (rv3-beta-987-GTNH)
 >* Fix export bus cache by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1385 (rv3-beta-987-GTNH)
 >* Show phantom slot tooltips outside terminals by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1390 (rv3-beta-987-GTNH)
@@ -380,10 +381,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Close GUI when the block is destroyed by @Kogepan229 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/40 (1.12.23-GTNH)
 
-# Updated - Hodgepodge - 2.7.160 --> 2.7.163
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.163
+# Updated - Hodgepodge - 2.7.160 --> 2.7.164
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.164
 
 ## What's Changed:
+>* Fix vanilla item frame duplication bug by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/928 (2.7.164)
 >* Include TextureAtlasSprite info in DumpTextureAtlasCommand by @tiffit in https://github.com/GTNewHorizons/Hodgepodge/pull/925 (2.7.163)
 >* Fix villager trading desync by @kurrycat2004 in https://github.com/GTNewHorizons/Hodgepodge/pull/826 (2.7.162)
 >* Fix GL_ALPHA_TEST and potion effect HUD rendering by @dipo33 in https://github.com/GTNewHorizons/Hodgepodge/pull/907 (2.7.161)
@@ -415,10 +417,11 @@ Mod is client-side only.
 >* Fix validity check due to new logic for gem boost by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/36 (2.7.9)
 >* Enhance diamond level boost logic by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/35 (2.7.8)
 
-# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.31-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.31-GTNH
+# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.32-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.32-GTNH
 
 ## What's Changed:
+>* Fix AE2 tooltips treating fluid containers as fluids (buckets) by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/198 (1.3.32-GTNH)
 >* Fix dupe by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/195 (1.3.31-GTNH)
 >* Added AE2 and Thaumic Energistics NEI integration by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/184 (1.3.30-GTNH)
 >* Fixes Desugaring Baubles by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/190 (1.3.30-GTNH)
@@ -609,10 +612,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add blank computational singularity by @GDCloudstrike in https://github.com/GTNewHorizons/Universal-Singularities/pull/20 (8.15.2)
 
-# Updated - VendingMachine - 0.4.87 --> 0.4.90
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.90
+# Updated - VendingMachine - 0.4.87 --> 0.4.91
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.91
 
 ## What's Changed:
+>* modify the rendering order of trade item display and add new background textures by @ABKQPO in https://github.com/GTNewHorizons/VendingMachine/pull/149 (0.4.91)
 >* CTM for casings by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/151 (0.4.90)
 >* Fix cooldown text colour by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/148 (0.4.89)
 >* show coins in ME system in coin display by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/146 (0.4.88)
