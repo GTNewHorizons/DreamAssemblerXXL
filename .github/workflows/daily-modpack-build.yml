@@ -318,8 +318,8 @@ jobs:
         working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
         run: |
           set -euo pipefail
-          curl -sSL -o headlessnh-1.0.12.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.12/headlessnh-1.0.12.jar
-          echo "ce4057fb47d9659b4771feb2f8cdf5311aaadc1c8f6378f390841c547a2db402  headlessnh-1.0.12.jar" | sha256sum -c -
+          curl -sSL -o headlessnh-1.0.13.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.13/headlessnh-1.0.13.jar
+          echo "6d75e4af90949fd35f6be1bb4cc4a4ebc454d6a874795ffc8ff4dbeb928d1941  headlessnh-1.0.13.jar" | sha256sum -c -
 
       - name: Add HorizonQA to both client & server mods
         shell: bash
@@ -343,7 +343,7 @@ jobs:
         run: bash scripts/tests/orchestrator.sh run-client
 
       - name: Stop server
-        if: success() || (failure() && steps.start-server.outcome == 'success')
+        if: always() && steps.start-server.outcome == 'success'
         run: bash scripts/tests/orchestrator.sh stop-server
 
       - name: Print logs from dual run
@@ -537,6 +537,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TAG: daily-screenshots
       RETENTION_DAYS: 90
+      MAX_ASSETS: 900
     steps:
       - name: Prune media older than retention window
         shell: bash
@@ -557,6 +558,31 @@ jobs:
               gh release delete-asset "$TAG" "$name" -R "$GITHUB_REPOSITORY" --yes || true
             fi
           done
+
+      - name: Prune oldest media when over the max asset count
+        shell: bash
+        run: |
+          set -uo pipefail
+          # Collect dated assets sorted oldest first (the ISO date prefix should sort chronologically)
+          mapfile -t names < <(
+            gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name' | \
+            while read -r name; do
+              asset_date="${name:0:10}"
+              case "$asset_date" in
+                [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) echo "$name" ;;
+              esac
+            done | sort
+          )
+          total=${#names[@]}
+          echo "Found $total dated $TAG assets (max $MAX_ASSETS)"
+          if (( total > MAX_ASSETS )); then
+            to_delete=$(( total - MAX_ASSETS ))
+            echo "Over capacity by $to_delete; deleting the $to_delete oldest assets"
+            for name in "${names[@]:0:to_delete}"; do
+              echo "Deleting $name (over the $MAX_ASSETS asset cap)"
+              gh release delete-asset "$TAG" "$name" -R "$GITHUB_REPOSITORY" --yes || true
+            done
+          fi
 
 
   upload:
