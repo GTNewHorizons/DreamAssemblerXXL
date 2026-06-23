@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-22T09:26:59.596337",
-  "config": "2.9.0-nightly-2026-06-22",
+  "last_updated": "2026-06-23T07:03:01.876475",
+  "config": "2.9.0-nightly-2026-06-22-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.94-gtnh",
+      "version": "1.5.95-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -17,7 +17,7 @@
       "side": "BOTH"
     },
     "AngerMod": {
-      "version": "1.0.6",
+      "version": "1.0.7",
       "side": "BOTH"
     },
     "AppleCore": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-990-GTNH",
+      "version": "rv3-beta-991-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.23",
+      "version": "1.7.24",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.53.04",
+      "version": "5.09.53.06",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.164",
+      "version": "2.7.165",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.294",
+      "version": "2.8.296",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "Freecam": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "side": "BOTH"
     },
     "MouseTweaks": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.79",
+      "version": "2.0.80",
       "side": "BOTH"
     },
     "Fether": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "side": "BOTH"
     },
     "GTNH-Credits": {

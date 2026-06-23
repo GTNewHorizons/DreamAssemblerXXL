@@ -1,7 +1,9 @@
-# Updated - AE2FluidCraft-Rework - 1.5.88-gtnh --> 1.5.94-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.88-gtnh...1.5.94-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.88-gtnh --> 1.5.95-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.88-gtnh...1.5.95-gtnh
 
 ## What's Changed:
+>* Super stock replenisher full stock mode by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/442 (1.5.95-gtnh)
+>* use IStorageCell by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/448 (1.5.95-gtnh)
 >* Included stationary lava and water to annihilation plane by @Redderpears in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/447 (1.5.94-gtnh)
 >* Add tab navigation to level maintainer inputs by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/446 (1.5.93-gtnh)
 >* Fix fluid auto filler crash by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/445 (1.5.92-gtnh)
@@ -48,10 +50,17 @@ Mod is client-side only.
 >* More specific shader fixes pertaining to EP by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1831 (2.1.33)
 >* Remove CTM adding .png to tile paths by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1832 (2.1.33)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-990-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-990-GTNH
+# Updated - AngerMod - 1.0.6 --> 1.0.7
+**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/1.0.6...1.0.7
 
 ## What's Changed:
+>* Fix eggplant damaging chickens when consumed by @zaru-noodles in https://github.com/GTNewHorizons/AngerMod/pull/19 (1.0.7)
+
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-991-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-991-GTNH
+
+## What's Changed:
+>* Fix storage bus cache refresh recursion by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1395 (rv3-beta-991-GTNH)
 >* prevent gl color state contamination by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1394 (rv3-beta-990-GTNH)
 >* fix Crafting failure no feedback by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1393 (rv3-beta-989-GTNH)
 >* Fix multi-type storage cells not showing contents in tooltip by @Luca-Guettinger in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1388 (rv3-beta-989-GTNH)
@@ -76,6 +85,11 @@ Mod is client-side only.
 >* fix world server leak caused by InventoryAdaptor cache by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1358 (rv3-beta-978-GTNH)
 >* Improve copying via memory card by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1359 (rv3-beta-978-GTNH)
 
+# Updated - AspectRecipeIndex - 1.1.1 --> 1.1.2
+**Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.1.1...1.1.2
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - BetterLoadingScreen - 1.7.8-GTNH --> 1.7.9-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.8-GTNH...1.7.9-GTNH
@@ -148,10 +162,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.79
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.79
+# Updated - CropsNH - 2.0.69 --> 2.0.80
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.80
 
 ## What's Changed:
+>* MUI1 depreciation by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/153 (2.0.80)
 >* Bauxia Balance Changes by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/172 (2.0.79)
 >* Add ICasingTextureProvider to MTEIndustrialFarm by @tiffit in https://github.com/GTNewHorizons/CropsNH/pull/174 (2.0.79)
 >* fix: adapt to new ItemEjectionHelper API parameters by @hinyb in https://github.com/GTNewHorizons/CropsNH/pull/173 (2.0.79)
@@ -177,10 +192,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add API to get nearby ChaosIsland coordinate by @Algent in https://github.com/GTNewHorizons/Draconic-Evolution/pull/103 (1.5.27-GTNH)
 
-# Updated - Electro-Magic-Tools - 1.7.22 --> 1.7.23
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.22...1.7.23
+# Updated - Electro-Magic-Tools - 1.7.22 --> 1.7.24
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.22...1.7.24
 
 ## What's Changed:
+>* deprecate ic2 bounce pad by @LazyFlesh in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/121 (1.7.24)
+>* Deprecate ic2 glass by @LazyFlesh in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/118 (1.7.24)
 >* Deprecate ic2 iron fence by @LazyFlesh in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/119 (1.7.23)
 >* move aspect registry after a isModLoaded check for gt5 by @LazyFlesh in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/120 (1.7.23)
 
@@ -211,10 +228,29 @@ Mod is client-side only.
 ## What's Changed:
 >* fix(microblock): prevent microblocks becoming blood rune slabs  by @Caedis in https://github.com/GTNewHorizons/ForgeMultipart/pull/47 (1.7.8)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.04
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.04
+# Updated - Freecam - 1.0.8 --> 1.0.9
+**Full Changelog**: https://github.com/GTNewHorizons/Freecam/compare/1.0.8...1.0.9
 
 ## What's Changed:
+>* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
+
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.06
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.06
+
+## What's Changed:
+>* add Power Button to industrial apiary gui by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7218 (5.09.53.06)
+>* [Mechanical Armor] Clean up holo augment again by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7202 (5.09.53.06)
+>* [MUI2] Reworked SettingsPanel, added Parameter compatibility by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6841 (5.09.53.06)
+>* Swap missed mention of ic2 glass by @LazyFlesh in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7252 (5.09.53.06)
+>* Fix T4 Nanoforge Requiring Maintenance Hatch by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7240 (5.09.53.05)
+>* YOTHatch and TFFT Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7247 (5.09.53.05)
+>* replace ic2 reinforced stone with gt block by @LazyFlesh in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7228 (5.09.53.05)
+>* replace and deprecate Ic2 bounce pad  by @LazyFlesh in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7212 (5.09.53.05)
+>* [Mechanical Armor] Rebalance protection values by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7198 (5.09.53.05)
+>* Let MApiary auto-place water by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7245 (5.09.53.05)
+>* Loc fixes for condensates, frame boxes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7207 (5.09.53.05)
+>* Fixes for cutting recipe display by @TotallyNotOndre in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7234 (5.09.53.05)
+>* add GT reinforced glass by @LazyFlesh in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7186 (5.09.53.05)
 >* allow toxic air in liquid air fluid hatch by @philzin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7210 (5.09.53.04)
 >* Arc furnace fixes and adjustments by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7229 (5.09.53.04)
 >* change foundry tooltips to reflect recent balance adjustments by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7243 (5.09.53.03)
@@ -424,10 +460,11 @@ Mod is client-side only.
 >* Falling obsidian no longer overwrites blocks on landing by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/41 (1.12.24-GTNH)
 >* Close GUI when the block is destroyed by @Kogepan229 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/40 (1.12.23-GTNH)
 
-# Updated - Hodgepodge - 2.7.160 --> 2.7.164
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.164
+# Updated - Hodgepodge - 2.7.160 --> 2.7.165
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.165
 
 ## What's Changed:
+>* Change `MixinChunkProviderServer_FastUnload` to use generic LongSet by @BallOfEnergy1 in https://github.com/GTNewHorizons/Hodgepodge/pull/930 (2.7.165)
 >* Fix vanilla item frame duplication bug by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/928 (2.7.164)
 >* Include TextureAtlasSprite info in DumpTextureAtlasCommand by @tiffit in https://github.com/GTNewHorizons/Hodgepodge/pull/925 (2.7.163)
 >* Fix villager trading desync by @kurrycat2004 in https://github.com/GTNewHorizons/Hodgepodge/pull/826 (2.7.162)
@@ -532,10 +569,15 @@ Mod is client-side only.
 >* Add check for "." being parsed with exponent E by @Miklebe in https://github.com/GTNewHorizons/ModularUI2/pull/136 (2.3.74-1.7.10)
 >* Fixed toggle button bgOverlay overriding theme bg by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/137 (2.3.74-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.294
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.294
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.296
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.296
 
 ## What's Changed:
+>* reupdate rolled back deps  by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1828 (2.8.296)
+>* Fix missing coremod cutting recipes in nei by @TotallyNotOndre in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1827 (2.8.295)
+>* replace ic2 to gt reinforced stone by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1824 (2.8.295)
+>* deprecate ic2 glass recipes by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1818 (2.8.295)
+>* replace ic2 rubber pad for gt, add recipe for sticky pad by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1822 (2.8.295)
 >* Add space assembler recipe for neutronium compressor controller by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1826 (2.8.294)
 >* Deprecate ic2 iron fence by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1819 (2.8.294)
 >* Remove Steel Dust Smeltery Melting by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1821 (2.8.293)
@@ -751,4 +793,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
