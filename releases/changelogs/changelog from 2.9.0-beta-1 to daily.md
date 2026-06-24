@@ -18,11 +18,12 @@
 ## What's Changed:
 >* Delegate rendering to IItemRenderers by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/53 (1.4.22-GTNH)
 
-# Updated - Angelica - 2.1.32 --> 2.1.42
+# Updated - Angelica - 2.1.32 --> 2.1.43
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.42
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.43
 
 ## What's Changed:
+>* Fix map rendering issue in xaero's map mods by @RedNicStone in https://github.com/GTNewHorizons/Angelica/pull/1880 (2.1.43)
 >* Fix universium shader by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1877 (2.1.42)
 >* Add new CTM mode "compact_expanded" to generate textures on runtime by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1840 (2.1.41)
 >* Separate out entity overlay render mixins by @MalTeeez in https://github.com/GTNewHorizons/Angelica/pull/1872 (2.1.40)
@@ -110,6 +111,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/BetterQuesting/pull/235 (3.8.72-GTNH)
 >* Remove Text Formatting From Items in Reward/Task Panel by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/234 (3.8.71-GTNH)
+
+# Updated - Binnie - 2.6.32 --> 2.6.33
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.32...2.6.33
+
+## What's Changed:
+>* Fix fluids racing to registration by @Pxx500 in https://github.com/GTNewHorizons/Binnie/pull/99 (2.6.33)
 
 # Updated - BloodArsenal - 1.5.10 --> 1.5.11
 **Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.5.10...1.5.11
@@ -207,6 +214,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add automation to EIO Enchanter (basically a copy-paste from my other two PR's) by @felixfour in https://github.com/GTNewHorizons/EnderIO/pull/227 (2.10.31)
 
+# Updated - EnderZoo - 1.3.4 --> 1.3.5
+**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.4...1.3.5
+
+## What's Changed:
+>* Fix concussion creeper portal effect applying to all players by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderZoo/pull/15 (1.3.5)
+
 # Updated - Et-Futurum-Requiem - 2.6.40-GTNH --> 2.6.43-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.40-GTNH...2.6.43-GTNH
 
@@ -234,10 +247,21 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.06
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.06
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.10
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.10
 
 ## What's Changed:
+>* Revert unintended structure change by @LazyFlesh in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7262 (5.09.53.10)
+>* [MUI2] Ported MTEHatchInput to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6890 (5.09.53.10)
+>* Simplify Extrusion Hatch Recipe (& Match Input Bus GUI) by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7260 (5.09.53.10)
+>* Defer getInfoData() translation to client in gregtech machines by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7106 (5.09.53.09)
+>* Defer getInfoData() translation to client in goodgenerator by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7108 (5.09.53.09)
+>* Defer getInfoData() translation to client in gtnhintergalactic by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7110 (5.09.53.09)
+>* Defer getInfoData() translation to client in bartworks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7114 (5.09.53.09)
+>* Defer getInfoData() translation to client in gtnhlanth by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7109 (5.09.53.09)
+>* fixed small typo in amount of casing by @JustACasualDay in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7259 (5.09.53.08)
+>* Add EU/t to PGS Nei Page + Improve PGS tooltip regarding EU/t by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7241 (5.09.53.08)
+>* Fix crash from powerfail clearing by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7256 (5.09.53.07)
 >* add Power Button to industrial apiary gui by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7218 (5.09.53.06)
 >* [Mechanical Armor] Clean up holo augment again by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7202 (5.09.53.06)
 >* [MUI2] Reworked SettingsPanel, added Parameter compatibility by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6841 (5.09.53.06)
@@ -471,10 +495,11 @@ Mod is client-side only.
 >* Fix GL_ALPHA_TEST and potion effect HUD rendering by @dipo33 in https://github.com/GTNewHorizons/Hodgepodge/pull/907 (2.7.161)
 >* addClientMixins instead of addCommonMixins for the "fixSaveFileWrittenToExistingDirectory" mixin by @Charsy89 in https://github.com/GTNewHorizons/Hodgepodge/pull/922 (2.7.161)
 
-# Updated - HoloInventory - 2.5.13-GTNH --> 2.5.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.13-GTNH...2.5.14-GTNH
+# Updated - HoloInventory - 2.5.13-GTNH --> 2.5.15-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.13-GTNH...2.5.15-GTNH
 
 ## What's Changed:
+>* Refactor glasses check by @FourIsTheNumber in https://github.com/GTNewHorizons/HoloInventory/pull/62 (2.5.15-GTNH)
 >* Check all armor slots for IHoloGlasses by @FourIsTheNumber in https://github.com/GTNewHorizons/HoloInventory/pull/61 (2.5.14-GTNH)
 
 # Updated - HydroEnergy - 1.4.20 --> 1.4.21
@@ -559,10 +584,11 @@ Mod is client-side only.
 >* Use memory card methods for copying AE2 parts by @Kogepan229 in https://github.com/GTNewHorizons/MatterManipulator/pull/58 (0.1.39-GTNH)
 >* CapturingTessellator -> LocalTessellator by @sisyphussy in https://github.com/GTNewHorizons/MatterManipulator/pull/57 (0.1.38-GTNH)
 
-# Updated - ModularUI2 - 2.3.73-1.7.10 --> 2.3.77-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.73-1.7.10...2.3.77-1.7.10
+# Updated - ModularUI2 - 2.3.73-1.7.10 --> 2.3.78-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.73-1.7.10...2.3.78-1.7.10
 
 ## What's Changed:
+>* Add option to disable default dark background overlay on ModularScreen by @RealSilverMoon in https://github.com/GTNewHorizons/ModularUI2/pull/139 (2.3.78-1.7.10)
 >* Restore MUI1 fluid interaction by @AnsonYeung in https://github.com/GTNewHorizons/ModularUI2/pull/142 (2.3.77-1.7.10)
 >* Add SUN and MOON icons by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ModularUI2/pull/143 (2.3.76-1.7.10)
 >* Add COLOR_WHEEL icon by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ModularUI2/pull/140 (2.3.75-1.7.10)
@@ -663,10 +689,12 @@ Mod is client-side only.
 >* Fix FirestoneTickHandler causing a CME by @tiffit in https://github.com/GTNewHorizons/Railcraft/pull/122 (9.17.28)
 >* fix type casting issue by @ABKQPO in https://github.com/GTNewHorizons/Railcraft/pull/121 (9.17.27)
 
-# Updated - ServerUtilities - 2.3.0 --> 2.3.2
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.3.0...2.3.2
+# Updated - ServerUtilities - 2.3.0 --> 2.4.1
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.3.0...2.4.1
 
 ## What's Changed:
+>* Fix /back sometimes spawning you inside grave by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/322 (2.4.1)
+>* Add api for registering invsee inventories by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/321 (2.4.0)
 >* Localization, Button texture, Slot texture, backgroud fix, GC slot fix by @Ranzuu in https://github.com/GTNewHorizons/ServerUtilities/pull/315 (2.3.2)
 >* Fix cursor jumping when closing rank editor GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/313 (2.3.1)
 
@@ -793,4 +821,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

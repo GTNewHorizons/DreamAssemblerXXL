@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-23T07:03:01.876475",
-  "config": "2.9.0-nightly-2026-06-22-2",
+  "last_updated": "2026-06-24T07:30:52.829301",
+  "config": "2.9.0-nightly-2026-06-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.32",
+      "version": "2.6.33",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "EnderZoo": {
-      "version": "1.3.4",
+      "version": "1.3.5",
       "side": "BOTH"
     },
     "EnhancedLootBags": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.53.06",
+      "version": "5.09.53.10",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.14-GTNH",
+      "version": "2.5.15-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.3.2",
+      "version": "2.4.1",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.42",
+      "version": "2.1.43",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.77-1.7.10",
+      "version": "2.3.78-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
