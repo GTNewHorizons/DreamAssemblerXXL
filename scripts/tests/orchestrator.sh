@@ -14,6 +14,7 @@ SERVER_DIR="${SERVER_DIR:-$WORK_DIR/server}"
 RUN_DIR="${RUN_DIR:-$WORK_DIR/run}"
 export CLIENT_DIR CLIENT_MC_DIR SERVER_DIR RUN_DIR
 
+SERVER_LOG="$RUN_DIR/server.log"
 SERVER_READY_FLAG="$RUN_DIR/server.ready"
 SERVER_EXIT_FLAG="$RUN_DIR/server.exit"
 CLIENT_LOADED_FLAG="$RUN_DIR/.mainmenu.headlessnh"
@@ -93,11 +94,15 @@ run_client() {
   run_dual_tests &
   local dual_pid=$!
 
+  # Also tail server logs for pre-dual test logs with a prefix
+  tail -n 0 -F "$SERVER_LOG" 2>/dev/null > >(sed -u 's/^/SERVER: /') &
+  local server_tail_pid=$!
+
   local rc=0
   bash "$SCRIPT_DIR/headless_client.sh" || rc=$?
 
-  kill "$watcher_pid" "$watch_startup_pid" "$dual_pid" 2>/dev/null || true
-  wait "$watcher_pid" "$watch_startup_pid" "$dual_pid" 2>/dev/null || true
+  kill "$watcher_pid" "$watch_startup_pid" "$dual_pid" "$server_tail_pid" 2>/dev/null || true
+  wait "$watcher_pid" "$watch_startup_pid" "$dual_pid" "$server_tail_pid" 2>/dev/null || true
   return "$rc"
 }
 
