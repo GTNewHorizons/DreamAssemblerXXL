@@ -4,16 +4,20 @@ on:
   workflow_dispatch:
 
 jobs:
-  experimental-modpack-build:
+  build:
     runs-on: ubuntu-24.04
+    outputs:
+      today: ${{ steps.date.outputs.today }}
+      experimental_changelog_file: ${{ steps.release-info.outputs.experimental_changelog_file }}
+      changelog_name: ${{ steps.changelog-name.outputs.changelog_name }}
     steps:
       #  check-out repo and set-up python
       - name: Check out repository
         uses: actions/checkout@v5
         with:
-          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
           ref: master
+          persist-credentials: false
 
       - name: Install uv
         uses: astral-sh/setup-uv@v8.1.0
@@ -33,7 +37,7 @@ jobs:
 
       - name: Load cached mod zips
         id: load_mod_cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: cache
           key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
@@ -49,15 +53,15 @@ jobs:
           uv run python -m daxxl.cli.assemble_experimental
 
       - name: Save cached mod zips
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: steps.load_mod_cache.outputs.cache-hit != 'true'
         with:
           path: cache
           key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
 
       - name: Retrieve last non-experimental release name
+        id: release-info
         shell: bash
-        if: success() || failure()
         run: |
           last_non_experimental_release_name=$(jq -r '
           .releases
@@ -71,24 +75,17 @@ jobs:
               ]
           ) | last
           ' ./gtnh-modpack.json)
-          echo "experimental_non_experimental_changelog_file=./releases/changelogs/changelog from ${last_non_experimental_release_name} to experimental.md" >> $GITHUB_ENV
-          echo "last_non_experimental_release_name=${last_non_experimental_release_name}" >> $GITHUB_ENV
+          changelog_file="./releases/changelogs/changelog from ${last_non_experimental_release_name} to experimental.md"
+          echo "experimental_changelog_file=${changelog_file}" >> "$GITHUB_ENV"
+          echo "last_non_experimental_release_name=${last_non_experimental_release_name}" >> "$GITHUB_ENV"
+          echo "experimental_changelog_file=${changelog_file}" >> "$GITHUB_OUTPUT"
 
       - name: Generate changelog between experimental and last non-experimental release
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          uv run python -m daxxl.cli.generate_changelog --previous-release-name "$last_non_experimental_release_name" experimental > "$experimental_non_experimental_changelog_file"
-
-      # Upload modpack
-      - name: Upload manifest
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
-        if: success() || failure()
-        with:
-          name: gtnh-experimental-${{ steps.date.outputs.today }}-manifest.json
-          path: releases/manifests/experimental.json
+          uv run python -m daxxl.cli.generate_changelog --previous-release-name "$last_non_experimental_release_name" experimental > "$experimental_changelog_file"
 
       - name: Upload manifest job summary
         shell: bash
@@ -119,12 +116,82 @@ jobs:
           mv releases/multi_poly/GT_New_Horizons_experimental_Java_8.zip "GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
           mv releases/multi_poly/GT_New_Horizons_experimental_Java_17-25.zip "GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip"
 
+      # Pulls the newest changelog filename and stores it in an env variable
+      # so we can use it in the commit
+      - name: Retrieve Changelog Name
+        id: changelog-name
+        shell: bash
+        run: |
+          changelog_name=$(./scripts/newest_changelog.sh './releases/changelogs/experimental builds')
+          echo "changelog_name=${changelog_name}" >> "$GITHUB_OUTPUT"
+
+      # Bundle everything the test/upload jobs need into a single internal artifact
+      - name: Upload build bundle for downstream jobs
+        uses: actions/upload-artifact@v7
+        with:
+          name: experimental-build-bundle
+          path: |
+            GTNH-experimental-${{ steps.date.outputs.today }}-server-java8.zip
+            GTNH-experimental-${{ steps.date.outputs.today }}-server-java17-25.zip
+            GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+            GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip
+            releases/manifests/experimental.json
+            releases/changelogs/
+            gtnh-assets.json
+          if-no-files-found: error
+          retention-days: 1
+
+
+  test:
+    needs: build
+    permissions:
+      contents: write # publish release
+    secrets: inherit
+    uses: ./.github/workflows/modpack-test.yml
+    with:
+      bundle-name: experimental-build-bundle
+      zip-prefix: GTNH-experimental-${{ needs.build.outputs.today }}
+      today: ${{ needs.build.outputs.today }}
+      media-label: experimental
+      media-tag: experimental-screenshots
+      media-title: "Experimental test media (90-day rolling store)"
+
+
+  upload:
+    needs: [build, test]
+    runs-on: ubuntu-24.04
+    env:
+      experimental_changelog_file: ${{ needs.build.outputs.experimental_changelog_file }}
+      changelog_name: ${{ needs.build.outputs.changelog_name }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 0
+          ref: master
+
+      - name: Download build bundle
+        uses: actions/download-artifact@v7
+        with:
+          name: experimental-build-bundle
+
+      # Upload modpack
+      - name: Upload manifest
+        uses: actions/upload-artifact@v7
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: gtnh-experimental-${{ needs.build.outputs.today }}-manifest.json
+          path: releases/manifests/experimental.json
+
       - name: Upload server zip
         uses: actions/upload-artifact@v7
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-experimental-${{ steps.date.outputs.today }}-server-java8.zip
+          path: GTNH-experimental-${{ needs.build.outputs.today }}-server-java8.zip
           archive: false
 
       - name: Upload modern java server zip
@@ -132,7 +199,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-experimental-${{ steps.date.outputs.today }}-server-java17-25.zip
+          path: GTNH-experimental-${{ needs.build.outputs.today }}-server-java17-25.zip
           archive: false
 
       - name: Upload MMC zip
@@ -140,7 +207,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+          path: GTNH-experimental-${{ needs.build.outputs.today }}-mmcprism-java8.zip
           archive: false
 
       - name: Upload modern java Prism zip
@@ -148,28 +215,18 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java17-25.zip
+          path: GTNH-experimental-${{ needs.build.outputs.today }}-mmcprism-java17-25.zip
           archive: false
-
-      # Pulls the newest changelog filename and stores it in an env variable
-      # so we can use it in the commit
-      - name: Retrieve Changelog Name
-        shell: bash
-        if: success() || failure()
-        run: |
-          echo "changelog_name=$(./scripts/newest_changelog.sh './releases/changelogs/experimental builds')" >> $GITHUB_ENV
 
       - name: Push experimental changelog in commit to master
         shell: bash
-        if: success() || failure()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          git add "$experimental_non_experimental_changelog_file"
+          git add "$experimental_changelog_file"
           git add "./releases/changelogs/experimental builds"
           git add ./releases/manifests/experimental.json
           git add ./gtnh-assets.json
           git commit -m "Upload experimental $changelog_name"
           git push origin master
-      
