@@ -1,16 +1,15 @@
 To setup DreamAssemblerXXL do the following steps:
-1. Install python 3.10 or higher
-3. Add a personal token, as described in [README.md](https://github.com/GTNewHorizons/DreamAssemblerXXL/blob/master/README.md)
-4. clone the repository
-5. open terminal/console in the root of the repository and type the following commands:
-- `python -m pip install poetry`
-- `poetry install`
+1. Add a personal token, as described in [README.md](https://github.com/GTNewHorizons/DreamAssemblerXXL/blob/master/README.md)
+2. clone the repository
+3. open terminal/console in the root of the repository and type the following commands:
+- `python -m pip install uv`
+- `uv sync`
 
 To run DreamAssemblerXXL do type the following commands in a terminal/console at the root of the repository:
 - (only if you are on windows) `chcp 65001`
-- `poetry run python -m gtnh.gui.gui`
+- `uv run python -m daxxl.gui.gui`
 
-DreamAssemblerXXL can be splitted up in 3 categories: Modpack management (in green), Mod management (in red) and File exclusion management (in yellow)
+DreamAssemblerXXL can be split up in 3 categories: Modpack management (in green), Mod management (in red) and File exclusion management (in yellow)
 
 ![image](https://user-images.githubusercontent.com/12850933/187891144-e9cd9402-eaea-4a10-a658-a46094884f8b.png)
 

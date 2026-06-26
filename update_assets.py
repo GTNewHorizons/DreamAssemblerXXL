@@ -1,9 +1,8 @@
 import asyncclick as click
+import httpx
 import orjson
 
-from gtnh.defs import ModSource
-from gtnh.modpack_manager import GTNHModpackManager
-import httpx
+from daxxl.modpack_manager import GTNHModpackManager
 
 
 def update_external_mods():
@@ -40,29 +39,6 @@ def update_external_mods():
 
 
 @click.command()
-async def update_to_mod():
-    async with httpx.AsyncClient(http2=True) as client:
-        m = GTNHModpackManager(client)
-
-    for mod in m.assets.github_mods:
-        if mod.name in ["DummyCore"]:
-            continue
-        m.assets.add_mod(mod)
-
-    for mod in m.assets.external_mods:
-        if m.assets.has_mod(mod.name):
-            print(f"Skipping duplicate external mod {mod.name}")
-            continue
-        mod.source = ModSource.curse
-        m.assets.add_mod(mod)
-
-    del m.assets.github_mods
-    del m.assets.external_mods
-
-    m.save_assets()
-
-
-@click.command()
 async def cleanup_maven_urls():
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
@@ -77,5 +53,4 @@ async def cleanup_maven_urls():
 
 if __name__ == "__main__":
     # update_external_mods()
-    # m = update_to_mod()
     cleanup_maven_urls()

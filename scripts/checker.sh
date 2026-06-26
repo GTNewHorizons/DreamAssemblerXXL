@@ -1,16 +1,15 @@
 #!/usr/bin/env bash
 
-BASEDIR=$(dirname "$0")
+set -euo pipefail
 
-"$BASEDIR/isort.sh"
-status=$?
-[ $status -eq 0 ] && echo "msuccess!" || exit 1
-"$BASEDIR/black.sh"
-status=$?
-[ $status -eq 0 ] && echo "success!" || exit 1
-"$BASEDIR/mypy.sh"
-status=$?
-[ $status -eq 0 ] && echo "success!" || exit 1
-"$BASEDIR/lint.sh"
-status=$?
-[ $status -eq 0 ] && echo "success!" || exit 1
+if [ -n "${CI:-}" ]; then
+  # CI: report and fail, never rewrite
+  uv run ruff format --check src
+  uv run ruff check src
+else
+  # local: actually fix
+  uv run ruff format src
+  uv run ruff check --fix src
+fi
+
+uv run ty check src

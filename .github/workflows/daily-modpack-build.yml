@@ -25,36 +25,14 @@ jobs:
           ref: master
           persist-credentials: false
 
-      - name: Set up python
-        id: setup-python
-        uses: actions/setup-python@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v8.1.0
         with:
-          python-version: 3.10.5
+          python-version: 3.11
+          enable-cache: true
 
-      # install & configure poetry
-      - name: Install Poetry
-        uses: snok/install-poetry@v1
-        with:
-          virtualenvs-create: true
-          virtualenvs-in-project: true
-          installer-parallel: true
-
-      # load cached venv if cache exists
-      - name: Load cached venv
-        id: cached-poetry-dependencies
-        uses: actions/cache@v5
-        with:
-          path: .venv
-          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('poetry.lock', '*/poetry.lock') }}
-
-      # install dependencies if cache does not exist
       - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction --no-root
-
-      # install your root project, if required
-      - name: Install library
-        run: poetry install --no-interaction
+        run: uv sync --locked --all-extras --dev
 
       - name: Get current date
         id: date
@@ -77,8 +55,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          poetry run python -m gtnh.cli.generate_daily --id "${{ github.run_number }}" --update-available
-          poetry run python -m gtnh.cli.assemble_daily
+          uv run python -m daxxl.cli.generate_daily --id "$((${{ github.run_number }} + 1000))" --update-available
+          uv run python -m daxxl.cli.assemble_daily
 
       - name: Save cached mod zips
         uses: actions/cache/save@v5
@@ -113,7 +91,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
-          poetry run python -m gtnh.cli.generate_changelog --previous-release-name "$last_non_daily_release_name" daily > "$daily_non_daily_changelog_file"
+          uv run python -m daxxl.cli.generate_changelog --previous-release-name "$last_non_daily_release_name" daily > "$daily_non_daily_changelog_file"
 
       - name: Upload manifest job summary
         shell: bash
