@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '20 3 * * *' # 3:20am UTC every day
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -39,7 +43,7 @@ jobs:
 
       - name: Load cached mod zips
         id: load_mod_cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: cache
           key: daxxl-daily-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
@@ -55,7 +59,7 @@ jobs:
           uv run python -m daxxl.cli.assemble_daily
 
       - name: Save cached mod zips
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: steps.load_mod_cache.outputs.cache-hit != 'true'
         with:
           path: cache
@@ -94,21 +98,25 @@ jobs:
         if: success() || failure()
         continue-on-error: true
         run: |
-          echo "# GTNH Daily build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "## GTNH Daily build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
 
-          echo "## Github mods" >> "$GITHUB_STEP_SUMMARY"
+          echo "<details><summary><b>Github mods</b></summary>" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
           echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
           jq -r '.github_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/daily.json | sort >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "</details>" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
 
-          echo "## External mods" >> "$GITHUB_STEP_SUMMARY"
+          echo "<details><summary><b>External mods</b></summary>" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
           echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
           jq -r '.external_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/daily.json | sort >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "</details>" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Relocate built zips
         shell: bash
@@ -147,19 +155,53 @@ jobs:
   test:
     needs: build
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write # publish release
     strategy:
+      fail-fast: false
       matrix:
         include:
           - java-version: 25
-            zip-variant: "server-java17-25"
-            java-args: "-Xms1G -Xmx2G -Dfml.readTimeout=5 @java9args.txt -jar lwjgl3ify-forgePatches.jar nogui"
-            startup-timeout: 120
-            settle-timeout: 60
+            server-zip-variant: server-java17-25
+            client-zip-variant: mmcprism-java17-25
+            server-java-args: |
+              -Xms1G -Xmx2G
+              -Dfml.readTimeout=5
+              -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
+              -Dhorizonqa.reportDir=/tmp/daily-test/run
+              @java9args.txt
+              -jar lwjgl3ify-forgePatches.jar
+              nogui
+            server-startup-timeout: 140
+            server-settle-time: 45
+            client-join-settle-time: 5000
+            client-max-memory: 3400m
+
           - java-version: 8
-            zip-variant: "server-java8"
-            java-args: "-Xms1G -Xmx2500m -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -Dfml.readTimeout=5 -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui"
-            startup-timeout: 240
-            settle-timeout: 120
+            server-zip-variant: server-java8
+            client-zip-variant: mmcprism-java8
+            server-java-args: |
+              -Xms1G -Xmx2500m
+              -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing
+              -Dfml.readTimeout=5
+              -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
+              -Dhorizonqa.reportDir=/tmp/daily-test/run
+              -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+              nogui
+            server-startup-timeout: 240
+            server-settle-time: 85
+            client-join-settle-time: 10000
+            client-max-memory: 4400m
+
+    env:
+      WORK_DIR: /tmp/daily-test
+      SERVER_JAVA_ARGS: ${{ matrix.server-java-args }}
+      SERVER_START_TIMEOUT: ${{ matrix.server-startup-timeout }}
+      SERVER_SETTLE_DURATION: ${{ matrix.server-settle-time }}
+      RCON_PASSWORD: whoahaplaintextpassword
+      CLIENT_WINDOW_NAME: "GT: New Horizons"
+      CLIENT_FOCUS_TIMEOUT: 120
+
     steps:
       - name: Check out repository for scripts
         uses: actions/checkout@v5
@@ -170,23 +212,33 @@ jobs:
           sparse-checkout: 
             scripts/
 
+      - name: Install dependencies (for clientside)
+        run: |
+          sudo apt update
+          sudo apt install -y xvfb libgl1-mesa-dri xauth libegl1 libegl-mesa0 ffmpeg fonts-dejavu-core python3-xlib xdotool x11-xserver-utils scrot x11-utils
+
       - name: Download build bundle
         uses: actions/download-artifact@v8
         with:
           name: daily-build-bundle
 
-      - name: Unpack server artifact
+      - name: Unpack build artifacts
         run: |
-          mkdir -p /tmp/gtnh-unpacked
-          unzip -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.zip-variant }}.zip" -d /tmp/gtnh-unpacked/
-          chmod -R u+rX /tmp/gtnh-unpacked
+          set -euo pipefail
+          mkdir -p ${{ env.WORK_DIR }}/run ${{ env.WORK_DIR }}/server ${{ env.WORK_DIR }}/client
+          unzip -q -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.server-zip-variant }}.zip" -d ${{ env.WORK_DIR }}/server
+          chmod -R u+rX ${{ env.WORK_DIR }}/server
+          unzip -q -o "GTNH-daily-${{ needs.build.outputs.today }}-${{ matrix.client-zip-variant }}.zip" -d /tmp/client-unpacked
+          inner_dir=$(find /tmp/client-unpacked -mindepth 1 -maxdepth 1 -type d | head -n1)
+          chmod -R u+rX "$inner_dir"
+          cp -r "$inner_dir/." ${{ env.WORK_DIR }}/client
 
       - name: Install Java
         uses: actions/setup-java@dded0888837ed1f317902acf8a20df0ad188d165
         with:
           distribution: temurin
           java-version: ${{ matrix.java-version }}
-        
+
       - name: Install RCON
         shell: bash
         run: |
@@ -195,20 +247,320 @@ jobs:
           echo "587f771ae5d4424eb6c15cdf76634049cb29c3ff2b2020500fe26c64c66aab62  rcon-cli.tar.gz" | sha256sum -c -
           tar -xz -C /usr/local/bin -f rcon-cli.tar.gz rcon-cli
           rm rcon-cli.tar.gz
-      
-      - name: Prepare files for ci run
-        run: |
-          sed -i 's|enable-rcon=false|enable-rcon=true\nrcon.password=whoahaplaintextpassword\nrcon.port=25575|' /tmp/gtnh-unpacked/server.properties
-          cp scripts/* /tmp/
 
-      - name: Run pack test
+      - name: Install async-profiler & flamegraph
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -sSL -o async-profiler.tar.gz https://github.com/async-profiler/async-profiler/releases/download/v4.4/async-profiler-4.4-linux-x64.tar.gz
+          echo "1233f26fc95753e75ce32733bbcaf8f0bedc2c098b0e798af87935b08a63b24e  async-profiler.tar.gz" | sha256sum -c -
+          mkdir -p /tmp/async-profiler
+          tar -xz --strip-components=1 -C /tmp/async-profiler -f async-profiler.tar.gz
+          ln -s /tmp/async-profiler/bin/asprof /usr/local/bin/asprof
+          curl -sSL -o flamegraph.pl https://raw.githubusercontent.com/brendangregg/FlameGraph/41fee1f99f9276008b7cd112fca19dc3ea84ac32/flamegraph.pl
+          chmod +x flamegraph.pl
+          mv flamegraph.pl ${{ env.WORK_DIR }}/run/
+
+      - name: Install prism-bootstrap
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -sSL -o prism-bootstrap https://github.com/MalTeeez/prism-bootstrap/releases/download/1.0.2/prism-bootstrap-1.0.2-x86_64-unknown-linux-gnu
+          echo "c9701ac81478b808a9bd13a2290e12398cc139a0a40468081e8c4b00aabdc893  prism-bootstrap" | sha256sum -c -
+          chmod +x prism-bootstrap && mv prism-bootstrap /usr/local/bin/
+
+      - name: Install client
+        shell: bash
+        working-directory: ${{ env.WORK_DIR }}/client
+        run: >-
+          prism-bootstrap .
+          --platform linux
+          --headless
+          --meta-url https://meta.prismlauncher.org/v1/
+          --xmx ${{ matrix.client-max-memory }}
+          --jvm-arg "-agentpath:/tmp/async-profiler/lib/libasyncProfiler.so=start,event=ctimer,collapsed,file=${{ env.WORK_DIR }}/run/client_profile.collapsed"
+          --jvm-arg "-Dheadlessnh.active=true"
+          --jvm-arg "-Dheadlessnh.combined=true"
+          --jvm-arg "-Dheadlessnh.markerdir=${{ env.WORK_DIR }}/run"
+          --jvm-arg "-Dheadlessnh.delay.cooldown=2500"
+          --jvm-arg "-Dheadlessnh.delay.mainmenu=7500"
+          --jvm-arg "-Dheadlessnh.delay.serverjoin=${{ matrix.client-join-settle-time }}"
+          --jvm-arg "-Dheadlessnh.delay.singleplayer=${{ matrix.client-join-settle-time }}"
+          --jvm-arg "-Dheadlessnh.gate.mainmenu=server.ready"
+          --jvm-arg "-Dheadlessnh.gate.serverloaded=serverloaded.gate"
+          --jvm-arg "-Dheadlessnh.gate.timeout=60000"
+          --game-dir ${{ env.WORK_DIR }}/client/.minecraft
+
+      - name: Add HeadlessNH to client mods
+        shell: bash
+        working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
+        run: |
+          set -euo pipefail
+          curl -sSL -o headlessnh-1.0.13.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.13/headlessnh-1.0.13.jar
+          echo "6d75e4af90949fd35f6be1bb4cc4a4ebc454d6a874795ffc8ff4dbeb928d1941  headlessnh-1.0.13.jar" | sha256sum -c -
+
+      - name: Add HorizonQA to both client & server mods
+        shell: bash
+        working-directory: ${{ env.WORK_DIR }}
+        run: |
+          set -euo pipefail
+          curl -sSL -o horizonqa-0.6.0.jar https://github.com/GTNewHorizons/Horizon-QA/releases/download/0.6.0/horizonqa-0.6.0.jar
+          echo "52319f44a7b13143a7b4ba7f99d6caaf335bcea2b708085bbbbf82374f63c181  horizonqa-0.6.0.jar" | sha256sum -c -
+          cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/client/.minecraft/mods/
+          cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/server/mods/
+
+      - name: Start server
+        id: start-server
         timeout-minutes: 10
+        run: bash scripts/tests/orchestrator.sh start-server
+
+      - name: Run client
+        timeout-minutes: 10
+        env: 
+          XDG_DATA_HOME: ${{ env.WORK_DIR }}/run
+        run: bash scripts/tests/orchestrator.sh run-client
+
+      - name: Stop server
+        if: always() && steps.start-server.outcome == 'success'
+        run: bash scripts/tests/orchestrator.sh stop-server
+
+      - name: Print logs from dual run
+        if: success() || failure()
+        run: |
+         echo "--- Logs from dual test : executor ---"
+         cat ${{ env.WORK_DIR }}/run/dual_test_executor.log || true
+         echo "--- Logs from dual test : client ---"
+         cat ${{ env.WORK_DIR }}/run/dual_test_client.log || true
+         echo "--- Logs from dual test : server ---"
+         cat ${{ env.WORK_DIR }}/run/dual_test_server.log || true
+
+      - name: Verify server
+        if: success() || failure()
+        run: bash scripts/tests/orchestrator.sh verify-server
+
+      - name: Verify client
+        if: success() || failure()
+        run: bash scripts/tests/orchestrator.sh verify-client
+
+
+      - name: Create flamegraph
+        if: success() || failure()
+        working-directory: ${{ env.WORK_DIR }}/run
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          # Low-detail preview svg (small file); full detail lives in the linked html.
+          ./flamegraph.pl --color=java --width=840 --minwidth=1 client_profile.collapsed > client_profile.svg
+          # Scale the summary <img> to fit within 840x480 preserving aspect ratio
+          # (GitHub strips css, so we set width/height attributes computed from the svg).
+          w=$(sed -nE 's/.*<svg[^>]* width="([0-9.]+)".*/\1/p' client_profile.svg | head -1)
+          h=$(sed -nE 's/.*<svg[^>]* height="([0-9.]+)".*/\1/p' client_profile.svg | head -1)
+          if [ -n "$w" ] && [ -n "$h" ]; then
+            dims=$(awk -v w="$w" -v h="$h" 'BEGIN{s=840/w; if(480/h<s)s=480/h; if(s>1)s=1; printf "%d %d", w*s, h*s}')
+            echo "FLAMEGRAPH_W=${dims% *}" >> "$GITHUB_ENV"
+            echo "FLAMEGRAPH_H=${dims#* }" >> "$GITHUB_ENV"
+          fi
+          # Full-detail html with (also has more features, that ARENT laggy)
+          /tmp/async-profiler/bin/jfrconv -o html --title "GTNH daily startup (Java ${{ matrix.java-version }})" client_profile.collapsed client_profile.html
+
+      # GH markdown seems to only embed media from CSP-allowlisted domains, which does not include artifacts.
+      # Release asset URLs redirect to release-assets.githubusercontent.com (which is allowed),
+      # so we use a rolling prerelease as the media host for the summary embeds. Assets are keyed by
+      # date and run number so every run is preserved; the prune step below rolls assets with a 90-day retention.
+      - name: Publish media to rolling asset store
+        id: publish-media
+        if: success() || failure()
+        shell: bash
         env:
-          WORKDIR: "/tmp/gtnh-unpacked"
-          JAVA_ARGS: "${{ matrix.java-args }}"
-          STARTUP_TIMEOUT: ${{ matrix.startup-timeout }}
-          SETTLE_TIMEOUT: ${{ matrix.settle-timeout }}
-        run: bash /tmp/test_ci_server_lifetime.sh
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: daily-screenshots
+          TODAY: ${{ needs.build.outputs.today }}
+        run: |
+          set -uo pipefail
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --prerelease \
+              --title "Daily test media (90-day rolling store)" \
+              --notes "**This is not an actual release.** This is the asset storage for modpack builds." || true
+
+          prefix="${TODAY/+/-daily-}-java${{ matrix.java-version }}"
+
+          for marker in mainmenu serverloaded dual worldloaded; do
+            src="$WORK_DIR/run/screenshot.$marker.png"
+            [ -f "$src" ] || continue
+            asset="${prefix}-$marker.png"
+            cp "$src" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              echo "url_$marker=https://github.com/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          done
+
+          video="$WORK_DIR/run/client.mp4"
+          if [ -f "$video" ]; then
+            asset="${prefix}-client.mp4"
+            cp "$video" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              # Use a proxy so we can get the correct content type
+              echo "url_video=https://githubproxy.samuelcolvin.workers.dev/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+          flamegraph="$WORK_DIR/run/client_profile.svg"
+          if [ -f "$flamegraph" ]; then
+            asset="${prefix}-flamegraph.svg"
+            cp "$flamegraph" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              # Use a proxy so we can get the correct content type
+              echo "url_flamegraph=https://githubproxy.samuelcolvin.workers.dev/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+          flamegraph_html="$WORK_DIR/run/client_profile.html"
+          if [ -f "$flamegraph_html" ]; then
+            asset="${prefix}-flamegraph.html"
+            cp "$flamegraph_html" "/tmp/$asset"
+            if gh release upload "$TAG" "/tmp/$asset" -R "$GITHUB_REPOSITORY" --clobber; then
+              # Use a proxy so the interactive flamegraph is served as text/html and renders in the browser
+              echo "url_flamegraph_html=https://githubproxy.samuelcolvin.workers.dev/$GITHUB_REPOSITORY/releases/download/$TAG/$asset" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Upload test job summary
+        shell: bash
+        if: success() || failure()
+        continue-on-error: true
+        env:
+          URL_mainmenu: ${{ steps.publish-media.outputs.url_mainmenu }}
+          URL_serverloaded: ${{ steps.publish-media.outputs.url_serverloaded }}
+          URL_dual: ${{ steps.publish-media.outputs.url_dual }}
+          URL_worldloaded: ${{ steps.publish-media.outputs.url_worldloaded }}
+          VIDEO_RELEASE_URL: ${{ steps.publish-media.outputs.url_video }}
+          FLAMEGRAPH_RELEASE_URL: ${{ steps.publish-media.outputs.url_flamegraph }}
+          FLAMEGRAPH_HTML_URL: ${{ steps.publish-media.outputs.url_flamegraph_html }}
+        run: |
+          echo "<details open><summary><b>Client test results (Java ${{ matrix.java-version }})</b></summary>" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Stage | Java ${{ matrix.java-version }} |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| ----- | ------ |" >> "$GITHUB_STEP_SUMMARY"
+
+          while IFS=: read -r marker label; do
+            url_var="URL_$marker"
+            url="${!url_var}"
+            cell=""
+            if [ -n "$url" ]; then
+              cell="![screenshot]($url)"
+            else
+              cell=":x:"
+            fi
+            # Show the flamegraph svg side by side with the main menu screenshot,
+            # linking to the interactive html version (and falling back to the svg).
+            if [ "$marker" = "mainmenu" ] && [ -n "$FLAMEGRAPH_RELEASE_URL" ]; then
+              href="${FLAMEGRAPH_HTML_URL:-$FLAMEGRAPH_RELEASE_URL}"
+              cell="$cell <a href=\"$href\"><img src=\"$FLAMEGRAPH_RELEASE_URL\" alt=\"flamegraph\" width=\"${FLAMEGRAPH_W:-840}\" height=\"${FLAMEGRAPH_H:-480}\"></a>"
+            fi
+            echo "| $label | $cell |" >> "$GITHUB_STEP_SUMMARY"
+          done <<'EOF'
+          mainmenu:Main menu
+          serverloaded:Joined server
+          dual:HQA tests
+          worldloaded:Joined singleplayer
+          EOF
+
+          if [ -n "$VIDEO_RELEASE_URL" ]; then
+            echo "| Recording | [:white_check_mark: recording]($VIDEO_RELEASE_URL) |" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "| Recording | :x: |" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "</details>" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Format HQA test report
+        id: hqa-format
+        uses: mikepenz/action-junit-report@3a81627bfac62268172037048872e8ebd4207e6d
+        if: success() || failure()
+        with:
+          report_paths: "${{ env.WORK_DIR }}/run/*horizonqa.xml"
+          annotate_only: true
+          job_summary: false
+          detailed_summary: true
+          include_passed: true
+
+      - name: Write HQA test results to summary
+        if: success() || failure()
+        env:
+          TABLE: ${{ steps.hqa-format.outputs.detailed_summary }}
+          JAVA: ${{ matrix.java-version }}
+        run: |
+          {
+            printf '<details><summary><b>HQA test results (Java %s)</b></summary>\n' "$JAVA"
+            printf '%s\n' "$TABLE"
+            printf '</details>\n'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Final important summary append
+        shell: bash
+        if: success()
+        run: |
+          echo "# :shipit:" >> "$GITHUB_STEP_SUMMARY"
+
+
+  prune-old-media:
+    needs: test
+    if: always()
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write # delete old release assets
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TAG: daily-screenshots
+      RETENTION_DAYS: 90
+      MAX_ASSETS: 900
+    steps:
+      - name: Prune media older than retention window
+        shell: bash
+        run: |
+          set -uo pipefail
+          cutoff=$(date -d "$RETENTION_DAYS days ago" +%Y-%m-%d)
+          echo "Pruning $TAG assets dated before $cutoff"
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name' | \
+          while read -r name; do
+            # Asset names should start with the ISO date they were produced (YYYY-MM-DD)
+            asset_date="${name:0:10}"
+            case "$asset_date" in
+              [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) ;;
+              *) continue ;;
+            esac
+            if [[ "$asset_date" < "$cutoff" ]]; then
+              echo "Deleting $name (dated $asset_date) since it's older than $RETENTION_DAYS days"
+              gh release delete-asset "$TAG" "$name" -R "$GITHUB_REPOSITORY" --yes || true
+            fi
+          done
+
+      - name: Prune oldest media when over the max asset count
+        shell: bash
+        run: |
+          set -uo pipefail
+          # Collect dated assets sorted oldest first (the ISO date prefix should sort chronologically)
+          mapfile -t names < <(
+            gh release view "$TAG" -R "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name' | \
+            while read -r name; do
+              asset_date="${name:0:10}"
+              case "$asset_date" in
+                [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]) echo "$name" ;;
+              esac
+            done | sort
+          )
+          total=${#names[@]}
+          echo "Found $total dated $TAG assets (max $MAX_ASSETS)"
+          if (( total > MAX_ASSETS )); then
+            to_delete=$(( total - MAX_ASSETS ))
+            echo "Over capacity by $to_delete; deleting the $to_delete oldest assets"
+            for name in "${names[@]:0:to_delete}"; do
+              echo "Deleting $name (over the $MAX_ASSETS asset cap)"
+              gh release delete-asset "$TAG" "$name" -R "$GITHUB_REPOSITORY" --yes || true
+            done
+          fi
 
 
   notify-status:
