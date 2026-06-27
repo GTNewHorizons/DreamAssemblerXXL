@@ -57,10 +57,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix eggplant damaging chickens when consumed by @zaru-noodles in https://github.com/GTNewHorizons/AngerMod/pull/19 (1.0.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-993-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-993-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-994-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-994-GTNH
 
 ## What's Changed:
+>* make saved search local saved by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1378 (rv3-beta-994-GTNH)
 >* Pattern multiplication in interface terminal by @S4mpsa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1396 (rv3-beta-993-GTNH)
 >* add Super ME Replenisher by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1294 (rv3-beta-993-GTNH)
 >* Wireless hub/connector fixes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1400 (rv3-beta-993-GTNH)
@@ -260,10 +261,13 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.17
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.17
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.18
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.18
 
 ## What's Changed:
+>* add simple washer recipes for gtpp impure dusts by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6873 (5.09.53.18)
+>* Cribs fix wrong math when insert pattern beyond int max by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7272 (5.09.53.18)
+>* Make the cutting machine saw render actually spin by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6774 (5.09.53.18)
 >* remove explosion tooltips on multis that dont explode by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7278 (5.09.53.17)
 >* Remove Double Centrifuge Fluid Outputs From Fuel Rods by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6330 (5.09.53.17)
 >* [BEC] Line-Of-Sight Connector Hatches for Teleportation Nodes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7022 (5.09.53.17)
@@ -697,10 +701,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix WCT crafting action by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/69 (1.7.32)
 >* Change virtual slot updating by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/68 (1.7.31)
 
-# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.105-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.105-GTNH
+# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.106-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.106-GTNH
 
 ## What's Changed:
+>* ItemLoader Refactoring/Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/958 (2.8.106-GTNH)
+>* Persist hidden items by GUID across reloads by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/959 (2.8.106-GTNH)
 >* Convert color class by @Ranzuu in https://github.com/GTNewHorizons/NotEnoughItems/pull/947 (2.8.105-GTNH)
 >* Fix Loading Items error log by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/956 (2.8.105-GTNH)
 >* Fix Config Option NPE by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/951 (2.8.104-GTNH)
