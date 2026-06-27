@@ -57,10 +57,15 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix eggplant damaging chickens when consumed by @zaru-noodles in https://github.com/GTNewHorizons/AngerMod/pull/19 (1.0.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-992-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-992-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-993-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-993-GTNH
 
 ## What's Changed:
+>* Pattern multiplication in interface terminal by @S4mpsa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1396 (rv3-beta-993-GTNH)
+>* add Super ME Replenisher by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1294 (rv3-beta-993-GTNH)
+>* Wireless hub/connector fixes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1400 (rv3-beta-993-GTNH)
+>* Display keybind key name in tooltips instead keybind name by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1366 (rv3-beta-993-GTNH)
+>* move Line mode from Advanced mode by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1398 (rv3-beta-993-GTNH)
 >* Fix compass needle pointing the wrong way in backhand by @tiffit in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1399 (rv3-beta-992-GTNH)
 >* Fix storage bus cache refresh recursion by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1395 (rv3-beta-991-GTNH)
 >* prevent gl color state contamination by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1394 (rv3-beta-990-GTNH)
@@ -87,11 +92,12 @@ Mod is client-side only.
 >* fix world server leak caused by InventoryAdaptor cache by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1358 (rv3-beta-978-GTNH)
 >* Improve copying via memory card by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1359 (rv3-beta-978-GTNH)
 
-# Updated - AspectRecipeIndex - 1.1.1 --> 1.1.2
-**Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.1.1...1.1.2
+# Updated - AspectRecipeIndex - 1.1.1 --> 1.1.3
+**Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.1.1...1.1.3
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* Convert colors to ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/AspectRecipeIndex/pull/7 (1.1.3)
+
 # Updated - BetterLoadingScreen - 1.7.8-GTNH --> 1.7.9-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.8-GTNH...1.7.9-GTNH
@@ -171,10 +177,14 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.80
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.80
+# Updated - CropsNH - 2.0.69 --> 2.0.82
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.82
 
 ## What's Changed:
+>* Adapt to BioLab Cleanup by @UltraProdigy in https://github.com/GTNewHorizons/CropsNH/pull/180 (2.0.82)
+>* Fix olivine typo by @koolkrafter5 in https://github.com/GTNewHorizons/CropsNH/pull/177 (2.0.81)
+>* Balance Tweaks for 2.9 by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/176 (2.0.81)
+>* Fix gog steeleaf skip by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/179 (2.0.81)
 >* MUI1 depreciation by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/153 (2.0.80)
 >* Bauxia Balance Changes by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/172 (2.0.79)
 >* Add ICasingTextureProvider to MTEIndustrialFarm by @tiffit in https://github.com/GTNewHorizons/CropsNH/pull/174 (2.0.79)
@@ -250,10 +260,17 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.14
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.14
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.17
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.17
 
 ## What's Changed:
+>* remove explosion tooltips on multis that dont explode by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7278 (5.09.53.17)
+>* Remove Double Centrifuge Fluid Outputs From Fuel Rods by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6330 (5.09.53.17)
+>* [BEC] Line-Of-Sight Connector Hatches for Teleportation Nodes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7022 (5.09.53.17)
+>* allow any order of items in biolab singleblock  by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6892 (5.09.53.16)
+>* Industrial Centrifuge Momentum Mechanic by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7270 (5.09.53.15)
+>* GTPP Superdense Textures by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7276 (5.09.53.15)
+>* [MUI2] Ported MTEBasicMachineBronze by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6953 (5.09.53.15)
 >* Remove plasma arc furnace recipes by @zaru-noodles in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7258 (5.09.53.14)
 >* Add ability to control stack size amount in debug input bus by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6389 (5.09.53.13)
 >* feat(multiblock): implement machine crash on output overflow by @hinyb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7096 (5.09.53.13)
@@ -460,10 +477,12 @@ Mod is client-side only.
 >* Thermos console output fix by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/4 (1.0.3)
 >* Bump fastutil version by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/2 (1.0.2)
 
-# Updated - GTNHLib - 0.11.9 --> 0.11.19
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.19
+# Updated - GTNHLib - 0.11.9 --> 0.11.20
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.20
 
 ## What's Changed:
+>* Update team commands by @cubefury in https://github.com/GTNewHorizons/GTNHLib/pull/407 (0.11.20)
+>* Remove threadsafe annotation from ModelISBRH by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/408 (0.11.20)
 >* Fix ItemTransfer retry loop with size-dependent filters by @Kogepan229 in https://github.com/GTNewHorizons/GTNHLib/pull/405 (0.11.19)
 >* Avoid unnecessary NBT copy by @AnsonYeung in https://github.com/GTNewHorizons/GTNHLib/pull/404 (0.11.18)
 >* Fix thermos console logging by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/403 (0.11.17)
@@ -475,10 +494,12 @@ Mod is client-side only.
 >* Fix deps for mods depending on mods using jvmdg by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/394 (0.11.11)
 >* LocalTessellator stuff by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/393 (0.11.10)
 
-# Updated - Galacticraft - 3.4.29-GTNH --> 3.4.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.29-GTNH...3.4.30-GTNH
+# Updated - Galacticraft - 3.4.29-GTNH --> 3.4.31-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.29-GTNH...3.4.31-GTNH
 
 ## What's Changed:
+>* Do not log Moon Village generation coordinates when debug logging is disabled by @Charsy89 in https://github.com/GTNewHorizons/Galacticraft/pull/145 (3.4.31-GTNH)
+>* Replaced the destructive MusicTickerGC class with a mixin by @Charsy89 in https://github.com/GTNewHorizons/Galacticraft/pull/144 (3.4.31-GTNH)
 >* Move fluids to init to get them from gt5, not register own by @Pxx500 in https://github.com/GTNewHorizons/Galacticraft/pull/142 (3.4.30-GTNH)
 
 # Updated - GuideNH - 1.3.5 --> 1.3.9
@@ -533,10 +554,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Remove he_water_config gui texture from block atlas by @tiffit in https://github.com/GTNewHorizons/HydroEnergy/pull/46 (1.4.21)
 
-# Updated - IFU - 1.11.8 --> 1.12.0
-**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.8...1.12.0
+# Updated - IFU - 1.11.8 --> 1.12.1
+**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.8...1.12.1
 
 ## What's Changed:
+>* Fix ore finder matching materials by reference instead of internal name by @Algent in https://github.com/GTNewHorizons/IFU/pull/28 (1.12.1)
 >* I.F.U. by @Algent in https://github.com/GTNewHorizons/IFU/pull/27 (1.12.0)
 >* Bug fix that scope creeped into a huge refactor by @Algent in https://github.com/GTNewHorizons/IFU/pull/26 (1.11.9)
 
@@ -548,10 +570,11 @@ Mod is client-side only.
 >* Fix validity check due to new logic for gem boost by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/36 (2.7.9)
 >* Enhance diamond level boost logic by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/35 (2.7.8)
 
-# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.33-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.33-GTNH
+# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.34-GTNH
 
 ## What's Changed:
+>* Fix force drop allowing to drop open bags by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/197 (1.3.34-GTNH)
 >* fix shortcut inconsistency and input desync by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/194 (1.3.33-GTNH)
 >* Adds Vending machine support for drop-off by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/196 (1.3.33-GTNH)
 >* Fix AE2 logout crash + refactor AE2 system into fail-safe structure by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/192 (1.3.33-GTNH)
@@ -630,10 +653,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add check for "." being parsed with exponent E by @Miklebe in https://github.com/GTNewHorizons/ModularUI2/pull/136 (2.3.74-1.7.10)
 >* Fixed toggle button bgOverlay overriding theme bg by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/137 (2.3.74-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.298
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.298
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.299
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.299
 
 ## What's Changed:
+>* Necessary changes to adapt to biolab cleanup by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1566 (2.8.299)
 >* Remove plasma arc furnace recipes by @zaru-noodles in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1829 (2.8.298)
 >* changed Efficient Overclocker from Research Station to Scanner by @JustACasualDay in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1830 (2.8.297)
 >* reupdate rolled back deps  by @LazyFlesh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1828 (2.8.296)
@@ -776,10 +800,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Improve localization and logic by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ThaumicMachina/pull/2 (0.2.5-GTNH)
 
-# Updated - ThaumicTinkerer - 2.12.22 --> 2.12.25
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.22...2.12.25
+# Updated - ThaumicTinkerer - 2.12.22 --> 2.12.26
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.22...2.12.26
 
 ## What's Changed:
+>* Drain power from electric hoe of growth instead of damaging it by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/100 (2.12.26)
 >* Tablet of Necromancy Handler by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/93 (2.12.25)
 >* Wither Skeleton Summoning Remake by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/99 (2.12.25)
 >* Awakened Ichorium Pickaxe Fixes by @jude123412 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/97 (2.12.24)
@@ -862,12 +887,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Don't waste aspects if an aspect is dragged onto itself by @Goldenlion5648 in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/21 (1.4.0)
 >* Add different ordering options in research table by @Goldenlion5648 in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/22 (1.4.0)
 
-# Updated - twilightforest - 2.7.33 --> 2.7.35
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.33...2.7.35
+# Updated - twilightforest - 2.7.33 --> 2.7.36
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.33...2.7.36
 
 ## What's Changed:
+>* Decouple time and weather from overworld by @koolkrafter5 in https://github.com/GTNewHorizons/twilightforest/pull/145 (2.7.36)
 >* Add TF Worldgen override API by @YannickMG in https://github.com/GTNewHorizons/twilightforest/pull/41 (2.7.35)
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
