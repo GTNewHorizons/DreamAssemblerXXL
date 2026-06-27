@@ -1,5 +1,6 @@
 import asyncio
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
@@ -943,8 +944,15 @@ class Window(ThemedTk, Tk):
                 if release is not None:
                     releases.append(release)
 
-            # sorting releases by date
-            releases = sorted(releases, key=lambda release_object: release_object.last_updated)
+            # sorting releases by date. Some manifests store last_updated as offset-naive and others as
+            # offset-aware; normalize naive timestamps to UTC so they can be compared with each other.
+            def _sort_key(release_object: GTNHRelease) -> datetime:
+                last_updated = release_object.last_updated
+                if last_updated.tzinfo is None:
+                    return last_updated.replace(tzinfo=timezone.utc)
+                return last_updated
+
+            releases = sorted(releases, key=_sort_key)
 
         return releases
 
