@@ -268,7 +268,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.3.2-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.4.2 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.8.13 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.1.43 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.1.44 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.0.7 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.11 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-994-GTNH |
@@ -331,7 +331,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.4.0 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.5.27-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.21.0 |
-| [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.4.2 |
+| [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.4.3 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.7.24 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.5.14 |
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.10.31 |
@@ -424,7 +424,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.9 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.4-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.6.7-GTNH |
-| [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.12.17-GTNH |
+| [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.12.18-GTNH |
 | [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.12.47-GTNH |
 | [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.14 |
 | [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.4.5 |
