@@ -106,6 +106,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Convert colors to ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/AspectRecipeIndex/pull/7 (1.1.3)
 
+# Updated - Backhand - 1.8.10 --> 1.8.11
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.8.10...1.8.11
+
+## What's Changed:
+>* Fix various bug and exploits by @Algent in https://github.com/GTNewHorizons/Backhand/pull/189 (1.8.11)
+
 # Updated - BetterLoadingScreen - 1.7.8-GTNH --> 1.7.9-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.8-GTNH...1.7.9-GTNH
@@ -276,10 +282,11 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.00
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.00
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.01
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.01
 
 ## What's Changed:
+>* Add missing pixels on Wireless Activity Detector overlay by @KleinGrrmpf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7296 (5.09.54.01)
 >* 1:1 Universium to MHDCSM by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7289 (5.09.54.00)
 >* Space Assembler Buff by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7290 (5.09.54.00)
 >* Gate Nerf by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7293 (5.09.54.00)
@@ -835,10 +842,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Improve localization and logic by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ThaumicMachina/pull/2 (0.2.5-GTNH)
 
-# Updated - ThaumicTinkerer - 2.12.22 --> 2.12.26
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.22...2.12.26
+# Updated - ThaumicTinkerer - 2.12.22 --> 2.12.27
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.22...2.12.27
 
 ## What's Changed:
+>* Fix dropping backpack keeping GUI open by @Algent in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/98 (2.12.27)
 >* Drain power from electric hoe of growth instead of damaging it by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/100 (2.12.26)
 >* Tablet of Necromancy Handler by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/93 (2.12.25)
 >* Wither Skeleton Summoning Remake by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/99 (2.12.25)
@@ -858,10 +866,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add blank computational singularity by @GDCloudstrike in https://github.com/GTNewHorizons/Universal-Singularities/pull/20 (8.15.2)
 
-# Updated - VendingMachine - 0.4.87 --> 0.4.92
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.92
+# Updated - VendingMachine - 0.4.87 --> 0.4.93
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.93
 
 ## What's Changed:
+>* Fix VM structure tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/VendingMachine/pull/157 (0.4.93)
 >* Add main panel resize and button to hide coin display by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/153 (0.4.92)
 >* modify the rendering order of trade item display and add new background textures by @ABKQPO in https://github.com/GTNewHorizons/VendingMachine/pull/149 (0.4.91)
 >* CTM for casings by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/151 (0.4.90)
@@ -931,4 +940,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
