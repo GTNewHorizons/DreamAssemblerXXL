@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-27T21:44:45.802763+00:00",
-  "config": "2.9.0-nightly-2026-06-27-02",
+  "last_updated": "2026-06-28T07:13:29.216750+00:00",
+  "config": "2.9.0-nightly-2026-06-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.44",
+      "version": "2.1.46",
       "side": "CLIENT"
     },
     "AkashicTome": {

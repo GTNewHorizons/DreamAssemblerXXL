@@ -18,11 +18,18 @@
 ## What's Changed:
 >* Delegate rendering to IItemRenderers by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/53 (1.4.22-GTNH)
 
-# Updated - Angelica - 2.1.32 --> 2.1.43
+# Updated - Angelica - 2.1.32 --> 2.1.46
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.43
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.46
 
 ## What's Changed:
+>* Update readme and version detectors by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1893 (2.1.46)
+>* Majority shader fixes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1868 (2.1.45)
+>* ClientEvent framework (primarily written for LiteloaderLoader) by @Midnight145 in https://github.com/GTNewHorizons/Angelica/pull/1843 (2.1.44)
+>* End portal fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1891 (2.1.44)
+>* feat: add smooth zoom option by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1890 (2.1.44)
+>* Fix deps by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1888 (2.1.44)
+>* Narrow and make damage overlay a config option by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1886 (2.1.44)
 >* Fix map rendering issue in xaero's map mods by @RedNicStone in https://github.com/GTNewHorizons/Angelica/pull/1880 (2.1.43)
 >* Fix universium shader by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1877 (2.1.42)
 >* Add new CTM mode "compact_expanded" to generate textures on runtime by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1840 (2.1.41)
@@ -211,6 +218,13 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Add API to get nearby ChaosIsland coordinate by @Algent in https://github.com/GTNewHorizons/Draconic-Evolution/pull/103 (1.5.27-GTNH)
+
+# Updated - DuraDisplay - 1.4.2 --> 1.4.3
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.2...1.4.3
+
+## What's Changed:
+>* perf(render): cut allocations in item overlay hot path by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/25 (1.4.3)
 
 # Updated - Electro-Magic-Tools - 1.7.22 --> 1.7.24
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.22...1.7.24
@@ -720,10 +734,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Downscale all info panel textures by @tiffit in https://github.com/GTNewHorizons/Nuclear-Control/pull/44 (2.7.10)
 
-# Updated - OpenBlocks - 1.12.14-GTNH --> 1.12.17-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.14-GTNH...1.12.17-GTNH
+# Updated - OpenBlocks - 1.12.14-GTNH --> 1.12.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.14-GTNH...1.12.18-GTNH
 
 ## What's Changed:
+>* Fix hang-glider falldamage by @MassAnarchyy in https://github.com/GTNewHorizons/OpenBlocks/pull/53 (1.12.18-GTNH)
+>* Fix ConcurrentModificationException in hangglider by @MassAnarchyy in https://github.com/GTNewHorizons/OpenBlocks/pull/51 (1.12.18-GTNH)
 >* Cosmetic Armor Grave Support by @koolkrafter5 in https://github.com/GTNewHorizons/OpenBlocks/pull/55 (1.12.17-GTNH)
 >* Add GalactiCraft gear auto-equip from grave by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/52 (1.12.16-GTNH)
 >* Remove TConstruct slot support from grave auto-equip when tab is disabled by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/50 (1.12.15-GTNH)
@@ -902,4 +918,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
