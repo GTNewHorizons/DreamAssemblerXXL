@@ -247,10 +247,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix concussion creeper portal effect applying to all players by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderZoo/pull/15 (1.3.5)
 
-# Updated - Et-Futurum-Requiem - 2.6.40-GTNH --> 2.6.44-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.40-GTNH...2.6.44-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.40-GTNH --> 2.6.45-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.40-GTNH...2.6.45-GTNH
 
 ## What's Changed:
+>* Fix world icon capture blinking the HUD off by @alppp in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/88 (2.6.45-GTNH)
 >* Make dying pets send death messages to their owners. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/87 (2.6.44-GTNH)
 >* Bump MCLib from 0.3.7.7 to 0.3.7.8 by @PLASMAchicken in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/83 (2.6.43-GTNH)
 >* Fix concurency issue: Client and Server thread both mutating same collection by @Algent in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/82 (2.6.42-GTNH)
@@ -275,10 +276,18 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.53.18
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.53.18
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.00
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.00
 
 ## What's Changed:
+>* 1:1 Universium to MHDCSM by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7289 (5.09.54.00)
+>* Space Assembler Buff by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7290 (5.09.54.00)
+>* Gate Nerf by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7293 (5.09.54.00)
+>* Improve BEC NEI Handler by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7288 (5.09.53.19)
+>* Integrate God Forge Recipes to BEC by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7291 (5.09.53.19)
+>* [BEC] Integrate EoH Recipes to BEC by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6963 (5.09.53.19)
+>* Integrate UMV/UXV CoAL and Convergence Recipes to BEC by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7292 (5.09.53.19)
+>* Remove unused BEC Recipe Loader by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7295 (5.09.53.19)
 >* add simple washer recipes for gtpp impure dusts by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6873 (5.09.53.18)
 >* Cribs fix wrong math when insert pattern beyond int max by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7272 (5.09.53.18)
 >* Make the cutting machine saw render actually spin by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6774 (5.09.53.18)
@@ -671,10 +680,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add check for "." being parsed with exponent E by @Miklebe in https://github.com/GTNewHorizons/ModularUI2/pull/136 (2.3.74-1.7.10)
 >* Fixed toggle button bgOverlay overriding theme bg by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/137 (2.3.74-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.8.299
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.8.299
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.9.0
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.9.0
 
 ## What's Changed:
+>* Gate Nerf by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1833 (2.9.0)
+>* Add recipe for BEC LoS Hatch by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1835 (2.8.300)
+>* Reduce time on sunnarium alloys by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1832 (2.8.300)
+>* Convert MAX circuit parts to use cosmic solder by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1831 (2.8.300)
 >* Necessary changes to adapt to biolab cleanup by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1566 (2.8.299)
 >* Remove plasma arc furnace recipes by @zaru-noodles in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1829 (2.8.298)
 >* changed Efficient Overclocker from Research Station to Scanner by @JustACasualDay in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1830 (2.8.297)
@@ -918,4 +931,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
