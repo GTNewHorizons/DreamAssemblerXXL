@@ -18,11 +18,14 @@
 ## What's Changed:
 >* Delegate rendering to IItemRenderers by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/53 (1.4.22-GTNH)
 
-# Updated - Angelica - 2.1.32 --> 2.1.46
+# Updated - Angelica - 2.1.32 --> 2.1.47
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.46
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.47
 
 ## What's Changed:
+>* Betweenlands fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1894 (2.1.47)
+>* Support more glDrawElement overloads in display lists by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1895 (2.1.47)
+>* Fix space elevator cable by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1896 (2.1.47)
 >* Update readme and version detectors by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1893 (2.1.46)
 >* Majority shader fixes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1868 (2.1.45)
 >* ClientEvent framework (primarily written for LiteloaderLoader) by @Midnight145 in https://github.com/GTNewHorizons/Angelica/pull/1843 (2.1.44)
@@ -139,6 +142,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix unintentional item combining for blocks missing setHasSubtypes(true) by @ArcadiaBlues in https://github.com/GTNewHorizons/Binnie/pull/98 (2.6.34)
 >* Fix fluids racing to registration by @Pxx500 in https://github.com/GTNewHorizons/Binnie/pull/99 (2.6.33)
+
+# Updated - BlockRenderer6343 - 1.4.14 --> 1.4.15
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.14...1.4.15
+
+## What's Changed:
+>* Override maximum glass tier for main tier by @AnsonYeung in https://github.com/GTNewHorizons/BlockRenderer6343/pull/52 (1.4.15)
 
 # Updated - BloodArsenal - 1.5.10 --> 1.5.11
 **Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.5.10...1.5.11
@@ -263,10 +272,11 @@ Mod is client-side only.
 >* Fix concurency issue: Client and Server thread both mutating same collection by @Algent in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/82 (2.6.42-GTNH)
 >* Add oredict to bop/witchery Logs by @NotKaizul in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/80 (2.6.41-GTNH)
 
-# Updated - ForestryMC - 4.11.26 --> 4.11.28
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.26...4.11.28
+# Updated - ForestryMC - 4.11.26 --> 4.11.29
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.26...4.11.29
 
 ## What's Changed:
+>* Fix Worktable NEI fill regression by @YannickMG in https://github.com/GTNewHorizons/ForestryMC/pull/124 (4.11.29)
 >* Add NEI overlays for the carpenter and fabricator by @tiffit in https://github.com/GTNewHorizons/ForestryMC/pull/123 (4.11.28)
 >* Add API method for protection amount on IArmorApiarist by @FourIsTheNumber in https://github.com/GTNewHorizons/ForestryMC/pull/122 (4.11.27)
 
@@ -282,10 +292,14 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.01
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.01
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.03
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.03
 
 ## What's Changed:
+>* Re-add putting max tier at end of glass list by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7301 (5.09.54.03)
+>* Expose max glass tier for BlockRenderer by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7300 (5.09.54.03)
+>* Fix YOT Hatch Sticky Mode blocking external AE fluid insertion by @ChromicRedBrick in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7297 (5.09.54.02)
+>* Fix ore vein geometry changing across chunk generation order by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7215 (5.09.54.02)
 >* Add missing pixels on Wireless Activity Detector overlay by @KleinGrrmpf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7296 (5.09.54.01)
 >* 1:1 Universium to MHDCSM by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7289 (5.09.54.00)
 >* Space Assembler Buff by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7290 (5.09.54.00)
@@ -536,10 +550,11 @@ Mod is client-side only.
 >* Replaced the destructive MusicTickerGC class with a mixin by @Charsy89 in https://github.com/GTNewHorizons/Galacticraft/pull/144 (3.4.31-GTNH)
 >* Move fluids to init to get them from gt5, not register own by @Pxx500 in https://github.com/GTNewHorizons/Galacticraft/pull/142 (3.4.30-GTNH)
 
-# Updated - GuideNH - 1.3.5 --> 1.3.9
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.5...1.3.9
+# Updated - GuideNH - 1.3.5 --> 1.3.10
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.5...1.3.10
 
 ## What's Changed:
+>* add default guide folder loading by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/33 (1.3.10)
 >* Add the xywh functionality for FloatingImage, and change the old wh to scale by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/23 (1.3.9)
 >* add default scaling for image by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/28 (1.3.9)
 >* make site export use lang by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/29 (1.3.9)
@@ -656,10 +671,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Pencil Notes to Sudoku by @BeerHunter1337 in https://github.com/GTNewHorizons/LootGames/pull/33 (2.2.13)
 >* Add solver logic for minesweeper by @SeanMASilva in https://github.com/GTNewHorizons/LootGames/pull/32 (2.2.13)
 
-# Updated - Mantle - 0.5.2 --> 0.5.3
-**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.2...0.5.3
+# Updated - Mantle - 0.5.2 --> 0.5.4
+**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.2...0.5.4
 
 ## What's Changed:
+>* Add ability to override metadata for MultiItemBlock localization string by @tiffit in https://github.com/GTNewHorizons/Mantle/pull/13 (0.5.4)
 >* Allow scroll wheel to change page in books by @Goldenlion5648 in https://github.com/GTNewHorizons/Mantle/pull/12 (0.5.3)
 
 # Updated - MatterManipulator - 0.1.37-GTNH --> 0.1.44-GTNH
@@ -674,6 +690,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Use memory card methods for copying AE2 parts by @Kogepan229 in https://github.com/GTNewHorizons/MatterManipulator/pull/58 (0.1.39-GTNH)
 >* CapturingTessellator -> LocalTessellator by @sisyphussy in https://github.com/GTNewHorizons/MatterManipulator/pull/57 (0.1.38-GTNH)
 
+# Updated - Mobs-Info - 0.5.17-GTNH --> 0.5.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.17-GTNH...0.5.18-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ModularUI2 - 2.3.73-1.7.10 --> 2.3.79-1.7.10
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.73-1.7.10...2.3.79-1.7.10
 
@@ -686,6 +707,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add COLOR_WHEEL icon by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ModularUI2/pull/140 (2.3.75-1.7.10)
 >* Add check for "." being parsed with exponent E by @Miklebe in https://github.com/GTNewHorizons/ModularUI2/pull/136 (2.3.74-1.7.10)
 >* Fixed toggle button bgOverlay overriding theme bg by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/137 (2.3.74-1.7.10)
+
+# Updated - Navigator - 1.1.3 --> 1.1.4
+**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.3...1.1.4
+
+## What's Changed:
+>* Add NEI style rendering if available (coloured filters) by @Algent in https://github.com/GTNewHorizons/Navigator/pull/17 (1.1.4)
 
 # Updated - NewHorizonsCoreMod - 2.8.279 --> 2.9.0
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.9.0
@@ -735,10 +762,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix WCT crafting action by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/69 (1.7.32)
 >* Change virtual slot updating by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/68 (1.7.31)
 
-# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.106-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.106-GTNH
+# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.107-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.107-GTNH
 
 ## What's Changed:
+>* Allow plugins to force fill mode for overlay button by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/960 (2.8.107-GTNH)
 >* ItemLoader Refactoring/Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/958 (2.8.106-GTNH)
 >* Persist hidden items by GUID across reloads by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/959 (2.8.106-GTNH)
 >* Convert color class by @Ranzuu in https://github.com/GTNewHorizons/NotEnoughItems/pull/947 (2.8.105-GTNH)
@@ -884,10 +912,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Prevent NPE log spam by @koolkrafter5 in https://github.com/GTNewHorizons/VillageNames/pull/14 (4.5.17-GTNH)
 >* Cleanup what I can by @Alexdoru in https://github.com/GTNewHorizons/VillageNames/pull/12 (4.5.16-GTNH)
 
-# Updated - VisualProspecting - 1.5.28 --> 1.5.30
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.28...1.5.30
+# Updated - VisualProspecting - 1.5.28 --> 1.5.32
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.28...1.5.32
 
 ## What's Changed:
+>* Add NEI style search modes to ore overlay by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/94 (1.5.32)
+>* Adapt to GT5u change by @Kogepan229 in https://github.com/GTNewHorizons/VisualProspecting/pull/95 (1.5.31)
 >* Show ore vein in JM with right colors and a background matching the dimension if it exist by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/93 (1.5.30)
 >* Refactor all VPs commands to Brigadier (except one) by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/91 (1.5.29)
 

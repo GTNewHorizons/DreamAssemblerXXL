@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-28T12:06:03.388632+00:00",
-  "config": "2.9.0-nightly-2026-06-28",
+  "last_updated": "2026-06-29T08:30:21.024474+00:00",
+  "config": "2.9.0-nightly-2026-06-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.28",
+      "version": "4.11.29",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.01",
+      "version": "5.09.54.03",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "Mantle": {
-      "version": "0.5.3",
+      "version": "0.5.4",
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.106-GTNH",
+      "version": "2.8.107-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.30",
+      "version": "1.5.32",
       "side": "BOTH"
     },
     "waila": {
@@ -593,7 +593,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.14",
+      "version": "1.4.15",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.17-GTNH",
+      "version": "0.5.18-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.46",
+      "version": "2.1.47",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "side": "BOTH"
     },
     "ModularUI2": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.9",
+      "version": "1.3.10",
       "side": "BOTH"
     }
   },
