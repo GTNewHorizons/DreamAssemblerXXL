@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-29T08:30:21.024474+00:00",
-  "config": "2.9.0-nightly-2026-06-29",
+  "last_updated": "2026-06-30T07:07:27.866559+00:00",
+  "config": "2.9.0-nightly-2026-06-30",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.03",
+      "version": "5.09.54.04",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.27-GTNH",
+      "version": "1.5.28-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.107-GTNH",
+      "version": "2.8.109-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.47",
+      "version": "2.1.49",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.82",
+      "version": "2.0.84",
       "side": "BOTH"
     },
     "Fether": {

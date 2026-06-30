@@ -18,11 +18,13 @@
 ## What's Changed:
 >* Delegate rendering to IItemRenderers by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/53 (1.4.22-GTNH)
 
-# Updated - Angelica - 2.1.32 --> 2.1.47
+# Updated - Angelica - 2.1.32 --> 2.1.49
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.47
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.49
 
 ## What's Changed:
+>* No point continuously building clouds if we're not rendering them... by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1900 (2.1.49)
+>* Add shader setting search functionality and center selection by @SpacEagle17 in https://github.com/GTNewHorizons/Angelica/pull/1897 (2.1.48)
 >* Betweenlands fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1894 (2.1.47)
 >* Support more glDrawElement overloads in display lists by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1895 (2.1.47)
 >* Fix space elevator cable by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1896 (2.1.47)
@@ -200,10 +202,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.82
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.82
+# Updated - CropsNH - 2.0.69 --> 2.0.84
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.84
 
 ## What's Changed:
+>* Water artichoke alt seed, and EFR stone liliy fix and some cleanup by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/182 (2.0.84)
+>* Add missing recipe tier checks to crop breeder and synthesizer. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/181 (2.0.83)
 >* Adapt to BioLab Cleanup by @UltraProdigy in https://github.com/GTNewHorizons/CropsNH/pull/180 (2.0.82)
 >* Fix olivine typo by @koolkrafter5 in https://github.com/GTNewHorizons/CropsNH/pull/177 (2.0.81)
 >* Balance Tweaks for 2.9 by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/176 (2.0.81)
@@ -292,10 +296,16 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.03
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.03
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.04
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.04
 
 ## What's Changed:
+>* Allow C2S for NAC by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7304 (5.09.54.04)
+>* Make MTEBeamCrafter use ProcessingLogic to support CRIB by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7303 (5.09.54.04)
+>* Attempt to have sawblade finish at a 90-degree angle by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7306 (5.09.54.04)
+>* arc furnace fix... again by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7302 (5.09.54.04)
+>* Add Advanced Wireless Machine Controller Cover by @KleinGrrmpf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6294 (5.09.54.04)
+>* [MUI2] Ported MTESolarGenerator to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6907 (5.09.54.04)
 >* Re-add putting max tier at end of glass list by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7301 (5.09.54.03)
 >* Expose max glass tier for BlockRenderer by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7300 (5.09.54.03)
 >* Fix YOT Hatch Sticky Mode blocking external AE fluid insertion by @ChromicRedBrick in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7297 (5.09.54.02)
@@ -658,10 +668,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix marked slope by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/101 (1.6.30)
 >* Don't use rock material by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/66 (1.6.29)
 
-# Updated - LogisticsPipes - 1.5.26-GTNH --> 1.5.27-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.26-GTNH...1.5.27-GTNH
+# Updated - LogisticsPipes - 1.5.26-GTNH --> 1.5.28-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.26-GTNH...1.5.28-GTNH
 
 ## What's Changed:
+>* Add ComputerCraft/OpenComputers commands to the Fluid Request pipe by @DerekChan65535 in https://github.com/GTNewHorizons/LogisticsPipes/pull/125 (1.5.28-GTNH)
 >* Fix ServerRouter task-queue crash under concurrent computer (OC/CC) access by @DerekChan65535 in https://github.com/GTNewHorizons/LogisticsPipes/pull/124 (1.5.27-GTNH)
 
 # Updated - LootGames - 2.2.12 --> 2.2.13
@@ -762,10 +773,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix WCT crafting action by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/69 (1.7.32)
 >* Change virtual slot updating by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/68 (1.7.31)
 
-# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.107-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.107-GTNH
+# Updated - NotEnoughItems - 2.8.101-GTNH --> 2.8.109-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.101-GTNH...2.8.109-GTNH
 
 ## What's Changed:
+>* Fix Debug Handler by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/963 (2.8.109-GTNH)
+>* Add item name aliases for search by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/961 (2.8.108-GTNH)
 >* Allow plugins to force fill mode for overlay button by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/960 (2.8.107-GTNH)
 >* ItemLoader Refactoring/Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/958 (2.8.106-GTNH)
 >* Persist hidden items by GUID across reloads by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/959 (2.8.106-GTNH)
@@ -970,4 +983,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @SpacEagle17, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
