@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-06-30T07:07:27.866559+00:00",
+  "last_updated": "2026-07-01T15:11:13.824185+00:00",
   "config": "2.9.0-nightly-2026-06-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-994-GTNH",
+      "version": "rv3-beta-995-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.04",
+      "version": "5.09.54.07",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.20",
+      "version": "0.11.21",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.12.1",
+      "version": "1.12.2",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.0",
+      "version": "2.9.1",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.47-GTNH",
+      "version": "1.12.48-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.4.3",
+      "version": "1.4.4",
       "side": "CLIENT"
     },
     "Mobs-Info": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.34-GTNH",
+      "version": "1.3.35-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.84",
+      "version": "2.0.85",
       "side": "BOTH"
     },
     "Fether": {

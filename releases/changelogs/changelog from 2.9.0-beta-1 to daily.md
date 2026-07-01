@@ -69,10 +69,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix eggplant damaging chickens when consumed by @zaru-noodles in https://github.com/GTNewHorizons/AngerMod/pull/19 (1.0.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-994-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-994-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-995-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-995-GTNH
 
 ## What's Changed:
+>* Improvement to hide button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1408 (rv3-beta-995-GTNH)
+>* feat(cellinventory): expose isDistribution by @hinyb in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1407 (rv3-beta-995-GTNH)
 >* make saved search local saved by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1378 (rv3-beta-994-GTNH)
 >* Pattern multiplication in interface terminal by @S4mpsa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1396 (rv3-beta-993-GTNH)
 >* add Super ME Replenisher by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1294 (rv3-beta-993-GTNH)
@@ -202,10 +204,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.84
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.84
+# Updated - CropsNH - 2.0.69 --> 2.0.85
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.85
 
 ## What's Changed:
+>* Make bamboo hurt entities again. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/183 (2.0.85)
 >* Water artichoke alt seed, and EFR stone liliy fix and some cleanup by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/182 (2.0.84)
 >* Add missing recipe tier checks to crop breeder and synthesizer. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/181 (2.0.83)
 >* Adapt to BioLab Cleanup by @UltraProdigy in https://github.com/GTNewHorizons/CropsNH/pull/180 (2.0.82)
@@ -238,11 +241,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add API to get nearby ChaosIsland coordinate by @Algent in https://github.com/GTNewHorizons/Draconic-Evolution/pull/103 (1.5.27-GTNH)
 
-# Updated - DuraDisplay - 1.4.2 --> 1.4.3
+# Updated - DuraDisplay - 1.4.2 --> 1.4.4
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.2...1.4.3
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.2...1.4.4
 
 ## What's Changed:
+>* feat(config): parse enum values case-insensitively by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/28 (1.4.4)
 >* perf(render): cut allocations in item overlay hot path by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/25 (1.4.3)
 
 # Updated - Electro-Magic-Tools - 1.7.22 --> 1.7.24
@@ -296,10 +300,17 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.04
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.04
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.07
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.07
 
 ## What's Changed:
+>* Preserve maceration stack upgrade chip when converting by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7287 (5.09.54.07)
+>* Uptier BEC hatches to UIV by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7313 (5.09.54.06)
+>* Remove me hatch special case in `drain` by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7274 (5.09.54.05)
+>* Make the list of molds that the solidifier uses modifiable by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7312 (5.09.54.05)
+>* Ore variants by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7307 (5.09.54.05)
+>* Clear ShutdownReason when enableWorking by @mllfjn in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7255 (5.09.54.05)
+>* Change Beam Crafter to fix power usage for 1 tick recipe by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7308 (5.09.54.05)
 >* Allow C2S for NAC by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7304 (5.09.54.04)
 >* Make MTEBeamCrafter use ProcessingLogic to support CRIB by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7303 (5.09.54.04)
 >* Attempt to have sawblade finish at a 90-degree angle by @tiffit in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7306 (5.09.54.04)
@@ -535,10 +546,11 @@ Mod is client-side only.
 >* Thermos console output fix by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/4 (1.0.3)
 >* Bump fastutil version by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/2 (1.0.2)
 
-# Updated - GTNHLib - 0.11.9 --> 0.11.20
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.20
+# Updated - GTNHLib - 0.11.9 --> 0.11.21
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.9...0.11.21
 
 ## What's Changed:
+>* Add InventoryChangedEvent by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/282 (0.11.21)
 >* Update team commands by @cubefury in https://github.com/GTNewHorizons/GTNHLib/pull/407 (0.11.20)
 >* Remove threadsafe annotation from ModelISBRH by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/408 (0.11.20)
 >* Fix ItemTransfer retry loop with size-dependent filters by @Kogepan229 in https://github.com/GTNewHorizons/GTNHLib/pull/405 (0.11.19)
@@ -613,10 +625,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Remove he_water_config gui texture from block atlas by @tiffit in https://github.com/GTNewHorizons/HydroEnergy/pull/46 (1.4.21)
 
-# Updated - IFU - 1.11.8 --> 1.12.1
-**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.8...1.12.1
+# Updated - IFU - 1.11.8 --> 1.12.2
+**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.8...1.12.2
 
 ## What's Changed:
+>* Make ore vein discovery range configurable by @Algent in https://github.com/GTNewHorizons/IFU/pull/29 (1.12.2)
 >* Fix ore finder matching materials by reference instead of internal name by @Algent in https://github.com/GTNewHorizons/IFU/pull/28 (1.12.1)
 >* I.F.U. by @Algent in https://github.com/GTNewHorizons/IFU/pull/27 (1.12.0)
 >* Bug fix that scope creeped into a huge refactor by @Algent in https://github.com/GTNewHorizons/IFU/pull/26 (1.11.9)
@@ -629,10 +642,11 @@ Mod is client-side only.
 >* Fix validity check due to new logic for gem boost by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/36 (2.7.9)
 >* Enhance diamond level boost logic by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/35 (2.7.8)
 
-# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.34-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.34-GTNH
+# Updated - InventoryBogoSorter - 1.3.29-GTNH --> 1.3.35-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.29-GTNH...1.3.35-GTNH
 
 ## What's Changed:
+>* Reverts TC station crafting grid by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/203 (1.3.35-GTNH)
 >* Fix force drop allowing to drop open bags by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/197 (1.3.34-GTNH)
 >* fix shortcut inconsistency and input desync by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/194 (1.3.33-GTNH)
 >* Adds Vending machine support for drop-off by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/196 (1.3.33-GTNH)
@@ -725,10 +739,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add NEI style rendering if available (coloured filters) by @Algent in https://github.com/GTNewHorizons/Navigator/pull/17 (1.1.4)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.9.0
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.9.0
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.9.1
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.9.1
 
 ## What's Changed:
+>* Fix Unstable Ingots not exploding on shift click craft by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1838 (2.9.1)
+>* Uptier BEC hatches to UIV and fix LoS Hatch Recipe by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1840 (2.9.1)
+>* Add missing ore variants to the space shuttle craft by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1837 (2.9.1)
 >* Gate Nerf by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1833 (2.9.0)
 >* Add recipe for BEC LoS Hatch by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1835 (2.8.300)
 >* Reduce time on sunnarium alloys by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1832 (2.8.300)
@@ -805,10 +822,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add GalactiCraft gear auto-equip from grave by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/52 (1.12.16-GTNH)
 >* Remove TConstruct slot support from grave auto-equip when tab is disabled by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/50 (1.12.15-GTNH)
 
-# Updated - OpenComputers - 1.12.44-GTNH --> 1.12.47-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.44-GTNH...1.12.47-GTNH
+# Updated - OpenComputers - 1.12.44-GTNH --> 1.12.48-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.44-GTNH...1.12.48-GTNH
 
 ## What's Changed:
+>* Stop boxing so much by @mitchej123 in https://github.com/GTNewHorizons/OpenComputers/pull/201 (1.12.48-GTNH)
 >* feat!(appeng): add table/NBT support and add backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/194 (1.12.47-GTNH)
 >* Hopefully fix sounds leak by @Alexdoru in https://github.com/GTNewHorizons/OpenComputers/pull/193 (1.12.46-GTNH)
 >* chore: Clarify NBT data requirement in getItemInNetwork by @Keridos in https://github.com/GTNewHorizons/OpenComputers/pull/198 (1.12.45-GTNH)
