@@ -69,10 +69,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix eggplant damaging chickens when consumed by @zaru-noodles in https://github.com/GTNewHorizons/AngerMod/pull/19 (1.0.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-995-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-995-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-977-GTNH --> rv3-beta-996-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-977-GTNH...rv3-beta-996-GTNH
 
 ## What's Changed:
+>* Make ME IO Ports Colorable by @Inphysible in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1403 (rv3-beta-996-GTNH)
+>* Fix several bugs related to missing item & emitable crafts by @rieverholic in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1405 (rv3-beta-996-GTNH)
 >* Improvement to hide button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1408 (rv3-beta-995-GTNH)
 >* feat(cellinventory): expose isDistribution by @hinyb in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1407 (rv3-beta-995-GTNH)
 >* make saved search local saved by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1378 (rv3-beta-994-GTNH)
@@ -204,10 +206,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.85
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.85
+# Updated - CropsNH - 2.0.69 --> 2.0.86
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.86
 
 ## What's Changed:
+>* Change the Steeleaf skip recipe to be more in line with other magic essence recipes by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/185 (2.0.86)
 >* Make bamboo hurt entities again. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/183 (2.0.85)
 >* Water artichoke alt seed, and EFR stone liliy fix and some cleanup by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/182 (2.0.84)
 >* Add missing recipe tier checks to crop breeder and synthesizer. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/181 (2.0.83)
@@ -280,10 +283,11 @@ Mod is client-side only.
 >* Fix concurency issue: Client and Server thread both mutating same collection by @Algent in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/82 (2.6.42-GTNH)
 >* Add oredict to bop/witchery Logs by @NotKaizul in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/80 (2.6.41-GTNH)
 
-# Updated - ForestryMC - 4.11.26 --> 4.11.29
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.26...4.11.29
+# Updated - ForestryMC - 4.11.26 --> 4.11.30
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.26...4.11.30
 
 ## What's Changed:
+>* Use extended interface by @FourIsTheNumber in https://github.com/GTNewHorizons/ForestryMC/pull/125 (4.11.30)
 >* Fix Worktable NEI fill regression by @YannickMG in https://github.com/GTNewHorizons/ForestryMC/pull/124 (4.11.29)
 >* Add NEI overlays for the carpenter and fabricator by @tiffit in https://github.com/GTNewHorizons/ForestryMC/pull/123 (4.11.28)
 >* Add API method for protection amount on IArmorApiarist by @FourIsTheNumber in https://github.com/GTNewHorizons/ForestryMC/pull/122 (4.11.27)
@@ -300,10 +304,16 @@ Mod is client-side only.
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.07
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.07
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.08
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.08
 
 ## What's Changed:
+>* Clean up some structurelib log spam by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7317 (5.09.54.08)
+>* Restore original fluid colors by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7318 (5.09.54.08)
+>* tiny pump tooltip imporvement by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7321 (5.09.54.08)
+>* Fix fluid amounts are shown as infinity by @mllfjn in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7246 (5.09.54.08)
+>* Add T2 Maceration Stack Shapeless Recipe by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7280 (5.09.54.08)
+>* Use new interface by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7324 (5.09.54.08)
 >* Preserve maceration stack upgrade chip when converting by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7287 (5.09.54.07)
 >* Uptier BEC hatches to UIV by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7313 (5.09.54.06)
 >* Remove me hatch special case in `drain` by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7274 (5.09.54.05)
@@ -739,10 +749,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add NEI style rendering if available (coloured filters) by @Algent in https://github.com/GTNewHorizons/Navigator/pull/17 (1.1.4)
 
-# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.9.1
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.9.1
+# Updated - NewHorizonsCoreMod - 2.8.279 --> 2.9.2
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.8.279...2.9.2
 
 ## What's Changed:
+>* Allow custom bow casts to be melted back into brass by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1841 (2.9.2)
 >* Fix Unstable Ingots not exploding on shift click craft by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1838 (2.9.1)
 >* Uptier BEC hatches to UIV and fix LoS Hatch Recipe by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1840 (2.9.1)
 >* Add missing ore variants to the space shuttle craft by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1837 (2.9.1)
@@ -1001,4 +1012,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @SpacEagle17, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @SpacEagle17, @Spaghetti-OberNub, @Steelux8, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-01T15:11:13.824185+00:00",
+  "last_updated": "2026-07-02T06:54:18.794066+00:00",
   "config": "2.9.0-nightly-2026-06-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-995-GTNH",
+      "version": "rv3-beta-996-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.29",
+      "version": "4.11.30",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.07",
+      "version": "5.09.54.08",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.1",
+      "version": "2.9.2",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.85",
+      "version": "2.0.86",
       "side": "BOTH"
     },
     "Fether": {
