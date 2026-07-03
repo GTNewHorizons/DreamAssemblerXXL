@@ -209,10 +209,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Rework Tooltip #24433 by @Elyspio in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/6 (1.0.6-GTNH)
 
-# Updated - CropsNH - 2.0.69 --> 2.0.87
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.87
+# Updated - CropsNH - 2.0.69 --> 2.0.88
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.69...2.0.88
 
 ## What's Changed:
+>* Allow mature crops to still check their growth reqs. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/190 (2.0.88)
+>* Change enderbloom duplication catalyst to ender pearl. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/184 (2.0.88)
 >* Cleanup and re-organize mutation pools by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/186 (2.0.87)
 >* Construction Tooltips Overhaul by @DylanTaylor1 in https://github.com/GTNewHorizons/CropsNH/pull/188 (2.0.87)
 >* Change the Steeleaf skip recipe to be more in line with other magic essence recipes by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/185 (2.0.86)
@@ -593,10 +595,13 @@ Mod is client-side only.
 >* Replaced the destructive MusicTickerGC class with a mixin by @Charsy89 in https://github.com/GTNewHorizons/Galacticraft/pull/144 (3.4.31-GTNH)
 >* Move fluids to init to get them from gt5, not register own by @Pxx500 in https://github.com/GTNewHorizons/Galacticraft/pull/142 (3.4.30-GTNH)
 
-# Updated - GuideNH - 1.3.5 --> 1.3.10
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.5...1.3.10
+# Updated - GuideNH - 1.3.5 --> 1.3.11
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.5...1.3.11
 
 ## What's Changed:
+>* Fix/issue 19 steam tier2 controller rendering by @Windorain in https://github.com/GTNewHorizons/GuideNH/pull/34 (1.3.11)
+>* add support for in page link syntax in quest pages by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/35 (1.3.11)
+>* Add Debug Overlay with runtime element inspection and extractor registry by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/36 (1.3.11)
 >* add default guide folder loading by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/33 (1.3.10)
 >* Add the xywh functionality for FloatingImage, and change the old wh to scale by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/23 (1.3.9)
 >* add default scaling for image by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/28 (1.3.9)
