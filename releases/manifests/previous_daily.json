@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-03T18:24:58.148521+00:00",
+  "last_updated": "2026-07-04T06:57:28.124637+00:00",
   "config": "2.9.0-nightly-2026-07-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.11",
+      "version": "5.09.54.13",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -963,7 +963,7 @@
       "side": "CLIENT"
     },
     "EndlessIDs": {
-      "version": "1.7.3",
+      "version": "1.7.4",
       "side": "BOTH"
     },
     "Chunk API": {
@@ -971,7 +971,7 @@
       "side": "BOTH"
     },
     "FalsepatternLib": {
-      "version": "1.12.0",
+      "version": "1.12.2",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
