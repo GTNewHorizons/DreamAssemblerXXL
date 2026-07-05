@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-04T06:57:28.124637+00:00",
-  "config": "2.9.0-nightly-2026-07-03",
+  "last_updated": "2026-07-05T06:53:55.604027+00:00",
+  "config": "2.9.0-nightly-2026-07-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
@@ -25,11 +25,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-997-GTNH",
+      "version": "rv3-beta-998-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.13",
+      "version": "1.12.14",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.31",
+      "version": "2.10.32",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.8",
+      "version": "1.7.9",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.13",
+      "version": "5.09.54.16",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,11 +217,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.22",
+      "version": "0.11.23",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.24-GTNH",
+      "version": "1.12.25-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.166",
+      "version": "2.7.168",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.19",
+      "version": "2.8.20",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.110-GTNH",
+      "version": "2.8.111-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.55-GTNH",
+      "version": "1.7.56-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.32",
+      "version": "1.5.33",
       "side": "BOTH"
     },
     "waila": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.49",
+      "version": "2.1.50",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.94",
+      "version": "0.4.95",
       "side": "BOTH"
     },
     "Freecam": {
@@ -905,10 +905,6 @@
     "Industrial Craft 2": {
       "version": "2.2.2.828",
       "side": "BOTH"
-    },
-    "Morpheus": {
-      "version": "1.6.21",
-      "side": "SERVER"
     },
     "Ztones": {
       "version": "2.2.2",
