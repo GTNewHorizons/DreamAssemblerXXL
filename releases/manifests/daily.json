@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-04T18:24:15.918767+00:00",
-  "config": "2.9.0-nightly-2026-07-03",
+  "last_updated": "2026-07-05T06:53:55.604027+00:00",
+  "config": "2.9.0-nightly-2026-07-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.13",
+      "version": "1.12.14",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.8",
+      "version": "1.7.9",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.15",
+      "version": "5.09.54.16",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.24-GTNH",
+      "version": "1.12.25-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.167",
+      "version": "2.7.168",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.49",
+      "version": "2.1.50",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.94",
+      "version": "0.4.95",
       "side": "BOTH"
     },
     "Freecam": {

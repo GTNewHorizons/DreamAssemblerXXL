@@ -20,11 +20,16 @@
 ## What's Changed:
 >* Delegate rendering to IItemRenderers by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/53 (1.4.22-GTNH)
 
-# Updated - Angelica - 2.1.32 --> 2.1.49
+# Updated - Angelica - 2.1.32 --> 2.1.50
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.49
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.32...2.1.50
 
 ## What's Changed:
+>* Cubic Chunks Compatibility by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/1808 (2.1.50)
+>* Fix lotr biome colours again (essentially copy of https://github.com/GTNewHorizons/Angelica/pull/25) by @mist475 in https://github.com/GTNewHorizons/Angelica/pull/1902 (2.1.50)
+>* Compact CTM: Decouple block face and rendered face by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1907 (2.1.50)
+>* font: load bundled .ttf/.otf fonts from fontfiles/ and config/angelia/fonts/ by @GribanovIvan in https://github.com/GTNewHorizons/Angelica/pull/1904 (2.1.50)
+>* Fix/bug fixes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1905 (2.1.50)
 >* No point continuously building clouds if we're not rendering them... by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1900 (2.1.49)
 >* Add shader setting search functionality and center selection by @SpacEagle17 in https://github.com/GTNewHorizons/Angelica/pull/1897 (2.1.48)
 >* Betweenlands fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1894 (2.1.47)
@@ -115,6 +120,12 @@ Mod is client-side only.
 >* Fix part placement by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1365 (rv3-beta-979-GTNH)
 >* fix world server leak caused by InventoryAdaptor cache by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1358 (rv3-beta-978-GTNH)
 >* Improve copying via memory card by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1359 (rv3-beta-978-GTNH)
+
+# Updated - ArchitectureCraft - 1.12.13 --> 1.12.14
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.12.13...1.12.14
+
+## What's Changed:
+>* Transform Architecture Blocks with Postea API by @FourIsTheNumber in https://github.com/GTNewHorizons/ArchitectureCraft/pull/43 (1.12.14)
 
 # Updated - AspectRecipeIndex - 1.1.1 --> 1.1.3
 **Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.1.1...1.1.3
@@ -316,10 +327,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add NEI overlays for the carpenter and fabricator by @tiffit in https://github.com/GTNewHorizons/ForestryMC/pull/123 (4.11.28)
 >* Add API method for protection amount on IArmorApiarist by @FourIsTheNumber in https://github.com/GTNewHorizons/ForestryMC/pull/122 (4.11.27)
 
-# Updated - ForgeMultipart - 1.7.7 --> 1.7.8
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.7...1.7.8
+# Updated - ForgeMultipart - 1.7.7 --> 1.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.7...1.7.9
 
 ## What's Changed:
+>* Add postea transformer for microblock items by @FourIsTheNumber in https://github.com/GTNewHorizons/ForgeMultipart/pull/48 (1.7.9)
+>* Don't use rock material by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/45 (1.7.9)
 >* fix(microblock): prevent microblocks becoming blood rune slabs  by @Caedis in https://github.com/GTNewHorizons/ForgeMultipart/pull/47 (1.7.8)
 
 # Updated - Freecam - 1.0.8 --> 1.0.9
@@ -328,10 +341,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: harden freecam clamp, collision, and fullbright by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/20 (1.0.9)
 
-# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.15
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.15
+# Updated - GT5-Unofficial - 5.09.52.594 --> 5.09.54.16
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.52.594...5.09.54.16
 
 ## What's Changed:
+>* Make cover load fail wipe only the cover by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7342 (5.09.54.16)
+>* QoL: Add Alumentum as PBF Fuel by @StellaCaerulea in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7298 (5.09.54.16)
+>* Improve localization for loading progress messages in GregTech by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6353 (5.09.54.16)
 >* Fix Circle mode, stale recipe preview, and material mis-count in Auto Workbench (LV) by @DerekChan65535 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7199 (5.09.54.15)
 >* Add Coil CTM by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7286 (5.09.54.15)
 >* Fix SSASS gui by @1328116700 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7340 (5.09.54.14)
@@ -660,17 +676,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix the numeric id issue caused by gt cover by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/12 (1.3.6)
 >* add nbt support for front matter icon and icons by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/14 (1.3.6)
 
-# Updated - Hardcore-Ender-Expansion - 1.12.22-GTNH --> 1.12.24-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.22-GTNH...1.12.24-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.12.22-GTNH --> 1.12.25-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.22-GTNH...1.12.25-GTNH
 
 ## What's Changed:
+>* fix(sound): wrap vanilla music ticker instead of discarding it by @Caedis in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/42 (1.12.25-GTNH)
 >* Falling obsidian no longer overwrites blocks on landing by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/41 (1.12.24-GTNH)
 >* Close GUI when the block is destroyed by @Kogepan229 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/40 (1.12.23-GTNH)
 
-# Updated - Hodgepodge - 2.7.160 --> 2.7.167
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.167
+# Updated - Hodgepodge - 2.7.160 --> 2.7.168
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.160...2.7.168
 
 ## What's Changed:
+>* Cross-hair rendering by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/939 (2.7.168)
 >* Prevent Wither Skeletons from trying to burn in sunlight by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/933 (2.7.167)
 >* Add localization to entity name chat components & give Wither Skeletons their own unique name by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/931 (2.7.166)
 >* Prevent leak mixins from applying when the relevant mods aren't loaded by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/934 (2.7.166)
@@ -1018,10 +1036,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add blank computational singularity by @GDCloudstrike in https://github.com/GTNewHorizons/Universal-Singularities/pull/20 (8.15.2)
 
-# Updated - VendingMachine - 0.4.87 --> 0.4.94
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.94
+# Updated - VendingMachine - 0.4.87 --> 0.4.95
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.87...0.4.95
 
 ## What's Changed:
+>* Add sneak right-click coin deposit without opening the GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/VendingMachine/pull/161 (0.4.95)
 >* new tab icons by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/158 (0.4.94)
 >* Construction Tooltips Overhaul by @DylanTaylor1 in https://github.com/GTNewHorizons/VendingMachine/pull/160 (0.4.94)
 >* Fix VM structure tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/VendingMachine/pull/157 (0.4.93)
@@ -1097,4 +1116,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat(magic-trees): rework Tree of Time ticking by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/144 (2.7.34)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @Corexis, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @feazy-andrei, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @SpacEagle17, @Spaghetti-OberNub, @Sprite104, @Steelux8, @SuperSoupr, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Alexdoru, @Algent, @alppp, @AnsonYeung, @ArcadiaBlues, @Auynonymous, @BallOfEnergy1, @BeerHunter1337, @boubou19, @C0bra5, @Caedis, @Charsy89, @chrombread, @ChromicRedBrick, @Corexis, @cubefury, @DarkShadow44, @DerekChan65535, @dipo33, @Discreater, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @feazy-andrei, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @FrostyFire1, @GDCloudstrike, @Goldenlion5648, @GribanovIvan, @ham-corp, @hinyb, @Indemnity83, @Inphysible, @iouter, @JesseSprinkle, @jude123412, @JustACasualDay, @Keridos, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kopatych3348, @kotmatross28729, @kurrycat2004, @LazyFlesh, @lc-1337, @leagris, @LeoCav46, @loenaaaa, @Luca-Guettinger, @LunaDziaba, @Lyfts, @MalTeeez, @Marsietiss, @MassAnarchyy, @MCTBL, @mhowell9, @Midnight145, @Miklebe, @mist475, @mitchej123, @MLGfruitshoot, @mllfjn, @ModularityEnjoyer, @Nikolay-Sitnikov, @NotKaizul, @philzin, @PLASMAchicken, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Redderpears, @RedNicStone, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @SeanMASilva, @seventh-june, @Shadowsoftime99, @sisyphussy, @slprime, @SpacEagle17, @Spaghetti-OberNub, @Sprite104, @Steelux8, @StellaCaerulea, @SuperSoupr, @TheYoingLad, @tiffit, @TotallyNotOndre, @UltraProdigy, @Viptunbeqwfwew, @Windorain, @wlhlm, @Worive, @YannickMG, @Yoshy2002, @zaru-noodles, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
