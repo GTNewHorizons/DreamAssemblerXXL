@@ -1,20 +1,10 @@
-# Updated - Angelica - 2.1.50 --> 2.1.52
-Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.52
-
-## What's Changed:
->* CTM: Fix "flipped" value not set to false in setFace() by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1913 (2.1.52)
->* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
->* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
-
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1002-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1002-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1001-GTNH --> rv3-beta-1002-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1001-GTNH...rv3-beta-1002-GTNH
 
 ## What's Changed:
 >* restore stuck tint remove stuck highlight by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1419 (rv3-beta-1002-GTNH)
 >* Fix keybind to show recipe/usage for encoded patterns by @koolkrafter5 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1422 (rv3-beta-1002-GTNH)
 >* Fix fake crafting by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1413 (rv3-beta-1002-GTNH)
->* Don't open gui for interaction event by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1421 (rv3-beta-1001-GTNH)
 
 # Updated - BloodMagic - 1.9.4 --> 1.9.5
 **Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.4...1.9.5
@@ -34,15 +24,12 @@ Mod is client-side only.
 ## What's Changed:
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.23
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.23
+# Updated - GT5-Unofficial - 5.09.54.21 --> 5.09.54.23
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.21...5.09.54.23
 
 ## What's Changed:
 >* Make scanner section title component generator public. by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7359 (5.09.54.23)
 >* Add UiE's mod id to Mods.java by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7358 (5.09.54.22)
->* [MUI2] Ported MTEHatchVoidBus to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6899 (5.09.54.21)
->* [MUI2] Ported MTEBioLab by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7054 (5.09.54.21)
->* fix new LNR structure symmetry by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7355 (5.09.54.21)
 
 # Updated - InGame-Info-XML - 2.9.3 --> 2.9.4
 **Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.9.3...2.9.4
@@ -64,4 +51,4 @@ Mod is client-side only.
 >* Add assembler recipes for EFR boats by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1847 (2.9.6)
 
 # Credits
-Special thanks to @ABKQPO, @Algent, @AnsonYeung, @C0bra5, @Eldrinn-Elantey, @FourIsTheNumber, @Kogepan229, @koolkrafter5, @lc-1337, @mitchej123, @Sanduhr32, @TheYoingLad, @tiffit, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Algent, @C0bra5, @Eldrinn-Elantey, @FourIsTheNumber, @Kogepan229, @koolkrafter5, @lc-1337, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
