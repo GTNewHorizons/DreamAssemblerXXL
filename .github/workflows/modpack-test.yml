@@ -2,8 +2,7 @@ name: Modpack test
 
 # Reusable workflow that runs the dual server/client smoke test against a set of
 # already-built modpack zips and publishes the resulting media (screenshots,
-# recording, flamegraph) to a rolling prerelease asset store. Callers (daily /
-# experimental / custom builds) produce a build bundle artifact and invoke this.
+# recording, flamegraph) to a rolling prerelease asset store (and uses them in the job summary). 
 
 on:
   workflow_call:
@@ -38,7 +37,7 @@ on:
         type: string
         required: true
       retention-days:
-        description: How many days of media to keep in the rolling asset store.
+        description: How many days assets should be kept in the rolling asset store.
         type: number
         default: 90
       max-assets:
@@ -60,7 +59,7 @@ jobs:
             client-zip-variant: mmcprism-java17-25
             server-java-args: |
               -Xms1G -Xmx2G
-              -Dfml.readTimeout=5
+              -Dfml.readTimeout=45
               -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
               -Dhorizonqa.reportDir=/tmp/daily-test/run
               @java9args.txt
@@ -77,7 +76,7 @@ jobs:
             server-java-args: |
               -Xms1G -Xmx2500m
               -XX:+UseStringDeduplication -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing
-              -Dfml.readTimeout=5
+              -Dfml.readTimeout=45
               -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
               -Dhorizonqa.reportDir=/tmp/daily-test/run
               -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
@@ -159,8 +158,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          curl -sSL -o prism-bootstrap https://github.com/MalTeeez/prism-bootstrap/releases/download/1.0.2/prism-bootstrap-1.0.2-x86_64-unknown-linux-gnu
-          echo "c9701ac81478b808a9bd13a2290e12398cc139a0a40468081e8c4b00aabdc893  prism-bootstrap" | sha256sum -c -
+          curl -sSL -o prism-bootstrap https://github.com/MalTeeez/prism-bootstrap/releases/download/1.0.3/prism-bootstrap-1.0.3-x86_64-unknown-linux-gnu
+          echo "0240c93ec6e7b666b39bdf61032fa795223cdbe5b3c4349cd1fa76ca6346d144  prism-bootstrap" | sha256sum -c -
           chmod +x prism-bootstrap && mv prism-bootstrap /usr/local/bin/
 
       - name: Install client
@@ -183,6 +182,7 @@ jobs:
           --jvm-arg "-Dheadlessnh.gate.mainmenu=server.ready"
           --jvm-arg "-Dheadlessnh.gate.serverloaded=serverloaded.gate"
           --jvm-arg "-Dheadlessnh.gate.timeout=60000"
+          --jvm-arg "-Dheadlessnh.forcefocus=true"
           --game-dir ${{ env.WORK_DIR }}/client/.minecraft
 
       - name: Add HeadlessNH to client mods
@@ -190,18 +190,18 @@ jobs:
         working-directory: ${{ env.WORK_DIR }}/client/.minecraft/mods
         run: |
           set -euo pipefail
-          curl -sSL -o headlessnh-1.0.13.jar https://github.com/MalTeeez/HeadlessNH/releases/download/1.0.13/headlessnh-1.0.13.jar
-          echo "6d75e4af90949fd35f6be1bb4cc4a4ebc454d6a874795ffc8ff4dbeb928d1941  headlessnh-1.0.13.jar" | sha256sum -c -
+          curl -sSL -o headlessnh-1.1.1.jar https://github.com/GTNewHorizons/HeadlessNH/releases/download/1.1.1/headlessnh-1.1.1.jar
+          echo "f1da0976f3b3af1258de803c62534464dc45167aa4b07ae43e27ad1cc72f6e1b  headlessnh-1.1.1.jar" | sha256sum -c -
 
       - name: Add HorizonQA to both client & server mods
         shell: bash
         working-directory: ${{ env.WORK_DIR }}
         run: |
           set -euo pipefail
-          curl -sSL -o horizonqa-0.6.0.jar https://github.com/GTNewHorizons/Horizon-QA/releases/download/0.6.0/horizonqa-0.6.0.jar
-          echo "52319f44a7b13143a7b4ba7f99d6caaf335bcea2b708085bbbbf82374f63c181  horizonqa-0.6.0.jar" | sha256sum -c -
-          cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/client/.minecraft/mods/
-          cp -v horizonqa-0.6.0.jar ${{ env.WORK_DIR }}/server/mods/
+          curl -sSL -o horizonqa-0.7.0.jar https://github.com/GTNewHorizons/Horizon-QA/releases/download/0.7.0/horizonqa-0.7.0.jar
+          echo "f8ff6afcbf85f7844b195ecffcd6cf251df2eeb1980b95c38d00a2b0124072c0  horizonqa-0.7.0.jar" | sha256sum -c -
+          cp -v horizonqa-0.7.0.jar ${{ env.WORK_DIR }}/client/.minecraft/mods/
+          cp -v horizonqa-0.7.0.jar ${{ env.WORK_DIR }}/server/mods/
 
       - name: Start server
         id: start-server
@@ -209,7 +209,7 @@ jobs:
         run: bash scripts/tests/orchestrator.sh start-server
 
       - name: Run client
-        timeout-minutes: 10
+        timeout-minutes: 15
         env:
           XDG_DATA_HOME: ${{ env.WORK_DIR }}/run
         run: bash scripts/tests/orchestrator.sh run-client

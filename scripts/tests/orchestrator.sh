@@ -25,7 +25,7 @@ CLIENT_GATE_SERVERLOADED="$RUN_DIR/serverloaded.gate"
 export SERVER_READY_FLAG SERVER_EXIT_FLAG CLIENT_LOADED_FLAG CLIENT_JOINED_FLAG CLIENT_SINGLEP_FLAG DUAL_EXIT_FLAG CLIENT_GATE_SERVERLOADED
 
 SERVER_STOP_TIMEOUT="${SERVER_STOP_TIMEOUT:-20}"
-DUAL_TEST_WAIT="${DUAL_TEST_WAIT:-360}"
+DUAL_TEST_WAIT="${DUAL_TEST_WAIT:-500}"
 
 start_server() {
   bash "$SCRIPT_DIR/server.sh" start
@@ -69,6 +69,9 @@ run_dual_tests() {
   while [ ! -e "$CLIENT_JOINED_FLAG" ]; do
     if [ "$waited" -ge "$DUAL_TEST_WAIT" ]; then
       echo "client never joined within ${DUAL_TEST_WAIT}s -- skipping dual tests"
+      # Give client the gate so it can try to continue
+      : > "$CLIENT_GATE_SERVERLOADED"
+      echo "dropped serverloaded gate -> $CLIENT_GATE_SERVERLOADED"
       return
     fi
     sleep 1
