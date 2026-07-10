@@ -29,10 +29,13 @@ Mod is client-side only.
 >* Convert Wrought Iron Blocks -> Cast Iron by @UltraProdigy in https://github.com/GTNewHorizons/Chisel/pull/99 (2.17.30-GTNH)
 >* Apply speedboost on new road pieces by @MellowArpeggiation in https://github.com/GTNewHorizons/Chisel/pull/96 (2.17.29-GTNH)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.93
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.93
+# Updated - CropsNH - 2.0.91 --> 2.0.94
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.94
 
 ## What's Changed:
+>* Plumbilia should never have been in the reed group. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/200 (2.0.94)
+>* Update readme and license information by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/201 (2.0.94)
+>* Grammar fixes by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/205 (2.0.94)
 >* Cleanup tooltip langs and improve waila, plant lens and scanner output by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/197 (2.0.93)
 >* Localize crop stick scanner info on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/196 (2.0.92)
 
@@ -42,10 +45,22 @@ Mod is client-side only.
 ## What's Changed:
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.26
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.26
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.27
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.27
 
 ## What's Changed:
+>* Fix missing texture by @mllfjn in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7386 (5.09.54.27)
+>* fix(FluidEjectionHelper): ensure fair fluid ejection by @hinyb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7389 (5.09.54.27)
+>* Fix unexcepted getTileEntity call on client by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7378 (5.09.54.27)
+>* Make BartWorks ore post OreInteractEvent like the GT ones by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7391 (5.09.54.27)
+>* Configure watchers on other update sources by @ReignOfFROZE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7392 (5.09.54.27)
+>* Feature: Radial Menu for Mechanical Armor by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7175 (5.09.54.27)
+>* Make sheetmetal cause machine updates by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7395 (5.09.54.27)
+>* Fix LEC Tooltip by @NotKaizul in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7396 (5.09.54.27)
+>* Don't show macerator recipe when right-clicking arrow in any crafting table handler by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7398 (5.09.54.27)
+>* Replace direct references to air blocks in TGS structure by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7399 (5.09.54.27)
+>* fix(temp): get rid of widely spread 0K by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7393 (5.09.54.27)
+>* Require circuit for generated EIC gem recipes by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7375 (5.09.54.27)
 >* [MUI2] Ported MTEAtmosphericReconditioner by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6915 (5.09.54.26)
 >* Fix sheetmetal structure error showing raw translation keys by @Luca-Guettinger in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7379 (5.09.54.26)
 >* remove auto gen for fluorite electrolyser by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7382 (5.09.54.26)
@@ -67,10 +82,13 @@ Mod is client-side only.
 >* [MUI2] Ported MTEBioLab by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7054 (5.09.54.21)
 >* fix new LNR structure symmetry by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7355 (5.09.54.21)
 
-# Updated - GTNHLib - 0.11.24 --> 0.11.25
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.25
+# Updated - GTNHLib - 0.11.24 --> 0.11.27
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.27
 
 ## What's Changed:
+>* Make onFinishTextureStitch static to fix client init crash by @Algent in https://github.com/GTNewHorizons/GTNHLib/pull/420 (0.11.27)
+>* Add method to safely enchant an itemstack by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/387 (0.11.26)
+>* Port ResourceUtils from GT5U to NHlib by @Ruling-0 in https://github.com/GTNewHorizons/GTNHLib/pull/416 (0.11.26)
 >* Fix NumberPattern by @Sanduhr32 in https://github.com/GTNewHorizons/GTNHLib/pull/418 (0.11.25)
 
 # Updated - Gravitation-Suite-Neo - 1.3.12 --> 1.3.13
@@ -78,6 +96,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Send GraviSuite item and armor status messages server-side only by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/35 (1.3.13)
+
+# Updated - GuideNH - 1.3.11 --> 1.3.12
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.12
+
+## What's Changed:
+>* Fast game scene by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/26 (1.3.12)
 
 # Updated - Hodgepodge - 2.7.170 --> 2.7.171
 **Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.171
@@ -92,6 +116,12 @@ Mod is client-side only.
 >* Adapt to GT5u changes / Bump Buildscript and Deps by @Algent in https://github.com/GTNewHorizons/InGame-Info-XML/pull/41 (2.9.4)
 >* add itemid and itemmeta tags for equipment slots by @Eldrinn-Elantey in https://github.com/GTNewHorizons/InGame-Info-XML/pull/40 (2.9.4)
 
+# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.38-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.38-GTNH
+
+## What's Changed:
+>* fix zh_cn by @MCTBL in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/210 (1.3.38-GTNH)
+
 # Updated - LootGames - 2.2.13 --> 2.2.14
 **Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.13...2.2.14
 
@@ -104,10 +134,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.9
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.9
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.10
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.10
 
 ## What's Changed:
+>* reduce the carbon dioxide output from steel production in the blast furnace by @ABKQPO in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1857 (2.9.10)
+>* Rework Angel Ring Recipe by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1855 (2.9.10)
 >* Add Assembler Recipes For Some Compressors by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1856 (2.9.9)
 >* Add assembler recipe for ULV/LV/MV Dynamo hatches by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1858 (2.9.9)
 >* Fix Condensates in Mk3 Foundry Chassis by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1854 (2.9.8)
@@ -127,11 +159,30 @@ Mod is client-side only.
 ## What's Changed:
 >* Add drivers for BEC machines by @RecursivePineapple in https://github.com/GTNewHorizons/OpenComputers/pull/206 (1.12.49-GTNH)
 
+# Updated - Super-TiC - 1.5.4 --> 1.5.6
+**Full Changelog**: https://github.com/GTNewHorizons/Super-TiC/compare/1.5.4...1.5.6
+
+## What's Changed:
+>* Fix NPE during tooltip writing by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/12 (1.5.6)
+>* Fix effect handler by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/11 (1.5.5)
+
 # Updated - Universal-Singularities - 8.15.3 --> 8.15.4
 **Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.15.3...8.15.4
 
 ## What's Changed:
 >* Add inverted singularity by @FourIsTheNumber in https://github.com/GTNewHorizons/Universal-Singularities/pull/21 (8.15.4)
 
+# Updated - VisualProspecting - 1.5.33 --> 1.5.34
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.33...1.5.34
+
+## What's Changed:
+>* Guard against null/fake player (Fix Log spam) by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/97 (1.5.34)
+
+# Updated - neiaddons - 1.18.2 --> 1.18.3
+**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.18.2...1.18.3
+
+## What's Changed:
+>* Rename products.png to products_dynamic.png by @tiffit in https://github.com/GTNewHorizons/neiaddons/pull/16 (1.18.3)
+
 # Credits
-Special thanks to @ABKQPO, @Algent, @AnsonYeung, @Azusfin, @C0bra5, @combusterf, @DreamYao520, @DylanTaylor1, @Eldrinn-Elantey, @fehling135, @FourIsTheNumber, @Keter01, @Kogepan229, @koolkrafter5, @lc-1337, @Luca-Guettinger, @lunawinxp, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @RecursivePineapple, @ReignOfFROZE, @Ruling-0, @Sanduhr32, @TheYoingLad, @tiffit, @UltraProdigy, @Yoshy2002, @zaru-noodles, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @ah-OOG-ah, @Algent, @AnsonYeung, @Azusfin, @C0bra5, @combusterf, @DreamYao520, @DylanTaylor1, @Eldrinn-Elantey, @fehling135, @FourIsTheNumber, @hinyb, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @Luca-Guettinger, @lunawinxp, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @Ruling-0, @Sanduhr32, @Spaghetti-OberNub, @TheYoingLad, @tiffit, @UltraProdigy, @Yoshy2002, @zaru-noodles, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
