@@ -10,9 +10,11 @@ on:
         required: true
 
 jobs:
-  modpack-build:
+  build:
     name: Build ${{ inputs.daxxl-tag }}
     runs-on: ubuntu-24.04
+    outputs:
+      today: ${{ steps.date.outputs.today }}
     env:
       DAXXL_TAG: ${{ inputs.daxxl-tag }}
     steps:
@@ -46,7 +48,7 @@ jobs:
 
       - name: Load cached mod zips
         id: load_mod_cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: cache
           key: daxxl-${{ runner.os }}-${{ inputs.daxxl-tag }}-${{ steps.date.outputs.cachedate }}
@@ -66,20 +68,11 @@ jobs:
           uv run python -m daxxl.cli.assemble_release SERVER_JAVA9 "${DAXXL_TAG}"
 
       - name: Save cached mod zips
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         if: steps.load_mod_cache.outputs.cache-hit != 'true'
         with:
           path: cache
           key: daxxl-${{ runner.os }}-${{ inputs.daxxl-tag }}-${{ steps.date.outputs.cachedate }}
-
-      # Upload modpack
-      - name: Upload manifest
-        uses: actions/upload-artifact@v4
-        # Upload all archives even if one of the zips fails to upload
-        if: success() || failure()
-        with:
-          name: gtnh-${{ inputs.daxxl-tag }}-manifest.json
-          path: releases/manifests/${{ inputs.daxxl-tag }}.json
 
       - name: Upload manifest job summary
         shell: bash
@@ -109,6 +102,56 @@ jobs:
           mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_17-25.zip" "GTNH-${DAXXL_TAG}-server-java17-25.zip"
           mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_8.zip" "GTNH-${DAXXL_TAG}-mmcprism-java8.zip"
           mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_17-25.zip" "GTNH-${DAXXL_TAG}-mmcprism-java17-25.zip"
+
+      # Bundle everything the test/upload jobs need into a single internal artifact
+      - name: Upload build bundle for downstream jobs
+        uses: actions/upload-artifact@v7
+        with:
+          name: custom-build-bundle
+          path: |
+            GTNH-${{ inputs.daxxl-tag }}-server-java8.zip
+            GTNH-${{ inputs.daxxl-tag }}-server-java17-25.zip
+            GTNH-${{ inputs.daxxl-tag }}-mmcprism-java8.zip
+            GTNH-${{ inputs.daxxl-tag }}-mmcprism-java17-25.zip
+            releases/manifests/${{ inputs.daxxl-tag }}.json
+          if-no-files-found: error
+          retention-days: 1
+
+
+  test:
+    needs: build
+    permissions:
+      contents: write # publish release
+    secrets: inherit
+    uses: ./.github/workflows/modpack-test.yml
+    with:
+      bundle-name: custom-build-bundle
+      zip-prefix: GTNH-${{ inputs.daxxl-tag }}
+      today: ${{ needs.build.outputs.today }}
+      media-label: custom-${{ inputs.daxxl-tag }}
+      media-tag: custom-screenshots
+      media-title: "Custom test media (90-day rolling store)"
+
+
+  upload:
+    needs: [build, test]
+    runs-on: ubuntu-24.04
+    env:
+      DAXXL_TAG: ${{ inputs.daxxl-tag }}
+    steps:
+      - name: Download build bundle
+        uses: actions/download-artifact@v7
+        with:
+          name: custom-build-bundle
+
+      # Upload modpack
+      - name: Upload manifest
+        uses: actions/upload-artifact@v7
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: gtnh-${{ inputs.daxxl-tag }}-manifest.json
+          path: releases/manifests/${{ inputs.daxxl-tag }}.json
 
       - name: Upload server zip
         uses: actions/upload-artifact@v7

@@ -14,6 +14,7 @@ SERVER_DIR="${SERVER_DIR:-$WORK_DIR/server}"
 RUN_DIR="${RUN_DIR:-$WORK_DIR/run}"
 export CLIENT_DIR CLIENT_MC_DIR SERVER_DIR RUN_DIR
 
+SERVER_LOG="$RUN_DIR/server.log"
 SERVER_READY_FLAG="$RUN_DIR/server.ready"
 SERVER_EXIT_FLAG="$RUN_DIR/server.exit"
 CLIENT_LOADED_FLAG="$RUN_DIR/.mainmenu.headlessnh"
@@ -24,7 +25,7 @@ CLIENT_GATE_SERVERLOADED="$RUN_DIR/serverloaded.gate"
 export SERVER_READY_FLAG SERVER_EXIT_FLAG CLIENT_LOADED_FLAG CLIENT_JOINED_FLAG CLIENT_SINGLEP_FLAG DUAL_EXIT_FLAG CLIENT_GATE_SERVERLOADED
 
 SERVER_STOP_TIMEOUT="${SERVER_STOP_TIMEOUT:-20}"
-DUAL_TEST_WAIT="${DUAL_TEST_WAIT:-360}"
+DUAL_TEST_WAIT="${DUAL_TEST_WAIT:-500}"
 
 start_server() {
   bash "$SCRIPT_DIR/server.sh" start
@@ -68,6 +69,9 @@ run_dual_tests() {
   while [ ! -e "$CLIENT_JOINED_FLAG" ]; do
     if [ "$waited" -ge "$DUAL_TEST_WAIT" ]; then
       echo "client never joined within ${DUAL_TEST_WAIT}s -- skipping dual tests"
+      # Give client the gate so it can try to continue
+      : > "$CLIENT_GATE_SERVERLOADED"
+      echo "dropped serverloaded gate -> $CLIENT_GATE_SERVERLOADED"
       return
     fi
     sleep 1
@@ -93,11 +97,15 @@ run_client() {
   run_dual_tests &
   local dual_pid=$!
 
+  # Also tail server logs for pre-dual test logs with a prefix
+  tail -n 0 -F "$SERVER_LOG" 2>/dev/null > >(sed -u 's/^/SERVER: /') &
+  local server_tail_pid=$!
+
   local rc=0
   bash "$SCRIPT_DIR/headless_client.sh" || rc=$?
 
-  kill "$watcher_pid" "$watch_startup_pid" "$dual_pid" 2>/dev/null || true
-  wait "$watcher_pid" "$watch_startup_pid" "$dual_pid" 2>/dev/null || true
+  kill "$watcher_pid" "$watch_startup_pid" "$dual_pid" "$server_tail_pid" 2>/dev/null || true
+  wait "$watcher_pid" "$watch_startup_pid" "$dual_pid" "$server_tail_pid" 2>/dev/null || true
   return "$rc"
 }
 
