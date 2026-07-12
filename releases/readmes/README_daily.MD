@@ -299,7 +299,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.7.0 |
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.4.17 |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.5.11 |
-| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.9.6 |
+| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.9.7 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.13.26-GTNH |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.12.10-GTNH |
 | [Bug-Torch](https://github.com/jss2a98aj/BugTorch) | 1.2.14 |
