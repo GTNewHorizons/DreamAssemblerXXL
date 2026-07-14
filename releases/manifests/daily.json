@@ -1,15 +1,15 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-07-14T05:43:56.917747+00:00",
-  "config": "2.9.0-nightly-2026-07-12-02",
+  "last_version": "2.9.0-beta-2",
+  "last_updated": "2026-07-14T11:48:26.688303+00:00",
+  "config": "2.9.0-nightly-2026-07-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.22-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.95-gtnh",
+      "version": "1.5.96-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1007-GTNH",
+      "version": "rv3-beta-1008-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.7",
+      "version": "1.9.8",
       "side": "BOTH"
     },
     "Botania": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.16-GTNH",
+      "version": "0.9.17-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.35",
+      "version": "5.09.54.37",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.29",
+      "version": "0.11.30",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.171",
+      "version": "2.7.172",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.30",
+      "version": "1.8.31",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.15",
+      "version": "2.9.16",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.4.1",
+      "version": "2.4.2",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.46-GTNH",
+      "version": "0.1.47-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.98",
+      "version": "2.0.99",
       "side": "BOTH"
     },
     "Fether": {
@@ -851,13 +851,13 @@
     "GuideNH": {
       "version": "1.3.16",
       "side": "BOTH"
+    },
+    "Automagy-GTNH": {
+      "version": "0.29.5-GTNH",
+      "side": "BOTH"
     }
   },
   "external_mods": {
-    "Automagy": {
-      "version": "0.28.2",
-      "side": "BOTH"
-    },
     "BiblioCraft": {
       "version": "1.11.7",
       "side": "BOTH"
@@ -955,7 +955,7 @@
       "side": "CLIENT"
     },
     "JourneyMap": {
-      "version": "5.2.19-fairplay",
+      "version": "5.2.20-fairplay",
       "side": "CLIENT"
     },
     "EndlessIDs": {
