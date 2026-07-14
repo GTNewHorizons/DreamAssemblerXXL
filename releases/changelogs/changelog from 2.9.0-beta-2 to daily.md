@@ -63,10 +63,13 @@ Mod is client-side only.
 ## What's Changed:
 >* Add visual keyboard and fix integration with lwjgl3ify by @Algent in https://github.com/GTNewHorizons/Controlling/pull/15 (2.1.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.96
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.96
+# Updated - CropsNH - 2.0.91 --> 2.0.98
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.98
 
 ## What's Changed:
+>* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/CropsNH/pull/217 (2.0.98)
+>* Remove hungarian notation, Rename underblock systems, and fix nei overflow by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/212 (2.0.97)
+>* Update breeder UI textures by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/215 (2.0.97)
 >* Add base power cost to seedbed tooltip by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/211 (2.0.96)
 >* Remove unused proxy functions by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/208 (2.0.96)
 >* Add crop sounds by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/209 (2.0.96)
@@ -99,10 +102,13 @@ Mod is client-side only.
 >* Port End Flashes and Other related features by @Eclipse-Sol in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/91 (2.6.49-GTNH)
 >* feat: backport ridden horse floating in liquids by @jordanamr in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/95 (2.6.49-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.34
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.34
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.35
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.35
 
 ## What's Changed:
+>* Fix air intake hatches notifying before modifying inventory by @ReignOfFROZE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7418 (5.09.54.35)
+>* Move GT++ RecipeMaps and Frontends to core gregtech by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7227 (5.09.54.35)
+>* Fixed Target Chamber and Source Chamber NEI Handlers by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7397 (5.09.54.35)
 >* Trigger recipe check on config change by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7411 (5.09.54.34)
 >* Fix setting void bus filters by @toenailsin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7415 (5.09.54.34)
 >* Additional Fixes for Construction Tooltips Overhaul by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7404 (5.09.54.34)
@@ -218,16 +224,23 @@ Mod is client-side only.
 ## What's Changed:
 >* feat: Add inventory tab for equipped personal backpack by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/30 (2.6.14-GTNH)
 
+# Updated - Minetweaker-Gregtech-5-Addon - 2.3.3 --> 2.3.4
+**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/2.3.3...2.3.4
+
+## What's Changed:
+>* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/74 (2.3.4)
+
 # Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.80-1.7.10
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.80-1.7.10
 
 ## What's Changed:
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.14
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.14
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.15
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.15
 
 ## What's Changed:
+>* adjust to recipemap changes from gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1867 (2.9.15)
 >* Reworked Thaumonomicon Research Subtexts by @Spaghetti-OberNub in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1859 (2.9.14)
 >* Industrial Tinted Glass Recipes by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1865 (2.9.14)
 >* Add armor molds to solidifier hatch phantom slots by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1839 (2.9.14)
@@ -303,4 +316,4 @@ Mod is client-side only.
 >* Rename products.png to products_dynamic.png by @tiffit in https://github.com/GTNewHorizons/neiaddons/pull/16 (1.18.3)
 
 # Credits
-Special thanks to @ABKQPO, @ah-OOG-ah, @Algent, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @combusterf, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @fehling135, @felixfour, @FourIsTheNumber, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @Quaerere-Git, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @Sanduhr32, @sbancuz, @slprime, @Spaghetti-OberNub, @SuperSoupr, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vnesterovskyi, @Windorain, @wlhlm, @Yoshy2002, @zaru-noodles, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @ah-OOG-ah, @Algent, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @combusterf, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @fehling135, @felixfour, @FourIsTheNumber, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @Quaerere-Git, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @Sanduhr32, @sbancuz, @slprime, @Spaghetti-OberNub, @SuperSoupr, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vnesterovskyi, @Windorain, @wlhlm, @Yoshy2002, @zaru-noodles, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
