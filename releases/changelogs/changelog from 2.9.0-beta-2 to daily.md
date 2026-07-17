@@ -8,11 +8,19 @@
 ## What's Changed:
 >* Fixed grammar on fluid packet tooltip by @ham-corp in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/450 (1.5.96-gtnh)
 
-# Updated - Angelica - 2.1.50 --> 2.1.53
-Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.53
+# Updated - AdventureBackpack2 - 1.4.22-GTNH --> 1.4.23-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.22-GTNH...1.4.23-GTNH
 
 ## What's Changed:
+>* Use dedicated forge method instead of recreating part of the pipeline by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/56 (1.4.23-GTNH)
+
+# Updated - Angelica - 2.1.50 --> 2.1.54
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.54
+
+## What's Changed:
+>* Fix typo in PR template by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1937 (2.1.54)
+>* Add API for allowing other mods to have celeritas support by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1936 (2.1.54)
 >* Up default zoom speed to 20 by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1910 (2.1.53)
 >* Fix Streams not rendering correctly by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1932 (2.1.53)
 >* CTM integration improvements by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1931 (2.1.53)
@@ -42,8 +50,8 @@ Mod is client-side only.
 >* Fix fake crafting by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1413 (rv3-beta-1002-GTNH)
 >* Don't open gui for interaction event by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1421 (rv3-beta-1001-GTNH)
 
-# New Mod - Automagy-GTNH:0.29.6-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Automagy-GTNH/compare/0.29.1-GTNH...0.29.6-GTNH
+# New Mod - Automagy-GTNH:0.29.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Automagy-GTNH/compare/0.29.1-GTNH...0.29.7-GTNH
 
 ## What's Changed:
 >* Optimize Images by @UltraProdigy in https://github.com/GTNewHorizons/Automagy/pull/1 (0.29.2-GTNH)
@@ -73,6 +81,12 @@ Mod is client-side only.
 >* Increase radius for ritual of magnetism to 34 by @Sanduhr32 in https://github.com/GTNewHorizons/BloodMagic/pull/138 (1.9.6)
 >* Fix broken demon city buildings by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/136 (1.9.5)
 
+# Updated - Botania - 1.13.26-GTNH --> 1.13.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.26-GTNH...1.13.27-GTNH
+
+## What's Changed:
+>* Implement ColorUtils class to NEI handler by @Ranzuu in https://github.com/GTNewHorizons/Botania/pull/143 (1.13.27-GTNH)
+
 # Updated - Chisel - 2.17.28-GTNH --> 2.17.30-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.28-GTNH...2.17.30-GTNH
 
@@ -90,9 +104,9 @@ Mod is client-side only.
 >* Fix mod filter by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/10 (1.0.31-GTNH)
 >* Add Permanent Component by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/9 (1.0.30-GTNH)
 
-# Updated - ChromaticTooltipsCompat - 1.0.33-GTNH --> 1.0.34-GTNH
+# Updated - ChromaticTooltipsCompat - 1.0.33-GTNH --> 1.0.35-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/compare/1.0.33-GTNH...1.0.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltipsCompat/compare/1.0.33-GTNH...1.0.35-GTNH
 
 ## What's Changed:
 >* Fix Waila Size by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/13 (1.0.34-GTNH)
@@ -124,10 +138,11 @@ Mod is client-side only.
 >* Cleanup tooltip langs and improve waila, plant lens and scanner output by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/197 (2.0.93)
 >* Localize crop stick scanner info on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/196 (2.0.92)
 
-# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.29-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.29-GTNH
+# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.30-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.30-GTNH
 
 ## What's Changed:
+>* Move the bindTexture out of the display list by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/107 (1.5.30-GTNH)
 >* Add NHLib dep to @Mod by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/104 (1.5.29-GTNH)
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
@@ -156,10 +171,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add MFR support for tainted trees by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/32 (0.9.17-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.41
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.41
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.42
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.42
 
 ## What's Changed:
+>* Fix wireless charger bypassing tier requirements by @zaru-noodles in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7470 (5.09.54.42)
+>* [NEI] Rename heat and coil by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7476 (5.09.54.42)
 >* fix(meoutput): allow negative priority by @hinyb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7467 (5.09.54.41)
 >* Increase FrOH Recipe EU/t to LV so it appears later, reduce recipe time by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7465 (5.09.54.40)
 >* Mechanical Armor: New armor texture with a dynamically colored overlay  by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7412 (5.09.54.39)
@@ -288,6 +305,13 @@ Mod is client-side only.
 >* Update zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/Hodgepodge/pull/935 (2.7.172)
 >* Set f1ShowHand default config to false by @SuperSoupr in https://github.com/GTNewHorizons/Hodgepodge/pull/946 (2.7.172)
 >* Fix controls menu crash when keybind categories share a localized name by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/943 (2.7.171)
+
+# Updated - IguanaTweaksTConstruct - 2.7.10 --> 2.7.11
+**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.7.10...2.7.11
+
+## What's Changed:
+>* fix incorrect data warning from ported old tools by @LazyFlesh in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/38 (2.7.11)
+>* Properly handle modifiers from magical wood when doing part replacement by @tiffit in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/39 (2.7.11)
 
 # Updated - InGame-Info-XML - 2.9.3 --> 2.9.5
 **Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.9.3...2.9.5
