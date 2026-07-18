@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-17T05:59:16.665322+00:00",
+  "last_updated": "2026-07-18T05:40:21.444729+00:00",
   "config": "2.9.0-nightly-2026-07-16-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1011-GTNH",
+      "version": "rv3-beta-1012-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.8",
+      "version": "1.9.9",
       "side": "BOTH"
     },
     "Botania": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.42",
+      "version": "5.09.54.43",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.173",
+      "version": "2.7.174",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.30",
+      "version": "1.6.31",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.18",
+      "version": "2.9.19",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.49-GTNH",
+      "version": "1.12.50-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "Share-Where-I-am": {
-      "version": "2.1.7",
+      "version": "2.1.8",
       "side": "BOTH"
     },
     "SleepingBags": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.94-GTNH",
+      "version": "1.14.95-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "ModularUI2": {
