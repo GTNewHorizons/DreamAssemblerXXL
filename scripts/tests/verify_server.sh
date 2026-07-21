@@ -87,13 +87,16 @@ fi
 
 # Server side of what was emitted during the dual tests
 if [ -e "$HQA_RESULT_JSON" ]; then
-  failed_tests=$(jq '.counts.failed // 0' "$HQA_RESULT_JSON")
-  if ! [[ "$failed_tests" =~ ^[0-9]+$ ]]; then
-    fail "could not read HQA test failure count from $HQA_RESULT_JSON (got: '$failed_tests')"
-  elif [ "$failed_tests" -ne 0 ]; then
-    fail "HQA tests had $failed_tests failures"
+  hqa_status=$(jq -r '.status // empty' "$HQA_RESULT_JSON")
+  if [ "$hqa_status" != "passed" ]; then
+    failed_tests=$(jq -r '.counts.failed // 0' "$HQA_RESULT_JSON")
+    if ! [[ "$failed_tests" =~ ^[0-9]+$ ]]; then
+      fail "could not read HQA test failure count from $HQA_RESULT_JSON (got: '$failed_tests')"
+    else
+      fail "HQA tests had $failed_tests failures (status: ${hqa_status:-missing})"
+    fi
   else
-    echo "HQA tests had no failures!"
+    echo "HQA tests passed!"
   fi
 else
   fail "HQA execution result json at $HQA_RESULT_JSON is missing"
