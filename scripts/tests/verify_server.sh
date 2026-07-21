@@ -88,7 +88,7 @@ fi
 # Server side of what was emitted during the dual tests
 if [ -e "$HQA_RESULT_JSON" ]; then
   hqa_status=$(jq -r '.status // empty' "$HQA_RESULT_JSON")
-  if [ "$hqa_status" != "passed" ]; then
+  if [[ "$hqa_status" != "passed" ]]; then
     failed_tests=$(jq -r '.counts.failed // 0' "$HQA_RESULT_JSON")
     if ! [[ "$failed_tests" =~ ^[0-9]+$ ]]; then
       fail "could not read HQA test failure count from $HQA_RESULT_JSON (got: '$failed_tests')"
