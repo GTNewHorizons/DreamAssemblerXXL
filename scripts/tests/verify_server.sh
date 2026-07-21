@@ -99,7 +99,7 @@ if [ -e "$HQA_RESULT_JSON" ]; then
     echo "HQA tests passed!"
   fi
 else
-  fail "HQA execution result json at $HQA_RESULT_JSON is missing"
+  fail "HQA execution result json at $HQA_RESULT_JSON is missing - did the tests not get run because the client failed to start? (see the verify-client step)"
 fi
 
 
