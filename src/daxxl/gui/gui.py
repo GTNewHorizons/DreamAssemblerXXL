@@ -171,8 +171,8 @@ class Window(ThemedTk, Tk):
         )
 
         exclusion_client_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
-            add=lambda exclusion: asyncio.ensure_future(self.controller.add_exclusion("client", exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.controller.del_exclusion("client", exclusion)),
+            add=lambda exclusion: asyncio.ensure_future(self.controller.add_exclusion(Side.CLIENT, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.controller.del_exclusion(Side.CLIENT, exclusion)),
         )
 
         # frame for the client file exclusions
@@ -181,8 +181,8 @@ class Window(ThemedTk, Tk):
         )
 
         exclusion_server_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
-            add=lambda exclusion: asyncio.ensure_future(self.controller.add_exclusion("server", exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.controller.del_exclusion("server", exclusion)),
+            add=lambda exclusion: asyncio.ensure_future(self.controller.add_exclusion(Side.SERVER, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.controller.del_exclusion(Side.SERVER, exclusion)),
         )
 
         # frame for the server side exclusions

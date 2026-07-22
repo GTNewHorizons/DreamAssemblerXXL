@@ -1323,8 +1323,8 @@ class GTNHModpackManager:
         log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
         return True
 
-    def add_exclusion(self, side: str, exclusion: str) -> bool:
-        if side == "client":
+    def add_exclusion(self, side: Side, exclusion: str) -> bool:
+        if side == Side.CLIENT:
             if exclusion in self.mod_pack.client_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is already in {side} side exclusions{Fore.RESET}")
                 return False
@@ -1333,7 +1333,7 @@ class GTNHModpackManager:
                 log.info(f"{Fore.GREEN}{exclusion} has been added to {side} side exclusions{Fore.RESET}")
                 return True
 
-        if side == "server":
+        if side == Side.SERVER:
             if exclusion in self.mod_pack.server_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is already in {side} side exclusions{Fore.RESET}")
                 return False

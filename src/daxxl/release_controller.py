@@ -267,7 +267,7 @@ class ReleaseController:
         """
         return self.delta_progress
 
-    async def add_exclusion(self, side: str, exclusion: str) -> None:
+    async def add_exclusion(self, side: Side, exclusion: str) -> None:
         """
         Method used to add an file exclusion to the corresponding side's exclusion list.
 
@@ -279,7 +279,7 @@ class ReleaseController:
         gtnh.add_exclusion(side, exclusion)
         gtnh.save_modpack()
 
-    async def del_exclusion(self, side: str, exclusion: str) -> None:
+    async def del_exclusion(self, side: Side, exclusion: str) -> None:
         """
         Method used to add an file exclusion to the corresponding side's exclusion list.
 
