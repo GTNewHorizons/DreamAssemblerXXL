@@ -7,7 +7,7 @@ from typing import Any, Callable, Dict, List, Union
 
 from ttkthemes import ThemedTk
 
-from daxxl.defs import Archive, Position, Side
+from daxxl.defs import Archive, Position, Side, DevRelease
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
@@ -17,7 +17,7 @@ from daxxl.gui.lib.decorators import with_error_dialog
 from daxxl.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.release_controller import DevRelease, ReleaseController
+from daxxl.release_controller import ReleaseController
 
 logger = get_logger(__name__)
 

@@ -1,9 +1,9 @@
 import asyncclick as click
 import httpx
 
+from daxxl.defs import DevRelease
 from daxxl.gtnh_logger import get_logger
 from daxxl.modpack_manager import GTNHModpackManager
-from daxxl.release_controller import DevRelease
 
 log = get_logger(__name__)
 

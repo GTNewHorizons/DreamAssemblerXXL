@@ -38,7 +38,7 @@ from daxxl.defs import (
     ROOT_DIR,
     UNKNOWN,
     ModSource,
-    Side,
+    Side, DevRelease,
 )
 from daxxl.exceptions import (
     InvalidDailyIdException,
@@ -585,7 +585,7 @@ class GTNHModpackManager:
         """
         :return: a tuple of (the generated release, error messages for assets that failed to update)
         """
-        if release_type not in {"daily", "experimental"}:
+        if release_type not in DevRelease.__members__.values():
             raise ValueError(f"Unsupported rolling release {release_type!r}")
 
         existing_release = self.get_release(release_type)

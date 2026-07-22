@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from enum import Enum
+
 from typing import Any, Awaitable, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
@@ -17,11 +17,6 @@ from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.modpack_manager import GTNHModpackManager
 
 logger = get_logger(__name__)
-
-
-class DevRelease(str, Enum):
-    DAILY = "daily"
-    EXPERIMENTAL = "experimental"
 
 
 def _noop(*_: Any) -> None:
