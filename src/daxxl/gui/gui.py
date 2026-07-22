@@ -355,32 +355,41 @@ class Window(ThemedTk, Tk):
     def _notify_errored_mods(
         self,
         errored_mods: List[GTNHModInfo],
+        update_errors: List[str],
         title: str,
         success_message: str,
         warning_intro: str,
     ) -> None:
         """
-        Show a warning if there was at least an errored mod, an ok message otherwise.
+        Show a warning if there was at least an errored mod or a failed asset update,
+        an ok message otherwise.
 
-        :param errored_mods: the mods needing attention
+        :param errored_mods: the mods needing attention (suspiciously outdated tags)
+        :param update_errors: error messages for individual assets that failed to update
+            (network/API hiccups) - these don't block the rest of the batch, but the user
+            should still know some assets may be stale
         :param title: dialogue title
         :param success_message: success message
         :param warning_intro: warning message prefix
         :return: None
         """
-        if not errored_mods:
+        if not errored_mods and not update_errors:
             showinfo(title, success_message)
             return
 
-        showwarning(
-            title,
-            warning_intro
-            + "\n".join(
-                f"mod {mod.name} has {mod.latest_version} which is older than newest version availiable on github"
-                for mod in errored_mods
+        sections: List[str] = []
+        if update_errors:
+            sections.append("The following assets failed to update and may be stale:\n" + "\n".join(update_errors))
+        if errored_mods:
+            sections.append(
+                "\n".join(
+                    f"mod {mod.name} has {mod.latest_version} which is older than newest version availiable on github"
+                    for mod in errored_mods
+                )
+                + "\nThis means tags had been done wrongly."
             )
-            + "\nThis means tags had been done wrongly.",
-        )
+
+        showwarning(title, warning_intro + "\n\n".join(sections))
 
     @with_error_dialog(
         title="An error occured during the update of the assets",
@@ -393,11 +402,12 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         self.trigger_toggle()
-        errored_mods: List[GTNHModInfo] = await self.controller.update_assets()
+        errored_mods, update_errors = await self.controller.update_assets()
         self.trigger_toggle()
 
         self._notify_errored_mods(
             errored_mods,
+            update_errors,
             title="assets updated successfully!",
             success_message="All the assets have been updated correctly!",
             warning_intro="The assets had been updated BUT:\n",
@@ -411,11 +421,12 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         self.trigger_toggle()
-        errored_mods: List[GTNHModInfo] = await self.controller.update_rolling_release(release_type)
+        errored_mods, update_errors = await self.controller.update_rolling_release(release_type)
         self.trigger_toggle()
 
         self._notify_errored_mods(
             errored_mods,
+            update_errors,
             title=f"updated the {release_type} release metadata",
             success_message=f"The {release_type} release metadata had been updated!",
             warning_intro=f"The {release_type} release metadata had been updated BUT:\n",

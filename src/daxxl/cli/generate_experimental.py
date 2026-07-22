@@ -18,7 +18,11 @@ async def generate_experimental(update_available: bool, new_id: int | None) -> N
             m.set_experimental_id(new_id)
         else:
             m.increment_experimental_count()  # assets need to be uploaded even if the build crashes, it tracks the build id
-        await m.update_rolling_release(DevRelease.EXPERIMENTAL.value, update_available=update_available)
+        _, update_errors = await m.update_rolling_release(
+            DevRelease.EXPERIMENTAL.value, update_available=update_available
+        )
+        if update_errors:
+            log.warn(f"{len(update_errors)} asset(s) failed to update, see errors above")
         m.save_assets()
         log.info("Release generated!")
 

@@ -505,31 +505,33 @@ class ReleaseController:
                 self.version = ""
                 self.last_version = None
 
-    async def update_assets(self) -> List[GTNHModInfo]:
+    async def update_assets(self) -> Tuple[List[GTNHModInfo], List[str]]:
         """
         Update all the availiable assets.
 
-        :return: the list of mods needing attention after the update
+        :return: a tuple consisting of the List of mods needing attention after the update and the list of error
+         messages for individual assets that failed to update.
         """
         self.global_reset_callback()
         self.current_task_reset_callback()
 
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
         global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
-        await gtnh.update_all(
+        update_errors: List[str] = await gtnh.update_all(
             progress_callback=self.progress_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
 
-        return [mod for mod in gtnh.assets.mods if mod.needs_attention]
+        return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
 
-    async def update_rolling_release(self, release_type: str) -> List[GTNHModInfo]:
+    async def update_rolling_release(self, release_type: str) -> Tuple[List[GTNHModInfo], List[str]]:
         """
         update dev release (experimental/daily)
 
         :param release_type: "experimental" or "daily"
         :raises ReleaseNotFoundException: if the dev release doesn't exist yet
-        :return: the list of mods needing attention after the update
+        :return: a tuple of (mods needing attention after the update, error messages for
+            individual assets that failed to update - the rest of the batch still completes)
         """
         self.current_task_reset_callback()
         self.global_reset_callback()
@@ -538,7 +540,7 @@ class ReleaseController:
 
         # 1 for the data download on github, 1 for the asset updates and 1 for the release update
         global_delta_progress: float = 100 / (1 + 1 + 1)
-        await gtnh.update_rolling_release(
+        _, update_errors = await gtnh.update_rolling_release(
             release_type,
             update_available=True,
             progress_callback=self.progress_callback,
@@ -546,7 +548,7 @@ class ReleaseController:
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
 
-        return [mod for mod in gtnh.assets.mods if mod.needs_attention]
+        return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
 
     async def pre_assembling(self) -> ReleaseAssembler:
         """

@@ -6,7 +6,7 @@ import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from typing import Callable, List, Optional, Set, Tuple
+from typing import Any, Callable, Coroutine, List, Optional, Set, Tuple
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -102,20 +102,43 @@ class GTNHModpackManager:
 
         return None
 
+    async def _run_safely(self, name: str, coro: "Coroutine[Any, Any, bool]", errors: list[str]) -> bool:
+        """
+        Await `coro`, recording an error message tagged with `name` in `errors` instead of
+        letting the exception propagate out of the batch of concurrently-checked assets.
+
+        :param name: asset name
+        :param coro: the update coroutine to run
+        :param errors: shared list error messages are appended to
+        :return: the coroutine's result, or False if it raised
+        """
+        try:
+            return await coro
+        except Exception as error:
+            message = f"Failed to update {name}: {error}"
+            log.error(f"{RED_CROSS} {Fore.RED}{message}{Fore.RESET}")
+            errors.append(message)
+            return False
+
     async def update_all(
         self,
         mods_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
         releaseVersion: str | None = None,
-    ) -> None:
-        if await self.update_available_assets(
+    ) -> list[str]:
+        """
+        :return: error messages for assets that failed to update, empty if all succeeded
+        """
+        updated, errors = await self.update_available_assets(
             mods_to_update,
             progress_callback=progress_callback,
             global_progress_callback=global_progress_callback,
             releaseVersion=releaseVersion,
-        ):
+        )
+        if updated:
             self.save_assets()
+        return errors
 
     async def update_available_assets(
         self,
@@ -123,13 +146,14 @@ class GTNHModpackManager:
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
         releaseVersion: str | None = None,
-    ) -> bool:
+    ) -> tuple[bool, list[str]]:
 
         if global_progress_callback is not None:
             global_progress_callback("Downloading data from Github")
 
         all_repos = await self.get_all_repos()
 
+        errors: list[str] = []
         tasks = []
         to_update_from_repos: list[Versionable] = [mod for mod in self.assets.mods if mod.source == ModSource.github]
         to_update_from_repos.append(self.assets.config)
@@ -156,17 +180,25 @@ class GTNHModpackManager:
                     f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}"
                 )
                 continue
-            tasks.append(self.update_versionable_from_repo(asset, repo, releaseVersion))
+            tasks.append(
+                self._run_safely(asset.name, self.update_versionable_from_repo(asset, repo, releaseVersion), errors)
+            )
 
         # update translation manually because version check cannot work on this repo given the nature of the releases
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
         tasks.append(
-            self.update_translations_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name))
+            self._run_safely(
+                self.assets.translations.name,
+                self.update_translations_from_repo(
+                    self.assets.translations, all_repos.get(self.assets.translations.name)
+                ),
+                errors,
+            )
         )
 
         gathered = await asyncio.gather(*tasks)
-        return any(gathered)
+        return any(gathered), errors
 
     async def update_versionable_from_repo(
         self, versionable: Versionable, repo: AttributeDict, releaseVersion: str | None = None
@@ -422,7 +454,7 @@ class GTNHModpackManager:
         progress_callback: Optional[Callable[[float, str], None]] = None,
         reset_progress_callback: Optional[Callable[[], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
-    ) -> GTNHRelease:
+    ) -> tuple[GTNHRelease, list[str]]:
         """
         Updates a release
         :param version: Version of the release we're updating to
@@ -436,11 +468,12 @@ class GTNHModpackManager:
         :param reset_progress_callback: Optional callback to reset the progress bar for the current task in the gui
         :param global_progress_callback: Optional callback to update the global progress bar in the gui
 
-        :return: The generated release
+        :return: a tuple of (the generated release, error messages for assets that failed to update)
         """
+        update_errors: list[str] = []
         if update_available:
             log.info("Updating assets")
-            await self.update_all(
+            update_errors = await self.update_all(
                 progress_callback=progress_callback,
                 global_progress_callback=global_progress_callback,
                 releaseVersion=version,
@@ -531,13 +564,14 @@ class GTNHModpackManager:
         if duplicate_mods:
             raise InvalidReleaseException(f"Duplicate Mods: {duplicate_mods}")
 
-        return GTNHRelease(
+        release = GTNHRelease(
             version=version,
             config=config,
             github_mods=github_mods,
             external_mods=external_mods,
             last_version=last_version or existing_release.last_version,
         )
+        return release, update_errors
 
     async def update_rolling_release(
         self,
@@ -546,7 +580,10 @@ class GTNHModpackManager:
         progress_callback: Optional[Callable[[float, str], None]] = None,
         reset_progress_callback: Optional[Callable[[], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
-    ) -> GTNHRelease:
+    ) -> tuple[GTNHRelease, list[str]]:
+        """
+        :return: a tuple of (the generated release, error messages for assets that failed to update)
+        """
         if release_type not in {"daily", "experimental"}:
             raise ValueError(f"Unsupported rolling release {release_type!r}")
 
@@ -555,7 +592,7 @@ class GTNHModpackManager:
             raise ReleaseNotFoundException(f"{release_type.capitalize()} release not found")
 
         previous_release_name = f"previous_{release_type}"
-        release = await self.update_release(
+        release, update_errors = await self.update_release(
             release_type,
             existing_release=existing_release,
             update_available=update_available,
@@ -569,7 +606,7 @@ class GTNHModpackManager:
         existing_release.version = previous_release_name
         self.add_release(existing_release, update=True)
         self.save_modpack()
-        return release
+        return release, update_errors
 
     def delete_release(self, release_name: str) -> None:
         release = self.get_release(release_name)
