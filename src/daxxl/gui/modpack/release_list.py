@@ -5,7 +5,7 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional
 
 from daxxl.defs import Position
-from daxxl.gui.lib.CustomLabel import CustomLabel
+from daxxl.gui.lib.custom_label import CustomLabel
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
