@@ -14,8 +14,8 @@ on:
       zip-prefix:
         description: >-
           Basename prefix of the built zips, such that the four variants are
-          "<zip-prefix>-server-java8.zip", "<zip-prefix>-server-java17-25.zip",
-          "<zip-prefix>-mmcprism-java8.zip" and "<zip-prefix>-mmcprism-java17-25.zip".
+          "<zip-prefix>-server-java8.zip", "<zip-prefix>-server-java17-26.zip",
+          "<zip-prefix>-mmcprism-java8.zip" and "<zip-prefix>-mmcprism-java17-26.zip".
         type: string
         required: true
       today:
@@ -55,8 +55,8 @@ jobs:
       matrix:
         include:
           - java-version: 25
-            server-zip-variant: server-java17-25
-            client-zip-variant: mmcprism-java17-25
+            server-zip-variant: server-java17-26
+            client-zip-variant: mmcprism-java17-26
             server-java-args: |
               -Xms1G -Xmx2G
               -Dfml.readTimeout=45
