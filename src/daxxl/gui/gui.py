@@ -138,9 +138,7 @@ class Window(ThemedTk, Tk):
             get_github_mods_callback=self.controller.get_github_mods,
             set_mod_version=self.controller.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
-            set_mod_side_default=lambda name, side: asyncio.ensure_future(
-                self.set_mod_side_default(name, side)
-            ),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_mod_side_default(name, side)),
             set_modpack_version=self.controller.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
             update_global_progress_bar=self.global_callback,
@@ -159,9 +157,7 @@ class Window(ThemedTk, Tk):
         external_panel_callbacks: ExternalPanelCallback = ExternalPanelCallback(
             set_mod_version=self.controller.set_external_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
-            set_mod_side_default=lambda name, side: asyncio.ensure_future(
-                self.set_mod_side_default(name, side)
-            ),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_mod_side_default(name, side)),
             get_gtnh_callback=self.controller.get_modpack_manager,
             get_external_mods_callback=self.controller.get_external_mods,
             toggle_freeze=self.trigger_toggle,
@@ -231,9 +227,9 @@ class Window(ThemedTk, Tk):
     @with_error_dialog(
         title="An error occured during the generation of the changelog",
         message=lambda self: (
-                f"An error occured during the generation of the changelog from "
-                f"{self.controller.last_version} to {self.controller.version}."
-                "\nPlease check the logs for more information."
+            f"An error occured during the generation of the changelog from "
+            f"{self.controller.last_version} to {self.controller.version}."
+            "\nPlease check the logs for more information."
         ),
     )
     async def generate_changelog(self) -> None:
@@ -249,7 +245,7 @@ class Window(ThemedTk, Tk):
     @with_error_dialog(
         title="An error occured during the generation of the intermediate curseforge files",
         message="An error occured during the generation of the intermediate curseforge files."
-                "\nPlease check the logs for more information."
+        "\nPlease check the logs for more information.",
     )
     async def generate_intermediate_cf_files(self) -> None:
         """
@@ -264,11 +260,12 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title=lambda self, side,
-                     archive_type: f"An error occured during the assembling {side.value} {archive_type.value} archive",
+        title=lambda self, side, archive_type: (
+            f"An error occured during the assembling {side.value} {archive_type.value} archive"
+        ),
         message=lambda self, side, archive_type: (
-                f"An error occurended during the assembling {side.value} {archive_type.value} archive."
-                "\nPlease check the logs for more information."
+            f"An error occurended during the assembling {side.value} {archive_type.value} archive."
+            "\nPlease check the logs for more information."
         ),
     )
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
@@ -284,7 +281,7 @@ class Window(ThemedTk, Tk):
     @with_error_dialog(
         title="An error occured during the update of the assembling of the archives",
         message="An error occured during the update of the assembling of the archives."
-                "\nPlease check the logs for more information."
+        "\nPlease check the logs for more information.",
     )
     async def assemble_all(self) -> None:
         """
@@ -299,7 +296,7 @@ class Window(ThemedTk, Tk):
     @with_error_dialog(
         title="An error occured during the update of the assembling of the archives",
         message="An error occured during the update of the assembling of the archives."
-                "\nPlease check the logs for more information."
+        "\nPlease check the logs for more information.",
     )
     async def assemble_beta(self) -> None:
         """
@@ -356,11 +353,11 @@ class Window(ThemedTk, Tk):
             showwarning("Side already set up", str(e))
 
     def _notify_errored_mods(
-            self,
-            errored_mods: List[GTNHModInfo],
-            title: str,
-            success_message: str,
-            warning_intro: str,
+        self,
+        errored_mods: List[GTNHModInfo],
+        title: str,
+        success_message: str,
+        warning_intro: str,
     ) -> None:
         """
         Show a warning if there was at least an errored mod, an ok message otherwise.
@@ -379,8 +376,7 @@ class Window(ThemedTk, Tk):
             title,
             warning_intro
             + "\n".join(
-                f"mod {mod.name} has {mod.latest_version} which is "
-                "older than newest version availiable on github"
+                f"mod {mod.name} has {mod.latest_version} which is older than newest version availiable on github"
                 for mod in errored_mods
             )
             + "\nThis means tags had been done wrongly.",
@@ -388,7 +384,7 @@ class Window(ThemedTk, Tk):
 
     @with_error_dialog(
         title="An error occured during the update of the assets",
-        message="An error occured during the update of the assets.\nPlease check the logs for more information."
+        message="An error occured during the update of the assets.\nPlease check the logs for more information.",
     )
     async def update_assets(self) -> None:
         """
@@ -428,7 +424,7 @@ class Window(ThemedTk, Tk):
     @with_error_dialog(
         title="An error occured during the update of the experimental build",
         message="An error occured during the update of the experimental build."
-                "\nPlease check the logs for more information."
+        "\nPlease check the logs for more information.",
     )
     async def update_experimental(self) -> None:
         """
@@ -440,8 +436,7 @@ class Window(ThemedTk, Tk):
 
     @with_error_dialog(
         title="An error occured during the update of the daily build",
-        message="An error occured during the update of the daily build."
-                "\nPlease check the logs for more information."
+        message="An error occured during the update of the daily build.\nPlease check the logs for more information.",
     )
     async def update_daily(self) -> None:
         """

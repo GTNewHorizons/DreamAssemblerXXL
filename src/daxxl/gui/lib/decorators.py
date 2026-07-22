@@ -1,6 +1,6 @@
 import functools
 from tkinter.messagebox import showerror
-from typing import Any, Awaitable, Callable, TypeVar, Union
+from typing import Any, Awaitable, Callable, TypeVar, Union, cast
 
 F = TypeVar("F", bound=Callable[..., Awaitable[Any]])
 DialogText = Union[str, Callable[..., str]]
@@ -23,13 +23,13 @@ def with_error_dialog(title: DialogText, message: DialogText) -> Callable[[F], F
             try:
                 return await func(self, *args, **kwargs)
             except Exception as e:
-                resolved_title = title(self, *args, **kwargs) if callable(title) else title
-                resolved_message = message(self, *args, **kwargs) if callable(message) else message
+                resolved_title = title if isinstance(title, str) else title(self, *args, **kwargs)
+                resolved_message = message if isinstance(message, str) else message(self, *args, **kwargs)
                 showerror(resolved_title, resolved_message)
                 if not self.toggled:
                     self.trigger_toggle()
                 raise e
 
-        return wrapper
+        return cast(F, wrapper)
 
     return decorator
