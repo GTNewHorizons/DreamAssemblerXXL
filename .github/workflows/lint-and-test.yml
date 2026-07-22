@@ -29,3 +29,6 @@ jobs:
 
       - name: Type check
         run: uv run ty check
+
+      - name: Run tests
+        run: uv run pytest -q
