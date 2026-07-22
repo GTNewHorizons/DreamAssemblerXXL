@@ -17,6 +17,7 @@ from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
 from daxxl.gui.external.external_panel import ExternalPanel, ExternalPanelCallback
 from daxxl.gui.github.github_panel import GithubPanel, GithubPanelCallback
+from daxxl.gui.lib.decorators import with_error_dialog
 from daxxl.gui.lib.progress_bar import CustomProgressBar
 from daxxl.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from daxxl.models.gtnh_config import GTNHConfig
@@ -282,6 +283,13 @@ class Window(ThemedTk, Tk):
                 for child in widget.winfo_children():
                     self.toggle(child)
 
+    @with_error_dialog(
+        title="An error occured during the generation of the changelog",
+        message=lambda self: (
+                f"An error occured during the generation of the changelog from "
+                f"{self.last_version} to {self.version}.\nPlease check the logs for more information."
+        ),
+    )
     async def generate_changelog(self) -> None:
         """
         Method used to trigger the assembling of the client archive corresponding to the provided source.
@@ -292,23 +300,19 @@ class Window(ThemedTk, Tk):
             self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         )
 
-        try:
-            self.set_progress(100 / 2)
-            self.trigger_toggle()
-            release_assembler: ReleaseAssembler = await self.pre_assembling()
-            release_assembler.generate_changelog()
-            global_callback(self.get_progress(), f"Generate changelog from {self.last_version} to {self.version}")
-            self.trigger_toggle()
-        except BaseException as e:
-            showerror(
-                "An error occured during the generation of the changelog",
-                f"An error occured during the generation of the changelog from {self.last_version} to {self.version}."
-                "\n Please check the logs for more information.",
-            )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
+        self.set_progress(100 / 2)
+        self.trigger_toggle()
+        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        release_assembler.generate_changelog()
+        global_callback(self.get_progress(), f"Generate changelog from {self.last_version} to {self.version}")
+        self.trigger_toggle()
 
+
+    @with_error_dialog(
+        title="An error occured during the generation of the intermediate curseforge files",
+        message="An error occured during the generation of the intermediate curseforge files."
+                "\nPlease check the logs for more information."
+    )
     async def generetate_intermediate_cf_files(self) -> None:
         """
         Method used to generate curseforge intermediate files.
@@ -319,26 +323,25 @@ class Window(ThemedTk, Tk):
             self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         )
         task_callback_object: CustomProgressBar = self.modpack_list_frame.action_frame.progress_bar_current_task
-        try:
-            self.set_progress(100 / 3)
-            self.trigger_toggle()
 
-            release_assembler = await self.pre_assembling()
-            global_callback(self.get_progress(), "Generating the dependencies.json")
-            await release_assembler.curse_assembler.generate_json_dep(task_callback_object)
-            global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
-            release_assembler.curse_assembler.generate_mods_to_upload(task_callback_object)
-            self.trigger_toggle()
-        except BaseException as e:
-            showerror(
-                "An error occured during the generation of the intermediate curseforge files",
-                "An error occured during the generation of the intermediate curseforge files."
-                "\n Please check the logs for more information.",
-            )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
+        self.set_progress(100 / 3)
+        self.trigger_toggle()
 
+        release_assembler = await self.pre_assembling()
+        global_callback(self.get_progress(), "Generating the dependencies.json")
+        await release_assembler.curse_assembler.generate_json_dep(task_callback_object)
+        global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
+        release_assembler.curse_assembler.generate_mods_to_upload(task_callback_object)
+        self.trigger_toggle()
+
+    @with_error_dialog(
+        title=lambda self, side,
+                     archive_type: f"An error occured during the assembling {side.value} {archive_type.value} archive",
+        message=lambda self, side, archive_type: (
+                f"An error occurended during the assembling {side.value} {archive_type.value} archive."
+                "\nPlease check the logs for more information."
+        ),
+    )
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """
         Method used to trigger the assembling of the client archive corresponding to the provided source.
@@ -349,29 +352,20 @@ class Window(ThemedTk, Tk):
             self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         )
 
-        try:
-            self.set_progress(100 / 2)
-            self.trigger_toggle()
-            release_assembler: ReleaseAssembler = await self.pre_assembling()
-            assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
-                Archive.ZIP: release_assembler.assemble_zip,
-                Archive.MMC: release_assembler.assemble_mmc,
-                Archive.MODRINTH: release_assembler.assemble_modrinth,
-                Archive.CURSEFORGE: release_assembler.assemble_curse,
-                Archive.TECHNIC: release_assembler.assemble_technic,
-            }
-            global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
-            await assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
-            self.trigger_toggle()
-        except BaseException as e:
-            showerror(
-                f"An error occured during the assembling {side.value} {archive_type.value} archive",
-                f"An error occurended during the assembling {side.value} {archive_type.value} archive."
-                "\n Please check the logs for more information",
-            )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
+        self.set_progress(100 / 2)
+        self.trigger_toggle()
+        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
+            Archive.ZIP: release_assembler.assemble_zip,
+            Archive.MMC: release_assembler.assemble_mmc,
+            Archive.MODRINTH: release_assembler.assemble_modrinth,
+            Archive.CURSEFORGE: release_assembler.assemble_curse,
+            Archive.TECHNIC: release_assembler.assemble_technic,
+        }
+        global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
+        await assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
+        self.trigger_toggle()
+
 
     async def pre_assembling(self) -> ReleaseAssembler:
         """
@@ -427,6 +421,11 @@ class Window(ThemedTk, Tk):
         """
         self.download_error_list.append(error_message)
 
+    @with_error_dialog(
+        title="An error occured during the update of the assembling of the archives",
+        message="An error occured during the update of the assembling of the archives."
+                "\nPlease check the logs for more information."
+    )
     async def assemble_all(self) -> None:
         """
         Assemble all the archives for a full update.
@@ -436,72 +435,56 @@ class Window(ThemedTk, Tk):
         global_callback: Callable[[float, str], None] = (
             self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         )
-        try:
-            self.trigger_toggle()
 
-            self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
-            release_assembler: ReleaseAssembler = await self.pre_assembling()
+        self.trigger_toggle()
 
-            release_assembler.set_progress(self.get_progress())
+        self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
+        release_assembler: ReleaseAssembler = await self.pre_assembling()
 
-            await release_assembler.assemble(Side.CLIENT, verbose=True)
+        release_assembler.set_progress(self.get_progress())
 
-            await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
-            await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
+        await release_assembler.assemble(Side.CLIENT, verbose=True)
 
-            # todo: redo the bar resets less hacky: they are spread all over the place and it's inconsistent
-            if release_assembler.current_task_reset_callback is not None:
-                release_assembler.current_task_reset_callback()
+        await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
+        await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
 
-            global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
-            await release_assembler.assemble_zip(Side.SERVER, verbose=True)
+        # todo: redo the bar resets less hacky: they are spread all over the place and it's inconsistent
+        if release_assembler.current_task_reset_callback is not None:
+            release_assembler.current_task_reset_callback()
 
-            self.trigger_toggle()
+        global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
+        await release_assembler.assemble_zip(Side.SERVER, verbose=True)
 
-        except BaseException as e:
-            showerror(
-                "An error occured during the update of the assembling of the archives",
-                "An error occurended during the update of the assembling of the archives."
-                "\n Please check the logs for more information",
-            )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
+        self.trigger_toggle()
 
+    @with_error_dialog(
+        title="An error occured during the update of the assembling of the archives",
+        message="An error occured during the update of the assembling of the archives."
+                "\nPlease check the logs for more information."
+    )
     async def assemble_beta(self) -> None:
         """
         Assemble all the archives for a beta/RC update.
 
         :return: None
         """
-        try:
-            self.trigger_toggle()
+        self.trigger_toggle()
 
-            self.set_progress(100 / (1 + 3 + 2))  # download + archives for client + archive for server
-            release_assembler: ReleaseAssembler = await self.pre_assembling()
+        self.set_progress(100 / (1 + 3 + 2))  # download + archives for client + archive for server
+        release_assembler: ReleaseAssembler = await self.pre_assembling()
 
-            release_assembler.set_progress(self.get_progress())
+        release_assembler.set_progress(self.get_progress())
 
-            # zip archives
-            await self.assemble_release(Side.CLIENT, Archive.ZIP)
-            await self.assemble_release(Side.SERVER, Archive.ZIP)
-            await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
+        # zip archives
+        await self.assemble_release(Side.CLIENT, Archive.ZIP)
+        await self.assemble_release(Side.SERVER, Archive.ZIP)
+        await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
 
-            # MMC archives
-            await self.assemble_release(Side.CLIENT, Archive.MMC)
-            await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
+        # MMC archives
+        await self.assemble_release(Side.CLIENT, Archive.MMC)
+        await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
 
-            self.trigger_toggle()
-
-        except BaseException as e:
-            showerror(
-                "An error occured during the update of the assembling of the archives",
-                "An error occurended during the update of the assembling of the archives."
-                "\n Please check the logs for more information",
-            )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
+        self.trigger_toggle()
 
     def set_progress(self, delta_progress: float) -> None:
         """
@@ -728,6 +711,10 @@ class Window(ThemedTk, Tk):
             self._modpack_manager = GTNHModpackManager(await self._get_client())
         return self._modpack_manager
 
+    @with_error_dialog(
+        title="An error occured during the update of the assets",
+        message="An error occured during the update of the assets.\nPlease check the logs for more information."
+    )
     async def update_assets(self) -> None:
         """
         Callback to update update all the availiable assets.
@@ -738,47 +725,42 @@ class Window(ThemedTk, Tk):
         self.global_reset_callback()
         self.current_task_reset_callback()
 
-        try:
-            self.trigger_toggle()
-            gtnh: GTNHModpackManager = await self._get_modpack_manager()
-            global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
-            await gtnh.update_all(
-                progress_callback=self.progress_callback,
-                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-            )
-            self.trigger_toggle()
-            errored_mods = []
+        self.trigger_toggle()
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
+        await gtnh.update_all(
+            progress_callback=self.progress_callback,
+            global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+        )
+        self.trigger_toggle()
+        errored_mods = []
 
-            # checking for errored mods
-            for mod in gtnh.assets.mods:
-                if mod.needs_attention:
-                    errored_mods.append(mod)
+        # checking for errored mods
+        for mod in gtnh.assets.mods:
+            if mod.needs_attention:
+                errored_mods.append(mod)
 
-            if len(errored_mods) == 0:
-                showinfo("assets updated successfully!", "All the assets have been updated correctly!")
-            else:
-                showwarning(
-                    "updated the experimental release metadata",
-                    "The experimental release metadata had been updated BUT:\n"
-                    + "\n".join(
-                        [
-                            f"mod {mod.name} has {mod.latest_version} which is "
-                            "older than newest version availiable on github"
-                            for mod in errored_mods
-                        ]
-                    )
-                    + "\nThis means tags had been done wrongly.",
+        if len(errored_mods) == 0:
+            showinfo("assets updated successfully!", "All the assets have been updated correctly!")
+        else:
+            showwarning(
+                "updated the experimental release metadata",
+                "The experimental release metadata had been updated BUT:\n"
+                + "\n".join(
+                    [
+                        f"mod {mod.name} has {mod.latest_version} which is "
+                        "older than newest version availiable on github"
+                        for mod in errored_mods
+                    ]
                 )
-
-        except BaseException as e:
-            showerror(
-                "An error occured during the update of the assets",
-                "An error occurended during the update of the assets.\n Please check the logs for more information",
+                + "\nThis means tags had been done wrongly.",
             )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
 
+    @with_error_dialog(
+        title="An error occured during the update of the experimental build",
+        message="An error occured during the update of the experimental build."
+                "\nPlease check the logs for more information."
+    )
     async def update_experimental(self) -> None:
         """
         Callback used to generate/update the experimental build.
@@ -789,69 +771,64 @@ class Window(ThemedTk, Tk):
         self.current_task_reset_callback()
         self.global_reset_callback()
 
-        try:
-            self.trigger_toggle()
-            previous_experimental_release_name = "previous_experimental"
-            gtnh: GTNHModpackManager = await self._get_modpack_manager()
-            existing_release = gtnh.get_release("experimental")
-            if not existing_release:
-                raise ReleaseNotFoundException("Experimental release not found")
+        self.trigger_toggle()
+        previous_experimental_release_name = "previous_experimental"
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        existing_release = gtnh.get_release("experimental")
+        if not existing_release:
+            raise ReleaseNotFoundException("Experimental release not found")
 
-            # 1 for the data download on github, 1 for the asset updates and 1 for the experimental build update
-            global_delta_progress: float = 100 / (1 + 1 + 1)
-            release: GTNHRelease = await gtnh.update_release(
-                "experimental",
-                existing_release=existing_release,
-                update_available=True,
-                progress_callback=self.progress_callback,
-                reset_progress_callback=self.current_task_reset_callback,
-                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-                last_version=previous_experimental_release_name,
+        # 1 for the data download on github, 1 for the asset updates and 1 for the experimental build update
+        global_delta_progress: float = 100 / (1 + 1 + 1)
+        release: GTNHRelease = await gtnh.update_release(
+            "experimental",
+            existing_release=existing_release,
+            update_available=True,
+            progress_callback=self.progress_callback,
+            reset_progress_callback=self.current_task_reset_callback,
+            global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+            last_version=previous_experimental_release_name,
+        )
+        gtnh.add_release(release, update=True)
+
+        # saving the previous_experimental
+        existing_release.version = previous_experimental_release_name
+        gtnh.add_release(existing_release, update=True)
+
+        gtnh.save_modpack()
+        # should only be incremented by workflow
+        # gtnh.increment_experimental_count()
+        self.trigger_toggle()
+        errored_mods = []
+
+        # checking for errored mods
+        for mod in gtnh.assets.mods:
+            if mod.needs_attention:
+                errored_mods.append(mod)
+
+        if len(errored_mods) == 0:
+            showinfo(
+                "updated the experimental release metadata", "The experimental release metadata had been updated!"
             )
-            gtnh.add_release(release, update=True)
-
-            # saving the previous_experimental
-            existing_release.version = previous_experimental_release_name
-            gtnh.add_release(existing_release, update=True)
-
-            gtnh.save_modpack()
-            # should only be incremented by workflow
-            # gtnh.increment_experimental_count()
-            self.trigger_toggle()
-            errored_mods = []
-
-            # checking for errored mods
-            for mod in gtnh.assets.mods:
-                if mod.needs_attention:
-                    errored_mods.append(mod)
-
-            if len(errored_mods) == 0:
-                showinfo(
-                    "updated the experimental release metadata", "The experimental release metadata had been updated!"
+        else:
+            showwarning(
+                "updated the experimental release metadata",
+                "The experimental release metadata had been updated BUT:\n"
+                + "\n".join(
+                    [
+                        f"mod {mod.name} has {mod.latest_version} which is "
+                        "older than newest version availiable on github"
+                        for mod in errored_mods
+                    ]
                 )
-            else:
-                showwarning(
-                    "updated the experimental release metadata",
-                    "The experimental release metadata had been updated BUT:\n"
-                    + "\n".join(
-                        [
-                            f"mod {mod.name} has {mod.latest_version} which is "
-                            "older than newest version availiable on github"
-                            for mod in errored_mods
-                        ]
-                    )
-                    + "\nThis means tags had been done wrongly.",
-                )
-        except BaseException as e:
-            showerror(
-                "An error occured during the update of the experimental build",
-                "An error occurended during the update of the experimental build."
-                "\n Please check the logs for more information",
+                + "\nThis means tags had been done wrongly.",
             )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
 
+    @with_error_dialog(
+        title="An error occured during the update of the daily build",
+        message="An error occured during the update of the daily build."
+                "\nPlease check the logs for more information."
+    )
     async def update_daily(self) -> None:
         """
         Callback used to generate/update the daily build.
@@ -862,66 +839,56 @@ class Window(ThemedTk, Tk):
         self.current_task_reset_callback()
         self.global_reset_callback()
 
-        try:
-            self.trigger_toggle()
-            previous_daily_release_name = "previous_daily"
-            gtnh: GTNHModpackManager = await self._get_modpack_manager()
-            existing_release = gtnh.get_release("daily")
-            if not existing_release:
-                raise ReleaseNotFoundException("Daily release not found")
+        self.trigger_toggle()
+        previous_daily_release_name = "previous_daily"
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        existing_release = gtnh.get_release("daily")
+        if not existing_release:
+            raise ReleaseNotFoundException("Daily release not found")
 
-            # 1 for the data download on github, 1 for the asset updates and 1 for the daily build update
-            global_delta_progress: float = 100 / (1 + 1 + 1)
-            release: GTNHRelease = await gtnh.update_release(
-                "daily",
-                existing_release=existing_release,
-                update_available=True,
-                progress_callback=self.progress_callback,
-                reset_progress_callback=self.current_task_reset_callback,
-                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-                last_version=previous_daily_release_name,
-            )
-            gtnh.add_release(release, update=True)
+        # 1 for the data download on github, 1 for the asset updates and 1 for the daily build update
+        global_delta_progress: float = 100 / (1 + 1 + 1)
+        release: GTNHRelease = await gtnh.update_release(
+            "daily",
+            existing_release=existing_release,
+            update_available=True,
+            progress_callback=self.progress_callback,
+            reset_progress_callback=self.current_task_reset_callback,
+            global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+            last_version=previous_daily_release_name,
+        )
+        gtnh.add_release(release, update=True)
 
-            # saving the previous_daily
-            existing_release.version = previous_daily_release_name
-            gtnh.add_release(existing_release, update=True)
+        # saving the previous_daily
+        existing_release.version = previous_daily_release_name
+        gtnh.add_release(existing_release, update=True)
 
-            gtnh.save_modpack()
-            # should only be incremented by workflow
-            # gtnh.increment_daily_count()
-            self.trigger_toggle()
-            errored_mods = []
+        gtnh.save_modpack()
+        # should only be incremented by workflow
+        # gtnh.increment_daily_count()
+        self.trigger_toggle()
+        errored_mods = []
 
-            # checking for errored mods
-            for mod in gtnh.assets.mods:
-                if mod.needs_attention:
-                    errored_mods.append(mod)
+        # checking for errored mods
+        for mod in gtnh.assets.mods:
+            if mod.needs_attention:
+                errored_mods.append(mod)
 
-            if len(errored_mods) == 0:
-                showinfo("updated the daily release metadata", "The daily release metadata had been updated!")
-            else:
-                showwarning(
-                    "updated the daily release metadata",
-                    "The daily release metadata had been updated BUT:\n"
-                    + "\n".join(
-                        [
-                            f"mod {mod.name} has {mod.latest_version} which is "
-                            "older than newest version availiable on github"
-                            for mod in errored_mods
-                        ]
-                    )
-                    + "\nThis means tags had been done wrongly.",
+        if len(errored_mods) == 0:
+            showinfo("updated the daily release metadata", "The daily release metadata had been updated!")
+        else:
+            showwarning(
+                "updated the daily release metadata",
+                "The daily release metadata had been updated BUT:\n"
+                + "\n".join(
+                    [
+                        f"mod {mod.name} has {mod.latest_version} which is "
+                        "older than newest version availiable on github"
+                        for mod in errored_mods
+                    ]
                 )
-        except BaseException as e:
-            showerror(
-                "An error occured during the update of the daily build",
-                "An error occurended during the update of the daily build."
-                "\n Please check the logs for more information",
+                + "\nThis means tags had been done wrongly.",
             )
-            if not self.toggled:
-                self.trigger_toggle()
-            raise e
 
     async def get_releases(self) -> List[GTNHRelease]:
         """
