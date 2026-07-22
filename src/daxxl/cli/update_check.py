@@ -11,10 +11,6 @@ log = get_logger(__name__)
 init(autoreset=True)
 
 
-class NoReleasesException(Exception):
-    pass
-
-
 @click.option("--mods", is_flag=False, metavar="<mods>", type=click.types.STRING)
 @click.command()
 async def update_check(mods: str | None = None) -> None:

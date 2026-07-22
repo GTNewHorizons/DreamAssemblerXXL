@@ -1,20 +1,19 @@
 import os
 import shutil
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Set, Tuple, Union
+from typing import Callable, Dict, List, Optional, Set, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
-from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, ModSource, Side
+from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.modpack_manager import GTNHModpackManager
 from daxxl.utils import normalize_archive_permissions
 
@@ -131,18 +130,13 @@ class GenericAssembler:
         :param valid_sides: a set of valid sides to retrieve the mods from.
         :param release: if specified, the release version to get data from instead of the one used for the assembling.
         """
-        get_mod: Callable[
-            [str, ModVersionInfo, Set[Side], ModSource],
-            Optional[tuple[Union[GTNHModInfo], GTNHVersion]],
-        ] = self.modpack_manager.assets.get_mod_and_version
-
         release = self.release if release is None else release
 
         external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
-                    get_mod(name, version, valid_sides, ModSource.other)
+                    self.modpack_manager.assets.get_mod_and_version(name, version, valid_sides)
                     for name, version in release.external_mods.items()
                 ],
             )
@@ -159,17 +153,13 @@ class GenericAssembler:
         :param valid_sides: a set of valid sides to retrieve the mods from.
         :param release: if specified, the release version to get data from instead of the one used for the assembling.
         """
-        get_mod: Callable[
-            [str, ModVersionInfo, Set[Side], ModSource],
-            Optional[tuple[GTNHModInfo, GTNHVersion]],
-        ] = self.modpack_manager.assets.get_mod_and_version
         release = self.release if release is None else release
 
         github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
-                    get_mod(name, version, valid_sides, ModSource.github)
+                    self.modpack_manager.assets.get_mod_and_version(name, version, valid_sides)
                     for name, version in release.github_mods.items()
                 ],
             )

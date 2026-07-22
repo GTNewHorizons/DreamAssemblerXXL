@@ -11,10 +11,6 @@ log = get_logger(__name__)
 init(autoreset=True)
 
 
-class NoReleasesException(Exception):
-    pass
-
-
 @click.argument("version_tag", type=click.types.STRING)
 @click.argument("mod_name", type=click.types.STRING)
 @click.command()

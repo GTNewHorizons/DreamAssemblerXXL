@@ -42,29 +42,6 @@ def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
     return True
 
 
-def is_mod_from_hidden_repo(mod: GTNHModInfo) -> bool:
-    """
-    Returns whether or not a given mod is from a private github repo.
-
-    :param mod: the given mod object
-    :return: true if it's from a private repo, false otherwise
-    """
-    if not mod.is_github():
-        return False
-
-    return mod.private
-
-
-def is_mod_from_github(mod: GTNHModInfo) -> bool:
-    """
-    Returns whether or not a given mod is from github.
-
-    :param mod: the given mod object
-    :return: true if it's from github
-    """
-    return isinstance(mod, GTNHModInfo)
-
-
 def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
     """
     Returns the maven url for a github mod.

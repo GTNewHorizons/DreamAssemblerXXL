@@ -57,7 +57,7 @@ from daxxl.models.gtnh_version import GTNHVersion, version_from_release
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
-from daxxl.utils import AttributeDict, atomic_write_text, get_github_token, index
+from daxxl.utils import AttributeDict, atomic_write_text, get_github_token
 
 log = get_logger(__name__)
 
@@ -85,8 +85,8 @@ class GTNHModpackManager:
     async def get_repo(self, name: str) -> AttributeDict:
         try:
             return AttributeDict(await self.gh.getitem(repo_uri(self.org, name)))
-        except Exception:
-            raise RepoNotFoundException(f"Repo not Found {name}")
+        except BadRequest as error:
+            raise RepoNotFoundException(f"Repo not found {name}") from error
 
     def add_release(self, release: GTNHRelease, update: bool = False) -> bool:
         log.info(f"Adding Release `{Fore.GREEN}{release.version}{Fore.RESET}`")
@@ -167,23 +167,6 @@ class GTNHModpackManager:
 
         gathered = await asyncio.gather(*tasks)
         return any(gathered)
-
-    async def update_curse_assets(self, assets_to_update: list[str] | None = None) -> bool:
-        # curseforge_assets = [m for m in self.assets.external_mods if m.source == ModSource.curse]
-        #
-        # to_update = []
-        # for asset in curseforge_assets:
-        #     if (assets_to_update and asset.name not in assets_to_update) or (asset.source != ModSource.curse):
-        #         continue
-        #     to_update.append(asset)
-        #
-        # return await self.update_assets_from_curse(to_update)
-
-        raise NotImplementedError("Not currently implemented")
-
-    async def update_assets_from_curse(self, assets: list[GTNHModInfo]) -> bool:
-        # return False
-        raise NotImplementedError("Not currently implemented")
 
     async def update_versionable_from_repo(
         self, versionable: Versionable, repo: AttributeDict, releaseVersion: str | None = None
@@ -1129,22 +1112,24 @@ class GTNHModpackManager:
         for false_positive in false_added_mods:
             added_mods.remove(false_positive)
 
+    @classmethod
+    def _mod_additions_and_removals(
+        cls, release: GTNHRelease, previous_release: GTNHRelease
+    ) -> tuple[Set[str], Set[str]]:
+        removed_mods = set(previous_release.github_mods) - set(release.github_mods)
+        removed_mods |= set(previous_release.external_mods) - set(release.external_mods)
+        new_mods = set(release.github_mods) - set(previous_release.github_mods)
+        new_mods |= set(release.external_mods) - set(previous_release.external_mods)
+        cls.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        return removed_mods, new_mods
+
     def get_removed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
         """
         Generate the list of removed mods between two releases.
 
         :returns: set[str]
         """
-        removed_mods = set()
-        new_mods = set()
-
-        removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
-        removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
-
-        new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
-        new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
-
-        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        removed_mods, _ = self._mod_additions_and_removals(release, previous_release)
         return removed_mods
 
     def get_new_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
@@ -1153,16 +1138,7 @@ class GTNHModpackManager:
 
         :returns: set[str]
         """
-        removed_mods = set()
-        new_mods = set()
-
-        removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
-        removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
-
-        new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
-        new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
-
-        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        _, new_mods = self._mod_additions_and_removals(release, previous_release)
         return new_mods
 
     def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
@@ -1172,16 +1148,7 @@ class GTNHModpackManager:
 
         :returns: set[str]
         """
-        removed_mods = set()
-        new_mods = set()
-
-        removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
-        removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
-
-        new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
-        new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
-
-        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        removed_mods, new_mods = self._mod_additions_and_removals(release, previous_release)
 
         current_releases_github = set(release.github_mods.keys())
 
@@ -1223,13 +1190,7 @@ class GTNHModpackManager:
 
         contributors: Set[str] = set()
         if previous_release is not None:
-            removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
-            removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
-
-            new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
-            new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
-
-            self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+            removed_mods, new_mods = self._mod_additions_and_removals(release, previous_release)
 
             changed_github_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
             changed_external_mods = set(release.external_mods.keys() & previous_release.external_mods.keys())
@@ -1351,8 +1312,7 @@ class GTNHModpackManager:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
                 return False
             else:
-                position = index(self.mod_pack.client_exclusions, exclusion)
-                del self.mod_pack.client_exclusions[position]
+                self.mod_pack.client_exclusions.remove(exclusion)
                 log.info(f"{Fore.GREEN}{exclusion} has been removed from {side} side exclusions{Fore.RESET}")
                 return True
 
@@ -1362,8 +1322,7 @@ class GTNHModpackManager:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
                 return False
             else:
-                position = index(self.mod_pack.server_exclusions, exclusion)
-                del self.mod_pack.server_exclusions[position]
+                self.mod_pack.server_exclusions.remove(exclusion)
                 log.info(f"{Fore.GREEN}{exclusion} has been removed from {side} side exclusions{Fore.RESET}")
                 return True
         else:
@@ -1423,7 +1382,7 @@ class GTNHModpackManager:
                         active_mods.remove(file)
 
         for mod_dict in (release.github_mods | release.external_mods).items().__reversed__():
-            mod_ver = self.assets.get_mod_and_version(mod_dict[0], mod_dict[1], side.valid_mod_sides(), mod.source)
+            mod_ver = self.assets.get_mod_and_version(mod_dict[0], mod_dict[1], side.valid_mod_sides())
             if not mod_ver:
                 continue
 

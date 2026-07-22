@@ -419,9 +419,7 @@ class ReleaseController:
         mod_data: Optional[Tuple[GTNHModInfo, GTNHVersion]]
 
         for mod_name, version in github_mods.items():
-            mod_data = gtnh_modpack.assets.get_mod_and_version(
-                mod_name, version, valid_sides=valid_side, source=ModSource.github
-            )
+            mod_data = gtnh_modpack.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
             if mod_data is not None:
                 logger.warn(
                     f"{Fore.YELLOW}Release {release.version} had github mod {mod_name}"
@@ -433,9 +431,7 @@ class ReleaseController:
             del github_mods[mod_name]
 
         for mod_name, version in external_mods.items():
-            mod_data = gtnh_modpack.assets.get_mod_and_version(
-                mod_name, version, valid_sides=valid_side, source=ModSource.other
-            )
+            mod_data = gtnh_modpack.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
             if mod_data is not None:
                 logger.warn(
                     f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}"
