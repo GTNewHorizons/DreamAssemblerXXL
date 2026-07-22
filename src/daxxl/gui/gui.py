@@ -159,7 +159,7 @@ class Window(ThemedTk, Tk):
             set_mod_version=self.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
             set_mod_side_default=lambda name, side: asyncio.ensure_future(
-                self.set_external_mod_side_default(name, side)
+                self.set_mod_side_default(name, side)
             ),
             set_modpack_version=self.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
@@ -180,7 +180,7 @@ class Window(ThemedTk, Tk):
             set_mod_version=self.set_external_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             set_mod_side_default=lambda name, side: asyncio.ensure_future(
-                self.set_external_mod_side_default(name, side)
+                self.set_mod_side_default(name, side)
             ),
             get_gtnh_callback=self._get_modpack_manager,
             get_external_mods_callback=self.get_external_mods,
@@ -546,6 +546,34 @@ class Window(ThemedTk, Tk):
         else:
             raise ValueError(f"side {side} is an invalid side")
 
+    async def _set_mod_side(
+            self,
+            mods: Dict[str, ModVersionInfo],
+            mod_name: str,
+            side: Side,
+            get_default_version: Callable[[], str],
+    ) -> None:
+        """
+        Change the side of a mod in the given dict (github_mods or external_mods),
+        creating the entry if it does not exist or deleting the entry if side is Side.NONE.
+
+        :param mods: the given dict (github_mods or external_mods)
+        :param mod_name: mod name
+        :param side: new Side
+        :param get_default_version: callback giving the default value if the entry does not exist in the dict
+        :return: None
+        """
+        previous_side = mods[mod_name].side if mod_name in mods else Side.NONE
+        if previous_side == side:
+            showwarning("Side already set up", f"{mod_name}'s side is already set to {side}")
+            return
+
+        if side == Side.NONE:
+            del mods[mod_name]
+        elif previous_side == Side.NONE:
+            mods[mod_name] = ModVersionInfo(version=get_default_version(), side=side)
+        else:
+            mods[mod_name].side = side
     async def set_github_mod_side(self, mod_name: str, side: Side) -> None:
         """
         Method used to set the side of a github mod.
@@ -554,25 +582,18 @@ class Window(ThemedTk, Tk):
         :param side: side of the pack, None if use default
         :return: None
         """
-        previous_side = self.github_mods[mod_name].side if mod_name in self.github_mods else Side.NONE
-        if previous_side == side:
-            showwarning(
-                "Side already set up",
-                f"{mod_name}'s side is already set to {side}",
-            )
-            return
-
-        if side == Side.NONE:
-            del self.github_mods[mod_name]
-        else:
-            if previous_side == Side.NONE:
-                self.github_mods[mod_name] = ModVersionInfo(
-                    version=self.github_panel.mod_info_frame.version.get(), side=side
-                )
-            else:
-                self.github_mods[mod_name].side = side
+        await self._set_mod_side(
+            self.github_mods, mod_name, side, lambda: self.github_panel.mod_info_frame.version.get()
+        )
 
     async def set_mod_side_default(self, mod_name: str, side: str) -> None:
+        """
+        Set the mod side to the given side no matter what is its source (github or external).
+
+        :param mod_name: mod name
+        :param side: the default side to apply
+        :return: None
+        """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         previous_side: Side = gtnh.assets.get_mod(mod_name).side
         if previous_side == side:
@@ -597,47 +618,9 @@ class Window(ThemedTk, Tk):
         :param side: side of the pack
         :return: None
         """
-        if mod_name in self.external_mods:
-            previous_side = self.external_mods[mod_name].side
-            if previous_side == side:
-                showwarning(
-                    "Side already set up",
-                    f"{mod_name}'s side is already set on {side}",
-                )
-                return
-
-            if side == Side.NONE:
-                del self.external_mods[mod_name]
-            else:
-                if previous_side == Side.NONE:
-                    self.external_mods[mod_name] = ModVersionInfo(
-                        version=self.external_mod_frame.mod_info_frame.version.get(), side=side
-                    )
-                else:
-                    self.external_mods[mod_name].side = side
-
-        else:
-            if side != Side.NONE:
-                self.external_mods[mod_name] = ModVersionInfo(
-                    version=self.external_mod_frame.mod_info_frame.version.get(), side=side
-                )
-
-    async def set_external_mod_side_default(self, mod_name: str, side: str) -> None:
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        previous_side: Side = gtnh.assets.get_mod(mod_name).side
-        if previous_side == side:
-            showwarning(
-                "Side already set up",
-                f"{mod_name}'s side is already set on {side}",
-            )
-            return
-
-        if not gtnh.set_mod_side(mod_name, side):
-            showerror(
-                "Error setting up the side of the mod",
-                f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
-            )
-            return
+        await self._set_mod_side(
+            self.external_mods, mod_name, side, lambda: self.external_mod_frame.mod_info_frame.version.get()
+        )
 
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """
