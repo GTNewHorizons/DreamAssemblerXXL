@@ -408,7 +408,7 @@ class Window(ThemedTk, Tk):
         self._notify_errored_mods(
             errored_mods,
             update_errors,
-            title="assets updated successfully!",
+            title="assets update",
             success_message="All the assets have been updated correctly!",
             warning_intro="The assets had been updated BUT:\n",
         )
