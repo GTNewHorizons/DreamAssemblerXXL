@@ -21,8 +21,6 @@ try:
 except ImportError:
     from packaging_legacy.version import LegacyVersion
 
-from retry import retry
-
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
 from daxxl.defs import (
@@ -45,6 +43,7 @@ from daxxl.exceptions import (
     InvalidDailyIdException,
     InvalidExperimentalIdException,
     InvalidReleaseException,
+    NoModAssetFound,
     RepoNotFoundException,
 )
 from daxxl.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
@@ -57,7 +56,7 @@ from daxxl.models.gtnh_version import GTNHVersion, version_from_release
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
-from daxxl.utils import AttributeDict, get_github_token, index
+from daxxl.utils import AttributeDict, atomic_write_text, get_github_token, index
 
 log = get_logger(__name__)
 
@@ -165,8 +164,8 @@ class GTNHModpackManager:
             self.update_translations_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name))
         )
 
-        gathered = await asyncio.gather(*tasks, return_exceptions=True)
-        return any([r for r in gathered])
+        gathered = await asyncio.gather(*tasks)
+        return any(gathered)
 
     async def update_curse_assets(self, assets_to_update: list[str] | None = None) -> bool:
         # curseforge_assets = [m for m in self.assets.external_mods if m.source == ModSource.curse]
@@ -249,7 +248,7 @@ class GTNHModpackManager:
             )
 
         if versionable_updated:
-            self.needs_attention = False
+            versionable.needs_attention = False
             log.debug(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
 
         return versionable_updated or version_outdated  # If outdated we've flagged it and want to save the asset
@@ -829,8 +828,7 @@ class GTNHModpackManager:
         log.debug(f"Saving modpack asset to from {self.modpack_manifest_path}")
         dumped = self.mod_pack.json(exclude_unset=True, exclude_none=True, exclude_defaults=True)
         if dumped:
-            with open(self.modpack_manifest_path, "w", encoding="utf-8") as f:
-                f.write(dumped)
+            atomic_write_text(self.modpack_manifest_path, dumped)
         else:
             log.error("Save aborted, empty save result")
 
@@ -841,8 +839,7 @@ class GTNHModpackManager:
         log.debug(f"Saving assets to from {self.gtnh_asset_manifest_path}")
         dumped = self.assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
         if dumped:
-            with open(self.gtnh_asset_manifest_path, "w", encoding="utf-8") as f:
-                f.write(dumped)
+            atomic_write_text(self.gtnh_asset_manifest_path, dumped)
         else:
             log.error("Save aborted, empty save result")
 
@@ -902,7 +899,6 @@ class GTNHModpackManager:
         """
         return ROOT_DIR / INPLACE_PINNED_FILE
 
-    @retry(delay=5, tries=3)
     async def download_asset(
         self,
         asset: Versionable,
@@ -951,24 +947,30 @@ class GTNHModpackManager:
             if is_github:
                 headers |= {"Authorization": f"token {get_github_token()}"}
 
-            async with self.client.stream(url=download_url, headers=headers, method="GET", follow_redirects=True) as r:
-                try:
+            temporary = mod_filename.with_name(f"{mod_filename.name}.part")
+            try:
+                async with self.client.stream(
+                    url=download_url, headers=headers, method="GET", follow_redirects=True
+                ) as r:
                     r.raise_for_status()
-                    with open(mod_filename, "wb") as f:
+                    with open(temporary, "wb") as f:
                         async for chunk in r.aiter_bytes(chunk_size=8192):
                             f.write(chunk)
-                    log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
-                except HTTPStatusError as e:
-                    log.error(
-                        f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
-                        f"{Fore.RED}` while downloading {Fore.CYAN}{mod_filename.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
+                temporary.replace(mod_filename)
+                log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+            except HTTPStatusError as e:
+                log.error(
+                    f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
+                    f"{Fore.RED}` while downloading {Fore.CYAN}{mod_filename.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
+                )
+                if error_callback:
+                    error_callback(
+                        f"The following HTTP error while downloading `{asset_version}` while downloading "
+                        f"{mod_filename.name} ({type} asset): {e}"
                     )
-                    if error_callback:
-                        error_callback(
-                            f"The following HTTP error while downloading`{asset_version}` while downloading{mod_filename.name}"
-                            f"({type} asset): {e}"
-                        )
-                    return None
+                return None
+            finally:
+                temporary.unlink(missing_ok=True)
 
             if download_callback:
                 download_callback(str(mod_filename.name))
@@ -994,7 +996,15 @@ class GTNHModpackManager:
                 mod.
         """
 
+        release.validate_release(self.assets)
         log.debug(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
+        errors: list[str] = []
+
+        def report_error(message: str) -> None:
+            errors.append(message)
+            if error_callback:
+                error_callback(message)
+
         # computation of the progress per mod for the progressbar
         delta_progress = 100 / (
             len(release.github_mods) + len(release.external_mods) + len(self.assets.translations.versions) + 1
@@ -1016,7 +1026,7 @@ class GTNHModpackManager:
                         mod_version.version,
                         is_github=is_github,
                         download_callback=mod_callback,
-                        error_callback=error_callback,
+                        error_callback=report_error,
                     )
                 )
 
@@ -1034,7 +1044,7 @@ class GTNHModpackManager:
                 release.config,
                 is_github=True,
                 download_callback=config_callback,
-                error_callback=error_callback,
+                error_callback=report_error,
             )
         )
 
@@ -1056,12 +1066,15 @@ class GTNHModpackManager:
                         asset_version=language.version_tag,
                         is_github=True,
                         download_callback=translation_callback,
-                        error_callback=error_callback,
+                        error_callback=report_error,
                         force_redownload=True,
                     )
                 )
 
         downloaded: list[Path] = [d for d in await asyncio.gather(*downloaders) if d is not None]
+
+        if errors:
+            raise NoModAssetFound("Asset download failed:\n- " + "\n- ".join(errors))
 
         return downloaded
 

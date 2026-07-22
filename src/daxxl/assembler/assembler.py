@@ -43,6 +43,7 @@ class ReleaseAssembler:
         """
         self.mod_manager: GTNHModpackManager = mod_manager
         self.release: GTNHRelease = release
+        release.validate_release(mod_manager.assets)
         self.callback: Optional[Callable[[float, str], None]] = global_callback
         self.current_task_reset_callback = current_task_reset_callback
 

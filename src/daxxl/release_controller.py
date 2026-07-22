@@ -7,7 +7,7 @@ from colorama import Fore
 
 from daxxl.assembler.assembler import ReleaseAssembler
 from daxxl.defs import Archive, ModSource, Side
-from daxxl.exceptions import NoModAssetFound, ReleaseNotFoundException, SideAlreadySetException
+from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
@@ -69,8 +69,6 @@ class ReleaseController:
         ] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
         self.last_version: Optional[str] = None  # last version of the release
-
-        self.download_error_list: List[str] = []  # list of errors happened during the download of a release's assets
 
         self.delta_progress: float = 0  # progression between 2 tasks (in %) for the global progress bar
 
@@ -273,15 +271,6 @@ class ReleaseController:
         :return: the current delta progress
         """
         return self.delta_progress
-
-    def add_error_message(self, error_message: str) -> None:
-        """
-        Method used as error callback when an error happens during the download of a mod/release.
-
-        :param error_message: the error message to add to the error list
-        :return: None
-        """
-        self.download_error_list.append(error_message)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
         """
@@ -579,7 +568,6 @@ class ReleaseController:
         """
         Method to downloads the mods before constructing the ReleaseAssembler object.
 
-        :raises NoModAssetFound: if at least one asset couldn't be downloaded
         :return: the ReleaseAssembler object constructed
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
@@ -597,17 +585,8 @@ class ReleaseController:
         self.current_task_reset_callback()
 
         self.global_callback(self.get_progress(), "Downloading assets")
-        await gtnh.download_release(
-            release, download_callback=self.progress_callback, error_callback=self.add_error_message
-        )
+        await gtnh.download_release(release, download_callback=self.progress_callback)
         self.current_task_reset_callback()
-
-        if len(self.download_error_list) > 0:
-            error = "The following error(s) happened during the downloading of assets:\n" + "\n".join(
-                self.download_error_list
-            )
-            self.download_error_list = []
-            raise NoModAssetFound(error)
 
         return ReleaseAssembler(
             gtnh,

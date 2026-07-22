@@ -145,3 +145,15 @@ def normalize_archive_permissions(archive: ZipFile) -> None:
         else:
             perm = 0o755 if source_perm & 0o111 else 0o644
             zinfo.external_attr = (stat.S_IFREG | perm) << 16
+
+
+def atomic_write_text(path: Path, data: str) -> None:
+    temporary = path.with_name(f"{path.name}.tmp")
+    try:
+        with open(temporary, "w", encoding="utf-8") as file:
+            file.write(data)
+            file.flush()
+            os.fsync(file.fileno())
+        temporary.replace(path)
+    finally:
+        temporary.unlink(missing_ok=True)
