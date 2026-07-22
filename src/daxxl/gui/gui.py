@@ -1,6 +1,7 @@
 import asyncio
 import sys
 from datetime import datetime, timezone
+from enum import Enum
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
@@ -64,6 +65,9 @@ class App:
         """
         await self.instance.run()
 
+class DevRelease(str, Enum):
+    DAILY = "daily"
+    EXPERIMENTAL = "experimental"
 
 class Window(ThemedTk, Tk):
     """
@@ -711,6 +715,39 @@ class Window(ThemedTk, Tk):
             self._modpack_manager = GTNHModpackManager(await self._get_client())
         return self._modpack_manager
 
+    def _notify_errored_mods(
+            self,
+            gtnh: GTNHModpackManager,
+            title: str,
+            success_message: str,
+            warning_intro: str,
+    ) -> None:
+        """
+        Show a warning if there was at least an errored mod, an ok message otherwise.
+
+        :param gtnh: the modpack manager instance
+        :param title: dialogue title
+        :param success_message: success message
+        :param warning_intro: warning message prefix
+        :return: None
+        """
+        errored_mods = [mod for mod in gtnh.assets.mods if mod.needs_attention]
+
+        if not errored_mods:
+            showinfo(title, success_message)
+            return
+
+        showwarning(
+            title,
+            warning_intro
+            + "\n".join(
+                f"mod {mod.name} has {mod.latest_version} which is "
+                "older than newest version availiable on github"
+                for mod in errored_mods
+            )
+            + "\nThis means tags had been done wrongly.",
+        )
+
     @with_error_dialog(
         title="An error occured during the update of the assets",
         message="An error occured during the update of the assets.\nPlease check the logs for more information."
@@ -733,28 +770,51 @@ class Window(ThemedTk, Tk):
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
         self.trigger_toggle()
-        errored_mods = []
 
-        # checking for errored mods
-        for mod in gtnh.assets.mods:
-            if mod.needs_attention:
-                errored_mods.append(mod)
+        self._notify_errored_mods(
+            gtnh,
+            title="assets updated successfully!",
+            success_message="All the assets have been updated correctly!",
+            warning_intro="The assets had been updated BUT:\n",
+        )
 
-        if len(errored_mods) == 0:
-            showinfo("assets updated successfully!", "All the assets have been updated correctly!")
-        else:
-            showwarning(
-                "updated the experimental release metadata",
-                "The experimental release metadata had been updated BUT:\n"
-                + "\n".join(
-                    [
-                        f"mod {mod.name} has {mod.latest_version} which is "
-                        "older than newest version availiable on github"
-                        for mod in errored_mods
-                    ]
-                )
-                + "\nThis means tags had been done wrongly.",
-            )
+    async def _update_rolling_release(self, release_type: str) -> None:
+        """
+        update dev release (experimental/daily)
+
+        :param release_type: "experimental" or "daily"
+        :return: None
+        """
+        previous_release_name = f"previous_{release_type}"
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        existing_release = gtnh.get_release(release_type)
+        if not existing_release:
+            raise ReleaseNotFoundException(f"{release_type.capitalize()} release not found")
+
+        # 1 for the data download on github, 1 for the asset updates and 1 for the release update
+        global_delta_progress: float = 100 / (1 + 1 + 1)
+        release: GTNHRelease = await gtnh.update_release(
+            release_type,
+            existing_release=existing_release,
+            update_available=True,
+            progress_callback=self.progress_callback,
+            reset_progress_callback=self.current_task_reset_callback,
+            global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+            last_version=previous_release_name,
+        )
+        gtnh.add_release(release, update=True)
+
+        # saving the previous snapshot
+        existing_release.version = previous_release_name
+        gtnh.add_release(existing_release, update=True)
+        gtnh.save_modpack()
+
+        self._notify_errored_mods(
+            gtnh,
+            title=f"updated the {release_type} release metadata",
+            success_message=f"The {release_type} release metadata had been updated!",
+            warning_intro=f"The {release_type} release metadata had been updated BUT:\n",
+        )
 
     @with_error_dialog(
         title="An error occured during the update of the experimental build",
@@ -767,62 +827,11 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-
         self.current_task_reset_callback()
         self.global_reset_callback()
-
         self.trigger_toggle()
-        previous_experimental_release_name = "previous_experimental"
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        existing_release = gtnh.get_release("experimental")
-        if not existing_release:
-            raise ReleaseNotFoundException("Experimental release not found")
-
-        # 1 for the data download on github, 1 for the asset updates and 1 for the experimental build update
-        global_delta_progress: float = 100 / (1 + 1 + 1)
-        release: GTNHRelease = await gtnh.update_release(
-            "experimental",
-            existing_release=existing_release,
-            update_available=True,
-            progress_callback=self.progress_callback,
-            reset_progress_callback=self.current_task_reset_callback,
-            global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-            last_version=previous_experimental_release_name,
-        )
-        gtnh.add_release(release, update=True)
-
-        # saving the previous_experimental
-        existing_release.version = previous_experimental_release_name
-        gtnh.add_release(existing_release, update=True)
-
-        gtnh.save_modpack()
-        # should only be incremented by workflow
-        # gtnh.increment_experimental_count()
+        await self._update_rolling_release(DevRelease.EXPERIMENTAL.value)
         self.trigger_toggle()
-        errored_mods = []
-
-        # checking for errored mods
-        for mod in gtnh.assets.mods:
-            if mod.needs_attention:
-                errored_mods.append(mod)
-
-        if len(errored_mods) == 0:
-            showinfo(
-                "updated the experimental release metadata", "The experimental release metadata had been updated!"
-            )
-        else:
-            showwarning(
-                "updated the experimental release metadata",
-                "The experimental release metadata had been updated BUT:\n"
-                + "\n".join(
-                    [
-                        f"mod {mod.name} has {mod.latest_version} which is "
-                        "older than newest version availiable on github"
-                        for mod in errored_mods
-                    ]
-                )
-                + "\nThis means tags had been done wrongly.",
-            )
 
     @with_error_dialog(
         title="An error occured during the update of the daily build",
@@ -835,60 +844,11 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-
         self.current_task_reset_callback()
         self.global_reset_callback()
-
         self.trigger_toggle()
-        previous_daily_release_name = "previous_daily"
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        existing_release = gtnh.get_release("daily")
-        if not existing_release:
-            raise ReleaseNotFoundException("Daily release not found")
-
-        # 1 for the data download on github, 1 for the asset updates and 1 for the daily build update
-        global_delta_progress: float = 100 / (1 + 1 + 1)
-        release: GTNHRelease = await gtnh.update_release(
-            "daily",
-            existing_release=existing_release,
-            update_available=True,
-            progress_callback=self.progress_callback,
-            reset_progress_callback=self.current_task_reset_callback,
-            global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-            last_version=previous_daily_release_name,
-        )
-        gtnh.add_release(release, update=True)
-
-        # saving the previous_daily
-        existing_release.version = previous_daily_release_name
-        gtnh.add_release(existing_release, update=True)
-
-        gtnh.save_modpack()
-        # should only be incremented by workflow
-        # gtnh.increment_daily_count()
+        await self._update_rolling_release(DevRelease.DAILY.value)
         self.trigger_toggle()
-        errored_mods = []
-
-        # checking for errored mods
-        for mod in gtnh.assets.mods:
-            if mod.needs_attention:
-                errored_mods.append(mod)
-
-        if len(errored_mods) == 0:
-            showinfo("updated the daily release metadata", "The daily release metadata had been updated!")
-        else:
-            showwarning(
-                "updated the daily release metadata",
-                "The daily release metadata had been updated BUT:\n"
-                + "\n".join(
-                    [
-                        f"mod {mod.name} has {mod.latest_version} which is "
-                        "older than newest version availiable on github"
-                        for mod in errored_mods
-                    ]
-                )
-                + "\nThis means tags had been done wrongly.",
-            )
 
     async def get_releases(self) -> List[GTNHRelease]:
         """
