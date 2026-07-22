@@ -506,11 +506,19 @@ class ReleaseController:
         :return: None
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        if self.version == release_name:
-            releases: List[GTNHRelease] = await self.get_releases()
-            await self.load_gtnh_version(releases[-1])
-
+        was_loaded = self.version == release_name
         gtnh.delete_release(release_name)
+
+        if was_loaded:
+            releases: List[GTNHRelease] = await self.get_releases()
+            if releases:
+                await self.load_gtnh_version(releases[-1])
+            else:
+                self.github_mods.clear()
+                self.external_mods.clear()
+                self.gtnh_config = ""
+                self.version = ""
+                self.last_version = None
 
     async def update_assets(self) -> List[GTNHModInfo]:
         """
