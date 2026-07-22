@@ -22,7 +22,7 @@ def with_error_dialog(title: DialogText, message: DialogText) -> Callable[[F], F
         async def wrapper(self: Any, *args: Any, **kwargs: Any) -> Any:
             try:
                 return await func(self, *args, **kwargs)
-            except BaseException as e:
+            except Exception as e:
                 resolved_title = title(self, *args, **kwargs) if callable(title) else title
                 resolved_message = message(self, *args, **kwargs) if callable(message) else message
                 showerror(resolved_title, resolved_message)
