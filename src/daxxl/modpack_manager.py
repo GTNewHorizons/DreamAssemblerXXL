@@ -44,6 +44,7 @@ from daxxl.exceptions import (
     InvalidExperimentalIdException,
     InvalidReleaseException,
     NoModAssetFound,
+    ReleaseNotFoundException,
     RepoNotFoundException,
 )
 from daxxl.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
@@ -554,6 +555,38 @@ class GTNHModpackManager:
             external_mods=external_mods,
             last_version=last_version or existing_release.last_version,
         )
+
+    async def update_rolling_release(
+        self,
+        release_type: str,
+        update_available: bool = True,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+        reset_progress_callback: Optional[Callable[[], None]] = None,
+        global_progress_callback: Optional[Callable[[str], None]] = None,
+    ) -> GTNHRelease:
+        if release_type not in {"daily", "experimental"}:
+            raise ValueError(f"Unsupported rolling release {release_type!r}")
+
+        existing_release = self.get_release(release_type)
+        if existing_release is None:
+            raise ReleaseNotFoundException(f"{release_type.capitalize()} release not found")
+
+        previous_release_name = f"previous_{release_type}"
+        release = await self.update_release(
+            release_type,
+            existing_release=existing_release,
+            update_available=update_available,
+            progress_callback=progress_callback,
+            reset_progress_callback=reset_progress_callback,
+            global_progress_callback=global_progress_callback,
+            last_version=previous_release_name,
+        )
+        self.add_release(release, update=True)
+
+        existing_release.version = previous_release_name
+        self.add_release(existing_release, update=True)
+        self.save_modpack()
+        return release
 
     def delete_release(self, release_name: str) -> None:
         release = self.get_release(release_name)

@@ -538,29 +538,17 @@ class ReleaseController:
         self.current_task_reset_callback()
         self.global_reset_callback()
 
-        previous_release_name = f"previous_{release_type}"
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        existing_release = gtnh.get_release(release_type)
-        if not existing_release:
-            raise ReleaseNotFoundException(f"{release_type.capitalize()} release not found")
 
         # 1 for the data download on github, 1 for the asset updates and 1 for the release update
         global_delta_progress: float = 100 / (1 + 1 + 1)
-        release: GTNHRelease = await gtnh.update_release(
+        await gtnh.update_rolling_release(
             release_type,
-            existing_release=existing_release,
             update_available=True,
             progress_callback=self.progress_callback,
             reset_progress_callback=self.current_task_reset_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-            last_version=previous_release_name,
         )
-        gtnh.add_release(release, update=True)
-
-        # saving the previous snapshot
-        existing_release.version = previous_release_name
-        gtnh.add_release(existing_release, update=True)
-        gtnh.save_modpack()
 
         return [mod for mod in gtnh.assets.mods if mod.needs_attention]
 
