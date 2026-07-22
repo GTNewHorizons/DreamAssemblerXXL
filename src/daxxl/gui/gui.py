@@ -486,7 +486,6 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         if await self.controller.add_gtnh_version(release_name, previous_version):
-            showinfo("version loaded successfully!", f"modpack version {release_name} loaded successfully!")
             showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
 
     async def delete_gtnh_version(self, release_name: str) -> None:
