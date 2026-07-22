@@ -31,10 +31,11 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1016-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1016-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1017-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1017-GTNH
 
 ## What's Changed:
+>* Add option to disable Interface Terminal search autofocus by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1464 (rv3-beta-1017-GTNH)
 >* Mark all tests using NBT structures with numeric item IDs as optional… by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1463 (rv3-beta-1016-GTNH)
 >* Fix storage bus cache reset downgrade by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1453 (rv3-beta-1015-GTNH)
 >* Fix crafting cpu mouse over offset by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1461 (rv3-beta-1015-GTNH)
@@ -225,10 +226,13 @@ Mod is client-side only.
 ## What's Changed:
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.49
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.49
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.50
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.50
 
 ## What's Changed:
+>* make Acid Gen recipes cell capacity aware by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7536 (5.09.54.50)
+>* Fix Vacuum Freezer holo build + Move Pyro Hatch to HatchElement by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7540 (5.09.54.50)
+>* add null check in neutron activator by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7541 (5.09.54.50)
 >* expose custom info for control panel by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7521 (5.09.54.49)
 >* show progress when active even if working is disabled by @Emilgardis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7456 (5.09.54.49)
 >* Make machine chat messages translate client-side, not server-side by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7449 (5.09.54.49)
@@ -568,10 +572,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
-# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.50-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.50-GTNH
+# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.51-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.51-GTNH
 
 ## What's Changed:
+>* Add Transposer transfer rate to WAILA by @Azusfin in https://github.com/GTNewHorizons/OpenComputers/pull/210 (1.12.51-GTNH)
 >* block the RFC 6052 NAT64 prefix by @Pxx500 in https://github.com/GTNewHorizons/OpenComputers/pull/209 (1.12.50-GTNH)
 >* fix(recipe): prevent wrench duplication when it has a container item by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/205 (1.12.50-GTNH)
 >* Add drivers for BEC machines by @RecursivePineapple in https://github.com/GTNewHorizons/OpenComputers/pull/206 (1.12.49-GTNH)
@@ -589,10 +594,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix /back tp offsets by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/327 (2.4.3)
 >* Fix breeding not working in claims with mob spawns disabled by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/325 (2.4.2)
 
-# Updated - Share-Where-I-am - 2.1.7 --> 2.1.8
-**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.7...2.1.8
+# Updated - Share-Where-I-am - 2.1.7 --> 2.1.9
+**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.7...2.1.9
 
 ## What's Changed:
+>* Fix missing verts for bottom face of waypoint render by @tiffit in https://github.com/GTNewHorizons/Share-Where-I-am/pull/12 (2.1.9)
 >* Disable mod if JM6 is detected by @Algent in https://github.com/GTNewHorizons/Share-Where-I-am/pull/11 (2.1.8)
 
 # Updated - SimpleSkinBackport - 1.0.2-GTNH --> 1.0.3-GTNH
