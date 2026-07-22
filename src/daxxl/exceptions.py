@@ -40,3 +40,7 @@ class InvalidExperimentalIdException(Exception):
 
 class InvalidDailyIdException(Exception):
     pass
+
+
+class SideAlreadySetException(Exception):
+    pass
