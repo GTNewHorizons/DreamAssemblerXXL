@@ -8,6 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Callable, Coroutine, List, Optional, Set, Tuple
 
+import retry
 from cache import AsyncLRU
 from colorama import Fore, Style
 from gidgethub import BadRequest
@@ -197,7 +198,7 @@ class GTNHModpackManager:
             )
         )
 
-        gathered = await asyncio.gather(*tasks)
+        gathered = await asyncio.gather(*tasks, return_exceptions=True)
         return any(gathered), errors
 
     async def update_versionable_from_repo(
@@ -952,6 +953,7 @@ class GTNHModpackManager:
         """
         return ROOT_DIR / INPLACE_PINNED_FILE
 
+    @retry.retry(delay=5, tries=3)
     async def download_asset(
         self,
         asset: Versionable,
