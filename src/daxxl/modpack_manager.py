@@ -48,7 +48,6 @@ class GTNHModpackManager:
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
         self.gh_client = GitHubClient(self.client, self.org)
         self.asset_service = AssetService(self.gh_client, self.gh, self.org)
-        self.assets: AvailableAssets = self.load_assets()
         self.mod_pack: GTNHModpack = self.load_modpack()
         self.blacklisted_repos = self.load_blacklisted_repos()
         self.counter = CounterService(self.assets, self.asset_service.save_assets)
@@ -56,6 +55,17 @@ class GTNHModpackManager:
         self.release_service = ReleaseService(self.mod_pack)
         self.comparison = ComparisonService(self.assets)
         self.update_service = UpdateService(self.assets, self.release_service, self.update_all, self.save_modpack)
+
+    @property
+    def assets(self) -> AvailableAssets:
+        """
+        The single AvailableAssets instance, owned by the AssetService.
+
+        It must not be a separate copy: the update methods mutate the mods reached through here,
+        while `save_assets` serializes the AssetService's instance. Two copies means every asset
+        update is silently dropped on save.
+        """
+        return self.asset_service.assets
 
     async def get_all_repos(self) -> dict[str, AttributeDict]:
         return await self.gh_client.get_all_repos()
@@ -262,9 +272,6 @@ class GTNHModpackManager:
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         return await self.asset_service.mod_from_repo(repo, side)
-
-    def load_assets(self) -> AvailableAssets:
-        return self.asset_service.load_assets()
 
     def get_experimental_count(self) -> int:
         return self.counter.get_experimental_count()
