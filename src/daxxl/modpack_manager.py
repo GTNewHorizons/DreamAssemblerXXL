@@ -17,13 +17,10 @@ from daxxl.defs import (
     ModSource,
     Side,
 )
-
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
-
 from daxxl.models.gtnh_modpack import GTNHModpack
 from daxxl.models.gtnh_release import GTNHRelease
-
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.versionable import Versionable
 from daxxl.services.asset_service import AssetService
@@ -151,7 +148,9 @@ class GTNHModpackManager:
                 )
                 continue
             tasks.append(
-                self._run_safely(asset.name, self.asset_service.update_versionable_from_repo(asset, repo, releaseVersion), errors)
+                self._run_safely(
+                    asset.name, self.asset_service.update_versionable_from_repo(asset, repo, releaseVersion), errors
+                )
             )
 
         # update translation manually because version check cannot work on this repo given the nature of the releases
@@ -206,8 +205,16 @@ class GTNHModpackManager:
         global_progress_callback: Optional[Callable[[str], None]] = None,
     ) -> tuple[GTNHRelease, list[str]]:
         return await self.update_service.update_release(
-            version, existing_release, update_available, overrides, exclude, new_mods, last_version,
-            progress_callback, reset_progress_callback, global_progress_callback,
+            version,
+            existing_release,
+            update_available,
+            overrides,
+            exclude,
+            new_mods,
+            last_version,
+            progress_callback,
+            reset_progress_callback,
+            global_progress_callback,
         )
 
     async def update_rolling_release(
@@ -219,7 +226,11 @@ class GTNHModpackManager:
         global_progress_callback: Optional[Callable[[str], None]] = None,
     ) -> tuple[GTNHRelease, list[str]]:
         return await self.update_service.update_rolling_release(
-            release_type, update_available, progress_callback, reset_progress_callback, global_progress_callback,
+            release_type,
+            update_available,
+            progress_callback,
+            reset_progress_callback,
+            global_progress_callback,
         )
 
     def delete_release(self, release_name: str) -> None:
@@ -354,7 +365,9 @@ class GTNHModpackManager:
         error_callback: Optional[Callable[[str], None]] = None,
         force_redownload: bool = False,
     ) -> Path | None:
-        return await self.downloader.download_asset(asset, asset_version, is_github, download_callback, error_callback, force_redownload)
+        return await self.downloader.download_asset(
+            asset, asset_version, is_github, download_callback, error_callback, force_redownload
+        )
 
     async def download_release(
         self,

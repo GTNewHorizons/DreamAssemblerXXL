@@ -29,5 +29,5 @@ class ReleaseService:
         release = self.get_release(release_name)
         if release:
             manifest_path = RELEASE_MANIFEST_DIR / (release.version + ".json")
-            manifest_path.unlink(missing_ok=True) # file deletion
+            manifest_path.unlink(missing_ok=True)  # file deletion
             self.mod_pack.releases.remove(release_name)

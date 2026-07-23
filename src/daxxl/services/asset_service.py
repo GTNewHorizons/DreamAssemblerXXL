@@ -24,7 +24,7 @@ from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_version import version_from_release
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.models.versionable import Versionable, version_is_newer, version_sort_key, version_is_older
+from daxxl.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
 from daxxl.services.github_client import GitHubClient
 from daxxl.utils import AttributeDict, atomic_write_text
 
@@ -147,7 +147,9 @@ class AssetService:
     async def regen_config_assets(self) -> None:
         self.assets.config.versions = []
         self.assets.config.latest_version = "0.0.0"
-        await self.update_versionable_from_repo(self.assets.config, await self.gh_client.get_repo(self.assets.config.name))
+        await self.update_versionable_from_repo(
+            self.assets.config, await self.gh_client.get_repo(self.assets.config.name)
+        )
         self.save_assets()
 
     async def regen_translation_assets(self) -> None:

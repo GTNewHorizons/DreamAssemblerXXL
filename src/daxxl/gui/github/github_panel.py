@@ -348,7 +348,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         try:
             await gtnh_modpack.add_github_mod(repo_name)
             gtnh_modpack.save_assets()
-            repo = await gtnh_modpack.get_latest_github_release(repo_name)
+            repo = await gtnh_modpack.gh_client.get_latest_github_release(repo_name)
             assert repo
             version = repo.tag_name
             self.add_mod_to_memory(repo_name, version)

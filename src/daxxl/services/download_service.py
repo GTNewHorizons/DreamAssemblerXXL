@@ -1,20 +1,19 @@
 import asyncio
 import os
-from typing import Callable
 from pathlib import Path
-from typing import Optional
+from typing import Callable, Optional
 
 import retry
-from colorama import Fore, Style
+from colorama import Fore
 from httpx import AsyncClient, HTTPStatusError
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.defs import GREEN_CHECK, RED_CROSS
+from daxxl.exceptions import NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.versionable import Versionable
-from daxxl.exceptions import NoModAssetFound
 from daxxl.utils import get_github_token
 
 log = get_logger(__name__)

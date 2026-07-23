@@ -1,5 +1,4 @@
 import json
-from pathlib import Path
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -9,7 +8,7 @@ from httpx import AsyncClient
 
 from daxxl.defs import MAVEN_BASE_URL, OTHER, ROOT_DIR, UNKNOWN
 from daxxl.exceptions import RepoNotFoundException
-from daxxl.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
+from daxxl.github.uri import latest_release_uri, org_repos_uri, repo_uri
 from daxxl.gtnh_logger import get_logger
 from daxxl.utils import AttributeDict, get_github_token
 

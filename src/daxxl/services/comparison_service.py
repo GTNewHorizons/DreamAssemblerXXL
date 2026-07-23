@@ -6,7 +6,6 @@ from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
-from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 
 log = get_logger(__name__)
@@ -169,7 +168,7 @@ class ComparisonService:
                 mod_name=mod_name,
                 changelog_entries=mod_version_changelogs,
                 oldest_side=None if is_new_mod else old_version.side,
-                newest_side=new_version.side, # type: ignore
+                newest_side=new_version.side,  # type: ignore
                 new_mod=is_new_mod,
             )
 
