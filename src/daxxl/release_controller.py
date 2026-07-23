@@ -266,31 +266,35 @@ class ReleaseController:
         """
         return self.delta_progress
 
-    async def add_exclusion(self, side: Side, exclusion: str) -> None:
+    async def add_exclusion(self, side: Side, exclusion: str) -> bool:
         """
         Method used to add an file exclusion to the corresponding side's exclusion list.
 
         :param side: side of the modpack
         :param exclusion: the string corresponding to the file exclusion
-        :return: None
+        :return: True if the exclusion was added, False if it was already present
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        gtnh.add_exclusion(side, exclusion)
-        gtnh.save_modpack()
+        added = gtnh.add_exclusion(side, exclusion)
+        if added:
+            gtnh.save_modpack()
+        return added
 
-    async def del_exclusion(self, side: Side, exclusion: str) -> None:
+    async def del_exclusion(self, side: Side, exclusion: str) -> bool:
         """
-        Method used to add an file exclusion to the corresponding side's exclusion list.
+        Method used to remove a file exclusion from the corresponding side's exclusion list.
 
         :param side: side of the modpack
         :param exclusion: the string corresponding to the file exclusion
-        :return: None
+        :return: True if the exclusion was removed, False if it wasn't present
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        gtnh.delete_exclusion(side, exclusion)
-        gtnh.save_modpack()
+        removed = gtnh.delete_exclusion(side, exclusion)
+        if removed:
+            gtnh.save_modpack()
+        return removed
 
-    async def get_modpack_exclusions(self, side: str) -> List[str]:
+    async def get_modpack_exclusions(self, side: Side) -> List[str]:
         """
         Method used to gather the file exclusion list of the modpack corresponding to the provided side.
 
@@ -298,9 +302,9 @@ class ReleaseController:
         :return: list of strings corresponding to the file exclusions
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        if side == "client":
+        if side == Side.CLIENT:
             return sorted([exclusion for exclusion in gtnh.mod_pack.client_exclusions])
-        elif side == "server":
+        elif side == Side.SERVER:
             return sorted([exclusion for exclusion in gtnh.mod_pack.server_exclusions])
         else:
             raise ValueError(f"side {side} is an invalid side")

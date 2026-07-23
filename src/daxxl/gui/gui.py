@@ -171,8 +171,8 @@ class Window(ThemedTk, Tk):
         )
 
         exclusion_client_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
-            add=lambda exclusion: asyncio.ensure_future(self.controller.add_exclusion(Side.CLIENT, exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.controller.del_exclusion(Side.CLIENT, exclusion)),
+            add=lambda exclusion: asyncio.ensure_future(self.add_exclusion(Side.CLIENT, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion(Side.CLIENT, exclusion)),
         )
 
         # frame for the client file exclusions
@@ -181,8 +181,8 @@ class Window(ThemedTk, Tk):
         )
 
         exclusion_server_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
-            add=lambda exclusion: asyncio.ensure_future(self.controller.add_exclusion(Side.SERVER, exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.controller.del_exclusion(Side.SERVER, exclusion)),
+            add=lambda exclusion: asyncio.ensure_future(self.add_exclusion(Side.SERVER, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion(Side.SERVER, exclusion)),
         )
 
         # frame for the server side exclusions
@@ -351,6 +351,50 @@ class Window(ThemedTk, Tk):
                 )
         except SideAlreadySetException as e:
             showwarning("Side already set up", str(e))
+
+    @with_error_dialog(
+        title="An error occured while adding an exclusion",
+        message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
+    )
+    async def add_exclusion(self, side: Side, exclusion: str) -> None:
+        """
+        Callback used to add a file exclusion.
+
+        :param side: Side.CLIENT or Side.SERVER
+        :param exclusion: the exclusion string
+        :return: None
+        """
+        added = await self.controller.add_exclusion(side, exclusion)
+        if not added:
+            showwarning("Exclusion already present", f"'{exclusion}' is already excluded on the {side.value} side.")
+        await self._refresh_exclusions(side)
+
+    @with_error_dialog(
+        title="An error occured while removing an exclusion",
+        message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
+    )
+    async def del_exclusion(self, side: Side, exclusion: str) -> None:
+        """
+        Callback used to remove a file exclusion.
+
+        :param side: Side.CLIENT or Side.SERVER
+        :param exclusion: the exclusion string
+        :return: None
+        """
+        removed = await self.controller.del_exclusion(side, exclusion)
+        if not removed:
+            showwarning("Exclusion not found", f"'{exclusion}' was not in the {side.value} side exclusions.")
+        await self._refresh_exclusions(side)
+
+    async def _refresh_exclusions(self, side: Side) -> None:
+        """
+        Resync an exclusion panel's listbox with the persisted state.
+
+        :param side: Side.CLIENT or Side.SERVER
+        :return: None
+        """
+        panel = self.exclusion_frame_client if side == Side.CLIENT else self.exclusion_frame_server
+        panel.populate_data({"exclusions": await self.controller.get_modpack_exclusions(side)})
 
     def _notify_errored_mods(
         self,
@@ -584,10 +628,10 @@ class Window(ThemedTk, Tk):
 
             self.modpack_list_frame.populate_data(await self.controller.get_releases())
             self.exclusion_frame_server.populate_data(
-                {"exclusions": await self.controller.get_modpack_exclusions("server")}
+                {"exclusions": await self.controller.get_modpack_exclusions(Side.SERVER)}
             )
             self.exclusion_frame_client.populate_data(
-                {"exclusions": await self.controller.get_modpack_exclusions("client")}
+                {"exclusions": await self.controller.get_modpack_exclusions(Side.CLIENT)}
             )
         while self._run:
             self.update()

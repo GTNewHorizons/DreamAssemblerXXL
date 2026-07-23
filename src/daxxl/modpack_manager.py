@@ -1345,8 +1345,8 @@ class GTNHModpackManager:
         else:
             raise ValueError(f"{side} isn't a valid side")
 
-    def delete_exclusion(self, side: str, exclusion: str) -> bool:
-        if side == "client":
+    def delete_exclusion(self, side: Side, exclusion: str) -> bool:
+        if side == Side.CLIENT:
             self.mod_pack.client_exclusions.sort()
             if exclusion not in self.mod_pack.client_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
@@ -1356,7 +1356,7 @@ class GTNHModpackManager:
                 log.info(f"{Fore.GREEN}{exclusion} has been removed from {side} side exclusions{Fore.RESET}")
                 return True
 
-        if side == "server":
+        if side == Side.SERVER:
             self.mod_pack.server_exclusions.sort()
             if exclusion not in self.mod_pack.server_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
