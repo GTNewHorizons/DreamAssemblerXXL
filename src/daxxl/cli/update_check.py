@@ -10,9 +10,8 @@ log = get_logger(__name__)
 
 init(autoreset=True)
 
-
-@click.option("--mods", is_flag=False, metavar="<mods>", type=click.types.STRING)
 @click.command()
+@click.option("--mods", is_flag=False, metavar="<mods>", type=click.types.STRING)
 async def update_check(mods: str | None = None) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         mods_to_update = [m.strip() for m in mods.split(",")] if mods else None
