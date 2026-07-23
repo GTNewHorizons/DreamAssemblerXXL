@@ -130,13 +130,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
 
-        if width is None:
-            self.mod_info_frame.set_width(self.width)
-            self.update_widget()
-
-        else:
-            self.mod_info_frame.set_width(self.width)
-            self.update_widget()
+        self.mod_info_frame.set_width(self.width)
+        self.update_widget()
 
     def configure_widgets(self) -> None:
         """
