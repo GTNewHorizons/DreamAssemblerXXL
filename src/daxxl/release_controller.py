@@ -626,7 +626,8 @@ class ReleaseController:
 
         if archive_type == Archive.TECHNIC:
             await release_assembler.assemble_technic(
-                side=side, verbose=True,
+                side=side,
+                verbose=True,
                 global_step_callback=lambda msg: self.global_callback(self.get_progress(), msg),
             )
         else:
@@ -636,7 +637,7 @@ class ReleaseController:
                 Archive.MODRINTH: release_assembler.assemble_modrinth,
                 Archive.CURSEFORGE: release_assembler.assemble_curse,
             }
-            await assembler_dict[archive_type](side=side, verbose=True)
+            await assembler_dict[archive_type](side, True)
 
     async def assemble_all(self) -> None:
         """

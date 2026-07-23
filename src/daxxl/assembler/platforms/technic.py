@@ -286,7 +286,9 @@ class TechnicAssembler(GenericAssembler):
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(removed mods).txt"
 
     async def assemble(
-        self, side: Side, verbose: bool = False,
+        self,
+        side: Side,
+        verbose: bool = False,
         global_step_callback: Optional[Callable[[str], None]] = None,
     ) -> None:
         if side != Side.CLIENT:
@@ -308,11 +310,14 @@ class TechnicAssembler(GenericAssembler):
             global_step_callback("Assembling partial Technic archive")
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
-        self.set_progress(100 / (
-            len(self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS))
-            + self.get_amount_of_files_in_config(side)
-            + self.get_amount_of_files_in_locales()
-            + 1  # changelog
-            + len(self.differential_update(side, DifferentialUpdateMode.NEW_MODS))
-        ))
+        self.set_progress(
+            100
+            / (
+                len(self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS))
+                + self.get_amount_of_files_in_config(side)
+                + self.get_amount_of_files_in_locales()
+                + 1  # changelog
+                + len(self.differential_update(side, DifferentialUpdateMode.NEW_MODS))
+            )
+        )
         await self.partial_assemble(side, verbose)

@@ -55,7 +55,10 @@ class ReleaseAssemblerController:
             mod_manager, release, task_callback, changelog_path=changelog_path
         )
         self.technic_assembler: TechnicAssembler = TechnicAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path,
+            mod_manager,
+            release,
+            task_callback,
+            changelog_path=changelog_path,
             current_task_reset_callback=current_task_reset_callback,
         )
         self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
@@ -169,7 +172,9 @@ class ReleaseAssemblerController:
         await self.modrinth_assembler.assemble(side, verbose)
 
     async def assemble_technic(
-        self, side: Side, verbose: bool = False,
+        self,
+        side: Side,
+        verbose: bool = False,
         global_step_callback: Optional[Callable[[str], None]] = None,
     ) -> None:
         """
