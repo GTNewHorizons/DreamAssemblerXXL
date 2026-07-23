@@ -6,7 +6,7 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from daxxl.defs import Position, Side
-from daxxl.exceptions import RepoNotFoundException, InvalidModVersionException
+from daxxl.exceptions import InvalidModVersionException, RepoNotFoundException
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.combo_box import CustomCombobox
 from daxxl.gui.lib.custom_widget import CustomWidget

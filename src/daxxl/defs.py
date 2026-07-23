@@ -4,7 +4,7 @@ from enum import Enum
 from pathlib import Path
 
 # Root is two levels up
-from typing import List, Set
+from typing import Set
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
