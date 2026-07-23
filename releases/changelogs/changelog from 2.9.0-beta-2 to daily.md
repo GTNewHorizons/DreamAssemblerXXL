@@ -127,6 +127,12 @@ Mod is client-side only.
 # Updated - Bug-Torch - 1.2.14 --> 1.2.15
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - BuildCraft - 7.1.61 --> 7.1.62
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.61...7.1.62
+
+## What's Changed:
+>* Probably more thread safe by @mitchej123 in https://github.com/GTNewHorizons/BuildCraft/pull/34 (7.1.62)
+
 # Updated - BuildCraftCompat - 7.1.21 --> 7.1.22
 **Full Changelog**: https://github.com/GTNewHorizons/BuildCraftCompat/compare/7.1.21...7.1.22
 
@@ -134,10 +140,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Localize NEI RF string by @Ranzuu in https://github.com/GTNewHorizons/BuildCraftCompat/pull/15 (7.1.22)
 >* update+gradle+bs+deps by @Ranzuu in https://github.com/GTNewHorizons/BuildCraftCompat/pull/16 (7.1.22)
 
-# Updated - Chisel - 2.17.28-GTNH --> 2.17.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.28-GTNH...2.17.30-GTNH
+# Updated - Chisel - 2.17.28-GTNH --> 2.17.31-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.28-GTNH...2.17.31-GTNH
 
 ## What's Changed:
+>* Maybe more thread safe renderpass by @mitchej123 in https://github.com/GTNewHorizons/Chisel/pull/100 (2.17.31-GTNH)
 >* Convert Wrought Iron Blocks -> Cast Iron by @UltraProdigy in https://github.com/GTNewHorizons/Chisel/pull/99 (2.17.30-GTNH)
 >* Apply speedboost on new road pieces by @MellowArpeggiation in https://github.com/GTNewHorizons/Chisel/pull/96 (2.17.29-GTNH)
 
@@ -157,6 +164,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Fix Waila Size by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/13 (1.0.34-GTNH)
+
+# Updated - CodeChickenCore - 1.4.16 --> 1.4.17
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.16...1.4.17
+
+## What's Changed:
+>* Additional thread saftey for CCL by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenCore/pull/50 (1.4.17)
 
 # Updated - Controlling - 2.1.7 --> 2.1.8
 Mod is client-side only.
@@ -220,16 +233,23 @@ Mod is client-side only.
 ## What's Changed:
 >* Add MFR support for tainted trees by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/32 (0.9.17-GTNH)
 
+# Updated - ForgeMultipart - 1.7.10 --> 1.7.11
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.10...1.7.11
+
+## What's Changed:
+>* Maybe more thread safe renderpass by @mitchej123 in https://github.com/GTNewHorizons/ForgeMultipart/pull/50 (1.7.11)
+
 # Updated - Freecam - 1.0.9 --> 1.0.10
 **Full Changelog**: https://github.com/GTNewHorizons/Freecam/compare/1.0.9...1.0.10
 
 ## What's Changed:
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.50
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.50
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.51
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.51
 
 ## What's Changed:
+>* Fix Structurelib mixing Pyro and Cryo Hatch due to same base class by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7542 (5.09.54.51)
 >* make Acid Gen recipes cell capacity aware by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7536 (5.09.54.50)
 >* Fix Vacuum Freezer holo build + Move Pyro Hatch to HatchElement by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7540 (5.09.54.50)
 >* add null check in neutron activator by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7541 (5.09.54.50)
@@ -444,10 +464,11 @@ Mod is client-side only.
 >* Adapt to GT5u changes / Bump Buildscript and Deps by @Algent in https://github.com/GTNewHorizons/InGame-Info-XML/pull/41 (2.9.4)
 >* add itemid and itemmeta tags for equipment slots by @Eldrinn-Elantey in https://github.com/GTNewHorizons/InGame-Info-XML/pull/40 (2.9.4)
 
-# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.39-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.39-GTNH
+# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.40-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.40-GTNH
 
 ## What's Changed:
+>* Fix regression to inventory sorting from PR #211 by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/212 (1.3.40-GTNH)
 >* Fix drop off accidental triggers and not working with key combos by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/211 (1.3.39-GTNH)
 >* fix zh_cn by @MCTBL in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/210 (1.3.38-GTNH)
 
@@ -462,10 +483,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Slope placement by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/105 (1.6.31)
 >* Round slopes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/65 (1.6.31)
 
-# Updated - LogisticsPipes - 1.5.28-GTNH --> 1.5.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.28-GTNH...1.5.30-GTNH
+# Updated - LogisticsPipes - 1.5.28-GTNH --> 1.5.31-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.28-GTNH...1.5.31-GTNH
 
 ## What's Changed:
+>* Maybe more threadsafe by @mitchej123 in https://github.com/GTNewHorizons/LogisticsPipes/pull/130 (1.5.31-GTNH)
 >* Load pipe models in init stage by @tiffit in https://github.com/GTNewHorizons/LogisticsPipes/pull/129 (1.5.30-GTNH)
 >* Fix a bad interaction with LP, RFB, and thermal.  Removes old unused checksum related code. by @mitchej123 in https://github.com/GTNewHorizons/LogisticsPipes/pull/128 (1.5.29-GTNH)
 
@@ -513,10 +535,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.20
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.20
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.21
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.21
 
 ## What's Changed:
+>* Centralize Armok Orb Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1875 (2.9.21)
 >* Reduce shirabon foils in Quantum circuits from 48 to 32 by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1851 (2.9.20)
 >* Enable subtypes for vanilla paper by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1872 (2.9.19)
 >* Change Watering Can assembler circuits by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1873 (2.9.19)
