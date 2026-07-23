@@ -262,9 +262,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-
-        # showerror("Feature not yet implemented", "The addition of external mods to the assets is not yet implemented.")
-        # don't forget to use self.add_mod_in_memory when implementing this
         self.toggle_freeze()
         top_level: Toplevel = Toplevel(self)
 
@@ -300,8 +297,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        # showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
-        # don't forget to use self.del_mod_from_memory when implementing this
         if not self.listbox.has_selection():
             showerror(
                 "No curseforge mod selected",
