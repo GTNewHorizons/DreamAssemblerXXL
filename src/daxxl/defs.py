@@ -218,19 +218,6 @@ class ServerBrand(str, Enum):
     thermos = "thermos"
 
 
-class ModEntry:
-    def __init__(self, name: str, version: str, is_new: bool) -> None:
-        self.name: str = name
-        self.version: str = version
-        self.side_info: str = ""
-        self.is_new: bool = is_new
-        self.changes: list[tuple[str, list[str]]] = []
-        self.contributors: Set[str] = set()
-        self.new_contributors: List[str] = []
-        self.oldest_link_version = ""
-        self.newest_link_version = ""
-
-
 class DevRelease(str, Enum):
     DAILY = "daily"
     EXPERIMENTAL = "experimental"
