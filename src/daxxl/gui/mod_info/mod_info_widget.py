@@ -26,7 +26,7 @@ class ModInfoCallback:
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
         self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
         self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
-        self.has_listbox_selection: CustomListbox = None  # type: ignore
+        self.listbox: CustomListbox = None  # type: ignore
 
     def attach_listbox_object(self, listbox: CustomListbox) -> None:
         self.listbox = listbox
