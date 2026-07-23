@@ -37,8 +37,9 @@ from daxxl.defs import (
     RELEASE_MANIFEST_DIR,
     ROOT_DIR,
     UNKNOWN,
+    DevRelease,
     ModSource,
-    Side, DevRelease,
+    Side,
 )
 from daxxl.exceptions import (
     InvalidDailyIdException,

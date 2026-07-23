@@ -230,6 +230,7 @@ class ModEntry:
         self.oldest_link_version = ""
         self.newest_link_version = ""
 
+
 class DevRelease(str, Enum):
     DAILY = "daily"
     EXPERIMENTAL = "experimental"

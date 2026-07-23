@@ -7,7 +7,7 @@ from typing import Any, Callable, Dict, List, Union
 
 from ttkthemes import ThemedTk
 
-from daxxl.defs import Archive, Position, Side, DevRelease
+from daxxl.defs import Archive, DevRelease, Position, Side
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback

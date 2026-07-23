@@ -5,7 +5,6 @@ from daxxl.defs import DevRelease
 from daxxl.gtnh_logger import get_logger
 from daxxl.modpack_manager import GTNHModpackManager
 
-
 log = get_logger(__name__)
 
 
