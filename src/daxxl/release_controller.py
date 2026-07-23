@@ -65,6 +65,7 @@ class ReleaseController:
         self.last_version: Optional[str] = None  # last version of the release
 
         self.delta_progress: float = 0  # progression between 2 tasks (in %) for the global progress bar
+        self._assembler_controller: Optional[ReleaseAssemblerController] = None
 
     async def _get_client(self) -> httpx.AsyncClient:
         """
@@ -92,6 +93,7 @@ class ReleaseController:
 
         :return: None
         """
+        self._assembler_controller = None
         if self._client is not None:
             await self._client.aclose()
 
@@ -395,6 +397,7 @@ class ReleaseController:
         self.external_mods = release_object.external_mods
         self.version = release_object.version
         self.last_version = release_object.last_version
+        self._assembler_controller = None
         logger.info(f"Loaded pack version {Fore.CYAN}{release_object.version}{Fore.RESET} in memory.")
         return release_object
 
@@ -554,6 +557,9 @@ class ReleaseController:
 
         :return: the ReleaseAssembler object constructed
         """
+        if self._assembler_controller is not None:
+            return self._assembler_controller
+
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
         release: GTNHRelease = GTNHRelease(
             version=self.version,
@@ -572,13 +578,14 @@ class ReleaseController:
         await gtnh.download_release(release, download_callback=self.progress_callback)
         self.current_task_reset_callback()
 
-        return ReleaseAssemblerController(
+        self._assembler_controller = ReleaseAssemblerController(
             gtnh,
             release,
             task_callback=self.progress_callback,
             global_callback=self.global_callback,
             current_task_reset_callback=self.current_task_reset_callback,
         )
+        return self._assembler_controller
 
     async def generate_changelog(self) -> None:
         """
