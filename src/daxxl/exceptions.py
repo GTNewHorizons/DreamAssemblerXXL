@@ -2,10 +2,6 @@ class LatestReleaseNotFound(Exception):
     pass
 
 
-class NoReleasesException(Exception):
-    pass
-
-
 class RepoNotFoundException(Exception):
     pass
 
@@ -30,6 +26,14 @@ class InvalidReleaseException(Exception):
     pass
 
 
+class InvalidConfigException(Exception):
+    pass
+
+
+class InvalidModVersionException(Exception):
+    pass
+
+
 class ReleaseNotFoundException(Exception):
     pass
 
@@ -39,4 +43,8 @@ class InvalidExperimentalIdException(Exception):
 
 
 class InvalidDailyIdException(Exception):
+    pass
+
+
+class SideAlreadySetException(Exception):
     pass

@@ -2,7 +2,7 @@ import asyncclick as click
 from colorama import Fore
 from httpx import AsyncClient
 
-from daxxl.assembler.assembler import ReleaseAssembler
+from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.modpack_manager import GTNHModpackManager
@@ -26,11 +26,11 @@ async def assemble_daily(verbose: bool) -> None:
         release,
     )
 
-    assembler = ReleaseAssembler(modpack_manager, release)
+    assembler = ReleaseAssemblerController(modpack_manager, release)
     await assembler.assemble_zip(Side.SERVER_JAVA9, verbose=verbose)
     await assembler.assemble_zip(Side.SERVER, verbose=verbose)
-    await assembler.assemble_mmc(Side.CLIENT, verbose=verbose)
-    await assembler.assemble_mmc(Side.CLIENT_JAVA9, verbose=verbose)
+    await assembler.assemble_prism(Side.CLIENT, verbose=verbose)
+    await assembler.assemble_prism(Side.CLIENT_JAVA9, verbose=verbose)
 
     modpack_manager.set_last_successful_daily_id(modpack_manager.get_daily_count())
 

@@ -1,4 +1,4 @@
-import click
+import asyncclick as click
 from httpx import AsyncClient
 
 from daxxl.gtnh_logger import get_logger

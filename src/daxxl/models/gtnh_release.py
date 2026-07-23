@@ -4,11 +4,13 @@ from typing import Dict
 from colorama import Fore
 from pydantic import Field, ValidationError
 
-from daxxl.defs import GREEN_CHECK, RED_CROSS, RELEASE_MANIFEST_DIR
+from daxxl.defs import RELEASE_MANIFEST_DIR, ModSource
+from daxxl.exceptions import InvalidReleaseException, NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.base import GTNHBaseModel
 from daxxl.models.mod_version_info import ModVersionInfo
+from daxxl.utils import atomic_write_text
 
 log = get_logger(__name__)
 
@@ -23,35 +25,42 @@ class GTNHRelease(GTNHBaseModel):
     github_mods: dict[str, ModVersionInfo]
     external_mods: dict[str, ModVersionInfo]
 
-    def validate_release(self, available_assets: AvailableAssets) -> bool:
+    def validate_release(self, available_assets: AvailableAssets) -> None:
         """
         Validate's a release against `available_mods`
         :param available_assets: A list of available github and external mods
-        :return: Validity as a boolean
+        :raises InvalidReleaseException: if the release references missing or misclassified assets
         """
+        errors: list[str] = []
 
-        for mod_name, mod_version in self.github_mods.items():
-            mod = available_assets.get_mod(mod_name)
-            if mod is None:
-                log.error(
-                    f"{RED_CROSS} {Fore.RED}Github Mod "
-                    f"`{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RED}` not found!{Fore.RESET}"
-                )
-                return False
+        if not available_assets.config.has_version(self.config):
+            errors.append(f"config version {self.config!r} not found")
 
-            version = mod.get_version(mod_version.version)
-            if version is None:
-                log.error(
-                    f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{mod_version}{Fore.RED}` not found for Github Mod "
-                    f"`{Fore.CYAN}{mod_name}{Fore.RED}`{Fore.RESET}"
-                )
-                return False
+        duplicate_mods = self.github_mods.keys() & self.external_mods.keys()
+        if duplicate_mods:
+            errors.append(f"mods listed as both GitHub and external: {', '.join(sorted(duplicate_mods))}")
 
-            log.info(
-                f"{GREEN_CHECK} Validated Github Mod `{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RESET}`"
-            )
+        for expected_source, mods in (
+            (ModSource.github, self.github_mods),
+            (ModSource.other, self.external_mods),
+        ):
+            for mod_name, mod_version in mods.items():
+                try:
+                    mod = available_assets.get_mod(mod_name)
+                except NoModAssetFound:
+                    errors.append(f"mod {mod_name!r} not found")
+                    continue
 
-        return True
+                if expected_source == ModSource.github and mod.source != ModSource.github:
+                    errors.append(f"mod {mod_name!r} is listed as GitHub but has source {mod.source.value!r}")
+                elif expected_source != ModSource.github and mod.source == ModSource.github:
+                    errors.append(f"mod {mod_name!r} is listed as external but has source 'github'")
+
+                if not mod.has_version(mod_version.version):
+                    errors.append(f"version {mod_version.version!r} not found for mod {mod_name!r}")
+
+        if errors:
+            raise InvalidReleaseException(f"Invalid release {self.version!r}:\n- " + "\n- ".join(errors))
 
 
 class __GTNHReleaseV1(GTNHBaseModel):
@@ -103,8 +112,7 @@ def save_release(release: GTNHRelease, update: bool = False) -> bool:
 
     dumped = release.json()
     if dumped:
-        with open(release_file, "w", encoding="utf-8") as f:
-            f.write(dumped)
+        atomic_write_text(release_file, dumped)
         log.info(f"Saved release file `{Fore.GREEN}{release_file}{Fore.RESET}`")
         return True
     else:

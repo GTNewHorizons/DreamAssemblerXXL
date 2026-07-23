@@ -2,7 +2,7 @@ import asyncclick as click
 from colorama import Fore
 from httpx import AsyncClient
 
-from daxxl.assembler.assembler import ReleaseAssembler
+from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.modpack_manager import GTNHModpackManager
@@ -24,7 +24,7 @@ async def assemble_release(side: Side, release_name: str, verbose: bool) -> None
         )
         return
 
-    await ReleaseAssembler(modpack_manager, release).assemble(side, verbose=verbose)
+    await ReleaseAssemblerController(modpack_manager, release).assemble(side, verbose=verbose)
 
 
 if __name__ == "__main__":

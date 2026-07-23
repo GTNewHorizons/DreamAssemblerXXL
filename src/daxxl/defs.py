@@ -4,7 +4,7 @@ from enum import Enum
 from pathlib import Path
 
 # Root is two levels up
-from typing import List, Set
+from typing import Set
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
@@ -18,7 +18,7 @@ SERVER_WORKING_DIR = WORKING_DIR / "server"
 RELEASE_DIR = ROOT_DIR / "releases"
 RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
 RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
-RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
+RELEASE_PRISM_DIR = RELEASE_DIR / "multi_poly"
 RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
@@ -30,7 +30,7 @@ RELEASE_README_DIR = RELEASE_DIR / "readmes"
 SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
 CLIENT_ASSETS_DIR = ROOT_DIR / "client_assets"
 
-MMC_ASSETS_DIR = CLIENT_ASSETS_DIR / "multi_poly"
+PRISM_ASSETS_DIR = CLIENT_ASSETS_DIR / "multi_poly"
 
 TRANSLATION_DIR = ROOT_DIR / "translations"
 
@@ -38,7 +38,7 @@ README_TEMPLATE = ROOT_DIR / "readme_template.md"
 
 
 class Archive(str, Enum):
-    MMC = "MMC"
+    PRISM = "Prism"
     TECHNIC = "Technic"
     ZIP = "zip"
     CURSEFORGE = "CurseForge"
@@ -85,7 +85,7 @@ MMC_PACK_JSON = """{
 }
 """
 
-MMC_PACK_INSTANCE = """InstanceType=OneSix
+PRISM_PACK_INSTANCE = """InstanceType=OneSix
 JoinServerOnLaunch=false
 OverrideCommands=false
 OverrideConsole=false
@@ -218,14 +218,6 @@ class ServerBrand(str, Enum):
     thermos = "thermos"
 
 
-class ModEntry:
-    def __init__(self, name: str, version: str, is_new: bool) -> None:
-        self.name: str = name
-        self.version: str = version
-        self.side_info: str = ""
-        self.is_new: bool = is_new
-        self.changes: list[tuple[str, list[str]]] = []
-        self.contributors: Set[str] = set()
-        self.new_contributors: List[str] = []
-        self.oldest_link_version = ""
-        self.newest_link_version = ""
+class DevRelease(str, Enum):
+    DAILY = "daily"
+    EXPERIMENTAL = "experimental"

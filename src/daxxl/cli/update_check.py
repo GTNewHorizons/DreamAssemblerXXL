@@ -11,12 +11,8 @@ log = get_logger(__name__)
 init(autoreset=True)
 
 
-class NoReleasesException(Exception):
-    pass
-
-
-@click.option("--mods", is_flag=False, metavar="<mods>", type=click.types.STRING)
 @click.command()
+@click.option("--mods", is_flag=False, metavar="<mods>", type=click.types.STRING)
 async def update_check(mods: str | None = None) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         mods_to_update = [m.strip() for m in mods.split(",")] if mods else None
@@ -29,7 +25,9 @@ async def update_check(mods: str | None = None) -> None:
         # Things get cached here
         await m.get_all_repos()
         log.info("Updating things...")
-        await m.update_all(mods_to_update)
+        update_errors = await m.update_all(mods_to_update)
+        if update_errors:
+            log.warn(f"{Fore.YELLOW}{len(update_errors)} asset(s) failed to update, see errors above{Style.RESET_ALL}")
 
         missing_repos = await m.get_missing_repos()
         if len(missing_repos):

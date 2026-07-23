@@ -4,7 +4,7 @@ from typing import Dict, List
 
 from pydantic import Field
 
-from daxxl.defs import ModSource, Side
+from daxxl.defs import Side
 from daxxl.exceptions import NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.base import GTNHBaseModel
@@ -72,12 +72,12 @@ class AvailableAssets(GTNHBaseModel):
         raise NoModAssetFound(f"{mod_name} not found")
 
     def get_mod_and_version(
-        self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side], source: ModSource
+        self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side]
     ) -> tuple[GTNHModInfo, GTNHVersion] | None:
         try:
             mod = self.get_mod(mod_name)
         except NoModAssetFound:
-            log.warn(f"Mod {mod_name} in {source} cannot be found, returning None")
+            log.warn(f"Mod {mod_name} cannot be found, returning None")
             return None
 
         side = mod_version.side if mod_version.side else mod.side

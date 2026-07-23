@@ -6,7 +6,7 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from daxxl.defs import Position, Side
-from daxxl.exceptions import RepoNotFoundException
+from daxxl.exceptions import InvalidModVersionException, RepoNotFoundException
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.combo_box import CustomCombobox
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -232,8 +232,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -264,8 +262,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.mod_info_frame.grid(row=x + 6, column=y, columnspan=2, sticky=Position.ALL)
 
         self.mod_info_frame.show()
-
-        self.update_idletasks()
 
     async def refresh_modpack_assets(self) -> None:
         """
@@ -309,7 +305,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
-        assert latest_version
+        if latest_version is None:
+            raise InvalidModVersionException
         github_mod = self.get_github_mods_callback().get(name)
         current_version: str = github_mod.version if github_mod is not None else latest_version.version_tag
         mod_license: str = mod_info.license or "No license detected"
@@ -351,7 +348,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         try:
             await gtnh_modpack.add_github_mod(repo_name)
             gtnh_modpack.save_assets()
-            repo = await gtnh_modpack.get_latest_github_release(repo_name)
+            repo = await gtnh_modpack.gh_client.get_latest_github_release(repo_name)
             assert repo
             version = repo.tag_name
             self.add_mod_to_memory(repo_name, version)

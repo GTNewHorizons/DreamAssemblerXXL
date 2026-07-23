@@ -55,7 +55,6 @@ class CustomProgressBar(Frame, CustomWidget):
         """
         self.progress_bar["value"] += progress
         self.stringvar.set(data)
-        self.update_idletasks()
 
     def reset(self) -> None:
         """
@@ -65,7 +64,6 @@ class CustomProgressBar(Frame, CustomWidget):
         """
         self.progress_bar["value"] = 0
         self.stringvar.set("")
-        self.update_idletasks()
 
     def grid(self, *args: Any, **kwargs: Any) -> None:
         x: int = 0

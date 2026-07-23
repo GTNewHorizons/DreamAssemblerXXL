@@ -7,9 +7,9 @@ from typing import Any, Callable, List, Optional
 
 from daxxl.defs import Side
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
-from daxxl.gui.lib.CustomLabel import CustomLabel
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.combo_box import CustomCombobox
+from daxxl.gui.lib.custom_label import CustomLabel
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
 
@@ -26,7 +26,7 @@ class ModInfoCallback:
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
         self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
         self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
-        self.has_listbox_selection: CustomListbox = None  # type: ignore
+        self.listbox: CustomListbox = None  # type: ignore
 
     def attach_listbox_object(self, listbox: CustomListbox) -> None:
         self.listbox = listbox
@@ -234,8 +234,6 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -253,8 +251,6 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
 
         for i, widget in enumerate(self.widgets):
             widget.grid(row=i, column=0)
-
-        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """

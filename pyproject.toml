@@ -24,6 +24,7 @@ dependencies = [
     "types-ttkthemes>=3.2.4.2,<4",
     "packaging-legacy>=23.0.post0,<24",
     "click>=8.4.1",
+    "async-tkinter-loop>=0.6.0",
 ]
 
 [dependency-groups]

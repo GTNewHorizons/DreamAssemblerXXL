@@ -14,8 +14,8 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         update_asset: Callable[[], Task[None]],
         generate_experimental: Callable[[], Task[None]],
         generate_daily: Callable[[], Task[None]],
-        client_mmc: Callable[[], Task[None]],
-        client_mmc_j9: Callable[[], Task[None]],
+        client_prism: Callable[[], Task[None]],
+        client_prism_j9: Callable[[], Task[None]],
         client_zip: Callable[[], Task[None]],
         server_zip: Callable[[], Task[None]],
         server_zip_j9: Callable[[], Task[None]],
@@ -35,8 +35,8 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
             update_asset=update_asset,
             generate_experimental=generate_experimental,
             generate_daily=generate_daily,
-            client_mmc=client_mmc,
-            client_mmc_j9=client_mmc_j9,
+            client_prism=client_prism,
+            client_prism_j9=client_prism_j9,
             client_zip=client_zip,
             server_zip=server_zip,
             server_zip_j9=server_zip_j9,
@@ -168,8 +168,6 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         self.modpack_list.hide()
         self.action_frame.hide()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -192,8 +190,6 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
 
         self.modpack_list.show()
         self.action_frame.show()
-
-        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """

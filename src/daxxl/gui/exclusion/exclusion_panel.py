@@ -176,7 +176,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         y: int = 0
 
         self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.ALL)
-        self.exclusion.grid(row=x + 1, column=y, columnspan=2, stick=Position.HORIZONTAL)
+        self.exclusion.grid(row=x + 1, column=y, columnspan=2, sticky=Position.HORIZONTAL)
         self.btn_add.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
         self.btn_del.grid(row=x + 2, column=y + 1, sticky=Position.HORIZONTAL)
 

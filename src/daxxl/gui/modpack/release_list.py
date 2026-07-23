@@ -5,8 +5,8 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional
 
 from daxxl.defs import Position
-from daxxl.gui.lib.CustomLabel import CustomLabel
 from daxxl.gui.lib.button import CustomButton
+from daxxl.gui.lib.custom_label import CustomLabel
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
 from daxxl.gui.lib.text_entry import TextEntry
@@ -145,8 +145,6 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -170,8 +168,6 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         self.btn_del.grid(row=x + 2, column=y + 1)
         self.modpack.grid(row=x + 3, column=y)
         self.btn_add.grid(row=x + 3, column=y + 1)
-
-        self.update_idletasks()
 
     def on_listbox_click(self, _: Any) -> None:
         """

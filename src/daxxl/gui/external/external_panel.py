@@ -6,6 +6,7 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from daxxl.defs import Position, Side
+from daxxl.exceptions import InvalidModVersionException
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -129,13 +130,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
 
-        if width is None:
-            self.mod_info_frame.set_width(self.width)
-            self.update_widget()
-
-        else:
-            self.mod_info_frame.set_width(self.width)
-            self.update_widget()
+        self.mod_info_frame.set_width(self.width)
+        self.update_widget()
 
     def configure_widgets(self) -> None:
         """
@@ -189,8 +185,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         self.mod_info_frame.hide()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -216,8 +210,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         self.mod_info_frame.grid(row=x + 3, column=y, columnspan=2)
 
         self.mod_info_frame.show()
-
-        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """
@@ -245,7 +237,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
-        assert latest_version
+        if latest_version is None:
+            raise InvalidModVersionException
         external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
         current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
@@ -269,9 +262,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-
-        # showerror("Feature not yet implemented", "The addition of external mods to the assets is not yet implemented.")
-        # don't forget to use self.add_mod_in_memory when implementing this
         self.toggle_freeze()
         top_level: Toplevel = Toplevel(self)
 
@@ -307,8 +297,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        # showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
-        # don't forget to use self.del_mod_from_memory when implementing this
         if not self.listbox.has_selection():
             showerror(
                 "No curseforge mod selected",

@@ -3,7 +3,7 @@ revision = 3
 requires-python = ">=3.11, <4"
 
 [options]
-exclude-newer = "2026-06-08T21:03:22.149317166Z"
+exclude-newer = "0001-01-01T00:00:00Z" # This has no effect and is included for backwards compatibility when using relative exclude-newer values.
 exclude-newer-span = "P12D"
 
 [[package]]
@@ -24,6 +24,18 @@ name = "async-cache"
 version = "1.1.1"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/73/6e/908402652bf7d8ab02fa204399d9517d247fb3a0926045a8c8a28708cd40/async-cache-1.1.1.tar.gz", hash = "sha256:81aa9ccd19fb06784aaf30bd5f2043dc0a23fc3e998b93d0c2c17d1af9803393", size = 3848, upload-time = "2021-07-03T18:24:36.769Z" }
+
+[[package]]
+name = "async-tkinter-loop"
+version = "0.10.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/01/1a/bb49f6d7f63a294a1a3f0cd5531a9fb9f5512400c427f9fd8a293818dc97/async_tkinter_loop-0.10.4.tar.gz", hash = "sha256:cb88033975e4e33d6001055e07efe03b389ae127c8089897578ee975a110469e", size = 5292, upload-time = "2026-06-17T07:02:39.636Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ba/67/69c69861ef8467d5df2f0763781f253dffae0877b5f2f704392832b10e07/async_tkinter_loop-0.10.4-py3-none-any.whl", hash = "sha256:7d5e0c5f98c54fa4c74436148a7bf6707d647d3022ec402c8d452d32a524c414", size = 6146, upload-time = "2026-06-17T07:02:38.633Z" },
+]
 
 [[package]]
 name = "asyncclick"
@@ -202,6 +214,7 @@ version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "async-cache" },
+    { name = "async-tkinter-loop" },
     { name = "asyncclick" },
     { name = "click" },
     { name = "colorama" },
@@ -230,6 +243,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "async-cache", specifier = ">=1.1,<1.2" },
+    { name = "async-tkinter-loop", specifier = ">=0.6.0" },
     { name = "asyncclick", specifier = ">=8.1.3,<9" },
     { name = "click", specifier = ">=8.4.1" },
     { name = "colorama", specifier = ">=0.4.4,<0.5" },
