@@ -5,7 +5,14 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.generic_assembler import GenericAssembler
-from daxxl.defs import JAVA_9_ARCHIVE_SUFFIX, PRISM_ASSETS_DIR, PRISM_PACK_INSTANCE, MMC_PACK_JSON, RELEASE_PRISM_DIR, Side
+from daxxl.defs import (
+    JAVA_9_ARCHIVE_SUFFIX,
+    MMC_PACK_JSON,
+    PRISM_ASSETS_DIR,
+    PRISM_PACK_INSTANCE,
+    RELEASE_PRISM_DIR,
+    Side,
+)
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
@@ -88,7 +95,7 @@ class PrismAssembler(GenericAssembler):
                     continue
                 with config_zip.open(item) as config_item:
                     with archive.open(
-                            str(self.prism_modpack_files) + "/" + item, "w"
+                        str(self.prism_modpack_files) + "/" + item, "w"
                     ) as target:  # can't use Path for the whole
                         # path here as it strips leading / but those are used by
                         # zipfile to know if it's a file or a folder. If used here,
@@ -123,7 +130,9 @@ class PrismAssembler(GenericAssembler):
         await GenericAssembler.assemble(self, side, verbose)
 
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
-            await self.add_localisation_files(archive, str(self.prism_modpack_files.as_posix()))  # otherwise file check fails
+            await self.add_localisation_files(
+                archive, str(self.prism_modpack_files.as_posix())
+            )  # otherwise file check fails
             # on windows
             await normalize_archive_permissions(archive)
 
@@ -143,7 +152,8 @@ class PrismAssembler(GenericAssembler):
             if not side.is_java9():
                 archive.writestr(str(self.prism_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
             archive.writestr(
-                str(self.prism_archive_root) + "/instance.cfg", PRISM_PACK_INSTANCE.format(f"GTNH {self.release.version}")
+                str(self.prism_archive_root) + "/instance.cfg",
+                PRISM_PACK_INSTANCE.format(f"GTNH {self.release.version}"),
             )
             with archive.open(str(self.prism_archive_root) + "/gtnh_icon.png", "w") as target:
                 with open(PRISM_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
