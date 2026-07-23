@@ -615,7 +615,7 @@ class ReleaseController:
         release_assembler: ReleaseAssembler = await self.pre_assembling()
         assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: release_assembler.assemble_zip,
-            Archive.MMC: release_assembler.assemble_mmc,
+            Archive.Prism: release_assembler.assemble_prism,
             Archive.MODRINTH: release_assembler.assemble_modrinth,
             Archive.CURSEFORGE: release_assembler.assemble_curse,
             Archive.TECHNIC: release_assembler.assemble_technic,
@@ -636,7 +636,7 @@ class ReleaseController:
 
         await release_assembler.assemble(Side.CLIENT, verbose=True)
 
-        await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
+        await self.assemble_release(Side.CLIENT_JAVA9, Archive.Prism)
         await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
 
         # todo: redo the bar resets less hacky: they are spread all over the place and it's inconsistent
@@ -662,6 +662,6 @@ class ReleaseController:
         await self.assemble_release(Side.SERVER, Archive.ZIP)
         await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
 
-        # MMC archives
-        await self.assemble_release(Side.CLIENT, Archive.MMC)
-        await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
+        # Prism archives
+        await self.assemble_release(Side.CLIENT, Archive.Prism)
+        await self.assemble_release(Side.CLIENT_JAVA9, Archive.Prism)

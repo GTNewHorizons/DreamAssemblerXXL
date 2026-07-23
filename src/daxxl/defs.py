@@ -18,7 +18,7 @@ SERVER_WORKING_DIR = WORKING_DIR / "server"
 RELEASE_DIR = ROOT_DIR / "releases"
 RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
 RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
-RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
+RELEASE_PRISM_DIR = RELEASE_DIR / "multi_poly"
 RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
@@ -30,7 +30,7 @@ RELEASE_README_DIR = RELEASE_DIR / "readmes"
 SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
 CLIENT_ASSETS_DIR = ROOT_DIR / "client_assets"
 
-MMC_ASSETS_DIR = CLIENT_ASSETS_DIR / "multi_poly"
+PRISM_ASSETS_DIR = CLIENT_ASSETS_DIR / "multi_poly"
 
 TRANSLATION_DIR = ROOT_DIR / "translations"
 
@@ -38,7 +38,7 @@ README_TEMPLATE = ROOT_DIR / "readme_template.md"
 
 
 class Archive(str, Enum):
-    MMC = "MMC"
+    Prism = "Prism"
     TECHNIC = "Technic"
     ZIP = "zip"
     CURSEFORGE = "CurseForge"
@@ -85,7 +85,7 @@ MMC_PACK_JSON = """{
 }
 """
 
-MMC_PACK_INSTANCE = """InstanceType=OneSix
+PRISM_PACK_INSTANCE = """InstanceType=OneSix
 JoinServerOnLaunch=false
 OverrideCommands=false
 OverrideConsole=false

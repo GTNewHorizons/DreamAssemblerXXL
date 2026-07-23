@@ -169,7 +169,7 @@ jobs:
           path: GTNH-${{ inputs.daxxl-tag }}-server-java17-26.zip
           archive: false
 
-      - name: Upload MMC zip
+      - name: Upload Prism zip
         uses: actions/upload-artifact@v7
         # Upload even if one of the zips fails to upload
         if: success() || failure()

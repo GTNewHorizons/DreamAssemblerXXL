@@ -14,8 +14,8 @@ class ButtonArrayCallback:
         update_asset: Callable[[], Task[None]],
         generate_experimental: Callable[[], Task[None]],
         generate_daily: Callable[[], Task[None]],
-        client_mmc: Callable[[], Task[None]],
-        client_mmc_j9: Callable[[], Task[None]],
+        client_prism: Callable[[], Task[None]],
+        client_prism_j9: Callable[[], Task[None]],
         client_zip: Callable[[], Task[None]],
         server_zip: Callable[[], Task[None]],
         server_zip_j9: Callable[[], Task[None]],
@@ -30,8 +30,8 @@ class ButtonArrayCallback:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_experimental: Callable[[], Task[None]] = generate_experimental
         self.generate_daily: Callable[[], Task[None]] = generate_daily
-        self.client_mmc: Callable[[], Task[None]] = client_mmc
-        self.client_mmc_j9: Callable[[], Task[None]] = client_mmc_j9
+        self.client_prism: Callable[[], Task[None]] = client_prism
+        self.client_prism_j9: Callable[[], Task[None]] = client_prism_j9
         self.client_zip: Callable[[], Task[None]] = client_zip
         self.server_zip: Callable[[], Task[None]] = server_zip
         self.server_zip_j9: Callable[[], Task[None]] = server_zip_j9
@@ -90,11 +90,11 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.btn_client_technic: CustomButton = CustomButton(
             self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed
         )
-        self.btn_client_mmc: CustomButton = CustomButton(
-            self.frame_btn, text="MMC like archive", command=callbacks.client_mmc, themed=self.themed
+        self.btn_client_prism: CustomButton = CustomButton(
+            self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed
         )
-        self.btn_client_mmc_j9: CustomButton = CustomButton(
-            self.frame_btn, text="Java 9+ MMC like archive", command=callbacks.client_mmc_j9, themed=self.themed
+        self.btn_client_prism_j9: CustomButton = CustomButton(
+            self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_prism_j9, themed=self.themed
         )
         self.btn_client_modrinth: CustomButton = CustomButton(
             self.frame_btn,
@@ -152,8 +152,8 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self.btn_client_cf,
             self.btn_client_technic,
             self.btn_client_modrinth,
-            self.btn_client_mmc,
-            self.btn_client_mmc_j9,
+            self.btn_client_prism,
+            self.btn_client_prism_j9,
             self.btn_update_assets,
             self.btn_update_experimental,
             self.btn_update_daily,
@@ -220,8 +220,8 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
 
         # column 1: client we control
         self.btn_client_zip.grid(row=0, column=1)
-        self.btn_client_mmc.grid(row=1, column=1)
-        self.btn_client_mmc_j9.grid(row=2, column=1)
+        self.btn_client_prism.grid(row=1, column=1)
+        self.btn_client_prism_j9.grid(row=2, column=1)
         self.btn_client_technic.grid(row=3, column=1)
 
         # column 2: server we control + mod market places

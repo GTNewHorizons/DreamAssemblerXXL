@@ -3,7 +3,7 @@ from typing import Awaitable, Callable, Dict, List, Optional
 
 from daxxl.assembler.curse import CurseAssembler
 from daxxl.assembler.modrinth import ModrinthAssembler
-from daxxl.assembler.multi_poly import MMCAssembler
+from daxxl.assembler.multi_poly import PrismAssembler
 from daxxl.assembler.technic import TechnicAssembler
 from daxxl.assembler.zip_assembler import ZipAssembler
 from daxxl.defs import (
@@ -52,7 +52,7 @@ class ReleaseAssembler:
         self.zip_assembler: ZipAssembler = ZipAssembler(
             mod_manager, release, task_callback, changelog_path=changelog_path
         )
-        self.mmc_assembler: MMCAssembler = MMCAssembler(
+        self.prism_assembler: PrismAssembler = PrismAssembler(
             mod_manager, release, task_callback, changelog_path=changelog_path
         )
         self.curse_assembler: CurseAssembler = CurseAssembler(
@@ -104,7 +104,7 @@ class ReleaseAssembler:
 
         assemblers_client: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: self.assemble_zip,
-            Archive.MMC: self.assemble_mmc,
+            Archive.Prism: self.assemble_prism,
             Archive.TECHNIC: self.assemble_technic,
             Archive.CURSEFORGE: self.assemble_curse,
             Archive.MODRINTH: self.assemble_modrinth,
@@ -141,7 +141,7 @@ class ReleaseAssembler:
         """
         await self.zip_assembler.assemble(side, verbose)
 
-    async def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
+    async def assemble_prism(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the zip archive.
 
@@ -149,7 +149,7 @@ class ReleaseAssembler:
         :param verbose: flag to control verbose mode
         :return: None
         """
-        await self.mmc_assembler.assemble(side, verbose)
+        await self.prism_assembler.assemble(side, verbose)
 
     async def assemble_curse(self, side: Side, verbose: bool = False) -> None:
         """

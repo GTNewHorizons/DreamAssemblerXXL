@@ -29,8 +29,8 @@ async def assemble_experimental(verbose: bool) -> None:
     assembler = ReleaseAssembler(modpack_manager, release)
     await assembler.assemble_zip(Side.SERVER_JAVA9, verbose=verbose)
     await assembler.assemble_zip(Side.SERVER, verbose=verbose)
-    await assembler.assemble_mmc(Side.CLIENT, verbose=verbose)
-    await assembler.assemble_mmc(Side.CLIENT_JAVA9, verbose=verbose)
+    await assembler.assemble_prism(Side.CLIENT, verbose=verbose)
+    await assembler.assemble_prism(Side.CLIENT_JAVA9, verbose=verbose)
 
     modpack_manager.set_last_successful_experimental_id(modpack_manager.get_experimental_count())
 
