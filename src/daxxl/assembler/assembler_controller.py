@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Awaitable, Callable, Dict, List, Optional
 
-from daxxl.assembler.plateforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
+from daxxl.assembler.platforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
 from daxxl.defs import (
     RELEASE_CHANGELOG_DAILY_BUILDS_DIR,
     RELEASE_CHANGELOG_DIR,

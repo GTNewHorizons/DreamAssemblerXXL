@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Callable, Optional
 
-from daxxl.assembler.plateforms.generic_assembler import GenericAssembler
+from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_MODRINTH_DIR, Side
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.modpack_manager import GTNHModpackManager

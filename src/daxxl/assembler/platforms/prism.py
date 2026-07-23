@@ -4,7 +4,7 @@ from typing import Callable, Optional, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
-from daxxl.assembler.plateforms.generic_assembler import GenericAssembler
+from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import (
     JAVA_9_ARCHIVE_SUFFIX,
     MMC_PACK_JSON,

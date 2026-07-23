@@ -4,7 +4,7 @@ from typing import Callable, List, Optional, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
-from daxxl.assembler.plateforms.generic_assembler import GenericAssembler
+from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, SERVER_PROPERTIES_FILE, ServerBrand, Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
