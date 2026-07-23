@@ -22,7 +22,6 @@ from daxxl.defs import (
     INPLACE_PINNED_FILE,
     LOCAL_EXCLUDES_FILE,
     RED_CROSS,
-    RELEASE_MANIFEST_DIR,
     ROOT_DIR,
     DevRelease,
     ModSource,
@@ -37,7 +36,7 @@ from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 
 from daxxl.models.gtnh_modpack import GTNHModpack
-from daxxl.models.gtnh_release import GTNHRelease, load_release, save_release
+from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
@@ -46,6 +45,7 @@ from daxxl.services.asset_service import AssetService
 from daxxl.services.counter_service import CounterService
 from daxxl.services.download_service import DownloadService
 from daxxl.services.github_client import GitHubClient
+from daxxl.services.release_service import ReleaseService
 from daxxl.utils import AttributeDict, atomic_write_text, get_github_token
 
 log = get_logger(__name__)
@@ -69,6 +69,7 @@ class GTNHModpackManager:
         self.asset_service = AssetService(self.gh_client, self.gh, self.org, self.assets)
         self.counter = CounterService(self.assets, self.asset_service.save_assets)
         self.downloader = DownloadService(self.client, self.assets)
+        self.release_service = ReleaseService(self.mod_pack)
 
     async def get_all_repos(self) -> dict[str, AttributeDict]:
         return await self.gh_client.get_all_repos()
@@ -77,18 +78,10 @@ class GTNHModpackManager:
         return await self.gh_client.get_repo(name)
 
     def add_release(self, release: GTNHRelease, update: bool = False) -> bool:
-        log.info(f"Adding Release `{Fore.GREEN}{release.version}{Fore.RESET}`")
-        if not update and release.version in self.mod_pack.releases:
-            log.error(f"Release `{Fore.RED}{release.version}{Fore.RESET} already exists, and update was not specified!")
-            return False
-        self.mod_pack.releases.add(release.version)
-        return save_release(release, update=update)
+        return self.release_service.add_release(release, update)
 
     def get_release(self, release_name: str) -> GTNHRelease | None:
-        if release_name in self.mod_pack.releases:
-            return load_release(release_name)
-
-        return None
+        return self.release_service.get_release(release_name)
 
     async def _run_safely(self, name: str, coro: "Coroutine[Any, Any, bool]", errors: list[str]) -> bool:
         """
@@ -377,12 +370,8 @@ class GTNHModpackManager:
         return release, update_errors
 
     def delete_release(self, release_name: str) -> None:
-        release = self.get_release(release_name)
-        if release:
-            manifest_path = RELEASE_MANIFEST_DIR / (release.version + ".json")
-            manifest_path.unlink(missing_ok=True)  # file deletion
-            self.mod_pack.releases.remove(release_name)
-            self.save_modpack()
+        self.release_service.delete_release(release_name)
+        self.save_modpack()
 
     async def add_github_mod(self, name: str) -> GTNHModInfo | None:
         return await self.asset_service.add_github_mod(name)
