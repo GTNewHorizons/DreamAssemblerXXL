@@ -9,9 +9,7 @@ from pathlib import Path
 from typing import Any, Callable, Coroutine, List, Optional, Set, Tuple
 
 import retry
-from cache import AsyncLRU
 from colorama import Fore, Style
-from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 
@@ -31,7 +29,6 @@ from daxxl.defs import (
     GTNH_MODPACK_FILE,
     INPLACE_PINNED_FILE,
     LOCAL_EXCLUDES_FILE,
-    MAVEN_BASE_URL,
     OTHER,
     RED_CROSS,
     RELEASE_MANIFEST_DIR,
@@ -45,9 +42,8 @@ from daxxl.exceptions import (
     InvalidReleaseException,
     NoModAssetFound,
     ReleaseNotFoundException,
-    RepoNotFoundException,
 )
-from daxxl.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
+from daxxl.github.uri import repo_releases_uri
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_config import CONFIG_REPO_NAME
@@ -58,6 +54,7 @@ from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
 from daxxl.services.counter_service import CounterService
+from daxxl.services.github_client import GitHubClient
 from daxxl.utils import AttributeDict, atomic_write_text, get_github_token
 
 log = get_logger(__name__)
@@ -78,17 +75,13 @@ class GTNHModpackManager:
         self.client = client
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
         self.counter = CounterService(self.assets, self.save_assets)
+        self.gh_client = GitHubClient(self.client, self.org)
 
-    @AsyncLRU(maxsize=None)
     async def get_all_repos(self) -> dict[str, AttributeDict]:
-        return {r["name"]: AttributeDict(r) async for r in self.gh.getiter(org_repos_uri(self.org))}
+        return await self.gh_client.get_all_repos()
 
-    @AsyncLRU(maxsize=None)
     async def get_repo(self, name: str) -> AttributeDict:
-        try:
-            return AttributeDict(await self.gh.getitem(repo_uri(self.org, name)))
-        except BadRequest as error:
-            raise RepoNotFoundException(f"Repo not found {name}") from error
+        return await self.gh_client.get_repo(name)
 
     def add_release(self, release: GTNHRelease, update: bool = False) -> bool:
         log.info(f"Adding Release `{Fore.GREEN}{release.version}{Fore.RESET}`")
@@ -153,7 +146,7 @@ class GTNHModpackManager:
         if global_progress_callback is not None:
             global_progress_callback("Downloading data from Github")
 
-        all_repos = await self.get_all_repos()
+        all_repos = await self.gh_client.get_all_repos()
 
         errors: list[str] = []
         tasks = []
@@ -236,7 +229,7 @@ class GTNHModpackManager:
 
             return True
 
-        latest_release = await self.get_latest_github_release(repo)
+        latest_release = await self.gh_client.get_latest_github_release(repo)
 
         latest_version = latest_release.tag_name if latest_release else "<unknown>"
 
@@ -280,7 +273,7 @@ class GTNHModpackManager:
         """
         mod_updated = False
         if mod.license in [UNKNOWN, OTHER]:
-            mod_license = await self.get_license_from_repo(repo)
+            mod_license = await self.gh_client.get_license_from_repo(repo)
             if mod_license is not None:
                 log.info(f"Updated License: {mod_license}")
                 mod.license = mod_license
@@ -294,7 +287,7 @@ class GTNHModpackManager:
                 mod_updated = True
 
         if mod.maven is None:
-            maven = await self.get_maven(mod.name)
+            maven = await self.gh_client.get_maven(mod.name)
             if maven:
                 mod.maven = maven
                 log.debug(f"Updated Maven: {mod.maven}")
@@ -318,20 +311,7 @@ class GTNHModpackManager:
         return True
 
     async def get_latest_github_release(self, repo: AttributeDict | str) -> AttributeDict | None:
-        if isinstance(repo, str):
-            try:
-                latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo)))
-            except BadRequest:
-                log.error(f"{Fore.RED}No latest release found for {Fore.CYAN}{repo}{Style.RESET_ALL}")
-                latest_release = None
-        else:
-            try:
-                latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo.name)))
-            except BadRequest:
-                log.error(f"{Fore.RED}No latest release found for {Fore.CYAN}{repo.get('name')}{Style.RESET_ALL}")
-                latest_release = None
-
-        return latest_release
+        return await self.gh_client.get_latest_github_release(repo)
 
     async def update_versions_from_repo(
         self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, releaseVersion: str | None = None
@@ -401,48 +381,10 @@ class GTNHModpackManager:
         return version_updated
 
     async def get_license_from_repo(self, repo: AttributeDict, allow_fallback: bool = True) -> str | None:
-        """
-        Attempt to find a license for a mod, based on the repository; falling back to some manually collected licenses
-        :param repo: Github Repository
-        :return: License `str`
-        """
-        mod_license = None
-        try:
-            repo_license = repo.license
-            if repo_license:
-                mod_license = repo_license.name
-                log.info(f"Found license `{Fore.YELLOW}{mod_license}{Fore.RESET}` from repo")
-        except BadRequest:
-            log.warn("No license found from repo")
-
-        if mod_license in [None, UNKNOWN, OTHER] and allow_fallback:
-            with open(ROOT_DIR / "licenses_from_boubou.json") as f:
-                manual_licenses = json.loads(f.read())
-                by_url = {v["url"]: v.get("license", None) for v in manual_licenses.values()}
-                mod_license = by_url.get(repo.html_url, None)
-                if mod_license:
-                    log.info(f"Found fallback license {Fore.YELLOW}{mod_license}{Fore.RESET}.")
-
-        if not mod_license:
-            log.warn("No license found!")
-            mod_license = "All Rights Reserved (fallback)"
-
-        return mod_license
+        return await self.gh_client.get_license_from_repo(repo, allow_fallback=allow_fallback)
 
     async def get_maven(self, mod_name: str) -> str | None:
-        """
-        Get the maven URL for a `mod_name`, ensuring it exists
-        :param mod_name: Mod Name
-        :return: Maven URL, if found
-        """
-        maven_url = MAVEN_BASE_URL + mod_name + "/"
-        response = await self.client.head(maven_url, follow_redirects=True)
-
-        if response.status_code == 200:
-            return maven_url
-        elif response.status_code >= 500:
-            raise Exception(f"Maven unreachable status: {response.status_code}")
-        return None
+        return await self.gh_client.get_maven(mod_name)
 
     async def update_release(
         self,
@@ -626,7 +568,7 @@ class GTNHModpackManager:
         """
         log.info(f"Trying to add `{name}`.")
 
-        new_repo = await self.get_repo(name)
+        new_repo = await self.gh_client.get_repo(name)
         if self.assets.has_mod(new_repo.name):
             log.debug(f"Mod `{name}` already exists.")
             return None
@@ -696,29 +638,29 @@ class GTNHModpackManager:
     async def regen_config_assets(self) -> None:
         self.assets.config.versions = []
         self.assets.config.latest_version = "0.0.0"
-        await self.update_versionable_from_repo(self.assets.config, await self.get_repo(self.assets.config.name))
+        await self.update_versionable_from_repo(self.assets.config, await self.gh_client.get_repo(self.assets.config.name))
         self.save_assets()
 
     async def regen_translation_assets(self) -> None:
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
         await self.update_translations_from_repo(
-            self.assets.translations, await self.get_repo(self.assets.translations.name)
+            self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name)
         )
         self.save_assets()
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
-            latest_release = await self.get_latest_github_release(repo)
+            latest_release = await self.gh_client.get_latest_github_release(repo)
             latest_version = latest_release.tag_name if latest_release else "<unknown>"
         except Exception:
             latest_version = "<unknown>"
 
         mod = GTNHModInfo(
             name=repo.name,
-            license=await self.get_license_from_repo(repo),
+            license=await self.gh_client.get_license_from_repo(repo),
             repo_url=repo.html_url,
-            maven=await self.get_maven(repo.name),
+            maven=await self.gh_client.get_maven(repo.name),
             side=side,
             latest_version=latest_version,
             private=repo.private,
@@ -808,7 +750,7 @@ class GTNHModpackManager:
         :param all_repos: A dictionary of [repo_name, Repository]
         :return: Set of repo names missing
         """
-        all_repo_names = set((await self.get_all_repos()).keys())
+        all_repo_names = set((await self.gh_client.get_all_repos()).keys())
         all_github_mod_names = set(self.assets._modmap.keys())
         config_repo = CONFIG_REPO_NAME
         return all_repo_names - all_github_mod_names - self.blacklisted_repos - {config_repo}
