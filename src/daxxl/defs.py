@@ -38,7 +38,7 @@ README_TEMPLATE = ROOT_DIR / "readme_template.md"
 
 
 class Archive(str, Enum):
-    Prism = "Prism"
+    PRISM = "Prism"
     TECHNIC = "Technic"
     ZIP = "zip"
     CURSEFORGE = "CurseForge"

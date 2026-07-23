@@ -100,7 +100,7 @@ class ReleaseAssemblerController:
 
         assemblers_client: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: self.assemble_zip,
-            Archive.Prism: self.assemble_prism,
+            Archive.PRISM: self.assemble_prism,
             Archive.TECHNIC: self.assemble_technic,
             Archive.CURSEFORGE: self.assemble_curse,
             Archive.MODRINTH: self.assemble_modrinth,
