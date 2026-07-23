@@ -381,8 +381,6 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         for widget in self.text_entry_list:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -424,8 +422,6 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             self.project_url.configure(state=DISABLED)
         if not self.add_mod and not self.edit_version_mode:
             self.mod_choice.grid_forget()
-
-        self.update_idletasks()
 
     def populate_data(self, mod: Optional[GTNHModInfo], version: Optional[GTNHVersion] = None) -> None:
         """

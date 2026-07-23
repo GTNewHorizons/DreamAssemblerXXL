@@ -31,6 +31,24 @@ files = [
 ]
 
 [[package]]
+name = "async-tkinter-loop"
+version = "0.10.4"
+description = "Asynchronous mainloop implementation for tkinter"
+optional = false
+python-versions = "<4.0,>=3.10"
+groups = ["main"]
+files = [
+    {file = "async_tkinter_loop-0.10.4-py3-none-any.whl", hash = "sha256:7d5e0c5f98c54fa4c74436148a7bf6707d647d3022ec402c8d452d32a524c414"},
+    {file = "async_tkinter_loop-0.10.4.tar.gz", hash = "sha256:cb88033975e4e33d6001055e07efe03b389ae127c8089897578ee975a110469e"},
+]
+
+[package.dependencies]
+typing-extensions = "*"
+
+[package.extras]
+examples = ["Pillow (>=10.3.0,<13.0.0)", "customtkinter (>=5,<6)", "httpx (>=0.23.1,<0.29.0)"]
+
+[[package]]
 name = "asyncclick"
 version = "8.3.0.7"
 description = "Composable command line interface toolkit, async fork"
@@ -998,4 +1016,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4"
-content-hash = "f29b2d6dfbda292c06b6165762ea32e60781538801fa3d0e2ec98fc27ee14c38"
+content-hash = "9fe3c7519a56e63b71159a03dcaf3f9e99218c95b51e4db376b9143ab60cbcc5"

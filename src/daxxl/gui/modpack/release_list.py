@@ -145,8 +145,6 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -170,8 +168,6 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         self.btn_del.grid(row=x + 2, column=y + 1)
         self.modpack.grid(row=x + 3, column=y)
         self.btn_add.grid(row=x + 3, column=y + 1)
-
-        self.update_idletasks()
 
     def on_listbox_click(self, _: Any) -> None:
         """

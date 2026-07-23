@@ -231,8 +231,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.btn_client_modrinth.grid(row=3, column=2)
         self.btn_generate_cf_files.grid(row=4, column=2)
 
-        self.update_idletasks()
-
     def configure_widgets(self) -> None:
         """
         Method to configure the widgets.
@@ -282,5 +280,3 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         """
         for widget in self.widgets:
             widget.grid_forget()
-
-        self.update_idletasks()

@@ -168,8 +168,6 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         self.modpack_list.hide()
         self.action_frame.hide()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -192,8 +190,6 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
 
         self.modpack_list.show()
         self.action_frame.show()
-
-        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """

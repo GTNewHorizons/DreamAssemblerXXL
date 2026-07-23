@@ -232,8 +232,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -264,8 +262,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.mod_info_frame.grid(row=x + 6, column=y, columnspan=2, sticky=Position.ALL)
 
         self.mod_info_frame.show()
-
-        self.update_idletasks()
 
     async def refresh_modpack_assets(self) -> None:
         """

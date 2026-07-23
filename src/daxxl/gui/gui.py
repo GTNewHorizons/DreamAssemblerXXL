@@ -5,6 +5,7 @@ from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Dict, List, Union
 
+from async_tkinter_loop import async_mainloop
 from ttkthemes import ThemedTk
 
 from daxxl.defs import Archive, DevRelease, Position, Side
@@ -21,7 +22,6 @@ from daxxl.release_controller import ReleaseController
 
 logger = get_logger(__name__)
 
-ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
 
 
@@ -50,11 +50,11 @@ class App:
     def __init__(self, themed: bool = False) -> None:
         self.instance: Window = Window(themed=themed)
 
-    async def exec(self) -> None:
+    def exec(self) -> None:
         """
-        Coroutine used to run the GUI.
+        Run the GUI using async-tkinter-loop.
         """
-        await self.instance.run()
+        self.instance.run()
 
 
 class Window(ThemedTk, Tk):
@@ -75,7 +75,6 @@ class Window(ThemedTk, Tk):
             ThemedTk.__init__(self, theme=theme)
         else:
             Tk.__init__(self)
-        self._run: bool = True
         self.title("DreamAssemblerXXL")
         self.iconphoto(False, PhotoImage(file=ICON))
 
@@ -83,7 +82,6 @@ class Window(ThemedTk, Tk):
         self.ypadding: int = 0
         self.minsize(1000, 600)  # Minimum to even see all the buttons
 
-        self.init: bool = False
         self.protocol("WM_DELETE_WINDOW", lambda: asyncio.ensure_future(self.close_app()))
 
         # frame for the modpack handling
@@ -590,53 +588,46 @@ class Window(ThemedTk, Tk):
             self.exclusion_frame_client.show()
             self.exclusion_frame_server.show()
 
-    async def run(self) -> None:
+    async def load_initial_data(self) -> None:
         """
-        async entrypoint to trigger the mainloop
+        Load initial data after the mainloop has started.
 
         :return: None
+        """
+        # load last gtnh version if there is any:
+        releases: List[GTNHRelease] = await self.controller.get_releases()
+        if len(releases) > 0:
+            await self.load_gtnh_version(releases[-1], init=True)
+
+        data_github_mods: Dict[str, Any] = {
+            "github_mod_list": await self.controller.get_repos(),
+            "modpack_version_frame": {
+                "combobox": await self.controller.get_modpack_versions(),
+                "stringvar": self.controller.gtnh_config,
+            },
+        }
+
+        self.github_panel.populate_data(data_github_mods)
+
+        data_external_mods: Dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
+
+        self.external_mod_frame.populate_data(data_external_mods)
+
+        self.modpack_list_frame.populate_data(await self.controller.get_releases())
+        self.exclusion_frame_server.populate_data(
+            {"exclusions": await self.controller.get_modpack_exclusions(Side.SERVER)}
+        )
+        self.exclusion_frame_client.populate_data(
+            {"exclusions": await self.controller.get_modpack_exclusions(Side.CLIENT)}
+        )
+
+    def run(self) -> None:
+        """
+        Start the GUI using async-tkinter-loop.
         """
         self.show()
-        await self.update_widget()
-
-    async def update_widget(self) -> None:
-        """
-        Method handling the loop of the gui.
-
-        :return: None
-        """
-        if not self.init:
-            self.init = True
-            # load last gtnh version if there is any:
-            releases: List[GTNHRelease] = await self.controller.get_releases()
-            if len(releases) > 0:
-                await self.load_gtnh_version(releases[-1], init=True)
-
-            data_github_mods: Dict[str, Any] = {
-                "github_mod_list": await self.controller.get_repos(),
-                "modpack_version_frame": {
-                    "combobox": await self.controller.get_modpack_versions(),
-                    "stringvar": self.controller.gtnh_config,
-                },
-            }
-
-            self.github_panel.populate_data(data_github_mods)
-
-            data_external_mods: Dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
-
-            self.external_mod_frame.populate_data(data_external_mods)
-
-            self.modpack_list_frame.populate_data(await self.controller.get_releases())
-            self.exclusion_frame_server.populate_data(
-                {"exclusions": await self.controller.get_modpack_exclusions(Side.SERVER)}
-            )
-            self.exclusion_frame_client.populate_data(
-                {"exclusions": await self.controller.get_modpack_exclusions(Side.CLIENT)}
-            )
-        while self._run:
-            self.update()
-            self.update_idletasks()
-            await asyncio.sleep(ASYNC_SLEEP)
+        self.after(0, lambda: asyncio.ensure_future(self.load_initial_data()))
+        async_mainloop(self)
 
     async def refresh_external_mods(self) -> None:
         """
@@ -655,9 +646,8 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         await self.controller.close()
-        self._run = False
         self.destroy()
 
 
 if __name__ == "__main__":
-    asyncio.run(App(themed=False).exec())
+    App(themed=False).exec()

@@ -234,8 +234,6 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.grid_forget()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -253,8 +251,6 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
 
         for i, widget in enumerate(self.widgets):
             widget.grid(row=i, column=0)
-
-        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """

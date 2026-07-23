@@ -189,8 +189,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         self.mod_info_frame.hide()
 
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -216,8 +214,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         self.mod_info_frame.grid(row=x + 3, column=y, columnspan=2)
 
         self.mod_info_frame.show()
-
-        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """
