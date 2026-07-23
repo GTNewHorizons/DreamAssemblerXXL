@@ -42,8 +42,6 @@ from daxxl.defs import (
     Side,
 )
 from daxxl.exceptions import (
-    InvalidDailyIdException,
-    InvalidExperimentalIdException,
     InvalidReleaseException,
     NoModAssetFound,
     ReleaseNotFoundException,
@@ -59,6 +57,7 @@ from daxxl.models.gtnh_version import GTNHVersion, version_from_release
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
+from daxxl.services.counter_service import CounterService
 from daxxl.utils import AttributeDict, atomic_write_text, get_github_token
 
 log = get_logger(__name__)
@@ -78,6 +77,7 @@ class GTNHModpackManager:
         self.org = "GTNewHorizons"
         self.client = client
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
+        self.counter = CounterService(self.assets, self.save_assets)
 
     @AsyncLRU(maxsize=None)
     async def get_all_repos(self) -> dict[str, AttributeDict]:
@@ -739,134 +739,34 @@ class GTNHModpackManager:
             return AvailableAssets.parse_raw(f.read())
 
     def get_experimental_count(self) -> int:
-        """
-        Return the current experimental count.
-
-        Returns
-        -------
-        int: The current experimental count.
-        """
-        return self.assets.latest_experimental
+        return self.counter.get_experimental_count()
 
     def set_experimental_id(self, id: int) -> None:
-        """
-        Set the experimental id to a specific number. Has to be greater than the last experimental id.
-
-        Returns
-        -------
-        None
-        """
-        latest_id = self.assets.latest_experimental
-        if id > latest_id:
-            self.assets.latest_experimental = id
-        else:
-            raise InvalidExperimentalIdException(
-                f"Cannot set new experimental id to {id}, needs to be greater than latest experimental count {latest_id}"
-            )
+        self.counter.set_experimental_id(id)
 
     def increment_experimental_count(self) -> None:
-        """
-        Increment the experimental count.
-
-        Returns
-        -------
-        None
-        """
-        self.assets.latest_experimental += 1
-        self.save_assets()
+        self.counter.increment_experimental_count()
 
     def set_last_successful_experimental_id(self, id: int) -> None:
-        """
-        Set the last successful experimental id.
-
-        Parameters
-        ----------
-        id: int
-            The last successful experimental id.
-
-        Returns
-        -------
-        None
-        """
-        self.assets.latest_successful_experimental = id
-        self.save_assets()
-        log.info(f"last successful build set to {id}")
+        self.counter.set_last_successful_experimental_id(id)
 
     def get_last_successful_experimental(self) -> int:
-        """
-        get the last successful experimental id.
-
-        Returns
-        -------
-        int
-            The last successful experimental id.
-        """
-        return self.assets.latest_successful_experimental
+        return self.counter.get_last_successful_experimental()
 
     def get_daily_count(self) -> int:
-        """
-        Return the current daily count.
-
-        Returns
-        -------
-        int: The current daily count.
-        """
-        return self.assets.latest_daily
+        return self.counter.get_daily_count()
 
     def set_daily_id(self, id: int) -> None:
-        """
-        Set the daily id to a specific number. Has to be greater than the last daily id.
-
-        Returns
-        -------
-        None
-        """
-        latest_id = self.assets.latest_daily
-        if id > latest_id:
-            self.assets.latest_daily = id
-        else:
-            raise InvalidDailyIdException(
-                f"Cannot set new daily id to {id}, needs to be greater than latest daily count {latest_id}"
-            )
+        self.counter.set_daily_id(id)
 
     def increment_daily_count(self) -> None:
-        """
-        Increment the daily count.
-
-        Returns
-        -------
-        None
-        """
-        self.assets.latest_daily += 1
-        self.save_assets()
+        self.counter.increment_daily_count()
 
     def set_last_successful_daily_id(self, id: int) -> None:
-        """
-        Set the last successful daily id.
-
-        Parameters
-        ----------
-        id: int
-            The last successful daily id.
-
-        Returns
-        -------
-        None
-        """
-        self.assets.latest_successful_daily = id
-        self.save_assets()
-        log.info(f"last successful build set to {id}")
+        self.counter.set_last_successful_daily_id(id)
 
     def get_last_successful_daily(self) -> int:
-        """
-        get the last successful daily id.
-
-        Returns
-        -------
-        int
-            The last successful daily id.
-        """
-        return self.assets.latest_successful_daily
+        return self.counter.get_last_successful_daily()
 
     def load_modpack(self) -> GTNHModpack:
         """
