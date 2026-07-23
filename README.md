@@ -9,7 +9,7 @@ A replacement for DreamMasterXXL, minus the nerfs.
 
 ### CLI - CLI Tools
 * [assemble_daily.py](src/daxxl/cli/assemble_daily.py): Assemble a new daily build (needs the manifest to exist prior to run this)
-* [assemble_experimental.py](src/daxxl/cli/assemble_daily.py): Assemble a new experimental build (needs the manifest to exist prior to run this)
+* [assemble_experimental.py](src/daxxl/cli/assemble_experimental.py): Assemble a new experimental build (needs the manifest to exist prior to run this)
 * [assemble_release.py](src/daxxl/cli/assemble_release.py): Assemble a release ZIP (CLIENT/SERVER)
 * [download_mod.py](src/daxxl/cli/download_mod.py): Download the given mod to the cache
 * [download_release.py](src/daxxl/cli/download_release.py): Download an entire release to the cache
@@ -18,7 +18,7 @@ A replacement for DreamMasterXXL, minus the nerfs.
 * [update_check.py](src/daxxl/cli/update_check.py): Check for new releases on GitHub
 
 ### Assembler - Modpack Assemble!
-* [assembler.py](src/daxxl/assembler/assembler.py) Assemble the client and server pack (ZIP)
+* [zip_assembler.py](src/daxxl/assembler/zip_assembler.py) Assemble the client and server pack (ZIP)
 * [curse.py](src/daxxl/assembler/curse.py) Maybe, at some point, assemble the pack for Curse
 * [downloader.py](src/daxxl/assembler/downloader.py): Download and cache the pack's mods
 * [modrinth.py](src/daxxl/assembler/modrinth.py) Hopefully in the near future assemble the pack for Modrinth

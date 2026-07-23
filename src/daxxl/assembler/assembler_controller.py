@@ -1,11 +1,7 @@
 from pathlib import Path
 from typing import Awaitable, Callable, Dict, List, Optional
 
-from daxxl.assembler.curse import CurseAssembler
-from daxxl.assembler.modrinth import ModrinthAssembler
-from daxxl.assembler.multi_poly import PrismAssembler
-from daxxl.assembler.technic import TechnicAssembler
-from daxxl.assembler.zip_assembler import ZipAssembler
+from daxxl.assembler.plateforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
 from daxxl.defs import (
     RELEASE_CHANGELOG_DAILY_BUILDS_DIR,
     RELEASE_CHANGELOG_DIR,
@@ -20,7 +16,7 @@ from daxxl.modpack_manager import GTNHModpackManager
 log = get_logger(__name__)
 
 
-class ReleaseAssembler:
+class ReleaseAssemblerController:
     """
     Main class to assemble a release.
     """

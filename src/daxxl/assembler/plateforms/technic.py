@@ -9,7 +9,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 from colorama import Fore
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
-from daxxl.assembler.generic_assembler import GenericAssembler
+from daxxl.assembler.plateforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_TECHNIC_DIR, Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig

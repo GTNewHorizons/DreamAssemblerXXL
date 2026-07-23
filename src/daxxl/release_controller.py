@@ -4,7 +4,7 @@ from typing import Any, Awaitable, Callable, Dict, List, Optional, Set, Tuple, U
 import httpx
 from colorama import Fore
 
-from daxxl.assembler.assembler import ReleaseAssembler
+from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import Archive, ModSource, Side
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
@@ -548,7 +548,7 @@ class ReleaseController:
 
         return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
 
-    async def pre_assembling(self) -> ReleaseAssembler:
+    async def pre_assembling(self) -> ReleaseAssemblerController:
         """
         Method to downloads the mods before constructing the ReleaseAssembler object.
 
@@ -572,7 +572,7 @@ class ReleaseController:
         await gtnh.download_release(release, download_callback=self.progress_callback)
         self.current_task_reset_callback()
 
-        return ReleaseAssembler(
+        return ReleaseAssemblerController(
             gtnh,
             release,
             task_callback=self.progress_callback,
@@ -587,7 +587,7 @@ class ReleaseController:
         :return: None
         """
         self.set_progress(100 / 2)
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
         release_assembler.generate_changelog()
         self.global_callback(self.get_progress(), f"Generate changelog from {self.last_version} to {self.version}")
 
@@ -599,7 +599,7 @@ class ReleaseController:
         :return: None
         """
         self.set_progress(100 / 3)
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
         self.global_callback(self.get_progress(), "Generating the dependencies.json")
         await release_assembler.curse_assembler.generate_json_dep(task_progressbar)
         self.global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
@@ -612,7 +612,7 @@ class ReleaseController:
         :return: None
         """
         self.set_progress(100 / 2)
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
         assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: release_assembler.assemble_zip,
             Archive.Prism: release_assembler.assemble_prism,
@@ -630,7 +630,7 @@ class ReleaseController:
         :return: None
         """
         self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
         release_assembler.set_progress(self.get_progress())
 
@@ -653,7 +653,7 @@ class ReleaseController:
         :return: None
         """
         self.set_progress(100 / (1 + 3 + 2))  # download + archives for client + archive for server
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
         release_assembler.set_progress(self.get_progress())
 
