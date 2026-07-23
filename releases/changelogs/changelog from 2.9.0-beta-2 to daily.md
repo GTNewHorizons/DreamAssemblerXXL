@@ -17,11 +17,18 @@
 ## What's Changed:
 >* Use dedicated forge method instead of recreating part of the pipeline by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/56 (1.4.23-GTNH)
 
-# Updated - Angelica - 2.1.50 --> 2.1.54
+# Updated - Angelica - 2.1.50 --> 2.1.55
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.54
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.55
 
 ## What's Changed:
+>* Reload unicode glyph widths on resource pack change by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Angelica/pull/1944 (2.1.55)
+>* Add Uniforms for End Flashes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1892 (2.1.55)
+>* Handle some Intel driver shenanigans by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1951 (2.1.55)
+>* Fix at_midBlock at high coordinates by @SpacEagle17 in https://github.com/GTNewHorizons/Angelica/pull/1949 (2.1.55)
+>* Add some missing buffer redirects by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1953 (2.1.55)
+>* Properly gate end flash by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1954 (2.1.55)
+>* Fix plascrete/cleanroom trophy rendering by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1957 (2.1.55)
 >* Fix typo in PR template by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1937 (2.1.54)
 >* Add API for allowing other mods to have celeritas support by @tiffit in https://github.com/GTNewHorizons/Angelica/pull/1936 (2.1.54)
 >* Up default zoom speed to 20 by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1910 (2.1.53)
@@ -503,10 +510,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix replacements not having their delegate names set by @tiffit in https://github.com/GTNewHorizons/MalisisDoors/pull/30 (1.19.9-GTNH)
 
-# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.47-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.47-GTNH
+# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.48-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.48-GTNH
 
 ## What's Changed:
+>* Allow OC Transposer to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/66 (0.1.48-GTNH)
+>* feat: add fluid cell support by @hinyb in https://github.com/GTNewHorizons/MatterManipulator/pull/68 (0.1.48-GTNH)
+>* Allow AE2 Ultimate Pattern to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/69 (0.1.48-GTNH)
+>* MM Inventory Consumer with support for custom consumer by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/72 (0.1.48-GTNH)
 >* Fix MM pulling patterns from Arcane Assembler as if they were items by @tiffit in https://github.com/GTNewHorizons/MatterManipulator/pull/67 (0.1.47-GTNH)
 
 # Updated - Minecraft-Backpack-Mod - 2.6.13-GTNH --> 2.6.15-GTNH
@@ -704,10 +715,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
 
-# Updated - lwjgl3ify - 3.0.26 --> 3.0.28
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.26...3.0.28
+# Updated - lwjgl3ify - 3.0.26 --> 3.0.29
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.26...3.0.29
 
 ## What's Changed:
+>* Fix occasional black screen on startup caused by stale/zero framebuffer size by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/352 (3.0.29)
 >* Fix relauncher by @FalsePattern in https://github.com/GTNewHorizons/lwjgl3ify/pull/354 (3.0.28)
 
 # Updated - nei-custom-diagram - 1.8.30 --> 1.8.32
@@ -737,4 +749,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @Sanduhr32, @sbancuz, @SKProCH, @slprime, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @Sanduhr32, @sbancuz, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
