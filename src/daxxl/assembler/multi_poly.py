@@ -47,7 +47,7 @@ class MMCAssembler(GenericAssembler):
         self.mmc_modpack_files: Path = self.mmc_archive_root / ".minecraft"
         self.mmc_modpack_mods: Path = self.mmc_modpack_files / "mods"
 
-    def add_mods(
+    async def add_mods(
         self,
         side: Side,
         mods: list[tuple[GTNHModInfo, GTNHVersion]],
@@ -71,8 +71,9 @@ class MMCAssembler(GenericAssembler):
                 self.task_progress_callback(
                     self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
+            await self.yield_to_event_loop()
 
-    def add_config(
+    async def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
@@ -96,6 +97,7 @@ class MMCAssembler(GenericAssembler):
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+                await self.yield_to_event_loop()
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.mmc_modpack_files / self.changelog_path.name)
 
@@ -122,13 +124,13 @@ class MMCAssembler(GenericAssembler):
         await GenericAssembler.assemble(self, side, verbose)
 
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
-            self.add_localisation_files(archive, str(self.mmc_modpack_files.as_posix()))  # otherwise file check fails
+            await self.add_localisation_files(archive, str(self.mmc_modpack_files.as_posix()))  # otherwise file check fails
             # on windows
-            normalize_archive_permissions(archive)
+            await normalize_archive_permissions(archive)
 
-        self.add_mmc_meta_data(side)
+        await self.add_mmc_meta_data(side)
 
-    def add_mmc_meta_data(self, side: Side) -> None:
+    async def add_mmc_meta_data(self, side: Side) -> None:
         """
         Method used to add additional meta data to the mmc archive.
 
@@ -147,4 +149,4 @@ class MMCAssembler(GenericAssembler):
             with archive.open(str(self.mmc_archive_root) + "/gtnh_icon.png", "w") as target:
                 with open(MMC_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
                     shutil.copyfileobj(icon, target)
-            normalize_archive_permissions(archive)
+            await normalize_archive_permissions(archive)

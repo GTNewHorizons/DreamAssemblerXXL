@@ -1,3 +1,4 @@
+import asyncio
 import os
 import stat
 from functools import cache
@@ -34,7 +35,7 @@ def _get_token(token_name: str, token_env: str, token_path: str) -> str:
     return os.getenv(token_env, "<unset>")
 
 
-def normalize_archive_permissions(archive: ZipFile) -> None:
+async def normalize_archive_permissions(archive: ZipFile) -> None:
     """
     Normalize a ZipFile with canonical unix permissions.
     Directories become 0o777 and files 0o644 (Or 0o755 if file is flagged as executable).
@@ -50,6 +51,7 @@ def normalize_archive_permissions(archive: ZipFile) -> None:
         else:
             perm = 0o755 if source_perm & 0o111 else 0o644
             zinfo.external_attr = (stat.S_IFREG | perm) << 16
+        await asyncio.sleep(0)
 
 
 def atomic_write_text(path: Path, data: str) -> None:

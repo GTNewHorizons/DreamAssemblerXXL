@@ -47,7 +47,7 @@ class ZipAssembler(GenericAssembler):
             changelog_path=changelog_path,
         )
 
-    def add_mods(
+    async def add_mods(
         self,
         side: Side,
         mods: list[tuple[GTNHModInfo, GTNHVersion]],
@@ -65,25 +65,25 @@ class ZipAssembler(GenericAssembler):
                         extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
                         archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
 
-            if self.task_progress_callback is None:
-                continue
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(
+                    self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
+                )
+            await self.yield_to_event_loop()
 
-            self.task_progress_callback(
-                self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
-            )
-
-    def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand, side: Side) -> None:
+    async def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand, side: Side) -> None:
         assets = self.get_server_assets(server_brand, side)
 
         for asset in assets:
             archive.write(asset, arcname=asset.relative_to(SERVER_ASSETS_DIR / server_brand.value))
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.get_progress(), f"adding server asset {asset.name} to the archive")
+            await self.yield_to_event_loop()
 
         # server.properties
         archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(self.release.version))
 
-    def add_config(
+    async def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
@@ -102,6 +102,7 @@ class ZipAssembler(GenericAssembler):
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+                await self.yield_to_event_loop()
 
         self.add_changelog(archive)
 
@@ -133,13 +134,13 @@ class ZipAssembler(GenericAssembler):
         if side.is_server():
             log.info("Adding server assets to the server release.")
             with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
-                self.add_server_assets(archive, server_brand, side)
-                normalize_archive_permissions(archive)
+                await self.add_server_assets(archive, server_brand, side)
+                await normalize_archive_permissions(archive)
         if side.is_client():
             log.info("Adding locales to client release.")
             with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
-                self.add_localisation_files(archive)
-                normalize_archive_permissions(archive)
+                await self.add_localisation_files(archive)
+                await normalize_archive_permissions(archive)
 
     def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
         """

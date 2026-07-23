@@ -107,14 +107,17 @@ class TechnicAssembler(GenericAssembler):
 
         with ZipFile(updated_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            self.add_mods(
+            await self.add_mods(
                 side, self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS), archive, verbose=verbose
             )
+            await self.yield_to_event_loop()
             log.info("Adding config to the archive")
-            self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.yield_to_event_loop()
             log.info("Generating the readme for the modpack repo")
             self.generate_readme()
-            normalize_archive_permissions(archive)
+            await self.yield_to_event_loop()
+            await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
         log.info(
@@ -123,10 +126,11 @@ class TechnicAssembler(GenericAssembler):
 
         with ZipFile(new_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            self.add_mods(
+            await self.add_mods(
                 side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose
             )
-            normalize_archive_permissions(archive)
+            await self.yield_to_event_loop()
+            await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
         with open(removed_modlist_name, "w") as file:
@@ -185,7 +189,7 @@ class TechnicAssembler(GenericAssembler):
 
         return mods
 
-    def add_mods(
+    async def add_mods(
         self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
 
@@ -198,7 +202,7 @@ class TechnicAssembler(GenericAssembler):
             # set up temp zip
             with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
                 temp_zip.write(source_file, arcname=archive_path)
-                normalize_archive_permissions(temp_zip)
+                await normalize_archive_permissions(temp_zip)
 
             archive.write(
                 temp_zip_path,
@@ -209,12 +213,13 @@ class TechnicAssembler(GenericAssembler):
                 self.task_progress_callback(
                     self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
+            await self.yield_to_event_loop()
 
         # deleting temp zip
         if temp_zip_path.exists():
             temp_zip_path.unlink()
 
-    def add_config(
+    async def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
 
@@ -244,13 +249,14 @@ class TechnicAssembler(GenericAssembler):
 
                             if self.task_progress_callback is not None:
                                 self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+                    await self.yield_to_event_loop()
 
             # adding the locales
-            self.add_localisation_files(temp_zip)
+            await self.add_localisation_files(temp_zip)
 
             self.add_changelog(temp_zip)
 
-            normalize_archive_permissions(temp_zip)
+            await normalize_archive_permissions(temp_zip)
 
         # writing the config zip in the technic archive
         archive.write(

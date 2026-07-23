@@ -603,7 +603,7 @@ class ReleaseController:
         self.global_callback(self.get_progress(), "Generating the dependencies.json")
         await release_assembler.curse_assembler.generate_json_dep(task_progressbar)
         self.global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
-        release_assembler.curse_assembler.generate_mods_to_upload(task_progressbar)
+        await release_assembler.curse_assembler.generate_mods_to_upload(task_progressbar)
 
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """

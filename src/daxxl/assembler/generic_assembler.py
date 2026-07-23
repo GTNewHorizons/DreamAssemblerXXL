@@ -1,3 +1,4 @@
+import asyncio
 import os
 import shutil
 from pathlib import Path
@@ -72,6 +73,10 @@ class GenericAssembler:
         :return: None
         """
         self.delta_progress = delta_progress
+
+    @staticmethod
+    async def yield_to_event_loop() -> None:
+        await asyncio.sleep(0)
 
     def get_amount_of_files_in_config(self, side: Side) -> int:
         """
@@ -179,7 +184,7 @@ class GenericAssembler:
         assert version
         return config, version
 
-    def add_mods(
+    async def add_mods(
         self,
         side: Side,
         mods: list[tuple[GTNHModInfo, GTNHVersion]],
@@ -197,7 +202,7 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
-    def add_config(
+    async def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
@@ -233,12 +238,15 @@ class GenericAssembler:
 
         with ZipFile(self.get_archive_path(side), "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
+            await self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
+            await self.yield_to_event_loop()
             log.info("Adding config to the archive")
-            self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.yield_to_event_loop()
             log.info("Generating the readme for the modpack repo")
             self.generate_readme()
-            normalize_archive_permissions(archive)
+            await self.yield_to_event_loop()
+            await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
     def get_archive_path(self, side: Side) -> Path:
@@ -317,7 +325,7 @@ class GenericAssembler:
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))
 
-    def add_localisation_files(self, archive: ZipFile, root_path: Optional[str] = None) -> None:
+    async def add_localisation_files(self, archive: ZipFile, root_path: Optional[str] = None) -> None:
         """
         Method adding the localisation files found in the cache.
 
@@ -348,3 +356,4 @@ class GenericAssembler:
                                     self.get_progress(),
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
+                    await self.yield_to_event_loop()

@@ -147,16 +147,21 @@ class CurseAssembler(GenericAssembler):
 
         with ZipFile(self.get_archive_path(side), "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding config to the archive")
-            self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.yield_to_event_loop()
             log.info("Adding manifest.json to the archive")
             self.generate_meta_data(side, archive)
+            await self.yield_to_event_loop()
             log.info("Adding dependencies.json to the archive")
             await self.add_dep_file_to_archive(archive)
+            await self.yield_to_event_loop()
             log.info("Adding overrides to the archive")
             self.add_overrides(side, archive)
+            await self.yield_to_event_loop()
             log.info("Adding locales to the archive")
-            self.add_localisation_files(archive, str(self.overrides_folder))
-            normalize_archive_permissions(archive)
+            await self.add_localisation_files(archive, str(self.overrides_folder))
+            await self.yield_to_event_loop()
+            await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
     def add_overrides(self, side: Side, archive: ZipFile) -> None:
@@ -176,7 +181,7 @@ class CurseAssembler(GenericAssembler):
         archive_path: Path = self.overrides_folder / "mods" / source_file.name
         archive.write(source_file, arcname=archive_path)
 
-    def add_config(
+    async def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
@@ -200,6 +205,7 @@ class CurseAssembler(GenericAssembler):
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+                await self.yield_to_event_loop()
 
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
@@ -223,7 +229,7 @@ class CurseAssembler(GenericAssembler):
         if self.task_progress_callback is not None:
             self.task_progress_callback(self.get_progress(), f"adding {self.dependencies_json} to the archive")
 
-    def generate_mods_to_upload(self, task_progressbar: CustomProgressBar) -> None:
+    async def generate_mods_to_upload(self, task_progressbar: CustomProgressBar) -> None:
         """
         Generates the mods to upload on the download server listed in the dependencies.json
 
@@ -242,7 +248,8 @@ class CurseAssembler(GenericAssembler):
                         progress, f"Adding {mod.name} to the archives of the mods to be uploaded"
                     )
                 file.write(path, arcname=path.name)
-            normalize_archive_permissions(file)
+                await self.yield_to_event_loop()
+            await normalize_archive_permissions(file)
         if task_progressbar is not None:
             task_progressbar.add_progress(1, "Done!")
 
@@ -282,6 +289,7 @@ class CurseAssembler(GenericAssembler):
                 if task_progressbar is not None:
                     task_progressbar.add_progress(progress, f"Adding {mod.name} to dependencies.json")
                 dep_json.append(mod_obj)
+            await self.yield_to_event_loop()
         self.tempfile.parent.mkdir(parents=True, exist_ok=True)
         with open(self.tempfile, "w") as temp:
             dump(dep_json, temp, indent=2)
