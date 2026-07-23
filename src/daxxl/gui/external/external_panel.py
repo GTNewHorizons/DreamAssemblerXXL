@@ -6,6 +6,7 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from daxxl.defs import Position, Side
+from daxxl.exceptions import InvalidModVersionException
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -241,7 +242,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
-        assert latest_version
+        if latest_version is None:
+            raise InvalidModVersionException
         external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
         current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 

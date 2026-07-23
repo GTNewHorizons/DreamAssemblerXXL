@@ -10,6 +10,7 @@ from colorama import Fore
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
 from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
+from daxxl.exceptions import InvalidConfigException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
@@ -181,7 +182,8 @@ class GenericAssembler:
 
         config: GTNHConfig = self.modpack_manager.assets.config
         version: Optional[GTNHVersion] = config.get_version(self.release.config)
-        assert version
+        if version is None:
+            raise InvalidConfigException
         return config, version
 
     async def add_mods(
