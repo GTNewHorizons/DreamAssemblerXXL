@@ -636,22 +636,40 @@ class ReleaseController:
 
         :return: None
         """
-        self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
+        delta: float = 100 / 9  # download + 5 client platforms + java9 prism + java9 server zip + server zip
+        self.set_progress(delta)
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        release_assembler.set_progress(self.get_progress())
+        release_assembler.set_progress(delta)
 
-        await release_assembler.assemble(Side.CLIENT, verbose=True)
+        assemblers = {
+            Archive.ZIP: release_assembler.assemble_zip,
+            Archive.PRISM: release_assembler.assemble_prism,
+            Archive.TECHNIC: release_assembler.assemble_technic,
+            Archive.CURSEFORGE: release_assembler.assemble_curse,
+            Archive.MODRINTH: release_assembler.assemble_modrinth,
+        }
 
-        await self.assemble_release(Side.CLIENT_JAVA9, Archive.PRISM)
-        await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
+        for archive_type in (Archive.ZIP, Archive.PRISM, Archive.TECHNIC, Archive.CURSEFORGE, Archive.MODRINTH):
+            if release_assembler.current_task_reset_callback is not None:
+                release_assembler.current_task_reset_callback()
+            self.global_callback(delta, f"Assembling {Side.CLIENT} {archive_type.value} archive")
+            await assemblers[archive_type](side=Side.CLIENT, verbose=True)
 
-        # todo: redo the bar resets less hacky: they are spread all over the place and it's inconsistent
         if release_assembler.current_task_reset_callback is not None:
             release_assembler.current_task_reset_callback()
+        self.global_callback(delta, f"Assembling {Side.CLIENT_JAVA9} Prism archive")
+        await release_assembler.assemble_prism(side=Side.CLIENT_JAVA9, verbose=True)
 
-        self.global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
-        await release_assembler.assemble_zip(Side.SERVER, verbose=True)
+        if release_assembler.current_task_reset_callback is not None:
+            release_assembler.current_task_reset_callback()
+        self.global_callback(delta, f"Assembling {Side.SERVER_JAVA9} Zip archive")
+        await release_assembler.assemble_zip(side=Side.SERVER_JAVA9, verbose=True)
+
+        if release_assembler.current_task_reset_callback is not None:
+            release_assembler.current_task_reset_callback()
+        self.global_callback(delta, f"Assembling {Side.SERVER} Zip archive")
+        await release_assembler.assemble_zip(side=Side.SERVER, verbose=True)
 
     async def assemble_beta(self) -> None:
         """
@@ -664,11 +682,19 @@ class ReleaseController:
 
         release_assembler.set_progress(self.get_progress())
 
-        # zip archives
-        await self.assemble_release(Side.CLIENT, Archive.ZIP)
-        await self.assemble_release(Side.SERVER, Archive.ZIP)
-        await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
+        assemblers = {
+            Archive.ZIP: release_assembler.assemble_zip,
+            Archive.PRISM: release_assembler.assemble_prism,
+        }
 
-        # Prism archives
-        await self.assemble_release(Side.CLIENT, Archive.PRISM)
-        await self.assemble_release(Side.CLIENT_JAVA9, Archive.PRISM)
+        for side, archive_type in [
+            (Side.CLIENT, Archive.ZIP),
+            (Side.SERVER, Archive.ZIP),
+            (Side.SERVER_JAVA9, Archive.ZIP),
+            (Side.CLIENT, Archive.PRISM),
+            (Side.CLIENT_JAVA9, Archive.PRISM),
+        ]:
+            if release_assembler.current_task_reset_callback is not None:
+                release_assembler.current_task_reset_callback()
+            self.global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
+            await assemblers[archive_type](side=side, verbose=True)
