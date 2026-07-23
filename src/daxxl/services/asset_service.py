@@ -32,11 +32,11 @@ log = get_logger(__name__)
 
 
 class AssetService:
-    def __init__(self, gh_client: GitHubClient, gh: GitHubAPI, org: str, assets: AvailableAssets) -> None:
+    def __init__(self, gh_client: GitHubClient, gh: GitHubAPI, org: str) -> None:
         self.gh_client = gh_client
         self.gh = gh
         self.org = org
-        self.assets = assets
+        self.assets = self.load_assets()
 
     @property
     def gtnh_asset_manifest_path(self) -> Path:

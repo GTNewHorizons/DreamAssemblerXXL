@@ -43,14 +43,14 @@ class GTNHModpackManager:
     """
 
     def __init__(self, client: AsyncClient) -> None:
-        self.assets: AvailableAssets = self.load_assets()
-        self.mod_pack: GTNHModpack = self.load_modpack()
-        self.blacklisted_repos = self.load_blacklisted_repos()
         self.org = "GTNewHorizons"
         self.client = client
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
         self.gh_client = GitHubClient(self.client, self.org)
-        self.asset_service = AssetService(self.gh_client, self.gh, self.org, self.assets)
+        self.asset_service = AssetService(self.gh_client, self.gh, self.org)
+        self.assets: AvailableAssets = self.load_assets()
+        self.mod_pack: GTNHModpack = self.load_modpack()
+        self.blacklisted_repos = self.load_blacklisted_repos()
         self.counter = CounterService(self.assets, self.asset_service.save_assets)
         self.downloader = DownloadService(self.client, self.assets)
         self.release_service = ReleaseService(self.mod_pack)
