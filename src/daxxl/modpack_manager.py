@@ -312,7 +312,7 @@ class GTNHModpackManager:
 
         await self.update_versions_from_repo(versionable, repo, for_translation=True)
 
-        self.needs_attention = False
+        versionable.needs_attention = False
         log.debug(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
 
         return True
