@@ -618,17 +618,25 @@ class ReleaseController:
 
         :return: None
         """
-        self.set_progress(100 / 2)
+        phase_count: int = 3 if archive_type == Archive.TECHNIC else 2
+        self.set_progress(100 / phase_count)
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
-        assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
-            Archive.ZIP: release_assembler.assemble_zip,
-            Archive.PRISM: release_assembler.assemble_prism,
-            Archive.MODRINTH: release_assembler.assemble_modrinth,
-            Archive.CURSEFORGE: release_assembler.assemble_curse,
-            Archive.TECHNIC: release_assembler.assemble_technic,
-        }
+
         self.global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
-        await assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
+
+        if archive_type == Archive.TECHNIC:
+            await release_assembler.assemble_technic(
+                side=side, verbose=True,
+                global_step_callback=lambda msg: self.global_callback(self.get_progress(), msg),
+            )
+        else:
+            assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
+                Archive.ZIP: release_assembler.assemble_zip,
+                Archive.PRISM: release_assembler.assemble_prism,
+                Archive.MODRINTH: release_assembler.assemble_modrinth,
+                Archive.CURSEFORGE: release_assembler.assemble_curse,
+            }
+            await assembler_dict[archive_type](side=side, verbose=True)
 
     async def assemble_all(self) -> None:
         """

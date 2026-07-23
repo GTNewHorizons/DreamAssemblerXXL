@@ -34,6 +34,7 @@ class GenericAssembler:
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
         changelog_path: Optional[Path] = None,
+        current_task_reset_callback: Optional[Callable[[], None]] = None,
     ):
         """
         Constructor of the GenericAssembler class.
@@ -42,12 +43,14 @@ class GenericAssembler:
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
+        :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
         self.modpack_manager: GTNHModpackManager = gtnh_modpack
         self.release: GTNHRelease = release
         self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
         self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
         self.changelog_path: Optional[Path] = changelog_path
+        self.current_task_reset_callback: Optional[Callable[[], None]] = current_task_reset_callback
 
         mod_pack = self.modpack_manager.mod_pack
         self.exclusions: Dict[str, Exclusions] = {

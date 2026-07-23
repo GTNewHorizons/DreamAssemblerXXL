@@ -55,7 +55,8 @@ class ReleaseAssemblerController:
             mod_manager, release, task_callback, changelog_path=changelog_path
         )
         self.technic_assembler: TechnicAssembler = TechnicAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
+            mod_manager, release, task_callback, changelog_path=changelog_path,
+            current_task_reset_callback=current_task_reset_callback,
         )
         self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
             mod_manager, release, task_callback, changelog_path=changelog_path
@@ -167,15 +168,19 @@ class ReleaseAssemblerController:
         """
         await self.modrinth_assembler.assemble(side, verbose)
 
-    async def assemble_technic(self, side: Side, verbose: bool = False) -> None:
+    async def assemble_technic(
+        self, side: Side, verbose: bool = False,
+        global_step_callback: Optional[Callable[[str], None]] = None,
+    ) -> None:
         """
         Method called to assemble the technic archive.
 
         :param side: targetted side
         :param verbose: flag to control verbose mode
+        :param global_step_callback: callback to advance the global bar between internal phases
         :return: None
         """
-        await self.technic_assembler.assemble(side, verbose)
+        await self.technic_assembler.assemble(side, verbose, global_step_callback=global_step_callback)
 
     # Changes to this method may need updates to utils.compress_changelog()
     def generate_changelog(self) -> Path:

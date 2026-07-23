@@ -55,6 +55,7 @@ class TechnicAssembler(GenericAssembler):
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
         changelog_path: Optional[Path] = None,
+        current_task_reset_callback: Optional[Callable[[], None]] = None,
     ):
         """
         Constructor of the TechnicAssembler class.
@@ -63,6 +64,7 @@ class TechnicAssembler(GenericAssembler):
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
+        :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
         GenericAssembler.__init__(
             self,
@@ -71,6 +73,7 @@ class TechnicAssembler(GenericAssembler):
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
             changelog_path=changelog_path,
+            current_task_reset_callback=current_task_reset_callback,
         )
 
     async def partial_assemble(self, side: Side, verbose: bool = False) -> None:
@@ -282,7 +285,10 @@ class TechnicAssembler(GenericAssembler):
     def get_removed_modlist_path(self) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(removed mods).txt"
 
-    async def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(
+        self, side: Side, verbose: bool = False,
+        global_step_callback: Optional[Callable[[str], None]] = None,
+    ) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
         log.info(f"packing technic launcher release for {self.release.version}")
@@ -298,4 +304,15 @@ class TechnicAssembler(GenericAssembler):
         await GenericAssembler.assemble(self, side, verbose)
 
         log.info(f"packing partial technic launcher release for {self.release.version}")
+        if global_step_callback is not None:
+            global_step_callback("Assembling partial Technic archive")
+        if self.current_task_reset_callback is not None:
+            self.current_task_reset_callback()
+        self.set_progress(100 / (
+            len(self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS))
+            + self.get_amount_of_files_in_config(side)
+            + self.get_amount_of_files_in_locales()
+            + 1  # changelog
+            + len(self.differential_update(side, DifferentialUpdateMode.NEW_MODS))
+        ))
         await self.partial_assemble(side, verbose)
