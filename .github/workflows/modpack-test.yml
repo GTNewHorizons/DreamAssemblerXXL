@@ -218,23 +218,13 @@ jobs:
         if: always() && steps.start-server.outcome == 'success'
         run: bash scripts/tests/orchestrator.sh stop-server
 
-      - name: Upload GregTech.lang
-        if: matrix.java-version == 26
-        shell: bash
-        run: |
-          set -euo pipefail
-          src="${{ env.WORK_DIR }}/client/.minecraft/GregTech.lang"
-          [ -f "$src" ] || { echo "GregTech.lang not found, skipping upload"; exit 0; }
-          mkdir -p /tmp/gregtech-lang
-          cp "$src" /tmp/gregtech-lang/GregTech.lang
-          echo "GREGTECH_LANG_FOUND=true" >> "$GITHUB_ENV"
-
       - name: Publish GregTech.lang artifact
-        if: matrix.java-version == 26 && env.GREGTECH_LANG_FOUND == 'true'
+        if: matrix.java-version == 26 && github.event_name == 'schedule'
         uses: actions/upload-artifact@v7
         with:
           name: gregtech-lang
-          path: /tmp/gregtech-lang/GregTech.lang
+          path: ${{ env.WORK_DIR }}/client/.minecraft/GregTech.lang
+          if-no-files-found: ignore
           retention-days: 14
 
       - name: Print logs from dual run
