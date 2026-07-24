@@ -17,11 +17,12 @@
 ## What's Changed:
 >* Use dedicated forge method instead of recreating part of the pipeline by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/56 (1.4.23-GTNH)
 
-# Updated - Angelica - 2.1.50 --> 2.1.55
+# Updated - Angelica - 2.1.50 --> 2.1.56
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.55
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.56
 
 ## What's Changed:
+>* Fix some CMEs and black screens seen during boot/splash.  Should be minimal overhead after splash. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1959 (2.1.56)
 >* Reload unicode glyph widths on resource pack change by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Angelica/pull/1944 (2.1.55)
 >* Add Uniforms for End Flashes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1892 (2.1.55)
 >* Handle some Intel driver shenanigans by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1951 (2.1.55)
@@ -185,10 +186,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Add visual keyboard and fix integration with lwjgl3ify by @Algent in https://github.com/GTNewHorizons/Controlling/pull/15 (2.1.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.100
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.100
+# Updated - CropsNH - 2.0.91 --> 2.0.101
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.101
 
 ## What's Changed:
+>* fix spelling of bamboo seeds by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/225 (2.0.101)
 >* Structure Tooltip API revert by @AnsonYeung in https://github.com/GTNewHorizons/CropsNH/pull/223 (2.0.100)
 >* Fix shading on the new crop breeder progress bar by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/218 (2.0.99)
 >* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/CropsNH/pull/217 (2.0.98)
@@ -214,10 +216,11 @@ Mod is client-side only.
 >* Add NHLib dep to @Mod by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/104 (1.5.29-GTNH)
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
-# Updated - EnderIO - 2.10.32 --> 2.10.34
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.34
+# Updated - EnderIO - 2.10.32 --> 2.10.35
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.35
 
 ## What's Changed:
+>* Fix crash when removing inventory from Inventory Panel network by @wlhlm in https://github.com/GTNewHorizons/EnderIO/pull/243 (2.10.35)
 >* Extend ColorUtil class colors by @Ranzuu in https://github.com/GTNewHorizons/EnderIO/pull/242 (2.10.34)
 >* fix: infinite speed and altitude using glider with elytra by @jordanamr in https://github.com/GTNewHorizons/EnderIO/pull/240 (2.10.33)
 
@@ -252,10 +255,15 @@ Mod is client-side only.
 ## What's Changed:
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.51
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.51
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.52
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.52
 
 ## What's Changed:
+>* fix fuel value formatter by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7547 (5.09.54.52)
+>* Add null check for EHE hot fluid input hatch explosion by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7548 (5.09.54.52)
+>* Skip generate description for BEC multis by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7550 (5.09.54.52)
+>* Make UHV+ Borosilicates Foggy, Add Transparent Alternatives by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7552 (5.09.54.52)
+>* Replace GTUtility.translateMultiline with GTSplit by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7539 (5.09.54.52)
 >* Fix Structurelib mixing Pyro and Cryo Hatch due to same base class by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7542 (5.09.54.51)
 >* make Acid Gen recipes cell capacity aware by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7536 (5.09.54.50)
 >* Fix Vacuum Freezer holo build + Move Pyro Hatch to HatchElement by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7540 (5.09.54.50)
@@ -533,10 +541,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/74 (2.3.4)
 
-# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.81-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.81-1.7.10
+# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.82-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.82-1.7.10
 
 ## What's Changed:
+>* Fix fluid display widget rendering empty FluidStacks as full by @tiffit in https://github.com/GTNewHorizons/ModularUI2/pull/152 (2.3.82-1.7.10)
 >* Fix BigDecimal parsing failures leaking through expression evaluation by @vnesterovskyi in https://github.com/GTNewHorizons/ModularUI2/pull/151 (2.3.81-1.7.10)
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
 
@@ -715,10 +724,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
 
-# Updated - lwjgl3ify - 3.0.26 --> 3.0.29
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.26...3.0.29
+# Updated - lwjgl3ify - 3.0.26 --> 3.0.30
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.26...3.0.30
 
 ## What's Changed:
+>* Update RFB for thread safety by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/356 (3.0.30)
 >* Fix occasional black screen on startup caused by stale/zero framebuffer size by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/352 (3.0.29)
 >* Fix relauncher by @FalsePattern in https://github.com/GTNewHorizons/lwjgl3ify/pull/354 (3.0.28)
 
