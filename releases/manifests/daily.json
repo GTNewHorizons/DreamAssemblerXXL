@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-24T06:08:18.215598+00:00",
-  "config": "2.9.0-nightly-2026-07-22",
+  "last_updated": "2026-07-25T05:59:58.360718+00:00",
+  "config": "2.9.0-nightly-2026-07-25",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.23-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1017-GTNH",
+      "version": "rv3-beta-1019-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.52",
+      "version": "5.09.54.53",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.31",
+      "version": "0.11.32",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.12.2",
+      "version": "1.12.3",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.31",
+      "version": "1.6.32",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -593,7 +593,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.17",
+      "version": "1.4.18",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "Controlling": {
-      "version": "2.1.8",
+      "version": "2.1.9",
       "side": "CLIENT"
     },
     "BuildCraftOilTweak": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.1.5",
+      "version": "1.1.6",
       "side": "BOTH"
     },
     "ModularUI2": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.48-GTNH",
+      "version": "0.1.49-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {

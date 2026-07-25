@@ -39,10 +39,12 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1017-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1017-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1019-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1019-GTNH
 
 ## What's Changed:
+>* Refactor/hqa update to v2 structures by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1467 (rv3-beta-1019-GTNH)
+>* Maybe more thread safe renderpass by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1465 (rv3-beta-1018-GTNH)
 >* Add option to disable Interface Terminal search autofocus by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1464 (rv3-beta-1017-GTNH)
 >* Mark all tests using NBT structures with numeric item IDs as optional… by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1463 (rv3-beta-1016-GTNH)
 >* Fix storage bus cache reset downgrade by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1453 (rv3-beta-1015-GTNH)
@@ -114,6 +116,12 @@ Mod is client-side only.
 >* Implement ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/Binnie/pull/106 (2.6.36)
 >* Rename "Gingko" to "Ginkgo" by @Ranzuu in https://github.com/GTNewHorizons/Binnie/pull/105 (2.6.35)
 
+# Updated - BlockRenderer6343 - 1.4.17 --> 1.4.18
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.17...1.4.18
+
+## What's Changed:
+>* Raise Max Tier Check Limit by @Auynonymous in https://github.com/GTNewHorizons/BlockRenderer6343/pull/56 (1.4.18)
+
 # Updated - BloodMagic - 1.9.4 --> 1.9.9
 **Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.4...1.9.9
 
@@ -179,11 +187,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Additional thread saftey for CCL by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenCore/pull/50 (1.4.17)
 
-# Updated - Controlling - 2.1.7 --> 2.1.8
+# Updated - Controlling - 2.1.7 --> 2.1.9
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/2.1.7...2.1.8
+**Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/2.1.7...2.1.9
 
 ## What's Changed:
+>* Add required PR gate workflow by @MalTeeez in https://github.com/GTNewHorizons/Controlling/pull/21 (2.1.9)
 >* Add visual keyboard and fix integration with lwjgl3ify by @Algent in https://github.com/GTNewHorizons/Controlling/pull/15 (2.1.8)
 
 # Updated - CropsNH - 2.0.91 --> 2.0.101
@@ -255,10 +264,16 @@ Mod is client-side only.
 ## What's Changed:
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.52
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.52
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.53
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.53
 
 ## What's Changed:
+>* Allow disable StackWatcher via config by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7511 (5.09.54.53)
+>* Fix color swatch tooltip only showing on 1px border by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7556 (5.09.54.53)
+>* [Fix] actually update last working tick of water line after cycle ends by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7557 (5.09.54.53)
+>* Arc furnace changes by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7545 (5.09.54.53)
+>* Fix energy cover on fusion reactors by @daxsc in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7543 (5.09.54.53)
+>* Fix Better Jukebox looping vanilla music discs by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7560 (5.09.54.53)
 >* fix fuel value formatter by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7547 (5.09.54.52)
 >* Add null check for EHE hot fluid input hatch explosion by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7548 (5.09.54.52)
 >* Skip generate description for BEC multis by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7550 (5.09.54.52)
@@ -413,10 +428,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Enable shadow dependencies by @SuperSoupr in https://github.com/GTNewHorizons/GTNH-Credits/pull/19 (1.3.2)
 
-# Updated - GTNHLib - 0.11.24 --> 0.11.31
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.31
+# Updated - GTNHLib - 0.11.24 --> 0.11.32
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.32
 
 ## What's Changed:
+>* Add more annotations & documentation to TeamManager by @Sanduhr32 in https://github.com/GTNewHorizons/GTNHLib/pull/432 (0.11.32)
 >* Add bukkit compatibility Layer by @RealSilverMoon in https://github.com/GTNewHorizons/GTNHLib/pull/423 (0.11.31)
 >* Port 2d & 3d maps & sets from CC by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/426 (0.11.30)
 >* Suggest offline team members for kick, promote and demote by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/424 (0.11.29)
@@ -464,6 +480,12 @@ Mod is client-side only.
 >* Set f1ShowHand default config to false by @SuperSoupr in https://github.com/GTNewHorizons/Hodgepodge/pull/946 (2.7.172)
 >* Fix controls menu crash when keybind categories share a localized name by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/943 (2.7.171)
 
+# Updated - IFU - 1.12.2 --> 1.12.3
+**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.12.2...1.12.3
+
+## What's Changed:
+>* Use StatCollector directly instead of removed GTUtility.translate by @Eldrinn-Elantey in https://github.com/GTNewHorizons/IFU/pull/30 (1.12.3)
+
 # Updated - IguanaTweaksTConstruct - 2.7.10 --> 2.7.11
 **Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.7.10...2.7.11
 
@@ -491,10 +513,17 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.6.30 --> 1.6.31
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.31
+# Updated - LittleTiles - 1.6.30 --> 1.6.32
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.32
 
 ## What's Changed:
+>* Mini optimize by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/116 (1.6.32)
+>* Only cut edges that really cut the mesh by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/117 (1.6.32)
+>* Speed up tile splitting by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/113 (1.6.32)
+>* Better edge sorting loop by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/114 (1.6.32)
+>* Add various new shapes by @S4mpsa in https://github.com/GTNewHorizons/LittleTiles/pull/118 (1.6.32)
+>* Improve raycast to only detect slopes when player looks at their geometry by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/112 (1.6.32)
+>* Fix Collision corner cases by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/115 (1.6.32)
 >* Slope placement by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/105 (1.6.31)
 >* Round slopes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/65 (1.6.31)
 
@@ -518,10 +547,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix replacements not having their delegate names set by @tiffit in https://github.com/GTNewHorizons/MalisisDoors/pull/30 (1.19.9-GTNH)
 
-# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.48-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.48-GTNH
+# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.49-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.49-GTNH
 
 ## What's Changed:
+>* Allow OC APU and Floppies to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/71 (0.1.49-GTNH)
+>* Move Mode Edit Transform Option by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/73 (0.1.49-GTNH)
 >* Allow OC Transposer to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/66 (0.1.48-GTNH)
 >* feat: add fluid cell support by @hinyb in https://github.com/GTNewHorizons/MatterManipulator/pull/68 (0.1.48-GTNH)
 >* Allow AE2 Ultimate Pattern to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/69 (0.1.48-GTNH)
@@ -549,10 +580,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix BigDecimal parsing failures leaking through expression evaluation by @vnesterovskyi in https://github.com/GTNewHorizons/ModularUI2/pull/151 (2.3.81-1.7.10)
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
 
-# Updated - Navigator - 1.1.4 --> 1.1.5
-**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.4...1.1.5
+# Updated - Navigator - 1.1.4 --> 1.1.6
+**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.4...1.1.6
 
 ## What's Changed:
+>* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
 # Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.21
@@ -759,4 +791,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @Sanduhr32, @sbancuz, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
