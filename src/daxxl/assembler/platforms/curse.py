@@ -210,11 +210,11 @@ class CurseAssembler(GenericAssembler):
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
-    def strip_curse_mods_from_mod_list(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
-        def should_exclude(mod: GTNHModInfo, version: GTNHVersion) -> bool:
+    def get_list_of_mods_to_upload(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+        def should_upload(mod: GTNHModInfo, version: GTNHVersion) -> bool:
             return not (mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version))
 
-        return [(mod, version) for mod, version in self.get_mods(side) if should_exclude(mod, version)]
+        return [(mod, version) for mod, version in self.get_mods(side) if should_upload(mod, version)]
 
     async def add_dep_file_to_archive(self, archive: ZipFile) -> None:
         """
@@ -239,7 +239,7 @@ class CurseAssembler(GenericAssembler):
         if task_progressbar is not None:
             task_progressbar.reset()
         with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as f:
-            mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
+            mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
             progress = 100.0 / len(mod_list)
             for mod, version in mod_list:
                 path: Path = get_asset_version_cache_location(mod, version)
@@ -264,7 +264,7 @@ class CurseAssembler(GenericAssembler):
         if task_progressbar is not None:
             task_progressbar.reset()
         async with httpx.AsyncClient(http2=True) as client:
-            mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
+            mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
             progress = 100.0 / len(mod_list)
 
             for mod, version in mod_list:
