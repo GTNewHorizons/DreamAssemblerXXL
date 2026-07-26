@@ -194,8 +194,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         return self._width
 
     @width.setter
-    def width(self, width: int) -> None:
-        self._width = width
+    def width(self, value: int) -> None:
+        self._width = value
         self.mod_info_frame.width = self._width
         self.configure_widgets()
 

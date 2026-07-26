@@ -74,8 +74,8 @@ class ReleaseAssemblerController:
         return self.delta_progress
 
     @progress.setter
-    def progress(self, progress: float) -> None:
-        self.delta_progress = progress
+    def progress(self, value: float) -> None:
+        self.delta_progress = value
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """

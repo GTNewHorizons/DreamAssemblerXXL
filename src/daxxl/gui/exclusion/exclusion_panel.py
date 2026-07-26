@@ -135,8 +135,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         return self._width
 
     @width.setter
-    def width(self, width: int) -> None:
-        self._width = width
+    def width(self, value: int) -> None:
+        self._width = value
         self.configure_widgets()
 
     def update_widget(self) -> None:
