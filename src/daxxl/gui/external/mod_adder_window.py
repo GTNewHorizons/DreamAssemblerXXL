@@ -7,6 +7,7 @@ from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Optional
 
+from daxxl.app_context import AppContext
 from daxxl.defs import ModSource, Side
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.radio_choice import RadioChoice
@@ -14,7 +15,6 @@ from daxxl.gui.lib.text_entry import TextEntry
 from daxxl.models import versionable
 from daxxl.models.gtnh_version import CurseFile, GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.app_context import AppContext
 
 
 class Sources(int, Enum):

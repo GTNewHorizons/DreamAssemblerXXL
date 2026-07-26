@@ -1,10 +1,10 @@
 from pathlib import Path
 from typing import Callable, Optional
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_MODRINTH_DIR, Side
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.app_context import AppContext
 
 
 class ModrinthAssembler(GenericAssembler):

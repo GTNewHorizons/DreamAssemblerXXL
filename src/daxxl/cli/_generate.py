@@ -1,8 +1,8 @@
 import httpx
 
+from daxxl.app_context import AppContext
 from daxxl.defs import DevRelease
 from daxxl.gtnh_logger import get_logger
-from daxxl.app_context import AppContext
 
 log = get_logger(__name__)
 
@@ -20,7 +20,9 @@ async def generate_release(
             context.counter.increment_dev_build_id(
                 dev_release
             )  # assets need to be uploaded even if the build crashes, it tracks the build id
-        _, update_errors = await context.update_service.update_rolling_release(dev_release, update_available=update_available)
+        _, update_errors = await context.update_service.update_rolling_release(
+            dev_release, update_available=update_available
+        )
         if update_errors:
             log.warn(f"{len(update_errors)} asset(s) failed to update, see errors above")
         context.asset_service.save_assets()

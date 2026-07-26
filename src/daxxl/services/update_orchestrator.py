@@ -84,7 +84,7 @@ class AssetUpdateOrchestrator:
             if assets_to_update and asset.name not in assets_to_update:
                 if progress_callback is not None:
                     progress_callback(delta_progress, "")
-                continue # skipped mod is part of the process so we update the progress
+                continue  # skipped mod is part of the process so we update the progress
 
             repo = all_repos.get(asset.name)
 

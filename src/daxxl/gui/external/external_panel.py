@@ -5,6 +5,7 @@ from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Optional
 
+from daxxl.app_context import AppContext
 from daxxl.defs import Position, Side
 from daxxl.exceptions import InvalidModVersionException
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
@@ -15,7 +16,6 @@ from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.app_context import AppContext
 
 
 class ExternalPanelCallback(ModInfoCallback):

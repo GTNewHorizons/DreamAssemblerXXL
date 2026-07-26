@@ -1,10 +1,10 @@
 from colorama import Fore
 from httpx import AsyncClient
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import DevRelease, Side
 from daxxl.gtnh_logger import get_logger
-from daxxl.app_context import AppContext
 
 log = get_logger(__name__)
 
@@ -27,6 +27,4 @@ async def assemble_dev_release(dev_release: DevRelease, verbose: bool) -> None:
     await assembler.assemble_prism(Side.CLIENT, verbose=verbose)
     await assembler.assemble_prism(Side.CLIENT_JAVA9, verbose=verbose)
 
-    context.counter.set_last_successful_dev_build_id(
-        dev_release, context.counter.get_dev_release_count(dev_release)
-    )
+    context.counter.set_last_successful_dev_build_id(dev_release, context.counter.get_dev_release_count(dev_release))

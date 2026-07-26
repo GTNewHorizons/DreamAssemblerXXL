@@ -2,10 +2,10 @@ import asyncclick as click
 from colorama import Fore
 from httpx import AsyncClient
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import Side
 from daxxl.gtnh_logger import get_logger
-from daxxl.app_context import AppContext
 
 log = get_logger(__name__)
 

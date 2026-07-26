@@ -3,8 +3,8 @@ import asyncclick as click
 import httpx
 from colorama import Fore, Style, init
 
-from daxxl.gtnh_logger import get_logger
 from daxxl.app_context import AppContext
+from daxxl.gtnh_logger import get_logger
 
 log = get_logger(__name__)
 

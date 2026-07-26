@@ -7,6 +7,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
 from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
@@ -16,7 +17,6 @@ from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.app_context import AppContext
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)

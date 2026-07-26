@@ -1,6 +1,7 @@
 from pathlib import Path
 from typing import Awaitable, Callable, Optional
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.platforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
 from daxxl.defs import (
     RELEASE_CHANGELOG_DAILY_BUILDS_DIR,
@@ -12,7 +13,6 @@ from daxxl.defs import (
 )
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.app_context import AppContext
 
 log = get_logger(__name__)
 
@@ -46,9 +46,7 @@ class ReleaseAssemblerController:
 
         changelog_path: Path = self.generate_changelog()
 
-        self.zip_assembler: ZipAssembler = ZipAssembler(
-            context, release, task_callback, changelog_path=changelog_path
-        )
+        self.zip_assembler: ZipAssembler = ZipAssembler(context, release, task_callback, changelog_path=changelog_path)
         self.prism_assembler: PrismAssembler = PrismAssembler(
             context, release, task_callback, changelog_path=changelog_path
         )

@@ -5,6 +5,7 @@ from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Optional
 
+from daxxl.app_context import AppContext
 from daxxl.defs import Position, Side
 from daxxl.exceptions import InvalidModVersionException, RepoNotFoundException
 from daxxl.gui.lib.button import CustomButton
@@ -16,7 +17,6 @@ from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.app_context import AppContext
 
 
 class GithubPanelCallback(ModInfoCallback):

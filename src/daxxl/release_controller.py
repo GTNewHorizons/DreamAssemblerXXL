@@ -4,6 +4,7 @@ from typing import Any, Awaitable, Callable, Optional
 import httpx
 from colorama import Fore
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import Archive, DevRelease, ModSource, Side
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
@@ -13,7 +14,6 @@ from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.app_context import AppContext
 
 logger = get_logger(__name__)
 
