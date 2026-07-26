@@ -89,7 +89,7 @@ class CounterService:
         else:
             raise NotImplementedError(f"{kind} dev release is not yet supported")
         self._save()
-        log.info(f"last successful build set to {id}")
+        log.info(f"last successful build set to {build_id}")
 
     def get_last_successful_dev_build_id(self, kind: DevRelease) -> int:
         """
