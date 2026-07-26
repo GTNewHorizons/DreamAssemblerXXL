@@ -8,7 +8,8 @@ class CustomWidget:
     def get_description(self) -> str:
         return self.label_text
 
-    def get_description_size(self) -> int:
+    @property
+    def description_size(self) -> int:
         return len(self.label_text)
 
     def grid(self, *args: Any, **kwargs: Any) -> None:

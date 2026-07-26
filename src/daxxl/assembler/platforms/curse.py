@@ -134,7 +134,7 @@ class CurseAssembler(GenericAssembler):
         delta_progress: float = 100 / (
             2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1
         )
-        self.set_progress(delta_progress)
+        self.progress = delta_progress
 
         archive_name: Path = self.get_archive_path(side)
 
@@ -204,7 +204,7 @@ class CurseAssembler(GenericAssembler):
                         # every folder.
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+                            self.task_progress_callback(self.progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
 
         assert self.changelog_path
@@ -227,7 +227,7 @@ class CurseAssembler(GenericAssembler):
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
         if self.task_progress_callback is not None:
-            self.task_progress_callback(self.get_progress(), f"adding {self.dependencies_json} to the archive")
+            self.task_progress_callback(self.progress, f"adding {self.dependencies_json} to the archive")
 
     async def generate_mods_to_upload(self, task_progressbar: CustomProgressBar) -> None:
         """
@@ -341,7 +341,7 @@ class CurseAssembler(GenericAssembler):
         archive.write(self.tempfile, arcname=str(self.manifest_json))
 
         if self.task_progress_callback is not None:
-            self.task_progress_callback(self.get_progress(), f"adding {self.manifest_json} to the archive")
+            self.task_progress_callback(self.progress, f"adding {self.manifest_json} to the archive")
 
         self.tempfile.unlink()
 

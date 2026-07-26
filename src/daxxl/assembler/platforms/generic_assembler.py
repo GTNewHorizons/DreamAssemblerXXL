@@ -61,21 +61,12 @@ class GenericAssembler:
         }
         self.delta_progress: float = 0.0
 
-    def get_progress(self) -> float:
-        """
-        Getter for self.delta_progress.
-
-        :return: current delta progress value
-        """
+    @property
+    def progress(self) -> float:
         return self.delta_progress
 
-    def set_progress(self, delta_progress: float) -> None:
-        """
-        Setter for self.delta_progress.
-
-        :param delta_progress: the new delta progress
-        :return: None
-        """
+    @progress.setter
+    def progress(self, delta_progress: float) -> None:
         self.delta_progress = delta_progress
 
     @staticmethod
@@ -272,7 +263,7 @@ class GenericAssembler:
 
         if self.changelog_path is not None:
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.get_progress(), "adding changelog to the archive")
+                self.task_progress_callback(self.progress, "adding changelog to the archive")
             if arcname is None:
                 archive.write(self.changelog_path, arcname=self.changelog_path.name)
             else:
@@ -358,7 +349,7 @@ class GenericAssembler:
                             shutil.copyfileobj(config_item, target)
                             if self.task_progress_callback is not None:
                                 self.task_progress_callback(
-                                    self.get_progress(),
+                                    self.progress,
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
                     await self.yield_to_event_loop()

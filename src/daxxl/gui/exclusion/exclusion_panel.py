@@ -66,8 +66,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
 
         self.widgets: list[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        self._width: int = (
+            width if width is not None else max([widget.description_size for widget in self.widgets])
         )
 
         self.rowconfigure(0, weight=1)
@@ -125,28 +125,19 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
         # overriding exclusion widget to get proper size
         # self.exclusion.configure(width=2 * (self.width + 6))
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, width: int) -> None:
+        self._width = width
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """

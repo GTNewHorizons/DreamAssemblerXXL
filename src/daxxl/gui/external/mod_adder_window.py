@@ -75,7 +75,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_to_memory
         self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_from_memory
 
-        self.width: int = width or 50
+        self._width: int = width or 50
 
         self.add_mod_version = mod_name is not None
         self.add_mod = mod_name is None
@@ -336,29 +336,20 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        self.mod_choice.configure(width=self.width)
-        self.btn_add.configure(width=self.width)
+        self.mod_choice.configure(width=self._width)
+        self.btn_add.configure(width=self._width)
 
         for widget in self.text_entry_list:
-            widget.configure(width=2 * self.width)
+            widget.configure(width=2 * self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, width: int) -> None:
+        self._width = width
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """

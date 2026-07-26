@@ -170,11 +170,11 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             self.btn_refresh_modpack,
         ]
 
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        self._width: int = (
+            width if width is not None else max([widget.description_size for widget in self.widgets])
         )
 
-        self.mod_info_frame.set_width(self.width)
+        self.mod_info_frame.width = self._width
 
         self.update_widget()
 
@@ -187,26 +187,17 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.mod_info_frame.configure_widgets()
 
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
-        self.mod_info_frame.set_width(self.width)
+    @width.setter
+    def width(self, width: int) -> None:
+        self._width = width
+        self.mod_info_frame.width = self._width
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """

@@ -188,8 +188,8 @@ class Window(ThemedTk, Tk):
             self, "Server exclusions", callbacks=exclusion_server_callbacks, themed=self.themed
         )
 
-        width: int = self.github_panel.get_width()
-        self.external_mod_frame.set_width(width)
+        width: int = self.github_panel.width
+        self.external_mod_frame.width = width
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 

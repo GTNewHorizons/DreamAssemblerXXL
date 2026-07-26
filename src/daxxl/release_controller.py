@@ -251,22 +251,13 @@ class ReleaseController:
 
         return gtnh.asset_service.set_mod_side(mod_name, side)
 
-    def set_progress(self, delta_progress: float) -> None:
-        """
-        Setter for self.delta_progress.
-
-        :param delta_progress: new progress
-        :return: None
-        """
-        self.delta_progress = delta_progress
-
-    def get_progress(self) -> float:
-        """
-        Getter for self.delta_progress.
-
-        :return: the current delta progress
-        """
+    @property
+    def progress(self) -> float:
         return self.delta_progress
+
+    @progress.setter
+    def progress(self, delta_progress: float) -> None:
+        self.delta_progress = delta_progress
 
     async def add_exclusion(self, side: Side, exclusion: str) -> bool:
         """
@@ -575,7 +566,7 @@ class ReleaseController:
         self.global_reset_callback()
         self.current_task_reset_callback()
 
-        self.global_callback(self.get_progress(), "Downloading assets")
+        self.global_callback(self.progress, "Downloading assets")
         await gtnh.downloader.download_release(release, download_callback=self.progress_callback)
         self.current_task_reset_callback()
 
@@ -594,10 +585,10 @@ class ReleaseController:
 
         :return: None
         """
-        self.set_progress(100 / 2)
+        self.progress = 100 / 2
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
         release_assembler.generate_changelog()
-        self.global_callback(self.get_progress(), f"Generate changelog from {self.last_version} to {self.version}")
+        self.global_callback(self.progress, f"Generate changelog from {self.last_version} to {self.version}")
 
     async def generate_intermediate_cf_files(self, task_progressbar: Any) -> None:
         """
@@ -606,11 +597,11 @@ class ReleaseController:
         :param task_progressbar: progress bar object forwarded to the curse assembler
         :return: None
         """
-        self.set_progress(100 / 3)
+        self.progress = 100 / 3
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
-        self.global_callback(self.get_progress(), "Generating the dependencies.json")
+        self.global_callback(self.progress, "Generating the dependencies.json")
         await release_assembler.curse_assembler.generate_json_dep(task_progressbar)
-        self.global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
+        self.global_callback(self.progress, "Generating the archive containing the mods to upload")
         await release_assembler.curse_assembler.generate_mods_to_upload(task_progressbar)
 
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
@@ -620,16 +611,16 @@ class ReleaseController:
         :return: None
         """
         phase_count: int = 3 if archive_type == Archive.TECHNIC else 2
-        self.set_progress(100 / phase_count)
+        self.progress = 100 / phase_count
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        self.global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
+        self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
 
         if archive_type == Archive.TECHNIC:
             await release_assembler.assemble_technic(
                 side=side,
                 verbose=True,
-                global_step_callback=lambda msg: self.global_callback(self.get_progress(), msg),
+                global_step_callback=lambda msg: self.global_callback(self.progress, msg),
             )
         else:
             assembler_dict: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
@@ -647,10 +638,10 @@ class ReleaseController:
         :return: None
         """
         delta: float = 100 / 9  # download + 5 client platforms + java9 prism + java9 server zip + server zip
-        self.set_progress(delta)
+        self.progress = delta
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        release_assembler.set_progress(delta)
+        release_assembler.progress = delta
 
         assemblers = {
             Archive.ZIP: release_assembler.assemble_zip,
@@ -687,10 +678,10 @@ class ReleaseController:
 
         :return: None
         """
-        self.set_progress(100 / (1 + 3 + 2))  # download + archives for client + archive for server
+        self.progress = 100 / (1 + 3 + 2)  # download + archives for client + archive for server
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        release_assembler.set_progress(self.get_progress())
+        release_assembler.progress = self.progress
 
         assemblers = {
             Archive.ZIP: release_assembler.assemble_zip,
@@ -706,6 +697,6 @@ class ReleaseController:
         ]:
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
-            self.global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
+            self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
             await assemblers[archive_type](side=side, verbose=True)
 

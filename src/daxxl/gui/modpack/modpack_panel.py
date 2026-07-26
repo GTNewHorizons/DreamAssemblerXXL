@@ -81,7 +81,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
             LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.width: int = width if width is not None else 20  # arbitrary value
+        self._width: int = width if width is not None else 20  # arbitrary value
 
         self.callbacks: ModpackPanelCallback = callbacks
 
@@ -131,24 +131,15 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         self.modpack_list.configure_widgets()
         self.action_frame.configure_widgets()
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
-        self.modpack_list.set_width(self.width)
-        self.action_frame.set_width(self.width)
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
+    @width.setter
+    def width(self, width: int) -> None:
+        self._width = width
+        self.modpack_list.width = self._width
+        self.action_frame.width = self._width
 
     def update_widget(self) -> None:
         """
