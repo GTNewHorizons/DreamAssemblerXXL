@@ -277,7 +277,7 @@ class ReleaseController:
         :return: True if the exclusion was added, False if it was already present
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        added = gtnh.add_exclusion(side, exclusion)
+        added = gtnh.mod_pack.add_exclusion(side, exclusion)
         if added:
             gtnh.save_modpack()
         return added
@@ -291,7 +291,7 @@ class ReleaseController:
         :return: True if the exclusion was removed, False if it wasn't present
         """
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
-        removed = gtnh.delete_exclusion(side, exclusion)
+        removed = gtnh.mod_pack.delete_exclusion(side, exclusion)
         if removed:
             gtnh.save_modpack()
         return removed
@@ -518,7 +518,7 @@ class ReleaseController:
 
         gtnh: GTNHModpackManager = await self.get_modpack_manager()
         global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
-        update_errors: List[str] = await gtnh.update_all(
+        update_errors: List[str] = await gtnh.update_orchestrator.update_all(
             progress_callback=self.progress_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )

@@ -25,7 +25,7 @@ async def update_check(mods: str | None = None) -> None:
         # Things get cached here
         await m.gh_client.get_all_repos()
         log.info("Updating things...")
-        update_errors = await m.update_all(mods_to_update)
+        update_errors = await m.update_orchestrator.update_all(mods_to_update)
         if update_errors:
             log.warn(f"{Fore.YELLOW}{len(update_errors)} asset(s) failed to update, see errors above{Style.RESET_ALL}")
 
