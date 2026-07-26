@@ -28,7 +28,7 @@ class ExternalPanelCallback(ModInfoCallback):
         get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]],
         toggle_freeze: Callable[[], None],
         add_mod_in_memory: Callable[[str, str], None],
-        del_mod_in_memory: Callable[[str], None],
+        delete_mod_in_memory: Callable[[str], None],
         refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
     ):
         ModInfoCallback.__init__(
@@ -38,7 +38,7 @@ class ExternalPanelCallback(ModInfoCallback):
         self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = toggle_freeze
         self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
-        self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
+        self.delete_mod_in_memory: Callable[[str], None] = delete_mod_in_memory
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = refresh_external_modlist
 
 
@@ -77,13 +77,13 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
-        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
+        self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_in_memory
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = callbacks.refresh_external_modlist
 
         self.mod_adder_callbacks: ModAdderCallback = ModAdderCallback(
             get_gtnh_callback=self.get_gtnh_callback,
             add_mod_to_memory=self.add_mod_to_memory,
-            del_mod_from_memory=self.del_mod_from_memory,
+            delete_mod_from_memory=self.delete_mod_from_memory,
         )
         self.callbacks = callbacks
 
@@ -121,7 +121,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         self.btn_rem: CustomButton = CustomButton(
             self,
             text="Delete highlighted",
-            command=lambda: asyncio.ensure_future(self.del_external_mod()),
+            command=lambda: asyncio.ensure_future(self.delete_external_mod()),
             themed=self.themed,
         )
 
@@ -282,7 +282,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         mod_addition_frame.update_widget()
         top_level.title("External mod addition")
 
-    async def del_external_mod(self) -> None:
+    async def delete_external_mod(self) -> None:
         """
         Method called when the button to delete the highlighted external mod is pressed.
 
@@ -298,7 +298,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         index: int = self.listbox.get()
         mod_name: str = self.listbox.get_value_at_index(index)
         gtnh: AppContext = await self.get_gtnh_callback()
-        self.listbox.del_value_at_index(index)
+        self.listbox.delete_value_at_index(index)
         await gtnh.asset_service.delete_mod(mod_name)
 
     async def add_new_version(self) -> None:

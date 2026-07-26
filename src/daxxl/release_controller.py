@@ -107,7 +107,7 @@ class ReleaseController:
         """
         self.github_mods[name] = ModVersionInfo(version=version)
 
-    def del_github_mod(self, name: str) -> None:
+    def delete_github_mod(self, name: str) -> None:
         """
         remove a mod from inmemory github modlist.
 
@@ -126,7 +126,7 @@ class ReleaseController:
         """
         self.external_mods[name] = ModVersionInfo(version=version)
 
-    def del_external_mod(self, name: str) -> None:
+    def delete_external_mod(self, name: str) -> None:
         """
         remove a mod from inmemory external modlist.
 
@@ -273,7 +273,7 @@ class ReleaseController:
             gtnh.persistence.save(gtnh.mod_pack)
         return added
 
-    async def del_exclusion(self, side: Side, exclusion: str) -> bool:
+    async def delete_exclusion(self, side: Side, exclusion: str) -> bool:
         """
         Method used to remove a file exclusion from the corresponding side's exclusion list.
 

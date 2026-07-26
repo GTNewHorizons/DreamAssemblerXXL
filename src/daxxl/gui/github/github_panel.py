@@ -32,7 +32,7 @@ class GithubPanelCallback(ModInfoCallback):
         reset_current_task_progress_bar: Callable[[], None],
         reset_global_progress_bar: Callable[[], None],
         add_mod_in_memory: Callable[[str, str], None],
-        del_mod_in_memory: Callable[[str], None],
+        delete_mod_in_memory: Callable[[str], None],
         set_modpack_version: Callable[[str], None],
     ):
         ModInfoCallback.__init__(
@@ -48,7 +48,7 @@ class GithubPanelCallback(ModInfoCallback):
         self.reset_global_progress_bar: Callable[[], None] = reset_global_progress_bar
 
         self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
-        self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
+        self.delete_mod_in_memory: Callable[[str], None] = delete_mod_in_memory
         self.set_modpack_version: Callable[[str], None] = set_modpack_version
 
 
@@ -96,7 +96,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.reset_current_task_progress_bar: Callable[[], None] = callbacks.reset_current_task_progress_bar
         self.reset_global_progress_bar: Callable[[], None] = callbacks.reset_global_progress_bar
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
-        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
+        self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_in_memory
         self.set_modpack_version: Callable[[str], None] = callbacks.set_modpack_version
 
         self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
@@ -136,7 +136,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed
         )
         self.btn_rem: CustomButton = CustomButton(
-            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_repo()), themed=self.themed
+            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.delete_repo()), themed=self.themed
         )
         self.btn_refresh: CustomButton = CustomButton(
             self,
@@ -360,7 +360,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
                 "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?",
             )
 
-    async def del_repo(self, verbose: bool = True) -> None:
+    async def delete_repo(self, verbose: bool = True) -> None:
         """
         Method called when the button to delete the highlighted github repository is pressed.
 
@@ -378,7 +378,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.listbox.set_values(repo_list)
         self.reset_mod_info_callback()
 
-        self.del_mod_from_memory(repo_name)
+        self.delete_mod_from_memory(repo_name)
 
         if await gtnh.asset_service.delete_mod(repo_name) and verbose:
             showinfo("Repository successfully deleted", f"{repo_name} has been successfully deleted from assets.")

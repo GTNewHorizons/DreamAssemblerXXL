@@ -46,7 +46,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
         self.add_callback: Callable[[str], Task[None]] = callbacks.add
-        self.del_callback: Callable[[str], Task[None]] = callbacks.delete
+        self.delete_callback: Callable[[str], Task[None]] = callbacks.delete
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -115,8 +115,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         if self.listbox.has_selection():
             position: int = self.listbox.get()
             exclusion: str = self.listbox.get_value_at_index(position)
-            self.listbox.del_value_at_index(position)
-            self.del_callback(exclusion)
+            self.listbox.delete_value_at_index(position)
+            self.delete_callback(exclusion)
 
     def configure_widgets(self) -> None:
         """

@@ -83,7 +83,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
     def get_value_at_index(self, index: int) -> str:
         return self.listbox.get(index)
 
-    def del_value_at_index(self, index: int) -> None:
+    def delete_value_at_index(self, index: int) -> None:
         self.listbox.delete(index)
 
     def set_on_selection_callback(self, callback: Callable[[Any], Any]) -> None:

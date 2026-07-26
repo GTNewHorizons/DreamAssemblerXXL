@@ -16,7 +16,7 @@ class ComparisonService:
         self.assets = assets
 
     @staticmethod
-    def remove_false_positive_in_mod_removed(removed_mods: set[str], added_mods: set[str]) -> None:
+    def delete_false_positive_in_mod_removed(removed_mods: set[str], added_mods: set[str]) -> None:
         false_removed_mods: list[str] = []
         false_added_mods: list[str] = []
         for removed_mod in removed_mods:
@@ -40,7 +40,7 @@ class ComparisonService:
         removed_mods |= set(previous_release.external_mods) - set(release.external_mods)
         new_mods = set(release.github_mods) - set(previous_release.github_mods)
         new_mods |= set(release.external_mods) - set(previous_release.external_mods)
-        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        self.delete_false_positive_in_mod_removed(removed_mods, new_mods)
         return removed_mods, new_mods
 
     def get_removed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> set[str]:

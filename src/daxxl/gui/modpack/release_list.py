@@ -68,7 +68,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             self, text="Load version", command=lambda: self.btn_load_command(callbacks.load), themed=self.themed
         )
         self.btn_del: CustomButton = CustomButton(
-            self, text="Delete version", command=lambda: self.btn_del_command(callbacks.delete), themed=self.themed
+            self, text="Delete version", command=lambda: self.btn_delete_command(callbacks.delete), themed=self.themed
         )
         self.btn_add: CustomButton = CustomButton(
             self, text="Add / Update", command=lambda: self.btn_add_command(callbacks.add), themed=self.themed
@@ -219,7 +219,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
 
         self.set_loaded_version(release_name)
 
-    def btn_del_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
+    def btn_delete_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
         """
         Callback for the button self.btn_del.
 
@@ -230,7 +230,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         if self.listbox.has_selection():
             index: int = self.listbox.get()
             release_name: str = self.listbox.get_value_at_index(index)
-            self.listbox.del_value_at_index(index)
+            self.listbox.delete_value_at_index(index)
             if callback is not None:
                 callback(release_name)
 

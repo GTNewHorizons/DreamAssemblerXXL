@@ -27,11 +27,11 @@ class ModAdderCallback:
         self,
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         add_mod_to_memory: Callable[[str, str], None],
-        del_mod_from_memory: Callable[[str], None],
+        delete_mod_from_memory: Callable[[str], None],
     ):
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
         self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
-        self.del_mod_from_memory: Callable[[str], None] = del_mod_from_memory
+        self.delete_mod_from_memory: Callable[[str], None] = delete_mod_from_memory
 
 
 class ModAdderWindow(LabelFrame, TtkLabelFrame):
@@ -73,7 +73,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         self.master: Toplevel = master
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_to_memory
-        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_from_memory
+        self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_from_memory
 
         self._width: int = width or 50
 

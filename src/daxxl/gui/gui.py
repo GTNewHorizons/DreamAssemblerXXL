@@ -143,7 +143,7 @@ class Window(ThemedTk, Tk):
             reset_current_task_progress_bar=self.current_task_reset_callback,
             reset_global_progress_bar=self.global_reset_callback,
             add_mod_in_memory=self.controller.add_github_mod,
-            del_mod_in_memory=self.controller.del_github_mod,
+            delete_mod_in_memory=self.controller.delete_github_mod,
         )
 
         self.github_panel: GithubPanel = GithubPanel(
@@ -160,7 +160,7 @@ class Window(ThemedTk, Tk):
             get_external_mods_callback=self.controller.get_external_mods,
             toggle_freeze=self.trigger_toggle,
             add_mod_in_memory=self.controller.add_external_mod,
-            del_mod_in_memory=self.controller.del_external_mod,
+            delete_mod_in_memory=self.controller.delete_external_mod,
             refresh_external_modlist=self.refresh_external_mods,
         )
 
@@ -170,7 +170,7 @@ class Window(ThemedTk, Tk):
 
         exclusion_client_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
             add=lambda exclusion: asyncio.ensure_future(self.add_exclusion(Side.CLIENT, exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion(Side.CLIENT, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.delete_exclusion(Side.CLIENT, exclusion)),
         )
 
         # frame for the client file exclusions
@@ -180,7 +180,7 @@ class Window(ThemedTk, Tk):
 
         exclusion_server_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
             add=lambda exclusion: asyncio.ensure_future(self.add_exclusion(Side.SERVER, exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion(Side.SERVER, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.delete_exclusion(Side.SERVER, exclusion)),
         )
 
         # frame for the server side exclusions
@@ -371,7 +371,7 @@ class Window(ThemedTk, Tk):
         title="An error occured while removing an exclusion",
         message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
     )
-    async def del_exclusion(self, side: Side, exclusion: str) -> None:
+    async def delete_exclusion(self, side: Side, exclusion: str) -> None:
         """
         Callback used to remove a file exclusion.
 
@@ -379,7 +379,7 @@ class Window(ThemedTk, Tk):
         :param exclusion: the exclusion string
         :return: None
         """
-        removed = await self.controller.del_exclusion(side, exclusion)
+        removed = await self.controller.delete_exclusion(side, exclusion)
         if not removed:
             showwarning("Exclusion not found", f"'{exclusion}' was not in the {side.value} side exclusions.")
         await self._refresh_exclusions(side)
