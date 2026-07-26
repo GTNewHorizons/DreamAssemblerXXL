@@ -259,7 +259,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         self.side.set_values([side.name for side in Side])
         self.side.set(data["side"] or USE_DEFAULT)
 
-        self.side_default.set_values([side.name for side in Side])
+        self.side_default.set_values([side.value for side in Side])
         self.side_default.set(data["side_default"])
 
     def reset(self) -> None:

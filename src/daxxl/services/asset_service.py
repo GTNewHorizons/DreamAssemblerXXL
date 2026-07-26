@@ -379,7 +379,7 @@ class AssetService:
             log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
             return False
 
-        mod.side = Side[side]
+        mod.side = side
         self.save_assets()
 
         log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
