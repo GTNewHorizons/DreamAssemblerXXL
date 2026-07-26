@@ -15,15 +15,15 @@ async def generate_experimental(update_available: bool, new_id: int | None) -> N
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
         if new_id:
-            m.set_experimental_id(new_id)
+            m.counter.set_experimental_id(new_id)
         else:
-            m.increment_experimental_count()  # assets need to be uploaded even if the build crashes, it tracks the build id
-        _, update_errors = await m.update_rolling_release(
+            m.counter.increment_experimental_count()  # assets need to be uploaded even if the build crashes, it tracks the build id
+        _, update_errors = await m.update_service.update_rolling_release(
             DevRelease.EXPERIMENTAL.value, update_available=update_available
         )
         if update_errors:
             log.warn(f"{len(update_errors)} asset(s) failed to update, see errors above")
-        m.save_assets()
+        m.asset_service.save_assets()
         log.info("Release generated!")
 
 

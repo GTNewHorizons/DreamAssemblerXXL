@@ -129,7 +129,7 @@ class ReleaseAssemblerController:
             await assembling(side, verbose)
 
         # TODO: Remove when the maven urls are calculated on add, instead of in curse
-        self.mod_manager.save_assets()
+        self.mod_manager.asset_service.save_assets()
 
     async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
@@ -198,21 +198,21 @@ class ReleaseAssemblerController:
         current_version: str = self.release.version
         previous_version: Optional[str] = self.release.last_version
         previous_release: Optional[GTNHRelease] = (
-            None if previous_version is None else self.mod_manager.get_release(previous_version)
+            None if previous_version is None else self.mod_manager.release_service.get_release(previous_version)
         )
-        changelog: Dict[str, List[str]] = self.mod_manager.generate_changelog(self.release, previous_release)
+        changelog: Dict[str, List[str]] = self.mod_manager.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
         if "experimental" in current_version:
             changelog_path = (
                 RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR / f"changelog from experimental "
-                f"{self.mod_manager.get_last_successful_experimental()} to "
-                f"{self.mod_manager.get_experimental_count()}.md"
+                f"{self.mod_manager.counter.get_last_successful_experimental()} to "
+                f"{self.mod_manager.counter.get_experimental_count()}.md"
             )
         elif "daily" in current_version:
             changelog_path = (
                 RELEASE_CHANGELOG_DAILY_BUILDS_DIR / f"changelog from daily "
-                f"{self.mod_manager.get_last_successful_daily()} to "
-                f"{self.mod_manager.get_daily_count()}.md"
+                f"{self.mod_manager.counter.get_last_successful_daily()} to "
+                f"{self.mod_manager.counter.get_daily_count()}.md"
             )
         else:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"

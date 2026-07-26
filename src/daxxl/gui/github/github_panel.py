@@ -270,8 +270,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_config_assets()
-        await gtnh.regen_translation_assets()
+        await gtnh.asset_service.regen_config_assets()
+        await gtnh.asset_service.regen_translation_assets()
         self.modpack_version.set_values([version.version_tag for version in gtnh.assets.config.versions])
         self.modpack_version.set(gtnh.assets.config.latest_version)
 
@@ -346,8 +346,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         gtnh_modpack: GTNHModpackManager = await self.get_gtnh_callback()
         try:
-            await gtnh_modpack.add_github_mod(repo_name)
-            gtnh_modpack.save_assets()
+            await gtnh_modpack.asset_service.add_github_mod(repo_name)
+            gtnh_modpack.asset_service.save_assets()
             repo = await gtnh_modpack.gh_client.get_latest_github_release(repo_name)
             assert repo
             version = repo.tag_name
@@ -389,7 +389,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         self.del_mod_from_memory(repo_name)
 
-        if await gtnh.delete_mod(repo_name) and verbose:
+        if await gtnh.asset_service.delete_mod(repo_name) and verbose:
             showinfo("Repository successfully deleted", f"{repo_name} has been successfully deleted from assets.")
 
     async def refresh_repo(self) -> None:
@@ -405,7 +405,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             return
 
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_github_repo_asset(repo_name)
+        await gtnh.asset_service.regen_github_repo_asset(repo_name)
         await self.on_listbox_click()
         showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
 
@@ -430,5 +430,5 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.reset_current_task_progress_bar()
 
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_github_assets(callback=self._update_callback)
+        await gtnh.asset_service.regen_github_assets(callback=self._update_callback)
         showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")

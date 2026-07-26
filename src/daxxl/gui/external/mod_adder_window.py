@@ -318,7 +318,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             if mod.source == ModSource.curse:
                 mod.project_id = project_id
         gtnh.assets.update_mod(mod)
-        gtnh.save_assets()
+        gtnh.asset_service.save_assets()
 
         if self.add_mod_version:
             showinfo(

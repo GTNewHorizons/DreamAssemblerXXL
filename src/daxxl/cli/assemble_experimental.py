@@ -15,14 +15,14 @@ log = get_logger(__name__)
 async def assemble_experimental(verbose: bool) -> None:
     release_name = "experimental"
     modpack_manager = GTNHModpackManager(AsyncClient(http2=True))
-    release = modpack_manager.get_release(release_name)
+    release = modpack_manager.release_service.get_release(release_name)
     if not release:
         log.error(
             f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building the experimental archive."
         )
         return
 
-    await modpack_manager.download_release(
+    await modpack_manager.downloader.download_release(
         release,
     )
 
@@ -32,7 +32,7 @@ async def assemble_experimental(verbose: bool) -> None:
     await assembler.assemble_prism(Side.CLIENT, verbose=verbose)
     await assembler.assemble_prism(Side.CLIENT_JAVA9, verbose=verbose)
 
-    modpack_manager.set_last_successful_experimental_id(modpack_manager.get_experimental_count())
+    modpack_manager.counter.set_last_successful_experimental_id(modpack_manager.counter.get_experimental_count())
 
 
 if __name__ == "__main__":

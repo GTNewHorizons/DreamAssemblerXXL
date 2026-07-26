@@ -20,7 +20,7 @@ async def download_mod(mod_name: str, version: str | None = None) -> None:
         )
         mod = m.assets.get_mod(mod_name)
         if mod is not None:
-            await m.download_asset(mod, version)
+            await m.downloader.download_asset(mod, version)
 
 
 if __name__ == "__main__":

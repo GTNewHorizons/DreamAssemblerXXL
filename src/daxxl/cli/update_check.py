@@ -23,17 +23,17 @@ async def update_check(mods: str | None = None) -> None:
 
         log.info("Grabbing all repository information...")
         # Things get cached here
-        await m.get_all_repos()
+        await m.gh_client.get_all_repos()
         log.info("Updating things...")
         update_errors = await m.update_all(mods_to_update)
         if update_errors:
             log.warn(f"{Fore.YELLOW}{len(update_errors)} asset(s) failed to update, see errors above{Style.RESET_ALL}")
 
-        missing_repos = await m.get_missing_repos()
+        missing_repos = await m.asset_service.get_missing_repos(m.blacklisted_repos)
         if len(missing_repos):
             log.info(f"{Fore.RED}****** Missing Mods:{Style.RESET_ALL} {', '.join(sorted(missing_repos))}")
 
-        missing_maven = m.get_missing_mavens()
+        missing_maven = m.asset_service.get_missing_mavens()
         if len(missing_maven):
             log.info(f"{Fore.RED}****** Missing Maven:{Style.RESET_ALL} {', '.join(sorted(missing_maven))}")
 

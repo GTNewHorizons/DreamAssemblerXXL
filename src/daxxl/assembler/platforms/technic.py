@@ -150,13 +150,13 @@ class TechnicAssembler(GenericAssembler):
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
-            update_source = self.modpack_manager.get_new_mods
+            update_source = self.modpack_manager.comparison.get_new_mods
         elif update_mode == DifferentialUpdateMode.UPDATED_MODS:
-            update_source = self.modpack_manager.get_changed_mods
+            update_source = self.modpack_manager.comparison.get_changed_mods
         else:
-            update_source = self.modpack_manager.get_removed_mods
+            update_source = self.modpack_manager.comparison.get_removed_mods
 
-        last_release: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)  # type: ignore
+        last_release: GTNHRelease = self.modpack_manager.release_service.get_release(self.release.last_version)  # type: ignore
         process_release: GTNHRelease = (
             last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
         )

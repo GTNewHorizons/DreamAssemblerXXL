@@ -1,6 +1,6 @@
 import asyncio
 from pathlib import Path
-from typing import Any, Callable, Coroutine, Optional, Set
+from typing import Any, Callable, Coroutine, Optional
 
 from colorama import Fore
 from gidgethub.httpx import GitHubAPI
@@ -20,8 +20,6 @@ from daxxl.defs import (
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_modpack import GTNHModpack
-from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.versionable import Versionable
 from daxxl.services.asset_service import AssetService
 from daxxl.services.comparison_service import ComparisonService
@@ -30,7 +28,7 @@ from daxxl.services.download_service import DownloadService
 from daxxl.services.github_client import GitHubClient
 from daxxl.services.release_service import ReleaseService
 from daxxl.services.update_service import UpdateService
-from daxxl.utils import AttributeDict, atomic_write_text, get_github_token
+from daxxl.utils import atomic_write_text, get_github_token
 
 log = get_logger(__name__)
 
@@ -49,7 +47,7 @@ class GTNHModpackManager:
         self.gh_client = GitHubClient(self.client, self.org)
         self.asset_service = AssetService(self.gh_client, self.gh, self.org)
         self.mod_pack: GTNHModpack = self.load_modpack()
-        self.blacklisted_repos = self.load_blacklisted_repos()
+        self.blacklisted_repos = self.asset_service.load_blacklisted_repos()
         self.counter = CounterService(self.assets, self.asset_service.save_assets)
         self.downloader = DownloadService(self.client, self.assets)
         self.release_service = ReleaseService(self.mod_pack)
@@ -62,18 +60,6 @@ class GTNHModpackManager:
         The AvailableAssets instance, owned by the AssetService.
         """
         return self.asset_service.assets
-
-    async def get_all_repos(self) -> dict[str, AttributeDict]:
-        return await self.gh_client.get_all_repos()
-
-    async def get_repo(self, name: str) -> AttributeDict:
-        return await self.gh_client.get_repo(name)
-
-    def add_release(self, release: GTNHRelease, update: bool = False) -> bool:
-        return self.release_service.add_release(release, update)
-
-    def get_release(self, release_name: str) -> GTNHRelease | None:
-        return self.release_service.get_release(release_name)
 
     async def _run_safely(self, name: str, coro: "Coroutine[Any, Any, bool]", errors: list[str]) -> bool:
         """
@@ -175,129 +161,9 @@ class GTNHModpackManager:
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
         return any(gathered), errors
 
-    async def update_versionable_from_repo(
-        self, versionable: Versionable, repo: AttributeDict, releaseVersion: str | None = None
-    ) -> bool:
-        return await self.asset_service.update_versionable_from_repo(versionable, repo, releaseVersion)
-
-    async def update_github_mod_from_repo(self, mod: GTNHModInfo, repo: AttributeDict) -> bool:
-        return await self.asset_service.update_github_mod_from_repo(mod, repo)
-
-    async def update_translations_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
-        return await self.asset_service.update_translations_from_repo(versionable, repo)
-
-    async def update_versions_from_repo(
-        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, releaseVersion: str | None = None
-    ) -> bool:
-        return await self.asset_service.update_versions_from_repo(asset, repo, for_translation, releaseVersion)
-
-    async def get_license_from_repo(self, repo: AttributeDict, allow_fallback: bool = True) -> str | None:
-        return await self.gh_client.get_license_from_repo(repo, allow_fallback=allow_fallback)
-
-    async def get_maven(self, mod_name: str) -> str | None:
-        return await self.gh_client.get_maven(mod_name)
-
-    async def update_release(
-        self,
-        version: str,
-        existing_release: GTNHRelease,
-        update_available: bool = True,
-        overrides: dict[str, str] | None = None,
-        exclude: set[str] | None = None,
-        new_mods: set[str] | None = None,
-        last_version: str | None = None,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        reset_progress_callback: Optional[Callable[[], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
-    ) -> tuple[GTNHRelease, list[str]]:
-        return await self.update_service.update_release(
-            version,
-            existing_release,
-            update_available,
-            overrides,
-            exclude,
-            new_mods,
-            last_version,
-            progress_callback,
-            reset_progress_callback,
-            global_progress_callback,
-        )
-
-    async def update_rolling_release(
-        self,
-        release_type: str,
-        update_available: bool = True,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        reset_progress_callback: Optional[Callable[[], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
-    ) -> tuple[GTNHRelease, list[str]]:
-        return await self.update_service.update_rolling_release(
-            release_type,
-            update_available,
-            progress_callback,
-            reset_progress_callback,
-            global_progress_callback,
-        )
-
     def delete_release(self, release_name: str) -> None:
         self.release_service.delete_release(release_name)
         self.save_modpack()
-
-    async def add_github_mod(self, name: str) -> GTNHModInfo | None:
-        return await self.asset_service.add_github_mod(name)
-
-    async def delete_mod(self, name: str) -> bool:
-        return await self.asset_service.delete_mod(name)
-
-    async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
-        await self.asset_service.regen_github_assets(callback)
-
-    async def regen_github_repo_asset(
-        self,
-        repo_name: str,
-        callback: Optional[Callable[[float, str], None]] = None,
-        delta_progress: Optional[float] = None,
-    ) -> None:
-        await self.asset_service.regen_github_repo_asset(repo_name, callback, delta_progress)
-
-    async def regen_config_assets(self) -> None:
-        await self.asset_service.regen_config_assets()
-
-    async def regen_translation_assets(self) -> None:
-        await self.asset_service.regen_translation_assets()
-
-    async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
-        return await self.asset_service.mod_from_repo(repo, side)
-
-    def get_experimental_count(self) -> int:
-        return self.counter.get_experimental_count()
-
-    def set_experimental_id(self, id: int) -> None:
-        self.counter.set_experimental_id(id)
-
-    def increment_experimental_count(self) -> None:
-        self.counter.increment_experimental_count()
-
-    def set_last_successful_experimental_id(self, id: int) -> None:
-        self.counter.set_last_successful_experimental_id(id)
-
-    def get_last_successful_experimental(self) -> int:
-        return self.counter.get_last_successful_experimental()
-
-    def get_daily_count(self) -> int:
-        return self.counter.get_daily_count()
-
-    def set_daily_id(self, id: int) -> None:
-        self.counter.set_daily_id(id)
-
-    def increment_daily_count(self) -> None:
-        self.counter.increment_daily_count()
-
-    def set_last_successful_daily_id(self, id: int) -> None:
-        self.counter.set_last_successful_daily_id(id)
-
-    def get_last_successful_daily(self) -> int:
-        return self.counter.get_last_successful_daily()
 
     def load_modpack(self) -> GTNHModpack:
         """
@@ -317,18 +183,6 @@ class GTNHModpackManager:
             atomic_write_text(self.modpack_manifest_path, dumped)
         else:
             log.error("Save aborted, empty save result")
-
-    def save_assets(self) -> None:
-        self.asset_service.save_assets()
-
-    def load_blacklisted_repos(self) -> set[str]:
-        return self.asset_service.load_blacklisted_repos()
-
-    async def get_missing_repos(self) -> set[str]:
-        return await self.asset_service.get_missing_repos(self.blacklisted_repos)
-
-    def get_missing_mavens(self) -> set[str]:
-        return self.asset_service.get_missing_mavens()
 
     @property
     def gtnh_asset_manifest_path(self) -> Path:
@@ -358,45 +212,6 @@ class GTNHModpackManager:
         Helper property for the pinned file location
         """
         return ROOT_DIR / INPLACE_PINNED_FILE
-
-    async def download_asset(
-        self,
-        asset: Versionable,
-        asset_version: str | None = None,
-        is_github: bool = False,
-        download_callback: Optional[Callable[[str], None]] = None,
-        error_callback: Optional[Callable[[str], None]] = None,
-        force_redownload: bool = False,
-    ) -> Path | None:
-        return await self.downloader.download_asset(
-            asset, asset_version, is_github, download_callback, error_callback, force_redownload
-        )
-
-    async def download_release(
-        self,
-        release: GTNHRelease,
-        download_callback: Optional[Callable[[float, str], None]] = None,
-        error_callback: Optional[Callable[[str], None]] = None,
-        ignore_translations: bool = False,
-    ) -> list[Path]:
-        return await self.downloader.download_release(release, download_callback, error_callback, ignore_translations)
-
-    def get_removed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
-        return self.comparison.get_removed_mods(release, previous_release)
-
-    def get_new_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
-        return self.comparison.get_new_mods(release, previous_release)
-
-    def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
-        return self.comparison.get_changed_mods(release, previous_release)
-
-    def generate_changelog(
-        self, release: GTNHRelease, previous_release: GTNHRelease | None = None
-    ) -> dict[str, list[str]]:
-        return self.comparison.generate_changelog(release, previous_release)
-
-    def set_mod_side(self, mod_name: str, side: str) -> bool:
-        return self.asset_service.set_mod_side(mod_name, side)
 
     def add_exclusion(self, side: Side, exclusion: str) -> bool:
         if side == Side.CLIENT:

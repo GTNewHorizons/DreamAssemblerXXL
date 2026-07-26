@@ -249,7 +249,7 @@ class ReleaseController:
         if previous_side == side:
             raise SideAlreadySetException(f"{mod_name}'s side is already set on {side}")
 
-        return gtnh.set_mod_side(mod_name, side)
+        return gtnh.asset_service.set_mod_side(mod_name, side)
 
     def set_progress(self, delta_progress: float) -> None:
         """
@@ -354,7 +354,7 @@ class ReleaseController:
         if len(gtnh.mod_pack.releases) > 0:
             # gtnh.mod_pack.releases is actually a set of the release names
             for release_name in gtnh.mod_pack.releases:
-                release: Optional[GTNHRelease] = gtnh.get_release(release_name)
+                release: Optional[GTNHRelease] = gtnh.release_service.get_release(release_name)
 
                 # discarding all the None releases, as it means the json data couldn't be loaded
                 if release is not None:
@@ -384,7 +384,7 @@ class ReleaseController:
 
         if isinstance(release, str):
             gtnh: GTNHModpackManager = await self.get_modpack_manager()
-            release_object = gtnh.get_release(release)
+            release_object = gtnh.release_service.get_release(release)
         else:
             release_object = release
 
@@ -476,7 +476,7 @@ class ReleaseController:
 
         self.last_version = previous_version
 
-        is_release_added: bool = gtnh.add_release(release, update=True)
+        is_release_added: bool = gtnh.release_service.add_release(release, update=True)
 
         if is_release_added:
             await self.load_gtnh_version(release)
@@ -541,7 +541,7 @@ class ReleaseController:
 
         # 1 for the data download on github, 1 for the asset updates and 1 for the release update
         global_delta_progress: float = 100 / (1 + 1 + 1)
-        _, update_errors = await gtnh.update_rolling_release(
+        _, update_errors = await gtnh.update_service.update_rolling_release(
             release_type,
             update_available=True,
             progress_callback=self.progress_callback,
@@ -575,7 +575,7 @@ class ReleaseController:
         self.current_task_reset_callback()
 
         self.global_callback(self.get_progress(), "Downloading assets")
-        await gtnh.download_release(release, download_callback=self.progress_callback)
+        await gtnh.downloader.download_release(release, download_callback=self.progress_callback)
         self.current_task_reset_callback()
 
         self._assembler_controller = ReleaseAssemblerController(

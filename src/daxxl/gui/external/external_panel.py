@@ -308,7 +308,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         mod_name: str = self.listbox.get_value_at_index(index)
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
         self.listbox.del_value_at_index(index)
-        await gtnh.delete_mod(mod_name)
+        await gtnh.asset_service.delete_mod(mod_name)
 
     async def add_new_version(self) -> None:
         """
