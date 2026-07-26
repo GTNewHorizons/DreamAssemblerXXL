@@ -86,7 +86,7 @@ class ReleaseAssemblerController:
         :return: None
         """
 
-        if side not in {side.CLIENT, side.CLIENT_JAVA9, side.SERVER, side.SERVER_JAVA9}:
+        if side not in {Side.CLIENT, Side.CLIENT_JAVA9, Side.SERVER, Side.SERVER_JAVA9}:
             raise ValueError(
                 f"Only valid sides are {Side.CLIENT}/{Side.CLIENT_JAVA9} or {Side.SERVER}/{Side.SERVER_JAVA9}, got {side}"
             )
@@ -94,7 +94,7 @@ class ReleaseAssemblerController:
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
 
-        assemblers_client: dict[str, Callable[[Side, bool], Awaitable[None]]] = {
+        assemblers_client: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: self.assemble_zip,
             Archive.PRISM: self.assemble_prism,
             Archive.TECHNIC: self.assemble_technic,
@@ -102,9 +102,9 @@ class ReleaseAssemblerController:
             Archive.MODRINTH: self.assemble_modrinth,
         }
 
-        assemblers_server: dict[str, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
+        assemblers_server: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
 
-        assemblers: dict[str, Callable[[Side, bool], Awaitable[None]]] = (
+        assemblers: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = (
             assemblers_client if side.is_client() else assemblers_server
         )
 
