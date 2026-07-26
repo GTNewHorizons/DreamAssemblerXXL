@@ -58,7 +58,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
         :param mod_name: optional parameter passed to this class if the mod exists already in DAXXL.
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -130,7 +130,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         """
         gtnh: AppContext = await self.get_gtnh_callback()
 
-        # mod exists because the name is from the availiable mods in the assets.
+        # mod exists because the name is from the available mods in the assets.
         src = 1 if gtnh.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
         self.mod_choice.set(src)
 

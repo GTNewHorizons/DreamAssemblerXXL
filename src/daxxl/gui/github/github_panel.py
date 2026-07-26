@@ -73,7 +73,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -153,7 +153,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         self.listbox: CustomListbox = CustomListbox(
             self,
-            "List of availiable github mods:",
+            "List of available github mods:",
             exportselection=False,
             on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
             themed=self.themed,

@@ -315,7 +315,7 @@ class ReleaseController:
         """
         Method to get all the external mods from the assets.
 
-        :return: a list of string with all the external mods availiable
+        :return: a list of string with all the external mods available
         """
         gtnh: AppContext = await self.get_modpack_manager()
         return [mod.name for mod in gtnh.assets.mods if mod.source != ModSource.github]
@@ -324,7 +324,7 @@ class ReleaseController:
         """
         Method used to gather all the version of the GT-New-Horizons-Modpack repo.
 
-        :return: a list of all the versions availiable.
+        :return: a list of all the versions available.
         """
         gtnh: AppContext = await self.get_modpack_manager()
         modpack_config: GTNHConfig = gtnh.assets.config
@@ -335,7 +335,7 @@ class ReleaseController:
         Method used to return a list of known releases with valid metadata.
         The list is sorted in ascending order (from oldest to the latest).
 
-        :return: a sorted list of all the gtnh releases availiable
+        :return: a sorted list of all the gtnh releases available
         """
         gtnh: AppContext = await self.get_modpack_manager()
 
@@ -500,7 +500,7 @@ class ReleaseController:
 
     async def update_assets(self) -> tuple[list[GTNHModInfo], list[str]]:
         """
-        Update all the availiable assets.
+        Update all the available assets.
 
         :return: a tuple consisting of the List of mods needing attention after the update and the list of error
          messages for individual assets that failed to update.

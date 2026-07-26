@@ -127,7 +127,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the zip archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -137,7 +137,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the zip archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -147,7 +147,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the curse archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -157,7 +157,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the modrinth archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -172,7 +172,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the technic archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :param global_step_callback: callback to advance the global bar between internal phases
         :return: None

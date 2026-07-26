@@ -130,9 +130,9 @@ class UpdateService:
                         progress_callback(delta_progress, "")  # to stay synced with the progress
                     continue
 
-                overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
+                override_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
                 log.debug(
-                    f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}"
+                    f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{override_str}"
                 )
 
                 if progress_callback is not None:

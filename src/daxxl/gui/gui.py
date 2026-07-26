@@ -67,7 +67,7 @@ class Window(ThemedTk, Tk):
         """
         Constructor of the Window class.
 
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         """
         self.themed = themed
         if themed:
@@ -223,9 +223,9 @@ class Window(ThemedTk, Tk):
                     self.toggle(child)
 
     @with_error_dialog(
-        title="An error occured during the generation of the changelog",
+        title="An error occurred during the generation of the changelog",
         message=lambda self: (
-            f"An error occured during the generation of the changelog from "
+            f"An error occurred during the generation of the changelog from "
             f"{self.controller.last_version} to {self.controller.version}."
             "\nPlease check the logs for more information."
         ),
@@ -241,8 +241,8 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title="An error occured during the generation of the intermediate curseforge files",
-        message="An error occured during the generation of the intermediate curseforge files."
+        title="An error occurred during the generation of the intermediate curseforge files",
+        message="An error occurred during the generation of the intermediate curseforge files."
         "\nPlease check the logs for more information.",
     )
     async def generate_intermediate_cf_files(self) -> None:
@@ -259,7 +259,7 @@ class Window(ThemedTk, Tk):
 
     @with_error_dialog(
         title=lambda self, side, archive_type: (
-            f"An error occured during the assembling {side.value} {archive_type.value} archive"
+            f"An error occurred during the assembling {side.value} {archive_type.value} archive"
         ),
         message=lambda self, side, archive_type: (
             f"An error occurended during the assembling {side.value} {archive_type.value} archive."
@@ -277,8 +277,8 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title="An error occured during the update of the assembling of the archives",
-        message="An error occured during the update of the assembling of the archives."
+        title="An error occurred during the update of the assembling of the archives",
+        message="An error occurred during the update of the assembling of the archives."
         "\nPlease check the logs for more information.",
     )
     async def assemble_all(self) -> None:
@@ -292,8 +292,8 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title="An error occured during the update of the assembling of the archives",
-        message="An error occured during the update of the assembling of the archives."
+        title="An error occurred during the update of the assembling of the archives",
+        message="An error occurred during the update of the assembling of the archives."
         "\nPlease check the logs for more information.",
     )
     async def assemble_beta(self) -> None:
@@ -351,8 +351,8 @@ class Window(ThemedTk, Tk):
             showwarning("Side already set up", str(e))
 
     @with_error_dialog(
-        title="An error occured while adding an exclusion",
-        message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
+        title="An error occurred while adding an exclusion",
+        message="An error occurred while saving the exclusion.\nPlease check the logs for more information.",
     )
     async def add_exclusion(self, side: Side, exclusion: str) -> None:
         """
@@ -368,8 +368,8 @@ class Window(ThemedTk, Tk):
         await self._refresh_exclusions(side)
 
     @with_error_dialog(
-        title="An error occured while removing an exclusion",
-        message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
+        title="An error occurred while removing an exclusion",
+        message="An error occurred while saving the exclusion.\nPlease check the logs for more information.",
     )
     async def delete_exclusion(self, side: Side, exclusion: str) -> None:
         """
@@ -425,7 +425,7 @@ class Window(ThemedTk, Tk):
         if errored_mods:
             sections.append(
                 "\n".join(
-                    f"mod {mod.name} has {mod.latest_version} which is older than newest version availiable on github"
+                    f"mod {mod.name} has {mod.latest_version} which is older than newest version available on github"
                     for mod in errored_mods
                 )
                 + "\nThis means tags had been done wrongly."
@@ -434,12 +434,12 @@ class Window(ThemedTk, Tk):
         showwarning(title, warning_intro + "\n\n".join(sections))
 
     @with_error_dialog(
-        title="An error occured during the update of the assets",
-        message="An error occured during the update of the assets.\nPlease check the logs for more information.",
+        title="An error occurred during the update of the assets",
+        message="An error occurred during the update of the assets.\nPlease check the logs for more information.",
     )
     async def update_assets(self) -> None:
         """
-        Callback to update update all the availiable assets.
+        Callback to update update all the available assets.
 
         :return: None
         """
@@ -475,8 +475,8 @@ class Window(ThemedTk, Tk):
         )
 
     @with_error_dialog(
-        title="An error occured during the update of the experimental build",
-        message="An error occured during the update of the experimental build."
+        title="An error occurred during the update of the experimental build",
+        message="An error occurred during the update of the experimental build."
         "\nPlease check the logs for more information.",
     )
     async def update_experimental(self) -> None:
@@ -488,8 +488,8 @@ class Window(ThemedTk, Tk):
         await self._update_dev_release(DevRelease.EXPERIMENTAL)
 
     @with_error_dialog(
-        title="An error occured during the update of the daily build",
-        message="An error occured during the update of the daily build.\nPlease check the logs for more information.",
+        title="An error occurred during the update of the daily build",
+        message="An error occurred during the update of the daily build.\nPlease check the logs for more information.",
     )
     async def update_daily(self) -> None:
         """

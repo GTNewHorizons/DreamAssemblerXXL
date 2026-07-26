@@ -77,7 +77,7 @@ class GenericAssembler:
         """
         Method to get the amount of files inside the config zip.
 
-        :param side: targetted side for the release
+        :param side: targeted side for the release
         :return: the amount of files
         """
         modpack_config: GTNHConfig
@@ -106,10 +106,10 @@ class GenericAssembler:
 
     def get_mods(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the mod info objects as well as their targetted version.
+        Method to grab the mod info objects as well as their targeted version.
 
-        :param side: the targetted side
-        :return: a list of couples where the first object is the mod info object, the second is the targetted version.
+        :param side: the targeted side
+        :return: a list of couples where the first object is the mod info object, the second is the targeted version.
         """
 
         valid_sides: set[Side] = side.valid_mod_sides()
@@ -125,7 +125,7 @@ class GenericAssembler:
         self, valid_sides: set[Side], release: Optional[GTNHRelease] = None
     ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the external mod info objects as well as their targetted version.
+        Method to grab the external mod info objects as well as their targeted version.
 
         :param valid_sides: a set of valid sides to retrieve the mods from.
         :param release: if specified, the release version to get data from instead of the one used for the assembling.
@@ -148,7 +148,7 @@ class GenericAssembler:
         self, valid_sides: set[Side], release: Optional[GTNHRelease] = None
     ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the github mod info objects as well as their targetted version.
+        Method to grab the github mod info objects as well as their targeted version.
 
         :param valid_sides: a set of valid sides to retrieve the mods from.
         :param release: if specified, the release version to get data from instead of the one used for the assembling.

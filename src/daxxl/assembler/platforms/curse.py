@@ -66,7 +66,7 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
 
 async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Method to check if maven download url is availiable. If not, falling back to github. For now, it is reasonable, but
+    Method to check if maven download url is available. If not, falling back to github. For now, it is reasonable, but
     we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
     this.
 
