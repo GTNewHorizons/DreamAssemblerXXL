@@ -1,7 +1,7 @@
 from typing import Callable
 
 from daxxl.defs import DevRelease
-from daxxl.exceptions import InvalidDailyIdException, InvalidExperimentalIdException
+from daxxl.exceptions import InvalidDailyIDException, InvalidExperimentalIDException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 
@@ -38,14 +38,14 @@ class CounterService:
         """
         if kind == DevRelease.EXPERIMENTAL:
             if id <= self._assets.latest_experimental:
-                raise InvalidExperimentalIdException(
+                raise InvalidExperimentalIDException(
                     f"Cannot set new experimental id to {id}, needs to be greater than latest experimental count {self._assets.latest_experimental}"
                 )
             self._assets.latest_experimental = id
 
         elif kind == DevRelease.DAILY:
             if id <= self._assets.latest_daily:
-                raise InvalidDailyIdException(
+                raise InvalidDailyIDException(
                     f"Cannot set new daily id to {id}, needs to be greater than latest daily count {self._assets.latest_daily}"
                 )
             self._assets.latest_daily = id
