@@ -17763,7 +17763,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1019-GTNH",
+      "latest_version": "rv3-beta-1020-GTNH",
       "private": false,
       "versions": [
         {
@@ -26544,6 +26544,16 @@
           "filename": "appliedenergistics2-rv3-beta-1019-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/489196721",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1019-GTNH/appliedenergistics2-rv3-beta-1019-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1020-GTNH",
+          "changelog": "## What's Changed\n* Add Advanced Level Emitter by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1455\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1019-GTNH...rv3-beta-1020-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T10:55:10+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1020-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/490279040",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1020-GTNH/appliedenergistics2-rv3-beta-1020-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -64190,7 +64200,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.55",
+      "latest_version": "5.09.54.56",
       "private": false,
       "versions": [
         {
@@ -89762,6 +89772,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/490106380",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.55/gregtech-5.09.54.55.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.56",
+          "changelog": "## What's Changed\n* fix(meoutput): fix me output can't accept anything in 1 tick and support check mode without a cell by @hinyb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7570\n* Show insufficient voltage error in CAL assembler mode by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7572\n* Add SkipGenerateDescription annotation to GTPPMTECable.java‎ by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7567\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.55...5.09.54.56\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T10:57:10+00:00",
+          "filename": "gregtech-5.09.54.56.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/490280226",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.56/gregtech-5.09.54.56.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -101378,7 +101398,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.176",
+      "latest_version": "2.7.177",
       "private": false,
       "versions": [
         {
@@ -107289,6 +107309,16 @@
           "filename": "hodgepodge-2.7.176.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/490099702",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.176/hodgepodge-2.7.176.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.177",
+          "changelog": "## What's Changed\n* Enable distance culling for frames and items in frames by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/949\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.176...2.7.177\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T10:55:58+00:00",
+          "filename": "hodgepodge-2.7.177.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/490279496",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.177/hodgepodge-2.7.177.jar",
           "extra_assets": []
         }
       ],
@@ -125820,7 +125850,7 @@
     },
     {
       "name": "ModularUI2",
-      "latest_version": "2.3.82-1.7.10",
+      "latest_version": "2.3.83-1.7.10",
       "private": false,
       "versions": [
         {
@@ -127143,6 +127173,16 @@
           "filename": "modularui2-2.3.82-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/488029486",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.82-1.7.10/modularui2-2.3.82-1.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.83-1.7.10",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.83-1.7.10 -->\n\n## What's Changed\n* Fix explicit percentages in bounded number fields by @Worive in https://github.com/GTNewHorizons/ModularUI2/pull/153\n\n## New Contributors\n* @Worive made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/153\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.82-1.7.10...2.3.83-1.7.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T10:54:21+00:00",
+          "filename": "modularui2-2.3.83-1.7.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/490278580",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.83-1.7.10/modularui2-2.3.83-1.7.10.jar",
           "extra_assets": []
         }
       ],
@@ -130146,7 +130186,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.22",
+      "latest_version": "2.9.23",
       "private": false,
       "versions": [
         {
@@ -141928,6 +141968,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/490099089",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.22/GTNewHorizonsCoreMod-2.9.22.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.23",
+          "changelog": "## What's Changed\n* Added ME Advanced Level Emitter Recipe by @Ranzuu in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1874\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.22...2.9.23\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T10:56:26+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/490279740",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.23/GTNewHorizonsCoreMod-2.9.23.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -143150,7 +143200,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.114-GTNH",
+      "latest_version": "2.8.115-GTNH",
       "private": false,
       "versions": [
         {
@@ -147652,6 +147702,16 @@
           "filename": "NotEnoughItems-2.8.114-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/473774066",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.114-GTNH/NotEnoughItems-2.8.114-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.115-GTNH",
+          "changelog": "## What's Changed\n* Simplify the keybinding by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/982\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.114-GTNH...2.8.115-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T11:01:56+00:00",
+          "filename": "NotEnoughItems-2.8.115-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/490282883",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.115-GTNH/NotEnoughItems-2.8.115-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -163481,7 +163541,7 @@
     },
     {
       "name": "TC-4-Tweaks",
-      "latest_version": "1.5.45",
+      "latest_version": "1.5.46",
       "needs_attention": false,
       "versions": [
         {
@@ -164106,6 +164166,19 @@
           "curse_file": {
             "project_no": "431297",
             "file_no": "8230180"
+          }
+        },
+        {
+          "version_tag": "1.5.46",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T18:08:12.112251",
+          "filename": "Thaumcraft4Tweaks-1.5.46.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8469/102/Thaumcraft4Tweaks-1.5.46.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/8469102",
+          "curse_file": {
+            "project_no": "431297",
+            "file_no": "8469102"
           }
         }
       ],
@@ -179480,7 +179553,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.5.36",
+      "latest_version": "1.5.37",
       "private": false,
       "versions": [
         {
@@ -180623,6 +180696,16 @@
           "filename": "visualprospecting-1.5.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/481321565",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.5.36/visualprospecting-1.5.36.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.37",
+          "changelog": "## What's Changed\n* Relax a little bit the cache fallback command by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/103\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.36...1.5.37\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-26T09:26:41+00:00",
+          "filename": "visualprospecting-1.5.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/490223595",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.5.37/visualprospecting-1.5.37.jar",
           "extra_assets": []
         }
       ],
