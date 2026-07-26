@@ -1,5 +1,6 @@
 from typing import Callable
 
+from daxxl.defs import DevRelease
 from daxxl.exceptions import InvalidDailyIdException, InvalidExperimentalIdException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
@@ -12,133 +13,96 @@ class CounterService:
         self._assets = assets
         self._save = save_callback
 
-    def get_experimental_count(self) -> int:
+    def get_dev_release_count(self, kind: DevRelease) -> int:
         """
-        Return the current experimental count.
+        Return the current count for the desired dev release.
 
         Returns
         -------
-        int: The current experimental count.
+        int: the current count for the desired dev release.
         """
-        return self._assets.latest_experimental
-
-    def set_experimental_id(self, id: int) -> None:
-        """
-        Set the experimental id to a specific number. Has to be greater than the last experimental id.
-
-        Returns
-        -------
-        None
-        """
-        latest_id = self._assets.latest_experimental
-        if id > latest_id:
-            self._assets.latest_experimental = id
+        if kind == DevRelease.EXPERIMENTAL:
+            return self._assets.latest_experimental
+        elif kind == DevRelease.DAILY:
+            return self._assets.latest_daily
         else:
-            raise InvalidExperimentalIdException(
-                f"Cannot set new experimental id to {id}, needs to be greater than latest experimental count {latest_id}"
-            )
+            raise NotImplementedError(f"{kind} dev release is not yet supported")
 
-    def increment_experimental_count(self) -> None:
+    def set_dev_release_id(self, kind: DevRelease, id: int) -> None:
         """
-        Increment the experimental count.
+        Set the dev release id to a specific number. Has to be greater than the last id.
 
         Returns
         -------
         None
         """
-        self._assets.latest_experimental += 1
-        self._save()
+        if kind == DevRelease.EXPERIMENTAL:
+            if id <= self._assets.latest_experimental:
+                raise InvalidExperimentalIdException(
+                    f"Cannot set new experimental id to {id}, needs to be greater than latest experimental count {self._assets.latest_experimental}"
+                )
+            self._assets.latest_experimental = id
 
-    def set_last_successful_experimental_id(self, id: int) -> None:
-        """
-        Set the last successful experimental id.
-
-        Parameters
-        ----------
-        id: int
-            The last successful experimental id.
-
-        Returns
-        -------
-        None
-        """
-        self._assets.latest_successful_experimental = id
-        self._save()
-        log.info(f"last successful build set to {id}")
-
-    def get_last_successful_experimental(self) -> int:
-        """
-        get the last successful experimental id.
-
-        Returns
-        -------
-        int
-            The last successful experimental id.
-        """
-        return self._assets.latest_successful_experimental
-
-    def get_daily_count(self) -> int:
-        """
-        Return the current daily count.
-
-        Returns
-        -------
-        int: The current daily count.
-        """
-        return self._assets.latest_daily
-
-    def set_daily_id(self, id: int) -> None:
-        """
-        Set the daily id to a specific number. Has to be greater than the last daily id.
-
-        Returns
-        -------
-        None
-        """
-        latest_id = self._assets.latest_daily
-        if id > latest_id:
+        elif kind == DevRelease.DAILY:
+            if id <= self._assets.latest_daily:
+                raise InvalidDailyIdException(
+                    f"Cannot set new daily id to {id}, needs to be greater than latest daily count {self._assets.latest_daily}"
+                )
             self._assets.latest_daily = id
         else:
-            raise InvalidDailyIdException(
-                f"Cannot set new daily id to {id}, needs to be greater than latest daily count {latest_id}"
-            )
+            raise NotImplementedError(f"{kind} dev release is not yet supported")
 
-    def increment_daily_count(self) -> None:
+    def increment_dev_build_id(self, kind: DevRelease) -> None:
         """
-        Increment the daily count.
+        Increment the dev build id.
 
         Returns
         -------
         None
         """
-        self._assets.latest_daily += 1
+        if kind == DevRelease.EXPERIMENTAL:
+            self._assets.latest_experimental += 1
+        elif kind == DevRelease.DAILY:
+            self._assets.latest_daily += 1
+        else:
+            raise NotImplementedError(f"{kind} dev release is not yet supported")
         self._save()
 
-    def set_last_successful_daily_id(self, id: int) -> None:
+
+    def set_last_successful_dev_build_id(self, kind: DevRelease, id: int) -> None:
         """
-        Set the last successful daily id.
+        Set the last successful dev build id.
 
         Parameters
         ----------
         id: int
-            The last successful daily id.
+            The last successful dev build id.
 
         Returns
         -------
         None
         """
-        self._assets.latest_successful_daily = id
+        if kind == DevRelease.EXPERIMENTAL:
+            self._assets.latest_successful_experimental = id
+        elif kind == DevRelease.DAILY:
+            self._assets.latest_successful_daily = id
+        else:
+            raise NotImplementedError(f"{kind} dev release is not yet supported")
         self._save()
         log.info(f"last successful build set to {id}")
 
-    def get_last_successful_daily(self) -> int:
+    def get_last_successful_dev_build_id(self, kind: DevRelease) -> int:
         """
-        get the last successful daily id.
+        get the last successful dev build id.
 
         Returns
         -------
         int
-            The last successful daily id.
+            The last successful dev build id.
         """
-        return self._assets.latest_successful_daily
-
+        if kind == DevRelease.EXPERIMENTAL:
+            return self._assets.latest_successful_experimental
+        elif kind == DevRelease.DAILY:
+            return self._assets.latest_successful_daily
+        else:
+            raise NotImplementedError(f"{kind} dev release is not yet supported")

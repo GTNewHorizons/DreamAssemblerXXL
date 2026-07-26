@@ -7,6 +7,7 @@ from daxxl.defs import (
     RELEASE_CHANGELOG_DIR,
     RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR,
     Archive,
+    DevRelease,
     Side,
 )
 from daxxl.gtnh_logger import get_logger
@@ -202,17 +203,20 @@ class ReleaseAssemblerController:
         )
         changelog: dict[str, list[str]] = self.mod_manager.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
-        if "experimental" in current_version:
-            changelog_path = (
-                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR / f"changelog from experimental "
-                f"{self.mod_manager.counter.get_last_successful_experimental()} to "
-                f"{self.mod_manager.counter.get_experimental_count()}.md"
+        kind: DevRelease | None = None
+        for dr in DevRelease:
+            if dr.value in current_version:
+                kind = dr
+                break
+        if kind is not None:
+            changelog_dir = (
+                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR if kind is DevRelease.EXPERIMENTAL
+                else RELEASE_CHANGELOG_DAILY_BUILDS_DIR
             )
-        elif "daily" in current_version:
             changelog_path = (
-                RELEASE_CHANGELOG_DAILY_BUILDS_DIR / f"changelog from daily "
-                f"{self.mod_manager.counter.get_last_successful_daily()} to "
-                f"{self.mod_manager.counter.get_daily_count()}.md"
+                changelog_dir / f"changelog from {kind.value} "
+                f"{self.mod_manager.counter.get_last_successful_dev_build_id(kind)} to "
+                f"{self.mod_manager.counter.get_dev_release_count(kind)}.md"
             )
         else:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
