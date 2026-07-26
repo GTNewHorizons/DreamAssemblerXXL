@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
-from typing import Any, Callable, Dict, List, Union
+from typing import Any, Callable
 
 from async_tkinter_loop import async_mainloop
 from ttkthemes import ThemedTk
@@ -32,7 +32,7 @@ def check(widget: Widget) -> bool:
     :param widget: the given widget
     :return: if yes or no it can be disabled
     """
-    widget_list: List[str] = ["CustomButton", "TextWidget", "CustomListbox", "CustomCombobox"]
+    widget_list: list[str] = ["CustomButton", "TextWidget", "CustomListbox", "CustomCombobox"]
     for widget_type in widget_list:
         if widget_type.lower() in str(widget):
             if widget_type == "CustomButton":
@@ -396,8 +396,8 @@ class Window(ThemedTk, Tk):
 
     def _notify_errored_mods(
         self,
-        errored_mods: List[GTNHModInfo],
-        update_errors: List[str],
+        errored_mods: list[GTNHModInfo],
+        update_errors: list[str],
         title: str,
         success_message: str,
         warning_intro: str,
@@ -419,7 +419,7 @@ class Window(ThemedTk, Tk):
             showinfo(title, success_message)
             return
 
-        sections: List[str] = []
+        sections: list[str] = []
         if update_errors:
             sections.append("The following assets failed to update and may be stale:\n" + "\n".join(update_errors))
         if errored_mods:
@@ -499,7 +499,7 @@ class Window(ThemedTk, Tk):
         """
         await self._update_dev_release(DevRelease.DAILY.value)
 
-    async def load_gtnh_version(self, release: Union[GTNHRelease, str], init: bool = False) -> None:
+    async def load_gtnh_version(self, release: GTNHRelease | str, init: bool = False) -> None:
         """
         Callback to load in memory a pack release.
 
@@ -579,11 +579,11 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         # load last gtnh version if there is any:
-        releases: List[GTNHRelease] = await self.controller.get_releases()
+        releases: list[GTNHRelease] = await self.controller.get_releases()
         if len(releases) > 0:
             await self.load_gtnh_version(releases[-1], init=True)
 
-        data_github_mods: Dict[str, Any] = {
+        data_github_mods: dict[str, Any] = {
             "github_mod_list": await self.controller.get_repos(),
             "modpack_version_frame": {
                 "combobox": await self.controller.get_modpack_versions(),
@@ -593,7 +593,7 @@ class Window(ThemedTk, Tk):
 
         self.github_panel.populate_data(data_github_mods)
 
-        data_external_mods: Dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
+        data_external_mods: dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
 
         self.external_mod_frame.populate_data(data_external_mods)
 
@@ -619,7 +619,7 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        data_external_mods: Dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
+        data_external_mods: dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
 
         self.external_mod_frame.populate_data(data_external_mods)
 
@@ -635,3 +635,4 @@ class Window(ThemedTk, Tk):
 
 if __name__ == "__main__":
     App(themed=False).exec()
+

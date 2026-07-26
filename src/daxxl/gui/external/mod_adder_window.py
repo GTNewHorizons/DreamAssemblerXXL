@@ -5,7 +5,7 @@ from tkinter import LabelFrame, Toplevel
 from tkinter.constants import DISABLED, NORMAL
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Dict, List, Optional
+from typing import Any, Callable, Coroutine, Optional
 
 from daxxl.defs import ModSource, Side
 from daxxl.gui.lib.button import CustomButton
@@ -134,7 +134,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         src = 1 if gtnh.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
         self.mod_choice.set(src)
 
-    def check_inputs(self) -> Dict[str, bool]:
+    def check_inputs(self) -> dict[str, bool]:
         """
         Method used to check the inputs in the gui.
 
@@ -148,7 +148,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         _license = self.license.get()
         project_url = self.project_url.get()
 
-        check_results: Dict[str, bool] = {
+        check_results: dict[str, bool] = {
             "name": False,
             "version": False,
             "download_url": False,
@@ -210,17 +210,17 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         not_curse_src: bool = self.mod_choice.get() != Sources.CURSEFORGE.value
         curse_src: bool = self.mod_choice.get() == Sources.CURSEFORGE.value
 
-        blacklist_external_source: List[str] = ["project_id"]
-        blacklist_external_source_new_version: List[str] = ["project_id", "project_url", "license"]
-        blacklist_curse_new_version: List[str] = ["project_id", "project_url", "license"]
-        blacklist_curse: List[str] = []
+        blacklist_external_source: list[str] = ["project_id"]
+        blacklist_external_source_new_version: list[str] = ["project_id", "project_url", "license"]
+        blacklist_curse_new_version: list[str] = ["project_id", "project_url", "license"]
+        blacklist_curse: list[str] = []
         only_mod: bool = self.add_mod_version
         only_mod_external: bool = self.add_mod_version and not_curse_src
         only_mod_curse: bool = self.add_mod_version and curse_src
         external_mod: bool = not self.add_mod_version and not_curse_src
         curse_mod: bool = not self.add_mod_version and curse_src
 
-        blacklist: List[str]
+        blacklist: list[str]
 
         if only_mod_external:  # new mod version for external source
             blacklist = blacklist_external_source_new_version
@@ -448,3 +448,4 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         self.version.set(version.version_tag)
         self.download_url.set(version.download_url)  # type: ignore
         self.browser_url.set(version.browser_download_url)  # type: ignore
+

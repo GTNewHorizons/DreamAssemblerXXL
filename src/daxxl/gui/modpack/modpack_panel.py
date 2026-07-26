@@ -1,7 +1,7 @@
 from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional
+from typing import Any, Callable, Optional
 
 from daxxl.defs import Position
 from daxxl.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
@@ -105,7 +105,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.callbacks.generate_experimental()
-        data: List[str] = list(self.modpack_list.listbox.get_values())
+        data: list[str] = list(self.modpack_list.listbox.get_values())
         if "experimental" not in data:
             data.insert(0, "experimental")
             self.modpack_list.listbox.set_values(data)
@@ -117,7 +117,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.callbacks.generate_daily()
-        data: List[str] = list(self.modpack_list.listbox.get_values())
+        data: list[str] = list(self.modpack_list.listbox.get_values())
         if "daily" not in data:
             data.insert(0, "daily")
             self.modpack_list.listbox.set_values(data)
@@ -199,3 +199,4 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.modpack_list.populate_data(data)
+

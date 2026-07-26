@@ -1,6 +1,6 @@
 from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Combobox, Frame as TtkFrame, Label as TtkLabel
-from typing import Any, Callable, List, Optional, Union
+from typing import Any, Callable, Optional
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -11,7 +11,7 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
         self,
         master: Any,
         label_text: str,
-        values: List[str] = [],
+        values: list[str] = [],
         hide_label: bool = False,
         on_selection: Optional[Callable[[Any], None]] = None,
         position_sticky_label: Optional[Position] = Position.HORIZONTAL,
@@ -27,7 +27,7 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
             Frame.__init__(self, master, *args, *kwargs)
 
         CustomWidget.__init__(self, text=label_text)
-        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
+        self.label: Label | TtkLabel = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
 
         self.string_var: StringVar = StringVar(value="")
 
@@ -50,10 +50,10 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
         self.columnconfigure(0, weight=1)
         self.columnconfigure(1, weight=1)
 
-    def get_values(self) -> List[str]:
+    def get_values(self) -> list[str]:
         return self.combobox["values"]
 
-    def set_values(self, values: List[str]) -> None:
+    def set_values(self, values: list[str]) -> None:
         self.combobox["values"] = values
 
     def get(self) -> str:
@@ -94,3 +94,4 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
     def reset(self) -> None:
         self.set("")
         self.set_values([])
+

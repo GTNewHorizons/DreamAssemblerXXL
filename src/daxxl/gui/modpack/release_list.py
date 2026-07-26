@@ -2,7 +2,7 @@ from asyncio import Task
 from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional
+from typing import Any, Callable, Optional
 
 from daxxl.defs import Position
 from daxxl.gui.lib.button import CustomButton
@@ -80,7 +80,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             self, label_text="Loaded version: {0}", value="", themed=self.themed
         )
 
-        self.widgets: List[CustomWidget] = [
+        self.widgets: list[CustomWidget] = [
             self.listbox,
             self.btn_add,
             self.btn_load,
@@ -204,7 +204,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         :return: None
         """
         release_name: str = self.modpack.get()
-        listbox_entries: List[str] = self.listbox.get_values()
+        listbox_entries: list[str] = self.listbox.get_values()
         if release_name != "":
             previous_release: Optional[str] = simpledialog.askstring(
                 title="Enter the previous modpack version", prompt="Please enter the previous modpack version:"
@@ -243,7 +243,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             if callback is not None:
                 callback(release_name)
 
-    def populate_data(self, data: List[GTNHRelease]) -> None:
+    def populate_data(self, data: list[GTNHRelease]) -> None:
         """
         Method called by parent class to populate data in this class.
 
@@ -251,3 +251,4 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.listbox.set_values([release.version for release in data])
+

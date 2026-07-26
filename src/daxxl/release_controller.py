@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from typing import Any, Awaitable, Callable, Dict, List, Optional, Set, Tuple, Union
+from typing import Any, Awaitable, Callable, Optional
 
 import httpx
 from colorama import Fore
@@ -54,11 +54,11 @@ class ReleaseController:
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[AppContext] = None
 
-        self.github_mods: Dict[
+        self.github_mods: dict[
             str, ModVersionInfo
         ] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
-        self.external_mods: Dict[
+        self.external_mods: dict[
             str, ModVersionInfo
         ] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
@@ -135,7 +135,7 @@ class ReleaseController:
         """
         del self.external_mods[name]
 
-    def get_github_mods(self) -> Dict[str, ModVersionInfo]:
+    def get_github_mods(self) -> dict[str, ModVersionInfo]:
         """
         Getter for self.github_mods.
 
@@ -143,7 +143,7 @@ class ReleaseController:
         """
         return self.github_mods
 
-    def get_external_mods(self) -> Dict[str, ModVersionInfo]:
+    def get_external_mods(self) -> dict[str, ModVersionInfo]:
         """
         Getter for self.external_mods.
 
@@ -184,7 +184,7 @@ class ReleaseController:
 
     def _set_mod_side(
         self,
-        mods: Dict[str, ModVersionInfo],
+        mods: dict[str, ModVersionInfo],
         mod_name: str,
         side: Side,
         get_default_version: Callable[[], str],
@@ -296,7 +296,7 @@ class ReleaseController:
             gtnh.persistence.save(gtnh.mod_pack)
         return removed
 
-    async def get_modpack_exclusions(self, side: Side) -> List[str]:
+    async def get_modpack_exclusions(self, side: Side) -> list[str]:
         """
         Method used to gather the file exclusion list of the modpack corresponding to the provided side.
 
@@ -311,7 +311,7 @@ class ReleaseController:
         else:
             raise ValueError(f"side {side} is an invalid side")
 
-    async def get_repos(self) -> List[str]:
+    async def get_repos(self) -> list[str]:
         """
         Method to grab all the repo names known.
 
@@ -320,7 +320,7 @@ class ReleaseController:
         gtnh: AppContext = await self.get_modpack_manager()
         return [x.name for x in gtnh.assets.mods if x.source == ModSource.github]
 
-    async def get_external_modlist(self) -> List[str]:
+    async def get_external_modlist(self) -> list[str]:
         """
         Method to get all the external mods from the assets.
 
@@ -329,7 +329,7 @@ class ReleaseController:
         gtnh: AppContext = await self.get_modpack_manager()
         return [mod.name for mod in gtnh.assets.mods if mod.source != ModSource.github]
 
-    async def get_modpack_versions(self) -> List[str]:
+    async def get_modpack_versions(self) -> list[str]:
         """
         Method used to gather all the version of the GT-New-Horizons-Modpack repo.
 
@@ -339,7 +339,7 @@ class ReleaseController:
         modpack_config: GTNHConfig = gtnh.assets.config
         return [version.version_tag for version in modpack_config.versions]
 
-    async def get_releases(self) -> List[GTNHRelease]:
+    async def get_releases(self) -> list[GTNHRelease]:
         """
         Method used to return a list of known releases with valid metadata.
         The list is sorted in ascending order (from oldest to the latest).
@@ -348,7 +348,7 @@ class ReleaseController:
         """
         gtnh: AppContext = await self.get_modpack_manager()
 
-        releases: List[GTNHRelease] = []
+        releases: list[GTNHRelease] = []
 
         # if there is any release, chose last
         if len(gtnh.mod_pack.releases) > 0:
@@ -372,7 +372,7 @@ class ReleaseController:
 
         return releases
 
-    async def load_gtnh_version(self, release: Union[GTNHRelease, str]) -> GTNHRelease:
+    async def load_gtnh_version(self, release: GTNHRelease | str) -> GTNHRelease:
         """
         Load in memory a pack release.
 
@@ -412,12 +412,12 @@ class ReleaseController:
         mod_name: str
         version: ModVersionInfo
         gtnh_modpack: AppContext = await self.get_modpack_manager()
-        github_mods: Dict[str, ModVersionInfo] = release.github_mods
-        external_mods: Dict[str, ModVersionInfo] = release.external_mods
-        valid_side: Set[Side] = {Side.NONE}
-        github_mods_to_delete: List[str] = []
-        external_mods_to_delete: List[str] = []
-        mod_data: Optional[Tuple[GTNHModInfo, GTNHVersion]]
+        github_mods: dict[str, ModVersionInfo] = release.github_mods
+        external_mods: dict[str, ModVersionInfo] = release.external_mods
+        valid_side: set[Side] = {Side.NONE}
+        github_mods_to_delete: list[str] = []
+        external_mods_to_delete: list[str] = []
+        mod_data: Optional[tuple[GTNHModInfo, GTNHVersion]]
 
         for mod_name, version in github_mods.items():
             mod_data = gtnh_modpack.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
@@ -497,7 +497,7 @@ class ReleaseController:
         gtnh.persistence.save(gtnh.mod_pack)
 
         if was_loaded:
-            releases: List[GTNHRelease] = await self.get_releases()
+            releases: list[GTNHRelease] = await self.get_releases()
             if releases:
                 await self.load_gtnh_version(releases[-1])
             else:
@@ -507,7 +507,7 @@ class ReleaseController:
                 self.version = ""
                 self.last_version = None
 
-    async def update_assets(self) -> Tuple[List[GTNHModInfo], List[str]]:
+    async def update_assets(self) -> tuple[list[GTNHModInfo], list[str]]:
         """
         Update all the availiable assets.
 
@@ -519,14 +519,14 @@ class ReleaseController:
 
         gtnh: AppContext = await self.get_modpack_manager()
         global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
-        update_errors: List[str] = await gtnh.update_orchestrator.update_all(
+        update_errors: list[str] = await gtnh.update_orchestrator.update_all(
             progress_callback=self.progress_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
 
         return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
 
-    async def update_rolling_release(self, release_type: str) -> Tuple[List[GTNHModInfo], List[str]]:
+    async def update_rolling_release(self, release_type: str) -> tuple[list[GTNHModInfo], list[str]]:
         """
         update dev release (experimental/daily)
 
@@ -632,7 +632,7 @@ class ReleaseController:
                 global_step_callback=lambda msg: self.global_callback(self.get_progress(), msg),
             )
         else:
-            assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
+            assembler_dict: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
                 Archive.ZIP: release_assembler.assemble_zip,
                 Archive.PRISM: release_assembler.assemble_prism,
                 Archive.MODRINTH: release_assembler.assemble_modrinth,
@@ -708,3 +708,4 @@ class ReleaseController:
                 release_assembler.current_task_reset_callback()
             self.global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
             await assemblers[archive_type](side=side, verbose=True)
+

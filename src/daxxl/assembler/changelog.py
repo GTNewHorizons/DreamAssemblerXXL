@@ -1,5 +1,5 @@
 import re
-from typing import List, Optional, Set
+from typing import Optional
 
 from daxxl.defs import Side
 
@@ -45,7 +45,7 @@ class ChangelogCollection:
         self,
         pack_release_version: str,
         mod_name: str,
-        changelog_entries: List[ChangelogEntry],
+        changelog_entries: list[ChangelogEntry],
         oldest_side: Optional[Side],
         newest_side: Side,
         new_mod: bool = False,
@@ -55,8 +55,8 @@ class ChangelogCollection:
         self.new_mod: bool = new_mod
         self.oldest_side: Optional[Side] = oldest_side
         self.newest_side: Side = newest_side
-        self.contributors: Set[str] = set()
-        self.changelog_entries: List[ChangelogEntry] = changelog_entries[::-1]
+        self.contributors: set[str] = set()
+        self.changelog_entries: list[ChangelogEntry] = changelog_entries[::-1]
         self.oldest: ChangelogEntry = self.changelog_entries[-1]
         self.newest: ChangelogEntry = self.changelog_entries[0]
 
@@ -91,11 +91,11 @@ class ChangelogCollection:
             return str(side)
 
     @classmethod
-    def blockquote(cls, strs: List[str]) -> List[str]:
+    def blockquote(cls, strs: list[str]) -> list[str]:
         return [f">{s}" for s in strs]
 
     @classmethod
-    def get_contributors_from_PRs(cls, PR_list: List[str]) -> Set[str]:
+    def get_contributors_from_PRs(cls, PR_list: list[str]) -> set[str]:
         contributors = set()
         for pr in PR_list:
             match = re.search(r"by (@\S+) in http.*$", pr)
@@ -105,7 +105,7 @@ class ChangelogCollection:
         return contributors
 
     @classmethod
-    def annotate_version_on_PRs(cls, strs: List[str], version: str) -> List[str]:
+    def annotate_version_on_PRs(cls, strs: list[str], version: str) -> list[str]:
         return [f"{s} ({version})" for s in strs]
 
     def generate_mod_changelog(self, compressed: bool = True) -> str:
@@ -136,8 +136,8 @@ class ChangelogCollection:
         # what's changed text:
         lines.append("## What's Changed:")
 
-        version_changelog: List[str] = []
-        new_contributors: List[str] = []
+        version_changelog: list[str] = []
+        new_contributors: list[str] = []
 
         # actual mod version processing:
         for i, changelog_entry in enumerate(self.changelog_entries):

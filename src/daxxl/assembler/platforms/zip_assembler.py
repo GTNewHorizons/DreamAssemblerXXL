@@ -1,6 +1,6 @@
 import shutil
 from pathlib import Path
-from typing import Callable, List, Optional, Tuple
+from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
@@ -84,7 +84,7 @@ class ZipAssembler(GenericAssembler):
         archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(self.release.version))
 
     async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
@@ -142,7 +142,7 @@ class ZipAssembler(GenericAssembler):
                 await self.add_localisation_files(archive)
                 await normalize_archive_permissions(archive)
 
-    def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
+    def get_server_assets(self, server_brand: ServerBrand, side: Side) -> list[Path]:
         """
         return the list of Path objects corresponding to the server brand's assets.
 
@@ -150,10 +150,10 @@ class ZipAssembler(GenericAssembler):
         :return: a list of Path objects
         """
         assets_root: Path = SERVER_ASSETS_DIR / server_brand.value
-        path_objects: List[Path] = [path_object for path_object in assets_root.iterdir()]
+        path_objects: list[Path] = [path_object for path_object in assets_root.iterdir()]
 
-        assets: List[Path] = []
-        folders: List[Path]
+        assets: list[Path] = []
+        folders: list[Path]
 
         while len(path_objects) > 0:
             assets.extend(
@@ -174,3 +174,4 @@ class ZipAssembler(GenericAssembler):
                 path_objects.extend([path for path in folder.iterdir()])
 
         return assets
+

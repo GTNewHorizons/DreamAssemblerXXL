@@ -1,9 +1,9 @@
 import functools
 from tkinter.messagebox import showerror
-from typing import Any, Awaitable, Callable, TypeVar, Union, cast
+from typing import Any, Awaitable, Callable, TypeVar, cast
 
 F = TypeVar("F", bound=Callable[..., Awaitable[Any]])
-DialogText = Union[str, Callable[..., str]]
+DialogText = str | Callable[..., str]
 
 
 def with_error_dialog(title: DialogText, message: DialogText) -> Callable[[F], F]:
@@ -35,3 +35,4 @@ def with_error_dialog(title: DialogText, message: DialogText) -> Callable[[F], F
         return cast(F, wrapper)
 
     return decorator
+

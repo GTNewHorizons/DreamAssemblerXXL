@@ -192,3 +192,4 @@ class UpdateService:
         self.release_service.add_release(existing_release, update=True)
         self._save_modpack()
         return release, update_errors
+

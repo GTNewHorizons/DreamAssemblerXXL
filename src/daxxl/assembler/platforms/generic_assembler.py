@@ -2,7 +2,7 @@ import asyncio
 import os
 import shutil
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Set, Tuple
+from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
@@ -53,7 +53,7 @@ class GenericAssembler:
         self.current_task_reset_callback: Optional[Callable[[], None]] = current_task_reset_callback
 
         mod_pack = self.modpack_manager.mod_pack
-        self.exclusions: Dict[str, Exclusions] = {
+        self.exclusions: dict[str, Exclusions] = {
             Side.CLIENT: Exclusions(mod_pack.client_exclusions + mod_pack.client_java8_exclusions),
             Side.SERVER: Exclusions(mod_pack.server_exclusions + mod_pack.server_java8_exclusions),
             Side.CLIENT_JAVA9: Exclusions(mod_pack.client_exclusions + mod_pack.client_java9_exclusions),
@@ -113,7 +113,7 @@ class GenericAssembler:
                 sum += len([item for item in locale_zip.namelist() if not item.endswith("/")])
         return sum
 
-    def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def get_mods(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the mod info objects as well as their targetted version.
 
@@ -121,18 +121,18 @@ class GenericAssembler:
         :return: a list of couples where the first object is the mod info object, the second is the targetted version.
         """
 
-        valid_sides: Set[Side] = side.valid_mod_sides()
+        valid_sides: set[Side] = side.valid_mod_sides()
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
 
-        mods: List[Tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
+        mods: list[tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
         return mods
 
     def external_mods(
-        self, valid_sides: Set[Side], release: Optional[GTNHRelease] = None
-    ) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+        self, valid_sides: set[Side], release: Optional[GTNHRelease] = None
+    ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the external mod info objects as well as their targetted version.
 
@@ -141,7 +141,7 @@ class GenericAssembler:
         """
         release = self.release if release is None else release
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
@@ -154,8 +154,8 @@ class GenericAssembler:
         return external_mods
 
     def github_mods(
-        self, valid_sides: Set[Side], release: Optional[GTNHRelease] = None
-    ) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+        self, valid_sides: set[Side], release: Optional[GTNHRelease] = None
+    ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the github mod info objects as well as their targetted version.
 
@@ -164,7 +164,7 @@ class GenericAssembler:
         """
         release = self.release if release is None else release
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
@@ -176,7 +176,7 @@ class GenericAssembler:
 
         return github_mods
 
-    def get_config(self) -> Tuple[GTNHConfig, GTNHVersion]:
+    def get_config(self) -> tuple[GTNHConfig, GTNHVersion]:
         """
         Method to get the config file from the release.
 
@@ -208,7 +208,7 @@ class GenericAssembler:
         raise NotImplementedError
 
     async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
         Method to add config in the zip archive.
@@ -303,7 +303,7 @@ class GenericAssembler:
 
         :return: the string for the modlist
         """
-        valid_sides: Set[Side] = {
+        valid_sides: set[Side] = {
             Side.CLIENT,
             Side.SERVER,
             Side.BOTH,
@@ -311,18 +311,18 @@ class GenericAssembler:
             Side.SERVER_JAVA9,
             Side.BOTH_JAVA9,
         }
-        lines: List[str] = []
+        lines: list[str] = []
 
         # it seems i'm obligated to get mods separatedly because self.get_mods is somehow
         # casting external mods into github mods
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
         for mod, version in github_mods:
             assert isinstance(mod, GTNHModInfo)
             lines.append(f"| [{mod.name}]({mod.repo_url}) | {version.version_tag} |")
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
 
         for mod, version in external_mods:
             assert not mod.is_github()
@@ -362,3 +362,4 @@ class GenericAssembler:
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
                     await self.yield_to_event_loop()
+

@@ -1,6 +1,6 @@
 import shutil
 from pathlib import Path
-from typing import Callable, Optional, Tuple
+from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
@@ -81,7 +81,7 @@ class PrismAssembler(GenericAssembler):
             await self.yield_to_event_loop()
 
     async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
@@ -159,3 +159,4 @@ class PrismAssembler(GenericAssembler):
                 with open(PRISM_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
                     shutil.copyfileobj(icon, target)
             await normalize_archive_permissions(archive)
+

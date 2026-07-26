@@ -1,11 +1,11 @@
 from pathlib import Path
-from typing import Iterable, List
+from typing import Iterable
 
 
 class Exclusions:
-    exclusions: List[str]
+    exclusions: list[str]
 
-    def __init__(self, exclusions: List[str]) -> None:
+    def __init__(self, exclusions: list[str]) -> None:
         self.exclusions = exclusions
 
     def __contains__(self, item: str) -> bool:
@@ -26,3 +26,4 @@ class Exclusions:
 
     def extend(self, exclusions: Iterable[str]) -> None:
         self.exclusions.extend(exclusions)
+

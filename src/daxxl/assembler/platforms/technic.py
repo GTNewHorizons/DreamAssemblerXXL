@@ -3,7 +3,7 @@ import re
 import shutil
 from enum import Enum
 from pathlib import Path
-from typing import Callable, List, Optional, Set, Tuple
+from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
@@ -138,7 +138,7 @@ class TechnicAssembler(GenericAssembler):
 
         with open(removed_modlist_name, "w") as file:
             log.info("generating removed modlist")
-            removed_modlist: List[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(
+            removed_modlist: list[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(
                 side, DifferentialUpdateMode.REMOVED_MODS
             )
             file.write("\n".join([f"{mod.name}: {version.version_tag}" for (mod, version) in removed_modlist]))
@@ -146,7 +146,7 @@ class TechnicAssembler(GenericAssembler):
 
     def differential_update(
         self, side: Side, update_mode: DifferentialUpdateMode
-    ) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
+    ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
@@ -161,20 +161,20 @@ class TechnicAssembler(GenericAssembler):
             last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
         )
 
-        valid_sides: Set[Side] = side.valid_mod_sides()
-        j9_sides: Set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
+        valid_sides: set[Side] = side.valid_mod_sides()
+        j9_sides: set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides, release=process_release)
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides, release=process_release)
         github_mods_names = [x[0].name for x in github_mods]
-        github_mods_j9: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(j9_sides, release=process_release)
+        github_mods_j9: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(j9_sides, release=process_release)
         github_mods_names_j9 = [x[0].name for x in github_mods_j9]
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides, release=process_release)
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides, release=process_release)
         external_mods_names = [x[0].name for x in external_mods]
-        external_mods_j9: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(j9_sides, release=process_release)
+        external_mods_j9: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(j9_sides, release=process_release)
         external_mods_names_j9 = [x[0].name for x in external_mods_j9]
 
-        mods: List[Tuple[GTNHModInfo, GTNHVersion]] = []
+        mods: list[tuple[GTNHModInfo, GTNHVersion]] = []
         for mod_name in update_source(self.release, last_release):
             if mod_name in github_mods_names:
                 mod_index = github_mods_names.index(mod_name)
@@ -223,7 +223,7 @@ class TechnicAssembler(GenericAssembler):
             temp_zip_path.unlink()
 
     async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
 
         modpack_config: GTNHConfig
@@ -321,3 +321,4 @@ class TechnicAssembler(GenericAssembler):
             )
         )
         await self.partial_assemble(side, verbose)
+

@@ -1,6 +1,6 @@
 from tkinter import Entry, Frame, Label, StringVar
 from tkinter.ttk import Entry as TtkEntry, Frame as TtkFrame, Label as TtkLabel
-from typing import Any, Optional, Union
+from typing import Any, Optional
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -31,7 +31,7 @@ class TextEntry(Frame, TtkFrame, CustomWidget):
         self.position_sticky_entry: Position = (
             position_sticky_entry if position_sticky_entry is not None else Position.NONE
         )
-        self.label: Union[TtkLabel, Label] = (
+        self.label: TtkLabel | Label = (
             TtkLabel(self, text=self.label_text) if themed else Label(self, text=self.label_text)
         )
 

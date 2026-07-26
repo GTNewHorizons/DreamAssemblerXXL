@@ -202,3 +202,4 @@ class DownloadService:
             raise NoModAssetFound("Asset download failed:\n- " + "\n- ".join(errors))
 
         return downloaded
+

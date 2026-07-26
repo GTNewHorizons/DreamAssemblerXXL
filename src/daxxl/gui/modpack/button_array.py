@@ -1,7 +1,7 @@
 from asyncio import Task
 from tkinter import DISABLED, Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional, Union
+from typing import Any, Callable, Optional
 
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -78,7 +78,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        self.frame_btn: Union[Frame, TtkFrame] = TtkFrame(self) if themed else Frame(self)
+        self.frame_btn: Frame | TtkFrame = TtkFrame(self) if themed else Frame(self)
 
         self.update_experimental: Callable[[], None] = update_experimental
         self.update_daily: Callable[[], None] = update_daily
@@ -148,7 +148,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self, label_text="test current task", progress_bar_length=progress_bar_length
         )
 
-        self.widgets: List[CustomWidget] = [
+        self.widgets: list[CustomWidget] = [
             self.btn_client_cf,
             self.btn_client_technic,
             self.btn_client_modrinth,
@@ -280,3 +280,4 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         """
         for widget in self.widgets:
             widget.grid_forget()
+

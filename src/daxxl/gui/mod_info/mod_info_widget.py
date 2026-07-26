@@ -3,7 +3,7 @@ from asyncio import Task
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional
+from typing import Any, Callable, Optional
 
 from daxxl.defs import Side
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
@@ -91,7 +91,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         )
 
         self.mod_adder_callbacks = mod_adder_callbacks
-        self.widgets: List[CustomWidget]
+        self.widgets: list[CustomWidget]
         if external_mods:
             self.widgets = [
                 self.mod_name,
@@ -281,3 +281,4 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         """
         for widget in self.widgets:
             widget.reset()
+

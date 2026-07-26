@@ -1,6 +1,5 @@
 import bisect
 from functools import cached_property
-from typing import Dict, List
 
 from pydantic import Field
 
@@ -20,7 +19,7 @@ log = get_logger(__name__)
 class AvailableAssets(GTNHBaseModel):
     config: GTNHConfig
     translations: GTNHTranslations
-    mods: List[GTNHModInfo] = Field(default_factory=list)
+    mods: list[GTNHModInfo] = Field(default_factory=list)
     latest_experimental: int
     latest_successful_experimental: int
     latest_daily: int
@@ -54,7 +53,7 @@ class AvailableAssets(GTNHBaseModel):
             del self._modmap
 
     @cached_property
-    def _modmap(self) -> Dict[str, GTNHModInfo]:
+    def _modmap(self) -> dict[str, GTNHModInfo]:
         return {mod.name: mod for mod in self.mods}
 
     def has_mod(self, mod_name: str) -> bool:

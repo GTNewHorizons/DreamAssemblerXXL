@@ -3,7 +3,7 @@ from asyncio import Task
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Dict, List, Optional
+from typing import Any, Callable, Coroutine, Optional
 
 from daxxl.defs import Position, Side
 from daxxl.exceptions import InvalidModVersionException
@@ -25,7 +25,7 @@ class ExternalPanelCallback(ModInfoCallback):
         set_mod_side: Callable[[str, Side], Task[None]],
         set_mod_side_default: Callable[[str, str], Task[None]],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
-        get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
+        get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]],
         toggle_freeze: Callable[[], None],
         add_mod_in_memory: Callable[[str, str], None],
         del_mod_in_memory: Callable[[str], None],
@@ -35,7 +35,7 @@ class ExternalPanelCallback(ModInfoCallback):
             self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
         )
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
-        self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_external_mods_callback
+        self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = toggle_freeze
         self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
         self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
@@ -74,7 +74,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         # start
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
-        self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
+        self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
         self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
@@ -125,7 +125,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.widgets: List[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
+        self.widgets: list[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
@@ -218,7 +218,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        mod_list: List[str] = data["external_mod_list"]
+        mod_list: list[str] = data["external_mod_list"]
         self.listbox.set_values(sorted(mod_list))
 
     async def on_listbox_click(self, _: Any) -> None:
@@ -239,7 +239,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
         if latest_version is None:
             raise InvalidModVersionException
-        external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
+        external_mods: dict[str, ModVersionInfo] = self.get_external_mods_callback()
         current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
         _license: str = mod_info.license or "No license detected"
@@ -353,3 +353,4 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("New version")
+

@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Awaitable, Callable, Dict, List, Optional
+from typing import Awaitable, Callable, Optional
 
 from daxxl.assembler.platforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
 from daxxl.defs import (
@@ -102,7 +102,7 @@ class ReleaseAssemblerController:
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
 
-        assemblers_client: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {
+        assemblers_client: dict[str, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: self.assemble_zip,
             Archive.PRISM: self.assemble_prism,
             Archive.TECHNIC: self.assemble_technic,
@@ -110,9 +110,9 @@ class ReleaseAssemblerController:
             Archive.MODRINTH: self.assemble_modrinth,
         }
 
-        assemblers_server: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
+        assemblers_server: dict[str, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
 
-        assemblers: Dict[str, Callable[[Side, bool], Awaitable[None]]] = (
+        assemblers: dict[str, Callable[[Side, bool], Awaitable[None]]] = (
             assemblers_client if side.is_client() else assemblers_server
         )
 
@@ -200,7 +200,7 @@ class ReleaseAssemblerController:
         previous_release: Optional[GTNHRelease] = (
             None if previous_version is None else self.mod_manager.release_service.get_release(previous_version)
         )
-        changelog: Dict[str, List[str]] = self.mod_manager.comparison.generate_changelog(self.release, previous_release)
+        changelog: dict[str, list[str]] = self.mod_manager.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
         if "experimental" in current_version:
             changelog_path = (
@@ -226,3 +226,4 @@ class ReleaseAssemblerController:
                         file.write((item + "\n").encode("ascii", "ignore").decode())
 
         return changelog_path
+

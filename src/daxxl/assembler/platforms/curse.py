@@ -1,7 +1,7 @@
 import shutil
 from json import dump
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Tuple
+from typing import Callable, Optional
 from urllib.parse import quote as urlquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -182,7 +182,7 @@ class CurseAssembler(GenericAssembler):
         archive.write(source_file, arcname=archive_path)
 
     async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
@@ -210,7 +210,7 @@ class CurseAssembler(GenericAssembler):
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
-    def strip_curse_mods_from_mod_list(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def strip_curse_mods_from_mod_list(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         def filtering(mod: GTNHModInfo, version: GTNHVersion) -> bool:
             return not (mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version))
 
@@ -260,7 +260,7 @@ class CurseAssembler(GenericAssembler):
         :param task_progressbar: the progressbar corresponding to the current task progress
         :return: None
         """
-        dep_json: List[Dict[str, str]] = []
+        dep_json: list[dict[str, str]] = []
         if task_progressbar is not None:
             task_progressbar.reset()
         async with httpx.AsyncClient(http2=True) as client:
@@ -285,7 +285,7 @@ class CurseAssembler(GenericAssembler):
 
                 assert url
                 url = f"https://downloads.gtnewhorizons.com/Mods_for_Twitch/{urlquote(path.name)}"  # temporary override until maven is fixed
-                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+                mod_obj: dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
                 if task_progressbar is not None:
                     task_progressbar.add_progress(progress, f"Adding {mod.name} to dependencies.json")
                 dep_json.append(mod_obj)
@@ -344,3 +344,4 @@ class CurseAssembler(GenericAssembler):
             self.task_progress_callback(self.get_progress(), f"adding {self.manifest_json} to the archive")
 
         self.tempfile.unlink()
+

@@ -1,6 +1,6 @@
 from tkinter import END, HORIZONTAL, VERTICAL, Frame, Label, Listbox, Scrollbar
 from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel, Scrollbar as TtkScrollbar
-from typing import Any, Callable, List, Optional, Tuple, Union
+from typing import Any, Callable, Optional
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -29,7 +29,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
         self.display_horizontal_scrollbar: bool = display_horizontal_scrollbar
         self.display_vertical_scrollbar: bool = display_vertical_scrollbar
 
-        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
+        self.label: Label | TtkLabel = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
 
         self.listbox: Listbox = Listbox(self, exportselection=exportselection, height=height)
 
@@ -55,17 +55,17 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
         self.columnconfigure(0, weight=1, pad=0)
         # no resizing of the vertical scrollbar, hence the only columnconfigure
 
-    def get_values(self) -> List[str]:
+    def get_values(self) -> list[str]:
         return list(self.listbox.get(0, END))
 
-    def set_values(self, values: List[str]) -> None:
+    def set_values(self, values: list[str]) -> None:
         self.listbox.delete(0, END)
         self.listbox.insert(0, *values)
 
     def get(self) -> int:
         if not self.has_selection():
             raise IndexError("The listbox has no selection but was asked one")
-        selection: Tuple[int] = self.listbox.curselection()
+        selection: tuple[int] = self.listbox.curselection()
         return selection[0]
 
     def set(self, value: int) -> None:
@@ -121,3 +121,4 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
     def reset(self) -> None:
         self.set(0)
         self.set_values([])
+

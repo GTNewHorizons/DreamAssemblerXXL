@@ -1,7 +1,7 @@
 from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any, Callable, Optional
 
 from daxxl.defs import Position
 from daxxl.gui.lib.button import CustomButton
@@ -64,7 +64,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
             self, text="Remove highlighted", command=self.delete, themed=self.themed
         )
 
-        self.widgets: List[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
+        self.widgets: list[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
@@ -86,7 +86,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :param elem: the element to add in the listbox
         :return: None
         """
-        exclusions: List[str] = self.listbox.get_values()
+        exclusions: list[str] = self.listbox.get_values()
         if elem in exclusions:
             return
 
@@ -180,7 +180,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.btn_add.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
         self.btn_del.grid(row=x + 2, column=y + 1, sticky=Position.HORIZONTAL)
 
-    def populate_data(self, data: Dict[str, Any]) -> None:
+    def populate_data(self, data: dict[str, Any]) -> None:
         """
         Method called by parent class to populate data in this class.
 
@@ -188,3 +188,4 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.listbox.set_values(data["exclusions"])
+

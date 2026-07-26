@@ -141,3 +141,4 @@ class CounterService:
             The last successful daily id.
         """
         return self._assets.latest_successful_daily
+

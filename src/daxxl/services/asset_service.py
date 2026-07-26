@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import Callable, List, Optional
+from typing import Callable, Optional
 
 from colorama import Fore, Style
 from gidgethub.httpx import GitHubAPI
@@ -311,7 +311,7 @@ class AssetService:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
         # Sorted releases, newest version first
-        sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
+        sorted_releases: list[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
 
         if releaseVersion == "daily":
             sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
@@ -399,3 +399,4 @@ class AssetService:
         """
         all_github_mod_names = set(k for k, v in self.assets._modmap.items() if v.maven is None)
         return all_github_mod_names
+

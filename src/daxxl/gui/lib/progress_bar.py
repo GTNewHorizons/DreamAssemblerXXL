@@ -1,6 +1,6 @@
 from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Label as TtkLabel, Progressbar
-from typing import Any, Union
+from typing import Any
 
 from daxxl.gui.lib.custom_widget import CustomWidget
 
@@ -30,7 +30,7 @@ class CustomProgressBar(Frame, CustomWidget):
 
         self.stringvar: StringVar = StringVar(self, value="")
 
-        self.label: Union[Label, TtkLabel] = (
+        self.label: Label | TtkLabel = (
             TtkLabel(self, textvariable=self.stringvar, width=100)
             if themed
             else Label(self, textvariable=self.stringvar, width=100)

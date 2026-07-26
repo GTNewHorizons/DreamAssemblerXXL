@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import List, Optional, Tuple
+from typing import Optional
 
 from pydantic import Field
 
@@ -45,7 +45,7 @@ class GTNHVersion(GTNHBaseModel):
     # Secondary Download info
     curse_file: CurseFile | None = Field(default=None)
     modrinth_file: ModrinthFile | None = Field(default=None)
-    extra_assets: List[ExtraAsset] = Field(default=[])
+    extra_assets: list[ExtraAsset] = Field(default=[])
 
 
 def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHVersion | None:
@@ -79,7 +79,7 @@ def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHV
     )
 
 
-def get_asset(release: AttributeDict, type: VersionableType) -> Tuple[AttributeDict | None, List[AttributeDict]]:
+def get_asset(release: AttributeDict, type: VersionableType) -> tuple[AttributeDict | None, list[AttributeDict]]:
     """
     Get mod assets from a release; excludes dev, source, and api jars
     :param release: A github release
