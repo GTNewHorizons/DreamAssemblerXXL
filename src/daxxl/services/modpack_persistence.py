@@ -18,7 +18,7 @@ class ModpackPersistenceService:
             return GTNHModpack.parse_raw(f.read())
 
     def save(self, mod_pack: GTNHModpack) -> None:
-        log.debug(f"Saving modpack asset to from {self.manifest_path}")
+        log.debug(f"Saving modpack asset to {self.manifest_path}")
         dumped = mod_pack.json(by_alias=True, exclude_unset=True, exclude_none=True, exclude_defaults=True)
         if dumped:
             atomic_write_text(self.manifest_path, dumped)

@@ -105,8 +105,6 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         for widget in self.widgets:
             widget.configure(width=self._width)
 
-        print(f"internal width: {self._width}, entry width: {self.modpack.entry['width']}")
-
     @property
     def width(self) -> int:
         return self._width
