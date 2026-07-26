@@ -264,10 +264,28 @@ Mod is client-side only.
 ## What's Changed:
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.53
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.53
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.55
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.55
 
 ## What's Changed:
+>* Fix Amazon Packager schematic recipes by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7498 (5.09.54.55)
+>* Fix CeLUAG Base Amounts by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7565 (5.09.54.55)
+>* Drop cooked meats from burning mobs (Villager, Horse, Wolf, Ozelot, Player) by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7526 (5.09.54.55)
+>* Remove sawing unstable ingots to nuggets by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7569 (5.09.54.55)
+>* Fix outdated lang keys + add missing ones by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7566 (5.09.54.55)
+>* Respect silk touch setting by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7475 (5.09.54.55)
+>* Fix BaseItemDustUnique ignoring per-material oreprefix override keys by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7484 (5.09.54.55)
+>* Fix a few godforge UI issues by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7554 (5.09.54.54)
+>* Fixes an AL recipe NBT explosion fix. by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7555 (5.09.54.54)
+>* Add "supermarket" like ore showroom command by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7464 (5.09.54.54)
+>* give UCFE some waila info by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7516 (5.09.54.54)
+>* [BEC] Add speed penalty for each nanite tier above requested + other fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7429 (5.09.54.54)
+>* Makes toolbox not consumed in shape(d|less) crafting by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7561 (5.09.54.54)
+>* require items to be ordered in individual buses in CAL like in AL by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7562 (5.09.54.54)
+>* Fix crash by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7458 (5.09.54.54)
+>* Enable AAL to overclock under 1t by @1328116700 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7433 (5.09.54.54)
+>* Update Electric Blast Furnace multiblock JSON format and Horizon-QA dependency version by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7564 (5.09.54.54)
+>* fix assline voltage being used for research station scan & extend research station min computation cap from 16bit to 48bit by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7469 (5.09.54.54)
 >* Allow disable StackWatcher via config by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7511 (5.09.54.53)
 >* Fix color swatch tooltip only showing on 1px border by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7556 (5.09.54.53)
 >* [Fix] actually update last working tick of water line after cycle ends by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7557 (5.09.54.53)
@@ -465,10 +483,11 @@ Mod is client-side only.
 >* Skip redundant guide reloads during boot, keep only FML's final refresh by @Algent in https://github.com/GTNewHorizons/GuideNH/pull/41 (1.3.13)
 >* Fast game scene by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/26 (1.3.12)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.175
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.175
+# Updated - Hodgepodge - 2.7.170 --> 2.7.176
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.176
 
 ## What's Changed:
+>* Fix Ctrl shortcuts in text fields not working on some keyboard layouts by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/958 (2.7.176)
 >* (temp) Set async icon loading to default false by @tiffit in https://github.com/GTNewHorizons/Hodgepodge/pull/953 (2.7.175)
 >* Enable fullpack integration tests by @MalTeeez in https://github.com/GTNewHorizons/Hodgepodge/pull/951 (2.7.174)
 >* Gracefully handle TE sync error by @AnsonYeung in https://github.com/GTNewHorizons/Hodgepodge/pull/950 (2.7.174)
@@ -587,10 +606,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.21
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.21
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.22
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.22
 
 ## What's Changed:
+>* Fix Spinmatron recipe only working with "Any UV Circuit" by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1877 (2.9.22)
+>* Fix forestry engine old recipe retain by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1878 (2.9.22)
 >* Centralize Armok Orb Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1875 (2.9.21)
 >* Reduce shirabon foils in Quantum circuits from 48 to 32 by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1851 (2.9.20)
 >* Enable subtypes for vanilla paper by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1872 (2.9.19)
@@ -615,6 +636,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Condensates in Mk3 Foundry Chassis by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1854 (2.9.8)
 >* Convert cosmic solder usage in MAX circuits to multiples of 1000 by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1852 (2.9.7)
 >* Add assembler recipes for EFR boats by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1847 (2.9.6)
+
+# Updated - NoHotbarNeeded - 0.0.5 --> 0.0.6
+**Full Changelog**: https://github.com/GTNewHorizons/NoHotbarNeeded/compare/0.0.5...0.0.6
+
+## What's Changed:
+>* Make keyBinding & KeyboardEventHandler public by @SuperSoupr in https://github.com/GTNewHorizons/NoHotbarNeeded/pull/3 (0.0.6)
 
 # Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.35
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.35
@@ -647,10 +674,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
-# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.51-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.51-GTNH
+# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.52-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.52-GTNH
 
 ## What's Changed:
+>* fix(appeng): correct lua index base and add backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/211 (1.12.52-GTNH)
 >* Add Transposer transfer rate to WAILA by @Azusfin in https://github.com/GTNewHorizons/OpenComputers/pull/210 (1.12.51-GTNH)
 >* block the RFC 6052 NAT64 prefix by @Pxx500 in https://github.com/GTNewHorizons/OpenComputers/pull/209 (1.12.50-GTNH)
 >* fix(recipe): prevent wrench duplication when it has a container item by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/205 (1.12.50-GTNH)
@@ -791,4 +819,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
