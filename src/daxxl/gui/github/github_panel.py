@@ -24,7 +24,7 @@ class GithubPanelCallback(ModInfoCallback):
         self,
         set_mod_version: Callable[[str, str], None],
         set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, str], Task[None]],
+        set_mod_side_default: Callable[[str, Side], Task[None]],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         get_github_mods_callback: Callable[[], dict[str, ModVersionInfo]],
         update_current_task_progress_bar: Callable[[float, str], None],

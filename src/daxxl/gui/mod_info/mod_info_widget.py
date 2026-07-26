@@ -21,11 +21,11 @@ class ModInfoCallback:
         self,
         set_mod_version: Callable[[str, str], None],
         set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, str], Task[None]],
+        set_mod_side_default: Callable[[str, Side], Task[None]],
     ):
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
         self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
-        self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
+        self.set_mod_side_default: Callable[[str, Side], Task[None]] = set_mod_side_default
         self.listbox: CustomListbox = None  # type: ignore
 
     def attach_listbox_object(self, listbox: CustomListbox) -> None:
@@ -67,7 +67,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         self.xpadding: int = 0
         self.callbacks: ModInfoCallback = callbacks
         self._set_mod_side: Callable[[str, Side], Task[None]] = callbacks.set_mod_side
-        self._set_mod_side_default: Callable[[str, str], Task[None]] = callbacks.set_mod_side_default
+        self._set_mod_side_default: Callable[[str, Side], Task[None]] = callbacks.set_mod_side_default
         self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
         self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)
@@ -168,7 +168,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         mod_name: str = self.current_mod_name
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
-        side: str = self.side_default.get()
+        side: Side = Side(self.side_default.get())
         self._set_mod_side_default(mod_name, side)
 
     def set_mod_version(self, _: Any) -> None:
