@@ -39,10 +39,11 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1019-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1019-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1020-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1020-GTNH
 
 ## What's Changed:
+>* Add Advanced Level Emitter by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1455 (rv3-beta-1020-GTNH)
 >* Refactor/hqa update to v2 structures by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1467 (rv3-beta-1019-GTNH)
 >* Maybe more thread safe renderpass by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1465 (rv3-beta-1018-GTNH)
 >* Add option to disable Interface Terminal search autofocus by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1464 (rv3-beta-1017-GTNH)
@@ -264,10 +265,13 @@ Mod is client-side only.
 ## What's Changed:
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.55
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.55
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.56
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.56
 
 ## What's Changed:
+>* fix(meoutput): fix me output can't accept anything in 1 tick and support check mode without a cell by @hinyb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7570 (5.09.54.56)
+>* Show insufficient voltage error in CAL assembler mode by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7572 (5.09.54.56)
+>* Add SkipGenerateDescription annotation to GTPPMTECable.java‎ by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7567 (5.09.54.56)
 >* Fix Amazon Packager schematic recipes by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7498 (5.09.54.55)
 >* Fix CeLUAG Base Amounts by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7565 (5.09.54.55)
 >* Drop cooked meats from burning mobs (Villager, Horse, Wolf, Ozelot, Player) by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7526 (5.09.54.55)
@@ -483,10 +487,11 @@ Mod is client-side only.
 >* Skip redundant guide reloads during boot, keep only FML's final refresh by @Algent in https://github.com/GTNewHorizons/GuideNH/pull/41 (1.3.13)
 >* Fast game scene by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/26 (1.3.12)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.176
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.176
+# Updated - Hodgepodge - 2.7.170 --> 2.7.177
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.177
 
 ## What's Changed:
+>* Enable distance culling for frames and items in frames by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/949 (2.7.177)
 >* Fix Ctrl shortcuts in text fields not working on some keyboard layouts by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/958 (2.7.176)
 >* (temp) Set async icon loading to default false by @tiffit in https://github.com/GTNewHorizons/Hodgepodge/pull/953 (2.7.175)
 >* Enable fullpack integration tests by @MalTeeez in https://github.com/GTNewHorizons/Hodgepodge/pull/951 (2.7.174)
@@ -591,10 +596,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/74 (2.3.4)
 
-# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.82-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.82-1.7.10
+# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.83-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.83-1.7.10
 
 ## What's Changed:
+>* Fix explicit percentages in bounded number fields by @Worive in https://github.com/GTNewHorizons/ModularUI2/pull/153 (2.3.83-1.7.10)
 >* Fix fluid display widget rendering empty FluidStacks as full by @tiffit in https://github.com/GTNewHorizons/ModularUI2/pull/152 (2.3.82-1.7.10)
 >* Fix BigDecimal parsing failures leaking through expression evaluation by @vnesterovskyi in https://github.com/GTNewHorizons/ModularUI2/pull/151 (2.3.81-1.7.10)
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
@@ -606,10 +612,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.22
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.22
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.23
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.23
 
 ## What's Changed:
+>* Added ME Advanced Level Emitter Recipe by @Ranzuu in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1874 (2.9.23)
 >* Fix Spinmatron recipe only working with "Any UV Circuit" by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1877 (2.9.22)
 >* Fix forestry engine old recipe retain by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1878 (2.9.22)
 >* Centralize Armok Orb Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1875 (2.9.21)
@@ -649,10 +656,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix OreDict Permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/76 (1.7.35)
 
-# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.114-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.114-GTNH
+# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.115-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.115-GTNH
 
 ## What's Changed:
+>* Simplify the keybinding by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/982 (2.8.115-GTNH)
 >* oregenPattern this time for sure by @Algent in https://github.com/GTNewHorizons/NotEnoughItems/pull/974 (2.8.114-GTNH)
 >* fix: spawner placement logic by @jordanamr in https://github.com/GTNewHorizons/NotEnoughItems/pull/973 (2.8.114-GTNH)
 >* Rework chat item link to support bookmarking recipes and groups by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/971 (2.8.114-GTNH)
@@ -718,6 +726,9 @@ Mod is client-side only.
 >* Fix NPE during tooltip writing by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/12 (1.5.6)
 >* Fix effect handler by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/11 (1.5.5)
 
+# Updated - TC-4-Tweaks - 1.5.45 --> 1.5.46
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ThaumicEnergistics - 1.7.56-GTNH --> 1.7.57-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.56-GTNH...1.7.57-GTNH
 
@@ -770,10 +781,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Revert API change by @AnsonYeung in https://github.com/GTNewHorizons/VendingMachine/pull/162 (0.4.96)
 
-# Updated - VisualProspecting - 1.5.33 --> 1.5.36
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.33...1.5.36
+# Updated - VisualProspecting - 1.5.33 --> 1.5.37
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.33...1.5.37
 
 ## What's Changed:
+>* Relax a little bit the cache fallback command by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/103 (1.5.37)
 >* Fix Xaeros culling regression by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/101 (1.5.36)
 >* Fix incorrect oregen pattern being used in some case. Attempt to autofix wrong entries in cache by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/99 (1.5.35)
 >* Guard against null/fake player (Fix Log spam) by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/97 (1.5.34)
