@@ -21,7 +21,7 @@ from daxxl.defs import (
     ModSource,
     Side,
 )
-from daxxl.github.uri import repo_releases_uri
+from daxxl.github.uri import GitHubURI
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_version import version_from_release
@@ -38,6 +38,7 @@ class AssetService:
         self.gh_client = gh_client
         self.gh = gh
         self.org = org
+        self.uri = GitHubURI(org)
         self.assets = self.load_assets()
 
     @property
@@ -308,7 +309,7 @@ class AssetService:
             if asset.side == Side.NONE:
                 return False
 
-        releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
+        releases = [AttributeDict(r) async for r in self.gh.getiter(self.uri.releases(repo.name))]
         if for_translation:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 

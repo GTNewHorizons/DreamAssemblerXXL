@@ -1,25 +1,25 @@
-API_BASE_URI = "https://api.github.com"
+class GitHubURI:
+    BASE = "https://api.github.com"
 
+    def __init__(self, org: str) -> None:
+        self.org = org
 
-def org_repos_uri(org: str) -> str:
-    return f"{API_BASE_URI}/orgs/{org}/repos"
+    @property
+    def org_repos(self) -> str:
+        return f"{self.BASE}/orgs/{self.org}/repos"
 
+    def repo(self, name: str) -> str:
+        return f"{self.BASE}/repos/{self.org}/{name}"
 
-def repo_uri(org: str, repo: str) -> str:
-    return f"{API_BASE_URI}/repos/{org}/{repo}"
+    def latest_release(self, repo: str) -> str:
+        return f"{self.BASE}/repos/{self.org}/{repo}/releases/latest"
 
+    def releases(self, repo: str) -> str:
+        return f"{self.BASE}/repos/{self.org}/{repo}/releases"
 
-def latest_release_uri(org: str, repo: str) -> str:
-    return f"{API_BASE_URI}/repos/{org}/{repo}/releases/latest"
+    def license(self, repo: str) -> str:
+        return f"{self.BASE}/repos/{self.org}/{repo}/license"
 
-
-def repo_releases_uri(org: str, repo: str) -> str:
-    return f"{API_BASE_URI}/repos/{org}/{repo}/releases"
-
-
-def repo_license_uri(org: str, repo: str) -> str:
-    return f"{API_BASE_URI}/repos/{org}/{repo}/license"
-
-
-def repo_issues_uri(org: str, repo: str, issue_num: int | None = None) -> str:
-    return f"{API_BASE_URI}/repos/{org}/{repo}/issues" + (f"/{issue_num}" if issue_num is not None else "")
+    def issues(self, repo: str, issue_num: int | None = None) -> str:
+        base = f"{self.BASE}/repos/{self.org}/{repo}/issues"
+        return f"{base}/{issue_num}" if issue_num is not None else base

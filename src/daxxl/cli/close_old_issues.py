@@ -6,7 +6,7 @@ import httpx
 from dateutil.parser import parse as parse_date
 from gidgethub.httpx import GitHubAPI
 
-from daxxl.github.uri import API_BASE_URI, repo_issues_uri
+from daxxl.github.uri import GitHubURI
 from daxxl.gtnh_logger import get_logger
 from daxxl.utils import AttributeDict, get_github_token
 
@@ -20,14 +20,15 @@ async def close_old_issues() -> None:
         log.debug("Closing older issues")
         org = "GTNewHorizons"
         repo = "GT-New-Horizons-Modpack"
-        issues = gh.getiter(repo_issues_uri(org, repo))
+        uri = GitHubURI(org)
+        issues = gh.getiter(uri.issues(repo))
         tasks = []
         async for _i in issues:
             issue = AttributeDict(_i)
             if should_close_issue(issue):
                 tasks.append(
                     gh.patch(
-                        repo_issues_uri(org, repo, issue.number),
+                        uri.issues(repo, issue.number),
                         data={
                             "labels": list(
                                 set(label.get("name") for label in issue.labels)
@@ -46,7 +47,7 @@ async def get_issue(num: int) -> AttributeDict:
         gh = GitHubAPI(client, "DreamAssemblerXXL", oauth_token=get_github_token())
         log.debug(f"Getting issue {num}")
         return AttributeDict(
-            await gh.getitem(f"{API_BASE_URI}/repos/GTNewHorizons/GT-New-Horizons-Modpack/issues/{num}")
+            await gh.getitem(GitHubURI("GTNewHorizons").issues("GT-New-Horizons-Modpack", num))
         )
 
 
