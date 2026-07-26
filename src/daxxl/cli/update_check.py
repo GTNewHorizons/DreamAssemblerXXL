@@ -4,7 +4,7 @@ import httpx
 from colorama import Fore, Style, init
 
 from daxxl.gtnh_logger import get_logger
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 log = get_logger(__name__)
 
@@ -19,7 +19,7 @@ async def update_check(mods: str | None = None) -> None:
         if mods_to_update:
             log.info(f"Attemting to update mod(s): `{mods_to_update}`")
 
-        m = GTNHModpackManager(client)
+        m = AppContext(client)
 
         log.info("Grabbing all repository information...")
         # Things get cached here

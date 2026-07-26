@@ -16,7 +16,7 @@ from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
@@ -29,7 +29,7 @@ class GenericAssembler:
 
     def __init__(
         self,
-        gtnh_modpack: GTNHModpackManager,
+        gtnh_modpack: AppContext,
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
@@ -45,7 +45,7 @@ class GenericAssembler:
         :param global_progress_callback: the callback to report the global progress
         :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
-        self.modpack_manager: GTNHModpackManager = gtnh_modpack
+        self.modpack_manager: AppContext = gtnh_modpack
         self.release: GTNHRelease = release
         self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
         self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback

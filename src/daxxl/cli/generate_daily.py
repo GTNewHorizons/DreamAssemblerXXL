@@ -3,7 +3,7 @@ import httpx
 
 from daxxl.defs import DevRelease
 from daxxl.gtnh_logger import get_logger
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 log = get_logger(__name__)
 
@@ -13,7 +13,7 @@ log = get_logger(__name__)
 @click.option("--id", "new_id", type=int, help="Set numeric ID for new daily release")
 async def generate_daily(update_available: bool, new_id: int | None) -> None:
     async with httpx.AsyncClient(http2=True) as client:
-        m = GTNHModpackManager(client)
+        m = AppContext(client)
         if new_id:
             m.counter.set_daily_id(new_id)
         else:

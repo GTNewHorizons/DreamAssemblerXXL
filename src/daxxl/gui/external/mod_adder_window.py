@@ -14,7 +14,7 @@ from daxxl.gui.lib.text_entry import TextEntry
 from daxxl.models import versionable
 from daxxl.models.gtnh_version import CurseFile, GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 
 class Sources(int, Enum):
@@ -25,11 +25,11 @@ class Sources(int, Enum):
 class ModAdderCallback:
     def __init__(
         self,
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         add_mod_to_memory: Callable[[str, str], None],
         del_mod_from_memory: Callable[[str], None],
     ):
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
         self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
         self.del_mod_from_memory: Callable[[str], None] = del_mod_from_memory
 
@@ -71,7 +71,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         self.master: Toplevel = master
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_to_memory
         self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_from_memory
 
@@ -128,7 +128,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
 
         # mod exists because the name is from the availiable mods in the assets.
         src = 1 if gtnh.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore

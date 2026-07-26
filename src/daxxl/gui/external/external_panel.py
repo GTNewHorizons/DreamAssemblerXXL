@@ -15,7 +15,7 @@ from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 
 class ExternalPanelCallback(ModInfoCallback):
@@ -24,7 +24,7 @@ class ExternalPanelCallback(ModInfoCallback):
         set_mod_version: Callable[[str, str], None],
         set_mod_side: Callable[[str, Side], Task[None]],
         set_mod_side_default: Callable[[str, str], Task[None]],
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
         toggle_freeze: Callable[[], None],
         add_mod_in_memory: Callable[[str, str], None],
@@ -34,7 +34,7 @@ class ExternalPanelCallback(ModInfoCallback):
         ModInfoCallback.__init__(
             self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
         )
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
         self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = toggle_freeze
         self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
@@ -73,7 +73,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         # start
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
         self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
@@ -232,7 +232,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             return
 
         index: int = self.listbox.get()
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
@@ -306,7 +306,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         index: int = self.listbox.get()
         mod_name: str = self.listbox.get_value_at_index(index)
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         self.listbox.del_value_at_index(index)
         await gtnh.asset_service.delete_mod(mod_name)
 

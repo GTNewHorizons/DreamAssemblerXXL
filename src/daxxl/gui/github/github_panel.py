@@ -16,7 +16,7 @@ from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 
 class GithubPanelCallback(ModInfoCallback):
@@ -25,7 +25,7 @@ class GithubPanelCallback(ModInfoCallback):
         set_mod_version: Callable[[str, str], None],
         set_mod_side: Callable[[str, Side], Task[None]],
         set_mod_side_default: Callable[[str, str], Task[None]],
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
         update_current_task_progress_bar: Callable[[float, str], None],
         update_global_progress_bar: Callable[[float, str], None],
@@ -39,7 +39,7 @@ class GithubPanelCallback(ModInfoCallback):
             self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
         )
 
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
         self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_github_mods_callback
         self.update_current_task_progress_bar: Callable[[float, str], None] = update_current_task_progress_bar
 
@@ -89,7 +89,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         )
 
         # Callbacks:
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
         self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_github_mods_callback
         self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks.update_current_task_progress_bar
         self.update_global_progress_bar: Callable[[float, str], None] = callbacks.update_global_progress_bar
@@ -269,7 +269,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         await gtnh.asset_service.regen_config_assets()
         await gtnh.asset_service.regen_translation_assets()
         self.modpack_version.set_values([version.version_tag for version in gtnh.assets.config.versions])
@@ -300,7 +300,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             return
 
         index: int = self.listbox.get()
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
@@ -344,7 +344,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             showwarning("Repository already in the assets", f"{repo_name} is already in the assets.")
             return
 
-        gtnh_modpack: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh_modpack: AppContext = await self.get_gtnh_callback()
         try:
             await gtnh_modpack.asset_service.add_github_mod(repo_name)
             gtnh_modpack.asset_service.save_assets()
@@ -376,7 +376,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         :param verbose: if set to true show the error boxes
         :return: None
         """
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         if self.listbox.has_selection():
             repo_name = self.listbox.get_value_at_index(self.listbox.get())
         else:
@@ -404,7 +404,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             showerror("No repository name selected.", "Please select a repository before trying to edit it.")
             return
 
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         await gtnh.asset_service.regen_github_repo_asset(repo_name)
         await self.on_listbox_click()
         showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
@@ -429,6 +429,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.reset_global_progress_bar()
         self.reset_current_task_progress_bar()
 
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        gtnh: AppContext = await self.get_gtnh_callback()
         await gtnh.asset_service.regen_github_assets(callback=self._update_callback)
         showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")

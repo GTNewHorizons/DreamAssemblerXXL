@@ -5,7 +5,7 @@ from httpx import AsyncClient
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
 from daxxl.defs import Side
 from daxxl.gtnh_logger import get_logger
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 log = get_logger(__name__)
 
@@ -15,7 +15,7 @@ log = get_logger(__name__)
 @click.argument("release_name")
 @click.option("--verbose", default=False, is_flag=True)
 async def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
-    modpack_manager = GTNHModpackManager(AsyncClient(http2=True))
+    modpack_manager = AppContext(AsyncClient(http2=True))
     release = modpack_manager.release_service.get_release(release_name)
     if not release:
         log.error(

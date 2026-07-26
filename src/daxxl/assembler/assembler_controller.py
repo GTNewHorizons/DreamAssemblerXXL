@@ -11,7 +11,7 @@ from daxxl.defs import (
 )
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 log = get_logger(__name__)
 
@@ -23,7 +23,7 @@ class ReleaseAssemblerController:
 
     def __init__(
         self,
-        mod_manager: GTNHModpackManager,
+        mod_manager: AppContext,
         release: GTNHRelease,
         task_callback: Optional[Callable[[float, str], None]] = None,
         global_callback: Optional[Callable[[float, str], None]] = None,
@@ -32,12 +32,12 @@ class ReleaseAssemblerController:
         """
         Constructor of the ReleaseAssemblerClass.
 
-        :param mod_manager: the GTNHModpackManager instance
+        :param mod_manager: the AppContext instance
         :param release: the target GTNHRelease
         :param global_progress_callback: the global_progress_callback to use to report progress
         :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
-        self.mod_manager: GTNHModpackManager = mod_manager
+        self.mod_manager: AppContext = mod_manager
         self.release: GTNHRelease = release
         release.validate_release(mod_manager.assets)
         self.callback: Optional[Callable[[float, str], None]] = global_callback

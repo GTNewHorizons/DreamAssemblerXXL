@@ -2,7 +2,7 @@ import asyncclick as click
 import httpx
 import orjson
 
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 
 def update_external_mods():
@@ -41,14 +41,14 @@ def update_external_mods():
 @click.command()
 async def cleanup_maven_urls():
     async with httpx.AsyncClient(http2=True) as client:
-        m = GTNHModpackManager(client)
+        m = AppContext(client)
 
     for mod in m.assets.mods:
         for v in mod.versions:
             if v.maven_url and "github.com" in v.maven_url:
                 v.maven_url = None
 
-    m.save_assets()
+    m.asset_service.save_assets()
 
 
 if __name__ == "__main__":

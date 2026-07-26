@@ -4,7 +4,7 @@ from typing import Callable, Optional
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_MODRINTH_DIR, Side
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.modpack_manager import GTNHModpackManager
+from daxxl.modpack_manager import AppContext
 
 
 class ModrinthAssembler(GenericAssembler):
@@ -14,7 +14,7 @@ class ModrinthAssembler(GenericAssembler):
 
     def __init__(
         self,
-        gtnh_modpack: GTNHModpackManager,
+        gtnh_modpack: AppContext,
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
