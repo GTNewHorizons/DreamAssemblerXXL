@@ -194,20 +194,20 @@ class ReleaseAssemblerController:
         )
         changelog: dict[str, list[str]] = self.mod_manager.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
-        kind: DevRelease | None = None
+        release_type: DevRelease | None = None
         for dr in DevRelease:
             if dr.value in current_version:
-                kind = dr
+                release_type = dr
                 break
-        if kind is not None:
+        if release_type is not None:
             changelog_dir = (
-                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR if kind is DevRelease.EXPERIMENTAL
+                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR if release_type is DevRelease.EXPERIMENTAL
                 else RELEASE_CHANGELOG_DAILY_BUILDS_DIR
             )
             changelog_path = (
-                changelog_dir / f"changelog from {kind.value} "
-                f"{self.mod_manager.counter.get_last_successful_dev_build_id(kind)} to "
-                f"{self.mod_manager.counter.get_dev_release_count(kind)}.md"
+                changelog_dir / f"changelog from {release_type.value} "
+                f"{self.mod_manager.counter.get_last_successful_dev_build_id(release_type)} to "
+                f"{self.mod_manager.counter.get_dev_release_count(release_type)}.md"
             )
         else:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
