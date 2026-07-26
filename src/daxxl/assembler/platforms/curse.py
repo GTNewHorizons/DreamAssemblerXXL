@@ -211,10 +211,10 @@ class CurseAssembler(GenericAssembler):
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
     def strip_curse_mods_from_mod_list(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
-        def filtering(mod: GTNHModInfo, version: GTNHVersion) -> bool:
+        def should_exclude(mod: GTNHModInfo, version: GTNHVersion) -> bool:
             return not (mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version))
 
-        return [(mod, version) for mod, version in self.get_mods(side) if filtering(mod, version)]
+        return [(mod, version) for mod, version in self.get_mods(side) if should_exclude(mod, version)]
 
     async def add_dep_file_to_archive(self, archive: ZipFile) -> None:
         """

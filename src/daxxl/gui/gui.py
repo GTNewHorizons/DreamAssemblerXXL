@@ -25,7 +25,7 @@ logger = get_logger(__name__)
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
 
 
-def check(widget: Widget) -> bool:
+def can_disable(widget: Widget) -> bool:
     """
     Check if the given widget is matching one of the types that can be disabled.
 
@@ -215,7 +215,7 @@ class Window(ThemedTk, Tk):
         else:
             state = DISABLED
 
-        if check(widget):
+        if can_disable(widget):
             widget.configure(state=state)
         else:
             if len(widget.winfo_children()) > 0:
