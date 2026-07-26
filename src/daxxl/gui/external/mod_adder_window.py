@@ -439,4 +439,3 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         self.version.set(version.version_tag)
         self.download_url.set(version.download_url)  # type: ignore
         self.browser_url.set(version.browser_download_url)  # type: ignore
-

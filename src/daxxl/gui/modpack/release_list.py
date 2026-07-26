@@ -89,9 +89,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             self.loaded_version,
         ]
 
-        self._width: int = (
-            width if width is not None else max([widget.description_size for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         self.update_widget()
 
@@ -242,4 +240,3 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.listbox.set_values([release.version for release in data])
-

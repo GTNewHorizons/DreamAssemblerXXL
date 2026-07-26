@@ -635,4 +635,3 @@ class Window(ThemedTk, Tk):
 
 if __name__ == "__main__":
     App(themed=False).exec()
-

@@ -136,7 +136,10 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed
         )
         self.btn_rem: CustomButton = CustomButton(
-            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.delete_repo()), themed=self.themed
+            self,
+            text="Delete highlighted",
+            command=lambda: asyncio.ensure_future(self.delete_repo()),
+            themed=self.themed,
         )
         self.btn_refresh: CustomButton = CustomButton(
             self,
@@ -170,9 +173,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             self.btn_refresh_modpack,
         ]
 
-        self._width: int = (
-            width if width is not None else max([widget.description_size for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         self.mod_info_frame.width = self._width
 
@@ -423,4 +424,3 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         gtnh: AppContext = await self.get_gtnh_callback()
         await gtnh.asset_service.regen_github_assets(callback=self._update_callback)
         showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")
-

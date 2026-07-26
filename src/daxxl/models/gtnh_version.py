@@ -79,7 +79,9 @@ def version_from_release(release: AttributeDict, versionable_type: VersionableTy
     )
 
 
-def get_asset(release: AttributeDict, versionable_type: VersionableType) -> tuple[AttributeDict | None, list[AttributeDict]]:
+def get_asset(
+    release: AttributeDict, versionable_type: VersionableType
+) -> tuple[AttributeDict | None, list[AttributeDict]]:
     """
     Get mod assets from a release; excludes dev, source, and api jars
     :param release: A github release

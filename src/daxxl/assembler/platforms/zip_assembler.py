@@ -174,4 +174,3 @@ class ZipAssembler(GenericAssembler):
                 path_objects.extend([path for path in folder.iterdir()])
 
         return assets
-

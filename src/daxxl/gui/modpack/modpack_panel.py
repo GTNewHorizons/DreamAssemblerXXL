@@ -190,4 +190,3 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.modpack_list.populate_data(data)
-

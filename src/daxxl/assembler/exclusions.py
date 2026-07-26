@@ -26,4 +26,3 @@ class Exclusions:
 
     def extend(self, exclusions: Iterable[str]) -> None:
         self.exclusions.extend(exclusions)
-

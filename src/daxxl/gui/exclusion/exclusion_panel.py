@@ -66,9 +66,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
 
         self.widgets: list[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 
-        self._width: int = (
-            width if width is not None else max([widget.description_size for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         self.rowconfigure(0, weight=1)
 
@@ -179,4 +177,3 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.listbox.set_values(data["exclusions"])
-

@@ -94,4 +94,3 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
     def reset(self) -> None:
         self.set("")
         self.set_values([])
-

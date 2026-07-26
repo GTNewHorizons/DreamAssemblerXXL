@@ -17,10 +17,10 @@ async def generate_release(
         if new_id:
             m.counter.set_dev_release_id(dev_release, new_id)
         else:
-            m.counter.increment_dev_build_id(dev_release)  # assets need to be uploaded even if the build crashes, it tracks the build id
-        _, update_errors = await m.update_service.update_rolling_release(
-            dev_release, update_available=update_available
-        )
+            m.counter.increment_dev_build_id(
+                dev_release
+            )  # assets need to be uploaded even if the build crashes, it tracks the build id
+        _, update_errors = await m.update_service.update_rolling_release(dev_release, update_available=update_available)
         if update_errors:
             log.warn(f"{len(update_errors)} asset(s) failed to update, see errors above")
         m.asset_service.save_assets()

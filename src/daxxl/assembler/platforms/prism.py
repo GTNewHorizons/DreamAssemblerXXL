@@ -118,14 +118,11 @@ class PrismAssembler(GenericAssembler):
             raise ValueError(f"Only valid sides are {Side.CLIENT.value}, got {side.value}")
 
         # +1 for the metadata file
-        self.progress = (
-            100
-            / (
-                len(self.get_mods(side))
-                + self.get_amount_of_files_in_config(side)
-                + self.get_amount_of_files_in_locales()
-                + 1
-            )
+        self.progress = 100 / (
+            len(self.get_mods(side))
+            + self.get_amount_of_files_in_config(side)
+            + self.get_amount_of_files_in_locales()
+            + 1
         )
         await GenericAssembler.assemble(self, side, verbose)
 
@@ -159,4 +156,3 @@ class PrismAssembler(GenericAssembler):
                 with open(PRISM_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
                     shutil.copyfileobj(icon, target)
             await normalize_archive_permissions(archive)
-

@@ -402,4 +402,3 @@ class AssetService:
         """
         all_github_mod_names = set(k for k, v in self.assets._modmap.items() if v.maven is None)
         return all_github_mod_names
-

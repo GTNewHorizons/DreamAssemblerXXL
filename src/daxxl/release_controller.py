@@ -699,4 +699,3 @@ class ReleaseController:
                 release_assembler.current_task_reset_callback()
             self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
             await assemblers[archive_type](side=side, verbose=True)
-

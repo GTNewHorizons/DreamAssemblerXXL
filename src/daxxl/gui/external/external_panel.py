@@ -126,9 +126,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         )
 
         self.widgets: list[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
-        self._width: int = (
-            width if width is not None else max([widget.description_size for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         self.mod_info_frame.width = self._width
         self.update_widget()
@@ -344,4 +342,3 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("New version")
-

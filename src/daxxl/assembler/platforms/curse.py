@@ -344,4 +344,3 @@ class CurseAssembler(GenericAssembler):
             self.task_progress_callback(self.progress, f"adding {self.manifest_json} to the archive")
 
         self.tempfile.unlink()
-

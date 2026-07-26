@@ -46,9 +46,7 @@ async def get_issue(num: int) -> AttributeDict:
     async with httpx.AsyncClient(http2=True) as client:
         gh = GitHubAPI(client, "DreamAssemblerXXL", oauth_token=get_github_token())
         log.debug(f"Getting issue {num}")
-        return AttributeDict(
-            await gh.getitem(GitHubURI("GTNewHorizons").issues("GT-New-Horizons-Modpack", num))
-        )
+        return AttributeDict(await gh.getitem(GitHubURI("GTNewHorizons").issues("GT-New-Horizons-Modpack", num)))
 
 
 def display(issue: AttributeDict) -> str:

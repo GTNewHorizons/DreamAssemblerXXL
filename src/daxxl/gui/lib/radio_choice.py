@@ -79,4 +79,3 @@ class RadioChoice(Frame, TtkFrame, CustomWidget):
 
     def reset(self) -> None:
         pass
-

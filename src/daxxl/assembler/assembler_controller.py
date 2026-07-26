@@ -201,7 +201,8 @@ class ReleaseAssemblerController:
                 break
         if release_type is not None:
             changelog_dir = (
-                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR if release_type is DevRelease.EXPERIMENTAL
+                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR
+                if release_type is DevRelease.EXPERIMENTAL
                 else RELEASE_CHANGELOG_DAILY_BUILDS_DIR
             )
             changelog_path = (
@@ -221,4 +222,3 @@ class ReleaseAssemblerController:
                         f.write((item + "\n").encode("ascii", "ignore").decode())
 
         return changelog_path
-

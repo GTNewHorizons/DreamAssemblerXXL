@@ -353,4 +353,3 @@ class GenericAssembler:
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
                     await self.yield_to_event_loop()
-

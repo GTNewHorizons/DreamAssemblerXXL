@@ -35,4 +35,3 @@ def with_error_dialog(title: DialogText, message: DialogText) -> Callable[[F], F
         return cast(F, wrapper)
 
     return decorator
-

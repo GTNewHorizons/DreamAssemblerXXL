@@ -20,4 +20,3 @@ class GTNHBaseModel(BaseModel):
     class Config:
         json_loads = orjson.loads
         json_dumps = orjson_dumps
-

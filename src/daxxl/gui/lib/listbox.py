@@ -121,4 +121,3 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
     def reset(self) -> None:
         self.set(0)
         self.set_values([])
-

@@ -68,7 +68,6 @@ class CounterService:
             raise NotImplementedError(f"{release_type} dev release is not yet supported")
         self._save()
 
-
     def set_last_successful_dev_build_id(self, release_type: DevRelease, build_id: int) -> None:
         """
         Set the last successful dev build id.
