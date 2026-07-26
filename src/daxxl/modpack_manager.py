@@ -34,5 +34,6 @@ class AppContext:
         self.comparison = ComparisonService(self.assets)
         self.update_orchestrator = AssetUpdateOrchestrator(self.gh_client, self.asset_service, self.assets)
         self.update_service = UpdateService(
-            self.assets, self.release_service, self.update_orchestrator.update_all, self.persistence.save
+            self.assets, self.release_service, self.update_orchestrator.update_all,
+            lambda: self.persistence.save(self.mod_pack)
         )
