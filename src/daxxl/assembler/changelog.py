@@ -61,7 +61,7 @@ class ChangelogCollection:
         self.newest: ChangelogEntry = self.changelog_entries[0]
 
     @classmethod
-    def generate_full_comparison_url(self, oldest: ChangelogEntry, newest: ChangelogEntry) -> Optional[str]:
+    def generate_full_comparison_url(cls, oldest: ChangelogEntry, newest: ChangelogEntry) -> Optional[str]:
         if newest.full_comparison_url is None:
             return None
 
