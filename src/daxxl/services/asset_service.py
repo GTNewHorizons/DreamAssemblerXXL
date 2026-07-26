@@ -5,6 +5,8 @@ from typing import Callable, Optional
 from colorama import Fore, Style
 from gidgethub.httpx import GitHubAPI
 
+from daxxl.defs import DevRelease
+
 try:
     from packaging.version import LegacyVersion
 except ImportError:
@@ -199,7 +201,7 @@ class AssetService:
             f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
         )
 
-        if release_version == "daily":
+        if release_version == DevRelease.DAILY.value:
             if isinstance(versionable, GTNHModInfo):
                 await self.update_github_mod_from_repo(versionable, repo)
             await self.update_versions_from_repo(versionable, repo, release_version=release_version)
@@ -313,7 +315,7 @@ class AssetService:
         # Sorted releases, newest version first
         sorted_releases: list[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
 
-        if release_version == "daily":
+        if release_version == DevRelease.DAILY.value:
             sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
             # if latest version is a -pre release, reset to latest valid release
             if asset.latest_version.endswith("-pre"):

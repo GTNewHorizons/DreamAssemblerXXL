@@ -3,7 +3,7 @@ from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Optional
 
-from daxxl.defs import Position
+from daxxl.defs import DevRelease, Position
 from daxxl.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
 from daxxl.gui.modpack.release_list import ReleaseList, ReleaseListCallback
 
@@ -106,8 +106,8 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         """
         self.callbacks.generate_experimental()
         data: list[str] = list(self.modpack_list.listbox.get_values())
-        if "experimental" not in data:
-            data.insert(0, "experimental")
+        if DevRelease.EXPERIMENTAL.value not in data:
+            data.insert(0, DevRelease.EXPERIMENTAL.value)
             self.modpack_list.listbox.set_values(data)
 
     def update_daily(self) -> None:
@@ -118,8 +118,8 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         """
         self.callbacks.generate_daily()
         data: list[str] = list(self.modpack_list.listbox.get_values())
-        if "daily" not in data:
-            data.insert(0, "daily")
+        if DevRelease.DAILY.value not in data:
+            data.insert(0, DevRelease.DAILY.value)
             self.modpack_list.listbox.set_values(data)
 
     def configure_widgets(self) -> None:

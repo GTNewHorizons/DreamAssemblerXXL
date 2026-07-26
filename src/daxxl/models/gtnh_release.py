@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from colorama import Fore
 from pydantic import Field, ValidationError
 
-from daxxl.defs import RELEASE_MANIFEST_DIR, ModSource
+from daxxl.defs import RELEASE_MANIFEST_DIR, DevRelease, ModSource
 from daxxl.exceptions import InvalidReleaseException, NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
@@ -15,7 +15,7 @@ log = get_logger(__name__)
 
 
 class GTNHRelease(GTNHBaseModel):
-    version: str = Field(default="experimental")
+    version: str = Field(default=DevRelease.EXPERIMENTAL.value)
     last_version: str | None = Field(default=None)
     last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
@@ -63,7 +63,7 @@ class GTNHRelease(GTNHBaseModel):
 
 
 class __GTNHReleaseV1(GTNHBaseModel):
-    version: str = Field(default="experimental")
+    version: str = Field(default=DevRelease.EXPERIMENTAL.value)
     last_version: str | None = Field(default=None)
     last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 

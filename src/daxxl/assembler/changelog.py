@@ -1,7 +1,7 @@
 import re
 from typing import Optional
 
-from daxxl.defs import Side
+from daxxl.defs import DevRelease, Side
 
 
 class ChangelogEntry:
@@ -143,7 +143,7 @@ class ChangelogCollection:
         for i, changelog_entry in enumerate(self.changelog_entries):
             if (
                 i != 0
-                and self.pack_release_version != "experimental"
+                and self.pack_release_version != DevRelease.EXPERIMENTAL.value
                 and (
                     changelog_entry.prerelease
                     or (changelog_entry.version.endswith("-pre") or changelog_entry.version.endswith("-dev"))
