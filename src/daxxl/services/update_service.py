@@ -61,7 +61,7 @@ class UpdateService:
             update_errors = await self._update_all(
                 progress_callback=progress_callback,
                 global_progress_callback=global_progress_callback,
-                releaseVersion=version,
+                release_version=version,
             )
             if reset_progress_callback is not None:
                 reset_progress_callback()

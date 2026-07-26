@@ -34,13 +34,13 @@ class AssetUpdateOrchestrator:
         mods_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
-        releaseVersion: str | None = None,
+        release_version: str | None = None,
     ) -> list[str]:
         updated, errors = await self.update_available_assets(
             mods_to_update,
             progress_callback=progress_callback,
             global_progress_callback=global_progress_callback,
-            releaseVersion=releaseVersion,
+            release_version=release_version,
         )
         if updated:
             self.asset_service.save_assets()
@@ -51,7 +51,7 @@ class AssetUpdateOrchestrator:
         assets_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
-        releaseVersion: str | None = None,
+        release_version: str | None = None,
     ) -> tuple[bool, list[str]]:
 
         if global_progress_callback is not None:
@@ -86,7 +86,7 @@ class AssetUpdateOrchestrator:
                 continue
             tasks.append(
                 self._run_safely(
-                    asset.name, self.asset_service.update_versionable_from_repo(asset, repo, releaseVersion), errors
+                    asset.name, self.asset_service.update_versionable_from_repo(asset, repo, release_version), errors
                 )
             )
 

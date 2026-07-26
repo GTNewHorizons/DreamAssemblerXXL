@@ -184,7 +184,7 @@ class AssetService:
         return mod
 
     async def update_versionable_from_repo(
-        self, versionable: Versionable, repo: AttributeDict, releaseVersion: str | None = None
+        self, versionable: Versionable, repo: AttributeDict, release_version: str | None = None
     ) -> bool:
         """
         Attempt to update a versionable asset from a github repository.
@@ -199,17 +199,17 @@ class AssetService:
             f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
         )
 
-        if releaseVersion == "daily":
+        if release_version == "daily":
             if isinstance(versionable, GTNHModInfo):
                 await self.update_github_mod_from_repo(versionable, repo)
-            await self.update_versions_from_repo(versionable, repo, releaseVersion=releaseVersion)
+            await self.update_versions_from_repo(versionable, repo, release_version=release_version)
 
-            compareVersions = versionable.versions.copy()
+            compare_versions = versionable.versions.copy()
 
             versionable.latest_version = next(
                 (
                     version.version_tag
-                    for version in sorted(compareVersions, key=version_sort_key, reverse=True)
+                    for version in sorted(compare_versions, key=version_sort_key, reverse=True)
                     if not version.version_tag.endswith("-pre")
                 ),
                 "<unknown>",
@@ -243,7 +243,7 @@ class AssetService:
         # Versionable
         if version_updated or not versionable.versions:
             versionable_updated |= await self.update_versions_from_repo(
-                versionable, repo, releaseVersion=releaseVersion
+                versionable, repo, release_version=release_version
             )
 
         if versionable_updated:
@@ -299,7 +299,7 @@ class AssetService:
         return True
 
     async def update_versions_from_repo(
-        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, releaseVersion: str | None = None
+        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, release_version: str | None = None
     ) -> bool:
         # dont update mods with a side of NONE
         if isinstance(asset, GTNHModInfo):
@@ -313,7 +313,7 @@ class AssetService:
         # Sorted releases, newest version first
         sorted_releases: list[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
 
-        if releaseVersion == "daily":
+        if release_version == "daily":
             sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
             # if latest version is a -pre release, reset to latest valid release
             if asset.latest_version.endswith("-pre"):

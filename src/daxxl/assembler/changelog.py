@@ -95,9 +95,9 @@ class ChangelogCollection:
         return [f">{s}" for s in strs]
 
     @classmethod
-    def get_contributors_from_PRs(cls, PR_list: list[str]) -> set[str]:
+    def get_contributors_from_prs(cls, pr_list: list[str]) -> set[str]:
         contributors = set()
-        for pr in PR_list:
+        for pr in pr_list:
             match = re.search(r"by (@\S+) in http.*$", pr)
             if match:
                 contributors.add(match.group(1))
@@ -105,7 +105,7 @@ class ChangelogCollection:
         return contributors
 
     @classmethod
-    def annotate_version_on_PRs(cls, strs: list[str], version: str) -> list[str]:
+    def annotate_version_on_prs(cls, strs: list[str], version: str) -> list[str]:
         return [f"{s} ({version})" for s in strs]
 
     def generate_mod_changelog(self, compressed: bool = True) -> str:
@@ -168,11 +168,11 @@ class ChangelogCollection:
                     version_changelog.append(changelog_entry.full_comparison_url)
             else:
                 entries = changelog_entry.changelog_entries
-                self.contributors |= self.get_contributors_from_PRs(entries)
+                self.contributors |= self.get_contributors_from_prs(entries)
 
                 # annotate each PR with associated release version
                 if compressed:
-                    entries = self.annotate_version_on_PRs(entries, changelog_entry.version)
+                    entries = self.annotate_version_on_prs(entries, changelog_entry.version)
 
                 version_changelog.extend(self.blockquote(entries))
 
