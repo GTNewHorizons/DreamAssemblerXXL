@@ -5,7 +5,7 @@ import httpx
 from colorama import Fore
 
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
-from daxxl.defs import Archive, ModSource, Side
+from daxxl.defs import Archive, DevRelease, ModSource, Side
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
@@ -235,7 +235,7 @@ class ReleaseController:
         """
         self._set_mod_side(self.external_mods, mod_name, side, get_default_version)
 
-    async def set_mod_side_default(self, mod_name: str, side: str) -> bool:
+    async def set_mod_side_default(self, mod_name: str, side: Side) -> bool:
         """
         Set the mod side to the given side no matter what is its source (github or external).
 
@@ -517,7 +517,7 @@ class ReleaseController:
 
         return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
 
-    async def update_rolling_release(self, release_type: str) -> tuple[list[GTNHModInfo], list[str]]:
+    async def update_rolling_release(self, release_type: DevRelease) -> tuple[list[GTNHModInfo], list[str]]:
         """
         update dev release (experimental/daily)
 

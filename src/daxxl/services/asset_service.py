@@ -367,7 +367,7 @@ class AssetService:
 
         return version_updated
 
-    def set_mod_side(self, mod_name: str, side: str) -> bool:
+    def set_mod_side(self, mod_name: str, side: Side) -> bool:
         if self.assets.has_mod(mod_name):
             mod: GTNHModInfo = self.assets.get_mod(mod_name)
         else:

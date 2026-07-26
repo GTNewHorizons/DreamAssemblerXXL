@@ -332,7 +332,7 @@ class Window(ThemedTk, Tk):
         except SideAlreadySetException as e:
             showwarning("Side already set up", str(e))
 
-    async def set_mod_side_default(self, mod_name: str, side: str) -> None:
+    async def set_mod_side_default(self, mod_name: str, side: Side) -> None:
         """
         Callback used to set the default side of a mod no matter what is its source (github or external).
 
@@ -455,11 +455,11 @@ class Window(ThemedTk, Tk):
             warning_intro="The assets had been updated BUT:\n",
         )
 
-    async def _update_dev_release(self, release_type: str) -> None:
+    async def _update_dev_release(self, release_type: DevRelease) -> None:
         """
         update dev release (experimental/daily).
 
-        :param release_type: "experimental" or "daily"
+        :param release_type: DevRelease type
         :return: None
         """
         self.trigger_toggle()
@@ -469,9 +469,9 @@ class Window(ThemedTk, Tk):
         self._notify_errored_mods(
             errored_mods,
             update_errors,
-            title=f"updated the {release_type} release metadata",
-            success_message=f"The {release_type} release metadata had been updated!",
-            warning_intro=f"The {release_type} release metadata had been updated BUT:\n",
+            title=f"updated the {release_type.value} release metadata",
+            success_message=f"The {release_type.value} release metadata had been updated!",
+            warning_intro=f"The {release_type.value} release metadata had been updated BUT:\n",
         )
 
     @with_error_dialog(
@@ -485,7 +485,7 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        await self._update_dev_release(DevRelease.EXPERIMENTAL.value)
+        await self._update_dev_release(DevRelease.EXPERIMENTAL)
 
     @with_error_dialog(
         title="An error occured during the update of the daily build",
@@ -497,7 +497,7 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        await self._update_dev_release(DevRelease.DAILY.value)
+        await self._update_dev_release(DevRelease.DAILY)
 
     async def load_gtnh_version(self, release: GTNHRelease | str, init: bool = False) -> None:
         """
