@@ -37,15 +37,15 @@ class DownloadService:
         if asset_version is None:
             asset_version = asset.latest_version
 
-        type = "Github" if is_github else "External"
+        asset_type = "Github" if is_github else "External"
         version = asset.get_version(asset_version)
         if not version or not version.filename or not version.download_url:
             log.error(
-                f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{asset_version}{Fore.RED}` not found for {type} Asset "
+                f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{asset_version}{Fore.RED}` not found for {asset_type} Asset "
                 f"`{Fore.CYAN}{asset.name}{Fore.RED}`{Fore.RESET}"
             )
             if error_callback:
-                error_callback(f"Version `{asset_version}` not found for {type} Asset `{asset.name}`")
+                error_callback(f"Version `{asset_version}` not found for {asset_type} Asset `{asset.name}`")
             return None
 
         private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""

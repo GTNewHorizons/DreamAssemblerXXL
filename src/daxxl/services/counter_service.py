@@ -28,7 +28,7 @@ class CounterService:
         else:
             raise NotImplementedError(f"{kind} dev release is not yet supported")
 
-    def set_dev_release_id(self, kind: DevRelease, id: int) -> None:
+    def set_dev_release_id(self, kind: DevRelease, build_id: int) -> None:
         """
         Set the dev release id to a specific number. Has to be greater than the last id.
 
@@ -37,18 +37,18 @@ class CounterService:
         None
         """
         if kind == DevRelease.EXPERIMENTAL:
-            if id <= self._assets.latest_experimental:
+            if build_id <= self._assets.latest_experimental:
                 raise InvalidExperimentalIDException(
-                    f"Cannot set new experimental id to {id}, needs to be greater than latest experimental count {self._assets.latest_experimental}"
+                    f"Cannot set new experimental id to {build_id}, needs to be greater than latest experimental count {self._assets.latest_experimental}"
                 )
-            self._assets.latest_experimental = id
+            self._assets.latest_experimental = build_id
 
         elif kind == DevRelease.DAILY:
-            if id <= self._assets.latest_daily:
+            if build_id <= self._assets.latest_daily:
                 raise InvalidDailyIDException(
-                    f"Cannot set new daily id to {id}, needs to be greater than latest daily count {self._assets.latest_daily}"
+                    f"Cannot set new daily id to {build_id}, needs to be greater than latest daily count {self._assets.latest_daily}"
                 )
-            self._assets.latest_daily = id
+            self._assets.latest_daily = build_id
         else:
             raise NotImplementedError(f"{kind} dev release is not yet supported")
 
@@ -69,13 +69,13 @@ class CounterService:
         self._save()
 
 
-    def set_last_successful_dev_build_id(self, kind: DevRelease, id: int) -> None:
+    def set_last_successful_dev_build_id(self, kind: DevRelease, build_id: int) -> None:
         """
         Set the last successful dev build id.
 
         Parameters
         ----------
-        id: int
+        build_id: int
             The last successful dev build id.
 
         Returns
@@ -83,9 +83,9 @@ class CounterService:
         None
         """
         if kind == DevRelease.EXPERIMENTAL:
-            self._assets.latest_successful_experimental = id
+            self._assets.latest_successful_experimental = build_id
         elif kind == DevRelease.DAILY:
-            self._assets.latest_successful_daily = id
+            self._assets.latest_successful_daily = build_id
         else:
             raise NotImplementedError(f"{kind} dev release is not yet supported")
         self._save()

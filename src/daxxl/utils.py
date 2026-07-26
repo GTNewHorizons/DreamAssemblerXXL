@@ -57,10 +57,10 @@ async def normalize_archive_permissions(archive: ZipFile) -> None:
 def atomic_write_text(path: Path, data: str) -> None:
     temporary = path.with_name(f"{path.name}.tmp")
     try:
-        with open(temporary, "w", encoding="utf-8") as file:
-            file.write(data)
-            file.flush()
-            os.fsync(file.fileno())
+        with open(temporary, "w", encoding="utf-8") as f:
+            f.write(data)
+            f.flush()
+            os.fsync(f.fileno())
         temporary.replace(path)
     finally:
         temporary.unlink(missing_ok=True)
