@@ -97,12 +97,12 @@ class GenericAssembler:
         -------
         int: the amount of files for the locales.
         """
-        sum: int = 0
+        total: int = 0
         for language in self.modpack_manager.assets.translations.versions:
             locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
-                sum += len([item for item in locale_zip.namelist() if not item.endswith("/")])
-        return sum
+                total += len([item for item in locale_zip.namelist() if not item.endswith("/")])
+        return total
 
     def get_mods(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
@@ -277,8 +277,8 @@ class GenericAssembler:
         :return: None
         """
 
-        with open(README_TEMPLATE, "r") as file:
-            data = "".join(file.readlines())
+        with open(README_TEMPLATE, "r") as f:
+            data = "".join(f.readlines())
 
             version: str = self.release.version
             release_date: str = str(self.release.last_updated.date())

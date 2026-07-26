@@ -238,7 +238,7 @@ class CurseAssembler(GenericAssembler):
         """
         if task_progressbar is not None:
             task_progressbar.reset()
-        with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as file:
+        with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as f:
             mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
             progress = 100.0 / len(mod_list)
             for mod, version in mod_list:
@@ -247,9 +247,9 @@ class CurseAssembler(GenericAssembler):
                     task_progressbar.add_progress(
                         progress, f"Adding {mod.name} to the archives of the mods to be uploaded"
                     )
-                file.write(path, arcname=path.name)
+                f.write(path, arcname=path.name)
                 await self.yield_to_event_loop()
-            await normalize_archive_permissions(file)
+            await normalize_archive_permissions(f)
         if task_progressbar is not None:
             task_progressbar.add_progress(1, "Done!")
 

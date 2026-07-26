@@ -212,13 +212,13 @@ class ReleaseAssemblerController:
         else:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
 
-        with open(changelog_path, "w") as file:
+        with open(changelog_path, "w") as f:
             for mod, mod_changelog in changelog.items():
                 for item in mod_changelog:
                     try:
-                        file.write(item + "\n")
+                        f.write(item + "\n")
                     except UnicodeEncodeError:
-                        file.write((item + "\n").encode("ascii", "ignore").decode())
+                        f.write((item + "\n").encode("ascii", "ignore").decode())
 
         return changelog_path
 

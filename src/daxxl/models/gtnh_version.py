@@ -48,14 +48,14 @@ class GTNHVersion(GTNHBaseModel):
     extra_assets: list[ExtraAsset] = Field(default=[])
 
 
-def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHVersion | None:
+def version_from_release(release: AttributeDict, versionable_type: VersionableType) -> GTNHVersion | None:
     """
     Get ModVersion and assets from a GitRelease
     :param release: GithubRelease
     :return: ModVersion
     """
     version = release.tag_name
-    asset, extra_assets = get_asset(release, type)
+    asset, extra_assets = get_asset(release, versionable_type)
 
     if not asset:
         return None
@@ -79,7 +79,7 @@ def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHV
     )
 
 
-def get_asset(release: AttributeDict, type: VersionableType) -> tuple[AttributeDict | None, list[AttributeDict]]:
+def get_asset(release: AttributeDict, versionable_type: VersionableType) -> tuple[AttributeDict | None, list[AttributeDict]]:
     """
     Get mod assets from a release; excludes dev, source, and api jars
     :param release: A github release
@@ -98,7 +98,7 @@ def get_asset(release: AttributeDict, type: VersionableType) -> tuple[AttributeD
             # A dev release will have two "-dev" suffixes, so remove the first one
             asset_name = asset_name.replace("-dev", "", 1)
 
-        if type == VersionableType.mod:
+        if versionable_type == VersionableType.mod:
             if asset_name.endswith("forgePatches.jar"):
                 extra_assets.append(asset)
                 continue
@@ -118,7 +118,7 @@ def get_asset(release: AttributeDict, type: VersionableType) -> tuple[AttributeD
                 ]
             ):
                 continue
-        elif type == VersionableType.config:
+        elif versionable_type == VersionableType.config:
             if not asset_name.endswith(".zip"):
                 continue
 

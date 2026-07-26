@@ -24,7 +24,7 @@ def sanitize(to_sanitize: str) -> str:
 def ensure_cache_dir(asset: Versionable | None = None) -> Path:
     os.makedirs(CACHE_DIR, exist_ok=True)
     if asset is not None:
-        path: Path = CACHE_DIR / sanitize(asset.type.value) / sanitize(asset.name)
+        path: Path = CACHE_DIR / sanitize(asset.versionable_type.value) / sanitize(asset.name)
 
         os.makedirs(path, exist_ok=True)
 
@@ -44,4 +44,4 @@ def get_asset_version_cache_location(
                 break
         if subasset is version:
             raise FileNotFoundError(f"Could not find an asset with suffix {extra_asset_suffix} for {version.filename}")
-    return cache_dir / sanitize(asset.type.value) / sanitize(asset.name) / sanitize(str(subasset.filename))
+    return cache_dir / sanitize(asset.versionable_type.value) / sanitize(asset.name) / sanitize(str(subasset.filename))

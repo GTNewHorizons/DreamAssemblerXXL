@@ -38,7 +38,7 @@ class ButtonArrayCallback:
         self.client_curse: Callable[[], Task[None]] = client_curse
         self.client_modrinth: Callable[[], Task[None]] = client_modrinth
         self.client_technic: Callable[[], Task[None]] = client_technic
-        self.all: Callable[[], Task[None]] = update_all
+        self.update_all: Callable[[], Task[None]] = update_all
         self.beta: Callable[[], Task[None]] = update_beta
         self.generate_changelog: Callable[[], Task[None]] = generate_changelog
         self.generate_intermediate_cf_files: Callable[[], Task[None]] = generate_intermediate_cf_files
@@ -104,7 +104,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             state=DISABLED,
         )
         self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate stable release", command=callbacks.all, themed=self.themed
+            self.frame_btn, text="Generate stable release", command=callbacks.update_all, themed=self.themed
         )
         self.btn_generate_beta: CustomButton = CustomButton(
             self.frame_btn, text="Generate beta/RC release", command=callbacks.beta, themed=self.themed

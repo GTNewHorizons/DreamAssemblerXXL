@@ -61,7 +61,7 @@ class AssetService:
         Saves the Available Mods Manifest
         """
         log.debug(f"Saving assets to from {self.gtnh_asset_manifest_path}")
-        dumped = self.assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
+        dumped = self.assets.json(by_alias=True, exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
         if dumped:
             atomic_write_text(self.gtnh_asset_manifest_path, dumped)
         else:
@@ -338,7 +338,7 @@ class AssetService:
                     # Hit the old latest version, no more newer releases
                     break
 
-            version = version_from_release(release, asset.type)
+            version = version_from_release(release, asset.versionable_type)
             if not version:
                 continue
 

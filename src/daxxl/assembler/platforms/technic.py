@@ -136,12 +136,12 @@ class TechnicAssembler(GenericAssembler):
             await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
-        with open(removed_modlist_name, "w") as file:
+        with open(removed_modlist_name, "w") as f:
             log.info("generating removed modlist")
             removed_modlist: list[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(
                 side, DifferentialUpdateMode.REMOVED_MODS
             )
-            file.write("\n".join([f"{mod.name}: {version.version_tag}" for (mod, version) in removed_modlist]))
+            f.write("\n".join([f"{mod.name}: {version.version_tag}" for (mod, version) in removed_modlist]))
             log.info("modlist created successfully!")
 
     def differential_update(

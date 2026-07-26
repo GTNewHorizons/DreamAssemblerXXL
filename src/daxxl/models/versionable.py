@@ -21,7 +21,7 @@ class Versionable(BaseModel):
     private: bool = Field(default=False)
 
     versions: list[GTNHVersion] = Field(default_factory=list)
-    type: VersionableType = Field(default=VersionableType.mod)
+    versionable_type: VersionableType = Field(default=VersionableType.mod, alias="type")
 
     def add_version(self, version: GTNHVersion) -> None:
         idx = self.get_version_idx(version.version_tag)
