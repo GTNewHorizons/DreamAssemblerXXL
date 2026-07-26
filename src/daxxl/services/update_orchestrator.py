@@ -21,6 +21,15 @@ class AssetUpdateOrchestrator:
 
     @staticmethod
     async def _run_safely(name: str, coro: "Coroutine[Any, Any, bool]", errors: list[str]) -> bool:
+        """
+        Await `coro`, recording an error message tagged with `name` in `errors` instead of
+        letting the exception propagate out of the batch of concurrently-checked assets.
+
+        :param name: asset name
+        :param coro: the update coroutine to run
+        :param errors: shared list error messages are appended to
+        :return: the coroutine's result, or False if it raised
+        """
         try:
             return await coro
         except Exception as error:
@@ -36,6 +45,9 @@ class AssetUpdateOrchestrator:
         global_progress_callback: Optional[Callable[[str], None]] = None,
         release_version: str | None = None,
     ) -> list[str]:
+        """
+        :return: error messages for assets that failed to update, empty if all succeeded
+        """
         updated, errors = await self.update_available_assets(
             mods_to_update,
             progress_callback=progress_callback,
@@ -72,7 +84,7 @@ class AssetUpdateOrchestrator:
             if assets_to_update and asset.name not in assets_to_update:
                 if progress_callback is not None:
                     progress_callback(delta_progress, "")
-                continue
+                continue # skipped mod is part of the process so we update the progress
 
             repo = all_repos.get(asset.name)
 
@@ -90,6 +102,7 @@ class AssetUpdateOrchestrator:
                 )
             )
 
+        # update translation manually because version check cannot work on this repo given the nature of the releases
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
         tasks.append(
