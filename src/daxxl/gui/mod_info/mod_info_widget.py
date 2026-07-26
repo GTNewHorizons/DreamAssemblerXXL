@@ -132,8 +132,8 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
             themed=self.themed,
             edit_version_mode=True,
         )
-        gtnh = await self.mod_adder_callbacks.get_gtnh_callback()  # type: ignore
-        data = gtnh.assets.get_mod(mod_name)
+        context = await self.mod_adder_callbacks.get_context_callback()  # type: ignore
+        data = context.assets.get_mod(mod_name)
         version = data.get_version(version)
         mod_addition_frame.populate_data(mod=data, version=version)
         mod_addition_frame.grid()

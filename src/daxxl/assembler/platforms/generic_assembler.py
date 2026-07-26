@@ -16,7 +16,7 @@ from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
@@ -29,7 +29,7 @@ class GenericAssembler:
 
     def __init__(
         self,
-        gtnh_modpack: AppContext,
+        context: AppContext,
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
@@ -39,20 +39,20 @@ class GenericAssembler:
         """
         Constructor of the GenericAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
+        :param context: the context instance
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
         :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
-        self.modpack_manager: AppContext = gtnh_modpack
+        self.context: AppContext = context
         self.release: GTNHRelease = release
         self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
         self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
         self.changelog_path: Optional[Path] = changelog_path
         self.current_task_reset_callback: Optional[Callable[[], None]] = current_task_reset_callback
 
-        mod_pack = self.modpack_manager.mod_pack
+        mod_pack = self.context.mod_pack
         self.exclusions: dict[str, Exclusions] = {
             Side.CLIENT: Exclusions(mod_pack.client_exclusions + mod_pack.client_java8_exclusions),
             Side.SERVER: Exclusions(mod_pack.server_exclusions + mod_pack.server_java8_exclusions),
@@ -98,8 +98,8 @@ class GenericAssembler:
         int: the amount of files for the locales.
         """
         total: int = 0
-        for language in self.modpack_manager.assets.translations.versions:
-            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+        for language in self.context.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.context.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 total += len([item for item in locale_zip.namelist() if not item.endswith("/")])
         return total
@@ -136,7 +136,7 @@ class GenericAssembler:
             filter(
                 None,
                 [
-                    self.modpack_manager.assets.get_mod_and_version(name, version, valid_sides)
+                    self.context.assets.get_mod_and_version(name, version, valid_sides)
                     for name, version in release.external_mods.items()
                 ],
             )
@@ -159,7 +159,7 @@ class GenericAssembler:
             filter(
                 None,
                 [
-                    self.modpack_manager.assets.get_mod_and_version(name, version, valid_sides)
+                    self.context.assets.get_mod_and_version(name, version, valid_sides)
                     for name, version in release.github_mods.items()
                 ],
             )
@@ -174,7 +174,7 @@ class GenericAssembler:
         :return: a tuple with the GTNHConfig and GTNHVersion of the release's config
         """
 
-        config: GTNHConfig = self.modpack_manager.assets.config
+        config: GTNHConfig = self.context.assets.config
         version: Optional[GTNHVersion] = config.get_version(self.release.config)
         if version is None:
             raise InvalidConfigException
@@ -329,8 +329,8 @@ class GenericAssembler:
         -------
         None
         """
-        for language in self.modpack_manager.assets.translations.versions:
-            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+        for language in self.context.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.context.assets.translations, language)
             list_of_files = archive.namelist()
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():

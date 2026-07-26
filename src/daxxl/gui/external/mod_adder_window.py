@@ -14,7 +14,7 @@ from daxxl.gui.lib.text_entry import TextEntry
 from daxxl.models import versionable
 from daxxl.models.gtnh_version import CurseFile, GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 
 
 class Sources(int, Enum):
@@ -25,11 +25,11 @@ class Sources(int, Enum):
 class ModAdderCallback:
     def __init__(
         self,
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
+        get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         add_mod_to_memory: Callable[[str, str], None],
         delete_mod_from_memory: Callable[[str], None],
     ):
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_context_callback
         self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
         self.delete_mod_from_memory: Callable[[str], None] = delete_mod_from_memory
 
@@ -71,7 +71,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         self.master: Toplevel = master
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_context_callback
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_to_memory
         self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_from_memory
 
@@ -128,10 +128,10 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        gtnh: AppContext = await self.get_gtnh_callback()
+        context: AppContext = await self.get_context_callback()
 
         # mod exists because the name is from the available mods in the assets.
-        src = 1 if gtnh.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
+        src = 1 if context.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
         self.mod_choice.set(src)
 
     def check_inputs(self) -> dict[str, bool]:
@@ -244,11 +244,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             )
             return
 
-        gtnh = await self.get_gtnh_callback()
+        context = await self.get_context_callback()
 
         name: str = self.mod_name if only_mod else self.name.get()  # type: ignore
 
-        if gtnh.assets.has_mod(name) and self.add_mod:
+        if context.assets.has_mod(name) and self.add_mod:
             showwarning("Mod already existing", f"the mod {name} already exists in the database.")
             return
 
@@ -294,11 +294,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         )
         # adding mod
         if self.add_mod:
-            gtnh.assets.add_mod(mod)
+            context.assets.add_mod(mod)
 
         # adding version
         else:
-            mod = gtnh.assets.get_mod(name)
+            mod = context.assets.get_mod(name)
 
             # if mod has already that version
             if mod.has_version(mod_version.version_tag) and not self.edit_version_mode:
@@ -317,8 +317,8 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             mod.source = ModSource.curse if curse_src else ModSource.other
             if mod.source == ModSource.curse:
                 mod.project_id = project_id
-        gtnh.assets.update_mod(mod)
-        gtnh.asset_service.save_assets()
+        context.assets.update_mod(mod)
+        context.asset_service.save_assets()
 
         if self.add_mod_version:
             showinfo(

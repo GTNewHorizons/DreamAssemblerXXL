@@ -11,7 +11,7 @@ from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
@@ -24,7 +24,7 @@ class ZipAssembler(GenericAssembler):
 
     def __init__(
         self,
-        gtnh_modpack: AppContext,
+        context: AppContext,
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
@@ -33,14 +33,14 @@ class ZipAssembler(GenericAssembler):
         """
         Constructor of the ZipAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
+        :param context: the context instance
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
         """
         GenericAssembler.__init__(
             self,
-            gtnh_modpack=gtnh_modpack,
+            context=context,
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,

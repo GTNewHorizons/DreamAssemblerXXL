@@ -13,7 +13,7 @@ from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 
 logger = get_logger(__name__)
 
@@ -52,7 +52,7 @@ class ReleaseController:
         self.current_task_reset_callback = current_task_reset_callback
 
         self._client: Optional[httpx.AsyncClient] = None
-        self._modpack_manager: Optional[AppContext] = None
+        self._context: Optional[AppContext] = None
 
         self.github_mods: dict[
             str, ModVersionInfo
@@ -77,15 +77,15 @@ class ReleaseController:
             self._client = httpx.AsyncClient(http2=True)
         return self._client
 
-    async def get_modpack_manager(self) -> AppContext:
+    async def get_context(self) -> AppContext:
         """
-        Getter for the modpack manager instance, creating it if it doesn't exist.
+        Getter for the context instance, creating it if it doesn't exist.
 
-        :return: the modpack manager instance
+        :return: the context instance
         """
-        if self._modpack_manager is None:
-            self._modpack_manager = AppContext(await self._get_client())
-        return self._modpack_manager
+        if self._context is None:
+            self._context = AppContext(await self._get_client())
+        return self._context
 
     async def close(self) -> None:
         """
@@ -244,12 +244,12 @@ class ReleaseController:
         :raises SideAlreadySetException: if the mod is already on the given side
         :return: False if the side couldn't be set
         """
-        gtnh: AppContext = await self.get_modpack_manager()
-        previous_side: Side = gtnh.assets.get_mod(mod_name).side
+        context: AppContext = await self.get_context()
+        previous_side: Side = context.assets.get_mod(mod_name).side
         if previous_side == side:
             raise SideAlreadySetException(f"{mod_name}'s side is already set on {side}")
 
-        return gtnh.asset_service.set_mod_side(mod_name, side)
+        return context.asset_service.set_mod_side(mod_name, side)
 
     @property
     def progress(self) -> float:
@@ -267,10 +267,10 @@ class ReleaseController:
         :param exclusion: the string corresponding to the file exclusion
         :return: True if the exclusion was added, False if it was already present
         """
-        gtnh: AppContext = await self.get_modpack_manager()
-        added = gtnh.mod_pack.add_exclusion(side, exclusion)
+        context: AppContext = await self.get_context()
+        added = context.mod_pack.add_exclusion(side, exclusion)
         if added:
-            gtnh.persistence.save(gtnh.mod_pack)
+            context.persistence.save(context.mod_pack)
         return added
 
     async def delete_exclusion(self, side: Side, exclusion: str) -> bool:
@@ -281,10 +281,10 @@ class ReleaseController:
         :param exclusion: the string corresponding to the file exclusion
         :return: True if the exclusion was removed, False if it wasn't present
         """
-        gtnh: AppContext = await self.get_modpack_manager()
-        removed = gtnh.mod_pack.delete_exclusion(side, exclusion)
+        context: AppContext = await self.get_context()
+        removed = context.mod_pack.delete_exclusion(side, exclusion)
         if removed:
-            gtnh.persistence.save(gtnh.mod_pack)
+            context.persistence.save(context.mod_pack)
         return removed
 
     async def get_modpack_exclusions(self, side: Side) -> list[str]:
@@ -294,11 +294,11 @@ class ReleaseController:
         :param side: side of the pack
         :return: list of strings corresponding to the file exclusions
         """
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
         if side == Side.CLIENT:
-            return sorted([exclusion for exclusion in gtnh.mod_pack.client_exclusions])
+            return sorted([exclusion for exclusion in context.mod_pack.client_exclusions])
         elif side == Side.SERVER:
-            return sorted([exclusion for exclusion in gtnh.mod_pack.server_exclusions])
+            return sorted([exclusion for exclusion in context.mod_pack.server_exclusions])
         else:
             raise ValueError(f"side {side} is an invalid side")
 
@@ -308,8 +308,8 @@ class ReleaseController:
 
         :return: a list of github mod names
         """
-        gtnh: AppContext = await self.get_modpack_manager()
-        return [x.name for x in gtnh.assets.mods if x.source == ModSource.github]
+        context: AppContext = await self.get_context()
+        return [x.name for x in context.assets.mods if x.source == ModSource.github]
 
     async def get_external_modlist(self) -> list[str]:
         """
@@ -317,8 +317,8 @@ class ReleaseController:
 
         :return: a list of string with all the external mods available
         """
-        gtnh: AppContext = await self.get_modpack_manager()
-        return [mod.name for mod in gtnh.assets.mods if mod.source != ModSource.github]
+        context: AppContext = await self.get_context()
+        return [mod.name for mod in context.assets.mods if mod.source != ModSource.github]
 
     async def get_modpack_versions(self) -> list[str]:
         """
@@ -326,8 +326,8 @@ class ReleaseController:
 
         :return: a list of all the versions available.
         """
-        gtnh: AppContext = await self.get_modpack_manager()
-        modpack_config: GTNHConfig = gtnh.assets.config
+        context: AppContext = await self.get_context()
+        modpack_config: GTNHConfig = context.assets.config
         return [version.version_tag for version in modpack_config.versions]
 
     async def get_releases(self) -> list[GTNHRelease]:
@@ -337,15 +337,15 @@ class ReleaseController:
 
         :return: a sorted list of all the gtnh releases available
         """
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
 
         releases: list[GTNHRelease] = []
 
         # if there is any release, chose last
-        if len(gtnh.mod_pack.releases) > 0:
-            # gtnh.mod_pack.releases is actually a set of the release names
-            for release_name in gtnh.mod_pack.releases:
-                release: Optional[GTNHRelease] = gtnh.release_service.get_release(release_name)
+        if len(context.mod_pack.releases) > 0:
+            # the releases field is actually a set of the release names
+            for release_name in context.mod_pack.releases:
+                release: Optional[GTNHRelease] = context.release_service.get_release(release_name)
 
                 # discarding all the None releases, as it means the json data couldn't be loaded
                 if release is not None:
@@ -374,8 +374,8 @@ class ReleaseController:
         release_object: Optional[GTNHRelease]
 
         if isinstance(release, str):
-            gtnh: AppContext = await self.get_modpack_manager()
-            release_object = gtnh.release_service.get_release(release)
+            context: AppContext = await self.get_context()
+            release_object = context.release_service.get_release(release)
         else:
             release_object = release
 
@@ -402,7 +402,7 @@ class ReleaseController:
         # todo: create a new instance for release object and edit it instead, because mutating args is bad mkay?
         mod_name: str
         version: ModVersionInfo
-        gtnh_modpack: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
         github_mods: dict[str, ModVersionInfo] = release.github_mods
         external_mods: dict[str, ModVersionInfo] = release.external_mods
         valid_side: set[Side] = {Side.NONE}
@@ -411,7 +411,7 @@ class ReleaseController:
         mod_data: Optional[tuple[GTNHModInfo, GTNHVersion]]
 
         for mod_name, version in github_mods.items():
-            mod_data = gtnh_modpack.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
+            mod_data = context.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
             if mod_data is not None:
                 logger.warn(
                     f"{Fore.YELLOW}Release {release.version} had github mod {mod_name}"
@@ -423,7 +423,7 @@ class ReleaseController:
             del github_mods[mod_name]
 
         for mod_name, version in external_mods.items():
-            mod_data = gtnh_modpack.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
+            mod_data = context.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
             if mod_data is not None:
                 logger.warn(
                     f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}"
@@ -446,19 +446,19 @@ class ReleaseController:
         :param previous_version: the previous modpack version
         :return: True if the release was added
         """
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
         release: GTNHRelease = GTNHRelease(
             version=release_name,
             config=self.gtnh_config,
             github_mods={
                 mod_name: ModVersionInfo(
-                    version=info.version, side=info.side if info.side else gtnh.assets.get_mod(mod_name).side
+                    version=info.version, side=info.side if info.side else context.assets.get_mod(mod_name).side
                 )
                 for mod_name, info in self.github_mods.items()
             },
             external_mods={
                 mod_name: ModVersionInfo(
-                    version=info.version, side=info.side if info.side else gtnh.assets.get_mod(mod_name).side
+                    version=info.version, side=info.side if info.side else context.assets.get_mod(mod_name).side
                 )
                 for mod_name, info in self.external_mods.items()
             },
@@ -467,11 +467,11 @@ class ReleaseController:
 
         self.last_version = previous_version
 
-        is_release_added: bool = gtnh.release_service.add_release(release, update=True)
+        is_release_added: bool = context.release_service.add_release(release, update=True)
 
         if is_release_added:
             await self.load_gtnh_version(release)
-            gtnh.persistence.save(gtnh.mod_pack)
+            context.persistence.save(context.mod_pack)
 
         return is_release_added
 
@@ -482,10 +482,10 @@ class ReleaseController:
         :param release_name: name of the release
         :return: None
         """
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
         was_loaded = self.version == release_name
-        gtnh.release_service.delete_release(release_name)
-        gtnh.persistence.save(gtnh.mod_pack)
+        context.release_service.delete_release(release_name)
+        context.persistence.save(context.mod_pack)
 
         if was_loaded:
             releases: list[GTNHRelease] = await self.get_releases()
@@ -508,14 +508,14 @@ class ReleaseController:
         self.global_reset_callback()
         self.current_task_reset_callback()
 
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
         global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
-        update_errors: list[str] = await gtnh.update_orchestrator.update_all(
+        update_errors: list[str] = await context.update_orchestrator.update_all(
             progress_callback=self.progress_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
 
-        return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
+        return [mod for mod in context.assets.mods if mod.needs_attention], update_errors
 
     async def update_rolling_release(self, release_type: DevRelease) -> tuple[list[GTNHModInfo], list[str]]:
         """
@@ -529,11 +529,11 @@ class ReleaseController:
         self.current_task_reset_callback()
         self.global_reset_callback()
 
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
 
         # 1 for the data download on github, 1 for the asset updates and 1 for the release update
         global_delta_progress: float = 100 / (1 + 1 + 1)
-        _, update_errors = await gtnh.update_service.update_rolling_release(
+        _, update_errors = await context.update_service.update_rolling_release(
             release_type,
             update_available=True,
             progress_callback=self.progress_callback,
@@ -541,7 +541,7 @@ class ReleaseController:
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
 
-        return [mod for mod in gtnh.assets.mods if mod.needs_attention], update_errors
+        return [mod for mod in context.assets.mods if mod.needs_attention], update_errors
 
     async def pre_assembling(self) -> ReleaseAssemblerController:
         """
@@ -552,7 +552,7 @@ class ReleaseController:
         if self._assembler_controller is not None:
             return self._assembler_controller
 
-        gtnh: AppContext = await self.get_modpack_manager()
+        context: AppContext = await self.get_context()
         release: GTNHRelease = GTNHRelease(
             version=self.version,
             config=self.gtnh_config,
@@ -567,11 +567,11 @@ class ReleaseController:
         self.current_task_reset_callback()
 
         self.global_callback(self.progress, "Downloading assets")
-        await gtnh.downloader.download_release(release, download_callback=self.progress_callback)
+        await context.downloader.download_release(release, download_callback=self.progress_callback)
         self.current_task_reset_callback()
 
         self._assembler_controller = ReleaseAssemblerController(
-            gtnh,
+            context,
             release,
             task_callback=self.progress_callback,
             global_callback=self.global_callback,

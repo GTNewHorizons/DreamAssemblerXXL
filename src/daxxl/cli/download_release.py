@@ -3,7 +3,7 @@ import httpx
 from colorama import Fore
 
 from daxxl.gtnh_logger import get_logger
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 
 log = get_logger(__name__)
 
@@ -12,13 +12,13 @@ log = get_logger(__name__)
 @click.argument("release-name")
 async def do_download_release(release_name: str) -> None:
     async with httpx.AsyncClient(http2=True) as client:
-        m = AppContext(client)
-        release = m.release_service.get_release(release_name)
+        context = AppContext(client)
+        release = context.release_service.get_release(release_name)
         if release is None:
             log.error(f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found!")
             return
 
-        await m.downloader.download_release(release=release)
+        await context.downloader.download_release(release=release)
 
 
 if __name__ == "__main__":

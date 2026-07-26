@@ -15,7 +15,7 @@ from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 
 
 class ExternalPanelCallback(ModInfoCallback):
@@ -24,7 +24,7 @@ class ExternalPanelCallback(ModInfoCallback):
         set_mod_version: Callable[[str, str], None],
         set_mod_side: Callable[[str, Side], Task[None]],
         set_mod_side_default: Callable[[str, Side], Task[None]],
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]],
+        get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]],
         get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]],
         toggle_freeze: Callable[[], None],
         add_mod_in_memory: Callable[[str, str], None],
@@ -34,7 +34,7 @@ class ExternalPanelCallback(ModInfoCallback):
         ModInfoCallback.__init__(
             self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
         )
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_gtnh_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_context_callback
         self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = toggle_freeze
         self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
@@ -73,7 +73,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         # start
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_gtnh_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_context_callback
         self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
@@ -81,7 +81,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = callbacks.refresh_external_modlist
 
         self.mod_adder_callbacks: ModAdderCallback = ModAdderCallback(
-            get_gtnh_callback=self.get_gtnh_callback,
+            get_context_callback=self.get_context_callback,
             add_mod_to_memory=self.add_mod_to_memory,
             delete_mod_from_memory=self.delete_mod_from_memory,
         )
@@ -221,8 +221,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             return
 
         index: int = self.listbox.get()
-        gtnh: AppContext = await self.get_gtnh_callback()
-        mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
+        context: AppContext = await self.get_context_callback()
+        mod_info: GTNHModInfo = context.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
@@ -295,9 +295,9 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         index: int = self.listbox.get()
         mod_name: str = self.listbox.get_value_at_index(index)
-        gtnh: AppContext = await self.get_gtnh_callback()
+        context: AppContext = await self.get_context_callback()
         self.listbox.delete_value_at_index(index)
-        await gtnh.asset_service.delete_mod(mod_name)
+        await context.asset_service.delete_mod(mod_name)
 
     async def add_new_version(self) -> None:
         """
@@ -336,8 +336,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             mod_name=mod_name,
             themed=self.themed,
         )
-        gtnh = await self.get_gtnh_callback()
-        data = gtnh.assets.get_mod(mod_name)
+        context = await self.get_context_callback()
+        data = context.assets.get_mod(mod_name)
         mod_addition_frame.populate_data(mod=data)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()

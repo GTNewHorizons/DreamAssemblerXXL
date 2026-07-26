@@ -16,7 +16,7 @@ from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger("technic process")
@@ -50,7 +50,7 @@ class TechnicAssembler(GenericAssembler):
 
     def __init__(
         self,
-        gtnh_modpack: AppContext,
+        context: AppContext,
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
@@ -60,7 +60,7 @@ class TechnicAssembler(GenericAssembler):
         """
         Constructor of the TechnicAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
+        :param context: the context instance
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
@@ -68,7 +68,7 @@ class TechnicAssembler(GenericAssembler):
         """
         GenericAssembler.__init__(
             self,
-            gtnh_modpack=gtnh_modpack,
+            context=context,
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
@@ -150,13 +150,13 @@ class TechnicAssembler(GenericAssembler):
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
-            update_source = self.modpack_manager.comparison.get_new_mods
+            update_source = self.context.comparison.get_new_mods
         elif update_mode == DifferentialUpdateMode.UPDATED_MODS:
-            update_source = self.modpack_manager.comparison.get_changed_mods
+            update_source = self.context.comparison.get_changed_mods
         else:
-            update_source = self.modpack_manager.comparison.get_removed_mods
+            update_source = self.context.comparison.get_removed_mods
 
-        last_release: GTNHRelease = self.modpack_manager.release_service.get_release(self.release.last_version)  # type: ignore
+        last_release: GTNHRelease = self.context.release_service.get_release(self.release.last_version)  # type: ignore
         process_release: GTNHRelease = (
             last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
         )

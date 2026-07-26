@@ -12,7 +12,7 @@ from daxxl.defs import (
 )
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.modpack_manager import AppContext
+from daxxl.app_context import AppContext
 
 log = get_logger(__name__)
 
@@ -24,7 +24,7 @@ class ReleaseAssemblerController:
 
     def __init__(
         self,
-        mod_manager: AppContext,
+        context: AppContext,
         release: GTNHRelease,
         task_callback: Optional[Callable[[float, str], None]] = None,
         global_callback: Optional[Callable[[float, str], None]] = None,
@@ -33,37 +33,37 @@ class ReleaseAssemblerController:
         """
         Constructor of the ReleaseAssemblerClass.
 
-        :param mod_manager: the AppContext instance
+        :param context: the AppContext instance
         :param release: the target GTNHRelease
         :param global_progress_callback: the global_progress_callback to use to report progress
         :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
-        self.mod_manager: AppContext = mod_manager
+        self.context: AppContext = context
         self.release: GTNHRelease = release
-        release.validate_release(mod_manager.assets)
+        release.validate_release(context.assets)
         self.callback: Optional[Callable[[float, str], None]] = global_callback
         self.current_task_reset_callback = current_task_reset_callback
 
         changelog_path: Path = self.generate_changelog()
 
         self.zip_assembler: ZipAssembler = ZipAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
+            context, release, task_callback, changelog_path=changelog_path
         )
         self.prism_assembler: PrismAssembler = PrismAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
+            context, release, task_callback, changelog_path=changelog_path
         )
         self.curse_assembler: CurseAssembler = CurseAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
+            context, release, task_callback, changelog_path=changelog_path
         )
         self.technic_assembler: TechnicAssembler = TechnicAssembler(
-            mod_manager,
+            context,
             release,
             task_callback,
             changelog_path=changelog_path,
             current_task_reset_callback=current_task_reset_callback,
         )
         self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
+            context, release, task_callback, changelog_path=changelog_path
         )
 
         # computation of the progress per mod for the progressbar
@@ -121,7 +121,7 @@ class ReleaseAssemblerController:
             await assembling(side, verbose)
 
         # TODO: Remove when the maven urls are calculated on add, instead of in curse
-        self.mod_manager.asset_service.save_assets()
+        self.context.asset_service.save_assets()
 
     async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
@@ -190,9 +190,9 @@ class ReleaseAssemblerController:
         current_version: str = self.release.version
         previous_version: Optional[str] = self.release.last_version
         previous_release: Optional[GTNHRelease] = (
-            None if previous_version is None else self.mod_manager.release_service.get_release(previous_version)
+            None if previous_version is None else self.context.release_service.get_release(previous_version)
         )
-        changelog: dict[str, list[str]] = self.mod_manager.comparison.generate_changelog(self.release, previous_release)
+        changelog: dict[str, list[str]] = self.context.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
         release_type: DevRelease | None = None
         for dr in DevRelease:
@@ -207,8 +207,8 @@ class ReleaseAssemblerController:
             )
             changelog_path = (
                 changelog_dir / f"changelog from {release_type.value} "
-                f"{self.mod_manager.counter.get_last_successful_dev_build_id(release_type)} to "
-                f"{self.mod_manager.counter.get_dev_release_count(release_type)}.md"
+                f"{self.context.counter.get_last_successful_dev_build_id(release_type)} to "
+                f"{self.context.counter.get_dev_release_count(release_type)}.md"
             )
         else:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"

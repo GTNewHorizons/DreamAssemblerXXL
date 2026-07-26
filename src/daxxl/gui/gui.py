@@ -132,7 +132,7 @@ class Window(ThemedTk, Tk):
 
         # frame for the github mods
         github_panel_callbacks: GithubPanelCallback = GithubPanelCallback(
-            get_gtnh_callback=self.controller.get_modpack_manager,
+            get_context_callback=self.controller.get_context,
             get_github_mods_callback=self.controller.get_github_mods,
             set_mod_version=self.controller.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
@@ -156,7 +156,7 @@ class Window(ThemedTk, Tk):
             set_mod_version=self.controller.set_external_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_mod_side_default(name, side)),
-            get_gtnh_callback=self.controller.get_modpack_manager,
+            get_context_callback=self.controller.get_context,
             get_external_mods_callback=self.controller.get_external_mods,
             toggle_freeze=self.trigger_toggle,
             add_mod_in_memory=self.controller.add_external_mod,
