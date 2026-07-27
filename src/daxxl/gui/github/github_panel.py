@@ -1,5 +1,6 @@
 import asyncio
 from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -13,10 +14,21 @@ from daxxl.gui.lib.combo_box import CustomCombobox
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
 from daxxl.gui.lib.text_entry import TextEntry
-from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
+from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoData, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
+
+
+@dataclass
+class GithubPanelData:
+    """
+    The github mod list and the modpack config versions GithubPanel displays.
+    """
+
+    github_mod_list: list[str]
+    modpack_versions: list[str]
+    current_modpack_version: str
 
 
 class GithubPanelCallback(ModInfoCallback):
@@ -99,7 +111,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_in_memory
         self.set_modpack_version: Callable[[str], None] = callbacks.set_modpack_version
 
-        self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
+        self.mod_info_callback: Callable[[ModInfoData], None] = self.mod_info_frame.populate_data
         self.reset_mod_info_callback: Callable[[], None] = self.mod_info_frame.reset
 
         # Widgets
@@ -269,17 +281,17 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         showinfo("Modpack assets refreshed", "Modpack assets refreshed successfully!")
 
-    def populate_data(self, data: dict[str, Any]) -> None:
+    def populate_data(self, data: GithubPanelData) -> None:
         """
         Method called by parent class to populate data in this class.
 
         :param data: the data to pass to this class
         :return: None
         """
-        self.listbox.set_values(data["github_mod_list"])
+        self.listbox.set_values(data.github_mod_list)
 
-        self.modpack_version.set_values(data["modpack_version_frame"]["combobox"])
-        self.modpack_version.set(data["modpack_version_frame"]["stringvar"])
+        self.modpack_version.set_values(data.modpack_versions)
+        self.modpack_version.set(data.current_modpack_version)
 
     async def on_listbox_click(self, _: Optional[Any] = None) -> None:
         """
@@ -307,14 +319,14 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         side_default: Side = mod_info.side
 
-        data = {
-            "name": name,
-            "versions": [version.version_tag for version in mod_versions],
-            "current_version": current_version,
-            "license": mod_license,
-            "side": side,
-            "side_default": side_default,
-        }
+        data = ModInfoData(
+            name=name,
+            versions=[version.version_tag for version in mod_versions],
+            current_version=current_version,
+            license=mod_license,
+            side=side,
+            side_default=side_default,
+        )
 
         self.mod_info_callback(data)
 

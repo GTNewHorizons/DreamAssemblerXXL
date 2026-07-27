@@ -13,7 +13,7 @@ from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
 from daxxl.gui.external.external_panel import ExternalPanel, ExternalPanelCallback
-from daxxl.gui.github.github_panel import GithubPanel, GithubPanelCallback
+from daxxl.gui.github.github_panel import GithubPanel, GithubPanelCallback, GithubPanelData
 from daxxl.gui.lib.decorators import with_error_dialog
 from daxxl.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from daxxl.models.gtnh_release import GTNHRelease
@@ -392,7 +392,7 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         panel = self.exclusion_frame_client if side == Side.CLIENT else self.exclusion_frame_server
-        panel.populate_data({"exclusions": await self.controller.get_modpack_exclusions(side)})
+        panel.populate_data(await self.controller.get_modpack_exclusions(side))
 
     def _notify_errored_mods(
         self,
@@ -583,27 +583,19 @@ class Window(ThemedTk, Tk):
         if len(releases) > 0:
             await self.load_gtnh_version(releases[-1], init=True)
 
-        data_github_mods: dict[str, Any] = {
-            "github_mod_list": await self.controller.get_repos(),
-            "modpack_version_frame": {
-                "combobox": await self.controller.get_modpack_versions(),
-                "stringvar": self.controller.gtnh_config,
-            },
-        }
+        data_github_mods: GithubPanelData = GithubPanelData(
+            github_mod_list=await self.controller.get_repos(),
+            modpack_versions=await self.controller.get_modpack_versions(),
+            current_modpack_version=self.controller.gtnh_config,
+        )
 
         self.github_panel.populate_data(data_github_mods)
 
-        data_external_mods: dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
-
-        self.external_mod_frame.populate_data(data_external_mods)
+        self.external_mod_frame.populate_data(await self.controller.get_external_modlist())
 
         self.modpack_list_frame.populate_data(await self.controller.get_releases())
-        self.exclusion_frame_server.populate_data(
-            {"exclusions": await self.controller.get_modpack_exclusions(Side.SERVER)}
-        )
-        self.exclusion_frame_client.populate_data(
-            {"exclusions": await self.controller.get_modpack_exclusions(Side.CLIENT)}
-        )
+        self.exclusion_frame_server.populate_data(await self.controller.get_modpack_exclusions(Side.SERVER))
+        self.exclusion_frame_client.populate_data(await self.controller.get_modpack_exclusions(Side.CLIENT))
 
     def run(self) -> None:
         """
@@ -619,9 +611,7 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        data_external_mods: dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
-
-        self.external_mod_frame.populate_data(data_external_mods)
+        self.external_mod_frame.populate_data(await self.controller.get_external_modlist())
 
     async def close_app(self) -> None:
         """

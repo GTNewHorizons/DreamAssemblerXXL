@@ -12,7 +12,7 @@ from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
-from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
+from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoData, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
@@ -94,7 +94,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             external_mods=True,
             mod_adder_callbacks=self.mod_adder_callbacks,
         )
-        self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
+        self.mod_info_callback: Callable[[ModInfoData], None] = self.mod_info_frame.populate_data
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -200,15 +200,14 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         self.mod_info_frame.show()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, external_mod_list: list[str]) -> None:
         """
         Method called by parent class to populate data in this class.
 
-        :param data: the data to pass to this class
+        :param external_mod_list: the names of the external mods known to the assets
         :return: None
         """
-        mod_list: list[str] = data["external_mod_list"]
-        self.listbox.set_values(sorted(mod_list))
+        self.listbox.set_values(sorted(external_mod_list))
 
     async def on_listbox_click(self, _: Any) -> None:
         """
@@ -232,17 +231,17 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
         _license: str = mod_info.license or "No license detected"
-        side: str = external_mods[name].side if name in external_mods else Side.NONE  # type: ignore
-        side_default: str = mod_info.side
+        side: Side | None = external_mods[name].side if name in external_mods else Side.NONE
+        side_default: Side = mod_info.side
 
-        data = {
-            "name": name,
-            "versions": [version.version_tag for version in mod_versions],
-            "current_version": current_version,
-            "license": _license,
-            "side": side,
-            "side_default": side_default,
-        }
+        data = ModInfoData(
+            name=name,
+            versions=[version.version_tag for version in mod_versions],
+            current_version=current_version,
+            license=_license,
+            side=side,
+            side_default=side_default,
+        )
         self.mod_info_callback(data)
 
     async def add_external_mod(self) -> None:

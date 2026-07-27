@@ -1,5 +1,6 @@
 import asyncio
 from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -14,6 +15,31 @@ from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
 
 USE_DEFAULT = "NOT SET"
+
+
+@dataclass
+class ModInfoData:
+    """
+    The mod details a panel hands to ModInfoWidget for display.
+
+    `side` is the side for the loaded release, which is None when the release doesn't pin one and the
+    mod's own default applies instead. `side_default` is that default, and is always set.
+    """
+
+    name: str
+    versions: list[str]
+    current_version: str
+    license: str
+    side: Side | None
+    side_default: Side
+
+    @property
+    def display_side(self) -> str:
+        """
+        The value to show in the "side this release" combobox, falling back to the USE_DEFAULT
+        placeholder when the release pins no side of its own.
+        """
+        return self.side.value if self.side else USE_DEFAULT
 
 
 class ModInfoCallback:
@@ -241,26 +267,26 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         for i, widget in enumerate(self.widgets):
             widget.grid(row=i, column=0)
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: ModInfoData) -> None:
         """
         Method called by parent class to populate data in this class.
 
         :param data: the data to pass to this class
         :return: None
         """
-        self.mod_name.set(data["name"])
-        self.current_mod_name = data["name"]
+        self.mod_name.set(data.name)
+        self.current_mod_name = data.name
 
-        self.version.set_values(data["versions"])
-        self.version.set(data["current_version"])
+        self.version.set_values(data.versions)
+        self.version.set(data.current_version)
 
-        self.license.set(data["license"])
+        self.license.set(data.license)
 
-        self.side.set_values([side.name for side in Side])
-        self.side.set(data["side"] or USE_DEFAULT)
+        self.side.set_values([side.value for side in Side])
+        self.side.set(data.display_side)
 
         self.side_default.set_values([side.value for side in Side])
-        self.side_default.set(data["side_default"])
+        self.side_default.set(data.side_default.value)
 
     def reset(self) -> None:
         """

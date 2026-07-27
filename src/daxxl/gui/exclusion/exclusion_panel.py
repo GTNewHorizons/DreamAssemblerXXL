@@ -169,11 +169,11 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.btn_add.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
         self.btn_del.grid(row=x + 2, column=y + 1, sticky=Position.HORIZONTAL)
 
-    def populate_data(self, data: dict[str, Any]) -> None:
+    def populate_data(self, exclusions: list[str]) -> None:
         """
         Method called by parent class to populate data in this class.
 
-        :param data: the data to pass to this class
+        :param exclusions: the file exclusions for this panel's side
         :return: None
         """
-        self.listbox.set_values(data["exclusions"])
+        self.listbox.set_values(exclusions)

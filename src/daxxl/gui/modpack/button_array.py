@@ -178,15 +178,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
 
         self.update_widget()
 
-    def populate_data(self, data: Any) -> None:
-        """
-        Method called by parent class to populate data in this class.
-
-        :param data: the data to pass to this class
-        :return: None
-        """
-        pass
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.

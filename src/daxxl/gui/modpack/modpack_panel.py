@@ -6,6 +6,7 @@ from typing import Any, Callable, Optional
 from daxxl.defs import DevRelease, Position
 from daxxl.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
 from daxxl.gui.modpack.release_list import ReleaseList, ReleaseListCallback
+from daxxl.models.gtnh_release import GTNHRelease
 
 
 class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
@@ -182,7 +183,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         self.modpack_list.show()
         self.action_frame.show()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: list[GTNHRelease]) -> None:
         """
         Method called by parent class to populate data in this class.
 
