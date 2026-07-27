@@ -18,6 +18,7 @@ from daxxl.defs import (
     OTHER,
     ROOT_DIR,
     UNKNOWN,
+    UNKNOWN_VERSION,
     ModSource,
     Side,
 )
@@ -160,9 +161,9 @@ class AssetService:
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
             latest_release = await self.gh_client.get_latest_github_release(repo)
-            latest_version = latest_release.tag_name if latest_release else "<unknown>"
+            latest_version = latest_release.tag_name if latest_release else UNKNOWN_VERSION
         except Exception:
-            latest_version = "<unknown>"
+            latest_version = UNKNOWN_VERSION
 
         mod = GTNHModInfo(
             name=repo.name,
@@ -202,14 +203,14 @@ class AssetService:
 
             versionable.latest_version = next(
                 (version.version_tag for version in sorted(compare_versions, key=version_sort_key, reverse=True) if not version.version_tag.endswith("-pre")),
-                "<unknown>",
+                UNKNOWN_VERSION,
             )
 
             return True
 
         latest_release = await self.gh_client.get_latest_github_release(repo)
 
-        latest_version = latest_release.tag_name if latest_release else "<unknown>"
+        latest_version = latest_release.tag_name if latest_release else UNKNOWN_VERSION
 
         if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
