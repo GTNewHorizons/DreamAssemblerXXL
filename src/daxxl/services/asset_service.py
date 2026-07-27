@@ -123,6 +123,10 @@ class AssetService:
     async def regen_github_assets(self, callback: Callable[[float, str], None] | None = None) -> None:
         log.debug("refreshing all the github mods")
         repo_names = [mod.name for mod in self.assets.mods if mod.source == ModSource.github]
+        if not repo_names:
+            log.warn(f"{Fore.YELLOW}No github mods in the assets, nothing to refresh{Fore.RESET}")
+            return
+
         delta_progress: float = 100 / len(repo_names)
         for repo_name in repo_names:
             await self.regen_github_repo_asset(repo_name, callback=callback, delta_progress=delta_progress)
