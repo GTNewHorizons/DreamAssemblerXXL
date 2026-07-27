@@ -217,7 +217,7 @@ class CurseAssembler(GenericAssembler):
             task_progressbar.reset()
         with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as f:
             mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
-            progress = 100.0 / len(mod_list)
+            progress = 100.0 / len(mod_list) if mod_list else 100.0
             for mod, version in mod_list:
                 path: Path = get_asset_version_cache_location(mod, version)
                 if task_progressbar is not None:
@@ -240,7 +240,7 @@ class CurseAssembler(GenericAssembler):
             task_progressbar.reset()
         async with httpx.AsyncClient(http2=True) as client:
             mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
-            progress = 100.0 / len(mod_list)
+            progress = 100.0 / len(mod_list) if mod_list else 100.0
 
             for mod, version in mod_list:
                 url: str | None
