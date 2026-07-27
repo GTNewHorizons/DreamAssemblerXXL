@@ -174,9 +174,10 @@ class AssetService:
             private=repo.private,
         )
 
+        # update_versions_from_repo settles latest_version from the tags it discovers, the same way
+        # the regular update path does. Forcing github's "latest release" back over it here used to
+        # undo that, and pinned the mod to "<unknown>" whenever the latest release lookup failed.
         await self.update_versions_from_repo(mod, repo)
-
-        mod.latest_version = latest_version
 
         return mod
 
