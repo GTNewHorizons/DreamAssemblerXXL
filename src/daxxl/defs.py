@@ -51,6 +51,8 @@ LOCAL_EXCLUDES_FILE = ".inplace_mod_exclusions"
 INPLACE_PINNED_FILE = ".inplace_pinned_mods"
 UNKNOWN = "Unknown"
 OTHER = "Other"
+# stand-in latest_version for an asset whose releases could not be read from github
+UNKNOWN_VERSION = "<unknown>"
 MAVEN_BASE_URL = "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/"
 
 GREEN_CHECK = "\N{WHITE HEAVY CHECK MARK}"

@@ -3,7 +3,7 @@ from functools import cached_property
 
 from pydantic import Field
 
-from daxxl.defs import Side
+from daxxl.defs import UNKNOWN_VERSION, Side
 from daxxl.exceptions import NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.base import GTNHBaseModel
@@ -61,14 +61,21 @@ class AvailableAssets(GTNHBaseModel):
 
     def get_mod(self, mod_name: str) -> GTNHModInfo:
         """
-        Get a mod, preferring github mods over external mods
-        """
-        if self.has_mod(mod_name):
-            mod = self._modmap[mod_name]
-            if mod.latest_version and mod.latest_version != "<unknown>":
-                return mod
+        Get a mod by name.
 
-        raise NoModAssetFound(f"{mod_name} not found")
+        :param mod_name: the name of the mod
+        :raises NoModAssetFound: if the mod isn't in the assets, or is there but has no usable
+            latest version. The message says which, as the two need very different fixing.
+        :return: the mod info object
+        """
+        if not self.has_mod(mod_name):
+            raise NoModAssetFound(f"{mod_name} not found")
+
+        mod = self._modmap[mod_name]
+        if not mod.latest_version or mod.latest_version == UNKNOWN_VERSION:
+            raise NoModAssetFound(f"{mod_name} is in the assets but has no known latest version")
+
+        return mod
 
     def get_mod_and_version(self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side]) -> tuple[GTNHModInfo, GTNHVersion] | None:
         try:
