@@ -1,6 +1,6 @@
+from collections.abc import Callable
 from json import dump
 from pathlib import Path
-from typing import Callable, Optional
 from urllib.parse import quote as urlquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
@@ -91,9 +91,9 @@ class CurseAssembler(GenericAssembler):
         self,
         context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
     ):
         """
         Constructor of the CurseAssembler class.
@@ -179,7 +179,7 @@ class CurseAssembler(GenericAssembler):
         archive.write(source_file, arcname=archive_path)
 
     @property
-    def config_root(self) -> Optional[Path]:
+    def config_root(self) -> Path | None:
         return self.overrides_folder
 
     def get_list_of_mods_to_upload(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
@@ -225,7 +225,7 @@ class CurseAssembler(GenericAssembler):
         if task_progressbar is not None:
             task_progressbar.add_progress(1, "Done!")
 
-    async def generate_json_dep(self, task_progressbar: Optional[CustomProgressBar] = None) -> None:
+    async def generate_json_dep(self, task_progressbar: CustomProgressBar | None = None) -> None:
         """
         Generates the dependencies.json.
 
@@ -240,7 +240,7 @@ class CurseAssembler(GenericAssembler):
             progress = 100.0 / len(mod_list)
 
             for mod, version in mod_list:
-                url: Optional[str]
+                url: str | None
                 if mod.source == ModSource.github:
                     if not version.maven_url:
                         url = await resolve_github_url(client, mod, version)
@@ -285,7 +285,7 @@ class CurseAssembler(GenericAssembler):
             "manifestType": "minecraftModpack",
             "manifestVersion": 1,
             "name": "GT New Horizons",
-            "version": "{0}-1.7.10".format(self.release.version),
+            "version": f"{self.release.version}-1.7.10",
             "author": "DreamMasterXXL",
             "overrides": "overrides",
         }

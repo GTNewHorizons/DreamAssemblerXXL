@@ -1,4 +1,4 @@
-from typing import Awaitable, Callable, Optional
+from collections.abc import Awaitable, Callable
 
 from colorama import Fore
 
@@ -36,9 +36,9 @@ class UpdateService:
         exclude: set[str] | None = None,
         new_mods: set[str] | None = None,
         last_version: str | None = None,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        reset_progress_callback: Optional[Callable[[], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
+        progress_callback: Callable[[float, str], None] | None = None,
+        reset_progress_callback: Callable[[], None] | None = None,
+        global_progress_callback: Callable[[str], None] | None = None,
     ) -> tuple[GTNHRelease, list[str]]:
         """
         Updates a release
@@ -162,9 +162,9 @@ class UpdateService:
         self,
         release_type: DevRelease,
         update_available: bool = True,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        reset_progress_callback: Optional[Callable[[], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
+        progress_callback: Callable[[float, str], None] | None = None,
+        reset_progress_callback: Callable[[], None] | None = None,
+        global_progress_callback: Callable[[str], None] | None = None,
     ) -> tuple[GTNHRelease, list[str]]:
         """
         :return: a tuple of (the generated release, error messages for assets that failed to update)

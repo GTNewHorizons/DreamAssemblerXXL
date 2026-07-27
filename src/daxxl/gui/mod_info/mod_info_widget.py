@@ -1,10 +1,11 @@
 import asyncio
 from asyncio import Task
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Optional
+from typing import Any
 
 from daxxl.defs import Side
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
@@ -65,10 +66,10 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ModInfoCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         external_mods: bool = False,
-        mod_adder_callbacks: Optional[ModAdderCallback] = None,
+        mod_adder_callbacks: ModAdderCallback | None = None,
         **kwargs: Any,
     ) -> None:
         """

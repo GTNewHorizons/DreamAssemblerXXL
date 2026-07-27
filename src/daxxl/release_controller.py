@@ -1,5 +1,6 @@
-from datetime import datetime, timezone
-from typing import Any, Awaitable, Callable, Optional
+from collections.abc import Awaitable, Callable
+from datetime import UTC, datetime
+from typing import Any
 
 import httpx
 from colorama import Fore
@@ -72,8 +73,8 @@ class ReleaseController:
         self.global_reset_callback = global_reset_callback
         self.current_task_reset_callback = current_task_reset_callback
 
-        self._client: Optional[httpx.AsyncClient] = None
-        self._context: Optional[AppContext] = None
+        self._client: httpx.AsyncClient | None = None
+        self._context: AppContext | None = None
 
         self.github_mods: dict[
             str, ModVersionInfo
@@ -83,10 +84,10 @@ class ReleaseController:
             str, ModVersionInfo
         ] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
-        self.last_version: Optional[str] = None  # last version of the release
+        self.last_version: str | None = None  # last version of the release
 
         self.delta_progress: float = 0  # progression between 2 tasks (in %) for the global progress bar
-        self._assembler_controller: Optional[ReleaseAssemblerController] = None
+        self._assembler_controller: ReleaseAssemblerController | None = None
 
     async def _get_client(self) -> httpx.AsyncClient:
         """
@@ -358,7 +359,7 @@ class ReleaseController:
         if len(context.mod_pack.releases) > 0:
             # the releases field is actually a set of the release names
             for release_name in context.mod_pack.releases:
-                release: Optional[GTNHRelease] = context.release_service.get_release(release_name)
+                release: GTNHRelease | None = context.release_service.get_release(release_name)
 
                 # discarding all the None releases, as it means the json data couldn't be loaded
                 if release is not None:
@@ -369,7 +370,7 @@ class ReleaseController:
             def _sort_key(release_object: GTNHRelease) -> datetime:
                 last_updated = release_object.last_updated
                 if last_updated.tzinfo is None:
-                    return last_updated.replace(tzinfo=timezone.utc)
+                    return last_updated.replace(tzinfo=UTC)
                 return last_updated
 
             releases = sorted(releases, key=_sort_key)
@@ -384,7 +385,7 @@ class ReleaseController:
         :raises ReleaseNotFoundException: if the release name is unknown
         :return: the release object loaded in memory
         """
-        release_object: Optional[GTNHRelease]
+        release_object: GTNHRelease | None
 
         if isinstance(release, str):
             context: AppContext = await self.get_context()
@@ -421,7 +422,7 @@ class ReleaseController:
         valid_side: set[Side] = {Side.NONE}
         github_mods_to_delete: list[str] = []
         external_mods_to_delete: list[str] = []
-        mod_data: Optional[tuple[GTNHModInfo, GTNHVersion]]
+        mod_data: tuple[GTNHModInfo, GTNHVersion] | None
 
         for mod_name, version in github_mods.items():
             mod_data = context.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)

@@ -1,8 +1,8 @@
 import os
 import re
+from collections.abc import Callable
 from enum import Enum
 from pathlib import Path
-from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
@@ -51,10 +51,10 @@ class TechnicAssembler(GenericAssembler):
         self,
         context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
-        current_task_reset_callback: Optional[Callable[[], None]] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
+        current_task_reset_callback: Callable[[], None] | None = None,
     ):
         """
         Constructor of the TechnicAssembler class.
@@ -226,7 +226,7 @@ class TechnicAssembler(GenericAssembler):
     ) -> None:
 
         modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
+        config_version: GTNHVersion | None
         modpack_config, config_version = config
 
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
@@ -272,7 +272,7 @@ class TechnicAssembler(GenericAssembler):
         self,
         side: Side,
         verbose: bool = False,
-        global_step_callback: Optional[Callable[[str], None]] = None,
+        global_step_callback: Callable[[str], None] | None = None,
     ) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")

@@ -1,5 +1,5 @@
+from collections.abc import Awaitable, Callable
 from pathlib import Path
-from typing import Awaitable, Callable, Optional
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.platforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
@@ -26,9 +26,9 @@ class ReleaseAssemblerController:
         self,
         context: AppContext,
         release: GTNHRelease,
-        task_callback: Optional[Callable[[float, str], None]] = None,
-        global_callback: Optional[Callable[[float, str], None]] = None,
-        current_task_reset_callback: Optional[Callable[[], None]] = None,
+        task_callback: Callable[[float, str], None] | None = None,
+        global_callback: Callable[[float, str], None] | None = None,
+        current_task_reset_callback: Callable[[], None] | None = None,
     ) -> None:
         """
         Constructor of the ReleaseAssemblerClass.
@@ -41,7 +41,7 @@ class ReleaseAssemblerController:
         self.context: AppContext = context
         self.release: GTNHRelease = release
         release.validate_release(context.assets)
-        self.callback: Optional[Callable[[float, str], None]] = global_callback
+        self.callback: Callable[[float, str], None] | None = global_callback
         self.current_task_reset_callback = current_task_reset_callback
 
         changelog_path: Path = self.generate_changelog()
@@ -157,7 +157,7 @@ class ReleaseAssemblerController:
         self,
         side: Side,
         verbose: bool = False,
-        global_step_callback: Optional[Callable[[str], None]] = None,
+        global_step_callback: Callable[[str], None] | None = None,
     ) -> None:
         """
         Method called to assemble the technic archive.
@@ -178,8 +178,8 @@ class ReleaseAssemblerController:
         """
 
         current_version: str = self.release.version
-        previous_version: Optional[str] = self.release.last_version
-        previous_release: Optional[GTNHRelease] = (
+        previous_version: str | None = self.release.last_version
+        previous_release: GTNHRelease | None = (
             None if previous_version is None else self.context.release_service.get_release(previous_version)
         )
         changelog: dict[str, list[str]] = self.context.comparison.generate_changelog(self.release, previous_release)

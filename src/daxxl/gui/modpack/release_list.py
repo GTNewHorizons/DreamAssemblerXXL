@@ -1,9 +1,10 @@
 from asyncio import Task
+from collections.abc import Callable
 from dataclasses import dataclass
 from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.button import CustomButton
@@ -29,7 +30,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ReleaseListCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ) -> None:
@@ -162,7 +163,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             index: int = self.listbox.get()
             self.modpack.set(self.listbox.get_value_at_index(index))
 
-    def btn_load_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
+    def btn_load_command(self, callback: Callable[[str], Task[None]] | None = None) -> None:
         """
         Callback for the button self.btn_load.
 
@@ -178,7 +179,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
 
             self.set_loaded_version(release_name)
 
-    def btn_add_command(self, callback: Optional[Callable[[str, str], Task[None]]] = None) -> None:
+    def btn_add_command(self, callback: Callable[[str, str], Task[None]] | None = None) -> None:
         """
         Callback for the button self.btn_add.
 
@@ -188,7 +189,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         release_name: str = self.modpack.get()
         listbox_entries: list[str] = self.listbox.get_values()
         if release_name != "":
-            previous_release: Optional[str] = simpledialog.askstring(
+            previous_release: str | None = simpledialog.askstring(
                 title="Enter the previous modpack version", prompt="Please enter the previous modpack version:"
             )
             if previous_release is None:  # pressed cancel
@@ -210,7 +211,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
 
         self.set_loaded_version(release_name)
 
-    def btn_delete_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
+    def btn_delete_command(self, callback: Callable[[str], Task[None]] | None = None) -> None:
         """
         Callback for the button self.btn_del.
 

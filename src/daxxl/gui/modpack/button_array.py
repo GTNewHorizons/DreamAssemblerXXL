@@ -1,8 +1,9 @@
 from asyncio import Task
+from collections.abc import Callable
 from dataclasses import dataclass
 from tkinter import DISABLED, Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Optional
+from typing import Any
 
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -40,7 +41,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         callbacks: ButtonArrayCallback,
         update_experimental: Callable[[], None],
         update_daily: Callable[[], None],
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ):

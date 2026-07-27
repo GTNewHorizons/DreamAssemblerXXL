@@ -1,8 +1,8 @@
 import asyncio
 import os
 import shutil
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
@@ -34,10 +34,10 @@ class GenericAssembler:
         self,
         context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
-        current_task_reset_callback: Optional[Callable[[], None]] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
+        current_task_reset_callback: Callable[[], None] | None = None,
     ):
         """
         Constructor of the GenericAssembler class.
@@ -50,10 +50,10 @@ class GenericAssembler:
         """
         self.context: AppContext = context
         self.release: GTNHRelease = release
-        self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
-        self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
-        self.changelog_path: Optional[Path] = changelog_path
-        self.current_task_reset_callback: Optional[Callable[[], None]] = current_task_reset_callback
+        self.global_progress_callback: Callable[[float, str], None] | None = global_progress_callback
+        self.task_progress_callback: Callable[[float, str], None] | None = task_progress_callback
+        self.changelog_path: Path | None = changelog_path
+        self.current_task_reset_callback: Callable[[], None] | None = current_task_reset_callback
 
         mod_pack = self.context.mod_pack
         self.exclusions: dict[str, Exclusions] = {
@@ -65,7 +65,7 @@ class GenericAssembler:
         self.delta_progress: float = 0.0
 
     @property
-    def config_root(self) -> Optional[Path]:
+    def config_root(self) -> Path | None:
         """
         Folder inside the archive the config is written under, or None to write it at the archive root.
         """
@@ -124,7 +124,7 @@ class GenericAssembler:
         return mods
 
     def external_mods(
-        self, valid_sides: set[Side], release: Optional[GTNHRelease] = None
+        self, valid_sides: set[Side], release: GTNHRelease | None = None
     ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the external mod info objects as well as their targeted version.
@@ -147,7 +147,7 @@ class GenericAssembler:
         return external_mods
 
     def github_mods(
-        self, valid_sides: set[Side], release: Optional[GTNHRelease] = None
+        self, valid_sides: set[Side], release: GTNHRelease | None = None
     ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the github mod info objects as well as their targeted version.
@@ -177,7 +177,7 @@ class GenericAssembler:
         """
 
         config: GTNHConfig = self.context.assets.config
-        version: Optional[GTNHVersion] = config.get_version(self.release.config)
+        version: GTNHVersion | None = config.get_version(self.release.config)
         if version is None:
             raise InvalidConfigException
         return config, version
@@ -201,7 +201,7 @@ class GenericAssembler:
         raise NotImplementedError
 
     async def _add_config_files(
-        self, side: Side, config_file: Path, destination: ZipFile, root: Optional[Path] = None
+        self, side: Side, config_file: Path, destination: ZipFile, root: Path | None = None
     ) -> None:
         """
         Copy the contents of the config archive into `destination`, skipping the side's exclusions.
@@ -240,7 +240,7 @@ class GenericAssembler:
         :return: None
         """
         modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
+        config_version: GTNHVersion | None
         modpack_config, config_version = config
 
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
@@ -295,7 +295,7 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
-    def add_changelog(self, archive: ZipFile, arcname: Optional[Path] = None) -> None:
+    def add_changelog(self, archive: ZipFile, arcname: Path | None = None) -> None:
         """
         Method to add the changelog to the archive.
 
@@ -319,7 +319,7 @@ class GenericAssembler:
         :return: None
         """
 
-        with open(README_TEMPLATE, "r") as f:
+        with open(README_TEMPLATE) as f:
             data = "".join(f.readlines())
 
             version: str = self.release.version
@@ -363,7 +363,7 @@ class GenericAssembler:
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))
 
-    async def add_localisation_files(self, archive: ZipFile, root_path: Optional[str] = None) -> None:
+    async def add_localisation_files(self, archive: ZipFile, root_path: str | None = None) -> None:
         """
         Method adding the localisation files found in the cache.
 

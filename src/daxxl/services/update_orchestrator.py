@@ -1,5 +1,6 @@
 import asyncio
-from typing import Any, Callable, Coroutine, Optional
+from collections.abc import Callable, Coroutine
+from typing import Any
 
 from colorama import Fore
 
@@ -41,8 +42,8 @@ class AssetUpdateOrchestrator:
     async def update_all(
         self,
         mods_to_update: list[str] | None = None,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
+        progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[str], None] | None = None,
         release_version: str | None = None,
     ) -> list[str]:
         """
@@ -61,8 +62,8 @@ class AssetUpdateOrchestrator:
     async def update_available_assets(
         self,
         assets_to_update: list[str] | None = None,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
+        progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[str], None] | None = None,
         release_version: str | None = None,
     ) -> tuple[bool, list[str]]:
 

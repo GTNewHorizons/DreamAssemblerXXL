@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Optional
 
 from pydantic import Field
 
@@ -34,7 +33,7 @@ class GTNHVersion(GTNHBaseModel):
     version_tag: str
     changelog: str = Field(default="")
     prerelease: bool = Field(default=False)
-    tagged_at: Optional[datetime] = Field(default=None)
+    tagged_at: datetime | None = Field(default=None)
 
     # Primary Download Info
     filename: str | None = Field(default=None)

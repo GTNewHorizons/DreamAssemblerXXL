@@ -1,6 +1,7 @@
+from collections.abc import Callable
 from tkinter import END, HORIZONTAL, VERTICAL, Frame, Label, Listbox, Scrollbar
 from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel, Scrollbar as TtkScrollbar
-from typing import Any, Callable, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -12,7 +13,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
         master: Any,
         label_text: str,
         exportselection: bool = False,
-        on_selection: Optional[Callable[[Any], Any]] = None,
+        on_selection: Callable[[Any], Any] | None = None,
         height: int = 8,
         display_horizontal_scrollbar: bool = False,
         display_vertical_scrollbar: bool = True,
@@ -33,7 +34,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
 
         self.listbox: Listbox = Listbox(self, exportselection=exportselection, height=height)
 
-        self.callback_on_selection: Optional[Callable[[Any], None]] = on_selection
+        self.callback_on_selection: Callable[[Any], None] | None = on_selection
         if self.callback_on_selection is not None:
             self.listbox.bind("<<ListboxSelect>>", on_selection)
 

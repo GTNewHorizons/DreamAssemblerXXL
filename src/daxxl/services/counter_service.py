@@ -1,4 +1,4 @@
-from typing import Callable
+from collections.abc import Callable
 
 from daxxl.defs import DevRelease
 from daxxl.exceptions import InvalidDailyIDException, InvalidExperimentalIDException

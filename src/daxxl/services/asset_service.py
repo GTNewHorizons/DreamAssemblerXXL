@@ -1,6 +1,6 @@
 import json
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Optional
 
 from colorama import Fore, Style
 from gidgethub.httpx import GitHubAPI
@@ -119,7 +119,7 @@ class AssetService:
         log.info(f"Successfully deleted {name}!")
         return True
 
-    async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
+    async def regen_github_assets(self, callback: Callable[[float, str], None] | None = None) -> None:
         log.debug("refreshing all the github mods")
         repo_names = [mod.name for mod in self.assets.mods if mod.source == ModSource.github]
         delta_progress: float = 100 / len(repo_names)
@@ -129,8 +129,8 @@ class AssetService:
     async def regen_github_repo_asset(
         self,
         repo_name: str,
-        callback: Optional[Callable[[float, str], None]] = None,
-        delta_progress: Optional[float] = None,
+        callback: Callable[[float, str], None] | None = None,
+        delta_progress: float | None = None,
     ) -> None:
 
         if callback is not None and delta_progress is not None:

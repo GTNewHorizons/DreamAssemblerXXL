@@ -1,6 +1,7 @@
+from collections.abc import Callable
 from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Combobox, Frame as TtkFrame, Label as TtkLabel
-from typing import Any, Callable, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -13,9 +14,9 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
         label_text: str,
         values: list[str] = [],
         hide_label: bool = False,
-        on_selection: Optional[Callable[[Any], None]] = None,
-        position_sticky_label: Optional[Position] = Position.HORIZONTAL,
-        position_sticky_combobox: Optional[Position] = Position.HORIZONTAL,
+        on_selection: Callable[[Any], None] | None = None,
+        position_sticky_label: Position | None = Position.HORIZONTAL,
+        position_sticky_combobox: Position | None = Position.HORIZONTAL,
         themed: bool = False,
         *args: Any,
         **kwargs: Any,
@@ -33,7 +34,7 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
 
         self.combobox: Combobox = Combobox(self, textvariable=self.string_var, values=values)
 
-        self.callback_on_selection: Optional[Callable[[Any], None]] = on_selection
+        self.callback_on_selection: Callable[[Any], None] | None = on_selection
 
         self.hide_label: bool = hide_label
 

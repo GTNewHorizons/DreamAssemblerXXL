@@ -1,6 +1,7 @@
+from collections.abc import Callable
 from tkinter import Frame, IntVar, Label, Radiobutton
 from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel, Radiobutton as TtkRadiobutton
-from typing import Any, Callable
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget

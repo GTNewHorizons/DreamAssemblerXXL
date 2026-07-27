@@ -1,8 +1,9 @@
 from asyncio import Task
+from collections.abc import Callable
 from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.button import CustomButton
@@ -25,7 +26,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ExclusionPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ) -> None:

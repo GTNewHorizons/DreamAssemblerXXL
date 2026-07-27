@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from colorama import Fore
 from pydantic import Field, ValidationError
@@ -17,7 +17,7 @@ log = get_logger(__name__)
 class GTNHRelease(GTNHBaseModel):
     version: str = Field(default=DevRelease.EXPERIMENTAL.value)
     last_version: str | None = Field(default=None)
-    last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    last_updated: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     # ModName, Version
     config: str
@@ -65,7 +65,7 @@ class GTNHRelease(GTNHBaseModel):
 class __GTNHReleaseV1(GTNHBaseModel):
     version: str = Field(default=DevRelease.EXPERIMENTAL.value)
     last_version: str | None = Field(default=None)
-    last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    last_updated: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     # ModName, Version
     config: str

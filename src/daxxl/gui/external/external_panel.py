@@ -1,9 +1,10 @@
 import asyncio
+from collections.abc import Callable, Coroutine
 from dataclasses import dataclass
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Optional
+from typing import Any
 
 from daxxl.app_context import AppContext
 from daxxl.defs import Position, Side
@@ -36,7 +37,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ExternalPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ):
@@ -210,7 +211,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         mod_info: GTNHModInfo = context.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
-        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+        latest_version: GTNHVersion | None = mod_info.get_latest_version()
         if latest_version is None:
             raise InvalidModVersionException
         external_mods: dict[str, ModVersionInfo] = self.get_external_mods_callback()

@@ -1,5 +1,5 @@
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Optional
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
@@ -16,9 +16,9 @@ class ModrinthAssembler(GenericAssembler):
         self,
         context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
     ):
         """
         Constructor of the ModrinthAssembler class.

@@ -1,4 +1,5 @@
 import asyncio
+from collections.abc import Callable, Coroutine
 from dataclasses import dataclass
 from datetime import datetime
 from enum import Enum
@@ -6,7 +7,7 @@ from tkinter import LabelFrame, Toplevel
 from tkinter.constants import DISABLED, NORMAL
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Optional
+from typing import Any
 
 from daxxl.app_context import AppContext
 from daxxl.defs import ModSource, Side
@@ -40,8 +41,8 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         master: Toplevel,
         frame_name: str,
         callbacks: ModAdderCallback,
-        width: Optional[int] = None,
-        mod_name: Optional[str] = None,
+        width: int | None = None,
+        mod_name: str | None = None,
         themed: bool = False,
         edit_version_mode: bool = False,
         **kwargs: Any,
@@ -410,7 +411,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         if not self.add_mod and not self.edit_version_mode:
             self.mod_choice.grid_forget()
 
-    def populate_data(self, mod: Optional[GTNHModInfo], version: Optional[GTNHVersion] = None) -> None:
+    def populate_data(self, mod: GTNHModInfo | None, version: GTNHVersion | None = None) -> None:
         """
         Method called by parent class to populate data in this class.
 

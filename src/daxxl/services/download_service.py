@@ -1,7 +1,7 @@
 import asyncio
 import os
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Optional
 
 import retry
 from colorama import Fore
@@ -30,8 +30,8 @@ class DownloadService:
         asset: Versionable,
         asset_version: str | None = None,
         is_github: bool = False,
-        download_callback: Optional[Callable[[str], None]] = None,
-        error_callback: Optional[Callable[[str], None]] = None,
+        download_callback: Callable[[str], None] | None = None,
+        error_callback: Callable[[str], None] | None = None,
         force_redownload: bool = False,
     ) -> Path | None:
         if asset_version is None:
@@ -106,8 +106,8 @@ class DownloadService:
     async def download_release(
         self,
         release: GTNHRelease,
-        download_callback: Optional[Callable[[float, str], None]] = None,
-        error_callback: Optional[Callable[[str], None]] = None,
+        download_callback: Callable[[float, str], None] | None = None,
+        error_callback: Callable[[str], None] | None = None,
         ignore_translations: bool = False,
     ) -> list[Path]:
         """

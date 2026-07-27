@@ -41,12 +41,15 @@ requires = ["uv_build>=0.10.3,<0.11.0"]
 build-backend = "uv_build"
 
 [tool.ruff]
-target-version = "py310"
-line-length = 120
+target-version = "py311"
+line-length = 160
 src = ["src"]
 
 [tool.ruff.lint]
-select = ["E", "W", "F", "I"]
+select = ["E", "W", "F", "I", "UP"]
+# UP042 rewrites `(str, Enum)` to `StrEnum`, which changes how members render in f-strings
+# and how pydantic serialises them. Worth doing, but as a deliberate migration of its own.
+ignore = ["UP042"]
 
 [tool.ruff.lint.pycodestyle]
 max-line-length = 160

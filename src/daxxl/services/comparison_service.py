@@ -1,5 +1,4 @@
 from collections import defaultdict
-from typing import Optional
 
 from daxxl.assembler.changelog import ChangelogCollection, ChangelogEntry
 from daxxl.gtnh_logger import get_logger
@@ -102,7 +101,7 @@ class ComparisonService:
         """
         removed_mods = set()
         new_mods = set()
-        version_changes: dict[str, tuple[Optional[ModVersionInfo], ModVersionInfo]] = {}
+        version_changes: dict[str, tuple[ModVersionInfo | None, ModVersionInfo]] = {}
 
         changelog: dict[str, list[str]] = defaultdict(list)
 

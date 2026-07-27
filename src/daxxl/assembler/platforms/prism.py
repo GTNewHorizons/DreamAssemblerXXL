@@ -1,6 +1,6 @@
 import shutil
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from daxxl.app_context import AppContext
@@ -29,9 +29,9 @@ class PrismAssembler(GenericAssembler):
         self,
         context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
     ):
         """
         Constructor of the PrismAssembler class.
@@ -80,7 +80,7 @@ class PrismAssembler(GenericAssembler):
             await self.yield_to_event_loop()
 
     @property
-    def config_root(self) -> Optional[Path]:
+    def config_root(self) -> Path | None:
         return self.prism_modpack_files
 
     def get_archive_path(self, side: Side) -> Path:

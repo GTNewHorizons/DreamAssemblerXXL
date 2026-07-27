@@ -1,9 +1,10 @@
 import asyncio
 import sys
+from collections.abc import Callable
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
-from typing import Any, Callable
+from typing import Any
 
 from async_tkinter_loop import async_mainloop
 from ttkthemes import ThemedTk

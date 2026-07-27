@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Optional
+from typing import Any
 
 from daxxl.defs import DevRelease, Position
 from daxxl.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
@@ -24,7 +24,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ModpackPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ) -> None:

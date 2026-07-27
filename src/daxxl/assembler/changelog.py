@@ -1,17 +1,16 @@
 import re
-from typing import Optional
 
 from daxxl.defs import DevRelease, Side
 
 
 class ChangelogEntry:
-    def __init__(self, version: str, changelog_str: Optional[str], prerelease: bool = False) -> None:
+    def __init__(self, version: str, changelog_str: str | None, prerelease: bool = False) -> None:
         self.version = version
         self.no_changelog: bool = changelog_str is None
         self.prerelease = prerelease
         self.changelog_entries = []
         self.new_contributors = []
-        self.full_comparison_url: Optional[str] = None
+        self.full_comparison_url: str | None = None
 
         if changelog_str is not None:
             lines = changelog_str.split("\n")
@@ -46,14 +45,14 @@ class ChangelogCollection:
         pack_release_version: str,
         mod_name: str,
         changelog_entries: list[ChangelogEntry],
-        oldest_side: Optional[Side],
+        oldest_side: Side | None,
         newest_side: Side,
         new_mod: bool = False,
     ) -> None:
         self.pack_release_version: str = pack_release_version
         self.mod_name: str = mod_name
         self.new_mod: bool = new_mod
-        self.oldest_side: Optional[Side] = oldest_side
+        self.oldest_side: Side | None = oldest_side
         self.newest_side: Side = newest_side
         self.contributors: set[str] = set()
         self.changelog_entries: list[ChangelogEntry] = changelog_entries[::-1]
@@ -61,7 +60,7 @@ class ChangelogCollection:
         self.newest: ChangelogEntry = self.changelog_entries[0]
 
     @classmethod
-    def generate_full_comparison_url(cls, oldest: ChangelogEntry, newest: ChangelogEntry) -> Optional[str]:
+    def generate_full_comparison_url(cls, oldest: ChangelogEntry, newest: ChangelogEntry) -> str | None:
         if newest.full_comparison_url is None:
             return None
 
@@ -72,7 +71,7 @@ class ChangelogCollection:
         return f"{root_url}/compare/{oldest.version}...{newest.version}"
 
     @classmethod
-    def get_pretty_side_string(cls, side: Optional[Side]) -> str:
+    def get_pretty_side_string(cls, side: Side | None) -> str:
         if side == Side.CLIENT:
             return "client-side only"
         if side == Side.CLIENT_JAVA9:
@@ -157,7 +156,7 @@ class ChangelogCollection:
                 continue
 
             if not compressed:  # skipping version naming if compressed
-                version_changelog.append((f"## *{changelog_entry.version}*"))
+                version_changelog.append(f"## *{changelog_entry.version}*")
 
             # addition of the version changes
             if changelog_entry.no_changelog and not compressed:

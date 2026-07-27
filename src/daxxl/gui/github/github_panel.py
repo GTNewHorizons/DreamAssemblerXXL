@@ -1,9 +1,10 @@
 import asyncio
+from collections.abc import Callable, Coroutine
 from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Optional
+from typing import Any
 
 from daxxl.app_context import AppContext
 from daxxl.defs import Position, Side
@@ -53,7 +54,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: GithubPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ):
@@ -272,7 +273,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.modpack_version.set_values(data.modpack_versions)
         self.modpack_version.set(data.current_modpack_version)
 
-    async def on_listbox_click(self, _: Optional[Any] = None) -> None:
+    async def on_listbox_click(self, _: Any | None = None) -> None:
         """
         Callback used when the user clicks on the github mods' listbox.
 
@@ -287,7 +288,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         mod_info: GTNHModInfo = context.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
-        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+        latest_version: GTNHVersion | None = mod_info.get_latest_version()
         if latest_version is None:
             raise InvalidModVersionException
         github_mod = self.get_github_mods_callback().get(name)
@@ -309,7 +310,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         self.mod_info_callback(data)
 
-    async def add_repo(self, name_override: Optional[str] = None) -> None:
+    async def add_repo(self, name_override: str | None = None) -> None:
         """
         Method called when the button to add the github repository to assets is pressed.
 

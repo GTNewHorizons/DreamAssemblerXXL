@@ -1,6 +1,6 @@
 from tkinter import Entry, Frame, Label, StringVar
 from tkinter.ttk import Entry as TtkEntry, Frame as TtkFrame, Label as TtkLabel
-from typing import Any, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -12,8 +12,8 @@ class TextEntry(Frame, TtkFrame, CustomWidget):
         master: Any,
         label_text: str,
         hide_label: bool = False,
-        position_sticky_label: Optional[Position] = Position.HORIZONTAL,
-        position_sticky_entry: Optional[Position] = Position.HORIZONTAL,
+        position_sticky_label: Position | None = Position.HORIZONTAL,
+        position_sticky_entry: Position | None = Position.HORIZONTAL,
         themed: bool = False,
         *args: Any,
         **kwargs: Any,

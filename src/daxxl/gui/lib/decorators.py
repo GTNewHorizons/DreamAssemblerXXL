@@ -1,6 +1,7 @@
 import functools
+from collections.abc import Awaitable, Callable
 from tkinter.messagebox import showerror
-from typing import Any, Awaitable, Callable, TypeVar, cast
+from typing import Any, TypeVar, cast
 
 F = TypeVar("F", bound=Callable[..., Awaitable[Any]])
 DialogText = str | Callable[..., str]
