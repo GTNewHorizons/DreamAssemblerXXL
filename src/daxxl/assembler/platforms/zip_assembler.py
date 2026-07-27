@@ -68,7 +68,7 @@ class ZipAssembler(GenericAssembler):
 
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
-                    self.progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
+                    self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
             await self.yield_to_event_loop()
 
@@ -78,7 +78,7 @@ class ZipAssembler(GenericAssembler):
         for asset in assets:
             archive.write(asset, arcname=asset.relative_to(SERVER_ASSETS_DIR / server_brand.value))
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.progress, f"adding server asset {asset.name} to the archive")
+                self.task_progress_callback(self.delta_progress, f"adding server asset {asset.name} to the archive")
             await self.yield_to_event_loop()
 
         # server.properties
@@ -106,7 +106,7 @@ class ZipAssembler(GenericAssembler):
         if side.is_client():
             amount_of_files += self.get_amount_of_files_in_locales()
 
-        self.progress = 100 / amount_of_files
+        self.delta_progress = 100 / amount_of_files
         await GenericAssembler.assemble(self, side, verbose)
 
         if side.is_server():

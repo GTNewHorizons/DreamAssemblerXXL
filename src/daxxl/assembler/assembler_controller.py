@@ -67,14 +67,6 @@ class ReleaseAssemblerController:
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
 
-    @property
-    def progress(self) -> float:
-        return self.delta_progress
-
-    @progress.setter
-    def progress(self, value: float) -> None:
-        self.delta_progress = value
-
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the release for all the supported platforms.
@@ -115,7 +107,7 @@ class ReleaseAssemblerController:
                 self.current_task_reset_callback()
 
             if self.callback:
-                self.callback(self.progress, f"Assembling {side} {platform} archive")
+                self.callback(self.delta_progress, f"Assembling {side} {platform} archive")
             await assembling(side, verbose)
 
         # TODO: Remove when the maven urls are calculated on add, instead of in curse

@@ -65,14 +65,6 @@ class GenericAssembler:
         self.delta_progress: float = 0.0
 
     @property
-    def progress(self) -> float:
-        return self.delta_progress
-
-    @progress.setter
-    def progress(self, delta_progress: float) -> None:
-        self.delta_progress = delta_progress
-
-    @property
     def config_root(self) -> Optional[Path]:
         """
         Folder inside the archive the config is written under, or None to write it at the archive root.
@@ -232,7 +224,7 @@ class GenericAssembler:
                     with destination.open(arcname, "w") as target:
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.progress, f"adding {item} to the archive")
+                            self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
 
     async def add_config(
@@ -313,7 +305,7 @@ class GenericAssembler:
 
         if self.changelog_path is not None:
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.progress, "adding changelog to the archive")
+                self.task_progress_callback(self.delta_progress, "adding changelog to the archive")
             if arcname is None:
                 archive.write(self.changelog_path, arcname=self.changelog_path.name)
             else:
@@ -399,7 +391,7 @@ class GenericAssembler:
                             shutil.copyfileobj(config_item, target)
                             if self.task_progress_callback is not None:
                                 self.task_progress_callback(
-                                    self.progress,
+                                    self.delta_progress,
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
                     await self.yield_to_event_loop()

@@ -213,7 +213,7 @@ class TechnicAssembler(GenericAssembler):
 
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
-                    self.progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
+                    self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
             await self.yield_to_event_loop()
 
@@ -277,7 +277,7 @@ class TechnicAssembler(GenericAssembler):
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
         log.info(f"packing technic launcher release for {self.release.version}")
-        self.progress = 100 / (
+        self.delta_progress = 100 / (
             len(self.get_mods(side))
             + self.get_amount_of_files_in_config(side)
             + self.get_amount_of_files_in_locales()
@@ -290,7 +290,7 @@ class TechnicAssembler(GenericAssembler):
             global_step_callback("Assembling partial Technic archive")
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
-        self.progress = 100 / (
+        self.delta_progress = 100 / (
             len(self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS))
             + self.get_amount_of_files_in_config(side)
             + self.get_amount_of_files_in_locales()

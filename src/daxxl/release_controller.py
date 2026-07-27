@@ -67,7 +67,7 @@ class ReleaseController:
         :param global_reset_callback: callback resetting the global progress bar
         :param current_task_reset_callback: callback resetting the current task progress bar
         """
-        self.progress_callback = progress_callback
+        self.delta_progress_callback = progress_callback
         self.global_callback = global_callback
         self.global_reset_callback = global_reset_callback
         self.current_task_reset_callback = current_task_reset_callback
@@ -271,14 +271,6 @@ class ReleaseController:
             raise SideAlreadySetException(f"{mod_name}'s side is already set on {side}")
 
         return context.asset_service.set_mod_side(mod_name, side)
-
-    @property
-    def progress(self) -> float:
-        return self.delta_progress
-
-    @progress.setter
-    def progress(self, delta_progress: float) -> None:
-        self.delta_progress = delta_progress
 
     async def add_exclusion(self, side: Side, exclusion: str) -> bool:
         """
@@ -532,7 +524,7 @@ class ReleaseController:
         context: AppContext = await self.get_context()
         global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
         update_errors: list[str] = await context.update_orchestrator.update_all(
-            progress_callback=self.progress_callback,
+            progress_callback=self.delta_progress_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
 
@@ -557,7 +549,7 @@ class ReleaseController:
         _, update_errors = await context.update_service.update_rolling_release(
             release_type,
             update_available=True,
-            progress_callback=self.progress_callback,
+            progress_callback=self.delta_progress_callback,
             reset_progress_callback=self.current_task_reset_callback,
             global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
         )
@@ -587,14 +579,14 @@ class ReleaseController:
         self.global_reset_callback()
         self.current_task_reset_callback()
 
-        self.global_callback(self.progress, "Downloading assets")
-        await context.downloader.download_release(release, download_callback=self.progress_callback)
+        self.global_callback(self.delta_progress, "Downloading assets")
+        await context.downloader.download_release(release, download_callback=self.delta_progress_callback)
         self.current_task_reset_callback()
 
         self._assembler_controller = ReleaseAssemblerController(
             context,
             release,
-            task_callback=self.progress_callback,
+            task_callback=self.delta_progress_callback,
             global_callback=self.global_callback,
             current_task_reset_callback=self.current_task_reset_callback,
         )
@@ -606,10 +598,10 @@ class ReleaseController:
 
         :return: None
         """
-        self.progress = 100 / 2
+        self.delta_progress = 100 / 2
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
         release_assembler.generate_changelog()
-        self.global_callback(self.progress, f"Generate changelog from {self.last_version} to {self.version}")
+        self.global_callback(self.delta_progress, f"Generate changelog from {self.last_version} to {self.version}")
 
     async def generate_intermediate_cf_files(self, task_progressbar: Any) -> None:
         """
@@ -618,11 +610,11 @@ class ReleaseController:
         :param task_progressbar: progress bar object forwarded to the curse assembler
         :return: None
         """
-        self.progress = 100 / 3
+        self.delta_progress = 100 / 3
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
-        self.global_callback(self.progress, "Generating the dependencies.json")
+        self.global_callback(self.delta_progress, "Generating the dependencies.json")
         await release_assembler.curse_assembler.generate_json_dep(task_progressbar)
-        self.global_callback(self.progress, "Generating the archive containing the mods to upload")
+        self.global_callback(self.delta_progress, "Generating the archive containing the mods to upload")
         await release_assembler.curse_assembler.generate_mods_to_upload(task_progressbar)
 
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
@@ -632,16 +624,16 @@ class ReleaseController:
         :return: None
         """
         phase_count: int = 3 if archive_type == Archive.TECHNIC else 2
-        self.progress = 100 / phase_count
+        self.delta_progress = 100 / phase_count
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
+        self.global_callback(self.delta_progress, f"Assembling {side.value} {archive_type.value} archive")
 
         if archive_type == Archive.TECHNIC:
             await release_assembler.assemble_technic(
                 side=side,
                 verbose=True,
-                global_step_callback=lambda msg: self.global_callback(self.progress, msg),
+                global_step_callback=lambda msg: self.global_callback(self.delta_progress, msg),
             )
         else:
             assembler_dict: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
@@ -659,10 +651,10 @@ class ReleaseController:
         :param archives: the archives to build
         :return: None
         """
-        self.progress = 100 / (len(archives) + 1)  # +1 for the download done by pre_assembling
+        self.delta_progress = 100 / (len(archives) + 1)  # +1 for the download done by pre_assembling
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        release_assembler.progress = self.progress
+        release_assembler.delta_progress = self.delta_progress
 
         assemblers: dict[Archive, Callable[..., Awaitable[None]]] = {
             Archive.ZIP: release_assembler.assemble_zip,
@@ -675,7 +667,7 @@ class ReleaseController:
         for side, archive_type in archives:
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
-            self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
+            self.global_callback(self.delta_progress, f"Assembling {side.value} {archive_type.value} archive")
             await assemblers[archive_type](side=side, verbose=True)
 
     async def assemble_all(self) -> None:

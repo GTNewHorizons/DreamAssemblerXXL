@@ -75,7 +75,7 @@ class PrismAssembler(GenericAssembler):
                                     shutil.copyfileobj(prism_patch, target)
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
-                    self.progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
+                    self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
             await self.yield_to_event_loop()
 
@@ -93,7 +93,7 @@ class PrismAssembler(GenericAssembler):
             raise ValueError(f"Only valid sides are {Side.CLIENT.value}, got {side.value}")
 
         # +1 for the metadata file
-        self.progress = 100 / (
+        self.delta_progress = 100 / (
             len(self.get_mods(side))
             + self.get_amount_of_files_in_config(side)
             + self.get_amount_of_files_in_locales()
@@ -120,7 +120,7 @@ class PrismAssembler(GenericAssembler):
 
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.progress, "adding archive's metadata to the archive")
+                self.task_progress_callback(self.delta_progress, "adding archive's metadata to the archive")
             if not side.is_java9():
                 archive.writestr(str(self.prism_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
             archive.writestr(

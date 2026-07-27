@@ -129,10 +129,9 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        delta_progress: float = 100 / (
+        self.delta_progress = 100 / (
             2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1
         )
-        self.progress = delta_progress
 
         archive_name: Path = self.get_archive_path(side)
 
@@ -200,7 +199,7 @@ class CurseAssembler(GenericAssembler):
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
         if self.task_progress_callback is not None:
-            self.task_progress_callback(self.progress, f"adding {self.dependencies_json} to the archive")
+            self.task_progress_callback(self.delta_progress, f"adding {self.dependencies_json} to the archive")
 
     async def generate_mods_to_upload(self, task_progressbar: CustomProgressBar) -> None:
         """
@@ -314,6 +313,6 @@ class CurseAssembler(GenericAssembler):
         archive.write(self.tempfile, arcname=str(self.manifest_json))
 
         if self.task_progress_callback is not None:
-            self.task_progress_callback(self.progress, f"adding {self.manifest_json} to the archive")
+            self.task_progress_callback(self.delta_progress, f"adding {self.manifest_json} to the archive")
 
         self.tempfile.unlink()
