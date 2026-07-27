@@ -1,4 +1,5 @@
 from asyncio import Task
+from dataclasses import dataclass
 from tkinter import DISABLED, Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Optional
@@ -8,40 +9,23 @@ from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.progress_bar import CustomProgressBar
 
 
+@dataclass
 class ButtonArrayCallback:
-    def __init__(
-        self,
-        update_asset: Callable[[], Task[None]],
-        generate_experimental: Callable[[], Task[None]],
-        generate_daily: Callable[[], Task[None]],
-        client_prism: Callable[[], Task[None]],
-        client_prism_j9: Callable[[], Task[None]],
-        client_zip: Callable[[], Task[None]],
-        server_zip: Callable[[], Task[None]],
-        server_zip_j9: Callable[[], Task[None]],
-        client_curse: Callable[[], Task[None]],
-        client_modrinth: Callable[[], Task[None]],
-        client_technic: Callable[[], Task[None]],
-        update_all: Callable[[], Task[None]],
-        update_beta: Callable[[], Task[None]],
-        generate_changelog: Callable[[], Task[None]],
-        generate_intermediate_cf_files: Callable[[], Task[None]],
-    ) -> None:
-        self.update_assets: Callable[[], Task[None]] = update_asset
-        self.generate_experimental: Callable[[], Task[None]] = generate_experimental
-        self.generate_daily: Callable[[], Task[None]] = generate_daily
-        self.client_prism: Callable[[], Task[None]] = client_prism
-        self.client_prism_j9: Callable[[], Task[None]] = client_prism_j9
-        self.client_zip: Callable[[], Task[None]] = client_zip
-        self.server_zip: Callable[[], Task[None]] = server_zip
-        self.server_zip_j9: Callable[[], Task[None]] = server_zip_j9
-        self.client_curse: Callable[[], Task[None]] = client_curse
-        self.client_modrinth: Callable[[], Task[None]] = client_modrinth
-        self.client_technic: Callable[[], Task[None]] = client_technic
-        self.update_all: Callable[[], Task[None]] = update_all
-        self.beta: Callable[[], Task[None]] = update_beta
-        self.generate_changelog: Callable[[], Task[None]] = generate_changelog
-        self.generate_intermediate_cf_files: Callable[[], Task[None]] = generate_intermediate_cf_files
+    update_assets: Callable[[], Task[None]]
+    generate_experimental: Callable[[], Task[None]]
+    generate_daily: Callable[[], Task[None]]
+    client_prism: Callable[[], Task[None]]
+    client_prism_j9: Callable[[], Task[None]]
+    client_zip: Callable[[], Task[None]]
+    server_zip: Callable[[], Task[None]]
+    server_zip_j9: Callable[[], Task[None]]
+    client_curse: Callable[[], Task[None]]
+    client_modrinth: Callable[[], Task[None]]
+    client_technic: Callable[[], Task[None]]
+    update_all: Callable[[], Task[None]]
+    update_beta: Callable[[], Task[None]]
+    generate_changelog: Callable[[], Task[None]]
+    generate_intermediate_cf_files: Callable[[], Task[None]]
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):
@@ -107,7 +91,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self.frame_btn, text="Generate stable release", command=callbacks.update_all, themed=self.themed
         )
         self.btn_generate_beta: CustomButton = CustomButton(
-            self.frame_btn, text="Generate beta/RC release", command=callbacks.beta, themed=self.themed
+            self.frame_btn, text="Generate beta/RC release", command=callbacks.update_beta, themed=self.themed
         )
         self.btn_update_experimental: CustomButton = CustomButton(
             self.frame_btn, text="Update experimental profile", command=update_experimental, themed=self.themed

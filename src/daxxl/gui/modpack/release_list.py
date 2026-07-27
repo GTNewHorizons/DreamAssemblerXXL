@@ -1,4 +1,5 @@
 from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -13,17 +14,11 @@ from daxxl.gui.lib.text_entry import TextEntry
 from daxxl.models.gtnh_release import GTNHRelease
 
 
+@dataclass
 class ReleaseListCallback:
-    def __init__(
-        self,
-        load: Callable[[str], Task[None]],
-        delete: Callable[[str], Task[None]],
-        add: Callable[[str, str], Task[None]],
-    ):
-
-        self.load: Callable[[str], Task[None]] = load
-        self.delete: Callable[[str], Task[None]] = delete
-        self.add: Callable[[str, str], Task[None]] = add
+    load: Callable[[str], Task[None]]
+    delete: Callable[[str], Task[None]]
+    add: Callable[[str, str], Task[None]]
 
 
 class ReleaseList(LabelFrame, TtkLabelFrame):

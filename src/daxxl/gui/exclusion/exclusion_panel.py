@@ -1,4 +1,5 @@
 from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Optional
@@ -10,10 +11,10 @@ from daxxl.gui.lib.listbox import CustomListbox
 from daxxl.gui.lib.text_entry import TextEntry
 
 
+@dataclass
 class ExclusionPanelCallback:
-    def __init__(self, add: Callable[[str], Task[None]], delete: Callable[[str], Task[None]]):
-        self.add: Callable[[str], Task[None]] = add
-        self.delete: Callable[[str], Task[None]] = delete
+    add: Callable[[str], Task[None]]
+    delete: Callable[[str], Task[None]]
 
 
 class ExclusionPanel(LabelFrame, TtkLabelFrame):

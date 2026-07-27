@@ -1,5 +1,4 @@
 import asyncio
-from asyncio import Task
 from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
@@ -31,37 +30,17 @@ class GithubPanelData:
     current_modpack_version: str
 
 
+@dataclass
 class GithubPanelCallback(ModInfoCallback):
-    def __init__(
-        self,
-        set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, Side], Task[None]],
-        get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]],
-        get_github_mods_callback: Callable[[], dict[str, ModVersionInfo]],
-        update_current_task_progress_bar: Callable[[float, str], None],
-        update_global_progress_bar: Callable[[float, str], None],
-        reset_current_task_progress_bar: Callable[[], None],
-        reset_global_progress_bar: Callable[[], None],
-        add_mod_in_memory: Callable[[str, str], None],
-        delete_mod_in_memory: Callable[[str], None],
-        set_modpack_version: Callable[[str], None],
-    ):
-        ModInfoCallback.__init__(
-            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
-        )
-
-        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_context_callback
-        self.get_github_mods_callback: Callable[[], dict[str, ModVersionInfo]] = get_github_mods_callback
-        self.update_current_task_progress_bar: Callable[[float, str], None] = update_current_task_progress_bar
-
-        self.update_global_progress_bar: Callable[[float, str], None] = update_global_progress_bar
-        self.reset_current_task_progress_bar: Callable[[], None] = reset_current_task_progress_bar
-        self.reset_global_progress_bar: Callable[[], None] = reset_global_progress_bar
-
-        self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
-        self.delete_mod_in_memory: Callable[[str], None] = delete_mod_in_memory
-        self.set_modpack_version: Callable[[str], None] = set_modpack_version
+    get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]]
+    get_github_mods_callback: Callable[[], dict[str, ModVersionInfo]]
+    update_current_task_progress_bar: Callable[[float, str], None]
+    update_global_progress_bar: Callable[[float, str], None]
+    reset_current_task_progress_bar: Callable[[], None]
+    reset_global_progress_bar: Callable[[], None]
+    add_mod_in_memory: Callable[[str, str], None]
+    delete_mod_in_memory: Callable[[str], None]
+    set_modpack_version: Callable[[str], None]
 
 
 class GithubPanel(LabelFrame, TtkLabelFrame):

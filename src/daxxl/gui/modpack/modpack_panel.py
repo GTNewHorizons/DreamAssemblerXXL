@@ -1,7 +1,7 @@
-from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Optional
+from typing import Any, Optional
 
 from daxxl.defs import DevRelease, Position
 from daxxl.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
@@ -9,48 +9,11 @@ from daxxl.gui.modpack.release_list import ReleaseList, ReleaseListCallback
 from daxxl.models.gtnh_release import GTNHRelease
 
 
+@dataclass
 class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
-    def __init__(
-        self,
-        update_asset: Callable[[], Task[None]],
-        generate_experimental: Callable[[], Task[None]],
-        generate_daily: Callable[[], Task[None]],
-        client_prism: Callable[[], Task[None]],
-        client_prism_j9: Callable[[], Task[None]],
-        client_zip: Callable[[], Task[None]],
-        server_zip: Callable[[], Task[None]],
-        server_zip_j9: Callable[[], Task[None]],
-        client_curse: Callable[[], Task[None]],
-        client_modrinth: Callable[[], Task[None]],
-        client_technic: Callable[[], Task[None]],
-        update_all: Callable[[], Task[None]],
-        update_beta: Callable[[], Task[None]],
-        generate_changelog: Callable[[], Task[None]],
-        generate_cf_files: Callable[[], Task[None]],
-        load: Callable[[str], Task[None]],
-        delete: Callable[[str], Task[None]],
-        add: Callable[[str, str], Task[None]],
-    ):
-        ButtonArrayCallback.__init__(
-            self,
-            update_asset=update_asset,
-            generate_experimental=generate_experimental,
-            generate_daily=generate_daily,
-            client_prism=client_prism,
-            client_prism_j9=client_prism_j9,
-            client_zip=client_zip,
-            server_zip=server_zip,
-            server_zip_j9=server_zip_j9,
-            client_curse=client_curse,
-            client_modrinth=client_modrinth,
-            client_technic=client_technic,
-            update_all=update_all,
-            update_beta=update_beta,
-            generate_changelog=generate_changelog,
-            generate_intermediate_cf_files=generate_cf_files,
-        )
-
-        ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)
+    """
+    The union of the button-array and release-list callbacks, with no members of its own.
+    """
 
 
 class ModpackPanel(LabelFrame, TtkLabelFrame):

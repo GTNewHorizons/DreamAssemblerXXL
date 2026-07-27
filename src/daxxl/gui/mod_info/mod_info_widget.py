@@ -1,6 +1,6 @@
 import asyncio
 from asyncio import Task
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -42,17 +42,14 @@ class ModInfoData:
         return self.side.value if self.side else USE_DEFAULT
 
 
+@dataclass
 class ModInfoCallback:
-    def __init__(
-        self,
-        set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, Side], Task[None]],
-    ):
-        self.set_mod_version: Callable[[str, str], None] = set_mod_version
-        self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
-        self.set_mod_side_default: Callable[[str, Side], Task[None]] = set_mod_side_default
-        self.listbox: CustomListbox = None  # type: ignore
+    set_mod_version: Callable[[str, str], None]
+    set_mod_side: Callable[[str, Side], Task[None]]
+    set_mod_side_default: Callable[[str, Side], Task[None]]
+    # attached after construction via attach_listbox_object; init=False keeps it out of __init__ so
+    # subclasses can still declare required fields after it
+    listbox: CustomListbox = field(default=None, init=False)  # type: ignore
 
     def attach_listbox_object(self, listbox: CustomListbox) -> None:
         self.listbox = listbox

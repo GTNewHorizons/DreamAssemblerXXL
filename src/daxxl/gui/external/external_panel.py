@@ -1,5 +1,5 @@
 import asyncio
-from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -18,28 +18,14 @@ from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 
 
+@dataclass
 class ExternalPanelCallback(ModInfoCallback):
-    def __init__(
-        self,
-        set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, Side], Task[None]],
-        get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]],
-        get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]],
-        toggle_freeze: Callable[[], None],
-        add_mod_in_memory: Callable[[str, str], None],
-        delete_mod_in_memory: Callable[[str], None],
-        refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
-    ):
-        ModInfoCallback.__init__(
-            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
-        )
-        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_context_callback
-        self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = get_external_mods_callback
-        self.toggle_freeze: Callable[[], None] = toggle_freeze
-        self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
-        self.delete_mod_in_memory: Callable[[str], None] = delete_mod_in_memory
-        self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = refresh_external_modlist
+    get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]]
+    get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]]
+    toggle_freeze: Callable[[], None]
+    add_mod_in_memory: Callable[[str, str], None]
+    delete_mod_in_memory: Callable[[str], None]
+    refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]]
 
 
 class ExternalPanel(LabelFrame, TtkLabelFrame):

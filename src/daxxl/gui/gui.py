@@ -86,7 +86,7 @@ class Window(ThemedTk, Tk):
 
         # frame for the modpack handling
         modpack_panel_callbacks: ModpackPanelCallback = ModpackPanelCallback(
-            update_asset=lambda: asyncio.ensure_future(self.update_assets()),
+            update_assets=lambda: asyncio.ensure_future(self.update_assets()),
             generate_experimental=lambda: asyncio.ensure_future(self.update_experimental()),
             generate_daily=lambda: asyncio.ensure_future(self.update_daily()),
             client_prism=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.PRISM)),
@@ -100,7 +100,7 @@ class Window(ThemedTk, Tk):
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
-            generate_cf_files=lambda: asyncio.ensure_future(self.generate_intermediate_cf_files()),
+            generate_intermediate_cf_files=lambda: asyncio.ensure_future(self.generate_intermediate_cf_files()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(

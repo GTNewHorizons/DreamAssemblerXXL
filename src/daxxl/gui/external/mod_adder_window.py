@@ -1,4 +1,5 @@
 import asyncio
+from dataclasses import dataclass
 from datetime import datetime
 from enum import Enum
 from tkinter import LabelFrame, Toplevel
@@ -22,16 +23,11 @@ class Sources(int, Enum):
     OTHERS = 2
 
 
+@dataclass
 class ModAdderCallback:
-    def __init__(
-        self,
-        get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]],
-        add_mod_to_memory: Callable[[str, str], None],
-        delete_mod_from_memory: Callable[[str], None],
-    ):
-        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = get_context_callback
-        self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
-        self.delete_mod_from_memory: Callable[[str], None] = delete_mod_from_memory
+    get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]]
+    add_mod_to_memory: Callable[[str, str], None]
+    delete_mod_from_memory: Callable[[str], None]
 
 
 class ModAdderWindow(LabelFrame, TtkLabelFrame):
