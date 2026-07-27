@@ -1,4 +1,6 @@
 import bisect
+from collections.abc import Iterator
+from contextlib import contextmanager
 
 try:
     from packaging.version import LegacyVersion
@@ -77,6 +79,32 @@ class Versionable(BaseModel):
 
         left_idx = bisect.bisect_left(self.versions, LegacyVersion(left), key=version_sort_key)
         return self.versions[left_idx:right_idx]
+
+
+@contextmanager
+def full_version_refresh(asset: Versionable, latest_version_floor: str = "") -> Iterator[None]:
+    """
+    Clear `asset`'s known versions so they can be rebuilt from scratch, putting them back if the
+    rebuild fails.
+
+    Without the rollback a failed refresh leaves the asset with an empty version list, which the
+    next successful save then writes to the asset manifest, losing the versions for good.
+
+    :param asset: the asset whose versions are being rebuilt
+    :param latest_version_floor: what `latest_version` is reset to, low enough that every
+        rediscovered tag compares as newer
+    :return: None
+    """
+    previous_versions = asset.versions
+    previous_latest_version = asset.latest_version
+    asset.versions = []
+    asset.latest_version = latest_version_floor
+    try:
+        yield
+    except BaseException:
+        asset.versions = previous_versions
+        asset.latest_version = previous_latest_version
+        raise
 
 
 def version_sort_key(version: GTNHVersion) -> LegacyVersion:

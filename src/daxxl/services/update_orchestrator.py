@@ -5,11 +5,13 @@ from typing import Any
 from colorama import Fore
 
 from daxxl.defs import RED_CROSS, ModSource
+from daxxl.exceptions import RepoNotFoundException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
-from daxxl.models.versionable import Versionable
+from daxxl.models.versionable import Versionable, full_version_refresh
 from daxxl.services.asset_service import AssetService
 from daxxl.services.github_client import GitHubClient
+from daxxl.utils import AttributeDict
 
 log = get_logger(__name__)
 
@@ -59,6 +61,23 @@ class AssetUpdateOrchestrator:
             self.asset_service.save_assets()
         return errors
 
+    async def _refresh_translations(self, repo: AttributeDict | None) -> bool:
+        """
+        Rebuild the translation versions from scratch, as their release tags can't be version checked.
+
+        The existing versions are only discarded once the rebuild succeeds, so a failed refresh
+        can't end up saved to the asset manifest as an empty translation list.
+
+        :param repo: the translations repo, or None if it wasn't among the org's repos
+        :raises RepoNotFoundException: if `repo` is None
+        :return: True if the translations were updated
+        """
+        if repo is None:
+            raise RepoNotFoundException(f"no repo named {self.assets.translations.name} in the {self.gh_client.org} org")
+
+        with full_version_refresh(self.assets.translations):
+            return await self.asset_service.update_translations_from_repo(self.assets.translations, repo)
+
     async def update_available_assets(
         self,
         assets_to_update: list[str] | None = None,
@@ -98,12 +117,10 @@ class AssetUpdateOrchestrator:
             tasks.append(self._run_safely(asset.name, self.asset_service.update_versionable_from_repo(asset, repo, release_version), errors))
 
         # update translation manually because version check cannot work on this repo given the nature of the releases
-        self.assets.translations.versions = []
-        self.assets.translations.latest_version = ""
         tasks.append(
             self._run_safely(
                 self.assets.translations.name,
-                self.asset_service.update_translations_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name)),
+                self._refresh_translations(all_repos.get(self.assets.translations.name)),
                 errors,
             )
         )
