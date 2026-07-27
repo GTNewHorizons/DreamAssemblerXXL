@@ -3,9 +3,8 @@ import os
 from collections.abc import Callable
 from pathlib import Path
 
-import retry
 from colorama import Fore
-from httpx import AsyncClient, HTTPStatusError
+from httpx import AsyncClient, HTTPStatusError, TransportError
 
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.defs import GREEN_CHECK, RED_CROSS
@@ -18,13 +17,64 @@ from daxxl.utils import get_github_token
 
 log = get_logger(__name__)
 
+DOWNLOAD_ATTEMPTS = 3
+DOWNLOAD_RETRY_DELAY_SECONDS = 5
+
+
+def is_retryable(error: Exception) -> bool:
+    """
+    Whether a failed download attempt is worth repeating.
+
+    :param error: the error raised by the attempt
+    :return: True for connection level failures and server side errors, False for the 4xx
+        responses that would just fail again
+    """
+    if isinstance(error, HTTPStatusError):
+        return error.response.status_code == 429 or error.response.status_code >= 500
+    return True  # TransportError: timeouts, resets, DNS failures
+
 
 class DownloadService:
     def __init__(self, client: AsyncClient, assets: AvailableAssets) -> None:
         self.client = client
         self.assets = assets
 
-    @retry.retry(delay=5, tries=3)
+    async def _download_file(self, download_url: str, destination: Path, headers: dict[str, str]) -> None:
+        """
+        Stream `download_url` into `destination`, retrying transient failures.
+
+        The body is written to a `.part` file that is only moved into place once it has been
+        fully received, so a failed attempt can never leave a truncated asset in the cache.
+
+        :param download_url: the url to fetch
+        :param destination: the cache path to write the asset to
+        :param headers: the headers to send with the request
+        :raises HTTPStatusError: on a non-retryable http error, or one that kept failing
+        :raises TransportError: if every attempt failed at the connection level
+        :return: None
+        """
+        temporary = destination.with_name(f"{destination.name}.part")
+        try:
+            for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
+                try:
+                    async with self.client.stream(url=download_url, headers=headers, method="GET", follow_redirects=True) as response:
+                        response.raise_for_status()
+                        with open(temporary, "wb") as f:
+                            async for chunk in response.aiter_bytes(chunk_size=8192):
+                                f.write(chunk)
+                    temporary.replace(destination)
+                    return
+                except (HTTPStatusError, TransportError) as error:
+                    if attempt == DOWNLOAD_ATTEMPTS or not is_retryable(error):
+                        raise
+                    log.warn(
+                        f"{Fore.YELLOW}Attempt {attempt}/{DOWNLOAD_ATTEMPTS} to download {destination.name} failed ({error}), "
+                        f"retrying in {DOWNLOAD_RETRY_DELAY_SECONDS}s{Fore.RESET}"
+                    )
+                    await asyncio.sleep(DOWNLOAD_RETRY_DELAY_SECONDS)
+        finally:
+            temporary.unlink(missing_ok=True)
+
     async def download_asset(
         self,
         asset: Versionable,
@@ -51,13 +101,18 @@ class DownloadService:
         private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""
 
         log.debug(
-            f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}"
+            f"Downloading {asset_type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}`"
+            f" from {version.browser_download_url}{private_repo}"
         )
 
         files_to_download = [(get_asset_version_cache_location(asset, version), version.download_url)]
         for extra_asset in version.extra_assets:
             if extra_asset.download_url is not None:
                 files_to_download.append((get_asset_version_cache_location(asset, version, extra_asset.filename), extra_asset.download_url))
+
+        headers = {"Accept": "application/octet-stream"}
+        if is_github:
+            headers |= {"Authorization": f"token {get_github_token()}"}
 
         for mod_filename, download_url in files_to_download:
             if os.path.exists(mod_filename) and not force_redownload:
@@ -66,30 +121,16 @@ class DownloadService:
                     download_callback(str(mod_filename.name))
                 continue
 
-            headers = {"Accept": "application/octet-stream"}
-            if is_github:
-                headers |= {"Authorization": f"token {get_github_token()}"}
-
-            temporary = mod_filename.with_name(f"{mod_filename.name}.part")
             try:
-                async with self.client.stream(url=download_url, headers=headers, method="GET", follow_redirects=True) as r:
-                    r.raise_for_status()
-                    with open(temporary, "wb") as f:
-                        async for chunk in r.aiter_bytes(chunk_size=8192):
-                            f.write(chunk)
-                temporary.replace(mod_filename)
-                log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
-            except HTTPStatusError as e:
-                log.error(
-                    f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
-                    f"{Fore.RED}` while downloading {Fore.CYAN}{mod_filename.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
-                )
+                await self._download_file(download_url, mod_filename, headers)
+            except (HTTPStatusError, TransportError) as error:
+                message = f"Failed to download `{asset_version}` of {asset_type} asset {mod_filename.name}: {error}"
+                log.error(f"{RED_CROSS} {Fore.RED}{message}{Fore.RESET}")
                 if error_callback:
-                    error_callback(f"The following HTTP error while downloading `{asset_version}` while downloading {mod_filename.name} ({type} asset): {e}")
+                    error_callback(message)
                 return None
-            finally:
-                temporary.unlink(missing_ok=True)
 
+            log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
             if download_callback:
                 download_callback(str(mod_filename.name))
 
