@@ -11,6 +11,7 @@ from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import CURSEFORGE_CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
+from daxxl.exceptions import MissingModFileException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.lib.progress_bar import CustomProgressBar
 from daxxl.models.gtnh_release import GTNHRelease
@@ -19,6 +20,9 @@ from daxxl.models.mod_info import GTNHModInfo
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
+
+# shipped in the curse overrides rather than pulled from curse, so it always has to be present
+CORE_MOD_NAME = "NewHorizonsCoreMod"
 
 
 def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
@@ -165,11 +169,16 @@ class CurseAssembler(GenericAssembler):
 
         :param side: client side
         :param archive: curse archive
+        :raises MissingModFileException: if the core mod isn't part of the release
         :return: None
         """
         archive.write(self.overrides, arcname=self.overrides_folder / "overrides.png")
         archive.write(self.overrideslash, arcname=self.overrides_folder / "overrideslash.png")
-        coremod, coremod_version = [(mod, version) for mod, version in self.get_mods(side) if mod.name == "NewHorizonsCoreMod"][0]
+        core_mod = next(((mod, version) for mod, version in self.get_mods(side) if mod.name == CORE_MOD_NAME), None)
+        if core_mod is None:
+            raise MissingModFileException(f"{CORE_MOD_NAME} has to be in the {side.value} side of release {self.release.version} to build the curse overrides")
+
+        coremod, coremod_version = core_mod
         source_file: Path = get_asset_version_cache_location(coremod, coremod_version)
         archive_path: Path = self.overrides_folder / "mods" / source_file.name
         archive.write(source_file, arcname=archive_path)
@@ -180,7 +189,7 @@ class CurseAssembler(GenericAssembler):
 
     def get_list_of_mods_to_upload(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         def should_upload(mod: GTNHModInfo, version: GTNHVersion) -> bool:
-            return not (mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version))
+            return not (mod.name == CORE_MOD_NAME or is_valid_curse_mod(mod, version))
 
         return [(mod, version) for mod, version in self.get_mods(side) if should_upload(mod, version)]
 
@@ -208,7 +217,7 @@ class CurseAssembler(GenericAssembler):
             task_progressbar.reset()
         with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as f:
             mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
-            progress = 100.0 / len(mod_list)
+            progress = 100.0 / len(mod_list) if mod_list else 100.0
             for mod, version in mod_list:
                 path: Path = get_asset_version_cache_location(mod, version)
                 if task_progressbar is not None:
@@ -231,7 +240,7 @@ class CurseAssembler(GenericAssembler):
             task_progressbar.reset()
         async with httpx.AsyncClient(http2=True) as client:
             mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
-            progress = 100.0 / len(mod_list)
+            progress = 100.0 / len(mod_list) if mod_list else 100.0
 
             for mod, version in mod_list:
                 url: str | None

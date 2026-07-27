@@ -3,6 +3,7 @@ import re
 from collections.abc import Callable
 from enum import Enum
 from pathlib import Path
+from tempfile import TemporaryDirectory
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
@@ -11,6 +12,7 @@ from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_TECHNIC_DIR, Side
+from daxxl.exceptions import ReleaseNotFoundException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
@@ -134,6 +136,14 @@ class TechnicAssembler(GenericAssembler):
             log.info("modlist created successfully!")
 
     def differential_update(self, side: Side, update_mode: DifferentialUpdateMode) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+        """
+        List the mods that changed between this release and the one before it.
+
+        :param side: the targeted side
+        :param update_mode: which side of the comparison to report
+        :raises ReleaseNotFoundException: if the release has no previous release to compare against
+        :return: a list of couples of the mod info object and its targeted version
+        """
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
@@ -143,7 +153,13 @@ class TechnicAssembler(GenericAssembler):
         else:
             update_source = self.context.comparison.get_removed_mods
 
-        last_release: GTNHRelease = self.context.release_service.get_release(self.release.last_version)  # type: ignore
+        last_version = self.release.last_version
+        last_release = self.context.release_service.get_release(last_version) if last_version is not None else None
+        if last_release is None:
+            raise ReleaseNotFoundException(
+                f"the partial technic archive for {self.release.version} is built against its previous release {last_version!r}, which could not be loaded"
+            )
+
         process_release: GTNHRelease = last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
 
         valid_sides: set[Side] = side.valid_mod_sides()
@@ -177,29 +193,27 @@ class TechnicAssembler(GenericAssembler):
 
     async def add_mods(self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False) -> None:
 
-        temp_zip_path: Path = RELEASE_TECHNIC_DIR / "temp.zip"
+        # technic wants every mod as its own nested zip, staged one at a time
+        with TemporaryDirectory() as staging_dir:
+            temp_zip_path: Path = Path(staging_dir) / "temp.zip"
 
-        for mod, version in mods:
-            source_file: Path = get_asset_version_cache_location(mod, version)
-            archive_path: Path = Path("mods") / source_file.name
+            for mod, version in mods:
+                source_file: Path = get_asset_version_cache_location(mod, version)
+                archive_path: Path = Path("mods") / source_file.name
 
-            # set up temp zip
-            with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
-                temp_zip.write(source_file, arcname=archive_path)
-                await normalize_archive_permissions(temp_zip)
+                # set up temp zip
+                with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
+                    temp_zip.write(source_file, arcname=archive_path)
+                    await normalize_archive_permissions(temp_zip)
 
-            archive.write(
-                temp_zip_path,
-                arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}-{technify(version.version_tag)}.zip"),
-            )
+                archive.write(
+                    temp_zip_path,
+                    arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}-{technify(version.version_tag)}.zip"),
+                )
 
-            if self.task_progress_callback is not None:
-                self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
-            await self.yield_to_event_loop()
-
-        # deleting temp zip
-        if temp_zip_path.exists():
-            temp_zip_path.unlink()
+                if self.task_progress_callback is not None:
+                    self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
+                await self.yield_to_event_loop()
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
 
@@ -209,27 +223,25 @@ class TechnicAssembler(GenericAssembler):
 
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
-        temp_zip_path: Path = Path("./temp.zip")
+        with TemporaryDirectory() as staging_dir:
+            temp_zip_path: Path = Path(staging_dir) / "temp.zip"
 
-        # technic wants the config as a single nested zip rather than as loose files in the archive
-        with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
-            await self._add_config_files(side, config_file, temp_zip)
+            # technic wants the config as a single nested zip rather than as loose files in the archive
+            with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
+                await self._add_config_files(side, config_file, temp_zip)
 
-            # adding the locales
-            await self.add_localisation_files(temp_zip)
+                # adding the locales
+                await self.add_localisation_files(temp_zip)
 
-            self.add_changelog(temp_zip)
+                self.add_changelog(temp_zip)
 
-            await normalize_archive_permissions(temp_zip)
+                await normalize_archive_permissions(temp_zip)
 
-        # writing the config zip in the technic archive
-        archive.write(
-            temp_zip_path,
-            arcname=(f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}-{technify(config_version.version_tag)}.zip"),
-        )
-
-        # deleting temp zip
-        temp_zip_path.unlink()
+            # writing the config zip in the technic archive
+            archive.write(
+                temp_zip_path,
+                arcname=(f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}-{technify(config_version.version_tag)}.zip"),
+            )
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"

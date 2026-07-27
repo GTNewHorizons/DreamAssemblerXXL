@@ -18,6 +18,7 @@ from daxxl.defs import (
     OTHER,
     ROOT_DIR,
     UNKNOWN,
+    UNKNOWN_VERSION,
     ModSource,
     Side,
 )
@@ -26,7 +27,7 @@ from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_version import version_from_release
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
+from daxxl.models.versionable import Versionable, full_version_refresh, version_is_newer, version_is_older, version_sort_key
 from daxxl.services.github_client import GitHubClient
 from daxxl.utils import AttributeDict, atomic_write_text
 
@@ -122,6 +123,10 @@ class AssetService:
     async def regen_github_assets(self, callback: Callable[[float, str], None] | None = None) -> None:
         log.debug("refreshing all the github mods")
         repo_names = [mod.name for mod in self.assets.mods if mod.source == ModSource.github]
+        if not repo_names:
+            log.warn(f"{Fore.YELLOW}No github mods in the assets, nothing to refresh{Fore.RESET}")
+            return
+
         delta_progress: float = 100 / len(repo_names)
         for repo_name in repo_names:
             await self.regen_github_repo_asset(repo_name, callback=callback, delta_progress=delta_progress)
@@ -148,23 +153,21 @@ class AssetService:
         self.save_assets()
 
     async def regen_config_assets(self) -> None:
-        self.assets.config.versions = []
-        self.assets.config.latest_version = "0.0.0"
-        await self.update_versionable_from_repo(self.assets.config, await self.gh_client.get_repo(self.assets.config.name))
+        with full_version_refresh(self.assets.config, latest_version_floor="0.0.0"):
+            await self.update_versionable_from_repo(self.assets.config, await self.gh_client.get_repo(self.assets.config.name))
         self.save_assets()
 
     async def regen_translation_assets(self) -> None:
-        self.assets.translations.versions = []
-        self.assets.translations.latest_version = ""
-        await self.update_translations_from_repo(self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name))
+        with full_version_refresh(self.assets.translations):
+            await self.update_translations_from_repo(self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name))
         self.save_assets()
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
             latest_release = await self.gh_client.get_latest_github_release(repo)
-            latest_version = latest_release.tag_name if latest_release else "<unknown>"
+            latest_version = latest_release.tag_name if latest_release else UNKNOWN_VERSION
         except Exception:
-            latest_version = "<unknown>"
+            latest_version = UNKNOWN_VERSION
 
         mod = GTNHModInfo(
             name=repo.name,
@@ -176,9 +179,10 @@ class AssetService:
             private=repo.private,
         )
 
+        # update_versions_from_repo settles latest_version from the tags it discovers, the same way
+        # the regular update path does. Forcing github's "latest release" back over it here used to
+        # undo that, and pinned the mod to "<unknown>" whenever the latest release lookup failed.
         await self.update_versions_from_repo(mod, repo)
-
-        mod.latest_version = latest_version
 
         return mod
 
@@ -203,14 +207,14 @@ class AssetService:
 
             versionable.latest_version = next(
                 (version.version_tag for version in sorted(compare_versions, key=version_sort_key, reverse=True) if not version.version_tag.endswith("-pre")),
-                "<unknown>",
+                UNKNOWN_VERSION,
             )
 
             return True
 
         latest_release = await self.gh_client.get_latest_github_release(repo)
 
-        latest_version = latest_release.tag_name if latest_release else "<unknown>"
+        latest_version = latest_release.tag_name if latest_release else UNKNOWN_VERSION
 
         if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
