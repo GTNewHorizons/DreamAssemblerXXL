@@ -17,6 +17,27 @@ from daxxl.models.mod_version_info import ModVersionInfo
 
 logger = get_logger(__name__)
 
+# archives built for a full release, in build order
+FULL_RELEASE_ARCHIVES: list[tuple[Side, Archive]] = [
+    (Side.CLIENT, Archive.ZIP),
+    (Side.CLIENT, Archive.PRISM),
+    (Side.CLIENT, Archive.TECHNIC),
+    (Side.CLIENT, Archive.CURSEFORGE),
+    (Side.CLIENT, Archive.MODRINTH),
+    (Side.CLIENT_JAVA9, Archive.PRISM),
+    (Side.SERVER_JAVA9, Archive.ZIP),
+    (Side.SERVER, Archive.ZIP),
+]
+
+# archives built for a beta/RC release, in build order
+BETA_RELEASE_ARCHIVES: list[tuple[Side, Archive]] = [
+    (Side.CLIENT, Archive.ZIP),
+    (Side.SERVER, Archive.ZIP),
+    (Side.SERVER_JAVA9, Archive.ZIP),
+    (Side.CLIENT, Archive.PRISM),
+    (Side.CLIENT_JAVA9, Archive.PRISM),
+]
+
 
 def _noop(*_: Any) -> None:
     pass
@@ -631,19 +652,19 @@ class ReleaseController:
             }
             await assembler_dict[archive_type](side, True)
 
-    async def assemble_all(self) -> None:
+    async def _assemble_archives(self, archives: list[tuple[Side, Archive]]) -> None:
         """
-        Assemble all the archives for a full update.
+        Assemble each of the given (side, archive type) pairs, in the order they are given.
 
+        :param archives: the archives to build
         :return: None
         """
-        delta: float = 100 / 9  # download + 5 client platforms + java9 prism + java9 server zip + server zip
-        self.progress = delta
+        self.progress = 100 / (len(archives) + 1)  # +1 for the download done by pre_assembling
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
-        release_assembler.progress = delta
+        release_assembler.progress = self.progress
 
-        assemblers = {
+        assemblers: dict[Archive, Callable[..., Awaitable[None]]] = {
             Archive.ZIP: release_assembler.assemble_zip,
             Archive.PRISM: release_assembler.assemble_prism,
             Archive.TECHNIC: release_assembler.assemble_technic,
@@ -651,26 +672,19 @@ class ReleaseController:
             Archive.MODRINTH: release_assembler.assemble_modrinth,
         }
 
-        for archive_type in (Archive.ZIP, Archive.PRISM, Archive.TECHNIC, Archive.CURSEFORGE, Archive.MODRINTH):
+        for side, archive_type in archives:
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
-            self.global_callback(delta, f"Assembling {Side.CLIENT} {archive_type.value} archive")
-            await assemblers[archive_type](side=Side.CLIENT, verbose=True)
+            self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
+            await assemblers[archive_type](side=side, verbose=True)
 
-        if release_assembler.current_task_reset_callback is not None:
-            release_assembler.current_task_reset_callback()
-        self.global_callback(delta, f"Assembling {Side.CLIENT_JAVA9} Prism archive")
-        await release_assembler.assemble_prism(side=Side.CLIENT_JAVA9, verbose=True)
+    async def assemble_all(self) -> None:
+        """
+        Assemble all the archives for a full update.
 
-        if release_assembler.current_task_reset_callback is not None:
-            release_assembler.current_task_reset_callback()
-        self.global_callback(delta, f"Assembling {Side.SERVER_JAVA9} Zip archive")
-        await release_assembler.assemble_zip(side=Side.SERVER_JAVA9, verbose=True)
-
-        if release_assembler.current_task_reset_callback is not None:
-            release_assembler.current_task_reset_callback()
-        self.global_callback(delta, f"Assembling {Side.SERVER} Zip archive")
-        await release_assembler.assemble_zip(side=Side.SERVER, verbose=True)
+        :return: None
+        """
+        await self._assemble_archives(FULL_RELEASE_ARCHIVES)
 
     async def assemble_beta(self) -> None:
         """
@@ -678,24 +692,4 @@ class ReleaseController:
 
         :return: None
         """
-        self.progress = 100 / (1 + 3 + 2)  # download + archives for client + archive for server
-        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
-
-        release_assembler.progress = self.progress
-
-        assemblers = {
-            Archive.ZIP: release_assembler.assemble_zip,
-            Archive.PRISM: release_assembler.assemble_prism,
-        }
-
-        for side, archive_type in [
-            (Side.CLIENT, Archive.ZIP),
-            (Side.SERVER, Archive.ZIP),
-            (Side.SERVER_JAVA9, Archive.ZIP),
-            (Side.CLIENT, Archive.PRISM),
-            (Side.CLIENT_JAVA9, Archive.PRISM),
-        ]:
-            if release_assembler.current_task_reset_callback is not None:
-                release_assembler.current_task_reset_callback()
-            self.global_callback(self.progress, f"Assembling {side.value} {archive_type.value} archive")
-            await assemblers[archive_type](side=side, verbose=True)
+        await self._assemble_archives(BETA_RELEASE_ARCHIVES)
