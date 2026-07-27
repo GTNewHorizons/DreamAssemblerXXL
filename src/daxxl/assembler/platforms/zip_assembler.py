@@ -1,4 +1,3 @@
-import shutil
 from pathlib import Path
 from typing import Callable, Optional
 from zipfile import ZIP_DEFLATED, ZipFile
@@ -8,7 +7,6 @@ from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, SERVER_PROPERTIES_FILE, ServerBrand, Side
 from daxxl.gtnh_logger import get_logger
-from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
@@ -21,6 +19,9 @@ class ZipAssembler(GenericAssembler):
     """
     Zip assembler class. Allows for the assembling of zip archives.
     """
+
+    # little hack to remove the server.properties file from old releases, the assembler writes its own
+    excluded_config_files = frozenset({"server.properties"})
 
     def __init__(
         self,
@@ -82,29 +83,6 @@ class ZipAssembler(GenericAssembler):
 
         # server.properties
         archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(self.release.version))
-
-    async def add_config(
-        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
-        modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
-        modpack_config, config_version = config
-
-        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
-
-        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            for item in [x for x in config_zip.namelist() if x != "server.properties"]:  # little hack to remove the
-                # server.properties file from old releases
-                if item in self.exclusions[side]:
-                    continue
-                with config_zip.open(item) as config_item:
-                    with archive.open(item, "w") as target:
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.progress, f"adding {item} to the archive")
-                await self.yield_to_event_loop()
-
-        self.add_changelog(archive)
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side.archive_name()}.zip"

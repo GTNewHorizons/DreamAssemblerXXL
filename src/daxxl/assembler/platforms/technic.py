@@ -1,6 +1,5 @@
 import os
 import re
-import shutil
 from enum import Enum
 from pathlib import Path
 from typing import Callable, Optional
@@ -234,25 +233,9 @@ class TechnicAssembler(GenericAssembler):
 
         temp_zip_path: Path = Path("./temp.zip")
 
-        # set up a temp zip
-        with ZipFile(Path("./temp.zip"), "w", compression=ZIP_DEFLATED) as temp_zip:
-            # reading the config files
-            with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-                for item in config_zip.namelist():
-                    # excluding files
-                    if item in self.exclusions[side]:
-                        continue
-
-                    # reading the file
-                    with config_zip.open(item) as config_item:
-                        # creating a new file in the temp zip
-                        with temp_zip.open(item, "w") as target:
-                            # copying the file
-                            shutil.copyfileobj(config_item, target)
-
-                            if self.task_progress_callback is not None:
-                                self.task_progress_callback(self.progress, f"adding {item} to the archive")
-                    await self.yield_to_event_loop()
+        # technic wants the config as a single nested zip rather than as loose files in the archive
+        with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
+            await self._add_config_files(side, config_file, temp_zip)
 
             # adding the locales
             await self.add_localisation_files(temp_zip)

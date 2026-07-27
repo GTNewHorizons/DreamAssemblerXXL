@@ -1,4 +1,3 @@
-import shutil
 from json import dump
 from pathlib import Path
 from typing import Callable, Optional
@@ -14,7 +13,6 @@ from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import CURSEFORGE_CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.lib.progress_bar import CustomProgressBar
-from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
@@ -181,34 +179,9 @@ class CurseAssembler(GenericAssembler):
         archive_path: Path = self.overrides_folder / "mods" / source_file.name
         archive.write(source_file, arcname=archive_path)
 
-    async def add_config(
-        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
-        modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
-        modpack_config, config_version = config
-
-        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
-
-        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            for item in config_zip.namelist():
-                if item in self.exclusions[side]:
-                    continue
-                with config_zip.open(item) as config_item:
-                    with archive.open(
-                        str(self.overrides_folder) + "/" + item, "w"
-                    ) as target:  # can't use Path for the whole
-                        # path here as it strips leading / but those are used by
-                        # zipfile to know if it's a file or a folder. If used here,
-                        # Path objects will lead to the creation of empty files for
-                        # every folder.
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.progress, f"adding {item} to the archive")
-                await self.yield_to_event_loop()
-
-        assert self.changelog_path
-        self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
+    @property
+    def config_root(self) -> Optional[Path]:
+        return self.overrides_folder
 
     def get_list_of_mods_to_upload(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         def should_upload(mod: GTNHModInfo, version: GTNHVersion) -> bool:

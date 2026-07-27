@@ -14,7 +14,6 @@ from daxxl.defs import (
     RELEASE_PRISM_DIR,
     Side,
 )
-from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
@@ -80,33 +79,9 @@ class PrismAssembler(GenericAssembler):
                 )
             await self.yield_to_event_loop()
 
-    async def add_config(
-        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
-        modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
-        modpack_config, config_version = config
-
-        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
-
-        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            for item in config_zip.namelist():
-                if item in self.exclusions[side]:
-                    continue
-                with config_zip.open(item) as config_item:
-                    with archive.open(
-                        str(self.prism_modpack_files) + "/" + item, "w"
-                    ) as target:  # can't use Path for the whole
-                        # path here as it strips leading / but those are used by
-                        # zipfile to know if it's a file or a folder. If used here,
-                        # Path objects will lead to the creation of empty files for
-                        # every folder.
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.progress, f"adding {item} to the archive")
-                await self.yield_to_event_loop()
-        assert self.changelog_path
-        self.add_changelog(archive, arcname=self.prism_modpack_files / self.changelog_path.name)
+    @property
+    def config_root(self) -> Optional[Path]:
+        return self.prism_modpack_files
 
     def get_archive_path(self, side: Side) -> Path:
         suffix = "_Java_8" if not side.is_java9() else f"_{JAVA_9_ARCHIVE_SUFFIX}"

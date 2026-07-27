@@ -27,6 +27,9 @@ class GenericAssembler:
     Generic assembler class.
     """
 
+    # config entries dropped regardless of the side's exclusions
+    excluded_config_files: frozenset[str] = frozenset()
+
     def __init__(
         self,
         context: AppContext,
@@ -68,6 +71,13 @@ class GenericAssembler:
     @progress.setter
     def progress(self, delta_progress: float) -> None:
         self.delta_progress = delta_progress
+
+    @property
+    def config_root(self) -> Optional[Path]:
+        """
+        Folder inside the archive the config is written under, or None to write it at the archive root.
+        """
+        return None
 
     @staticmethod
     async def yield_to_event_loop() -> None:
@@ -198,6 +208,33 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
+    async def _add_config_files(
+        self, side: Side, config_file: Path, destination: ZipFile, root: Optional[Path] = None
+    ) -> None:
+        """
+        Copy the contents of the config archive into `destination`, skipping the side's exclusions.
+
+        :param side: target side, selects which exclusion list applies
+        :param config_file: the cached config archive to read from
+        :param destination: the archive being written into
+        :param root: folder inside `destination` to write under, or None to write at its root
+        :return: None
+        """
+        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
+            for item in config_zip.namelist():
+                if item in self.excluded_config_files or item in self.exclusions[side]:
+                    continue
+                # can't use Path for the whole path here as it strips leading / but those are used by
+                # zipfile to know if it's a file or a folder. If used here, Path objects will lead to
+                # the creation of empty files for every folder.
+                arcname = f"{root.as_posix()}/{item}" if root is not None else item
+                with config_zip.open(item) as config_item:
+                    with destination.open(arcname, "w") as target:
+                        shutil.copyfileobj(config_item, target)
+                        if self.task_progress_callback is not None:
+                            self.task_progress_callback(self.progress, f"adding {item} to the archive")
+                await self.yield_to_event_loop()
+
     async def add_config(
         self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
@@ -210,7 +247,20 @@ class GenericAssembler:
         :param verbose: flag to turn on verbose mode
         :return: None
         """
-        self.add_changelog(archive)
+        modpack_config: GTNHConfig
+        config_version: Optional[GTNHVersion]
+        modpack_config, config_version = config
+
+        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
+
+        await self._add_config_files(side, config_file, archive, self.config_root)
+
+        changelog_arcname = (
+            self.config_root / self.changelog_path.name
+            if self.config_root is not None and self.changelog_path is not None
+            else None
+        )
+        self.add_changelog(archive, arcname=changelog_arcname)
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
