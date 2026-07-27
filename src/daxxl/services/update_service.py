@@ -88,9 +88,13 @@ class UpdateService:
         github_mods: dict[str, ModVersionInfo] = {}
         external_mods: dict[str, ModVersionInfo] = {}
 
-        def _add_mod(mod: GTNHModInfo) -> None:
+        def _add_mod(mod: GTNHModInfo, version: str | None = None) -> None:
+            """
+            :param mod: the mod to put in the release
+            :param version: the version to pin, defaulting to the mod's latest version
+            """
             modmap = github_mods if mod.is_github() else external_mods
-            modmap[mod.name] = ModVersionInfo.create(mod=mod)
+            modmap[mod.name] = ModVersionInfo.create(version=version, mod=mod)
 
         for is_github, existing_mods in [(True, existing_release.github_mods), (False, existing_release.external_mods)]:
             for mod_name, previous_version in existing_mods.items():
@@ -133,7 +137,7 @@ class UpdateService:
                 if progress_callback is not None:
                     progress_callback(delta_progress, f"Updating {mod.name}")
 
-                _add_mod(mod)
+                _add_mod(mod, mod_version)
 
         for mod_name in new_mods or []:
             mod = self.assets.get_mod(mod_name)
