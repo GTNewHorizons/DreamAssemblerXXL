@@ -26,8 +26,15 @@ class ReleaseService:
         return None
 
     def delete_release(self, release_name: str) -> None:
-        release = self.get_release(release_name)
-        if release:
-            manifest_path = RELEASE_MANIFEST_DIR / (release.version + ".json")
-            manifest_path.unlink(missing_ok=True)  # file deletion
-            self.mod_pack.releases.remove(release_name)
+        """
+        Delete a release's manifest and drop it from the modpack.
+
+        The name is dropped whether or not the manifest could be read, so a corrupt or already
+        deleted manifest doesn't leave behind an entry that can never be removed.
+
+        :param release_name: name of the release to delete
+        :return: None
+        """
+        (RELEASE_MANIFEST_DIR / f"{release_name}.json").unlink(missing_ok=True)
+        self.mod_pack.releases.discard(release_name)
+        log.info(f"Deleted Release `{Fore.GREEN}{release_name}{Fore.RESET}`")
