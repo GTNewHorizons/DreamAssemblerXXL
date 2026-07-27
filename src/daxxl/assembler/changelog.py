@@ -1,42 +1,52 @@
 import re
+from itertools import takewhile
 
 from daxxl.defs import DevRelease, Side
 
 
 class ChangelogEntry:
     def __init__(self, version: str, changelog_str: str | None, prerelease: bool = False) -> None:
+        """
+        Parse the body of a single github release.
+
+        :param version: the release's version tag
+        :param changelog_str: the release body, None or empty if the release has none
+        :param prerelease: whether github flags the release as a prerelease
+        """
         self.version = version
         self.no_changelog: bool = changelog_str is None
         self.prerelease = prerelease
-        self.changelog_entries = []
-        self.new_contributors = []
+        self.changelog_entries: list[str] = []
+        self.new_contributors: list[str] = []
         self.full_comparison_url: str | None = None
 
-        if changelog_str is not None:
-            lines = changelog_str.split("\n")
-            index = 0
+        if not changelog_str:
+            return
 
-        if "What's Changed" in changelog_str:  # type: ignore
-            while "##" not in lines[index]:
-                index += 1
+        lines = changelog_str.split("\n")
 
-            index += 1  # skip the what's changed line
+        def bullets_under(heading: str) -> list[str]:
+            """
+            The run of bullet points directly below the first line containing `heading`.
 
-            while lines[index].startswith("*"):
-                self.changelog_entries.append(lines[index].strip())
-                index += 1
+            Each section is located by its own heading rather than by scanning on from the end of
+            the previous one, so a body with missing, reordered or duplicated sections parses
+            instead of running off the end of the lines.
 
-        if "New Contributors" in changelog_str:  # type: ignore
-            while "New Contributors" not in lines[index]:
-                index += 1
+            :param heading: text identifying the heading line
+            :return: the bullet lines below it, stripped
+            """
+            start = next((i for i, line in enumerate(lines) if heading in line), len(lines)) + 1
+            return [line.strip() for line in takewhile(lambda line: line.startswith("*"), lines[start:])]
 
-            while lines[index].startswith("*"):
-                self.new_contributors.append(lines[index].strip())
-                index += 1
-        if "Full Changelog" in changelog_str:  # type: ignore
-            while "Full Changelog" not in lines[index]:
-                index += 1
-            self.full_comparison_url = lines[index].strip()
+        if "What's Changed" in changelog_str:
+            self.changelog_entries = bullets_under("What's Changed")
+
+        if "New Contributors" in changelog_str:
+            self.new_contributors = bullets_under("New Contributors")
+
+        if "Full Changelog" in changelog_str:
+            self.full_comparison_url = next((line.strip() for line in lines if "Full Changelog" in line), None)
 
 
 class ChangelogCollection:
