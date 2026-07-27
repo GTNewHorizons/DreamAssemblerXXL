@@ -1,14 +1,12 @@
 from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel
-from typing import Any, Union
+from typing import Any
 
 from daxxl.gui.lib.custom_widget import CustomWidget
 
 
 class CustomLabel(Frame, TtkFrame, CustomWidget):
-    def __init__(
-        self, master: Any, label_text: str, value: str, themed: bool = False, *args: Any, **kwargs: Any
-    ) -> None:
+    def __init__(self, master: Any, label_text: str, value: str, themed: bool = False, *args: Any, **kwargs: Any) -> None:
         self.themed = themed
         if themed:
             TtkFrame.__init__(self, master, *args, *kwargs)
@@ -18,9 +16,7 @@ class CustomLabel(Frame, TtkFrame, CustomWidget):
         CustomWidget.__init__(self, text=label_text)
 
         self.string_var: StringVar = StringVar(value=value)
-        self.var_label: Union[Label, TtkLabel] = (
-            TtkLabel(self, textvariable=self.string_var) if themed else Label(self, textvariable=self.string_var)
-        )
+        self.var_label: Label | TtkLabel = TtkLabel(self, textvariable=self.string_var) if themed else Label(self, textvariable=self.string_var)
 
     def get(self) -> str:
         return self.string_var.get()

@@ -1,12 +1,15 @@
 import asyncio
+from collections.abc import Callable, Coroutine
+from dataclasses import dataclass
 from datetime import datetime
 from enum import Enum
 from tkinter import LabelFrame, Toplevel
 from tkinter.constants import DISABLED, NORMAL
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Dict, List, Optional
+from typing import Any
 
+from daxxl.app_context import AppContext
 from daxxl.defs import ModSource, Side
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.radio_choice import RadioChoice
@@ -14,7 +17,6 @@ from daxxl.gui.lib.text_entry import TextEntry
 from daxxl.models import versionable
 from daxxl.models.gtnh_version import CurseFile, GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import GTNHModpackManager
 
 
 class Sources(int, Enum):
@@ -22,16 +24,11 @@ class Sources(int, Enum):
     OTHERS = 2
 
 
+@dataclass
 class ModAdderCallback:
-    def __init__(
-        self,
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
-        add_mod_to_memory: Callable[[str, str], None],
-        del_mod_from_memory: Callable[[str], None],
-    ):
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
-        self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
-        self.del_mod_from_memory: Callable[[str], None] = del_mod_from_memory
+    get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]]
+    add_mod_to_memory: Callable[[str, str], None]
+    delete_mod_from_memory: Callable[[str], None]
 
 
 class ModAdderWindow(LabelFrame, TtkLabelFrame):
@@ -44,8 +41,8 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         master: Toplevel,
         frame_name: str,
         callbacks: ModAdderCallback,
-        width: Optional[int] = None,
-        mod_name: Optional[str] = None,
+        width: int | None = None,
+        mod_name: str | None = None,
         themed: bool = False,
         edit_version_mode: bool = False,
         **kwargs: Any,
@@ -58,7 +55,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
         :param mod_name: optional parameter passed to this class if the mod exists already in DAXXL.
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -71,11 +68,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         self.master: Toplevel = master
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_context_callback
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_to_memory
-        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_from_memory
+        self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_from_memory
 
-        self.width: int = width or 50
+        self._width: int = width or 50
 
         self.add_mod_version = mod_name is not None
         self.add_mod = mod_name is None
@@ -92,13 +89,9 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         self.name: TextEntry = TextEntry(self, "Mod name:", themed=self.themed)
         self.version: TextEntry = TextEntry(self, "Mod version:", themed=self.themed)
-        self.download_url: TextEntry = TextEntry(
-            self, "Download link (check your download history to get it):", themed=self.themed
-        )
+        self.download_url: TextEntry = TextEntry(self, "Download link (check your download history to get it):", themed=self.themed)
         self.project_id: TextEntry = TextEntry(self, "project ID", themed=self.themed)
-        self.browser_url: TextEntry = TextEntry(
-            self, "browser download page url (page where you can download the file):", themed=self.themed
-        )
+        self.browser_url: TextEntry = TextEntry(self, "browser download page url (page where you can download the file):", themed=self.themed)
         self.license: TextEntry = TextEntry(self, "Mod License", themed=self.themed)
         self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)", themed=self.themed)
 
@@ -128,13 +121,13 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        context: AppContext = await self.get_context_callback()
 
-        # mod exists because the name is from the availiable mods in the assets.
-        src = 1 if gtnh.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
+        # mod exists because the name is from the available mods in the assets.
+        src = 1 if context.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
         self.mod_choice.set(src)
 
-    def check_inputs(self) -> Dict[str, bool]:
+    def check_inputs(self) -> dict[str, bool]:
         """
         Method used to check the inputs in the gui.
 
@@ -148,7 +141,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         _license = self.license.get()
         project_url = self.project_url.get()
 
-        check_results: Dict[str, bool] = {
+        check_results: dict[str, bool] = {
             "name": False,
             "version": False,
             "download_url": False,
@@ -167,9 +160,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         if _license != "":
             check_results["license"] = True
 
-        if download_url.endswith(".jar") and (
-            download_url.startswith("http://") or download_url.startswith("https://")
-        ):
+        if download_url.endswith(".jar") and (download_url.startswith("http://") or download_url.startswith("https://")):
             check_results["download_url"] = True
 
         if project_url.startswith("http://") or project_url.startswith("https://"):
@@ -210,17 +201,17 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         not_curse_src: bool = self.mod_choice.get() != Sources.CURSEFORGE.value
         curse_src: bool = self.mod_choice.get() == Sources.CURSEFORGE.value
 
-        blacklist_external_source: List[str] = ["project_id"]
-        blacklist_external_source_new_version: List[str] = ["project_id", "project_url", "license"]
-        blacklist_curse_new_version: List[str] = ["project_id", "project_url", "license"]
-        blacklist_curse: List[str] = []
+        blacklist_external_source: list[str] = ["project_id"]
+        blacklist_external_source_new_version: list[str] = ["project_id", "project_url", "license"]
+        blacklist_curse_new_version: list[str] = ["project_id", "project_url", "license"]
+        blacklist_curse: list[str] = []
         only_mod: bool = self.add_mod_version
         only_mod_external: bool = self.add_mod_version and not_curse_src
         only_mod_curse: bool = self.add_mod_version and curse_src
         external_mod: bool = not self.add_mod_version and not_curse_src
         curse_mod: bool = not self.add_mod_version and curse_src
 
-        blacklist: List[str]
+        blacklist: list[str]
 
         if only_mod_external:  # new mod version for external source
             blacklist = blacklist_external_source_new_version
@@ -231,9 +222,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         elif curse_mod:
             blacklist = blacklist_curse
         else:
-            raise NotImplementedError(
-                "something went wrong during the addition of a new curse mod: unsupported mod type."
-            )
+            raise NotImplementedError("something went wrong during the addition of a new curse mod: unsupported mod type.")
 
         error_list = [error_messages[key] for key, value in validation.items() if not value and key not in blacklist]
 
@@ -244,11 +233,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             )
             return
 
-        gtnh = await self.get_gtnh_callback()
+        context = await self.get_context_callback()
 
         name: str = self.mod_name if only_mod else self.name.get()  # type: ignore
 
-        if gtnh.assets.has_mod(name) and self.add_mod:
+        if context.assets.has_mod(name) and self.add_mod:
             showwarning("Mod already existing", f"the mod {name} already exists in the database.")
             return
 
@@ -294,11 +283,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         )
         # adding mod
         if self.add_mod:
-            gtnh.assets.add_mod(mod)
+            context.assets.add_mod(mod)
 
         # adding version
         else:
-            mod = gtnh.assets.get_mod(name)
+            mod = context.assets.get_mod(name)
 
             # if mod has already that version
             if mod.has_version(mod_version.version_tag) and not self.edit_version_mode:
@@ -317,8 +306,8 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
             mod.source = ModSource.curse if curse_src else ModSource.other
             if mod.source == ModSource.curse:
                 mod.project_id = project_id
-        gtnh.assets.update_mod(mod)
-        gtnh.save_assets()
+        context.assets.update_mod(mod)
+        context.asset_service.save_assets()
 
         if self.add_mod_version:
             showinfo(
@@ -336,29 +325,20 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        self.mod_choice.configure(width=self.width)
-        self.btn_add.configure(width=self.width)
+        self.mod_choice.configure(width=self._width)
+        self.btn_add.configure(width=self._width)
 
         for widget in self.text_entry_list:
-            widget.configure(width=2 * self.width)
+            widget.configure(width=2 * self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """
@@ -423,7 +403,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         if not self.add_mod and not self.edit_version_mode:
             self.mod_choice.grid_forget()
 
-    def populate_data(self, mod: Optional[GTNHModInfo], version: Optional[GTNHVersion] = None) -> None:
+    def populate_data(self, mod: GTNHModInfo | None, version: GTNHVersion | None = None) -> None:
         """
         Method called by parent class to populate data in this class.
 

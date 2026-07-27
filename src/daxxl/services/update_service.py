@@ -1,4 +1,4 @@
-from typing import Awaitable, Callable, Optional
+from collections.abc import Awaitable, Callable
 
 from colorama import Fore
 
@@ -36,9 +36,9 @@ class UpdateService:
         exclude: set[str] | None = None,
         new_mods: set[str] | None = None,
         last_version: str | None = None,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        reset_progress_callback: Optional[Callable[[], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
+        progress_callback: Callable[[float, str], None] | None = None,
+        reset_progress_callback: Callable[[], None] | None = None,
+        global_progress_callback: Callable[[str], None] | None = None,
     ) -> tuple[GTNHRelease, list[str]]:
         """
         Updates a release
@@ -61,7 +61,7 @@ class UpdateService:
             update_errors = await self._update_all(
                 progress_callback=progress_callback,
                 global_progress_callback=global_progress_callback,
-                releaseVersion=version,
+                release_version=version,
             )
             if reset_progress_callback is not None:
                 reset_progress_callback()
@@ -121,19 +121,14 @@ class UpdateService:
                 mod_version = override if override else mod.latest_version
 
                 if not mod.has_version(mod_version):
-                    log.warn(
-                        f"{source_str} Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}"
-                        f"{Fore.RESET}`, skipping"
-                    )
+                    log.warn(f"{source_str} Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}{Fore.RESET}`, skipping")
 
                     if progress_callback is not None:
                         progress_callback(delta_progress, "")  # to stay synced with the progress
                     continue
 
-                overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
-                log.debug(
-                    f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}"
-                )
+                override_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
+                log.debug(f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{override_str}")
 
                 if progress_callback is not None:
                     progress_callback(delta_progress, f"Updating {mod.name}")
@@ -160,25 +155,23 @@ class UpdateService:
 
     async def update_rolling_release(
         self,
-        release_type: str,
+        release_type: DevRelease,
         update_available: bool = True,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
-        reset_progress_callback: Optional[Callable[[], None]] = None,
-        global_progress_callback: Optional[Callable[[str], None]] = None,
+        progress_callback: Callable[[float, str], None] | None = None,
+        reset_progress_callback: Callable[[], None] | None = None,
+        global_progress_callback: Callable[[str], None] | None = None,
     ) -> tuple[GTNHRelease, list[str]]:
         """
         :return: a tuple of (the generated release, error messages for assets that failed to update)
         """
-        if release_type not in DevRelease.__members__.values():
-            raise ValueError(f"Unsupported rolling release {release_type!r}")
-
-        existing_release = self.release_service.get_release(release_type)
+        release_name = release_type.value
+        existing_release = self.release_service.get_release(release_name)
         if existing_release is None:
-            raise ReleaseNotFoundException(f"{release_type.capitalize()} release not found")
+            raise ReleaseNotFoundException(f"{release_name.capitalize()} release not found")
 
-        previous_release_name = f"previous_{release_type}"
+        previous_release_name = f"previous_{release_name}"
         release, update_errors = await self.update_release(
-            release_type,
+            release_name,
             existing_release=existing_release,
             update_available=update_available,
             progress_callback=progress_callback,

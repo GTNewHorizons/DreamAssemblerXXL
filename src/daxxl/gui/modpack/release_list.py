@@ -1,8 +1,10 @@
 from asyncio import Task
+from collections.abc import Callable
+from dataclasses import dataclass
 from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.button import CustomButton
@@ -13,17 +15,11 @@ from daxxl.gui.lib.text_entry import TextEntry
 from daxxl.models.gtnh_release import GTNHRelease
 
 
+@dataclass
 class ReleaseListCallback:
-    def __init__(
-        self,
-        load: Callable[[str], Task[None]],
-        delete: Callable[[str], Task[None]],
-        add: Callable[[str, str], Task[None]],
-    ):
-
-        self.load: Callable[[str], Task[None]] = load
-        self.delete: Callable[[str], Task[None]] = delete
-        self.add: Callable[[str, str], Task[None]] = add
+    load: Callable[[str], Task[None]]
+    delete: Callable[[str], Task[None]]
+    add: Callable[[str, str], Task[None]]
 
 
 class ReleaseList(LabelFrame, TtkLabelFrame):
@@ -34,7 +30,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ReleaseListCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ) -> None:
@@ -45,7 +41,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -64,23 +60,15 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.btn_load: CustomButton = CustomButton(
-            self, text="Load version", command=lambda: self.btn_load_command(callbacks.load), themed=self.themed
-        )
-        self.btn_del: CustomButton = CustomButton(
-            self, text="Delete version", command=lambda: self.btn_del_command(callbacks.delete), themed=self.themed
-        )
-        self.btn_add: CustomButton = CustomButton(
-            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks.add), themed=self.themed
-        )
+        self.btn_load: CustomButton = CustomButton(self, text="Load version", command=lambda: self.btn_load_command(callbacks.load), themed=self.themed)
+        self.btn_del: CustomButton = CustomButton(self, text="Delete version", command=lambda: self.btn_delete_command(callbacks.delete), themed=self.themed)
+        self.btn_add: CustomButton = CustomButton(self, text="Add / Update", command=lambda: self.btn_add_command(callbacks.add), themed=self.themed)
 
         self.modpack: TextEntry = TextEntry(self, "", hide_label=True, themed=self.themed)
 
-        self.loaded_version: CustomLabel = CustomLabel(
-            self, label_text="Loaded version: {0}", value="", themed=self.themed
-        )
+        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version: {0}", value="", themed=self.themed)
 
-        self.widgets: List[CustomWidget] = [
+        self.widgets: list[CustomWidget] = [
             self.listbox,
             self.btn_add,
             self.btn_load,
@@ -89,9 +77,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             self.loaded_version,
         ]
 
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         self.update_widget()
 
@@ -105,27 +91,16 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         :return: None
         """
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
-        print(f"internal width: {self.width}, entry width: {self.modpack.entry['width']}")
+    @property
+    def width(self) -> int:
+        return self._width
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
-
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """
@@ -180,7 +155,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             index: int = self.listbox.get()
             self.modpack.set(self.listbox.get_value_at_index(index))
 
-    def btn_load_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
+    def btn_load_command(self, callback: Callable[[str], Task[None]] | None = None) -> None:
         """
         Callback for the button self.btn_load.
 
@@ -196,7 +171,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
 
             self.set_loaded_version(release_name)
 
-    def btn_add_command(self, callback: Optional[Callable[[str, str], Task[None]]] = None) -> None:
+    def btn_add_command(self, callback: Callable[[str, str], Task[None]] | None = None) -> None:
         """
         Callback for the button self.btn_add.
 
@@ -204,9 +179,9 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         :return: None
         """
         release_name: str = self.modpack.get()
-        listbox_entries: List[str] = self.listbox.get_values()
+        listbox_entries: list[str] = self.listbox.get_values()
         if release_name != "":
-            previous_release: Optional[str] = simpledialog.askstring(
+            previous_release: str | None = simpledialog.askstring(
                 title="Enter the previous modpack version", prompt="Please enter the previous modpack version:"
             )
             if previous_release is None:  # pressed cancel
@@ -228,7 +203,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
 
         self.set_loaded_version(release_name)
 
-    def btn_del_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
+    def btn_delete_command(self, callback: Callable[[str], Task[None]] | None = None) -> None:
         """
         Callback for the button self.btn_del.
 
@@ -239,11 +214,11 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
         if self.listbox.has_selection():
             index: int = self.listbox.get()
             release_name: str = self.listbox.get_value_at_index(index)
-            self.listbox.del_value_at_index(index)
+            self.listbox.delete_value_at_index(index)
             if callback is not None:
                 callback(release_name)
 
-    def populate_data(self, data: List[GTNHRelease]) -> None:
+    def populate_data(self, data: list[GTNHRelease]) -> None:
         """
         Method called by parent class to populate data in this class.
 

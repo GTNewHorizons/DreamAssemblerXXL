@@ -1,23 +1,21 @@
-import shutil
+from collections.abc import Callable
 from json import dump
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Tuple
 from urllib.parse import quote as urlquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
 import httpx
 from colorama import Fore
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import CURSEFORGE_CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.lib.progress_bar import CustomProgressBar
-from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import GTNHModpackManager
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
@@ -66,7 +64,7 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
 
 async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Method to check if maven download url is availiable. If not, falling back to github. For now, it is reasonable, but
+    Method to check if maven download url is available. If not, falling back to github. For now, it is reasonable, but
     we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
     this.
 
@@ -91,23 +89,23 @@ class CurseAssembler(GenericAssembler):
 
     def __init__(
         self,
-        gtnh_modpack: GTNHModpackManager,
+        context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
     ):
         """
         Constructor of the CurseAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
+        :param context: the context instance
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
         """
         GenericAssembler.__init__(
             self,
-            gtnh_modpack=gtnh_modpack,
+            context=context,
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
@@ -131,10 +129,7 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        delta_progress: float = 100 / (
-            2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1
-        )
-        self.set_progress(delta_progress)
+        self.delta_progress = 100 / (2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1)
 
         archive_name: Path = self.get_archive_path(side)
 
@@ -174,47 +169,20 @@ class CurseAssembler(GenericAssembler):
         """
         archive.write(self.overrides, arcname=self.overrides_folder / "overrides.png")
         archive.write(self.overrideslash, arcname=self.overrides_folder / "overrideslash.png")
-        coremod, coremod_version = [
-            (mod, version) for mod, version in self.get_mods(side) if mod.name == "NewHorizonsCoreMod"
-        ][0]
+        coremod, coremod_version = [(mod, version) for mod, version in self.get_mods(side) if mod.name == "NewHorizonsCoreMod"][0]
         source_file: Path = get_asset_version_cache_location(coremod, coremod_version)
         archive_path: Path = self.overrides_folder / "mods" / source_file.name
         archive.write(source_file, arcname=archive_path)
 
-    async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
-        modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
-        modpack_config, config_version = config
+    @property
+    def config_root(self) -> Path | None:
+        return self.overrides_folder
 
-        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
-
-        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            for item in config_zip.namelist():
-                if item in self.exclusions[side]:
-                    continue
-                with config_zip.open(item) as config_item:
-                    with archive.open(
-                        str(self.overrides_folder) + "/" + item, "w"
-                    ) as target:  # can't use Path for the whole
-                        # path here as it strips leading / but those are used by
-                        # zipfile to know if it's a file or a folder. If used here,
-                        # Path objects will lead to the creation of empty files for
-                        # every folder.
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
-                await self.yield_to_event_loop()
-
-        assert self.changelog_path
-        self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
-
-    def strip_curse_mods_from_mod_list(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
-        def filtering(mod: GTNHModInfo, version: GTNHVersion) -> bool:
+    def get_list_of_mods_to_upload(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+        def should_upload(mod: GTNHModInfo, version: GTNHVersion) -> bool:
             return not (mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version))
 
-        return [(mod, version) for mod, version in self.get_mods(side) if filtering(mod, version)]
+        return [(mod, version) for mod, version in self.get_mods(side) if should_upload(mod, version)]
 
     async def add_dep_file_to_archive(self, archive: ZipFile) -> None:
         """
@@ -227,7 +195,7 @@ class CurseAssembler(GenericAssembler):
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
         if self.task_progress_callback is not None:
-            self.task_progress_callback(self.get_progress(), f"adding {self.dependencies_json} to the archive")
+            self.task_progress_callback(self.delta_progress, f"adding {self.dependencies_json} to the archive")
 
     async def generate_mods_to_upload(self, task_progressbar: CustomProgressBar) -> None:
         """
@@ -238,37 +206,35 @@ class CurseAssembler(GenericAssembler):
         """
         if task_progressbar is not None:
             task_progressbar.reset()
-        with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as file:
-            mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
+        with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as f:
+            mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
             progress = 100.0 / len(mod_list)
             for mod, version in mod_list:
                 path: Path = get_asset_version_cache_location(mod, version)
                 if task_progressbar is not None:
-                    task_progressbar.add_progress(
-                        progress, f"Adding {mod.name} to the archives of the mods to be uploaded"
-                    )
-                file.write(path, arcname=path.name)
+                    task_progressbar.add_progress(progress, f"Adding {mod.name} to the archives of the mods to be uploaded")
+                f.write(path, arcname=path.name)
                 await self.yield_to_event_loop()
-            await normalize_archive_permissions(file)
+            await normalize_archive_permissions(f)
         if task_progressbar is not None:
             task_progressbar.add_progress(1, "Done!")
 
-    async def generate_json_dep(self, task_progressbar: Optional[CustomProgressBar] = None) -> None:
+    async def generate_json_dep(self, task_progressbar: CustomProgressBar | None = None) -> None:
         """
         Generates the dependencies.json.
 
         :param task_progressbar: the progressbar corresponding to the current task progress
         :return: None
         """
-        dep_json: List[Dict[str, str]] = []
+        dep_json: list[dict[str, str]] = []
         if task_progressbar is not None:
             task_progressbar.reset()
         async with httpx.AsyncClient(http2=True) as client:
-            mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
+            mod_list = self.get_list_of_mods_to_upload(Side.CLIENT)
             progress = 100.0 / len(mod_list)
 
             for mod, version in mod_list:
-                url: Optional[str]
+                url: str | None
                 if mod.source == ModSource.github:
                     if not version.maven_url:
                         url = await resolve_github_url(client, mod, version)
@@ -285,7 +251,7 @@ class CurseAssembler(GenericAssembler):
 
                 assert url
                 url = f"https://downloads.gtnewhorizons.com/Mods_for_Twitch/{urlquote(path.name)}"  # temporary override until maven is fixed
-                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+                mod_obj: dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
                 if task_progressbar is not None:
                     task_progressbar.add_progress(progress, f"Adding {mod.name} to dependencies.json")
                 dep_json.append(mod_obj)
@@ -313,7 +279,7 @@ class CurseAssembler(GenericAssembler):
             "manifestType": "minecraftModpack",
             "manifestVersion": 1,
             "name": "GT New Horizons",
-            "version": "{0}-1.7.10".format(self.release.version),
+            "version": f"{self.release.version}-1.7.10",
             "author": "DreamMasterXXL",
             "overrides": "overrides",
         }
@@ -341,6 +307,6 @@ class CurseAssembler(GenericAssembler):
         archive.write(self.tempfile, arcname=str(self.manifest_json))
 
         if self.task_progress_callback is not None:
-            self.task_progress_callback(self.get_progress(), f"adding {self.manifest_json} to the archive")
+            self.task_progress_callback(self.delta_progress, f"adding {self.manifest_json} to the archive")
 
         self.tempfile.unlink()

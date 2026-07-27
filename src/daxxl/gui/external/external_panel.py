@@ -1,45 +1,32 @@
 import asyncio
-from asyncio import Task
+from collections.abc import Callable, Coroutine
+from dataclasses import dataclass
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Dict, List, Optional
+from typing import Any
 
+from daxxl.app_context import AppContext
 from daxxl.defs import Position, Side
 from daxxl.exceptions import InvalidModVersionException
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
-from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
+from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoData, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.modpack_manager import GTNHModpackManager
 
 
+@dataclass
 class ExternalPanelCallback(ModInfoCallback):
-    def __init__(
-        self,
-        set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, str], Task[None]],
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
-        get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
-        toggle_freeze: Callable[[], None],
-        add_mod_in_memory: Callable[[str, str], None],
-        del_mod_in_memory: Callable[[str], None],
-        refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
-    ):
-        ModInfoCallback.__init__(
-            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
-        )
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
-        self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_external_mods_callback
-        self.toggle_freeze: Callable[[], None] = toggle_freeze
-        self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
-        self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
-        self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = refresh_external_modlist
+    get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]]
+    get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]]
+    toggle_freeze: Callable[[], None]
+    add_mod_in_memory: Callable[[str, str], None]
+    delete_mod_in_memory: Callable[[str], None]
+    refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]]
 
 
 class ExternalPanel(LabelFrame, TtkLabelFrame):
@@ -50,7 +37,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ExternalPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ):
@@ -61,7 +48,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed: bool = themed
@@ -73,17 +60,17 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         # start
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
-        self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_context_callback
+        self.get_external_mods_callback: Callable[[], dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
-        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
+        self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_in_memory
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = callbacks.refresh_external_modlist
 
         self.mod_adder_callbacks: ModAdderCallback = ModAdderCallback(
-            get_gtnh_callback=self.get_gtnh_callback,
+            get_context_callback=self.get_context_callback,
             add_mod_to_memory=self.add_mod_to_memory,
-            del_mod_from_memory=self.del_mod_from_memory,
+            delete_mod_from_memory=self.delete_mod_from_memory,
         )
         self.callbacks = callbacks
 
@@ -94,7 +81,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             external_mods=True,
             mod_adder_callbacks=self.mod_adder_callbacks,
         )
-        self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
+        self.mod_info_callback: Callable[[ModInfoData], None] = self.mod_info_frame.populate_data
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -107,9 +94,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         self.callbacks.attach_listbox_object(self.listbox)
 
-        self.btn_add: CustomButton = CustomButton(
-            self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod()), themed=self.themed
-        )
+        self.btn_add: CustomButton = CustomButton(self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod()), themed=self.themed)
 
         self.btn_add_version: CustomButton = CustomButton(
             self,
@@ -121,16 +106,14 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         self.btn_rem: CustomButton = CustomButton(
             self,
             text="Delete highlighted",
-            command=lambda: asyncio.ensure_future(self.del_external_mod()),
+            command=lambda: asyncio.ensure_future(self.delete_external_mod()),
             themed=self.themed,
         )
 
-        self.widgets: List[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+        self.widgets: list[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
-        self.mod_info_frame.set_width(self.width)
+        self.mod_info_frame.width = self._width
         self.update_widget()
 
     def configure_widgets(self) -> None:
@@ -141,26 +124,17 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         """
         self.mod_info_frame.configure_widgets()
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
-        self.mod_info_frame.set_width(self.width)
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
+        self.mod_info_frame.width = self._width
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """
@@ -211,15 +185,14 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         self.mod_info_frame.show()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, external_mod_list: list[str]) -> None:
         """
         Method called by parent class to populate data in this class.
 
-        :param data: the data to pass to this class
+        :param external_mod_list: the names of the external mods known to the assets
         :return: None
         """
-        mod_list: List[str] = data["external_mod_list"]
-        self.listbox.set_values(sorted(mod_list))
+        self.listbox.set_values(sorted(external_mod_list))
 
     async def on_listbox_click(self, _: Any) -> None:
         """
@@ -232,28 +205,28 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             return
 
         index: int = self.listbox.get()
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
+        context: AppContext = await self.get_context_callback()
+        mod_info: GTNHModInfo = context.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
-        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+        latest_version: GTNHVersion | None = mod_info.get_latest_version()
         if latest_version is None:
             raise InvalidModVersionException
-        external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
+        external_mods: dict[str, ModVersionInfo] = self.get_external_mods_callback()
         current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
         _license: str = mod_info.license or "No license detected"
-        side: str = external_mods[name].side if name in external_mods else Side.NONE  # type: ignore
-        side_default: str = mod_info.side
+        side: Side | None = external_mods[name].side if name in external_mods else Side.NONE
+        side_default: Side = mod_info.side
 
-        data = {
-            "name": name,
-            "versions": [version.version_tag for version in mod_versions],
-            "current_version": current_version,
-            "license": _license,
-            "side": side,
-            "side_default": side_default,
-        }
+        data = ModInfoData(
+            name=name,
+            versions=[version.version_tag for version in mod_versions],
+            current_version=current_version,
+            license=_license,
+            side=side,
+            side_default=side_default,
+        )
         self.mod_info_callback(data)
 
     async def add_external_mod(self) -> None:
@@ -291,7 +264,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
         mod_addition_frame.update_widget()
         top_level.title("External mod addition")
 
-    async def del_external_mod(self) -> None:
+    async def delete_external_mod(self) -> None:
         """
         Method called when the button to delete the highlighted external mod is pressed.
 
@@ -306,9 +279,9 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         index: int = self.listbox.get()
         mod_name: str = self.listbox.get_value_at_index(index)
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        self.listbox.del_value_at_index(index)
-        await gtnh.delete_mod(mod_name)
+        context: AppContext = await self.get_context_callback()
+        self.listbox.delete_value_at_index(index)
+        await context.asset_service.delete_mod(mod_name)
 
     async def add_new_version(self) -> None:
         """
@@ -347,8 +320,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
             mod_name=mod_name,
             themed=self.themed,
         )
-        gtnh = await self.get_gtnh_callback()
-        data = gtnh.assets.get_mod(mod_name)
+        context = await self.get_context_callback()
+        data = context.assets.get_mod(mod_name)
         mod_addition_frame.populate_data(mod=data)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()

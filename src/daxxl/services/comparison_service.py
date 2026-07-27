@@ -1,5 +1,4 @@
 from collections import defaultdict
-from typing import List, Optional, Set, Tuple
 
 from daxxl.assembler.changelog import ChangelogCollection, ChangelogEntry
 from daxxl.gtnh_logger import get_logger
@@ -16,9 +15,9 @@ class ComparisonService:
         self.assets = assets
 
     @staticmethod
-    def remove_false_positive_in_mod_removed(removed_mods: Set[str], added_mods: Set[str]) -> None:
-        false_removed_mods: List[str] = []
-        false_added_mods: List[str] = []
+    def delete_false_positive_in_mod_removed(removed_mods: set[str], added_mods: set[str]) -> None:
+        false_removed_mods: list[str] = []
+        false_added_mods: list[str] = []
         for removed_mod in removed_mods:
             for added_mod in added_mods:
                 stripped_removed_mod = "".join(filter(str.isalnum, removed_mod))
@@ -33,17 +32,15 @@ class ComparisonService:
         for false_positive in false_added_mods:
             added_mods.remove(false_positive)
 
-    def _mod_additions_and_removals(
-        self, release: GTNHRelease, previous_release: GTNHRelease
-    ) -> tuple[Set[str], Set[str]]:
+    def _mod_additions_and_removals(self, release: GTNHRelease, previous_release: GTNHRelease) -> tuple[set[str], set[str]]:
         removed_mods = set(previous_release.github_mods) - set(release.github_mods)
         removed_mods |= set(previous_release.external_mods) - set(release.external_mods)
         new_mods = set(release.github_mods) - set(previous_release.github_mods)
         new_mods |= set(release.external_mods) - set(previous_release.external_mods)
-        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        self.delete_false_positive_in_mod_removed(removed_mods, new_mods)
         return removed_mods, new_mods
 
-    def get_removed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
+    def get_removed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> set[str]:
         """
         Generate the list of removed mods between two releases.
 
@@ -52,7 +49,7 @@ class ComparisonService:
         removed_mods, _ = self._mod_additions_and_removals(release, previous_release)
         return removed_mods
 
-    def get_new_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
+    def get_new_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> set[str]:
         """
         Generate the list of new mods between two releases.
 
@@ -61,7 +58,7 @@ class ComparisonService:
         _, new_mods = self._mod_additions_and_removals(release, previous_release)
         return new_mods
 
-    def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
+    def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> set[str]:
         """
         Generate the list of updated/added mods between two releases. If the `previous_release` is None, generate
         it for all history.
@@ -79,9 +76,7 @@ class ComparisonService:
         changed_github_mods = {
             x
             for x in common_github_mods
-            if x in release.github_mods
-            and x in previous_release.github_mods
-            and release.github_mods[x].version != previous_release.github_mods[x].version
+            if x in release.github_mods and x in previous_release.github_mods and release.github_mods[x].version != previous_release.github_mods[x].version
         }
         changed_external_mods = {
             x
@@ -93,20 +88,18 @@ class ComparisonService:
 
         return changed_github_mods | changed_external_mods
 
-    def generate_changelog(
-        self, release: GTNHRelease, previous_release: GTNHRelease | None = None
-    ) -> dict[str, list[str]]:
+    def generate_changelog(self, release: GTNHRelease, previous_release: GTNHRelease | None = None) -> dict[str, list[str]]:
         """
         Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
         :returns: dict[mod_name, list[version_changes]]
         """
         removed_mods = set()
         new_mods = set()
-        version_changes: dict[str, Tuple[Optional[ModVersionInfo], ModVersionInfo]] = {}
+        version_changes: dict[str, tuple[ModVersionInfo | None, ModVersionInfo]] = {}
 
         changelog: dict[str, list[str]] = defaultdict(list)
 
-        contributors: Set[str] = set()
+        contributors: set[str] = set()
         if previous_release is not None:
             removed_mods, new_mods = self._mod_additions_and_removals(release, previous_release)
 
@@ -117,9 +110,7 @@ class ComparisonService:
                 # looks like here there are some shenanigans happening, so i'm just going to check for mod presence before anything
                 # i don't quite get what's happenning here.
 
-                previous_source = (
-                    previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
-                )
+                previous_source = previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
                 current_source = release.github_mods if mod_name in release.github_mods else release.external_mods
 
                 version_changes[mod_name] = (previous_source.get(mod_name, None), current_source[mod_name])
@@ -148,9 +139,7 @@ class ComparisonService:
                 continue
 
             mod = self.assets.get_mod(mod_name)
-            mod_versions: List[GTNHVersion] = mod.get_versions(
-                left=old_version.version if old_version else None, right=new_version.version
-            )
+            mod_versions: list[GTNHVersion] = mod.get_versions(left=old_version.version if old_version else None, right=new_version.version)
 
             # Something bad happens if we have empty mod_versions, but better to have an improper changelog than a crash
             if not len(mod_versions):
@@ -158,10 +147,7 @@ class ComparisonService:
 
             changes = changelog[mod_name]
 
-            mod_version_changelogs = [
-                ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease)
-                for v in mod_versions
-            ]
+            mod_version_changelogs = [ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease) for v in mod_versions]
             is_new_mod = old_version is None
             mod_changelog = ChangelogCollection(
                 pack_release_version=release.version,

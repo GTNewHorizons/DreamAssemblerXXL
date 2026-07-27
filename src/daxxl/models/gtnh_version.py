@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import List, Optional, Tuple
 
 from pydantic import Field
 
@@ -34,7 +33,7 @@ class GTNHVersion(GTNHBaseModel):
     version_tag: str
     changelog: str = Field(default="")
     prerelease: bool = Field(default=False)
-    tagged_at: Optional[datetime] = Field(default=None)
+    tagged_at: datetime | None = Field(default=None)
 
     # Primary Download Info
     filename: str | None = Field(default=None)
@@ -45,17 +44,17 @@ class GTNHVersion(GTNHBaseModel):
     # Secondary Download info
     curse_file: CurseFile | None = Field(default=None)
     modrinth_file: ModrinthFile | None = Field(default=None)
-    extra_assets: List[ExtraAsset] = Field(default=[])
+    extra_assets: list[ExtraAsset] = Field(default=[])
 
 
-def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHVersion | None:
+def version_from_release(release: AttributeDict, versionable_type: VersionableType) -> GTNHVersion | None:
     """
     Get ModVersion and assets from a GitRelease
     :param release: GithubRelease
     :return: ModVersion
     """
     version = release.tag_name
-    asset, extra_assets = get_asset(release, type)
+    asset, extra_assets = get_asset(release, versionable_type)
 
     if not asset:
         return None
@@ -79,7 +78,7 @@ def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHV
     )
 
 
-def get_asset(release: AttributeDict, type: VersionableType) -> Tuple[AttributeDict | None, List[AttributeDict]]:
+def get_asset(release: AttributeDict, versionable_type: VersionableType) -> tuple[AttributeDict | None, list[AttributeDict]]:
     """
     Get mod assets from a release; excludes dev, source, and api jars
     :param release: A github release
@@ -98,7 +97,7 @@ def get_asset(release: AttributeDict, type: VersionableType) -> Tuple[AttributeD
             # A dev release will have two "-dev" suffixes, so remove the first one
             asset_name = asset_name.replace("-dev", "", 1)
 
-        if type == VersionableType.mod:
+        if versionable_type == VersionableType.mod:
             if asset_name.endswith("forgePatches.jar"):
                 extra_assets.append(asset)
                 continue
@@ -118,7 +117,7 @@ def get_asset(release: AttributeDict, type: VersionableType) -> Tuple[AttributeD
                 ]
             ):
                 continue
-        elif type == VersionableType.config:
+        elif versionable_type == VersionableType.config:
             if not asset_name.endswith(".zip"):
                 continue
 

@@ -1,17 +1,18 @@
+from collections.abc import Awaitable, Callable
 from pathlib import Path
-from typing import Awaitable, Callable, Dict, List, Optional
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.platforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
 from daxxl.defs import (
     RELEASE_CHANGELOG_DAILY_BUILDS_DIR,
     RELEASE_CHANGELOG_DIR,
     RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR,
     Archive,
+    DevRelease,
     Side,
 )
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
@@ -23,67 +24,42 @@ class ReleaseAssemblerController:
 
     def __init__(
         self,
-        mod_manager: GTNHModpackManager,
+        context: AppContext,
         release: GTNHRelease,
-        task_callback: Optional[Callable[[float, str], None]] = None,
-        global_callback: Optional[Callable[[float, str], None]] = None,
-        current_task_reset_callback: Optional[Callable[[], None]] = None,
+        task_callback: Callable[[float, str], None] | None = None,
+        global_callback: Callable[[float, str], None] | None = None,
+        current_task_reset_callback: Callable[[], None] | None = None,
     ) -> None:
         """
         Constructor of the ReleaseAssemblerClass.
 
-        :param mod_manager: the GTNHModpackManager instance
+        :param context: the AppContext instance
         :param release: the target GTNHRelease
         :param global_progress_callback: the global_progress_callback to use to report progress
         :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
-        self.mod_manager: GTNHModpackManager = mod_manager
+        self.context: AppContext = context
         self.release: GTNHRelease = release
-        release.validate_release(mod_manager.assets)
-        self.callback: Optional[Callable[[float, str], None]] = global_callback
+        release.validate_release(context.assets)
+        self.callback: Callable[[float, str], None] | None = global_callback
         self.current_task_reset_callback = current_task_reset_callback
 
         changelog_path: Path = self.generate_changelog()
 
-        self.zip_assembler: ZipAssembler = ZipAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
-        )
-        self.prism_assembler: PrismAssembler = PrismAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
-        )
-        self.curse_assembler: CurseAssembler = CurseAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
-        )
+        self.zip_assembler: ZipAssembler = ZipAssembler(context, release, task_callback, changelog_path=changelog_path)
+        self.prism_assembler: PrismAssembler = PrismAssembler(context, release, task_callback, changelog_path=changelog_path)
+        self.curse_assembler: CurseAssembler = CurseAssembler(context, release, task_callback, changelog_path=changelog_path)
         self.technic_assembler: TechnicAssembler = TechnicAssembler(
-            mod_manager,
+            context,
             release,
             task_callback,
             changelog_path=changelog_path,
             current_task_reset_callback=current_task_reset_callback,
         )
-        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
-            mod_manager, release, task_callback, changelog_path=changelog_path
-        )
+        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(context, release, task_callback, changelog_path=changelog_path)
 
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
-
-    def set_progress(self, progress: float) -> None:
-        """
-        Setter for self.delta_progress.
-
-        :param progress: new delta progress
-        :return: None
-        """
-        self.delta_progress = progress
-
-    def get_progress(self) -> float:
-        """
-        Getter for self.delta_progress.
-
-        :return: the delta progress
-        """
-        return self.delta_progress
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
@@ -94,15 +70,13 @@ class ReleaseAssemblerController:
         :return: None
         """
 
-        if side not in {side.CLIENT, side.CLIENT_JAVA9, side.SERVER, side.SERVER_JAVA9}:
-            raise ValueError(
-                f"Only valid sides are {Side.CLIENT}/{Side.CLIENT_JAVA9} or {Side.SERVER}/{Side.SERVER_JAVA9}, got {side}"
-            )
+        if side not in {Side.CLIENT, Side.CLIENT_JAVA9, Side.SERVER, Side.SERVER_JAVA9}:
+            raise ValueError(f"Only valid sides are {Side.CLIENT}/{Side.CLIENT_JAVA9} or {Side.SERVER}/{Side.SERVER_JAVA9}, got {side}")
 
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
 
-        assemblers_client: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {
+        assemblers_client: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: self.assemble_zip,
             Archive.PRISM: self.assemble_prism,
             Archive.TECHNIC: self.assemble_technic,
@@ -110,11 +84,9 @@ class ReleaseAssemblerController:
             Archive.MODRINTH: self.assemble_modrinth,
         }
 
-        assemblers_server: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
+        assemblers_server: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
 
-        assemblers: Dict[str, Callable[[Side, bool], Awaitable[None]]] = (
-            assemblers_client if side.is_client() else assemblers_server
-        )
+        assemblers: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = assemblers_client if side.is_client() else assemblers_server
 
         for platform, assembling in assemblers.items():
             if side.is_java9() and platform in [Archive.TECHNIC, Archive.CURSEFORGE]:
@@ -125,17 +97,17 @@ class ReleaseAssemblerController:
                 self.current_task_reset_callback()
 
             if self.callback:
-                self.callback(self.get_progress(), f"Assembling {side} {platform} archive")
+                self.callback(self.delta_progress, f"Assembling {side} {platform} archive")
             await assembling(side, verbose)
 
         # TODO: Remove when the maven urls are calculated on add, instead of in curse
-        self.mod_manager.save_assets()
+        self.context.asset_service.save_assets()
 
     async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the zip archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -145,7 +117,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the zip archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -155,7 +127,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the curse archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -165,7 +137,7 @@ class ReleaseAssemblerController:
         """
         Method called to assemble the modrinth archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :return: None
         """
@@ -175,12 +147,12 @@ class ReleaseAssemblerController:
         self,
         side: Side,
         verbose: bool = False,
-        global_step_callback: Optional[Callable[[str], None]] = None,
+        global_step_callback: Callable[[str], None] | None = None,
     ) -> None:
         """
         Method called to assemble the technic archive.
 
-        :param side: targetted side
+        :param side: targeted side
         :param verbose: flag to control verbose mode
         :param global_step_callback: callback to advance the global bar between internal phases
         :return: None
@@ -196,33 +168,31 @@ class ReleaseAssemblerController:
         """
 
         current_version: str = self.release.version
-        previous_version: Optional[str] = self.release.last_version
-        previous_release: Optional[GTNHRelease] = (
-            None if previous_version is None else self.mod_manager.get_release(previous_version)
-        )
-        changelog: Dict[str, List[str]] = self.mod_manager.generate_changelog(self.release, previous_release)
+        previous_version: str | None = self.release.last_version
+        previous_release: GTNHRelease | None = None if previous_version is None else self.context.release_service.get_release(previous_version)
+        changelog: dict[str, list[str]] = self.context.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
-        if "experimental" in current_version:
+        release_type: DevRelease | None = None
+        for dr in DevRelease:
+            if dr.value in current_version:
+                release_type = dr
+                break
+        if release_type is not None:
+            changelog_dir = RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR if release_type is DevRelease.EXPERIMENTAL else RELEASE_CHANGELOG_DAILY_BUILDS_DIR
             changelog_path = (
-                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR / f"changelog from experimental "
-                f"{self.mod_manager.get_last_successful_experimental()} to "
-                f"{self.mod_manager.get_experimental_count()}.md"
-            )
-        elif "daily" in current_version:
-            changelog_path = (
-                RELEASE_CHANGELOG_DAILY_BUILDS_DIR / f"changelog from daily "
-                f"{self.mod_manager.get_last_successful_daily()} to "
-                f"{self.mod_manager.get_daily_count()}.md"
+                changelog_dir / f"changelog from {release_type.value} "
+                f"{self.context.counter.get_last_successful_dev_build_id(release_type)} to "
+                f"{self.context.counter.get_dev_release_count(release_type)}.md"
             )
         else:
             changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
 
-        with open(changelog_path, "w") as file:
+        with open(changelog_path, "w") as f:
             for mod, mod_changelog in changelog.items():
                 for item in mod_changelog:
                     try:
-                        file.write(item + "\n")
+                        f.write(item + "\n")
                     except UnicodeEncodeError:
-                        file.write((item + "\n").encode("ascii", "ignore").decode())
+                        f.write((item + "\n").encode("ascii", "ignore").decode())
 
         return changelog_path

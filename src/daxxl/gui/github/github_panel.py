@@ -1,10 +1,12 @@
 import asyncio
-from asyncio import Task
+from collections.abc import Callable, Coroutine
+from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Coroutine, Dict, List, Optional
+from typing import Any
 
+from daxxl.app_context import AppContext
 from daxxl.defs import Position, Side
 from daxxl.exceptions import InvalidModVersionException, RepoNotFoundException
 from daxxl.gui.lib.button import CustomButton
@@ -12,44 +14,34 @@ from daxxl.gui.lib.combo_box import CustomCombobox
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.listbox import CustomListbox
 from daxxl.gui.lib.text_entry import TextEntry
-from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
+from daxxl.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoData, ModInfoWidget
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
-from daxxl.modpack_manager import GTNHModpackManager
 
 
+@dataclass
+class GithubPanelData:
+    """
+    The github mod list and the modpack config versions GithubPanel displays.
+    """
+
+    github_mod_list: list[str]
+    modpack_versions: list[str]
+    current_modpack_version: str
+
+
+@dataclass
 class GithubPanelCallback(ModInfoCallback):
-    def __init__(
-        self,
-        set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, str], Task[None]],
-        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
-        get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
-        update_current_task_progress_bar: Callable[[float, str], None],
-        update_global_progress_bar: Callable[[float, str], None],
-        reset_current_task_progress_bar: Callable[[], None],
-        reset_global_progress_bar: Callable[[], None],
-        add_mod_in_memory: Callable[[str, str], None],
-        del_mod_in_memory: Callable[[str], None],
-        set_modpack_version: Callable[[str], None],
-    ):
-        ModInfoCallback.__init__(
-            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
-        )
-
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
-        self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_github_mods_callback
-        self.update_current_task_progress_bar: Callable[[float, str], None] = update_current_task_progress_bar
-
-        self.update_global_progress_bar: Callable[[float, str], None] = update_global_progress_bar
-        self.reset_current_task_progress_bar: Callable[[], None] = reset_current_task_progress_bar
-        self.reset_global_progress_bar: Callable[[], None] = reset_global_progress_bar
-
-        self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
-        self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
-        self.set_modpack_version: Callable[[str], None] = set_modpack_version
+    get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]]
+    get_github_mods_callback: Callable[[], dict[str, ModVersionInfo]]
+    update_current_task_progress_bar: Callable[[float, str], None]
+    update_global_progress_bar: Callable[[float, str], None]
+    reset_current_task_progress_bar: Callable[[], None]
+    reset_global_progress_bar: Callable[[], None]
+    add_mod_in_memory: Callable[[str, str], None]
+    delete_mod_in_memory: Callable[[str], None]
+    set_modpack_version: Callable[[str], None]
 
 
 class GithubPanel(LabelFrame, TtkLabelFrame):
@@ -62,7 +54,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: GithubPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ):
@@ -73,7 +65,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -84,22 +76,20 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         # Early widget:
 
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(
-            self, frame_name="Github mod info", callbacks=callbacks, external_mods=False
-        )
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="Github mod info", callbacks=callbacks, external_mods=False)
 
         # Callbacks:
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
-        self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_github_mods_callback
+        self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_context_callback
+        self.get_github_mods_callback: Callable[[], dict[str, ModVersionInfo]] = callbacks.get_github_mods_callback
         self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks.update_current_task_progress_bar
         self.update_global_progress_bar: Callable[[float, str], None] = callbacks.update_global_progress_bar
         self.reset_current_task_progress_bar: Callable[[], None] = callbacks.reset_current_task_progress_bar
         self.reset_global_progress_bar: Callable[[], None] = callbacks.reset_global_progress_bar
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
-        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
+        self.delete_mod_from_memory: Callable[[str], None] = callbacks.delete_mod_in_memory
         self.set_modpack_version: Callable[[str], None] = callbacks.set_modpack_version
 
-        self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
+        self.mod_info_callback: Callable[[ModInfoData], None] = self.mod_info_frame.populate_data
         self.reset_mod_info_callback: Callable[[], None] = self.mod_info_frame.reset
 
         # Widgets
@@ -112,9 +102,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             position_sticky_combobox=None,
             themed=self.themed,
         )
-        self.modpack_version.set_on_selection_callback(
-            lambda event: callbacks.set_modpack_version(self.modpack_version.get())
-        )
+        self.modpack_version.set_on_selection_callback(lambda event: callbacks.set_modpack_version(self.modpack_version.get()))
 
         self.btn_refresh_modpack: CustomButton = CustomButton(
             self,
@@ -132,11 +120,12 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.btn_add: CustomButton = CustomButton(
-            self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed
-        )
+        self.btn_add: CustomButton = CustomButton(self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed)
         self.btn_rem: CustomButton = CustomButton(
-            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_repo()), themed=self.themed
+            self,
+            text="Delete highlighted",
+            command=lambda: asyncio.ensure_future(self.delete_repo()),
+            themed=self.themed,
         )
         self.btn_refresh: CustomButton = CustomButton(
             self,
@@ -153,13 +142,13 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         self.listbox: CustomListbox = CustomListbox(
             self,
-            "List of availiable github mods:",
+            "List of available github mods:",
             exportselection=False,
             on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
             themed=self.themed,
         )
 
-        self.widgets: List[CustomWidget] = [
+        self.widgets: list[CustomWidget] = [
             self.repository,
             self.btn_add,
             self.btn_rem,
@@ -170,11 +159,9 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             self.btn_refresh_modpack,
         ]
 
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
-        self.mod_info_frame.set_width(self.width)
+        self.mod_info_frame.width = self._width
 
         self.update_widget()
 
@@ -187,26 +174,17 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.mod_info_frame.configure_widgets()
 
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
-        self.mod_info_frame.set_width(self.width)
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
+        self.mod_info_frame.width = self._width
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """
@@ -269,27 +247,27 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         :return: None
         """
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_config_assets()
-        await gtnh.regen_translation_assets()
-        self.modpack_version.set_values([version.version_tag for version in gtnh.assets.config.versions])
-        self.modpack_version.set(gtnh.assets.config.latest_version)
+        context: AppContext = await self.get_context_callback()
+        await context.asset_service.regen_config_assets()
+        await context.asset_service.regen_translation_assets()
+        self.modpack_version.set_values([version.version_tag for version in context.assets.config.versions])
+        self.modpack_version.set(context.assets.config.latest_version)
 
         showinfo("Modpack assets refreshed", "Modpack assets refreshed successfully!")
 
-    def populate_data(self, data: Dict[str, Any]) -> None:
+    def populate_data(self, data: GithubPanelData) -> None:
         """
         Method called by parent class to populate data in this class.
 
         :param data: the data to pass to this class
         :return: None
         """
-        self.listbox.set_values(data["github_mod_list"])
+        self.listbox.set_values(data.github_mod_list)
 
-        self.modpack_version.set_values(data["modpack_version_frame"]["combobox"])
-        self.modpack_version.set(data["modpack_version_frame"]["stringvar"])
+        self.modpack_version.set_values(data.modpack_versions)
+        self.modpack_version.set(data.current_modpack_version)
 
-    async def on_listbox_click(self, _: Optional[Any] = None) -> None:
+    async def on_listbox_click(self, _: Any | None = None) -> None:
         """
         Callback used when the user clicks on the github mods' listbox.
 
@@ -300,11 +278,11 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             return
 
         index: int = self.listbox.get()
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
+        context: AppContext = await self.get_context_callback()
+        mod_info: GTNHModInfo = context.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
-        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+        latest_version: GTNHVersion | None = mod_info.get_latest_version()
         if latest_version is None:
             raise InvalidModVersionException
         github_mod = self.get_github_mods_callback().get(name)
@@ -315,18 +293,18 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         side_default: Side = mod_info.side
 
-        data = {
-            "name": name,
-            "versions": [version.version_tag for version in mod_versions],
-            "current_version": current_version,
-            "license": mod_license,
-            "side": side,
-            "side_default": side_default,
-        }
+        data = ModInfoData(
+            name=name,
+            versions=[version.version_tag for version in mod_versions],
+            current_version=current_version,
+            license=mod_license,
+            side=side,
+            side_default=side_default,
+        )
 
         self.mod_info_callback(data)
 
-    async def add_repo(self, name_override: Optional[str] = None) -> None:
+    async def add_repo(self, name_override: str | None = None) -> None:
         """
         Method called when the button to add the github repository to assets is pressed.
 
@@ -337,18 +315,18 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         if repo_name == "":
             return
 
-        repo_list: List[str] = self.listbox.get_values()
+        repo_list: list[str] = self.listbox.get_values()
 
         if repo_name in repo_list and name_override is None:
             # skipping check if called by refresh_repo, as the name will be already in the list
             showwarning("Repository already in the assets", f"{repo_name} is already in the assets.")
             return
 
-        gtnh_modpack: GTNHModpackManager = await self.get_gtnh_callback()
+        context: AppContext = await self.get_context_callback()
         try:
-            await gtnh_modpack.add_github_mod(repo_name)
-            gtnh_modpack.save_assets()
-            repo = await gtnh_modpack.gh_client.get_latest_github_release(repo_name)
+            await context.asset_service.add_github_mod(repo_name)
+            context.asset_service.save_assets()
+            repo = await context.gh_client.get_latest_github_release(repo_name)
             assert repo
             version = repo.tag_name
             self.add_mod_to_memory(repo_name, version)
@@ -369,27 +347,27 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
                 "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?",
             )
 
-    async def del_repo(self, verbose: bool = True) -> None:
+    async def delete_repo(self, verbose: bool = True) -> None:
         """
         Method called when the button to delete the highlighted github repository is pressed.
 
         :param verbose: if set to true show the error boxes
         :return: None
         """
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        context: AppContext = await self.get_context_callback()
         if self.listbox.has_selection():
             repo_name = self.listbox.get_value_at_index(self.listbox.get())
         else:
             showerror("No repository name selected.", "Please select a repository before trying to edit it.")
             return
 
-        repo_list: List[str] = sorted([name for name in self.listbox.get_values() if name != repo_name])
+        repo_list: list[str] = sorted([name for name in self.listbox.get_values() if name != repo_name])
         self.listbox.set_values(repo_list)
         self.reset_mod_info_callback()
 
-        self.del_mod_from_memory(repo_name)
+        self.delete_mod_from_memory(repo_name)
 
-        if await gtnh.delete_mod(repo_name) and verbose:
+        if await context.asset_service.delete_mod(repo_name) and verbose:
             showinfo("Repository successfully deleted", f"{repo_name} has been successfully deleted from assets.")
 
     async def refresh_repo(self) -> None:
@@ -404,8 +382,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             showerror("No repository name selected.", "Please select a repository before trying to edit it.")
             return
 
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_github_repo_asset(repo_name)
+        context: AppContext = await self.get_context_callback()
+        await context.asset_service.regen_github_repo_asset(repo_name)
         await self.on_listbox_click()
         showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
 
@@ -429,6 +407,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
         self.reset_global_progress_bar()
         self.reset_current_task_progress_bar()
 
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_github_assets(callback=self._update_callback)
+        context: AppContext = await self.get_context_callback()
+        await context.asset_service.regen_github_assets(callback=self._update_callback)
         showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")

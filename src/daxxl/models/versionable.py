@@ -21,7 +21,7 @@ class Versionable(BaseModel):
     private: bool = Field(default=False)
 
     versions: list[GTNHVersion] = Field(default_factory=list)
-    type: VersionableType = Field(default=VersionableType.mod)
+    versionable_type: VersionableType = Field(default=VersionableType.mod, alias="type")
 
     def add_version(self, version: GTNHVersion) -> None:
         idx = self.get_version_idx(version.version_tag)
@@ -31,10 +31,10 @@ class Versionable(BaseModel):
             bisect.insort_right(self.versions, version, key=version_sort_key)
         self.reset_latest()
 
-    def remove_version(self, version: GTNHVersion) -> bool:
-        return self.remove_version_tag(version.version_tag)
+    def delete_version(self, version: GTNHVersion) -> bool:
+        return self.delete_version_tag(version.version_tag)
 
-    def remove_version_tag(self, version_tag: str) -> bool:
+    def delete_version_tag(self, version_tag: str) -> bool:
         idx = self.get_version_idx(version_tag)
 
         if idx is not None:

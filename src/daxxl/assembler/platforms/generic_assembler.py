@@ -1,12 +1,13 @@
 import asyncio
 import os
 import shutil
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Set, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
 from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
@@ -16,7 +17,6 @@ from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import GTNHModpackManager
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
@@ -27,33 +27,36 @@ class GenericAssembler:
     Generic assembler class.
     """
 
+    # config entries dropped regardless of the side's exclusions
+    excluded_config_files: frozenset[str] = frozenset()
+
     def __init__(
         self,
-        gtnh_modpack: GTNHModpackManager,
+        context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
-        current_task_reset_callback: Optional[Callable[[], None]] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
+        current_task_reset_callback: Callable[[], None] | None = None,
     ):
         """
         Constructor of the GenericAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
+        :param context: the context instance
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
         :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
-        self.modpack_manager: GTNHModpackManager = gtnh_modpack
+        self.context: AppContext = context
         self.release: GTNHRelease = release
-        self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
-        self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
-        self.changelog_path: Optional[Path] = changelog_path
-        self.current_task_reset_callback: Optional[Callable[[], None]] = current_task_reset_callback
+        self.global_progress_callback: Callable[[float, str], None] | None = global_progress_callback
+        self.task_progress_callback: Callable[[float, str], None] | None = task_progress_callback
+        self.changelog_path: Path | None = changelog_path
+        self.current_task_reset_callback: Callable[[], None] | None = current_task_reset_callback
 
-        mod_pack = self.modpack_manager.mod_pack
-        self.exclusions: Dict[str, Exclusions] = {
+        mod_pack = self.context.mod_pack
+        self.exclusions: dict[str, Exclusions] = {
             Side.CLIENT: Exclusions(mod_pack.client_exclusions + mod_pack.client_java8_exclusions),
             Side.SERVER: Exclusions(mod_pack.server_exclusions + mod_pack.server_java8_exclusions),
             Side.CLIENT_JAVA9: Exclusions(mod_pack.client_exclusions + mod_pack.client_java9_exclusions),
@@ -61,22 +64,12 @@ class GenericAssembler:
         }
         self.delta_progress: float = 0.0
 
-    def get_progress(self) -> float:
+    @property
+    def config_root(self) -> Path | None:
         """
-        Getter for self.delta_progress.
-
-        :return: current delta progress value
+        Folder inside the archive the config is written under, or None to write it at the archive root.
         """
-        return self.delta_progress
-
-    def set_progress(self, delta_progress: float) -> None:
-        """
-        Setter for self.delta_progress.
-
-        :param delta_progress: the new delta progress
-        :return: None
-        """
-        self.delta_progress = delta_progress
+        return None
 
     @staticmethod
     async def yield_to_event_loop() -> None:
@@ -86,7 +79,7 @@ class GenericAssembler:
         """
         Method to get the amount of files inside the config zip.
 
-        :param side: targetted side for the release
+        :param side: targeted side for the release
         :return: the amount of files
         """
         modpack_config: GTNHConfig
@@ -106,85 +99,75 @@ class GenericAssembler:
         -------
         int: the amount of files for the locales.
         """
-        sum: int = 0
-        for language in self.modpack_manager.assets.translations.versions:
-            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+        total: int = 0
+        for language in self.context.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.context.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
-                sum += len([item for item in locale_zip.namelist() if not item.endswith("/")])
-        return sum
+                total += len([item for item in locale_zip.namelist() if not item.endswith("/")])
+        return total
 
-    def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def get_mods(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the mod info objects as well as their targetted version.
+        Method to grab the mod info objects as well as their targeted version.
 
-        :param side: the targetted side
-        :return: a list of couples where the first object is the mod info object, the second is the targetted version.
+        :param side: the targeted side
+        :return: a list of couples where the first object is the mod info object, the second is the targeted version.
         """
 
-        valid_sides: Set[Side] = side.valid_mod_sides()
+        valid_sides: set[Side] = side.valid_mod_sides()
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
 
-        mods: List[Tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
+        mods: list[tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
         return mods
 
-    def external_mods(
-        self, valid_sides: Set[Side], release: Optional[GTNHRelease] = None
-    ) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def external_mods(self, valid_sides: set[Side], release: GTNHRelease | None = None) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the external mod info objects as well as their targetted version.
+        Method to grab the external mod info objects as well as their targeted version.
 
         :param valid_sides: a set of valid sides to retrieve the mods from.
         :param release: if specified, the release version to get data from instead of the one used for the assembling.
         """
         release = self.release if release is None else release
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
-                [
-                    self.modpack_manager.assets.get_mod_and_version(name, version, valid_sides)
-                    for name, version in release.external_mods.items()
-                ],
+                [self.context.assets.get_mod_and_version(name, version, valid_sides) for name, version in release.external_mods.items()],
             )
         )
 
         return external_mods
 
-    def github_mods(
-        self, valid_sides: Set[Side], release: Optional[GTNHRelease] = None
-    ) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def github_mods(self, valid_sides: set[Side], release: GTNHRelease | None = None) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the github mod info objects as well as their targetted version.
+        Method to grab the github mod info objects as well as their targeted version.
 
         :param valid_sides: a set of valid sides to retrieve the mods from.
         :param release: if specified, the release version to get data from instead of the one used for the assembling.
         """
         release = self.release if release is None else release
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
-                [
-                    self.modpack_manager.assets.get_mod_and_version(name, version, valid_sides)
-                    for name, version in release.github_mods.items()
-                ],
+                [self.context.assets.get_mod_and_version(name, version, valid_sides) for name, version in release.github_mods.items()],
             )
         )
 
         return github_mods
 
-    def get_config(self) -> Tuple[GTNHConfig, GTNHVersion]:
+    def get_config(self) -> tuple[GTNHConfig, GTNHVersion]:
         """
         Method to get the config file from the release.
 
         :return: a tuple with the GTNHConfig and GTNHVersion of the release's config
         """
 
-        config: GTNHConfig = self.modpack_manager.assets.config
-        version: Optional[GTNHVersion] = config.get_version(self.release.config)
+        config: GTNHConfig = self.context.assets.config
+        version: GTNHVersion | None = config.get_version(self.release.config)
         if version is None:
             raise InvalidConfigException
         return config, version
@@ -207,9 +190,32 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
-    async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
+    async def _add_config_files(self, side: Side, config_file: Path, destination: ZipFile, root: Path | None = None) -> None:
+        """
+        Copy the contents of the config archive into `destination`, skipping the side's exclusions.
+
+        :param side: target side, selects which exclusion list applies
+        :param config_file: the cached config archive to read from
+        :param destination: the archive being written into
+        :param root: folder inside `destination` to write under, or None to write at its root
+        :return: None
+        """
+        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
+            for item in config_zip.namelist():
+                if item in self.excluded_config_files or item in self.exclusions[side]:
+                    continue
+                # can't use Path for the whole path here as it strips leading / but those are used by
+                # zipfile to know if it's a file or a folder. If used here, Path objects will lead to
+                # the creation of empty files for every folder.
+                arcname = f"{root.as_posix()}/{item}" if root is not None else item
+                with config_zip.open(item) as config_item:
+                    with destination.open(arcname, "w") as target:
+                        shutil.copyfileobj(config_item, target)
+                        if self.task_progress_callback is not None:
+                            self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
+                await self.yield_to_event_loop()
+
+    async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
         """
         Method to add config in the zip archive.
 
@@ -219,7 +225,16 @@ class GenericAssembler:
         :param verbose: flag to turn on verbose mode
         :return: None
         """
-        self.add_changelog(archive)
+        modpack_config: GTNHConfig
+        config_version: GTNHVersion | None
+        modpack_config, config_version = config
+
+        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
+
+        await self._add_config_files(side, config_file, archive, self.config_root)
+
+        changelog_arcname = self.config_root / self.changelog_path.name if self.config_root is not None and self.changelog_path is not None else None
+        self.add_changelog(archive, arcname=changelog_arcname)
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
@@ -262,7 +277,7 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
-    def add_changelog(self, archive: ZipFile, arcname: Optional[Path] = None) -> None:
+    def add_changelog(self, archive: ZipFile, arcname: Path | None = None) -> None:
         """
         Method to add the changelog to the archive.
 
@@ -272,7 +287,7 @@ class GenericAssembler:
 
         if self.changelog_path is not None:
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.get_progress(), "adding changelog to the archive")
+                self.task_progress_callback(self.delta_progress, "adding changelog to the archive")
             if arcname is None:
                 archive.write(self.changelog_path, arcname=self.changelog_path.name)
             else:
@@ -286,8 +301,8 @@ class GenericAssembler:
         :return: None
         """
 
-        with open(README_TEMPLATE, "r") as file:
-            data = "".join(file.readlines())
+        with open(README_TEMPLATE) as f:
+            data = "".join(f.readlines())
 
             version: str = self.release.version
             release_date: str = str(self.release.last_updated.date())
@@ -303,7 +318,7 @@ class GenericAssembler:
 
         :return: the string for the modlist
         """
-        valid_sides: Set[Side] = {
+        valid_sides: set[Side] = {
             Side.CLIENT,
             Side.SERVER,
             Side.BOTH,
@@ -311,18 +326,18 @@ class GenericAssembler:
             Side.SERVER_JAVA9,
             Side.BOTH_JAVA9,
         }
-        lines: List[str] = []
+        lines: list[str] = []
 
         # it seems i'm obligated to get mods separatedly because self.get_mods is somehow
         # casting external mods into github mods
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
         for mod, version in github_mods:
             assert isinstance(mod, GTNHModInfo)
             lines.append(f"| [{mod.name}]({mod.repo_url}) | {version.version_tag} |")
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
 
         for mod, version in external_mods:
             assert not mod.is_github()
@@ -330,7 +345,7 @@ class GenericAssembler:
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))
 
-    async def add_localisation_files(self, archive: ZipFile, root_path: Optional[str] = None) -> None:
+    async def add_localisation_files(self, archive: ZipFile, root_path: str | None = None) -> None:
         """
         Method adding the localisation files found in the cache.
 
@@ -338,8 +353,8 @@ class GenericAssembler:
         -------
         None
         """
-        for language in self.modpack_manager.assets.translations.versions:
-            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+        for language in self.context.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.context.assets.translations, language)
             list_of_files = archive.namelist()
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():
@@ -358,7 +373,7 @@ class GenericAssembler:
                             shutil.copyfileobj(config_item, target)
                             if self.task_progress_callback is not None:
                                 self.task_progress_callback(
-                                    self.get_progress(),
+                                    self.delta_progress,
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
                     await self.yield_to_event_loop()

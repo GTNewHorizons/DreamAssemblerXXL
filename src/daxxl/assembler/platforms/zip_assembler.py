@@ -1,17 +1,15 @@
-import shutil
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, List, Optional, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, SERVER_PROPERTIES_FILE, ServerBrand, Side
 from daxxl.gtnh_logger import get_logger
-from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.modpack_manager import GTNHModpackManager
 from daxxl.utils import normalize_archive_permissions
 
 log = get_logger(__name__)
@@ -22,25 +20,28 @@ class ZipAssembler(GenericAssembler):
     Zip assembler class. Allows for the assembling of zip archives.
     """
 
+    # little hack to remove the server.properties file from old releases, the assembler writes its own
+    excluded_config_files = frozenset({"server.properties"})
+
     def __init__(
         self,
-        gtnh_modpack: GTNHModpackManager,
+        context: AppContext,
         release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None,
+        task_progress_callback: Callable[[float, str], None] | None = None,
+        global_progress_callback: Callable[[float, str], None] | None = None,
+        changelog_path: Path | None = None,
     ):
         """
         Constructor of the ZipAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
+        :param context: the context instance
         :param release: the target release object
         :param task_progress_callback: the callback to report the progress of the task
         :param global_progress_callback: the callback to report the global progress
         """
         GenericAssembler.__init__(
             self,
-            gtnh_modpack=gtnh_modpack,
+            context=context,
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
@@ -66,9 +67,7 @@ class ZipAssembler(GenericAssembler):
                         archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
 
             if self.task_progress_callback is not None:
-                self.task_progress_callback(
-                    self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
-                )
+                self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
             await self.yield_to_event_loop()
 
     async def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand, side: Side) -> None:
@@ -77,34 +76,11 @@ class ZipAssembler(GenericAssembler):
         for asset in assets:
             archive.write(asset, arcname=asset.relative_to(SERVER_ASSETS_DIR / server_brand.value))
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.get_progress(), f"adding server asset {asset.name} to the archive")
+                self.task_progress_callback(self.delta_progress, f"adding server asset {asset.name} to the archive")
             await self.yield_to_event_loop()
 
         # server.properties
         archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(self.release.version))
-
-    async def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
-        modpack_config: GTNHConfig
-        config_version: Optional[GTNHVersion]
-        modpack_config, config_version = config
-
-        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
-
-        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            for item in [x for x in config_zip.namelist() if x != "server.properties"]:  # little hack to remove the
-                # server.properties file from old releases
-                if item in self.exclusions[side]:
-                    continue
-                with config_zip.open(item) as config_item:
-                    with archive.open(item, "w") as target:
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
-                await self.yield_to_event_loop()
-
-        self.add_changelog(archive)
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side.archive_name()}.zip"
@@ -128,7 +104,7 @@ class ZipAssembler(GenericAssembler):
         if side.is_client():
             amount_of_files += self.get_amount_of_files_in_locales()
 
-        self.set_progress(100 / amount_of_files)
+        self.delta_progress = 100 / amount_of_files
         await GenericAssembler.assemble(self, side, verbose)
 
         if side.is_server():
@@ -142,7 +118,7 @@ class ZipAssembler(GenericAssembler):
                 await self.add_localisation_files(archive)
                 await normalize_archive_permissions(archive)
 
-    def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
+    def get_server_assets(self, server_brand: ServerBrand, side: Side) -> list[Path]:
         """
         return the list of Path objects corresponding to the server brand's assets.
 
@@ -150,25 +126,15 @@ class ZipAssembler(GenericAssembler):
         :return: a list of Path objects
         """
         assets_root: Path = SERVER_ASSETS_DIR / server_brand.value
-        path_objects: List[Path] = [path_object for path_object in assets_root.iterdir()]
+        path_objects: list[Path] = [path_object for path_object in assets_root.iterdir()]
 
-        assets: List[Path] = []
-        folders: List[Path]
+        assets: list[Path] = []
+        folders: list[Path]
 
         while len(path_objects) > 0:
-            assets.extend(
-                [
-                    file
-                    for file in path_objects
-                    if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]
-                ]
-            )
+            assets.extend([file for file in path_objects if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]])
 
-            folders = [
-                folder
-                for folder in path_objects
-                if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]
-            ]
+            folders = [folder for folder in path_objects if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]]
             path_objects = []
             for folder in folders:
                 path_objects.extend([path for path in folder.iterdir()])

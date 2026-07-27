@@ -1,47 +1,32 @@
 from asyncio import Task
+from collections.abc import Callable
+from dataclasses import dataclass
 from tkinter import DISABLED, Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional, Union
+from typing import Any
 
 from daxxl.gui.lib.button import CustomButton
 from daxxl.gui.lib.custom_widget import CustomWidget
 from daxxl.gui.lib.progress_bar import CustomProgressBar
 
 
+@dataclass
 class ButtonArrayCallback:
-    def __init__(
-        self,
-        update_asset: Callable[[], Task[None]],
-        generate_experimental: Callable[[], Task[None]],
-        generate_daily: Callable[[], Task[None]],
-        client_prism: Callable[[], Task[None]],
-        client_prism_j9: Callable[[], Task[None]],
-        client_zip: Callable[[], Task[None]],
-        server_zip: Callable[[], Task[None]],
-        server_zip_j9: Callable[[], Task[None]],
-        client_curse: Callable[[], Task[None]],
-        client_modrinth: Callable[[], Task[None]],
-        client_technic: Callable[[], Task[None]],
-        update_all: Callable[[], Task[None]],
-        update_beta: Callable[[], Task[None]],
-        generate_changelog: Callable[[], Task[None]],
-        generate_intermediate_cf_files: Callable[[], Task[None]],
-    ) -> None:
-        self.update_assets: Callable[[], Task[None]] = update_asset
-        self.generate_experimental: Callable[[], Task[None]] = generate_experimental
-        self.generate_daily: Callable[[], Task[None]] = generate_daily
-        self.client_prism: Callable[[], Task[None]] = client_prism
-        self.client_prism_j9: Callable[[], Task[None]] = client_prism_j9
-        self.client_zip: Callable[[], Task[None]] = client_zip
-        self.server_zip: Callable[[], Task[None]] = server_zip
-        self.server_zip_j9: Callable[[], Task[None]] = server_zip_j9
-        self.client_curse: Callable[[], Task[None]] = client_curse
-        self.client_modrinth: Callable[[], Task[None]] = client_modrinth
-        self.client_technic: Callable[[], Task[None]] = client_technic
-        self.all: Callable[[], Task[None]] = update_all
-        self.beta: Callable[[], Task[None]] = update_beta
-        self.generate_changelog: Callable[[], Task[None]] = generate_changelog
-        self.generate_intermediate_cf_files: Callable[[], Task[None]] = generate_intermediate_cf_files
+    update_assets: Callable[[], Task[None]]
+    generate_experimental: Callable[[], Task[None]]
+    generate_daily: Callable[[], Task[None]]
+    client_prism: Callable[[], Task[None]]
+    client_prism_j9: Callable[[], Task[None]]
+    client_zip: Callable[[], Task[None]]
+    server_zip: Callable[[], Task[None]]
+    server_zip_j9: Callable[[], Task[None]]
+    client_curse: Callable[[], Task[None]]
+    client_modrinth: Callable[[], Task[None]]
+    client_technic: Callable[[], Task[None]]
+    update_all: Callable[[], Task[None]]
+    update_beta: Callable[[], Task[None]]
+    generate_changelog: Callable[[], Task[None]]
+    generate_intermediate_cf_files: Callable[[], Task[None]]
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):
@@ -56,7 +41,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         callbacks: ButtonArrayCallback,
         update_experimental: Callable[[], None],
         update_daily: Callable[[], None],
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ):
@@ -67,7 +52,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -78,21 +63,15 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        self.frame_btn: Union[Frame, TtkFrame] = TtkFrame(self) if themed else Frame(self)
+        self.frame_btn: Frame | TtkFrame = TtkFrame(self) if themed else Frame(self)
 
         self.update_experimental: Callable[[], None] = update_experimental
         self.update_daily: Callable[[], None] = update_daily
         self.callbacks: ButtonArrayCallback = callbacks
 
-        self.btn_client_cf: CustomButton = CustomButton(
-            self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed
-        )
-        self.btn_client_technic: CustomButton = CustomButton(
-            self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed
-        )
-        self.btn_client_prism: CustomButton = CustomButton(
-            self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed
-        )
+        self.btn_client_cf: CustomButton = CustomButton(self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed)
+        self.btn_client_technic: CustomButton = CustomButton(self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed)
+        self.btn_client_prism: CustomButton = CustomButton(self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed)
         self.btn_client_prism_j9: CustomButton = CustomButton(
             self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_prism_j9, themed=self.themed
         )
@@ -103,30 +82,16 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             themed=self.themed,
             state=DISABLED,
         )
-        self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate stable release", command=callbacks.all, themed=self.themed
-        )
-        self.btn_generate_beta: CustomButton = CustomButton(
-            self.frame_btn, text="Generate beta/RC release", command=callbacks.beta, themed=self.themed
-        )
+        self.btn_generate_all: CustomButton = CustomButton(self.frame_btn, text="Generate stable release", command=callbacks.update_all, themed=self.themed)
+        self.btn_generate_beta: CustomButton = CustomButton(self.frame_btn, text="Generate beta/RC release", command=callbacks.update_beta, themed=self.themed)
         self.btn_update_experimental: CustomButton = CustomButton(
             self.frame_btn, text="Update experimental profile", command=update_experimental, themed=self.themed
         )
-        self.btn_update_daily: CustomButton = CustomButton(
-            self.frame_btn, text="Update daily profile", command=update_daily, themed=self.themed
-        )
-        self.btn_update_assets: CustomButton = CustomButton(
-            self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed
-        )
-        self.btn_client_zip: CustomButton = CustomButton(
-            self.frame_btn, text="Zip client archive", command=callbacks.client_zip, themed=self.themed
-        )
-        self.btn_server_zip: CustomButton = CustomButton(
-            self.frame_btn, text="Zip server archive", command=callbacks.server_zip, themed=self.themed
-        )
-        self.btn_server_zip_j9: CustomButton = CustomButton(
-            self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed
-        )
+        self.btn_update_daily: CustomButton = CustomButton(self.frame_btn, text="Update daily profile", command=update_daily, themed=self.themed)
+        self.btn_update_assets: CustomButton = CustomButton(self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed)
+        self.btn_client_zip: CustomButton = CustomButton(self.frame_btn, text="Zip client archive", command=callbacks.client_zip, themed=self.themed)
+        self.btn_server_zip: CustomButton = CustomButton(self.frame_btn, text="Zip server archive", command=callbacks.server_zip, themed=self.themed)
+        self.btn_server_zip_j9: CustomButton = CustomButton(self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed)
         self.btn_generate_changelog: CustomButton = CustomButton(
             self.frame_btn, text="Generate changelog", command=callbacks.generate_changelog, themed=self.themed
         )
@@ -140,15 +105,11 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
 
         progress_bar_length: int = 500
 
-        self.progress_bar_global = CustomProgressBar(
-            self, label_text="test global", progress_bar_length=progress_bar_length
-        )
+        self.progress_bar_global = CustomProgressBar(self, label_text="test global", progress_bar_length=progress_bar_length)
 
-        self.progress_bar_current_task = CustomProgressBar(
-            self, label_text="test current task", progress_bar_length=progress_bar_length
-        )
+        self.progress_bar_current_task = CustomProgressBar(self, label_text="test current task", progress_bar_length=progress_bar_length)
 
-        self.widgets: List[CustomWidget] = [
+        self.widgets: list[CustomWidget] = [
             self.btn_client_cf,
             self.btn_client_technic,
             self.btn_client_modrinth,
@@ -167,9 +128,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self.progress_bar_global,
             self.progress_bar_current_task,
         ]
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         rows: int = 5
 
@@ -179,15 +138,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.columnconfigure(0, weight=1, pad=self.ypadding)
 
         self.update_widget()
-
-    def populate_data(self, data: Any) -> None:
-        """
-        Method called by parent class to populate data in this class.
-
-        :param data: the data to pass to this class
-        :return: None
-        """
-        pass
 
     def show(self) -> None:
         """
@@ -238,30 +188,21 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         :return: None
         """
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
         # manual override
         length_coef: int = 4  # coef used arbitrarily to demultiply the length of the labels for progress bars
-        self.progress_bar_global.configure(width=length_coef * self.width)
-        self.progress_bar_current_task.configure(width=length_coef * self.width)
+        self.progress_bar_global.configure(width=length_coef * self._width)
+        self.progress_bar_current_task.configure(width=length_coef * self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """

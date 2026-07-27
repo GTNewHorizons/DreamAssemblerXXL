@@ -1,9 +1,11 @@
 import json
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, List, Optional
 
 from colorama import Fore, Style
 from gidgethub.httpx import GitHubAPI
+
+from daxxl.defs import DevRelease
 
 try:
     from packaging.version import LegacyVersion
@@ -19,7 +21,7 @@ from daxxl.defs import (
     ModSource,
     Side,
 )
-from daxxl.github.uri import repo_releases_uri
+from daxxl.github.uri import GitHubURI
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_version import version_from_release
@@ -36,6 +38,7 @@ class AssetService:
         self.gh_client = gh_client
         self.gh = gh
         self.org = org
+        self.uri = GitHubURI(org)
         self.assets = self.load_assets()
 
     @property
@@ -58,8 +61,8 @@ class AssetService:
         """
         Saves the Available Mods Manifest
         """
-        log.debug(f"Saving assets to from {self.gtnh_asset_manifest_path}")
-        dumped = self.assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
+        log.debug(f"Saving assets to {self.gtnh_asset_manifest_path}")
+        dumped = self.assets.json(by_alias=True, exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
         if dumped:
             atomic_write_text(self.gtnh_asset_manifest_path, dumped)
         else:
@@ -116,7 +119,7 @@ class AssetService:
         log.info(f"Successfully deleted {name}!")
         return True
 
-    async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
+    async def regen_github_assets(self, callback: Callable[[float, str], None] | None = None) -> None:
         log.debug("refreshing all the github mods")
         repo_names = [mod.name for mod in self.assets.mods if mod.source == ModSource.github]
         delta_progress: float = 100 / len(repo_names)
@@ -126,8 +129,8 @@ class AssetService:
     async def regen_github_repo_asset(
         self,
         repo_name: str,
-        callback: Optional[Callable[[float, str], None]] = None,
-        delta_progress: Optional[float] = None,
+        callback: Callable[[float, str], None] | None = None,
+        delta_progress: float | None = None,
     ) -> None:
 
         if callback is not None and delta_progress is not None:
@@ -147,17 +150,13 @@ class AssetService:
     async def regen_config_assets(self) -> None:
         self.assets.config.versions = []
         self.assets.config.latest_version = "0.0.0"
-        await self.update_versionable_from_repo(
-            self.assets.config, await self.gh_client.get_repo(self.assets.config.name)
-        )
+        await self.update_versionable_from_repo(self.assets.config, await self.gh_client.get_repo(self.assets.config.name))
         self.save_assets()
 
     async def regen_translation_assets(self) -> None:
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
-        await self.update_translations_from_repo(
-            self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name)
-        )
+        await self.update_translations_from_repo(self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name))
         self.save_assets()
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
@@ -183,9 +182,7 @@ class AssetService:
 
         return mod
 
-    async def update_versionable_from_repo(
-        self, versionable: Versionable, repo: AttributeDict, releaseVersion: str | None = None
-    ) -> bool:
+    async def update_versionable_from_repo(self, versionable: Versionable, repo: AttributeDict, release_version: str | None = None) -> bool:
         """
         Attempt to update a versionable asset from a github repository.
         :param versionable: The asset to check for update
@@ -195,23 +192,17 @@ class AssetService:
         version_updated = False
         versionable_updated = False
         version_outdated = False
-        log.debug(
-            f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
-        )
+        log.debug(f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates")
 
-        if releaseVersion == "daily":
+        if release_version == DevRelease.DAILY.value:
             if isinstance(versionable, GTNHModInfo):
                 await self.update_github_mod_from_repo(versionable, repo)
-            await self.update_versions_from_repo(versionable, repo, releaseVersion=releaseVersion)
+            await self.update_versions_from_repo(versionable, repo, release_version=release_version)
 
-            compareVersions = versionable.versions.copy()
+            compare_versions = versionable.versions.copy()
 
             versionable.latest_version = next(
-                (
-                    version.version_tag
-                    for version in sorted(compareVersions, key=version_sort_key, reverse=True)
-                    if not version.version_tag.endswith("-pre")
-                ),
+                (version.version_tag for version in sorted(compare_versions, key=version_sort_key, reverse=True) if not version.version_tag.endswith("-pre")),
                 "<unknown>",
             )
 
@@ -224,10 +215,7 @@ class AssetService:
         if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
             version_updated = True
-            log.debug(
-                f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
-                f"{Fore.RESET}"
-            )
+            log.debug(f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}")
         elif version_is_older(latest_version, versionable.latest_version):
             log.warn(
                 f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.RED}{latest_version}"
@@ -242,9 +230,7 @@ class AssetService:
 
         # Versionable
         if version_updated or not versionable.versions:
-            versionable_updated |= await self.update_versions_from_repo(
-                versionable, repo, releaseVersion=releaseVersion
-            )
+            versionable_updated |= await self.update_versions_from_repo(versionable, repo, release_version=release_version)
 
         if versionable_updated:
             versionable.needs_attention = False
@@ -299,21 +285,21 @@ class AssetService:
         return True
 
     async def update_versions_from_repo(
-        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, releaseVersion: str | None = None
+        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, release_version: str | None = None
     ) -> bool:
         # dont update mods with a side of NONE
         if isinstance(asset, GTNHModInfo):
             if asset.side == Side.NONE:
                 return False
 
-        releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
+        releases = [AttributeDict(r) async for r in self.gh.getiter(self.uri.releases(repo.name))]
         if for_translation:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
         # Sorted releases, newest version first
-        sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
+        sorted_releases: list[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
 
-        if releaseVersion == "daily":
+        if release_version == DevRelease.DAILY.value:
             sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
             # if latest version is a -pre release, reset to latest valid release
             if asset.latest_version.endswith("-pre"):
@@ -336,15 +322,12 @@ class AssetService:
                     # Hit the old latest version, no more newer releases
                     break
 
-            version = version_from_release(release, asset.type)
+            version = version_from_release(release, asset.versionable_type)
             if not version:
                 continue
 
             if for_translation:
-                log.info(
-                    f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> "
-                    f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
-                )
+                log.info(f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> {Fore.GREEN}{version.version_tag}{Style.RESET_ALL}")
                 asset.latest_version = version.version_tag
             elif version_is_newer(version.version_tag, asset.latest_version):
                 log.info(
@@ -355,17 +338,14 @@ class AssetService:
                 asset.latest_version = version.version_tag
 
             if not asset.has_version(release.tag_name):
-                log.debug(
-                    f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset "
-                    f"`{Fore.CYAN}{asset.name}{Fore.RESET}`"
-                )
+                log.debug(f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset `{Fore.CYAN}{asset.name}{Fore.RESET}`")
                 asset.add_version(version)
 
             version_updated = True
 
         return version_updated
 
-    def set_mod_side(self, mod_name: str, side: str) -> bool:
+    def set_mod_side(self, mod_name: str, side: Side) -> bool:
         if self.assets.has_mod(mod_name):
             mod: GTNHModInfo = self.assets.get_mod(mod_name)
         else:
@@ -376,7 +356,7 @@ class AssetService:
             log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
             return False
 
-        mod.side = Side[side]
+        mod.side = side
         self.save_assets()
 
         log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")

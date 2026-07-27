@@ -38,11 +38,11 @@ class ReleaseNotFoundException(Exception):
     pass
 
 
-class InvalidExperimentalIdException(Exception):
+class InvalidExperimentalIDException(Exception):
     pass
 
 
-class InvalidDailyIdException(Exception):
+class InvalidDailyIDException(Exception):
     pass
 
 

@@ -3,8 +3,8 @@ import asyncclick as click
 import httpx
 from colorama import Fore, Style, init
 
+from daxxl.app_context import AppContext
 from daxxl.gtnh_logger import get_logger
-from daxxl.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
@@ -19,21 +19,21 @@ async def update_check(mods: str | None = None) -> None:
         if mods_to_update:
             log.info(f"Attemting to update mod(s): `{mods_to_update}`")
 
-        m = GTNHModpackManager(client)
+        context = AppContext(client)
 
         log.info("Grabbing all repository information...")
         # Things get cached here
-        await m.get_all_repos()
+        await context.gh_client.get_all_repos()
         log.info("Updating things...")
-        update_errors = await m.update_all(mods_to_update)
+        update_errors = await context.update_orchestrator.update_all(mods_to_update)
         if update_errors:
             log.warn(f"{Fore.YELLOW}{len(update_errors)} asset(s) failed to update, see errors above{Style.RESET_ALL}")
 
-        missing_repos = await m.get_missing_repos()
+        missing_repos = await context.asset_service.get_missing_repos(context.blacklisted_repos)
         if len(missing_repos):
             log.info(f"{Fore.RED}****** Missing Mods:{Style.RESET_ALL} {', '.join(sorted(missing_repos))}")
 
-        missing_maven = m.get_missing_mavens()
+        missing_maven = context.asset_service.get_missing_mavens()
         if len(missing_maven):
             log.info(f"{Fore.RED}****** Missing Maven:{Style.RESET_ALL} {', '.join(sorted(missing_maven))}")
 

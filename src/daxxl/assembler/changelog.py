@@ -1,17 +1,16 @@
 import re
-from typing import List, Optional, Set
 
-from daxxl.defs import Side
+from daxxl.defs import DevRelease, Side
 
 
 class ChangelogEntry:
-    def __init__(self, version: str, changelog_str: Optional[str], prerelease: bool = False) -> None:
+    def __init__(self, version: str, changelog_str: str | None, prerelease: bool = False) -> None:
         self.version = version
         self.no_changelog: bool = changelog_str is None
         self.prerelease = prerelease
         self.changelog_entries = []
         self.new_contributors = []
-        self.full_comparison_url: Optional[str] = None
+        self.full_comparison_url: str | None = None
 
         if changelog_str is not None:
             lines = changelog_str.split("\n")
@@ -45,23 +44,23 @@ class ChangelogCollection:
         self,
         pack_release_version: str,
         mod_name: str,
-        changelog_entries: List[ChangelogEntry],
-        oldest_side: Optional[Side],
+        changelog_entries: list[ChangelogEntry],
+        oldest_side: Side | None,
         newest_side: Side,
         new_mod: bool = False,
     ) -> None:
         self.pack_release_version: str = pack_release_version
         self.mod_name: str = mod_name
         self.new_mod: bool = new_mod
-        self.oldest_side: Optional[Side] = oldest_side
+        self.oldest_side: Side | None = oldest_side
         self.newest_side: Side = newest_side
-        self.contributors: Set[str] = set()
-        self.changelog_entries: List[ChangelogEntry] = changelog_entries[::-1]
+        self.contributors: set[str] = set()
+        self.changelog_entries: list[ChangelogEntry] = changelog_entries[::-1]
         self.oldest: ChangelogEntry = self.changelog_entries[-1]
         self.newest: ChangelogEntry = self.changelog_entries[0]
 
     @classmethod
-    def generate_full_comparison_url(self, oldest: ChangelogEntry, newest: ChangelogEntry) -> Optional[str]:
+    def generate_full_comparison_url(cls, oldest: ChangelogEntry, newest: ChangelogEntry) -> str | None:
         if newest.full_comparison_url is None:
             return None
 
@@ -72,7 +71,7 @@ class ChangelogCollection:
         return f"{root_url}/compare/{oldest.version}...{newest.version}"
 
     @classmethod
-    def get_pretty_side_string(cls, side: Optional[Side]) -> str:
+    def get_pretty_side_string(cls, side: Side | None) -> str:
         if side == Side.CLIENT:
             return "client-side only"
         if side == Side.CLIENT_JAVA9:
@@ -91,13 +90,13 @@ class ChangelogCollection:
             return str(side)
 
     @classmethod
-    def blockquote(cls, strs: List[str]) -> List[str]:
+    def blockquote(cls, strs: list[str]) -> list[str]:
         return [f">{s}" for s in strs]
 
     @classmethod
-    def get_contributors_from_PRs(cls, PR_list: List[str]) -> Set[str]:
+    def get_contributors_from_prs(cls, pr_list: list[str]) -> set[str]:
         contributors = set()
-        for pr in PR_list:
+        for pr in pr_list:
             match = re.search(r"by (@\S+) in http.*$", pr)
             if match:
                 contributors.add(match.group(1))
@@ -105,7 +104,7 @@ class ChangelogCollection:
         return contributors
 
     @classmethod
-    def annotate_version_on_PRs(cls, strs: List[str], version: str) -> List[str]:
+    def annotate_version_on_prs(cls, strs: list[str], version: str) -> list[str]:
         return [f"{s} ({version})" for s in strs]
 
     def generate_mod_changelog(self, compressed: bool = True) -> str:
@@ -136,18 +135,15 @@ class ChangelogCollection:
         # what's changed text:
         lines.append("## What's Changed:")
 
-        version_changelog: List[str] = []
-        new_contributors: List[str] = []
+        version_changelog: list[str] = []
+        new_contributors: list[str] = []
 
         # actual mod version processing:
         for i, changelog_entry in enumerate(self.changelog_entries):
             if (
                 i != 0
-                and self.pack_release_version != "experimental"
-                and (
-                    changelog_entry.prerelease
-                    or (changelog_entry.version.endswith("-pre") or changelog_entry.version.endswith("-dev"))
-                )
+                and self.pack_release_version != DevRelease.EXPERIMENTAL.value
+                and (changelog_entry.prerelease or (changelog_entry.version.endswith("-pre") or changelog_entry.version.endswith("-dev")))
             ):
                 # Only include prerelease changes if it's the latest release
                 continue
@@ -157,7 +153,7 @@ class ChangelogCollection:
                 continue
 
             if not compressed:  # skipping version naming if compressed
-                version_changelog.append((f"## *{changelog_entry.version}*"))
+                version_changelog.append(f"## *{changelog_entry.version}*")
 
             # addition of the version changes
             if changelog_entry.no_changelog and not compressed:
@@ -168,11 +164,11 @@ class ChangelogCollection:
                     version_changelog.append(changelog_entry.full_comparison_url)
             else:
                 entries = changelog_entry.changelog_entries
-                self.contributors |= self.get_contributors_from_PRs(entries)
+                self.contributors |= self.get_contributors_from_prs(entries)
 
                 # annotate each PR with associated release version
                 if compressed:
-                    entries = self.annotate_version_on_PRs(entries, changelog_entry.version)
+                    entries = self.annotate_version_on_prs(entries, changelog_entry.version)
 
                 version_changelog.extend(self.blockquote(entries))
 

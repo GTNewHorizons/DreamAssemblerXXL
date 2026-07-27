@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import TYPE_CHECKING, Optional
+from typing import TYPE_CHECKING
 
 from daxxl.defs import Side
 from daxxl.models.base import GTNHBaseModel
@@ -11,12 +11,10 @@ if TYPE_CHECKING:
 
 class ModVersionInfo(GTNHBaseModel):
     version: str
-    side: Optional[Side] = None
+    side: Side | None = None
 
     @classmethod
-    def create(
-        cls, version: str | None = None, mod: GTNHModInfo | None = None, side: Side | None = None
-    ) -> ModVersionInfo:
+    def create(cls, version: str | None = None, mod: GTNHModInfo | None = None, side: Side | None = None) -> ModVersionInfo:
         if version is None and mod is not None:
             version = mod.latest_version
 

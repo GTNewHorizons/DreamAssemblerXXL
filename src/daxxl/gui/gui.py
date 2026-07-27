@@ -1,9 +1,10 @@
 import asyncio
 import sys
+from collections.abc import Callable
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
-from typing import Any, Callable, Dict, List, Union
+from typing import Any
 
 from async_tkinter_loop import async_mainloop
 from ttkthemes import ThemedTk
@@ -13,7 +14,7 @@ from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
 from daxxl.gui.external.external_panel import ExternalPanel, ExternalPanelCallback
-from daxxl.gui.github.github_panel import GithubPanel, GithubPanelCallback
+from daxxl.gui.github.github_panel import GithubPanel, GithubPanelCallback, GithubPanelData
 from daxxl.gui.lib.decorators import with_error_dialog
 from daxxl.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from daxxl.models.gtnh_release import GTNHRelease
@@ -25,14 +26,14 @@ logger = get_logger(__name__)
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
 
 
-def check(widget: Widget) -> bool:
+def can_disable(widget: Widget) -> bool:
     """
     Check if the given widget is matching one of the types that can be disabled.
 
     :param widget: the given widget
     :return: if yes or no it can be disabled
     """
-    widget_list: List[str] = ["CustomButton", "TextWidget", "CustomListbox", "CustomCombobox"]
+    widget_list: list[str] = ["CustomButton", "TextWidget", "CustomListbox", "CustomCombobox"]
     for widget_type in widget_list:
         if widget_type.lower() in str(widget):
             if widget_type == "CustomButton":
@@ -67,7 +68,7 @@ class Window(ThemedTk, Tk):
         """
         Constructor of the Window class.
 
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         """
         self.themed = themed
         if themed:
@@ -86,7 +87,7 @@ class Window(ThemedTk, Tk):
 
         # frame for the modpack handling
         modpack_panel_callbacks: ModpackPanelCallback = ModpackPanelCallback(
-            update_asset=lambda: asyncio.ensure_future(self.update_assets()),
+            update_assets=lambda: asyncio.ensure_future(self.update_assets()),
             generate_experimental=lambda: asyncio.ensure_future(self.update_experimental()),
             generate_daily=lambda: asyncio.ensure_future(self.update_daily()),
             client_prism=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.PRISM)),
@@ -100,28 +101,18 @@ class Window(ThemedTk, Tk):
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
-            generate_cf_files=lambda: asyncio.ensure_future(self.generate_intermediate_cf_files()),
+            generate_intermediate_cf_files=lambda: asyncio.ensure_future(self.generate_intermediate_cf_files()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
-            add=lambda release_name, previous_version: asyncio.ensure_future(
-                self.add_gtnh_version(release_name, previous_version)
-            ),
+            add=lambda release_name, previous_version: asyncio.ensure_future(self.add_gtnh_version(release_name, previous_version)),
         )
 
-        self.modpack_list_frame: ModpackPanel = ModpackPanel(
-            self, frame_name="Modpack release actions", callbacks=modpack_panel_callbacks
-        )
+        self.modpack_list_frame: ModpackPanel = ModpackPanel(self, frame_name="Modpack release actions", callbacks=modpack_panel_callbacks)
 
-        self.progress_callback: Callable[[float, str], None] = (
-            self.modpack_list_frame.action_frame.progress_bar_current_task.add_progress
-        )
-        self.global_callback: Callable[[float, str], None] = (
-            self.modpack_list_frame.action_frame.progress_bar_global.add_progress
-        )
+        self.progress_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.progress_bar_current_task.add_progress
+        self.global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.progress_bar_global.reset
-        self.current_task_reset_callback: Callable[[], None] = (
-            self.modpack_list_frame.action_frame.progress_bar_current_task.reset
-        )
+        self.current_task_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.progress_bar_current_task.reset
 
         self.controller: ReleaseController = ReleaseController(
             progress_callback=self.progress_callback,
@@ -132,7 +123,7 @@ class Window(ThemedTk, Tk):
 
         # frame for the github mods
         github_panel_callbacks: GithubPanelCallback = GithubPanelCallback(
-            get_gtnh_callback=self.controller.get_modpack_manager,
+            get_context_callback=self.controller.get_context,
             get_github_mods_callback=self.controller.get_github_mods,
             set_mod_version=self.controller.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
@@ -143,12 +134,10 @@ class Window(ThemedTk, Tk):
             reset_current_task_progress_bar=self.current_task_reset_callback,
             reset_global_progress_bar=self.global_reset_callback,
             add_mod_in_memory=self.controller.add_github_mod,
-            del_mod_in_memory=self.controller.del_github_mod,
+            delete_mod_in_memory=self.controller.delete_github_mod,
         )
 
-        self.github_panel: GithubPanel = GithubPanel(
-            self, frame_name="Github mods data", callbacks=github_panel_callbacks
-        )
+        self.github_panel: GithubPanel = GithubPanel(self, frame_name="Github mods data", callbacks=github_panel_callbacks)
 
         # frame for the external mods
 
@@ -156,40 +145,34 @@ class Window(ThemedTk, Tk):
             set_mod_version=self.controller.set_external_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_mod_side_default(name, side)),
-            get_gtnh_callback=self.controller.get_modpack_manager,
+            get_context_callback=self.controller.get_context,
             get_external_mods_callback=self.controller.get_external_mods,
             toggle_freeze=self.trigger_toggle,
             add_mod_in_memory=self.controller.add_external_mod,
-            del_mod_in_memory=self.controller.del_external_mod,
+            delete_mod_in_memory=self.controller.delete_external_mod,
             refresh_external_modlist=self.refresh_external_mods,
         )
 
-        self.external_mod_frame: ExternalPanel = ExternalPanel(
-            self, frame_name="External mod data", callbacks=external_panel_callbacks, themed=self.themed
-        )
+        self.external_mod_frame: ExternalPanel = ExternalPanel(self, frame_name="External mod data", callbacks=external_panel_callbacks, themed=self.themed)
 
         exclusion_client_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
             add=lambda exclusion: asyncio.ensure_future(self.add_exclusion(Side.CLIENT, exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion(Side.CLIENT, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.delete_exclusion(Side.CLIENT, exclusion)),
         )
 
         # frame for the client file exclusions
-        self.exclusion_frame_client: ExclusionPanel = ExclusionPanel(
-            self, "Client exclusions", callbacks=exclusion_client_callbacks, themed=self.themed
-        )
+        self.exclusion_frame_client: ExclusionPanel = ExclusionPanel(self, "Client exclusions", callbacks=exclusion_client_callbacks, themed=self.themed)
 
         exclusion_server_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
             add=lambda exclusion: asyncio.ensure_future(self.add_exclusion(Side.SERVER, exclusion)),
-            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion(Side.SERVER, exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.delete_exclusion(Side.SERVER, exclusion)),
         )
 
         # frame for the server side exclusions
-        self.exclusion_frame_server: ExclusionPanel = ExclusionPanel(
-            self, "Server exclusions", callbacks=exclusion_server_callbacks, themed=self.themed
-        )
+        self.exclusion_frame_server: ExclusionPanel = ExclusionPanel(self, "Server exclusions", callbacks=exclusion_server_callbacks, themed=self.themed)
 
-        width: int = self.github_panel.get_width()
-        self.external_mod_frame.set_width(width)
+        width: int = self.github_panel.width
+        self.external_mod_frame.width = width
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
@@ -215,7 +198,7 @@ class Window(ThemedTk, Tk):
         else:
             state = DISABLED
 
-        if check(widget):
+        if can_disable(widget):
             widget.configure(state=state)
         else:
             if len(widget.winfo_children()) > 0:
@@ -223,9 +206,9 @@ class Window(ThemedTk, Tk):
                     self.toggle(child)
 
     @with_error_dialog(
-        title="An error occured during the generation of the changelog",
+        title="An error occurred during the generation of the changelog",
         message=lambda self: (
-            f"An error occured during the generation of the changelog from "
+            f"An error occurred during the generation of the changelog from "
             f"{self.controller.last_version} to {self.controller.version}."
             "\nPlease check the logs for more information."
         ),
@@ -241,9 +224,8 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title="An error occured during the generation of the intermediate curseforge files",
-        message="An error occured during the generation of the intermediate curseforge files."
-        "\nPlease check the logs for more information.",
+        title="An error occurred during the generation of the intermediate curseforge files",
+        message="An error occurred during the generation of the intermediate curseforge files.\nPlease check the logs for more information.",
     )
     async def generate_intermediate_cf_files(self) -> None:
         """
@@ -252,18 +234,13 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         self.trigger_toggle()
-        await self.controller.generate_intermediate_cf_files(
-            self.modpack_list_frame.action_frame.progress_bar_current_task
-        )
+        await self.controller.generate_intermediate_cf_files(self.modpack_list_frame.action_frame.progress_bar_current_task)
         self.trigger_toggle()
 
     @with_error_dialog(
-        title=lambda self, side, archive_type: (
-            f"An error occured during the assembling {side.value} {archive_type.value} archive"
-        ),
+        title=lambda self, side, archive_type: f"An error occurred during the assembling {side.value} {archive_type.value} archive",
         message=lambda self, side, archive_type: (
-            f"An error occurended during the assembling {side.value} {archive_type.value} archive."
-            "\nPlease check the logs for more information."
+            f"An error occurended during the assembling {side.value} {archive_type.value} archive.\nPlease check the logs for more information."
         ),
     )
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
@@ -277,9 +254,8 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title="An error occured during the update of the assembling of the archives",
-        message="An error occured during the update of the assembling of the archives."
-        "\nPlease check the logs for more information.",
+        title="An error occurred during the update of the assembling of the archives",
+        message="An error occurred during the update of the assembling of the archives.\nPlease check the logs for more information.",
     )
     async def assemble_all(self) -> None:
         """
@@ -292,9 +268,8 @@ class Window(ThemedTk, Tk):
         self.trigger_toggle()
 
     @with_error_dialog(
-        title="An error occured during the update of the assembling of the archives",
-        message="An error occured during the update of the assembling of the archives."
-        "\nPlease check the logs for more information.",
+        title="An error occurred during the update of the assembling of the archives",
+        message="An error occurred during the update of the assembling of the archives.\nPlease check the logs for more information.",
     )
     async def assemble_beta(self) -> None:
         """
@@ -332,7 +307,7 @@ class Window(ThemedTk, Tk):
         except SideAlreadySetException as e:
             showwarning("Side already set up", str(e))
 
-    async def set_mod_side_default(self, mod_name: str, side: str) -> None:
+    async def set_mod_side_default(self, mod_name: str, side: Side) -> None:
         """
         Callback used to set the default side of a mod no matter what is its source (github or external).
 
@@ -344,15 +319,14 @@ class Window(ThemedTk, Tk):
             if not await self.controller.set_mod_side_default(mod_name, side):
                 showerror(
                     "Error setting up the side of the mod",
-                    f"Error during the process of setting up {mod_name}'s side to {side}. "
-                    "Check the logs for more details",
+                    f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
                 )
         except SideAlreadySetException as e:
             showwarning("Side already set up", str(e))
 
     @with_error_dialog(
-        title="An error occured while adding an exclusion",
-        message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
+        title="An error occurred while adding an exclusion",
+        message="An error occurred while saving the exclusion.\nPlease check the logs for more information.",
     )
     async def add_exclusion(self, side: Side, exclusion: str) -> None:
         """
@@ -368,10 +342,10 @@ class Window(ThemedTk, Tk):
         await self._refresh_exclusions(side)
 
     @with_error_dialog(
-        title="An error occured while removing an exclusion",
-        message="An error occured while saving the exclusion.\nPlease check the logs for more information.",
+        title="An error occurred while removing an exclusion",
+        message="An error occurred while saving the exclusion.\nPlease check the logs for more information.",
     )
-    async def del_exclusion(self, side: Side, exclusion: str) -> None:
+    async def delete_exclusion(self, side: Side, exclusion: str) -> None:
         """
         Callback used to remove a file exclusion.
 
@@ -379,7 +353,7 @@ class Window(ThemedTk, Tk):
         :param exclusion: the exclusion string
         :return: None
         """
-        removed = await self.controller.del_exclusion(side, exclusion)
+        removed = await self.controller.delete_exclusion(side, exclusion)
         if not removed:
             showwarning("Exclusion not found", f"'{exclusion}' was not in the {side.value} side exclusions.")
         await self._refresh_exclusions(side)
@@ -392,12 +366,12 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         panel = self.exclusion_frame_client if side == Side.CLIENT else self.exclusion_frame_server
-        panel.populate_data({"exclusions": await self.controller.get_modpack_exclusions(side)})
+        panel.populate_data(await self.controller.get_modpack_exclusions(side))
 
     def _notify_errored_mods(
         self,
-        errored_mods: List[GTNHModInfo],
-        update_errors: List[str],
+        errored_mods: list[GTNHModInfo],
+        update_errors: list[str],
         title: str,
         success_message: str,
         warning_intro: str,
@@ -419,27 +393,24 @@ class Window(ThemedTk, Tk):
             showinfo(title, success_message)
             return
 
-        sections: List[str] = []
+        sections: list[str] = []
         if update_errors:
             sections.append("The following assets failed to update and may be stale:\n" + "\n".join(update_errors))
         if errored_mods:
             sections.append(
-                "\n".join(
-                    f"mod {mod.name} has {mod.latest_version} which is older than newest version availiable on github"
-                    for mod in errored_mods
-                )
+                "\n".join(f"mod {mod.name} has {mod.latest_version} which is older than newest version available on github" for mod in errored_mods)
                 + "\nThis means tags had been done wrongly."
             )
 
         showwarning(title, warning_intro + "\n\n".join(sections))
 
     @with_error_dialog(
-        title="An error occured during the update of the assets",
-        message="An error occured during the update of the assets.\nPlease check the logs for more information.",
+        title="An error occurred during the update of the assets",
+        message="An error occurred during the update of the assets.\nPlease check the logs for more information.",
     )
     async def update_assets(self) -> None:
         """
-        Callback to update update all the availiable assets.
+        Callback to update update all the available assets.
 
         :return: None
         """
@@ -455,11 +426,11 @@ class Window(ThemedTk, Tk):
             warning_intro="The assets had been updated BUT:\n",
         )
 
-    async def _update_dev_release(self, release_type: str) -> None:
+    async def _update_dev_release(self, release_type: DevRelease) -> None:
         """
         update dev release (experimental/daily).
 
-        :param release_type: "experimental" or "daily"
+        :param release_type: DevRelease type
         :return: None
         """
         self.trigger_toggle()
@@ -469,15 +440,14 @@ class Window(ThemedTk, Tk):
         self._notify_errored_mods(
             errored_mods,
             update_errors,
-            title=f"updated the {release_type} release metadata",
-            success_message=f"The {release_type} release metadata had been updated!",
-            warning_intro=f"The {release_type} release metadata had been updated BUT:\n",
+            title=f"updated the {release_type.value} release metadata",
+            success_message=f"The {release_type.value} release metadata had been updated!",
+            warning_intro=f"The {release_type.value} release metadata had been updated BUT:\n",
         )
 
     @with_error_dialog(
-        title="An error occured during the update of the experimental build",
-        message="An error occured during the update of the experimental build."
-        "\nPlease check the logs for more information.",
+        title="An error occurred during the update of the experimental build",
+        message="An error occurred during the update of the experimental build.\nPlease check the logs for more information.",
     )
     async def update_experimental(self) -> None:
         """
@@ -485,11 +455,11 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        await self._update_dev_release(DevRelease.EXPERIMENTAL.value)
+        await self._update_dev_release(DevRelease.EXPERIMENTAL)
 
     @with_error_dialog(
-        title="An error occured during the update of the daily build",
-        message="An error occured during the update of the daily build.\nPlease check the logs for more information.",
+        title="An error occurred during the update of the daily build",
+        message="An error occurred during the update of the daily build.\nPlease check the logs for more information.",
     )
     async def update_daily(self) -> None:
         """
@@ -497,9 +467,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        await self._update_dev_release(DevRelease.DAILY.value)
+        await self._update_dev_release(DevRelease.DAILY)
 
-    async def load_gtnh_version(self, release: Union[GTNHRelease, str], init: bool = False) -> None:
+    async def load_gtnh_version(self, release: GTNHRelease | str, init: bool = False) -> None:
         """
         Callback to load in memory a pack release.
 
@@ -579,31 +549,23 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         # load last gtnh version if there is any:
-        releases: List[GTNHRelease] = await self.controller.get_releases()
+        releases: list[GTNHRelease] = await self.controller.get_releases()
         if len(releases) > 0:
             await self.load_gtnh_version(releases[-1], init=True)
 
-        data_github_mods: Dict[str, Any] = {
-            "github_mod_list": await self.controller.get_repos(),
-            "modpack_version_frame": {
-                "combobox": await self.controller.get_modpack_versions(),
-                "stringvar": self.controller.gtnh_config,
-            },
-        }
+        data_github_mods: GithubPanelData = GithubPanelData(
+            github_mod_list=await self.controller.get_repos(),
+            modpack_versions=await self.controller.get_modpack_versions(),
+            current_modpack_version=self.controller.gtnh_config,
+        )
 
         self.github_panel.populate_data(data_github_mods)
 
-        data_external_mods: Dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
-
-        self.external_mod_frame.populate_data(data_external_mods)
+        self.external_mod_frame.populate_data(await self.controller.get_external_modlist())
 
         self.modpack_list_frame.populate_data(await self.controller.get_releases())
-        self.exclusion_frame_server.populate_data(
-            {"exclusions": await self.controller.get_modpack_exclusions(Side.SERVER)}
-        )
-        self.exclusion_frame_client.populate_data(
-            {"exclusions": await self.controller.get_modpack_exclusions(Side.CLIENT)}
-        )
+        self.exclusion_frame_server.populate_data(await self.controller.get_modpack_exclusions(Side.SERVER))
+        self.exclusion_frame_client.populate_data(await self.controller.get_modpack_exclusions(Side.CLIENT))
 
     def run(self) -> None:
         """
@@ -619,9 +581,7 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        data_external_mods: Dict[str, Any] = {"external_mod_list": await self.controller.get_external_modlist()}
-
-        self.external_mod_frame.populate_data(data_external_mods)
+        self.external_mod_frame.populate_data(await self.controller.get_external_modlist())
 
     async def close_app(self) -> None:
         """

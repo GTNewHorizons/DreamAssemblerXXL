@@ -1,10 +1,9 @@
-from datetime import datetime, timezone
-from typing import Dict
+from datetime import UTC, datetime
 
 from colorama import Fore
 from pydantic import Field, ValidationError
 
-from daxxl.defs import RELEASE_MANIFEST_DIR, ModSource
+from daxxl.defs import RELEASE_MANIFEST_DIR, DevRelease, ModSource
 from daxxl.exceptions import InvalidReleaseException, NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
@@ -16,9 +15,9 @@ log = get_logger(__name__)
 
 
 class GTNHRelease(GTNHBaseModel):
-    version: str = Field(default="experimental")
+    version: str = Field(default=DevRelease.EXPERIMENTAL.value)
     last_version: str | None = Field(default=None)
-    last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    last_updated: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     # ModName, Version
     config: str
@@ -64,9 +63,9 @@ class GTNHRelease(GTNHBaseModel):
 
 
 class __GTNHReleaseV1(GTNHBaseModel):
-    version: str = Field(default="experimental")
+    version: str = Field(default=DevRelease.EXPERIMENTAL.value)
     last_version: str | None = Field(default=None)
-    last_updated: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    last_updated: datetime = Field(default_factory=lambda: datetime.now(UTC))
 
     # ModName, Version
     config: str
@@ -74,7 +73,7 @@ class __GTNHReleaseV1(GTNHBaseModel):
     external_mods: dict[str, str]
 
 
-def __process_mod_list(data: dict[str, str]) -> Dict[str, ModVersionInfo]:
+def __process_mod_list(data: dict[str, str]) -> dict[str, ModVersionInfo]:
     return {k: ModVersionInfo(version=v) for k, v in data.items()}
 
 

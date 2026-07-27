@@ -1,9 +1,11 @@
 import asyncio
 from asyncio import Task
+from collections.abc import Callable
+from dataclasses import dataclass, field
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional
+from typing import Any
 
 from daxxl.defs import Side
 from daxxl.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
@@ -16,17 +18,39 @@ from daxxl.gui.lib.listbox import CustomListbox
 USE_DEFAULT = "NOT SET"
 
 
+@dataclass
+class ModInfoData:
+    """
+    The mod details a panel hands to ModInfoWidget for display.
+
+    `side` is the side for the loaded release, which is None when the release doesn't pin one and the
+    mod's own default applies instead. `side_default` is that default, and is always set.
+    """
+
+    name: str
+    versions: list[str]
+    current_version: str
+    license: str
+    side: Side | None
+    side_default: Side
+
+    @property
+    def display_side(self) -> str:
+        """
+        The value to show in the "side this release" combobox, falling back to the USE_DEFAULT
+        placeholder when the release pins no side of its own.
+        """
+        return self.side.value if self.side else USE_DEFAULT
+
+
+@dataclass
 class ModInfoCallback:
-    def __init__(
-        self,
-        set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], Task[None]],
-        set_mod_side_default: Callable[[str, str], Task[None]],
-    ):
-        self.set_mod_version: Callable[[str, str], None] = set_mod_version
-        self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
-        self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
-        self.listbox: CustomListbox = None  # type: ignore
+    set_mod_version: Callable[[str, str], None]
+    set_mod_side: Callable[[str, Side], Task[None]]
+    set_mod_side_default: Callable[[str, Side], Task[None]]
+    # attached after construction via attach_listbox_object; init=False keeps it out of __init__ so
+    # subclasses can still declare required fields after it
+    listbox: CustomListbox = field(default=None, init=False)  # type: ignore
 
     def attach_listbox_object(self, listbox: CustomListbox) -> None:
         self.listbox = listbox
@@ -42,10 +66,10 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ModInfoCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         external_mods: bool = False,
-        mod_adder_callbacks: Optional[ModAdderCallback] = None,
+        mod_adder_callbacks: ModAdderCallback | None = None,
         **kwargs: Any,
     ) -> None:
         """
@@ -55,7 +79,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -67,17 +91,13 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         self.xpadding: int = 0
         self.callbacks: ModInfoCallback = callbacks
         self._set_mod_side: Callable[[str, Side], Task[None]] = callbacks.set_mod_side
-        self._set_mod_side_default: Callable[[str, str], Task[None]] = callbacks.set_mod_side_default
+        self._set_mod_side_default: Callable[[str, Side], Task[None]] = callbacks.set_mod_side_default
         self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
         self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)
-        self.version: CustomCombobox = CustomCombobox(
-            self, label_text="Mod version:", values=[], on_selection=self.set_mod_version, themed=self.themed
-        )
+        self.version: CustomCombobox = CustomCombobox(self, label_text="Mod version:", values=[], on_selection=self.set_mod_version, themed=self.themed)
         self.license: CustomLabel = CustomLabel(self, label_text="Mod license: {0}", value="", themed=self.themed)
-        self.side: CustomCombobox = CustomCombobox(
-            self, label_text="Mod side this release:", values=[], on_selection=self.set_mod_side, themed=self.themed
-        )
+        self.side: CustomCombobox = CustomCombobox(self, label_text="Mod side this release:", values=[], on_selection=self.set_mod_side, themed=self.themed)
         self.side_default: CustomCombobox = CustomCombobox(
             self, label_text="Mod side default:", values=[], on_selection=self.set_mod_side_default, themed=self.themed
         )
@@ -91,7 +111,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         )
 
         self.mod_adder_callbacks = mod_adder_callbacks
-        self.widgets: List[CustomWidget]
+        self.widgets: list[CustomWidget]
         if external_mods:
             self.widgets = [
                 self.mod_name,
@@ -103,9 +123,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
             ]
         else:
             self.widgets = [self.mod_name, self.version, self.license, self.side, self.side_default]
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
     async def edit_version(self) -> None:
         if not self.callbacks.listbox.has_selection():
@@ -134,8 +152,8 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
             themed=self.themed,
             edit_version_mode=True,
         )
-        gtnh = await self.mod_adder_callbacks.get_gtnh_callback()  # type: ignore
-        data = gtnh.assets.get_mod(mod_name)
+        context = await self.mod_adder_callbacks.get_context_callback()  # type: ignore
+        data = context.assets.get_mod(mod_name)
         version = data.get_version(version)
         mod_addition_frame.populate_data(mod=data, version=version)
         mod_addition_frame.grid()
@@ -168,7 +186,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         mod_name: str = self.current_mod_name
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
-        side: str = self.side_default.get()
+        side: Side = Side(self.side_default.get())
         self._set_mod_side_default(mod_name, side)
 
     def set_mod_version(self, _: Any) -> None:
@@ -196,25 +214,16 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         :return: None
         """
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """
@@ -252,26 +261,26 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         for i, widget in enumerate(self.widgets):
             widget.grid(row=i, column=0)
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: ModInfoData) -> None:
         """
         Method called by parent class to populate data in this class.
 
         :param data: the data to pass to this class
         :return: None
         """
-        self.mod_name.set(data["name"])
-        self.current_mod_name = data["name"]
+        self.mod_name.set(data.name)
+        self.current_mod_name = data.name
 
-        self.version.set_values(data["versions"])
-        self.version.set(data["current_version"])
+        self.version.set_values(data.versions)
+        self.version.set(data.current_version)
 
-        self.license.set(data["license"])
+        self.license.set(data.license)
 
-        self.side.set_values([side.name for side in Side])
-        self.side.set(data["side"] or USE_DEFAULT)
+        self.side.set_values([side.value for side in Side])
+        self.side.set(data.display_side)
 
-        self.side_default.set_values([side.name for side in Side])
-        self.side_default.set(data["side_default"])
+        self.side_default.set_values([side.value for side in Side])
+        self.side_default.set(data.side_default.value)
 
     def reset(self) -> None:
         """

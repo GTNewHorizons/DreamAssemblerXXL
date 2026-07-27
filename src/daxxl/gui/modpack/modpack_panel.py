@@ -1,55 +1,19 @@
-from asyncio import Task
+from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, List, Optional
+from typing import Any
 
-from daxxl.defs import Position
+from daxxl.defs import DevRelease, Position
 from daxxl.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
 from daxxl.gui.modpack.release_list import ReleaseList, ReleaseListCallback
+from daxxl.models.gtnh_release import GTNHRelease
 
 
+@dataclass
 class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
-    def __init__(
-        self,
-        update_asset: Callable[[], Task[None]],
-        generate_experimental: Callable[[], Task[None]],
-        generate_daily: Callable[[], Task[None]],
-        client_prism: Callable[[], Task[None]],
-        client_prism_j9: Callable[[], Task[None]],
-        client_zip: Callable[[], Task[None]],
-        server_zip: Callable[[], Task[None]],
-        server_zip_j9: Callable[[], Task[None]],
-        client_curse: Callable[[], Task[None]],
-        client_modrinth: Callable[[], Task[None]],
-        client_technic: Callable[[], Task[None]],
-        update_all: Callable[[], Task[None]],
-        update_beta: Callable[[], Task[None]],
-        generate_changelog: Callable[[], Task[None]],
-        generate_cf_files: Callable[[], Task[None]],
-        load: Callable[[str], Task[None]],
-        delete: Callable[[str], Task[None]],
-        add: Callable[[str, str], Task[None]],
-    ):
-        ButtonArrayCallback.__init__(
-            self,
-            update_asset=update_asset,
-            generate_experimental=generate_experimental,
-            generate_daily=generate_daily,
-            client_prism=client_prism,
-            client_prism_j9=client_prism_j9,
-            client_zip=client_zip,
-            server_zip=server_zip,
-            server_zip_j9=server_zip_j9,
-            client_curse=client_curse,
-            client_modrinth=client_modrinth,
-            client_technic=client_technic,
-            update_all=update_all,
-            update_beta=update_beta,
-            generate_changelog=generate_changelog,
-            generate_intermediate_cf_files=generate_cf_files,
-        )
-
-        ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)
+    """
+    The union of the button-array and release-list callbacks, with no members of its own.
+    """
 
 
 class ModpackPanel(LabelFrame, TtkLabelFrame):
@@ -60,7 +24,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ModpackPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ) -> None:
@@ -71,7 +35,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -81,7 +45,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
             LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.width: int = width if width is not None else 20  # arbitrary value
+        self._width: int = width if width is not None else 20  # arbitrary value
 
         self.callbacks: ModpackPanelCallback = callbacks
 
@@ -94,9 +58,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.modpack_list: ReleaseList = ReleaseList(
-            self, frame_name="Modpack Versions", callbacks=self.callbacks, themed=self.themed
-        )
+        self.modpack_list: ReleaseList = ReleaseList(self, frame_name="Modpack Versions", callbacks=self.callbacks, themed=self.themed)
 
     def update_experimental(self) -> None:
         """
@@ -105,9 +67,9 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.callbacks.generate_experimental()
-        data: List[str] = list(self.modpack_list.listbox.get_values())
-        if "experimental" not in data:
-            data.insert(0, "experimental")
+        data: list[str] = list(self.modpack_list.listbox.get_values())
+        if DevRelease.EXPERIMENTAL.value not in data:
+            data.insert(0, DevRelease.EXPERIMENTAL.value)
             self.modpack_list.listbox.set_values(data)
 
     def update_daily(self) -> None:
@@ -117,9 +79,9 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         self.callbacks.generate_daily()
-        data: List[str] = list(self.modpack_list.listbox.get_values())
-        if "daily" not in data:
-            data.insert(0, "daily")
+        data: list[str] = list(self.modpack_list.listbox.get_values())
+        if DevRelease.DAILY.value not in data:
+            data.insert(0, DevRelease.DAILY.value)
             self.modpack_list.listbox.set_values(data)
 
     def configure_widgets(self) -> None:
@@ -131,24 +93,15 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         self.modpack_list.configure_widgets()
         self.action_frame.configure_widgets()
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
-        self.modpack_list.set_width(self.width)
-        self.action_frame.set_width(self.width)
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
+        self.modpack_list.width = self._width
+        self.action_frame.width = self._width
 
     def update_widget(self) -> None:
         """
@@ -191,7 +144,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
         self.modpack_list.show()
         self.action_frame.show()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: list[GTNHRelease]) -> None:
         """
         Method called by parent class to populate data in this class.
 

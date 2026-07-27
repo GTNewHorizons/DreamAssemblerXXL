@@ -1,6 +1,7 @@
+from collections.abc import Callable
 from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Combobox, Frame as TtkFrame, Label as TtkLabel
-from typing import Any, Callable, List, Optional, Union
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -11,11 +12,11 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
         self,
         master: Any,
         label_text: str,
-        values: List[str] = [],
+        values: list[str] = [],
         hide_label: bool = False,
-        on_selection: Optional[Callable[[Any], None]] = None,
-        position_sticky_label: Optional[Position] = Position.HORIZONTAL,
-        position_sticky_combobox: Optional[Position] = Position.HORIZONTAL,
+        on_selection: Callable[[Any], None] | None = None,
+        position_sticky_label: Position | None = Position.HORIZONTAL,
+        position_sticky_combobox: Position | None = Position.HORIZONTAL,
         themed: bool = False,
         *args: Any,
         **kwargs: Any,
@@ -27,22 +28,18 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
             Frame.__init__(self, master, *args, *kwargs)
 
         CustomWidget.__init__(self, text=label_text)
-        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
+        self.label: Label | TtkLabel = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
 
         self.string_var: StringVar = StringVar(value="")
 
         self.combobox: Combobox = Combobox(self, textvariable=self.string_var, values=values)
 
-        self.callback_on_selection: Optional[Callable[[Any], None]] = on_selection
+        self.callback_on_selection: Callable[[Any], None] | None = on_selection
 
         self.hide_label: bool = hide_label
 
-        self.position_sticky_label: Position = (
-            position_sticky_label if position_sticky_label is not None else Position.NONE
-        )
-        self.position_sticky_combobox: Position = (
-            position_sticky_combobox if position_sticky_combobox is not None else Position.NONE
-        )
+        self.position_sticky_label: Position = position_sticky_label if position_sticky_label is not None else Position.NONE
+        self.position_sticky_combobox: Position = position_sticky_combobox if position_sticky_combobox is not None else Position.NONE
 
         if self.callback_on_selection is not None:
             self.combobox.bind("<<ComboboxSelected>>", on_selection)
@@ -50,10 +47,10 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
         self.columnconfigure(0, weight=1)
         self.columnconfigure(1, weight=1)
 
-    def get_values(self) -> List[str]:
+    def get_values(self) -> list[str]:
         return self.combobox["values"]
 
-    def set_values(self, values: List[str]) -> None:
+    def set_values(self, values: list[str]) -> None:
         self.combobox["values"] = values
 
     def get(self) -> str:
@@ -82,9 +79,7 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
     def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
             self.label.configure(width=kwargs["width"])
-            self.combobox.configure(
-                width=kwargs["width"] + 3
-            )  # +3 to compensate for the char losts because inner grid manager compared to outer grid manager
+            self.combobox.configure(width=kwargs["width"] + 3)  # +3 to compensate for the char losts because inner grid manager compared to outer grid manager
             del kwargs["width"]
         if "state" in kwargs:
             self.combobox.configure(state=kwargs["state"])

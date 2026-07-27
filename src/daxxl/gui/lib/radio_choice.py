@@ -1,6 +1,7 @@
+from collections.abc import Callable
 from tkinter import Frame, IntVar, Label, Radiobutton
 from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel, Radiobutton as TtkRadiobutton
-from typing import Any, Callable, Dict, List, Union
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.custom_widget import CustomWidget
@@ -12,7 +13,7 @@ class RadioChoice(Frame, TtkFrame, CustomWidget):
         master: Any,
         label_text: str,
         update_command: Callable[[], None],
-        choices: Dict[str, int],
+        choices: dict[str, int],
         default_value: int = 0,
         themed: bool = False,
         *args: Any,
@@ -30,17 +31,15 @@ class RadioChoice(Frame, TtkFrame, CustomWidget):
         self.int_var: IntVar = IntVar()
         self.int_var.set(default_value)
 
-        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
+        self.label: Label | TtkLabel = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
         self.update_command = update_command
 
         if not len(choices):
             raise ValueError("Choice dict cannot be empty")
 
-        self.choice_list: List[Union[Radiobutton, TtkRadiobutton]] = (
+        self.choice_list: list[Radiobutton | TtkRadiobutton] = (
             [
-                TtkRadiobutton(
-                    self, text=choice_name, variable=self.int_var, value=choice_value, command=update_command
-                )
+                TtkRadiobutton(self, text=choice_name, variable=self.int_var, value=choice_value, command=update_command)
                 for choice_name, choice_value in choices.items()
             ]
             if themed

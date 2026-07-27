@@ -8,7 +8,7 @@ from httpx import AsyncClient
 
 from daxxl.defs import MAVEN_BASE_URL, OTHER, ROOT_DIR, UNKNOWN
 from daxxl.exceptions import RepoNotFoundException
-from daxxl.github.uri import latest_release_uri, org_repos_uri, repo_uri
+from daxxl.github.uri import GitHubURI
 from daxxl.gtnh_logger import get_logger
 from daxxl.utils import AttributeDict, get_github_token
 
@@ -20,28 +20,29 @@ class GitHubClient:
         self.client = client
         self.org = org
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
+        self.uri = GitHubURI(org)
 
     @AsyncLRU(maxsize=None)
     async def get_all_repos(self) -> dict[str, AttributeDict]:
-        return {r["name"]: AttributeDict(r) async for r in self.gh.getiter(org_repos_uri(self.org))}
+        return {r["name"]: AttributeDict(r) async for r in self.gh.getiter(self.uri.org_repos)}
 
     @AsyncLRU(maxsize=None)
     async def get_repo(self, name: str) -> AttributeDict:
         try:
-            return AttributeDict(await self.gh.getitem(repo_uri(self.org, name)))
+            return AttributeDict(await self.gh.getitem(self.uri.repo(name)))
         except BadRequest as error:
             raise RepoNotFoundException(f"Repo not found {name}") from error
 
     async def get_latest_github_release(self, repo: AttributeDict | str) -> AttributeDict | None:
         if isinstance(repo, str):
             try:
-                latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo)))
+                latest_release = AttributeDict(await self.gh.getitem(self.uri.latest_release(repo)))
             except BadRequest:
                 log.error(f"{Fore.RED}No latest release found for {Fore.CYAN}{repo}{Style.RESET_ALL}")
                 latest_release = None
         else:
             try:
-                latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo.name)))
+                latest_release = AttributeDict(await self.gh.getitem(self.uri.latest_release(repo.name)))
             except BadRequest:
                 log.error(f"{Fore.RED}No latest release found for {Fore.CYAN}{repo.get('name')}{Style.RESET_ALL}")
                 latest_release = None

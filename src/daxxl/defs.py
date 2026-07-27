@@ -4,7 +4,6 @@ from enum import Enum
 from pathlib import Path
 
 # Root is two levels up
-from typing import Set
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
@@ -148,7 +147,7 @@ class Side(str, Enum):
     CLIENT_JAVA9 = "CLIENT_JAVA9"
     BOTH_JAVA9 = "BOTH_JAVA9"
 
-    def valid_mod_sides(self) -> Set[Side]:
+    def valid_mod_sides(self) -> set[Side]:
         mods_included_relations = {
             Side.SERVER: {Side.BOTH, Side.SERVER},
             Side.CLIENT: {Side.BOTH, Side.CLIENT},

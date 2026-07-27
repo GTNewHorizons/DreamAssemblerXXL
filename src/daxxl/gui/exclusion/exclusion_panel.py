@@ -1,7 +1,9 @@
 from asyncio import Task
+from collections.abc import Callable
+from dataclasses import dataclass
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any
 
 from daxxl.defs import Position
 from daxxl.gui.lib.button import CustomButton
@@ -10,10 +12,10 @@ from daxxl.gui.lib.listbox import CustomListbox
 from daxxl.gui.lib.text_entry import TextEntry
 
 
+@dataclass
 class ExclusionPanelCallback:
-    def __init__(self, add: Callable[[str], Task[None]], delete: Callable[[str], Task[None]]):
-        self.add: Callable[[str], Task[None]] = add
-        self.delete: Callable[[str], Task[None]] = delete
+    add: Callable[[str], Task[None]]
+    delete: Callable[[str], Task[None]]
 
 
 class ExclusionPanel(LabelFrame, TtkLabelFrame):
@@ -24,7 +26,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         master: Any,
         frame_name: str,
         callbacks: ExclusionPanelCallback,
-        width: Optional[int] = None,
+        width: int | None = None,
         themed: bool = False,
         **kwargs: Any,
     ) -> None:
@@ -35,7 +37,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
+        :param themed: for those who preferred themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
         self.themed = themed
@@ -46,7 +48,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
         self.add_callback: Callable[[str], Task[None]] = callbacks.add
-        self.del_callback: Callable[[str], Task[None]] = callbacks.delete
+        self.delete_callback: Callable[[str], Task[None]] = callbacks.delete
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -60,15 +62,11 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.exclusion: TextEntry = TextEntry(self, label_text="", hide_label=True, themed=self.themed)
 
         self.btn_add: CustomButton = CustomButton(self, text="Add new exclusion", command=self.add, themed=self.themed)
-        self.btn_del: CustomButton = CustomButton(
-            self, text="Remove highlighted", command=self.delete, themed=self.themed
-        )
+        self.btn_del: CustomButton = CustomButton(self, text="Remove highlighted", command=self.delete, themed=self.themed)
 
-        self.widgets: List[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
+        self.widgets: list[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+        self._width: int = width if width is not None else max([widget.description_size for widget in self.widgets])
 
         self.rowconfigure(0, weight=1)
 
@@ -86,7 +84,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :param elem: the element to add in the listbox
         :return: None
         """
-        exclusions: List[str] = self.listbox.get_values()
+        exclusions: list[str] = self.listbox.get_values()
         if elem in exclusions:
             return
 
@@ -115,8 +113,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         if self.listbox.has_selection():
             position: int = self.listbox.get()
             exclusion: str = self.listbox.get_value_at_index(position)
-            self.listbox.del_value_at_index(position)
-            self.del_callback(exclusion)
+            self.listbox.delete_value_at_index(position)
+            self.delete_callback(exclusion)
 
     def configure_widgets(self) -> None:
         """
@@ -125,28 +123,19 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         :return: None
         """
         for widget in self.widgets:
-            widget.configure(width=self.width)
+            widget.configure(width=self._width)
 
         # overriding exclusion widget to get proper size
         # self.exclusion.configure(width=2 * (self.width + 6))
 
-    def set_width(self, width: int) -> None:
-        """
-        Method to set the widgets' width.
+    @property
+    def width(self) -> int:
+        return self._width
 
-        :param width: the new width
-        :return: None
-        """
-        self.width = width
+    @width.setter
+    def width(self, value: int) -> None:
+        self._width = value
         self.configure_widgets()
-
-    def get_width(self) -> int:
-        """
-        Getter for self.width.
-
-        :return: the width in character sizes of the normalised widgets
-        """
-        return self.width
 
     def update_widget(self) -> None:
         """
@@ -180,11 +169,11 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.btn_add.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
         self.btn_del.grid(row=x + 2, column=y + 1, sticky=Position.HORIZONTAL)
 
-    def populate_data(self, data: Dict[str, Any]) -> None:
+    def populate_data(self, exclusions: list[str]) -> None:
         """
         Method called by parent class to populate data in this class.
 
-        :param data: the data to pass to this class
+        :param exclusions: the file exclusions for this panel's side
         :return: None
         """
-        self.listbox.set_values(data["exclusions"])
+        self.listbox.set_values(exclusions)
