@@ -69,15 +69,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.update_daily: Callable[[], None] = update_daily
         self.callbacks: ButtonArrayCallback = callbacks
 
-        self.btn_client_cf: CustomButton = CustomButton(
-            self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed
-        )
-        self.btn_client_technic: CustomButton = CustomButton(
-            self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed
-        )
-        self.btn_client_prism: CustomButton = CustomButton(
-            self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed
-        )
+        self.btn_client_cf: CustomButton = CustomButton(self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed)
+        self.btn_client_technic: CustomButton = CustomButton(self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed)
+        self.btn_client_prism: CustomButton = CustomButton(self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed)
         self.btn_client_prism_j9: CustomButton = CustomButton(
             self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_prism_j9, themed=self.themed
         )
@@ -88,30 +82,16 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             themed=self.themed,
             state=DISABLED,
         )
-        self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate stable release", command=callbacks.update_all, themed=self.themed
-        )
-        self.btn_generate_beta: CustomButton = CustomButton(
-            self.frame_btn, text="Generate beta/RC release", command=callbacks.update_beta, themed=self.themed
-        )
+        self.btn_generate_all: CustomButton = CustomButton(self.frame_btn, text="Generate stable release", command=callbacks.update_all, themed=self.themed)
+        self.btn_generate_beta: CustomButton = CustomButton(self.frame_btn, text="Generate beta/RC release", command=callbacks.update_beta, themed=self.themed)
         self.btn_update_experimental: CustomButton = CustomButton(
             self.frame_btn, text="Update experimental profile", command=update_experimental, themed=self.themed
         )
-        self.btn_update_daily: CustomButton = CustomButton(
-            self.frame_btn, text="Update daily profile", command=update_daily, themed=self.themed
-        )
-        self.btn_update_assets: CustomButton = CustomButton(
-            self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed
-        )
-        self.btn_client_zip: CustomButton = CustomButton(
-            self.frame_btn, text="Zip client archive", command=callbacks.client_zip, themed=self.themed
-        )
-        self.btn_server_zip: CustomButton = CustomButton(
-            self.frame_btn, text="Zip server archive", command=callbacks.server_zip, themed=self.themed
-        )
-        self.btn_server_zip_j9: CustomButton = CustomButton(
-            self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed
-        )
+        self.btn_update_daily: CustomButton = CustomButton(self.frame_btn, text="Update daily profile", command=update_daily, themed=self.themed)
+        self.btn_update_assets: CustomButton = CustomButton(self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed)
+        self.btn_client_zip: CustomButton = CustomButton(self.frame_btn, text="Zip client archive", command=callbacks.client_zip, themed=self.themed)
+        self.btn_server_zip: CustomButton = CustomButton(self.frame_btn, text="Zip server archive", command=callbacks.server_zip, themed=self.themed)
+        self.btn_server_zip_j9: CustomButton = CustomButton(self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed)
         self.btn_generate_changelog: CustomButton = CustomButton(
             self.frame_btn, text="Generate changelog", command=callbacks.generate_changelog, themed=self.themed
         )
@@ -125,13 +105,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
 
         progress_bar_length: int = 500
 
-        self.progress_bar_global = CustomProgressBar(
-            self, label_text="test global", progress_bar_length=progress_bar_length
-        )
+        self.progress_bar_global = CustomProgressBar(self, label_text="test global", progress_bar_length=progress_bar_length)
 
-        self.progress_bar_current_task = CustomProgressBar(
-            self, label_text="test current task", progress_bar_length=progress_bar_length
-        )
+        self.progress_bar_current_task = CustomProgressBar(self, label_text="test current task", progress_bar_length=progress_bar_length)
 
         self.widgets: list[CustomWidget] = [
             self.btn_client_cf,

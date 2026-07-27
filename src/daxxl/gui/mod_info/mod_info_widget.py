@@ -95,13 +95,9 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):
         self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
         self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)
-        self.version: CustomCombobox = CustomCombobox(
-            self, label_text="Mod version:", values=[], on_selection=self.set_mod_version, themed=self.themed
-        )
+        self.version: CustomCombobox = CustomCombobox(self, label_text="Mod version:", values=[], on_selection=self.set_mod_version, themed=self.themed)
         self.license: CustomLabel = CustomLabel(self, label_text="Mod license: {0}", value="", themed=self.themed)
-        self.side: CustomCombobox = CustomCombobox(
-            self, label_text="Mod side this release:", values=[], on_selection=self.set_mod_side, themed=self.themed
-        )
+        self.side: CustomCombobox = CustomCombobox(self, label_text="Mod side this release:", values=[], on_selection=self.set_mod_side, themed=self.themed)
         self.side_default: CustomCombobox = CustomCombobox(
             self, label_text="Mod side default:", values=[], on_selection=self.set_mod_side_default, themed=self.themed
         )

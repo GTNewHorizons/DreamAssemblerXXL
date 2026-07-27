@@ -67,9 +67,7 @@ class ZipAssembler(GenericAssembler):
                         archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
 
             if self.task_progress_callback is not None:
-                self.task_progress_callback(
-                    self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
-                )
+                self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
             await self.yield_to_event_loop()
 
     async def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand, side: Side) -> None:
@@ -134,19 +132,9 @@ class ZipAssembler(GenericAssembler):
         folders: list[Path]
 
         while len(path_objects) > 0:
-            assets.extend(
-                [
-                    file
-                    for file in path_objects
-                    if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]
-                ]
-            )
+            assets.extend([file for file in path_objects if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]])
 
-            folders = [
-                folder
-                for folder in path_objects
-                if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]
-            ]
+            folders = [folder for folder in path_objects if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]]
             path_objects = []
             for folder in folders:
                 path_objects.extend([path for path in folder.iterdir()])

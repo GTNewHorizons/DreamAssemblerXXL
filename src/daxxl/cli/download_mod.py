@@ -14,10 +14,7 @@ log = get_logger(__name__)
 async def download_mod(mod_name: str, version: str | None = None) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         context = AppContext(client)
-        log.info(
-            f"Trying to Download mod `{Fore.CYAN}{mod_name}{Fore.RESET}:{Fore.YELLOW}{version or '<latest>'}"
-            f"{Fore.RESET}`"
-        )
+        log.info(f"Trying to Download mod `{Fore.CYAN}{mod_name}{Fore.RESET}:{Fore.YELLOW}{version or '<latest>'}{Fore.RESET}`")
         mod = context.assets.get_mod(mod_name)
         if mod is not None:
             await context.downloader.download_asset(mod, version)

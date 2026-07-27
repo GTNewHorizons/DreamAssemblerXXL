@@ -30,10 +30,7 @@ async def close_old_issues() -> None:
                     gh.patch(
                         uri.issues(repo, issue.number),
                         data={
-                            "labels": list(
-                                set(label.get("name") for label in issue.labels)
-                                | {"Status: stale", "Comment to reopen"}
-                            ),
+                            "labels": list(set(label.get("name") for label in issue.labels) | {"Status: stale", "Comment to reopen"}),
                             "state": "closed",
                             "state_reason": "not_planned",
                         },

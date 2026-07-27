@@ -93,15 +93,9 @@ class AssetUpdateOrchestrator:
                 progress_callback(delta_progress, f"updating {asset.name}")
 
             if not repo:
-                log.error(
-                    f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}"
-                )
+                log.error(f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}")
                 continue
-            tasks.append(
-                self._run_safely(
-                    asset.name, self.asset_service.update_versionable_from_repo(asset, repo, release_version), errors
-                )
-            )
+            tasks.append(self._run_safely(asset.name, self.asset_service.update_versionable_from_repo(asset, repo, release_version), errors))
 
         # update translation manually because version check cannot work on this repo given the nature of the releases
         self.assets.translations.versions = []
@@ -109,9 +103,7 @@ class AssetUpdateOrchestrator:
         tasks.append(
             self._run_safely(
                 self.assets.translations.name,
-                self.asset_service.update_translations_from_repo(
-                    self.assets.translations, all_repos.get(self.assets.translations.name)
-                ),
+                self.asset_service.update_translations_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name)),
                 errors,
             )
         )

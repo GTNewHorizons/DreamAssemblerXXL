@@ -121,19 +121,14 @@ class UpdateService:
                 mod_version = override if override else mod.latest_version
 
                 if not mod.has_version(mod_version):
-                    log.warn(
-                        f"{source_str} Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}"
-                        f"{Fore.RESET}`, skipping"
-                    )
+                    log.warn(f"{source_str} Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}{Fore.RESET}`, skipping")
 
                     if progress_callback is not None:
                         progress_callback(delta_progress, "")  # to stay synced with the progress
                     continue
 
                 override_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
-                log.debug(
-                    f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{override_str}"
-                )
+                log.debug(f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{override_str}")
 
                 if progress_callback is not None:
                     progress_callback(delta_progress, f"Updating {mod.name}")

@@ -70,9 +70,7 @@ class AvailableAssets(GTNHBaseModel):
 
         raise NoModAssetFound(f"{mod_name} not found")
 
-    def get_mod_and_version(
-        self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side]
-    ) -> tuple[GTNHModInfo, GTNHVersion] | None:
+    def get_mod_and_version(self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side]) -> tuple[GTNHModInfo, GTNHVersion] | None:
         try:
             mod = self.get_mod(mod_name)
         except NoModAssetFound:

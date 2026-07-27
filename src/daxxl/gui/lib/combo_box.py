@@ -38,12 +38,8 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
 
         self.hide_label: bool = hide_label
 
-        self.position_sticky_label: Position = (
-            position_sticky_label if position_sticky_label is not None else Position.NONE
-        )
-        self.position_sticky_combobox: Position = (
-            position_sticky_combobox if position_sticky_combobox is not None else Position.NONE
-        )
+        self.position_sticky_label: Position = position_sticky_label if position_sticky_label is not None else Position.NONE
+        self.position_sticky_combobox: Position = position_sticky_combobox if position_sticky_combobox is not None else Position.NONE
 
         if self.callback_on_selection is not None:
             self.combobox.bind("<<ComboboxSelected>>", on_selection)
@@ -83,9 +79,7 @@ class CustomCombobox(Frame, TtkFrame, CustomWidget):
     def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
             self.label.configure(width=kwargs["width"])
-            self.combobox.configure(
-                width=kwargs["width"] + 3
-            )  # +3 to compensate for the char losts because inner grid manager compared to outer grid manager
+            self.combobox.configure(width=kwargs["width"] + 3)  # +3 to compensate for the char losts because inner grid manager compared to outer grid manager
             del kwargs["width"]
         if "state" in kwargs:
             self.combobox.configure(state=kwargs["state"])

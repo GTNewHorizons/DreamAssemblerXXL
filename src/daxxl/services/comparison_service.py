@@ -32,9 +32,7 @@ class ComparisonService:
         for false_positive in false_added_mods:
             added_mods.remove(false_positive)
 
-    def _mod_additions_and_removals(
-        self, release: GTNHRelease, previous_release: GTNHRelease
-    ) -> tuple[set[str], set[str]]:
+    def _mod_additions_and_removals(self, release: GTNHRelease, previous_release: GTNHRelease) -> tuple[set[str], set[str]]:
         removed_mods = set(previous_release.github_mods) - set(release.github_mods)
         removed_mods |= set(previous_release.external_mods) - set(release.external_mods)
         new_mods = set(release.github_mods) - set(previous_release.github_mods)
@@ -78,9 +76,7 @@ class ComparisonService:
         changed_github_mods = {
             x
             for x in common_github_mods
-            if x in release.github_mods
-            and x in previous_release.github_mods
-            and release.github_mods[x].version != previous_release.github_mods[x].version
+            if x in release.github_mods and x in previous_release.github_mods and release.github_mods[x].version != previous_release.github_mods[x].version
         }
         changed_external_mods = {
             x
@@ -92,9 +88,7 @@ class ComparisonService:
 
         return changed_github_mods | changed_external_mods
 
-    def generate_changelog(
-        self, release: GTNHRelease, previous_release: GTNHRelease | None = None
-    ) -> dict[str, list[str]]:
+    def generate_changelog(self, release: GTNHRelease, previous_release: GTNHRelease | None = None) -> dict[str, list[str]]:
         """
         Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
         :returns: dict[mod_name, list[version_changes]]
@@ -116,9 +110,7 @@ class ComparisonService:
                 # looks like here there are some shenanigans happening, so i'm just going to check for mod presence before anything
                 # i don't quite get what's happenning here.
 
-                previous_source = (
-                    previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
-                )
+                previous_source = previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
                 current_source = release.github_mods if mod_name in release.github_mods else release.external_mods
 
                 version_changes[mod_name] = (previous_source.get(mod_name, None), current_source[mod_name])
@@ -147,9 +139,7 @@ class ComparisonService:
                 continue
 
             mod = self.assets.get_mod(mod_name)
-            mod_versions: list[GTNHVersion] = mod.get_versions(
-                left=old_version.version if old_version else None, right=new_version.version
-            )
+            mod_versions: list[GTNHVersion] = mod.get_versions(left=old_version.version if old_version else None, right=new_version.version)
 
             # Something bad happens if we have empty mod_versions, but better to have an improper changelog than a crash
             if not len(mod_versions):
@@ -157,10 +147,7 @@ class ComparisonService:
 
             changes = changelog[mod_name]
 
-            mod_version_changelogs = [
-                ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease)
-                for v in mod_versions
-            ]
+            mod_version_changelogs = [ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease) for v in mod_versions]
             is_new_mod = old_version is None
             mod_changelog = ChangelogCollection(
                 pack_release_version=release.version,

@@ -123,9 +123,7 @@ class GenericAssembler:
         mods: list[tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
         return mods
 
-    def external_mods(
-        self, valid_sides: set[Side], release: GTNHRelease | None = None
-    ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+    def external_mods(self, valid_sides: set[Side], release: GTNHRelease | None = None) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the external mod info objects as well as their targeted version.
 
@@ -137,18 +135,13 @@ class GenericAssembler:
         external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
-                [
-                    self.context.assets.get_mod_and_version(name, version, valid_sides)
-                    for name, version in release.external_mods.items()
-                ],
+                [self.context.assets.get_mod_and_version(name, version, valid_sides) for name, version in release.external_mods.items()],
             )
         )
 
         return external_mods
 
-    def github_mods(
-        self, valid_sides: set[Side], release: GTNHRelease | None = None
-    ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+    def github_mods(self, valid_sides: set[Side], release: GTNHRelease | None = None) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the github mod info objects as well as their targeted version.
 
@@ -160,10 +153,7 @@ class GenericAssembler:
         github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
-                [
-                    self.context.assets.get_mod_and_version(name, version, valid_sides)
-                    for name, version in release.github_mods.items()
-                ],
+                [self.context.assets.get_mod_and_version(name, version, valid_sides) for name, version in release.github_mods.items()],
             )
         )
 
@@ -200,9 +190,7 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
-    async def _add_config_files(
-        self, side: Side, config_file: Path, destination: ZipFile, root: Path | None = None
-    ) -> None:
+    async def _add_config_files(self, side: Side, config_file: Path, destination: ZipFile, root: Path | None = None) -> None:
         """
         Copy the contents of the config archive into `destination`, skipping the side's exclusions.
 
@@ -227,9 +215,7 @@ class GenericAssembler:
                             self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
 
-    async def add_config(
-        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
+    async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
         """
         Method to add config in the zip archive.
 
@@ -247,11 +233,7 @@ class GenericAssembler:
 
         await self._add_config_files(side, config_file, archive, self.config_root)
 
-        changelog_arcname = (
-            self.config_root / self.changelog_path.name
-            if self.config_root is not None and self.changelog_path is not None
-            else None
-        )
+        changelog_arcname = self.config_root / self.changelog_path.name if self.config_root is not None and self.changelog_path is not None else None
         self.add_changelog(archive, arcname=changelog_arcname)
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:

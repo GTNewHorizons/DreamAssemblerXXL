@@ -74,9 +74,7 @@ class PrismAssembler(GenericAssembler):
                                 with archive.open(str(self.prism_archive_root) + "/" + item, "w") as target:
                                     shutil.copyfileobj(prism_patch, target)
             if self.task_progress_callback is not None:
-                self.task_progress_callback(
-                    self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
-                )
+                self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
             await self.yield_to_event_loop()
 
     @property
@@ -93,18 +91,11 @@ class PrismAssembler(GenericAssembler):
             raise ValueError(f"Only valid sides are {Side.CLIENT.value}, got {side.value}")
 
         # +1 for the metadata file
-        self.delta_progress = 100 / (
-            len(self.get_mods(side))
-            + self.get_amount_of_files_in_config(side)
-            + self.get_amount_of_files_in_locales()
-            + 1
-        )
+        self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1)
         await GenericAssembler.assemble(self, side, verbose)
 
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
-            await self.add_localisation_files(
-                archive, str(self.prism_modpack_files.as_posix())
-            )  # otherwise file check fails
+            await self.add_localisation_files(archive, str(self.prism_modpack_files.as_posix()))  # otherwise file check fails
             # on windows
             await normalize_archive_permissions(archive)
 

@@ -76,9 +76,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
 
         # Early widget:
 
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(
-            self, frame_name="Github mod info", callbacks=callbacks, external_mods=False
-        )
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="Github mod info", callbacks=callbacks, external_mods=False)
 
         # Callbacks:
         self.get_context_callback: Callable[[], Coroutine[Any, Any, AppContext]] = callbacks.get_context_callback
@@ -104,9 +102,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             position_sticky_combobox=None,
             themed=self.themed,
         )
-        self.modpack_version.set_on_selection_callback(
-            lambda event: callbacks.set_modpack_version(self.modpack_version.get())
-        )
+        self.modpack_version.set_on_selection_callback(lambda event: callbacks.set_modpack_version(self.modpack_version.get()))
 
         self.btn_refresh_modpack: CustomButton = CustomButton(
             self,
@@ -124,9 +120,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.btn_add: CustomButton = CustomButton(
-            self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed
-        )
+        self.btn_add: CustomButton = CustomButton(self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed)
         self.btn_rem: CustomButton = CustomButton(
             self,
             text="Delete highlighted",

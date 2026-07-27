@@ -129,9 +129,7 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        self.delta_progress = 100 / (
-            2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1
-        )
+        self.delta_progress = 100 / (2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1)
 
         archive_name: Path = self.get_archive_path(side)
 
@@ -171,9 +169,7 @@ class CurseAssembler(GenericAssembler):
         """
         archive.write(self.overrides, arcname=self.overrides_folder / "overrides.png")
         archive.write(self.overrideslash, arcname=self.overrides_folder / "overrideslash.png")
-        coremod, coremod_version = [
-            (mod, version) for mod, version in self.get_mods(side) if mod.name == "NewHorizonsCoreMod"
-        ][0]
+        coremod, coremod_version = [(mod, version) for mod, version in self.get_mods(side) if mod.name == "NewHorizonsCoreMod"][0]
         source_file: Path = get_asset_version_cache_location(coremod, coremod_version)
         archive_path: Path = self.overrides_folder / "mods" / source_file.name
         archive.write(source_file, arcname=archive_path)
@@ -216,9 +212,7 @@ class CurseAssembler(GenericAssembler):
             for mod, version in mod_list:
                 path: Path = get_asset_version_cache_location(mod, version)
                 if task_progressbar is not None:
-                    task_progressbar.add_progress(
-                        progress, f"Adding {mod.name} to the archives of the mods to be uploaded"
-                    )
+                    task_progressbar.add_progress(progress, f"Adding {mod.name} to the archives of the mods to be uploaded")
                 f.write(path, arcname=path.name)
                 await self.yield_to_event_loop()
             await normalize_archive_permissions(f)

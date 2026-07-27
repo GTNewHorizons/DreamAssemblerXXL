@@ -89,13 +89,9 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
 
         self.name: TextEntry = TextEntry(self, "Mod name:", themed=self.themed)
         self.version: TextEntry = TextEntry(self, "Mod version:", themed=self.themed)
-        self.download_url: TextEntry = TextEntry(
-            self, "Download link (check your download history to get it):", themed=self.themed
-        )
+        self.download_url: TextEntry = TextEntry(self, "Download link (check your download history to get it):", themed=self.themed)
         self.project_id: TextEntry = TextEntry(self, "project ID", themed=self.themed)
-        self.browser_url: TextEntry = TextEntry(
-            self, "browser download page url (page where you can download the file):", themed=self.themed
-        )
+        self.browser_url: TextEntry = TextEntry(self, "browser download page url (page where you can download the file):", themed=self.themed)
         self.license: TextEntry = TextEntry(self, "Mod License", themed=self.themed)
         self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)", themed=self.themed)
 
@@ -164,9 +160,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         if _license != "":
             check_results["license"] = True
 
-        if download_url.endswith(".jar") and (
-            download_url.startswith("http://") or download_url.startswith("https://")
-        ):
+        if download_url.endswith(".jar") and (download_url.startswith("http://") or download_url.startswith("https://")):
             check_results["download_url"] = True
 
         if project_url.startswith("http://") or project_url.startswith("https://"):
@@ -228,9 +222,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         elif curse_mod:
             blacklist = blacklist_curse
         else:
-            raise NotImplementedError(
-                "something went wrong during the addition of a new curse mod: unsupported mod type."
-            )
+            raise NotImplementedError("something went wrong during the addition of a new curse mod: unsupported mod type.")
 
         error_list = [error_messages[key] for key, value in validation.items() if not value and key not in blacklist]
 

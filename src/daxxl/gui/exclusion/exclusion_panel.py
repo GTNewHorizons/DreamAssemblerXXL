@@ -62,9 +62,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):
         self.exclusion: TextEntry = TextEntry(self, label_text="", hide_label=True, themed=self.themed)
 
         self.btn_add: CustomButton = CustomButton(self, text="Add new exclusion", command=self.add, themed=self.themed)
-        self.btn_del: CustomButton = CustomButton(
-            self, text="Remove highlighted", command=self.delete, themed=self.themed
-        )
+        self.btn_del: CustomButton = CustomButton(self, text="Remove highlighted", command=self.delete, themed=self.themed)
 
         self.widgets: list[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 

@@ -45,9 +45,7 @@ class CounterService:
 
         elif release_type == DevRelease.DAILY:
             if build_id <= self._assets.latest_daily:
-                raise InvalidDailyIDException(
-                    f"Cannot set new daily id to {build_id}, needs to be greater than latest daily count {self._assets.latest_daily}"
-                )
+                raise InvalidDailyIDException(f"Cannot set new daily id to {build_id}, needs to be greater than latest daily count {self._assets.latest_daily}")
             self._assets.latest_daily = build_id
         else:
             raise NotImplementedError(f"{release_type} dev release is not yet supported")

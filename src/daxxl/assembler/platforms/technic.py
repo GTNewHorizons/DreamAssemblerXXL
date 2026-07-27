@@ -103,15 +103,11 @@ class TechnicAssembler(GenericAssembler):
             os.remove(removed_modlist_name)
             log.warn(f"Previous modlist {Fore.YELLOW}'{removed_modlist_name}'{Fore.RESET} deleted")
 
-        log.info(
-            f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{updated_mods_archive_name}'{Fore.RESET}"
-        )
+        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{updated_mods_archive_name}'{Fore.RESET}")
 
         with ZipFile(updated_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            await self.add_mods(
-                side, self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS), archive, verbose=verbose
-            )
+            await self.add_mods(side, self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS), archive, verbose=verbose)
             await self.yield_to_event_loop()
             log.info("Adding config to the archive")
             await self.add_config(side, self.get_config(), archive, verbose=verbose)
@@ -122,30 +118,22 @@ class TechnicAssembler(GenericAssembler):
             await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
-        log.info(
-            f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{new_mods_archive_name}'{Fore.RESET}"
-        )
+        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{new_mods_archive_name}'{Fore.RESET}")
 
         with ZipFile(new_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            await self.add_mods(
-                side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose
-            )
+            await self.add_mods(side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose)
             await self.yield_to_event_loop()
             await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
 
         with open(removed_modlist_name, "w") as f:
             log.info("generating removed modlist")
-            removed_modlist: list[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(
-                side, DifferentialUpdateMode.REMOVED_MODS
-            )
+            removed_modlist: list[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(side, DifferentialUpdateMode.REMOVED_MODS)
             f.write("\n".join([f"{mod.name}: {version.version_tag}" for (mod, version) in removed_modlist]))
             log.info("modlist created successfully!")
 
-    def differential_update(
-        self, side: Side, update_mode: DifferentialUpdateMode
-    ) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+    def differential_update(self, side: Side, update_mode: DifferentialUpdateMode) -> list[tuple[GTNHModInfo, GTNHVersion]]:
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
@@ -156,9 +144,7 @@ class TechnicAssembler(GenericAssembler):
             update_source = self.context.comparison.get_removed_mods
 
         last_release: GTNHRelease = self.context.release_service.get_release(self.release.last_version)  # type: ignore
-        process_release: GTNHRelease = (
-            last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
-        )
+        process_release: GTNHRelease = last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
 
         valid_sides: set[Side] = side.valid_mod_sides()
         j9_sides: set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
@@ -185,15 +171,11 @@ class TechnicAssembler(GenericAssembler):
                 if side == Side.CLIENT and (mod_name in github_mods_names_j9 or mod_name in external_mods_names_j9):
                     log.warn(f"Mod {mod_name} is a java 9+ mod but currently packing only java 8 mods. Skipping it.")
                 else:
-                    log.warn(
-                        f"Mod {mod_name} was detected as an updated mod, but is not a github mod nor an external one"
-                    )
+                    log.warn(f"Mod {mod_name} was detected as an updated mod, but is not a github mod nor an external one")
 
         return mods
 
-    async def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
-    ) -> None:
+    async def add_mods(self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False) -> None:
 
         temp_zip_path: Path = RELEASE_TECHNIC_DIR / "temp.zip"
 
@@ -212,18 +194,14 @@ class TechnicAssembler(GenericAssembler):
             )
 
             if self.task_progress_callback is not None:
-                self.task_progress_callback(
-                    self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive"
-                )
+                self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
             await self.yield_to_event_loop()
 
         # deleting temp zip
         if temp_zip_path.exists():
             temp_zip_path.unlink()
 
-    async def add_config(
-        self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
-    ) -> None:
+    async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
 
         modpack_config: GTNHConfig
         config_version: GTNHVersion | None
@@ -247,10 +225,7 @@ class TechnicAssembler(GenericAssembler):
         # writing the config zip in the technic archive
         archive.write(
             temp_zip_path,
-            arcname=(
-                f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}"
-                f"-{technify(config_version.version_tag)}.zip"
-            ),
+            arcname=(f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}-{technify(config_version.version_tag)}.zip"),
         )
 
         # deleting temp zip
@@ -277,12 +252,7 @@ class TechnicAssembler(GenericAssembler):
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
         log.info(f"packing technic launcher release for {self.release.version}")
-        self.delta_progress = 100 / (
-            len(self.get_mods(side))
-            + self.get_amount_of_files_in_config(side)
-            + self.get_amount_of_files_in_locales()
-            + 1
-        )
+        self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1)
         await GenericAssembler.assemble(self, side, verbose)
 
         log.info(f"packing partial technic launcher release for {self.release.version}")

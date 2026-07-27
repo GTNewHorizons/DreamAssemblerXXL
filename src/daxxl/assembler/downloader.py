@@ -31,9 +31,7 @@ def ensure_cache_dir(asset: Versionable | None = None) -> Path:
     return CACHE_DIR
 
 
-def get_asset_version_cache_location(
-    asset: Versionable, version: GTNHVersion, extra_asset_suffix: str | None = None
-) -> Path:
+def get_asset_version_cache_location(asset: Versionable, version: GTNHVersion, extra_asset_suffix: str | None = None) -> Path:
     cache_dir = ensure_cache_dir(asset)
 
     subasset: GTNHVersion | ExtraAsset = version

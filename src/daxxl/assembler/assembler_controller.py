@@ -47,12 +47,8 @@ class ReleaseAssemblerController:
         changelog_path: Path = self.generate_changelog()
 
         self.zip_assembler: ZipAssembler = ZipAssembler(context, release, task_callback, changelog_path=changelog_path)
-        self.prism_assembler: PrismAssembler = PrismAssembler(
-            context, release, task_callback, changelog_path=changelog_path
-        )
-        self.curse_assembler: CurseAssembler = CurseAssembler(
-            context, release, task_callback, changelog_path=changelog_path
-        )
+        self.prism_assembler: PrismAssembler = PrismAssembler(context, release, task_callback, changelog_path=changelog_path)
+        self.curse_assembler: CurseAssembler = CurseAssembler(context, release, task_callback, changelog_path=changelog_path)
         self.technic_assembler: TechnicAssembler = TechnicAssembler(
             context,
             release,
@@ -60,9 +56,7 @@ class ReleaseAssemblerController:
             changelog_path=changelog_path,
             current_task_reset_callback=current_task_reset_callback,
         )
-        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
-            context, release, task_callback, changelog_path=changelog_path
-        )
+        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(context, release, task_callback, changelog_path=changelog_path)
 
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
@@ -77,9 +71,7 @@ class ReleaseAssemblerController:
         """
 
         if side not in {Side.CLIENT, Side.CLIENT_JAVA9, Side.SERVER, Side.SERVER_JAVA9}:
-            raise ValueError(
-                f"Only valid sides are {Side.CLIENT}/{Side.CLIENT_JAVA9} or {Side.SERVER}/{Side.SERVER_JAVA9}, got {side}"
-            )
+            raise ValueError(f"Only valid sides are {Side.CLIENT}/{Side.CLIENT_JAVA9} or {Side.SERVER}/{Side.SERVER_JAVA9}, got {side}")
 
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
@@ -94,9 +86,7 @@ class ReleaseAssemblerController:
 
         assemblers_server: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
 
-        assemblers: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = (
-            assemblers_client if side.is_client() else assemblers_server
-        )
+        assemblers: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = assemblers_client if side.is_client() else assemblers_server
 
         for platform, assembling in assemblers.items():
             if side.is_java9() and platform in [Archive.TECHNIC, Archive.CURSEFORGE]:
@@ -179,9 +169,7 @@ class ReleaseAssemblerController:
 
         current_version: str = self.release.version
         previous_version: str | None = self.release.last_version
-        previous_release: GTNHRelease | None = (
-            None if previous_version is None else self.context.release_service.get_release(previous_version)
-        )
+        previous_release: GTNHRelease | None = None if previous_version is None else self.context.release_service.get_release(previous_version)
         changelog: dict[str, list[str]] = self.context.comparison.generate_changelog(self.release, previous_release)
         changelog_path: Path
         release_type: DevRelease | None = None
@@ -190,11 +178,7 @@ class ReleaseAssemblerController:
                 release_type = dr
                 break
         if release_type is not None:
-            changelog_dir = (
-                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR
-                if release_type is DevRelease.EXPERIMENTAL
-                else RELEASE_CHANGELOG_DAILY_BUILDS_DIR
-            )
+            changelog_dir = RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR if release_type is DevRelease.EXPERIMENTAL else RELEASE_CHANGELOG_DAILY_BUILDS_DIR
             changelog_path = (
                 changelog_dir / f"changelog from {release_type.value} "
                 f"{self.context.counter.get_last_successful_dev_build_id(release_type)} to "

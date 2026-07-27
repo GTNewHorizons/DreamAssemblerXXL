@@ -150,17 +150,13 @@ class AssetService:
     async def regen_config_assets(self) -> None:
         self.assets.config.versions = []
         self.assets.config.latest_version = "0.0.0"
-        await self.update_versionable_from_repo(
-            self.assets.config, await self.gh_client.get_repo(self.assets.config.name)
-        )
+        await self.update_versionable_from_repo(self.assets.config, await self.gh_client.get_repo(self.assets.config.name))
         self.save_assets()
 
     async def regen_translation_assets(self) -> None:
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
-        await self.update_translations_from_repo(
-            self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name)
-        )
+        await self.update_translations_from_repo(self.assets.translations, await self.gh_client.get_repo(self.assets.translations.name))
         self.save_assets()
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
@@ -186,9 +182,7 @@ class AssetService:
 
         return mod
 
-    async def update_versionable_from_repo(
-        self, versionable: Versionable, repo: AttributeDict, release_version: str | None = None
-    ) -> bool:
+    async def update_versionable_from_repo(self, versionable: Versionable, repo: AttributeDict, release_version: str | None = None) -> bool:
         """
         Attempt to update a versionable asset from a github repository.
         :param versionable: The asset to check for update
@@ -198,9 +192,7 @@ class AssetService:
         version_updated = False
         versionable_updated = False
         version_outdated = False
-        log.debug(
-            f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
-        )
+        log.debug(f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates")
 
         if release_version == DevRelease.DAILY.value:
             if isinstance(versionable, GTNHModInfo):
@@ -210,11 +202,7 @@ class AssetService:
             compare_versions = versionable.versions.copy()
 
             versionable.latest_version = next(
-                (
-                    version.version_tag
-                    for version in sorted(compare_versions, key=version_sort_key, reverse=True)
-                    if not version.version_tag.endswith("-pre")
-                ),
+                (version.version_tag for version in sorted(compare_versions, key=version_sort_key, reverse=True) if not version.version_tag.endswith("-pre")),
                 "<unknown>",
             )
 
@@ -227,10 +215,7 @@ class AssetService:
         if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
             version_updated = True
-            log.debug(
-                f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
-                f"{Fore.RESET}"
-            )
+            log.debug(f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}")
         elif version_is_older(latest_version, versionable.latest_version):
             log.warn(
                 f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.RED}{latest_version}"
@@ -245,9 +230,7 @@ class AssetService:
 
         # Versionable
         if version_updated or not versionable.versions:
-            versionable_updated |= await self.update_versions_from_repo(
-                versionable, repo, release_version=release_version
-            )
+            versionable_updated |= await self.update_versions_from_repo(versionable, repo, release_version=release_version)
 
         if versionable_updated:
             versionable.needs_attention = False
@@ -344,10 +327,7 @@ class AssetService:
                 continue
 
             if for_translation:
-                log.info(
-                    f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> "
-                    f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
-                )
+                log.info(f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> {Fore.GREEN}{version.version_tag}{Style.RESET_ALL}")
                 asset.latest_version = version.version_tag
             elif version_is_newer(version.version_tag, asset.latest_version):
                 log.info(
@@ -358,10 +338,7 @@ class AssetService:
                 asset.latest_version = version.version_tag
 
             if not asset.has_version(release.tag_name):
-                log.debug(
-                    f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset "
-                    f"`{Fore.CYAN}{asset.name}{Fore.RESET}`"
-                )
+                log.debug(f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset `{Fore.CYAN}{asset.name}{Fore.RESET}`")
                 asset.add_version(version)
 
             version_updated = True

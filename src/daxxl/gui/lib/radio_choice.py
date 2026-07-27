@@ -39,9 +39,7 @@ class RadioChoice(Frame, TtkFrame, CustomWidget):
 
         self.choice_list: list[Radiobutton | TtkRadiobutton] = (
             [
-                TtkRadiobutton(
-                    self, text=choice_name, variable=self.int_var, value=choice_value, command=update_command
-                )
+                TtkRadiobutton(self, text=choice_name, variable=self.int_var, value=choice_value, command=update_command)
                 for choice_name, choice_value in choices.items()
             ]
             if themed

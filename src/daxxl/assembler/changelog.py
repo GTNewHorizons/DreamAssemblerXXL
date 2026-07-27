@@ -143,10 +143,7 @@ class ChangelogCollection:
             if (
                 i != 0
                 and self.pack_release_version != DevRelease.EXPERIMENTAL.value
-                and (
-                    changelog_entry.prerelease
-                    or (changelog_entry.version.endswith("-pre") or changelog_entry.version.endswith("-dev"))
-                )
+                and (changelog_entry.prerelease or (changelog_entry.version.endswith("-pre") or changelog_entry.version.endswith("-dev")))
             ):
                 # Only include prerelease changes if it's the latest release
                 continue

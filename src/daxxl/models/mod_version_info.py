@@ -14,9 +14,7 @@ class ModVersionInfo(GTNHBaseModel):
     side: Side | None = None
 
     @classmethod
-    def create(
-        cls, version: str | None = None, mod: GTNHModInfo | None = None, side: Side | None = None
-    ) -> ModVersionInfo:
+    def create(cls, version: str | None = None, mod: GTNHModInfo | None = None, side: Side | None = None) -> ModVersionInfo:
         if version is None and mod is not None:
             version = mod.latest_version
 

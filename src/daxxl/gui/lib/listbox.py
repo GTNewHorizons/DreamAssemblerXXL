@@ -38,15 +38,11 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):
         if self.callback_on_selection is not None:
             self.listbox.bind("<<ListboxSelect>>", on_selection)
 
-        self.scrollbar_horizontal: Scrollbar = (
-            TtkScrollbar(self, orient=HORIZONTAL) if themed else Scrollbar(self, orient=HORIZONTAL)
-        )
+        self.scrollbar_horizontal: Scrollbar = TtkScrollbar(self, orient=HORIZONTAL) if themed else Scrollbar(self, orient=HORIZONTAL)
         self.listbox.configure(xscrollcommand=self.scrollbar_horizontal.set)
         self.scrollbar_horizontal.configure(command=self.listbox.xview)
 
-        self.scrollbar_vertical: Scrollbar = (
-            TtkScrollbar(self, orient=VERTICAL) if themed else Scrollbar(self, orient=VERTICAL)
-        )
+        self.scrollbar_vertical: Scrollbar = TtkScrollbar(self, orient=VERTICAL) if themed else Scrollbar(self, orient=VERTICAL)
         self.listbox.configure(yscrollcommand=self.scrollbar_vertical.set)
         self.scrollbar_vertical.configure(command=self.listbox.yview)
 

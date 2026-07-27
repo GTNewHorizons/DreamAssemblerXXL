@@ -94,9 +94,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):
 
         self.callbacks.attach_listbox_object(self.listbox)
 
-        self.btn_add: CustomButton = CustomButton(
-            self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod()), themed=self.themed
-        )
+        self.btn_add: CustomButton = CustomButton(self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod()), themed=self.themed)
 
         self.btn_add_version: CustomButton = CustomButton(
             self,

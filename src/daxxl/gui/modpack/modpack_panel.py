@@ -58,9 +58,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.modpack_list: ReleaseList = ReleaseList(
-            self, frame_name="Modpack Versions", callbacks=self.callbacks, themed=self.themed
-        )
+        self.modpack_list: ReleaseList = ReleaseList(self, frame_name="Modpack Versions", callbacks=self.callbacks, themed=self.themed)
 
     def update_experimental(self) -> None:
         """

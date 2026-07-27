@@ -60,21 +60,13 @@ class ReleaseList(LabelFrame, TtkLabelFrame):
             themed=self.themed,
         )
 
-        self.btn_load: CustomButton = CustomButton(
-            self, text="Load version", command=lambda: self.btn_load_command(callbacks.load), themed=self.themed
-        )
-        self.btn_del: CustomButton = CustomButton(
-            self, text="Delete version", command=lambda: self.btn_delete_command(callbacks.delete), themed=self.themed
-        )
-        self.btn_add: CustomButton = CustomButton(
-            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks.add), themed=self.themed
-        )
+        self.btn_load: CustomButton = CustomButton(self, text="Load version", command=lambda: self.btn_load_command(callbacks.load), themed=self.themed)
+        self.btn_del: CustomButton = CustomButton(self, text="Delete version", command=lambda: self.btn_delete_command(callbacks.delete), themed=self.themed)
+        self.btn_add: CustomButton = CustomButton(self, text="Add / Update", command=lambda: self.btn_add_command(callbacks.add), themed=self.themed)
 
         self.modpack: TextEntry = TextEntry(self, "", hide_label=True, themed=self.themed)
 
-        self.loaded_version: CustomLabel = CustomLabel(
-            self, label_text="Loaded version: {0}", value="", themed=self.themed
-        )
+        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version: {0}", value="", themed=self.themed)
 
         self.widgets: list[CustomWidget] = [
             self.listbox,

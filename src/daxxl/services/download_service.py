@@ -51,16 +51,13 @@ class DownloadService:
         private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""
 
         log.debug(
-            f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from "
-            f"{version.browser_download_url}{private_repo}"
+            f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}"
         )
 
         files_to_download = [(get_asset_version_cache_location(asset, version), version.download_url)]
         for extra_asset in version.extra_assets:
             if extra_asset.download_url is not None:
-                files_to_download.append(
-                    (get_asset_version_cache_location(asset, version, extra_asset.filename), extra_asset.download_url)
-                )
+                files_to_download.append((get_asset_version_cache_location(asset, version, extra_asset.filename), extra_asset.download_url))
 
         for mod_filename, download_url in files_to_download:
             if os.path.exists(mod_filename) and not force_redownload:
@@ -75,9 +72,7 @@ class DownloadService:
 
             temporary = mod_filename.with_name(f"{mod_filename.name}.part")
             try:
-                async with self.client.stream(
-                    url=download_url, headers=headers, method="GET", follow_redirects=True
-                ) as r:
+                async with self.client.stream(url=download_url, headers=headers, method="GET", follow_redirects=True) as r:
                     r.raise_for_status()
                     with open(temporary, "wb") as f:
                         async for chunk in r.aiter_bytes(chunk_size=8192):
@@ -90,10 +85,7 @@ class DownloadService:
                     f"{Fore.RED}` while downloading {Fore.CYAN}{mod_filename.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
                 )
                 if error_callback:
-                    error_callback(
-                        f"The following HTTP error while downloading `{asset_version}` while downloading "
-                        f"{mod_filename.name} ({type} asset): {e}"
-                    )
+                    error_callback(f"The following HTTP error while downloading `{asset_version}` while downloading {mod_filename.name} ({type} asset): {e}")
                 return None
             finally:
                 temporary.unlink(missing_ok=True)
@@ -131,9 +123,7 @@ class DownloadService:
                 error_callback(message)
 
         # computation of the progress per mod for the progressbar
-        delta_progress = 100 / (
-            len(release.github_mods) + len(release.external_mods) + len(self.assets.translations.versions) + 1
-        )  # +1 for the config
+        delta_progress = 100 / (len(release.github_mods) + len(release.external_mods) + len(self.assets.translations.versions) + 1)  # +1 for the config
 
         # Download Mods
         log.debug(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Mod(s)")
@@ -156,11 +146,7 @@ class DownloadService:
                 )
 
         def config_callback(name):
-            return (
-                download_callback(delta_progress, f"config for release {release.version} downloaded!")
-                if download_callback
-                else None
-            )
+            return download_callback(delta_progress, f"config for release {release.version} downloaded!") if download_callback else None
 
         # download the modpack configs
         downloaders.append(
@@ -177,11 +163,7 @@ class DownloadService:
             # download the translations for the pack
             def translation_callback(name):
                 return (
-                    download_callback(
-                        delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
-                    )
-                    if download_callback
-                    else None
+                    download_callback(delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!") if download_callback else None
                 )
 
             for language in self.assets.translations.versions:

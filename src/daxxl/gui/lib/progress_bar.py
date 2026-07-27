@@ -24,17 +24,11 @@ class CustomProgressBar(Frame, CustomWidget):
 
         self.progress_bar_length: int = progress_bar_length
 
-        self.progress_bar: Progressbar = Progressbar(
-            self, orient="horizontal", mode="determinate", length=progress_bar_length
-        )
+        self.progress_bar: Progressbar = Progressbar(self, orient="horizontal", mode="determinate", length=progress_bar_length)
 
         self.stringvar: StringVar = StringVar(self, value="")
 
-        self.label: Label | TtkLabel = (
-            TtkLabel(self, textvariable=self.stringvar, width=100)
-            if themed
-            else Label(self, textvariable=self.stringvar, width=100)
-        )
+        self.label: Label | TtkLabel = TtkLabel(self, textvariable=self.stringvar, width=100) if themed else Label(self, textvariable=self.stringvar, width=100)
 
         rows: int = 2
         columns: int = 1

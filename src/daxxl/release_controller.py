@@ -76,13 +76,9 @@ class ReleaseController:
         self._client: httpx.AsyncClient | None = None
         self._context: AppContext | None = None
 
-        self.github_mods: dict[
-            str, ModVersionInfo
-        ] = {}  # name <-> version of github mods mappings for the current release
+        self.github_mods: dict[str, ModVersionInfo] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
-        self.external_mods: dict[
-            str, ModVersionInfo
-        ] = {}  # name <-> version of external mods mappings for the current release
+        self.external_mods: dict[str, ModVersionInfo] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
         self.last_version: str | None = None  # last version of the release
 
@@ -440,8 +436,7 @@ class ReleaseController:
             mod_data = context.assets.get_mod_and_version(mod_name, version, valid_sides=valid_side)
             if mod_data is not None:
                 logger.warn(
-                    f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}"
-                    f"in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                    f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
                 )
                 external_mods_to_delete.append(mod_name)
 
@@ -465,15 +460,11 @@ class ReleaseController:
             version=release_name,
             config=self.gtnh_config,
             github_mods={
-                mod_name: ModVersionInfo(
-                    version=info.version, side=info.side if info.side else context.assets.get_mod(mod_name).side
-                )
+                mod_name: ModVersionInfo(version=info.version, side=info.side if info.side else context.assets.get_mod(mod_name).side)
                 for mod_name, info in self.github_mods.items()
             },
             external_mods={
-                mod_name: ModVersionInfo(
-                    version=info.version, side=info.side if info.side else context.assets.get_mod(mod_name).side
-                )
+                mod_name: ModVersionInfo(version=info.version, side=info.side if info.side else context.assets.get_mod(mod_name).side)
                 for mod_name, info in self.external_mods.items()
             },
             last_version=previous_version,
