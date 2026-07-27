@@ -11,6 +11,7 @@ from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import RELEASE_TECHNIC_DIR, Side
+from daxxl.exceptions import ReleaseNotFoundException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
@@ -134,6 +135,14 @@ class TechnicAssembler(GenericAssembler):
             log.info("modlist created successfully!")
 
     def differential_update(self, side: Side, update_mode: DifferentialUpdateMode) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+        """
+        List the mods that changed between this release and the one before it.
+
+        :param side: the targeted side
+        :param update_mode: which side of the comparison to report
+        :raises ReleaseNotFoundException: if the release has no previous release to compare against
+        :return: a list of couples of the mod info object and its targeted version
+        """
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
@@ -143,7 +152,13 @@ class TechnicAssembler(GenericAssembler):
         else:
             update_source = self.context.comparison.get_removed_mods
 
-        last_release: GTNHRelease = self.context.release_service.get_release(self.release.last_version)  # type: ignore
+        last_version = self.release.last_version
+        last_release = self.context.release_service.get_release(last_version) if last_version is not None else None
+        if last_release is None:
+            raise ReleaseNotFoundException(
+                f"the partial technic archive for {self.release.version} is built against its previous release {last_version!r}, which could not be loaded"
+            )
+
         process_release: GTNHRelease = last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
 
         valid_sides: set[Side] = side.valid_mod_sides()
