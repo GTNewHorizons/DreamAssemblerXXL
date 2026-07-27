@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-27T10:34:32.745829+00:00",
+  "last_updated": "2026-07-27T21:25:44.943845+00:00",
   "config": "2.9.0-nightly-2026-07-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1021-GTNH",
+      "version": "rv3-beta-1022-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.4.7",
+      "version": "3.4.8",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.31",
+      "version": "4.11.32",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "ModTweaker": {
-      "version": "0.13.0",
+      "version": "0.14.0",
       "side": "BOTH"
     },
     "Natura": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.1.6",
+      "version": "1.1.7",
       "side": "BOTH"
     },
     "ModularUI2": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.49-GTNH",
+      "version": "0.1.50-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {

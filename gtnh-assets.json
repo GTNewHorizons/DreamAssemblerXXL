@@ -17773,7 +17773,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1021-GTNH",
+      "latest_version": "rv3-beta-1022-GTNH",
       "private": false,
       "versions": [
         {
@@ -26574,6 +26574,16 @@
           "filename": "appliedenergistics2-rv3-beta-1021-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/490917804",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1021-GTNH/appliedenergistics2-rv3-beta-1021-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1022-GTNH",
+          "changelog": "## What's Changed\n* Cleanup unused or invalid recipes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1471\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1021-GTNH...rv3-beta-1022-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-27T15:24:23+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1022-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/491605988",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1022-GTNH/appliedenergistics2-rv3-beta-1022-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -44707,7 +44717,7 @@
     },
     {
       "name": "CraftTweaker",
-      "latest_version": "3.4.7",
+      "latest_version": "3.4.8",
       "private": false,
       "versions": [
         {
@@ -44909,6 +44919,16 @@
           "filename": "CraftTweaker-3.4.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CraftTweaker/releases/assets/406544312",
           "browser_download_url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.4.7/CraftTweaker-3.4.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.4.8",
+          "changelog": "## What's Changed\n* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/CraftTweaker/pull/30\n\n**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.4.7...3.4.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-27T13:44:26+00:00",
+          "filename": "CraftTweaker-3.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CraftTweaker/releases/assets/491504928",
+          "browser_download_url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.4.8/CraftTweaker-3.4.8.jar",
           "extra_assets": []
         }
       ],
@@ -56186,7 +56206,7 @@
     },
     {
       "name": "ForestryMC",
-      "latest_version": "4.11.31",
+      "latest_version": "4.11.32",
       "private": false,
       "versions": [
         {
@@ -57509,6 +57529,16 @@
           "filename": "Forestry-4.11.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/467042273",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.31/Forestry-4.11.31.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.11.32",
+          "changelog": "## What's Changed\n* fix: implement stacked block slab by @vermz99 in https://github.com/GTNewHorizons/ForestryMC/pull/127\n\n## New Contributors\n* @vermz99 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/127\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.32\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-27T17:24:52+00:00",
+          "filename": "Forestry-4.11.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/491724210",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.32/Forestry-4.11.32.jar",
           "extra_assets": []
         }
       ],
@@ -121753,7 +121783,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.49-GTNH",
+      "latest_version": "0.1.50-GTNH",
       "private": false,
       "versions": [
         {
@@ -122655,6 +122685,16 @@
           "filename": "matter-manipulator-0.1.49-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/488944716",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.49-GTNH/matter-manipulator-0.1.49-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.50-GTNH",
+          "changelog": "## What's Changed\n* feat: support forestry woods by @vermz99 in https://github.com/GTNewHorizons/MatterManipulator/pull/74\n\n## New Contributors\n* @vermz99 made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/74\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.49-GTNH...0.1.50-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-27T17:29:36+00:00",
+          "filename": "matter-manipulator-0.1.50-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/491728174",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.50-GTNH/matter-manipulator-0.1.50-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -124298,7 +124338,7 @@
     },
     {
       "name": "ModTweaker",
-      "latest_version": "0.13.0",
+      "latest_version": "0.14.0",
       "private": false,
       "versions": [
         {
@@ -124370,6 +124410,16 @@
           "filename": "ModTweaker2-0.13.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModTweaker/releases/assets/373221196",
           "browser_download_url": "https://github.com/GTNewHorizons/ModTweaker/releases/download/0.13.0/ModTweaker2-0.13.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.14.0",
+          "changelog": "## What's Changed\n* Mark all the non optional parameters as optional, to avoid Zenscript warning in logs by @boubou19 in https://github.com/GTNewHorizons/ModTweaker/pull/9\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/9\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.13.0...0.14.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-27T13:48:40+00:00",
+          "filename": "ModTweaker2-0.14.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModTweaker/releases/assets/491508212",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModTweaker/releases/download/0.14.0/ModTweaker2-0.14.0.jar",
           "extra_assets": []
         }
       ],
@@ -128779,7 +128829,7 @@
     },
     {
       "name": "Navigator",
-      "latest_version": "1.1.6",
+      "latest_version": "1.1.7",
       "private": false,
       "versions": [
         {
@@ -129031,6 +129081,16 @@
           "filename": "navigator-1.1.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Navigator/releases/assets/488789751",
           "browser_download_url": "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.6/navigator-1.1.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.7",
+          "changelog": "## What's Changed\n* Add JourneyMap 6 support while retaining JourneyMap 5 and Xaero support by @Algent in https://github.com/GTNewHorizons/Navigator/pull/20\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.6...1.1.7\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-27T19:46:53+00:00",
+          "filename": "navigator-1.1.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Navigator/releases/assets/491855970",
+          "browser_download_url": "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.7/navigator-1.1.7.jar",
           "extra_assets": []
         }
       ],
@@ -185135,6 +185195,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 645,
-  "latest_successful_daily": 645
+  "latest_daily": 646,
+  "latest_successful_daily": 646
 }

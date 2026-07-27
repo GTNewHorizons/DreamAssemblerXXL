@@ -43,10 +43,11 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1021-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1021-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1022-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1022-GTNH
 
 ## What's Changed:
+>* Cleanup unused or invalid recipes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1471 (rv3-beta-1022-GTNH)
 >* Fix inventory aligment on Advanced Level Emitter  by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1468 (rv3-beta-1021-GTNH)
 >* Add Advanced Level Emitter by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1455 (rv3-beta-1020-GTNH)
 >* Refactor/hqa update to v2 structures by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1467 (rv3-beta-1019-GTNH)
@@ -203,6 +204,12 @@ Mod is client-side only.
 >* Add required PR gate workflow by @MalTeeez in https://github.com/GTNewHorizons/Controlling/pull/21 (2.1.9)
 >* Add visual keyboard and fix integration with lwjgl3ify by @Algent in https://github.com/GTNewHorizons/Controlling/pull/15 (2.1.8)
 
+# Updated - CraftTweaker - 3.4.7 --> 3.4.8
+**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.4.7...3.4.8
+
+## What's Changed:
+>* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30 (3.4.8)
+
 # Updated - CropsNH - 2.0.91 --> 2.0.101
 **Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.101
 
@@ -266,6 +273,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Add MFR support for tainted trees by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/32 (0.9.17-GTNH)
+
+# Updated - ForestryMC - 4.11.31 --> 4.11.32
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.32
+
+## What's Changed:
+>* fix: implement stacked block slab by @vermz99 in https://github.com/GTNewHorizons/ForestryMC/pull/127 (4.11.32)
 
 # Updated - ForgeMultipart - 1.7.10 --> 1.7.11
 **Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.10...1.7.11
@@ -601,10 +614,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix replacements not having their delegate names set by @tiffit in https://github.com/GTNewHorizons/MalisisDoors/pull/30 (1.19.9-GTNH)
 
-# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.49-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.49-GTNH
+# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.50-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.50-GTNH
 
 ## What's Changed:
+>* feat: support forestry woods by @vermz99 in https://github.com/GTNewHorizons/MatterManipulator/pull/74 (0.1.50-GTNH)
 >* Allow OC APU and Floppies to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/71 (0.1.49-GTNH)
 >* Move Mode Edit Transform Option by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/73 (0.1.49-GTNH)
 >* Allow OC Transposer to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/66 (0.1.48-GTNH)
@@ -626,6 +640,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/74 (2.3.4)
 
+# Updated - ModTweaker - 0.13.0 --> 0.14.0
+**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.13.0...0.14.0
+
+## What's Changed:
+>* Mark all the non optional parameters as optional, to avoid Zenscript warning in logs by @boubou19 in https://github.com/GTNewHorizons/ModTweaker/pull/9 (0.14.0)
+
 # Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.84-1.7.10
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.84-1.7.10
 
@@ -643,10 +663,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix saplings by @zaru-noodles in https://github.com/GTNewHorizons/Natura/pull/45 (2.8.21)
 
-# Updated - Navigator - 1.1.4 --> 1.1.6
-**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.4...1.1.6
+# Updated - Navigator - 1.1.4 --> 1.1.7
+**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.4...1.1.7
 
 ## What's Changed:
+>* Add JourneyMap 6 support while retaining JourneyMap 5 and Xaero support by @Algent in https://github.com/GTNewHorizons/Navigator/pull/20 (1.1.7)
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
@@ -877,4 +898,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
