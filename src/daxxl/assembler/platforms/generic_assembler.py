@@ -11,8 +11,7 @@ from colorama import Fore
 from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
-from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side, NHCORE_CONFIG_VERSION_ENTRY, \
-    NHCOREMOD_WINDOW_VERSION_ENTRY
+from daxxl.defs import NHCOREMOD_WINDOW_VERSION_ENTRY, NHCORE_CONFIG_VERSION_ENTRY, README_TEMPLATE, RELEASE_README_DIR, Side
 from daxxl.exceptions import InvalidConfigException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
@@ -240,12 +239,10 @@ class GenericAssembler:
 
         if replacements == 0:
             raise ValueError(
-                f"Could not find '{NHCORE_CONFIG_VERSION_ENTRY}' entry in config/GTNewHorizons/dreamcraft.cfg; "
-                "the config format may have changed."
+                f"Could not find '{NHCORE_CONFIG_VERSION_ENTRY}' entry in config/GTNewHorizons/dreamcraft.cfg; the config format may have changed."
             )
 
         return text.encode("utf-8")
-
 
     def _modify_window_version(self, data: bytes) -> bytes:
         text = data.decode("utf-8")
@@ -259,7 +256,7 @@ class GenericAssembler:
         return text.encode("utf-8")
 
     def _modify_config_file(self, filename: str, data: bytes) -> bytes:
-        if not filename in self.modified_config_files:
+        if filename not in self.modified_config_files:
             return data
         return self.modified_config_files[filename](data)
 
