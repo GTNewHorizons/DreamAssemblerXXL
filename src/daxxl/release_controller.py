@@ -38,7 +38,7 @@ BETA_RELEASE_ARCHIVES: list[tuple[Side, Archive]] = [
     (Side.SERVER_JAVA9, Archive.ZIP),
     (Side.CLIENT, Archive.PRISM),
     (Side.CLIENT_JAVA9, Archive.PRISM),
-    (Side.CLIENT_JAVA9, Archive.MOBILE)
+    (Side.CLIENT_JAVA9, Archive.MOBILE),
 ]
 
 
@@ -657,7 +657,7 @@ class ReleaseController:
             Archive.TECHNIC: release_assembler.assemble_technic,
             Archive.CURSEFORGE: release_assembler.assemble_curse,
             Archive.MODRINTH: release_assembler.assemble_modrinth,
-            Archive.MOBILE: release_assembler.assemble_mobile
+            Archive.MOBILE: release_assembler.assemble_mobile,
         }
 
         for side, archive_type in archives:
