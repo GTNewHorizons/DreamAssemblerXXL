@@ -70,7 +70,7 @@ class MobileAssembler(GenericAssembler):
         return self.mobile_modpack_files
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_MOBILE_DIR / f"GT_New_Horizons_{self.release.version}.zip"
+        return RELEASE_MOBILE_DIR / f"GT_New_Horizons_{self.release.version}.mrpack"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side is not Side.CLIENT_JAVA9:
