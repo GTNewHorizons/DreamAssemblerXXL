@@ -25,6 +25,7 @@ FULL_RELEASE_ARCHIVES: list[tuple[Side, Archive]] = [
     (Side.CLIENT, Archive.TECHNIC),
     (Side.CLIENT, Archive.CURSEFORGE),
     (Side.CLIENT, Archive.MODRINTH),
+    (Side.CLIENT_JAVA9, Archive.MOBILE),
     (Side.CLIENT_JAVA9, Archive.PRISM),
     (Side.SERVER_JAVA9, Archive.ZIP),
     (Side.SERVER, Archive.ZIP),
@@ -37,6 +38,7 @@ BETA_RELEASE_ARCHIVES: list[tuple[Side, Archive]] = [
     (Side.SERVER_JAVA9, Archive.ZIP),
     (Side.CLIENT, Archive.PRISM),
     (Side.CLIENT_JAVA9, Archive.PRISM),
+    (Side.CLIENT_JAVA9, Archive.MOBILE)
 ]
 
 
@@ -633,6 +635,7 @@ class ReleaseController:
                 Archive.PRISM: release_assembler.assemble_prism,
                 Archive.MODRINTH: release_assembler.assemble_modrinth,
                 Archive.CURSEFORGE: release_assembler.assemble_curse,
+                Archive.MOBILE: release_assembler.assemble_mobile,
             }
             await assembler_dict[archive_type](side, True)
 
@@ -654,6 +657,7 @@ class ReleaseController:
             Archive.TECHNIC: release_assembler.assemble_technic,
             Archive.CURSEFORGE: release_assembler.assemble_curse,
             Archive.MODRINTH: release_assembler.assemble_modrinth,
+            Archive.MOBILE: release_assembler.assemble_mobile
         }
 
         for side, archive_type in archives:

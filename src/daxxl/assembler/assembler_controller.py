@@ -3,6 +3,7 @@ from pathlib import Path
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.platforms import CurseAssembler, ModrinthAssembler, PrismAssembler, TechnicAssembler, ZipAssembler
+from daxxl.assembler.platforms.mobile import MobileAssembler
 from daxxl.defs import (
     RELEASE_CHANGELOG_DAILY_BUILDS_DIR,
     RELEASE_CHANGELOG_DIR,
@@ -57,6 +58,7 @@ class ReleaseAssemblerController:
             current_task_reset_callback=current_task_reset_callback,
         )
         self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(context, release, task_callback, changelog_path=changelog_path)
+        self.mobile_assembler: MobileAssembler = MobileAssembler(context, release, task_callback, changelog_path=changelog_path)
 
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
@@ -142,6 +144,16 @@ class ReleaseAssemblerController:
         :return: None
         """
         await self.modrinth_assembler.assemble(side, verbose)
+
+    async def assemble_mobile(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the mobile archive.
+
+        :param side: targeted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
+        await self.mobile_assembler.assemble(side, verbose)
 
     async def assemble_technic(
         self,
