@@ -70,9 +70,9 @@ class GTNHRelease(GTNHBaseModel):
         count = counter_service.get_dev_release_count(release_type)
 
         if not with_date:
-            return f"{GTNH_DEV_CYCLE} ({release_type.value} {count})"
+            return f"{GTNH_DEV_CYCLE} ({release_type.value.capitalize()} {count})"
         date_str = self.last_updated.strftime("%Y-%m-%d")
-        return f"{GTNH_DEV_CYCLE} ({release_type.value} {count}) - {date_str}"
+        return f"{GTNH_DEV_CYCLE} ({release_type.value.capitalize()} {count}) - {date_str}"
 
     @property
     def is_dev_version(self) -> bool:
