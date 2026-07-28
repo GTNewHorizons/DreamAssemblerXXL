@@ -285,6 +285,16 @@ class GenericAssembler:
         changelog_arcname = self.config_root / self.changelog_path.name if self.config_root is not None and self.changelog_path is not None else None
         self.add_changelog(archive, arcname=changelog_arcname)
 
+    async def run_stuff_before_assembling(self, side:Side) -> None:
+        """
+        Method allowing to run stuff before the actual assembling but after the archive removal if it was already existing.
+        Useful for assemblers like MobileAssembler that needs to insert the metadata inside the zip first for instance.
+
+        :param side: target side
+        :return: None
+        """
+        pass
+
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
         Method to assemble the release.
@@ -303,9 +313,11 @@ class GenericAssembler:
             os.remove(archive_name)
             log.warn(f"Previous archive {Fore.YELLOW}'{archive_name}'{Fore.RESET} deleted")
 
+        await self.run_stuff_before_assembling(side)
+
         log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
 
-        with ZipFile(self.get_archive_path(side), "w", compression=ZIP_DEFLATED) as archive:
+        with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
             await self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
             await self.yield_to_event_loop()
