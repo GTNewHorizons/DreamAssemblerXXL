@@ -31,15 +31,6 @@ class GenericAssembler:
     # config entries dropped regardless of the side's exclusions
     excluded_config_files: frozenset[str] = frozenset()
 
-    # config entries whose content is modified before being added to the archive
-    modified_config_files: frozenset[str] = frozenset(
-        {
-            "config/txloader/load/mainmenu/version.txt",
-            "config/GTNewHorizons/dreamcraft.cfg",
-            "config/DreamCoreMod.properties",
-        }
-    )
-
     def __init__(
         self,
         context: AppContext,
@@ -73,6 +64,13 @@ class GenericAssembler:
             Side.SERVER_JAVA9: Exclusions(mod_pack.server_exclusions + mod_pack.server_java9_exclusions),
         }
         self.delta_progress: float = 0.0
+
+        # config entries that must be modified on the fly
+        self.modified_config_files: dict[str, Callable[[bytes], bytes]] = {
+            "config/txloader/load/mainmenu/version.txt": self._modify_mainmenu_version,
+            "config/GTNewHorizons/dreamcraft.cfg": self._modify_welcome_message_version,
+            "config/DreamCoreMod.properties": self._modify_window_version,
+        }
 
     @property
     def config_root(self) -> Path | None:
@@ -251,13 +249,9 @@ class GenericAssembler:
         return text.encode("utf-8")
 
     def _modify_config_file(self, filename: str, data: bytes) -> bytes:
-        if filename == "config/txloader/load/mainmenu/version.txt":
-            return self._modify_mainmenu_version(data)
-        if filename == "config/GTNewHorizons/dreamcraft.cfg":
-            return self._modify_welcome_message_version(data)
-        if filename == "config/DreamCoreMod.properties":
-            return self._modify_window_version(data)
-        return data
+        if not filename in self.modified_config_files:
+            return data
+        return self.modified_config_files[filename](data)
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
         """
