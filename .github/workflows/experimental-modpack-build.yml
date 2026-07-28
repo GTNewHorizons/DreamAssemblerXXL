@@ -115,6 +115,7 @@ jobs:
           mv releases/zip/GT_New_Horizons_experimental_Server_Java_17-26.zip "GTNH-experimental-${{ steps.date.outputs.today }}-server-java17-26.zip"
           mv releases/multi_poly/GT_New_Horizons_experimental_Java_8.zip "GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
           mv releases/multi_poly/GT_New_Horizons_experimental_Java_17-26.zip "GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip"
+          mv releases/multi_poly/GT_New_Horizons_experimental.mrpack "GTNH-experimental-${{ steps.date.outputs.today }}-android-java17-26.mrpack"
 
       # Pulls the newest changelog filename and stores it in an env variable
       # so we can use it in the commit
@@ -135,6 +136,7 @@ jobs:
             GTNH-experimental-${{ steps.date.outputs.today }}-server-java17-26.zip
             GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java8.zip
             GTNH-experimental-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip
+            GTNH-experimental-${{ steps.date.outputs.today }}-android-java17-26.mrpack
             releases/manifests/experimental.json
             releases/changelogs/
             gtnh-assets.json
@@ -216,6 +218,14 @@ jobs:
         if: success() || failure()
         with:
           path: GTNH-experimental-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
+          archive: false
+
+      - name: Upload android built mrpack
+        uses: actions/upload-artifact@v7
+        # Upload even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          path: GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack
           archive: false
 
       - name: Push experimental changelog in commit to master
