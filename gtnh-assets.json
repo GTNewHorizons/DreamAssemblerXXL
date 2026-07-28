@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-07-25",
+    "latest_version": "2.9.0-nightly-2026-07-28",
     "needs_attention": false,
     "versions": [
       {
@@ -7432,6 +7432,16 @@
         "filename": "2.9.0-nightly-2026-07-25.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/488626007",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-07-25/2.9.0-nightly-2026-07-25.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-07-28",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-07-28T11:14:52+00:00",
+        "filename": "2.9.0-nightly-2026-07-28.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/492624845",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-07-28/2.9.0-nightly-2026-07-28.zip",
         "extra_assets": []
       }
     ],
@@ -36520,7 +36530,7 @@
     },
     {
       "name": "BloodArsenal",
-      "latest_version": "1.5.11",
+      "latest_version": "1.5.12",
       "private": false,
       "versions": [
         {
@@ -36892,6 +36902,16 @@
           "filename": "BloodArsenal-1.5.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BloodArsenal/releases/assets/448853970",
           "browser_download_url": "https://github.com/GTNewHorizons/BloodArsenal/releases/download/1.5.11/BloodArsenal-1.5.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.12",
+          "changelog": "## What's Changed\n* exclude unnecessary client side checks by @ABKQPO in https://github.com/GTNewHorizons/BloodArsenal/pull/47\n\n## New Contributors\n* @ABKQPO made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/47\n\n**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.5.11...1.5.12\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-28T09:55:41+00:00",
+          "filename": "BloodArsenal-1.5.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BloodArsenal/releases/assets/492555966",
+          "browser_download_url": "https://github.com/GTNewHorizons/BloodArsenal/releases/download/1.5.12/BloodArsenal-1.5.12.jar",
           "extra_assets": []
         }
       ],
@@ -64310,7 +64330,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.59",
+      "latest_version": "5.09.54.60",
       "private": false,
       "versions": [
         {
@@ -89921,6 +89941,16 @@
           "filename": "gregtech-5.09.54.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/492251242",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.59/gregtech-5.09.54.59.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.60",
+          "changelog": "## What's Changed\n* Override IOreMaterial#getPart for GT++ materials by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7583\n* Schedule recipe check when sievert has changed by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7592\n* Add missing input watchers by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7594\n* circumvent jvmDowngrader switch pattern matching bug by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7595\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.59...5.09.54.60\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-28T11:50:41+00:00",
+          "filename": "gregtech-5.09.54.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/492655776",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.60/gregtech-5.09.54.60.jar",
           "extra_assets": []
         }
       ],
@@ -128899,7 +128929,7 @@
     },
     {
       "name": "Navigator",
-      "latest_version": "1.1.7",
+      "latest_version": "1.1.8",
       "private": false,
       "versions": [
         {
@@ -129161,6 +129191,16 @@
           "filename": "navigator-1.1.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Navigator/releases/assets/491855970",
           "browser_download_url": "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.7/navigator-1.1.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.8",
+          "changelog": "## What's Changed\n* Fix atlas padding issues if texture filtering is enabled by @Algent in https://github.com/GTNewHorizons/Navigator/pull/21\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.7...1.1.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-28T09:50:52+00:00",
+          "filename": "navigator-1.1.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Navigator/releases/assets/492550750",
+          "browser_download_url": "https://github.com/GTNewHorizons/Navigator/releases/download/1.1.8/navigator-1.1.8.jar",
           "extra_assets": []
         }
       ],
@@ -130456,7 +130496,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.25",
+      "latest_version": "2.9.26",
       "private": false,
       "versions": [
         {
@@ -142267,6 +142307,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/492247156",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.25/GTNewHorizonsCoreMod-2.9.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.26",
+          "changelog": "## What's Changed\n* Allow window name config by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1882\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.25...2.9.26\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-28T10:43:11+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/492597558",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.26/GTNewHorizonsCoreMod-2.9.26.jar",
           "extra_assets": []
         }
       ],
@@ -185295,6 +185345,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 647,
-  "latest_successful_daily": 647
+  "latest_daily": 648,
+  "latest_successful_daily": 648
 }

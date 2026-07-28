@@ -130,6 +130,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Raise Max Tier Check Limit by @Auynonymous in https://github.com/GTNewHorizons/BlockRenderer6343/pull/56 (1.4.18)
 
+# Updated - BloodArsenal - 1.5.11 --> 1.5.12
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.5.11...1.5.12
+
+## What's Changed:
+>* exclude unnecessary client side checks by @ABKQPO in https://github.com/GTNewHorizons/BloodArsenal/pull/47 (1.5.12)
+
 # Updated - BloodMagic - 1.9.4 --> 1.9.10
 **Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.4...1.9.10
 
@@ -294,10 +300,14 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.59
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.59
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.60
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.60
 
 ## What's Changed:
+>* Override IOreMaterial#getPart for GT++ materials by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7583 (5.09.54.60)
+>* Schedule recipe check when sievert has changed by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7592 (5.09.54.60)
+>* Add missing input watchers by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7594 (5.09.54.60)
+>* circumvent jvmDowngrader switch pattern matching bug by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7595 (5.09.54.60)
 >* Allow GT++ materials to work with familiar prefix lookup by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7582 (5.09.54.59)
 >* fix(recipechk): add edge check to eliminate warning by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7584 (5.09.54.59)
 >* Fixes nano forge and creative placing crash on server by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7585 (5.09.54.59)
@@ -680,18 +690,20 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix saplings by @zaru-noodles in https://github.com/GTNewHorizons/Natura/pull/45 (2.8.21)
 
-# Updated - Navigator - 1.1.4 --> 1.1.7
-**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.4...1.1.7
+# Updated - Navigator - 1.1.4 --> 1.1.8
+**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.1.4...1.1.8
 
 ## What's Changed:
+>* Fix atlas padding issues if texture filtering is enabled by @Algent in https://github.com/GTNewHorizons/Navigator/pull/21 (1.1.8)
 >* Add JourneyMap 6 support while retaining JourneyMap 5 and Xaero support by @Algent in https://github.com/GTNewHorizons/Navigator/pull/20 (1.1.7)
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.25
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.25
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.26
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.26
 
 ## What's Changed:
+>* Allow window name config by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1882 (2.9.26)
 >* Add Pluto planet block recipes for other Pluto Surface Ice variants by @Angry3vilbot in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1880 (2.9.25)
 >* Keep Warding Focus in Arcane Crafting Grid by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1879 (2.9.24)
 >* Adds input/output switching recipes for buses/hatches using toolbox by @querns in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1876 (2.9.24)
