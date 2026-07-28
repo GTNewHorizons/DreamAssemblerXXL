@@ -80,7 +80,8 @@ class ZipAssembler(GenericAssembler):
             await self.yield_to_event_loop()
 
         # server.properties
-        archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(self.release.version))
+        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
+        archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(display_version))
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side.archive_name()}.zip"
