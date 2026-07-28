@@ -104,8 +104,10 @@ class MobileAssembler(GenericAssembler):
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.delta_progress, "adding archive's metadata to the archive")
 
-            name = "GregTech: New Horizons"
+
+
             version_id = self.release.get_display_version(self.context.counter, with_date=False)
+            name = f"GT:NH {version_id}" # the version is also added in the name as amethyst does not show
             archive.writestr("modrinth.index.json", MRPACK_METADATA.format(name, version_id))
 
             await normalize_archive_permissions(archive)
