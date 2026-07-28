@@ -1,5 +1,6 @@
 import asyncio
 import os
+import re
 import shutil
 from collections.abc import Callable
 from pathlib import Path
@@ -10,7 +11,7 @@ from colorama import Fore
 from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
-from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
+from daxxl.defs import NHCOREMOD_WINDOW_VERSION_ENTRY, NHCORE_CONFIG_VERSION_ENTRY, README_TEMPLATE, RELEASE_README_DIR, Side
 from daxxl.exceptions import InvalidConfigException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
@@ -63,6 +64,13 @@ class GenericAssembler:
             Side.SERVER_JAVA9: Exclusions(mod_pack.server_exclusions + mod_pack.server_java9_exclusions),
         }
         self.delta_progress: float = 0.0
+
+        # config entries that must be modified on the fly
+        self.modified_config_files: dict[str, Callable[[bytes], bytes]] = {
+            "config/txloader/load/mainmenu/version.txt": self._modify_mainmenu_version,
+            "config/GTNewHorizons/dreamcraft.cfg": self._modify_welcome_message_version,
+            "config/DreamCoreMod.properties": self._modify_window_version,
+        }
 
     @property
     def config_root(self) -> Path | None:
@@ -208,12 +216,49 @@ class GenericAssembler:
                 # zipfile to know if it's a file or a folder. If used here, Path objects will lead to
                 # the creation of empty files for every folder.
                 arcname = f"{root.as_posix()}/{item}" if root is not None else item
-                with config_zip.open(item) as config_item:
-                    with destination.open(arcname, "w") as target:
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
+                if item in self.modified_config_files:
+                    data = config_zip.read(item)
+                    data = self._modify_config_file(item, data)
+                    destination.writestr(arcname, data)
+                else:
+                    with config_zip.open(item) as config_item:
+                        with destination.open(arcname, "w") as target:
+                            shutil.copyfileobj(config_item, target)
+                if self.task_progress_callback is not None:
+                    self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
+
+    def _modify_mainmenu_version(self, data: bytes) -> bytes:
+        date_str = self.release.last_updated.strftime("%Y-%m-%d")
+        display_version = self.release.get_display_version(self.context.counter, with_date=False)
+        return f"GTNH {display_version} ({date_str})".encode()
+
+    def _modify_welcome_message_version(self, data: bytes) -> bytes:
+        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
+        text, replacements = re.subn(rf"^(\s*{NHCORE_CONFIG_VERSION_ENTRY}).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE)
+
+        if replacements == 0:
+            raise ValueError(
+                f"Could not find '{NHCORE_CONFIG_VERSION_ENTRY}' entry in config/GTNewHorizons/dreamcraft.cfg; the config format may have changed."
+            )
+
+        return text.encode("utf-8")
+
+    def _modify_window_version(self, data: bytes) -> bytes:
+        text = data.decode("utf-8")
+        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
+        replaced_str = f"{NHCOREMOD_WINDOW_VERSION_ENTRY}{display_version}"
+        search_pattern = rf"^{NHCOREMOD_WINDOW_VERSION_ENTRY}.*$"
+        if re.search(search_pattern, text, flags=re.MULTILINE):
+            text = re.sub(search_pattern, replaced_str, text, count=1, flags=re.MULTILINE)
+        else:
+            text = text.rstrip("\n\r") + "\n" + replaced_str + "\n"
+        return text.encode("utf-8")
+
+    def _modify_config_file(self, filename: str, data: bytes) -> bytes:
+        if filename not in self.modified_config_files:
+            return data
+        return self.modified_config_files[filename](data)
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
         """

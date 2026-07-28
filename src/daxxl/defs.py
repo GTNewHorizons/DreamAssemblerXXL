@@ -138,6 +138,9 @@ spawn-protection=1
 motd=GT:New Horizons {0}"""
 
 JAVA_9_ARCHIVE_SUFFIX = "Java_17-26"
+GTNH_DEV_CYCLE = "2.9.x"
+NHCORE_CONFIG_VERSION_ENTRY = "S:ModPackVersion="
+NHCOREMOD_WINDOW_VERSION_ENTRY = "displayedModpackVersion="
 
 
 class Side(str, Enum):

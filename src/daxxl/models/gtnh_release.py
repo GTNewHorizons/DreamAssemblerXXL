@@ -3,12 +3,13 @@ from datetime import UTC, datetime
 from colorama import Fore
 from pydantic import Field, ValidationError
 
-from daxxl.defs import RELEASE_MANIFEST_DIR, DevRelease, ModSource
+from daxxl.defs import GTNH_DEV_CYCLE, RELEASE_MANIFEST_DIR, DevRelease, ModSource
 from daxxl.exceptions import InvalidReleaseException, NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.base import GTNHBaseModel
 from daxxl.models.mod_version_info import ModVersionInfo
+from daxxl.services.counter_service import CounterService
 from daxxl.utils import atomic_write_text
 
 log = get_logger(__name__)
@@ -60,6 +61,26 @@ class GTNHRelease(GTNHBaseModel):
 
         if errors:
             raise InvalidReleaseException(f"Invalid release {self.version!r}:\n- " + "\n- ".join(errors))
+
+    def get_display_version(self, counter_service: CounterService, with_date: bool = False) -> str:
+        if not self.is_dev_version:
+            return self.version
+
+        release_type = DevRelease(self.version)
+        count = counter_service.get_dev_release_count(release_type)
+
+        if not with_date:
+            return f"{GTNH_DEV_CYCLE} ({release_type.value.capitalize()} {count})"
+        date_str = self.last_updated.strftime("%Y-%m-%d")
+        return f"{GTNH_DEV_CYCLE} ({release_type.value.capitalize()} {count}) - {date_str}"
+
+    @property
+    def is_dev_version(self) -> bool:
+        try:
+            DevRelease(self.version)
+            return True
+        except ValueError:
+            return False
 
 
 class __GTNHReleaseV1(GTNHBaseModel):
