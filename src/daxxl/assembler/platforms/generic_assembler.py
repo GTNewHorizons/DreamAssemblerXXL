@@ -1,5 +1,6 @@
 import asyncio
 import os
+import re
 import shutil
 from collections.abc import Callable
 from pathlib import Path
@@ -31,7 +32,10 @@ class GenericAssembler:
     excluded_config_files: frozenset[str] = frozenset()
 
     # config entries whose content is modified before being added to the archive
-    modified_config_files: frozenset[str] = frozenset({"config/txloader/load/mainmenu/version.txt"})
+    modified_config_files: frozenset[str] = frozenset({
+        "config/txloader/load/mainmenu/version.txt",
+        "config/GTNewHorizons/dreamcraft.cfg",
+    })
 
     def __init__(
         self,
@@ -224,10 +228,12 @@ class GenericAssembler:
                 await self.yield_to_event_loop()
 
     def _modify_config_file(self, filename: str, data: bytes) -> bytes:
+        display_version = self.release.get_display_version(self.context.counter)
         if filename == "config/txloader/load/mainmenu/version.txt":
-            display_version = self.release.get_display_version(self.context.counter)
             date_str = self.release.last_updated.strftime("%Y-%m-%d")
             return f"GTNH {display_version} ({date_str})".encode("utf-8")
+        if filename == "config/GTNewHorizons/dreamcraft.cfg":
+            return re.sub(r"^(\s*S:ModPackVersion=).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE).encode("utf-8")
         return data
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
