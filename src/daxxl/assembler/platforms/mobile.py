@@ -83,14 +83,17 @@ class MobileAssembler(GenericAssembler):
 
         # +1 for the metadata file
         self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1)
+
+        # moving this from last step to first step because right now amethyst has a huge perf issue finding the mrpack
+        # json if it's not in the first zip entry
+        await self.add_mobile_meta_data(side)
+
         await GenericAssembler.assemble(self, side, verbose)
 
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
             await self.add_localisation_files(archive, str(self.mobile_modpack_files.as_posix()))  # otherwise file check fails
             # on windows
             await normalize_archive_permissions(archive)
-
-        await self.add_mobile_meta_data(side)
 
     async def add_mobile_meta_data(self, side: Side) -> None:
         """
@@ -103,8 +106,6 @@ class MobileAssembler(GenericAssembler):
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.delta_progress, "adding archive's metadata to the archive")
-
-
 
             version_id = self.release.get_display_version(self.context.counter, with_date=False)
             name = f"GT:NH {version_id}" # the version is also added in the name as amethyst does not show
