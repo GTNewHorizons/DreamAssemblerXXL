@@ -84,7 +84,7 @@ class MobileAssembler(GenericAssembler):
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side is not Side.CLIENT_JAVA9:
-            raise ValueError(f"Only valid sides are {Side.CLIENT.value}, got {side.value}")
+            raise ValueError(f"Only valid sides are {Side.CLIENT_JAVA9.value}, got {side.value}")
 
         # +1 for the metadata file
         self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1)

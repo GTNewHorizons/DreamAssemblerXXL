@@ -125,7 +125,7 @@ jobs:
           mv releases/zip/GT_New_Horizons_daily_Server_Java_17-26.zip "GTNH-daily-${{ steps.date.outputs.today }}-server-java17-26.zip"
           mv releases/multi_poly/GT_New_Horizons_daily_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
           mv releases/multi_poly/GT_New_Horizons_daily_Java_17-26.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip"
-          mv releases/multi_poly/GT_New_Horizons_daily.mrpack "GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack"
+          mv releases/mobile/GT_New_Horizons_daily.mrpack "GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack"
       # Pulls the newest changelog filename and stores it in an env variable
       # so we can use it in the commit
       - name: Retrieve Changelog Name
@@ -284,7 +284,7 @@ jobs:
       - name: Upload android built mrpack
         uses: actions/upload-artifact@v7
         with:
-          path: GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack
+          path: GTNH-daily-${{ needs.date.outputs.today }}-android-java17-26.mrpack
           archive: false
 
       - name: Push daily changelog in commit to master
