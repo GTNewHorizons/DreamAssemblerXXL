@@ -43,10 +43,11 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1022-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1022-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1023-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1023-GTNH
 
 ## What's Changed:
+>* Fix Advanced Level Emitter crashing on server by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1472 (rv3-beta-1023-GTNH)
 >* Cleanup unused or invalid recipes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1471 (rv3-beta-1022-GTNH)
 >* Fix inventory aligment on Advanced Level Emitter  by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1468 (rv3-beta-1021-GTNH)
 >* Add Advanced Level Emitter by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1455 (rv3-beta-1020-GTNH)
@@ -286,16 +287,24 @@ Mod is client-side only.
 ## What's Changed:
 >* Maybe more thread safe renderpass by @mitchej123 in https://github.com/GTNewHorizons/ForgeMultipart/pull/50 (1.7.11)
 
-# Updated - Freecam - 1.0.9 --> 1.0.10
-**Full Changelog**: https://github.com/GTNewHorizons/Freecam/compare/1.0.9...1.0.10
+# Updated - Freecam - 1.0.9 --> 1.0.11
+**Full Changelog**: https://github.com/GTNewHorizons/Freecam/compare/1.0.9...1.0.11
 
 ## What's Changed:
+>* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.58
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.58
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.59
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.59
 
 ## What's Changed:
+>* Allow GT++ materials to work with familiar prefix lookup by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7582 (5.09.54.59)
+>* fix(recipechk): add edge check to eliminate warning by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7584 (5.09.54.59)
+>* Fixes nano forge and creative placing crash on server by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7585 (5.09.54.59)
+>* Fix Forestry fruit stack size being rounded to zero by TGS by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7588 (5.09.54.59)
+>* Hide redundant Voltage line in Target Chamber NEI tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7590 (5.09.54.59)
+>* correct physical factual errors by @xicoa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7410 (5.09.54.59)
+>* Read actual amperage instead of hardcoded constant in Target Chamber by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7591 (5.09.54.59)
 >* [README] Add credit for spacetime asset by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7574 (5.09.54.58)
 >* fix Steam output bus filter by @mllfjn in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7532 (5.09.54.58)
 >* Hide CRIB suffixes when using custom names by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7577 (5.09.54.58)
@@ -490,10 +499,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Enable shadow dependencies by @SuperSoupr in https://github.com/GTNewHorizons/GTNH-Credits/pull/19 (1.3.2)
 
-# Updated - GTNHLib - 0.11.24 --> 0.11.32
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.32
+# Updated - GTNHLib - 0.11.24 --> 0.11.33
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.33
 
 ## What's Changed:
+>* Honor VertexFormat for WavefrontVBOBuilder by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/433 (0.11.33)
 >* Add more annotations & documentation to TeamManager by @Sanduhr32 in https://github.com/GTNewHorizons/GTNHLib/pull/432 (0.11.32)
 >* Add bukkit compatibility Layer by @RealSilverMoon in https://github.com/GTNewHorizons/GTNHLib/pull/423 (0.11.31)
 >* Port 2d & 3d maps & sets from CC by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/426 (0.11.30)
@@ -527,10 +537,11 @@ Mod is client-side only.
 >* Skip redundant guide reloads during boot, keep only FML's final refresh by @Algent in https://github.com/GTNewHorizons/GuideNH/pull/41 (1.3.13)
 >* Fast game scene by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/26 (1.3.12)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.177
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.177
+# Updated - Hodgepodge - 2.7.170 --> 2.7.178
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.178
 
 ## What's Changed:
+>* Fix async icon compat with new Angelica mipmaps by @Eclipse-Sol in https://github.com/GTNewHorizons/Hodgepodge/pull/960 (2.7.178)
 >* Enable distance culling for frames and items in frames by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/949 (2.7.177)
 >* Fix Ctrl shortcuts in text fields not working on some keyboard layouts by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/958 (2.7.176)
 >* (temp) Set async icon loading to default false by @tiffit in https://github.com/GTNewHorizons/Hodgepodge/pull/953 (2.7.175)
@@ -566,10 +577,11 @@ Mod is client-side only.
 >* Adapt to GT5u changes / Bump Buildscript and Deps by @Algent in https://github.com/GTNewHorizons/InGame-Info-XML/pull/41 (2.9.4)
 >* add itemid and itemmeta tags for equipment slots by @Eldrinn-Elantey in https://github.com/GTNewHorizons/InGame-Info-XML/pull/40 (2.9.4)
 
-# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.41-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.41-GTNH
+# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.42-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.42-GTNH
 
 ## What's Changed:
+>* Fix incorrect AE2 presence check by @Kogepan229 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/214 (1.3.42-GTNH)
 >* feat(client): repeat drop while drop key held by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/213 (1.3.41-GTNH)
 >* Fix regression to inventory sorting from PR #211 by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/212 (1.3.40-GTNH)
 >* Fix drop off accidental triggers and not working with key combos by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/211 (1.3.39-GTNH)
@@ -579,10 +591,15 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.6.30 --> 1.6.33
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.33
+# Updated - LittleTiles - 1.6.30 --> 1.6.34
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.34
 
 ## What's Changed:
+>* Cache meshes clientside for rendering by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/126 (1.6.34)
+>* Add command to dump mesh by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/129 (1.6.34)
+>* Fix for blockpicked cutouts by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/124 (1.6.34)
+>* Improve degenerate check by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/125 (1.6.34)
+>* Attempt to fix some rounding issues by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/128 (1.6.34)
 >* Implement culling for touching transparent / translucent tiles of the same type by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/122 (1.6.33)
 >* Mini optimize by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/116 (1.6.32)
 >* Only cut edges that really cut the mesh by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/117 (1.6.32)
@@ -671,10 +688,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.24
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.24
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.25
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.25
 
 ## What's Changed:
+>* Add Pluto planet block recipes for other Pluto Surface Ice variants by @Angry3vilbot in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1880 (2.9.25)
 >* Keep Warding Focus in Arcane Crafting Grid by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1879 (2.9.24)
 >* Adds input/output switching recipes for buses/hatches using toolbox by @querns in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1876 (2.9.24)
 >* Added ME Advanced Level Emitter Recipe by @Ranzuu in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1874 (2.9.23)
@@ -765,10 +783,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix name for type tab by @AnsonYeung in https://github.com/GTNewHorizons/Opis/pull/17 (1.4.9-mapless)
 
-# Updated - ServerUtilities - 2.4.1 --> 2.4.3
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.3
+# Updated - ServerUtilities - 2.4.1 --> 2.4.4
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.4
 
 ## What's Changed:
+>* Fix `serverutilities.bypass_player_limit` allowing banned players by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/330 (2.4.4)
 >* Fix /back tp offsets by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/327 (2.4.3)
 >* Fix breeding not working in claims with mob spawns disabled by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/325 (2.4.2)
 
@@ -871,10 +890,11 @@ Mod is client-side only.
 >* Fix occasional black screen on startup caused by stale/zero framebuffer size by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/352 (3.0.29)
 >* Fix relauncher by @FalsePattern in https://github.com/GTNewHorizons/lwjgl3ify/pull/354 (3.0.28)
 
-# Updated - nei-custom-diagram - 1.8.30 --> 1.8.32
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.8.30...1.8.32
+# Updated - nei-custom-diagram - 1.8.30 --> 1.8.33
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.8.30...1.8.33
 
 ## What's Changed:
+>* Add bolted and rebolted casings to parts diagram by @serenibyss in https://github.com/GTNewHorizons/nei-custom-diagram/pull/79 (1.8.33)
 >* Remove deprecated & removed Materials.isRadioActive() use by @Sanduhr32 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/77 (1.8.32)
 >* Adapt to NEI change (RecipeId.getHandleName -> RecipeId.getHandlerName) by @tiffit in https://github.com/GTNewHorizons/nei-custom-diagram/pull/76 (1.8.31)
 
@@ -898,4 +918,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @xicoa, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
