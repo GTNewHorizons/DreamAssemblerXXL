@@ -30,6 +30,9 @@ class GenericAssembler:
     # config entries dropped regardless of the side's exclusions
     excluded_config_files: frozenset[str] = frozenset()
 
+    # config entries whose content is modified before being added to the archive
+    modified_config_files: frozenset[str] = frozenset()
+
     def __init__(
         self,
         context: AppContext,
@@ -208,12 +211,20 @@ class GenericAssembler:
                 # zipfile to know if it's a file or a folder. If used here, Path objects will lead to
                 # the creation of empty files for every folder.
                 arcname = f"{root.as_posix()}/{item}" if root is not None else item
-                with config_zip.open(item) as config_item:
-                    with destination.open(arcname, "w") as target:
-                        shutil.copyfileobj(config_item, target)
-                        if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
+                if item in self.modified_config_files:
+                    data = config_zip.read(item)
+                    data = self._modify_config_file(item, data)
+                    destination.writestr(arcname, data)
+                else:
+                    with config_zip.open(item) as config_item:
+                        with destination.open(arcname, "w") as target:
+                            shutil.copyfileobj(config_item, target)
+                if self.task_progress_callback is not None:
+                    self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
+
+    def _modify_config_file(self, filename: str, data: bytes) -> bytes:
+        return data
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
         """
