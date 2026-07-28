@@ -11,7 +11,8 @@ from colorama import Fore
 from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
-from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
+from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side, NHCORE_CONFIG_VERSION_ENTRY, \
+    NHCOREMOD_WINDOW_VERSION_ENTRY
 from daxxl.exceptions import InvalidConfigException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
@@ -235,15 +236,24 @@ class GenericAssembler:
 
     def _modify_welcome_message_version(self, data: bytes) -> bytes:
         display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
-        return re.sub(r"^(\s*S:ModPackVersion=).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE).encode("utf-8")
+        text, replacements = re.subn(rf"^(\s*{NHCORE_CONFIG_VERSION_ENTRY}).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE)
+
+        if replacements == 0:
+            raise ValueError(
+                f"Could not find '{NHCORE_CONFIG_VERSION_ENTRY}' entry in config/GTNewHorizons/dreamcraft.cfg; "
+                "the config format may have changed."
+            )
+
+        return text.encode("utf-8")
+
 
     def _modify_window_version(self, data: bytes) -> bytes:
         text = data.decode("utf-8")
         display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
-        replaced_str = f"displayedModpackVersion={display_version}"
-
-        if re.search(r"^displayedModpackVersion=.*$", text, flags=re.MULTILINE):
-            text = re.sub(r"^displayedModpackVersion=.*$", replaced_str, text, count=1, flags=re.MULTILINE)
+        replaced_str = f"{NHCOREMOD_WINDOW_VERSION_ENTRY}{display_version}"
+        search_pattern = rf"^{NHCOREMOD_WINDOW_VERSION_ENTRY}.*$"
+        if re.search(search_pattern, text, flags=re.MULTILINE):
+            text = re.sub(search_pattern, replaced_str, text, count=1, flags=re.MULTILINE)
         else:
             text = text.rstrip("\n\r") + "\n" + replaced_str + "\n"
         return text.encode("utf-8")
