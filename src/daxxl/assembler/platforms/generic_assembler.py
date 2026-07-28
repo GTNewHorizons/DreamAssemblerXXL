@@ -228,27 +228,33 @@ class GenericAssembler:
                     self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
 
+    def _modify_mainmenu_version(self, data: bytes) -> bytes:
+        date_str = self.release.last_updated.strftime("%Y-%m-%d")
+        display_version = self.release.get_display_version(self.context.counter, with_date=False)
+        return f"GTNH {display_version} ({date_str})".encode("utf-8")
+
+    def _modify_welcome_message_version(self, data:bytes) -> bytes:
+        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
+        return re.sub(r"^(\s*S:ModPackVersion=).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE).encode("utf-8")
+
+    def _modify_window_version(self, data:bytes) -> bytes:
+        text = data.decode("utf-8")
+        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
+        replaced_str = f"displayedModpackVersion={display_version}"
+
+        if re.search(r"^displayedModpackVersion=.*$", text, flags=re.MULTILINE):
+            text = re.sub(r"^displayedModpackVersion=.*$", replaced_str, text, count=1, flags=re.MULTILINE)
+        else:
+            text = text.rstrip("\n\r") + "\n" + replaced_str + "\n"
+        return text.encode("utf-8")
+
     def _modify_config_file(self, filename: str, data: bytes) -> bytes:
-        display_version = self.release.get_display_version(self.context.counter)
         if filename == "config/txloader/load/mainmenu/version.txt":
-            date_str = self.release.last_updated.strftime("%Y-%m-%d")
-            return f"GTNH {display_version} ({date_str})".encode("utf-8")
+            return self._modify_mainmenu_version(data)
         if filename == "config/GTNewHorizons/dreamcraft.cfg":
-            return re.sub(r"^(\s*S:ModPackVersion=).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE).encode("utf-8")
+            return self._modify_welcome_message_version(data)
         if filename == "config/DreamCoreMod.properties":
-            text = data.decode("utf-8")
-            try:
-                DevRelease(self.release.version)
-            except ValueError:
-                value = display_version
-            else:
-                date_str = self.release.last_updated.strftime("%Y-%m-%d")
-                value = f"{display_version} - {date_str}"
-            if re.search(r"^displayedModpackVersion=.*$", text, flags=re.MULTILINE):
-                text = re.sub(r"^displayedModpackVersion=.*$", f"displayedModpackVersion={value}", text, count=1, flags=re.MULTILINE)
-            else:
-                text = text.rstrip("\n\r") + "\n" + f"displayedModpackVersion={value}" + "\n"
-            return text.encode("utf-8")
+            return self._modify_window_version(data)
         return data
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:

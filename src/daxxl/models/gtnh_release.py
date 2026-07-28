@@ -62,14 +62,25 @@ class GTNHRelease(GTNHBaseModel):
         if errors:
             raise InvalidReleaseException(f"Invalid release {self.version!r}:\n- " + "\n- ".join(errors))
 
-    def get_display_version(self, counter_service: CounterService) -> str:
-        try:
-            release_type = DevRelease(self.version)
-        except ValueError:
+    def get_display_version(self, counter_service: CounterService, with_date:bool=False) -> str:
+        if not self.is_dev_version:
             return self.version
-        count = counter_service.get_dev_release_count(release_type)
-        return f"{GTNH_DEV_CYCLE} ({release_type.value} {count})"
 
+        release_type = DevRelease(self.version)
+        count = counter_service.get_dev_release_count(release_type)
+
+        if not with_date:
+            return f"{GTNH_DEV_CYCLE} ({release_type.value} {count})"
+        date_str = self.last_updated.strftime("%Y-%m-%d")
+        return f"{GTNH_DEV_CYCLE} ({release_type.value} {count}) - {date_str}"
+
+    @property
+    def is_dev_version(self) -> bool:
+        try:
+            DevRelease(self.version)
+            return True
+        except ValueError:
+            return False
 
 class __GTNHReleaseV1(GTNHBaseModel):
     version: str = Field(default=DevRelease.EXPERIMENTAL.value)
