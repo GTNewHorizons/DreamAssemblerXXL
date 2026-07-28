@@ -66,7 +66,7 @@ class GenericAssembler:
         self.delta_progress: float = 0.0
 
         # config entries that must be modified on the fly
-        self.modified_config_files: dict[str, Callable[[bytes], bytes]] = {
+        self.modified_config_files: dict[str, Callable[[str, bytes], bytes]] = {
             "config/txloader/load/mainmenu/version.txt": self._modify_mainmenu_version,
             "config/GTNewHorizons/dreamcraft.cfg": self._modify_welcome_message_version,
             "config/DreamCoreMod.properties": self._modify_window_version,
@@ -228,23 +228,27 @@ class GenericAssembler:
                     self.task_progress_callback(self.delta_progress, f"adding {item} to the archive")
                 await self.yield_to_event_loop()
 
-    def _modify_mainmenu_version(self, data: bytes) -> bytes:
+    def _modify_mainmenu_version(self, file_entry:str, data: bytes) -> bytes:
         date_str = self.release.last_updated.strftime("%Y-%m-%d")
         display_version = self.release.get_display_version(self.context.counter, with_date=False)
         return f"GTNH {display_version} ({date_str})".encode()
 
-    def _modify_welcome_message_version(self, data: bytes) -> bytes:
-        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
-        text, replacements = re.subn(rf"^(\s*{NHCORE_CONFIG_VERSION_ENTRY}).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE)
+    @classmethod
+    def _change_forge_entry_or_raise(cls, data:bytes, forge_key:str, replacement:str, file_entry:str)->bytes:
+        text, replacements = re.subn(rf"^(\s*{forge_key}).*$", rf"\g<1>{replacement}", data.decode("utf-8"), count=1, flags=re.MULTILINE)
 
-        if replacements == 0:
+        if replacements != 1:
             raise ValueError(
-                f"Could not find '{NHCORE_CONFIG_VERSION_ENTRY}' entry in config/GTNewHorizons/dreamcraft.cfg; the config format may have changed."
+                f"Could not find '{forge_key}' entry in {file_entry}; the config format may have changed."
             )
 
         return text.encode("utf-8")
 
-    def _modify_window_version(self, data: bytes) -> bytes:
+    def _modify_welcome_message_version(self, file_entry:str, data: bytes) -> bytes:
+        display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
+        return self._change_forge_entry_or_raise(data, forge_key=NHCORE_CONFIG_VERSION_ENTRY, replacement=display_version, file_entry=file_entry)
+
+    def _modify_window_version(self, file_entry:str, data: bytes) -> bytes:
         text = data.decode("utf-8")
         display_version = self.release.get_display_version(self.context.counter, with_date=self.release.is_dev_version)
         replaced_str = f"{NHCOREMOD_WINDOW_VERSION_ENTRY}{display_version}"
@@ -258,7 +262,7 @@ class GenericAssembler:
     def _modify_config_file(self, filename: str, data: bytes) -> bytes:
         if filename not in self.modified_config_files:
             return data
-        return self.modified_config_files[filename](data)
+        return self.modified_config_files[filename](filename, data)
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
         """

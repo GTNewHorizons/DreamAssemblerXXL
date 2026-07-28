@@ -1,3 +1,4 @@
+import re
 import shutil
 from collections.abc import Callable
 from pathlib import Path
@@ -7,7 +8,7 @@ from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import (
-    Side, RELEASE_MOBILE_DIR, MRPACK_METADATA,
+    Side, RELEASE_MOBILE_DIR, MRPACK_METADATA, LWJGL3IFY_SHARED_CONTEXT_ENTRY, LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY,
 )
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
@@ -44,9 +45,12 @@ class MobileAssembler(GenericAssembler):
             global_progress_callback=global_progress_callback,
             changelog_path=changelog_path,
         )
-        self.mobile_archive_root: Path = Path(f"")
-        self.mobile_modpack_files: Path = self.mobile_archive_root / "overrides"
+        self.excluded_mod_names: list[str] = ["Craft-Presence", "BetterLoadingScreen"]
+        self.mobile_modpack_files: Path = Path(f"overrides")
         self.mobile_modpack_mods: Path = self.mobile_modpack_files / "mods"
+
+        self.modified_config_files["config/lwjgl3ify.cfg"] = self._modify_lwjgl3ify_config
+
 
     async def add_mods(
         self,
@@ -55,8 +59,9 @@ class MobileAssembler(GenericAssembler):
         archive: ZipFile,
         verbose: bool = False,
     ) -> None:
-
         for mod, version in mods:
+            if mod.name in self.excluded_mod_names:
+                continue
             source_file: Path = get_asset_version_cache_location(mod, version)
             archive_path: Path = self.mobile_modpack_mods / source_file.name
             archive.write(source_file, arcname=archive_path)
@@ -101,6 +106,12 @@ class MobileAssembler(GenericAssembler):
 
             name = "GregTech: New Horizons"
             version_id = self.release.get_display_version(self.context.counter, with_date=False)
-            archive.writestr(str(self.mobile_archive_root) + "modrinth.index.json", MRPACK_METADATA.format(name, version_id))
+            archive.writestr("modrinth.index.json", MRPACK_METADATA.format(name, version_id))
 
             await normalize_archive_permissions(archive)
+
+    def _modify_lwjgl3ify_config(self, file_entry:str, data:bytes)->bytes:
+        data = self._change_forge_entry_or_raise(data=data, forge_key=LWJGL3IFY_SHARED_CONTEXT_ENTRY, replacement="false", file_entry=file_entry)
+        data = self._change_forge_entry_or_raise(data=data, forge_key=LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY, replacement="false", file_entry=file_entry)
+
+        return data

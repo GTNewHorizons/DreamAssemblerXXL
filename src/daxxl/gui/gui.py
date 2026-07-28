@@ -97,6 +97,7 @@ class Window(ThemedTk, Tk):
             server_zip_j9=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)),
             client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)),
             client_modrinth=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
+            client_mobile=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.MOBILE)),
             client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),

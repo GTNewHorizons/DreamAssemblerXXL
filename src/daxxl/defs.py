@@ -43,6 +43,7 @@ class Archive(str, Enum):
     ZIP = "zip"
     CURSEFORGE = "CurseForge"
     MODRINTH = "Modrinth"
+    MOBILE = "Mobile"
 
 
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
@@ -102,16 +103,16 @@ name={}
 notes=
 """
 
-MRPACK_METADATA = """{
-    "dependencies": {
+MRPACK_METADATA = """{{
+    "dependencies": {{
         "minecraft": "1.7.10"
-    },
+    }},
     "files": [],
     "formatVersion": 1,
     "game": "minecraft",
     "name": "{0}",
     "versionId": "{1}"
-}"""
+}}"""
 
 SERVER_PROPERTIES_FILE = """generator-settings=
 op-permission-level=2
@@ -153,6 +154,8 @@ JAVA_9_ARCHIVE_SUFFIX = "Java_17-26"
 GTNH_DEV_CYCLE = "2.9.x"
 NHCORE_CONFIG_VERSION_ENTRY = "S:ModPackVersion="
 NHCOREMOD_WINDOW_VERSION_ENTRY = "displayedModpackVersion="
+LWJGL3IFY_SHARED_CONTEXT_ENTRY = "B:sharedContext="
+LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY = "B:linuxCreateAppDesktopEntry="
 
 
 class Side(str, Enum):
