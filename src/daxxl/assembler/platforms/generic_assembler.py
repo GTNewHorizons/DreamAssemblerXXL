@@ -11,7 +11,7 @@ from colorama import Fore
 from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.exclusions import Exclusions
-from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, Side
+from daxxl.defs import README_TEMPLATE, RELEASE_README_DIR, DevRelease, Side
 from daxxl.exceptions import InvalidConfigException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
@@ -35,6 +35,7 @@ class GenericAssembler:
     modified_config_files: frozenset[str] = frozenset({
         "config/txloader/load/mainmenu/version.txt",
         "config/GTNewHorizons/dreamcraft.cfg",
+        "config/DreamCoreMod.properties",
     })
 
     def __init__(
@@ -234,6 +235,20 @@ class GenericAssembler:
             return f"GTNH {display_version} ({date_str})".encode("utf-8")
         if filename == "config/GTNewHorizons/dreamcraft.cfg":
             return re.sub(r"^(\s*S:ModPackVersion=).*$", rf"\g<1>{display_version}", data.decode("utf-8"), count=1, flags=re.MULTILINE).encode("utf-8")
+        if filename == "config/DreamCoreMod.properties":
+            text = data.decode("utf-8")
+            try:
+                DevRelease(self.release.version)
+            except ValueError:
+                value = display_version
+            else:
+                date_str = self.release.last_updated.strftime("%Y-%m-%d")
+                value = f"{display_version} - {date_str}"
+            if re.search(r"^displayedModpackVersion=.*$", text, flags=re.MULTILINE):
+                text = re.sub(r"^displayedModpackVersion=.*$", f"displayedModpackVersion={value}", text, count=1, flags=re.MULTILINE)
+            else:
+                text = text.rstrip("\n\r") + "\n" + f"displayedModpackVersion={value}" + "\n"
+            return text.encode("utf-8")
         return data
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
