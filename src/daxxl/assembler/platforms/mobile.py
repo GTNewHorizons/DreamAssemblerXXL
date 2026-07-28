@@ -77,16 +77,17 @@ class MobileAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_MOBILE_DIR / f"GT_New_Horizons_{self.release.version}.mrpack"
 
+    async def run_stuff_before_assembling(self, side: Side) -> None:
+        # moving this from last step to first step because right now amethyst has a huge perf issue finding the mrpack
+        # json if it's not in the first zip entry
+        await self.add_mobile_meta_data(side)
+
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side is not Side.CLIENT_JAVA9:
             raise ValueError(f"Only valid sides are {Side.CLIENT.value}, got {side.value}")
 
         # +1 for the metadata file
         self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1)
-
-        # moving this from last step to first step because right now amethyst has a huge perf issue finding the mrpack
-        # json if it's not in the first zip entry
-        await self.add_mobile_meta_data(side)
 
         await GenericAssembler.assemble(self, side, verbose)
 
