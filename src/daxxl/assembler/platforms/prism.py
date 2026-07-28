@@ -116,7 +116,7 @@ class PrismAssembler(GenericAssembler):
                 archive.writestr(str(self.prism_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
             archive.writestr(
                 str(self.prism_archive_root) + "/instance.cfg",
-                PRISM_PACK_INSTANCE.format(f"GTNH {self.release.version}"),
+                PRISM_PACK_INSTANCE.format(f"GTNH {self.release.get_display_version(self.context.counter)}"),
             )
             with archive.open(str(self.prism_archive_root) + "/gtnh_icon.png", "w") as target:
                 with open(PRISM_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
