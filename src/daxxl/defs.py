@@ -21,6 +21,7 @@ RELEASE_PRISM_DIR = RELEASE_DIR / "multi_poly"
 RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
+RELEASE_MOBILE_DIR = RELEASE_DIR / "mobile"
 RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
 RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR = RELEASE_CHANGELOG_DIR / "experimental builds"
 RELEASE_CHANGELOG_DAILY_BUILDS_DIR = RELEASE_CHANGELOG_DIR / "daily builds"
@@ -100,6 +101,17 @@ iconKey=gtnh_icon
 name={}
 notes=
 """
+
+MRPACK_METADATA = """{
+    "dependencies": {
+        "minecraft": "1.7.10"
+    },
+    "files": [],
+    "formatVersion": 1,
+    "game": "minecraft",
+    "name": "{0}",
+    "versionId": "{1}"
+}"""
 
 SERVER_PROPERTIES_FILE = """generator-settings=
 op-permission-level=2
