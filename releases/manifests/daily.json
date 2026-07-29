@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-29T06:11:59.113406+00:00",
-  "config": "2.9.0-nightly-2026-07-29",
+  "last_updated": "2026-07-29T12:43:23.849639+00:00",
+  "config": "2.9.0-nightly-2026-07-29-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.23-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.14",
+      "version": "1.12.15",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.36",
+      "version": "2.6.37",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.8-GTNH",
+      "version": "1.9.9-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.61",
+      "version": "5.09.54.62",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -357,7 +357,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.6.7-GTNH",
+      "version": "1.6.8-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.37",
+      "version": "1.5.38",
       "side": "BOTH"
     },
     "waila": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.4.4",
+      "version": "2.4.5",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "RandomBoubles": {
-      "version": "1.1.6",
+      "version": "1.1.7",
       "side": "BOTH"
     },
     "VendingMachine": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.17",
+      "version": "1.3.18",
       "side": "BOTH"
     },
     "Automagy-GTNH": {

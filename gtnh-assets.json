@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-07-29",
+    "latest_version": "2.9.0-nightly-2026-07-29-02",
     "needs_attention": false,
     "versions": [
       {
@@ -7462,6 +7462,16 @@
         "filename": "2.9.0-nightly-2026-07-29.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/493472197",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-07-29/2.9.0-nightly-2026-07-29.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-07-29-02",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-07-29T12:34:08+00:00",
+        "filename": "2.9.0-nightly-2026-07-29-02.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/494023711",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-07-29-02/2.9.0-nightly-2026-07-29-02.zip",
         "extra_assets": []
       }
     ],
@@ -26774,7 +26784,7 @@
     },
     {
       "name": "ArchitectureCraft",
-      "latest_version": "1.12.14",
+      "latest_version": "1.12.15",
       "private": false,
       "versions": [
         {
@@ -27206,6 +27216,16 @@
           "filename": "ArchitectureCraft-1.12.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ArchitectureCraft/releases/assets/466731990",
           "browser_download_url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.12.14/ArchitectureCraft-1.12.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.15",
+          "changelog": "## What's Changed\n* Fix gui_sawbench.png by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/44\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.12.14...1.12.15\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:27:49+00:00",
+          "filename": "ArchitectureCraft-1.12.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ArchitectureCraft/releases/assets/494017517",
+          "browser_download_url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.12.15/ArchitectureCraft-1.12.15.jar",
           "extra_assets": []
         }
       ],
@@ -34606,7 +34626,7 @@
     },
     {
       "name": "Binnie",
-      "latest_version": "2.6.36",
+      "latest_version": "2.6.37",
       "private": false,
       "versions": [
         {
@@ -35747,6 +35767,16 @@
           "filename": "binnie-mods-2.6.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/483095817",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.36/binnie-mods-2.6.36.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.37",
+          "changelog": "## What's Changed\n* fix loader check for gt6 compat by @felixfour in https://github.com/GTNewHorizons/Binnie/pull/107\n* fix: multiple issues with genetics machines liquid storage by @jordanamr in https://github.com/GTNewHorizons/Binnie/pull/103\n\n## New Contributors\n* @felixfour made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/107\n* @jordanamr made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/103\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.36...2.6.37\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:33:15+00:00",
+          "filename": "binnie-mods-2.6.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/494022971",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.37/binnie-mods-2.6.37.jar",
           "extra_assets": []
         }
       ],
@@ -43215,7 +43245,7 @@
     },
     {
       "name": "Computronics",
-      "latest_version": "1.9.8-GTNH",
+      "latest_version": "1.9.9-GTNH",
       "private": false,
       "versions": [
         {
@@ -43527,6 +43557,16 @@
           "filename": "Computronics-1.9.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/437786520",
           "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.8-GTNH/Computronics-1.9.8-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.9-GTNH",
+          "changelog": "## What's Changed\n* fix mod deps to not break with GT6 by @felixfour in https://github.com/GTNewHorizons/Computronics/pull/42\n\n## New Contributors\n* @felixfour made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/42\n\n**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.8-GTNH...1.9.9-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:27:18+00:00",
+          "filename": "Computronics-1.9.9-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/494016969",
+          "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.9-GTNH/Computronics-1.9.9-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -64390,7 +64430,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.61",
+      "latest_version": "5.09.54.62",
       "private": false,
       "versions": [
         {
@@ -90022,6 +90062,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/493471935",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.61/gregtech-5.09.54.61.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.62",
+          "changelog": "## What's Changed\n* Fix Mega Apiary controller voiding bees when broken by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7597\n* Update default for StackWatcher by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7603\n* Use real tank capacity for fluid gauge when void mode is enabled by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7602\n* Fix fuel fallback in Large/Extreme Combustion Engine by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7606\n* fix deps to work with a computronics patch by @felixfour in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7605\n\n## New Contributors\n* @felixfour made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7605\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.61...5.09.54.62\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:28:11+00:00",
+          "filename": "gregtech-5.09.54.62.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/494017967",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.62/gregtech-5.09.54.62.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -100624,7 +100674,7 @@
     },
     {
       "name": "GuideNH",
-      "latest_version": "1.3.17",
+      "latest_version": "1.3.18",
       "private": false,
       "versions": [
         {
@@ -100775,6 +100825,16 @@
           "filename": "guidenh-1.3.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/484553281",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.17/guidenh-1.3.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.18",
+          "changelog": "## What's Changed\n* fix optional method loader checks by @felixfour in https://github.com/GTNewHorizons/GuideNH/pull/55\n\n## New Contributors\n* @felixfour made their first contribution in https://github.com/GTNewHorizons/GuideNH/pull/55\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.17...1.3.18\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:27:22+00:00",
+          "filename": "guidenh-1.3.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/494017019",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.18/guidenh-1.3.18.jar",
           "extra_assets": []
         }
       ],
@@ -149061,7 +149121,7 @@
     },
     {
       "name": "OCGlasses",
-      "latest_version": "1.6.7-GTNH",
+      "latest_version": "1.6.8-GTNH",
       "private": false,
       "versions": [
         {
@@ -149303,6 +149363,16 @@
           "filename": "OpenGlasses-1.6.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/409330014",
           "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.7-GTNH/OpenGlasses-1.6.7-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.8-GTNH",
+          "changelog": "## What's Changed\n* fix crash when resizing too early by @felixfour in https://github.com/GTNewHorizons/OCGlasses/pull/25\n\n## New Contributors\n* @felixfour made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/25\n\n**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.7-GTNH...1.6.8-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:27:41+00:00",
+          "filename": "OpenGlasses-1.6.8-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/494017337",
+          "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.8-GTNH/OpenGlasses-1.6.8-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -155433,7 +155503,7 @@
     },
     {
       "name": "RandomBoubles",
-      "latest_version": "1.1.6",
+      "latest_version": "1.1.7",
       "private": false,
       "versions": [
         {
@@ -155574,6 +155644,16 @@
           "filename": "randomboubles-1.1.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/RandomBoubles/releases/assets/376903309",
           "browser_download_url": "https://github.com/GTNewHorizons/RandomBoubles/releases/download/1.1.6/randomboubles-1.1.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.7",
+          "changelog": "## What's Changed\n* clarify gt loader check by @felixfour in https://github.com/GTNewHorizons/RandomBoubles/pull/10\n\n## New Contributors\n* @felixfour made their first contribution in https://github.com/GTNewHorizons/RandomBoubles/pull/10\n\n**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.1.6...1.1.7\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:26:55+00:00",
+          "filename": "randomboubles-1.1.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/RandomBoubles/releases/assets/494016553",
+          "browser_download_url": "https://github.com/GTNewHorizons/RandomBoubles/releases/download/1.1.7/randomboubles-1.1.7.jar",
           "extra_assets": []
         }
       ],
@@ -157303,7 +157383,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.4",
+      "latest_version": "2.4.5",
       "private": false,
       "versions": [
         {
@@ -159365,6 +159445,16 @@
           "filename": "ServerUtilities-2.4.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/492248575",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.4/ServerUtilities-2.4.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.5",
+          "changelog": "## What's Changed\n* JourneyMap 6 support for claims overlay and various improvements by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/333\n* Add permission to bypass whitelist by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/334\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.4...2.4.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T11:53:41+00:00",
+          "filename": "ServerUtilities-2.4.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/493988448",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.5/ServerUtilities-2.4.5.jar",
           "extra_assets": []
         }
       ],
@@ -180074,7 +180164,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.5.37",
+      "latest_version": "1.5.38",
       "private": false,
       "versions": [
         {
@@ -181227,6 +181317,16 @@
           "filename": "visualprospecting-1.5.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/490223595",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.5.37/visualprospecting-1.5.37.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.38",
+          "changelog": "## What's Changed\n* JourneyMap 6 support for ore and fluid overlays by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/104\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.37...1.5.38\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-29T12:04:37+00:00",
+          "filename": "visualprospecting-1.5.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/493998111",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.5.38/visualprospecting-1.5.38.jar",
           "extra_assets": []
         }
       ],
