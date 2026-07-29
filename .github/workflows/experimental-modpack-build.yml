@@ -225,7 +225,7 @@ jobs:
         # Upload even if one of the zips fails to upload
         if: success() || failure()
         with:
-          path: GTNH-experimental-${{ needs.date.outputs.today }}-android-java17-26.mrpack
+          path: GTNH-experimental-${{ needs.build.outputs.today }}-android-java17-26.mrpack
           archive: false
 
       - name: Push experimental changelog in commit to master
