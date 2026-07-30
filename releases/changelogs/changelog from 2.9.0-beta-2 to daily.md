@@ -139,10 +139,11 @@ Mod is client-side only.
 >* Implement ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/Binnie/pull/106 (2.6.36)
 >* Rename "Gingko" to "Ginkgo" by @Ranzuu in https://github.com/GTNewHorizons/Binnie/pull/105 (2.6.35)
 
-# Updated - BlockRenderer6343 - 1.4.17 --> 1.4.19
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.17...1.4.19
+# Updated - BlockRenderer6343 - 1.4.17 --> 1.4.20
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.17...1.4.20
 
 ## What's Changed:
+>* fix STRUCTURE_LENGTH and STRUCTURE_HEIGHT not being respected by "Tier" Slider in NEI by @Yoshy2002 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/58 (1.4.20)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/BlockRenderer6343/pull/57 (1.4.19)
 >* Raise Max Tier Check Limit by @Auynonymous in https://github.com/GTNewHorizons/BlockRenderer6343/pull/56 (1.4.18)
 
@@ -1004,10 +1005,11 @@ Mod is client-side only.
 >* Fix incorrect oregen pattern being used in some case. Attempt to autofix wrong entries in cache by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/99 (1.5.35)
 >* Guard against null/fake player (Fix Log spam) by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/97 (1.5.34)
 
-# Updated - WirelessRedstone-CBE - 1.7.6 --> 1.7.7
-**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.6...1.7.7
+# Updated - WirelessRedstone-CBE - 1.7.6 --> 1.7.8
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.6...1.7.8
 
 ## What's Changed:
+>* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21 (1.7.8)
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
 
 # Updated - harvestcraft - 1.3.11-GTNH --> 1.3.12-GTNH

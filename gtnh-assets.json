@@ -35839,7 +35839,7 @@
     },
     {
       "name": "BlockRenderer6343",
-      "latest_version": "1.4.19",
+      "latest_version": "1.4.20",
       "private": false,
       "versions": [
         {
@@ -36611,6 +36611,16 @@
           "filename": "blockrenderer6343-1.4.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/494244203",
           "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.4.19/blockrenderer6343-1.4.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.20",
+          "changelog": "## What's Changed\n* fix STRUCTURE_LENGTH and STRUCTURE_HEIGHT not being respected by \"Tier\" Slider in NEI by @Yoshy2002 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/58\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.19...1.4.20\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T13:18:46+00:00",
+          "filename": "blockrenderer6343-1.4.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/495389186",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.4.20/blockrenderer6343-1.4.20.jar",
           "extra_assets": []
         }
       ],
@@ -183683,7 +183693,7 @@
     },
     {
       "name": "WirelessRedstone-CBE",
-      "latest_version": "1.7.7",
+      "latest_version": "1.7.8",
       "private": false,
       "versions": [
         {
@@ -183865,6 +183875,16 @@
           "filename": "WR-CBE-1.7.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/476805263",
           "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.7.7/WR-CBE-1.7.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.8",
+          "changelog": "## What's Changed\n* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21\n\n## New Contributors\n* @Algent made their first contribution in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21\n\n**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.7...1.7.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T18:46:12+00:00",
+          "filename": "WR-CBE-1.7.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/495731043",
+          "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.7.8/WR-CBE-1.7.8.jar",
           "extra_assets": []
         }
       ],
@@ -185806,6 +185826,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 652,
-  "latest_successful_daily": 652
+  "latest_daily": 653,
+  "latest_successful_daily": 653
 }
