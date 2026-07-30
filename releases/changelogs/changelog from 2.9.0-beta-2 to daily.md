@@ -323,10 +323,12 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.63
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.63
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.64
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.64
 
 ## What's Changed:
+>* add comments about when and how gregtech_nh modid should be used by @felixfour in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7608 (5.09.54.64)
+>* Fix NPE when resolving ore prefixes without a stone type by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7610 (5.09.54.64)
 >* Fix missing output watchers by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7604 (5.09.54.63)
 >* Fix Mega Apiary controller voiding bees when broken by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7597 (5.09.54.62)
 >* Update default for StackWatcher by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7603 (5.09.54.62)
@@ -595,10 +597,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.178
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.178
+# Updated - Hodgepodge - 2.7.170 --> 2.7.179
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.179
 
 ## What's Changed:
+>* Replace hardcoded scrollbar with a textures one by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/945 (2.7.179)
 >* Fix async icon compat with new Angelica mipmaps by @Eclipse-Sol in https://github.com/GTNewHorizons/Hodgepodge/pull/960 (2.7.178)
 >* Enable distance culling for frames and items in frames by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/949 (2.7.177)
 >* Fix Ctrl shortcuts in text fields not working on some keyboard layouts by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/958 (2.7.176)
@@ -655,10 +658,12 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.6.30 --> 1.6.35
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.35
+# Updated - LittleTiles - 1.6.30 --> 1.6.36
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.36
 
 ## What's Changed:
+>* Add alternate triangle shape by @S4mpsa in https://github.com/GTNewHorizons/LittleTiles/pull/131 (1.6.36)
+>* Remove obsolete CI script by @wlhlm in https://github.com/GTNewHorizons/LittleTiles/pull/136 (1.6.36)
 >* Implement mesh culling by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/127 (1.6.35)
 >* Cache meshes clientside for rendering by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/126 (1.6.34)
 >* Add command to dump mesh by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/129 (1.6.34)
@@ -703,10 +708,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix replacements not having their delegate names set by @tiffit in https://github.com/GTNewHorizons/MalisisDoors/pull/30 (1.19.9-GTNH)
 
-# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.50-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.50-GTNH
+# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.51-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.51-GTNH
 
 ## What's Changed:
+>* Copy AE Cell restrictions by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/76 (0.1.51-GTNH)
+>* Add Dynamism Tablet compat by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/75 (0.1.51-GTNH)
 >* feat: support forestry woods by @vermz99 in https://github.com/GTNewHorizons/MatterManipulator/pull/74 (0.1.50-GTNH)
 >* Allow OC APU and Floppies to be copied by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/71 (0.1.49-GTNH)
 >* Move Mode Edit Transform Option by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/73 (0.1.49-GTNH)
@@ -729,6 +736,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adjust to recipemap changes in gt5 by @Yoshy2002 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/74 (2.3.4)
 
+# Updated - Mobs-Info - 0.5.18-GTNH --> 0.5.19-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.18-GTNH...0.5.19-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ModTweaker - 0.13.0 --> 0.14.0
 **Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.13.0...0.14.0
 
@@ -746,10 +758,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix BigDecimal parsing failures leaking through expression evaluation by @vnesterovskyi in https://github.com/GTNewHorizons/ModularUI2/pull/151 (2.3.81-1.7.10)
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
 
-# Updated - Natura - 2.8.20 --> 2.8.21
-**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.20...2.8.21
+# Updated - Natura - 2.8.20 --> 2.8.22
+**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.20...2.8.22
 
 ## What's Changed:
+>* Fix saplings being able to be placed in mid-air by @loenaaaa in https://github.com/GTNewHorizons/Natura/pull/44 (2.8.22)
 >* Fix saplings by @zaru-noodles in https://github.com/GTNewHorizons/Natura/pull/45 (2.8.21)
 
 # Updated - Navigator - 1.1.4 --> 1.1.8
@@ -850,10 +863,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
-# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.54-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.54-GTNH
+# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.55-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.55-GTNH
 
 ## What's Changed:
+>* fix(clipboard): make clipbboard signal batching opt-in for backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/215 (1.12.55-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/OpenComputers/pull/214 (1.12.54-GTNH)
 >* fix: batch clipboard paste signals by @shironakoushi in https://github.com/GTNewHorizons/OpenComputers/pull/212 (1.12.53-GTNH)
 >* fix(appeng): correct lua index base and add backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/211 (1.12.52-GTNH)
