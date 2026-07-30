@@ -64460,7 +64460,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.63",
+      "latest_version": "5.09.54.64",
       "private": false,
       "versions": [
         {
@@ -90112,6 +90112,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/494157402",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.63/gregtech-5.09.54.63.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.64",
+          "changelog": "## What's Changed\n* add comments about when and how gregtech_nh modid should be used by @felixfour in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7608\n* Fix NPE when resolving ore prefixes without a stone type by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7610\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.63...5.09.54.64\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:29:31+00:00",
+          "filename": "gregtech-5.09.54.64.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/495115516",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.64/gregtech-5.09.54.64.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -101768,7 +101778,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.178",
+      "latest_version": "2.7.179",
       "private": false,
       "versions": [
         {
@@ -107699,6 +107709,16 @@
           "filename": "hodgepodge-2.7.178.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/492246471",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.178/hodgepodge-2.7.178.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.179",
+          "changelog": "## What's Changed\n* Replace hardcoded scrollbar with a textures one by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/945\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.178...2.7.179\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:24:13+00:00",
+          "filename": "hodgepodge-2.7.179.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/495110130",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.179/hodgepodge-2.7.179.jar",
           "extra_assets": []
         }
       ],
@@ -115197,7 +115217,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.35",
+      "latest_version": "1.6.36",
       "private": false,
       "versions": [
         {
@@ -115830,6 +115850,16 @@
           "filename": "littletiles-1.6.35.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/494151649",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.35/littletiles-1.6.35.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.36",
+          "changelog": "## What's Changed\n* Add alternate triangle shape by @S4mpsa in https://github.com/GTNewHorizons/LittleTiles/pull/131\n* Remove obsolete CI script by @wlhlm in https://github.com/GTNewHorizons/LittleTiles/pull/136\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/136\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.35...1.6.36\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:23:01+00:00",
+          "filename": "littletiles-1.6.36.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/495109077",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.36/littletiles-1.6.36.jar",
           "extra_assets": []
         }
       ],
@@ -122134,7 +122164,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.50-GTNH",
+      "latest_version": "0.1.51-GTNH",
       "private": false,
       "versions": [
         {
@@ -123047,6 +123077,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/491728174",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.50-GTNH/matter-manipulator-0.1.50-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.51-GTNH",
+          "changelog": "## What's Changed\n* Copy AE Cell restrictions by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/76\n* Add Dynamism Tablet compat by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/75\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.50-GTNH...0.1.51-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:28:48+00:00",
+          "filename": "matter-manipulator-0.1.51-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/495114915",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.51-GTNH/matter-manipulator-0.1.51-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -123897,7 +123937,7 @@
     },
     {
       "name": "Mobs-Info",
-      "latest_version": "0.5.18-GTNH",
+      "latest_version": "0.5.19-GTNH",
       "private": false,
       "versions": [
         {
@@ -124489,6 +124529,16 @@
           "filename": "mobsinfo-0.5.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Mobs-Info/releases/assets/460404760",
           "browser_download_url": "https://github.com/GTNewHorizons/Mobs-Info/releases/download/0.5.18-GTNH/mobsinfo-0.5.18-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.19-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.18-GTNH...0.5.19-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:28:24+00:00",
+          "filename": "mobsinfo-0.5.19-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Mobs-Info/releases/assets/495114584",
+          "browser_download_url": "https://github.com/GTNewHorizons/Mobs-Info/releases/download/0.5.19-GTNH/mobsinfo-0.5.19-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -128483,7 +128533,7 @@
     },
     {
       "name": "Natura",
-      "latest_version": "2.8.21",
+      "latest_version": "2.8.22",
       "private": false,
       "versions": [
         {
@@ -128996,6 +129046,16 @@
           "filename": "Natura-2.8.21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/491070997",
           "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.8.21/Natura-2.8.21.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.22",
+          "changelog": "## What's Changed\n* Fix saplings being able to be placed in mid-air by @loenaaaa in https://github.com/GTNewHorizons/Natura/pull/44\n\n## New Contributors\n* @loenaaaa made their first contribution in https://github.com/GTNewHorizons/Natura/pull/44\n\n**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.21...2.8.22\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:25:08+00:00",
+          "filename": "Natura-2.8.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/495111210",
+          "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.8.22/Natura-2.8.22.jar",
           "extra_assets": []
         }
       ],
@@ -149938,7 +149998,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.12.54-GTNH",
+      "latest_version": "1.12.55-GTNH",
       "private": false,
       "versions": [
         {
@@ -151539,6 +151599,16 @@
           "filename": "OpenComputers-1.12.54-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/494237637",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.54-GTNH/OpenComputers-1.12.54-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.55-GTNH",
+          "changelog": "## What's Changed\n* fix(clipboard): make clipbboard signal batching opt-in for backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/215\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.54-GTNH...1.12.55-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-30T08:26:43+00:00",
+          "filename": "OpenComputers-1.12.55-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/495113082",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.55-GTNH/OpenComputers-1.12.55-GTNH.jar",
           "extra_assets": []
         }
       ],

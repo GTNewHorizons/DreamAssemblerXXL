@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-29T06:11:59.113406+00:00",
-  "config": "2.9.0-nightly-2026-07-29",
+  "last_updated": "2026-07-30T06:04:25.669224+00:00",
+  "config": "2.9.0-nightly-2026-07-29-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.23-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.14",
+      "version": "1.12.15",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.36",
+      "version": "2.6.37",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.10",
+      "version": "1.9.11",
       "side": "BOTH"
     },
     "Botania": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.8-GTNH",
+      "version": "1.9.9-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.31-GTNH",
+      "version": "3.4.32-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.61",
+      "version": "5.09.54.63",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.3.11-GTNH",
+      "version": "1.3.12-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.21",
+      "version": "1.4.22",
       "side": "BOTH"
     },
     "IFU": {
@@ -273,11 +273,11 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.34",
+      "version": "1.6.35",
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.31-GTNH",
+      "version": "1.5.32-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.9-GTNH",
+      "version": "2.10.10-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.33",
+      "version": "1.8.34",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -357,7 +357,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.6.7-GTNH",
+      "version": "1.6.8-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.53-GTNH",
+      "version": "1.12.54-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.4.5",
+      "version": "2.4.6",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.28",
+      "version": "2.12.29",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -529,7 +529,7 @@
       "side": "CLIENT"
     },
     "Translocators": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "twilightforest": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.37",
+      "version": "1.5.38",
       "side": "BOTH"
     },
     "waila": {
@@ -593,7 +593,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.18",
+      "version": "1.4.19",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.4.4",
+      "version": "2.4.5",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -777,11 +777,11 @@
       "side": "BOTH"
     },
     "RandomBoubles": {
-      "version": "1.1.6",
+      "version": "1.1.7",
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.96",
+      "version": "0.4.97",
       "side": "BOTH"
     },
     "Freecam": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.17",
+      "version": "1.3.18",
       "side": "BOTH"
     },
     "Automagy-GTNH": {

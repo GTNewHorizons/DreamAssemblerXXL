@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-30T06:04:25.669224+00:00",
+  "last_updated": "2026-07-30T08:44:24.958155+00:00",
   "config": "2.9.0-nightly-2026-07-29-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.63",
+      "version": "5.09.54.64",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.178",
+      "version": "2.7.179",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.35",
+      "version": "1.6.36",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.21",
+      "version": "2.8.22",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.54-GTNH",
+      "version": "1.12.55-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.18-GTNH",
+      "version": "0.5.19-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.50-GTNH",
+      "version": "0.1.51-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
