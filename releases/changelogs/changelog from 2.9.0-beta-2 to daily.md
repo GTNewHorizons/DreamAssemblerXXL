@@ -2,10 +2,12 @@
 > * Automagy-GTNH
 # Mods Removed: 
 > * Automagy
-# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.98-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.98-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.99-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.99-gtnh
 
 ## What's Changed:
+>* Fix ME Fluid Interface not requesting crafting for missing fluids by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/452 (1.5.99-gtnh)
+>* Level Terminal fixes by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/455 (1.5.99-gtnh)
 >* allow to clear fluid storage bus settings by @Sanduhr32 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/453 (1.5.98-gtnh)
 >* fix cell view text formatting by @przemo1232 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/449 (1.5.97-gtnh)
 >* Fix universal terminal mode sync in baubles by @DreamYao520 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/451 (1.5.97-gtnh)
@@ -122,10 +124,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Implement ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/9 (0.4.7-GTNH)
 
-# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.74-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.74-GTNH
+# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.75-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.75-GTNH
 
 ## What's Changed:
+>* Add Silent Quest Completion Setting by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/242 (3.8.75-GTNH)
 >* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/221 (3.8.74-GTNH)
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
@@ -177,10 +180,11 @@ Mod is client-side only.
 # Updated - Bug-Torch - 1.2.14 --> 1.2.15
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - BuildCraft - 7.1.61 --> 7.1.62
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.61...7.1.62
+# Updated - BuildCraft - 7.1.61 --> 7.1.63
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.61...7.1.63
 
 ## What's Changed:
+>* Reduce assembly recipe memory and GUI scanning by @Algent in https://github.com/GTNewHorizons/BuildCraft/pull/35 (7.1.63)
 >* Probably more thread safe by @mitchej123 in https://github.com/GTNewHorizons/BuildCraft/pull/34 (7.1.62)
 
 # Updated - BuildCraftCompat - 7.1.21 --> 7.1.22
@@ -324,10 +328,18 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.64
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.64
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.65
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.65
 
 ## What's Changed:
+>* Fix gorge button by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7615 (5.09.54.65)
+>* Add Transparent Glass to SLAM by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7616 (5.09.54.65)
+>* Add alternate nuclear star recipe by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7618 (5.09.54.65)
+>* add nickname of spass for space assembler by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7619 (5.09.54.65)
+>* Allow Transparent Glass of same tier on Compact Mk4 and 5 by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7621 (5.09.54.65)
+>* Reset fluid lock when shift-breaking an empty digital tank by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7611 (5.09.54.65)
+>* Armor: Added Levitation Mode Behavior by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7506 (5.09.54.65)
+>* Change Large Chrome Fluid Cell into RPP by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7620 (5.09.54.65)
 >* add comments about when and how gregtech_nh modid should be used by @felixfour in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7608 (5.09.54.64)
 >* Fix NPE when resolving ore prefixes without a stone type by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7610 (5.09.54.64)
 >* Fix missing output watchers by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7604 (5.09.54.63)
@@ -919,6 +931,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix other mods getting wrong texture due to this mod by @Algent in https://github.com/GTNewHorizons/SimpleSkinBackport/pull/3 (1.0.3-GTNH)
 
+# Updated - SpecialMobs - 3.7.4 --> 3.7.5
+**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.7.4...3.7.5
+
+## What's Changed:
+>* Various performances fixes by @Algent in https://github.com/GTNewHorizons/SpecialMobs/pull/32 (3.7.5)
+
 # Updated - Super-TiC - 1.5.4 --> 1.5.6
 **Full Changelog**: https://github.com/GTNewHorizons/Super-TiC/compare/1.5.4...1.5.6
 
@@ -954,10 +972,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/103 (2.12.29)
 >* Fix thaumic restorer suction + better automation by @vladislemon in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/102 (2.12.28)
 
-# Updated - Thaumic_Exploration - 1.5.24-GTNH --> 1.5.25-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.5.24-GTNH...1.5.25-GTNH
+# Updated - Thaumic_Exploration - 1.5.24-GTNH --> 1.5.26-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.5.24-GTNH...1.5.26-GTNH
 
 ## What's Changed:
+>* Fixed Soul Brazier exploit and more fixes and refactors by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/57 (1.5.26-GTNH)
 >* Fix Witchery disarm dupe by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/60 (1.5.25-GTNH)
 >* Fix thaumic replicator crash by @zaru-noodles in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/61 (1.5.25-GTNH)
 
@@ -1005,10 +1024,11 @@ Mod is client-side only.
 >* Fix incorrect oregen pattern being used in some case. Attempt to autofix wrong entries in cache by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/99 (1.5.35)
 >* Guard against null/fake player (Fix Log spam) by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/97 (1.5.34)
 
-# Updated - WirelessRedstone-CBE - 1.7.6 --> 1.7.8
-**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.6...1.7.8
+# Updated - WirelessRedstone-CBE - 1.7.6 --> 1.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.6...1.7.9
 
 ## What's Changed:
+>* lazily load the freq array by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/22 (1.7.9)
 >* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21 (1.7.8)
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
 
@@ -1056,4 +1076,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @CRIMSTAL, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @xicoa, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @CRIMSTAL, @DancingSnow0517, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @jordanamr, @Keter01, @Kogepan229, @koolkrafter5, @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @Windorain, @wlhlm, @Worive, @xicoa, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
