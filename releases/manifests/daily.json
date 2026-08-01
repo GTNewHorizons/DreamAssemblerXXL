@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-31T15:32:24.001387+00:00",
-  "config": "2.9.0-nightly-2026-07-31",
+  "last_updated": "2026-08-01T06:13:03.277292+00:00",
+  "config": "2.9.0-nightly-2026-08-01",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.23-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.65",
+      "version": "5.09.54.67",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.33",
+      "version": "0.11.34",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.36",
+      "version": "1.6.37",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.27",
+      "version": "2.9.28",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.36",
+      "version": "1.7.38",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.39-GTNH",
+      "version": "4.12.40-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.21",
+      "version": "1.8.22",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.19-GTNH",
+      "version": "0.5.20-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -737,11 +737,11 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.42-GTNH",
+      "version": "1.3.43-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.51-GTNH",
+      "version": "0.1.52-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "Freecam": {
-      "version": "1.0.11",
+      "version": "1.0.12",
       "side": "BOTH"
     },
     "MouseTweaks": {
