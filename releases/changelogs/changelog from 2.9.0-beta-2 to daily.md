@@ -339,10 +339,11 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.69
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.69
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.70
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.70
 
 ## What's Changed:
+>* House cleaning by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7649 (5.09.54.70)
 >* Stronger checks to prevent access to game registry querries for blocks we registred from GT5U and addons by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7632 (5.09.54.69)
 >* Fix vajra block replacement with offhand by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7204 (5.09.54.69)
 >* Separate lang keys - gui vs scanner by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7642 (5.09.54.69)

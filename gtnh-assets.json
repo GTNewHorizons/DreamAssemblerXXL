@@ -64600,7 +64600,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.69",
+      "latest_version": "5.09.54.70",
       "private": false,
       "versions": [
         {
@@ -90311,6 +90311,16 @@
           "filename": "gregtech-5.09.54.69.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/498605764",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.69/gregtech-5.09.54.69.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.70",
+          "changelog": "## What's Changed\n* House cleaning by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7649\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.69...5.09.54.70\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-02T12:05:03+00:00",
+          "filename": "gregtech-5.09.54.70.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/498867283",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.70/gregtech-5.09.54.70.jar",
           "extra_assets": []
         }
       ],
@@ -186206,6 +186216,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 657,
-  "latest_successful_daily": 657
+  "latest_daily": 658,
+  "latest_successful_daily": 658
 }
