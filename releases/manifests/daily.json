@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-03T06:43:38.346957+00:00",
+  "last_updated": "2026-08-04T06:08:40.665469+00:00",
   "config": "2.9.0-nightly-2026-08-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.99-gtnh",
+      "version": "1.5.100-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.37",
+      "version": "2.6.38",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.30-GTNH",
+      "version": "1.13.31-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.12-GTNH",
+      "version": "1.4.13-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.35",
+      "version": "2.10.36",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.12",
+      "version": "1.5.13",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.71",
+      "version": "5.09.54.73",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.10",
+      "version": "2.7.11",
       "side": "BOTH"
     },
     "oauth": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.29",
+      "version": "9.17.30",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.26-GTNH",
+      "version": "2.2.27-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -573,7 +573,7 @@
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
-      "version": "1.7.9",
+      "version": "1.7.10",
       "side": "BOTH"
     },
     "WitcheryExtras": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "ForgeRelocation": {
-      "version": "0.3.6",
+      "version": "0.3.7",
       "side": "BOTH"
     },
     "HelpFixer": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "ServerUtilities": {
