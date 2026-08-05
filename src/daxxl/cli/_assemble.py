@@ -3,7 +3,8 @@ from httpx import AsyncClient
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
-from daxxl.defs import DevRelease, Side
+from daxxl.defs import RELEASE_MANIFEST_DIR, DevRelease, Side
+from daxxl.fullpack_manifest import write_fullpack_manifest
 from daxxl.gtnh_logger import get_logger
 
 log = get_logger(__name__)
@@ -20,6 +21,7 @@ async def assemble_dev_release(dev_release: DevRelease, verbose: bool) -> None:
     await context.downloader.download_release(release)
 
     assembler = ReleaseAssemblerController(context, release)
+    write_fullpack_manifest(RELEASE_MANIFEST_DIR / f"{release_name}.json", assembler.zip_assembler)
     await assembler.assemble_zip(Side.SERVER_JAVA9, verbose=verbose)
     await assembler.assemble_zip(Side.SERVER, verbose=verbose)
     await assembler.assemble_prism(Side.CLIENT, verbose=verbose)

@@ -146,6 +146,7 @@ jobs:
             GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip
             GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip
             releases/manifests/daily.json
+            releases/manifests/fullpack/daily.json
             releases/changelogs/
             gtnh-assets.json
           if-no-files-found: error
@@ -289,6 +290,7 @@ jobs:
           git add "$daily_non_daily_changelog_file"
           git add "./releases/changelogs/daily builds"
           git add ./releases/manifests/daily.json
+          git add ./releases/manifests/fullpack/daily.json
           git add ./gtnh-assets.json
           git commit -m "Upload daily $changelog_name"
           git push origin master
