@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-04T06:08:40.665469+00:00",
+  "last_updated": "2026-08-05T06:05:41.460283+00:00",
   "config": "2.9.0-nightly-2026-08-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.43-GTNH",
+      "version": "1.3.44-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

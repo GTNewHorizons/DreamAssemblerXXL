@@ -754,10 +754,11 @@ Mod is client-side only.
 >* Adapt to GT5u changes / Bump Buildscript and Deps by @Algent in https://github.com/GTNewHorizons/InGame-Info-XML/pull/41 (2.9.4)
 >* add itemid and itemmeta tags for equipment slots by @Eldrinn-Elantey in https://github.com/GTNewHorizons/InGame-Info-XML/pull/40 (2.9.4)
 
-# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.43-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.43-GTNH
+# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.44-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.44-GTNH
 
 ## What's Changed:
+>* Add pinnable inventory slots on player and backpacks by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/215 (1.3.44-GTNH)
 >* fix world server leak in Ae2AmountServiceImpl by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/219 (1.3.43-GTNH)
 >* Fix incorrect AE2 presence check by @Kogepan229 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/214 (1.3.42-GTNH)
 >* feat(client): repeat drop while drop key held by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/213 (1.3.41-GTNH)
