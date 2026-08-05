@@ -18,12 +18,12 @@ A replacement for DreamMasterXXL, minus the nerfs.
 * [update_check.py](src/daxxl/cli/update_check.py): Check for new releases on GitHub
 
 ### Assembler - Modpack Assemble!
-* [zip_assembler.py](src/daxxl/assembler/zip_assembler.py) Assemble the client and server pack (ZIP)
-* [curse.py](src/daxxl/assembler/curse.py) Maybe, at some point, assemble the pack for Curse
 * [downloader.py](src/daxxl/assembler/downloader.py): Download and cache the pack's mods
-* [modrinth.py](src/daxxl/assembler/modrinth.py) Hopefully in the near future assemble the pack for Modrinth
-* [multi_poly.py](src/daxxl/assembler/multi_poly.py) Hopefully in the near future assemble the pack for MultiMC/PolyMC
-* [technic.py](src/daxxl/assembler/technic.py) Assemble the pack for Technic
+* [zip_assembler.py](src/daxxl/assembler/platforms/zip_assembler.py) Assemble the client and server pack (ZIP)
+* [prism.py](src/daxxl/assembler/platforms/prism.py) Assemble the pack for Prism Launcher
+* [technic.py](src/daxxl/assembler/platforms/technic.py) Assemble the pack for Technic
+* [curse.py](src/daxxl/assembler/platforms/curse.py) Maybe, at some point, assemble the pack for Curse
+* [modrinth.py](src/daxxl/assembler/platforms/modrinth.py) Hopefully in the near future assemble the pack for Modrinth
 
 ### GUI
 * [gui.py](src/daxxl/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
