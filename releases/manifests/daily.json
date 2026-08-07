@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-07T04:02:41.585593+00:00",
+  "last_updated": "2026-08-07T14:28:31.940578+00:00",
   "config": "2.9.0-nightly-2026-08-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -37,7 +37,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.98",
+      "version": "1.99",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.30",
+      "version": "2.9.32",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.21-GTNH",
+      "version": "2.2.22-GTNH",
       "side": "BOTH"
     },
     "Postea": {
