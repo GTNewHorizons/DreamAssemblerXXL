@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-07-30T06:04:25.669224+00:00",
-  "config": "2.9.0-nightly-2026-07-29-02",
+  "last_updated": "2026-08-06T06:08:56.294982+00:00",
+  "config": "2.9.0-nightly-2026-08-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.23-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.98-gtnh",
+      "version": "1.5.100-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1024-GTNH",
+      "version": "rv3-beta-1027-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,11 +65,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.74-GTNH",
+      "version": "3.8.75-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.37",
+      "version": "2.6.39",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.28-GTNH",
+      "version": "1.13.32-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.62",
+      "version": "7.1.63",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.12-GTNH",
+      "version": "1.4.13-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -153,11 +153,11 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.35",
+      "version": "2.10.36",
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.8.4",
+      "version": "1.8.5",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.12",
+      "version": "1.5.13",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.63",
+      "version": "5.09.54.75",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.33",
+      "version": "0.11.36",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -225,11 +225,11 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.3.12-GTNH",
+      "version": "1.3.13-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.178",
+      "version": "2.7.180",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.22",
+      "version": "1.4.23",
       "side": "BOTH"
     },
     "IFU": {
@@ -269,11 +269,11 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.20",
+      "version": "1.5.21",
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.35",
+      "version": "1.6.41",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.15-GTNH",
+      "version": "2.6.16-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.21",
+      "version": "2.8.23",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.27",
+      "version": "2.9.29",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -341,15 +341,15 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.36",
+      "version": "1.7.38",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.117-GTNH",
+      "version": "2.8.118-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.10",
+      "version": "2.7.11",
       "side": "BOTH"
     },
     "oauth": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.54-GTNH",
+      "version": "1.12.55-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -397,11 +397,11 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.39-GTNH",
+      "version": "4.12.40-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.29",
+      "version": "9.17.30",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.7.4",
+      "version": "3.7.5",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.26-GTNH",
+      "version": "2.2.28-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -473,7 +473,7 @@
       "side": "BOTH"
     },
     "TCNodeTracker": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "CLIENT"
     },
     "thaumcraft-research-tweaks": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.5.25-GTNH",
+      "version": "1.5.26-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -493,11 +493,11 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.57-GTNH",
+      "version": "1.7.58-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.21",
+      "version": "1.8.22",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.37",
+      "version": "2.7.38",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -573,7 +573,7 @@
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
-      "version": "1.7.7",
+      "version": "1.7.10",
       "side": "BOTH"
     },
     "WitcheryExtras": {
@@ -593,7 +593,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.19",
+      "version": "1.4.21",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "ForgeRelocation": {
-      "version": "0.3.6",
+      "version": "0.3.7",
       "side": "BOTH"
     },
     "HelpFixer": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.18-GTNH",
+      "version": "0.5.20-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "side": "BOTH"
     },
     "Default-Configs": {
@@ -697,11 +697,11 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.4.3",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.4.5",
+      "version": "2.4.6",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.59",
+      "version": "2.1.60",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.84-1.7.10",
+      "version": "2.3.85-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -737,11 +737,11 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.42-GTNH",
+      "version": "1.3.45-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.50-GTNH",
+      "version": "0.1.52-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.50-GTNH",
+      "version": "2.6.51-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.12",
+      "version": "1.8.13",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -781,11 +781,11 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.97",
+      "version": "0.4.98",
       "side": "BOTH"
     },
     "Freecam": {
-      "version": "1.0.11",
+      "version": "1.0.12",
       "side": "BOTH"
     },
     "MouseTweaks": {
@@ -825,11 +825,11 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.33-GTNH",
+      "version": "1.0.34-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.35-GTNH",
+      "version": "1.0.36-GTNH",
       "side": "CLIENT"
     },
     "ThaumicMachina": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.18",
+      "version": "1.3.19",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
