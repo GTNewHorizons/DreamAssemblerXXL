@@ -298,10 +298,11 @@ Mod is client-side only.
 ## What's Changed:
 >* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30 (3.4.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.102
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.102
+# Updated - CropsNH - 2.0.91 --> 2.0.103
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.103
 
 ## What's Changed:
+>* Fix localization using server language and hardcoded text by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/233 (2.0.103)
 >* Fix recipe conflict and titanium to desh conversion by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/232 (2.0.102)
 >* fix spelling of bamboo seeds by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/225 (2.0.101)
 >* Structure Tooltip API revert by @AnsonYeung in https://github.com/GTNewHorizons/CropsNH/pull/223 (2.0.100)
@@ -394,10 +395,18 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.76
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.76
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.77
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.77
 
 ## What's Changed:
+>* Call the cover's onBaseTEDestroyed when breaking a BlockFrameBox by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7714 (5.09.54.77)
+>* Fix crash re-opening godforge exoticizer inputs panel by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7716 (5.09.54.77)
+>* Format steam gauge by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7686 (5.09.54.77)
+>* Fix laser mode on debug generator by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7715 (5.09.54.77)
+>* add NEI turbine fuel and rotor data dumpers by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6737 (5.09.54.77)
+>* Add config waila by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7717 (5.09.54.77)
+>* prevent wrench and soft mallet from rotatoin vanilla chest into invalid facing by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7703 (5.09.54.77)
+>* Prevent .name from appearing due to forge early syncing by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7653 (5.09.54.77)
 >* Add assembler recipes for metal spikes by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7663 (5.09.54.76)
 >* Add assembler recipes for vanilla swords by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7665 (5.09.54.76)
 >* Make item slots on fluid tank to be the same slot group by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7699 (5.09.54.76)
@@ -754,10 +763,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.180
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.180
+# Updated - Hodgepodge - 2.7.170 --> 2.7.181
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.181
 
 ## What's Changed:
+>* Add QuickPlay arg support by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/967 (2.7.181)
 >* add fps counter to `/allocationshud` by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/966 (2.7.180)
 >* Fix boss bar texture when hiding crosshair by @JackOfNoneTrades in https://github.com/GTNewHorizons/Hodgepodge/pull/965 (2.7.180)
 >* Replace hardcoded scrollbar with a textures one by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/945 (2.7.179)
@@ -1312,4 +1322,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @C0bra5, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

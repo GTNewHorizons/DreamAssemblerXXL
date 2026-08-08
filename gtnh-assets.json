@@ -7537,100 +7537,100 @@
         "version_tag": "de_DE-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:23:32+00:00",
-        "filename": "GTNH-de_DE-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505065663",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:37:08+00:00",
+        "filename": "GTNH-de_DE-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505995525",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "es_ES-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:15:00+00:00",
-        "filename": "GTNH-es_ES-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505056179",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:27:16+00:00",
+        "filename": "GTNH-es_ES-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505987660",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "fr_FR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:09:31+00:00",
-        "filename": "GTNH-fr_FR-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505050656",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/fr_FR-latest/GTNH-fr_FR-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:22:44+00:00",
+        "filename": "GTNH-fr_FR-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505983103",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/fr_FR-latest/GTNH-fr_FR-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T10:56:23+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505039226",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:08:42+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505971574",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:00:26+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505042899",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:13:08+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505975375",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pl_PL-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:27:46+00:00",
-        "filename": "GTNH-pl_PL-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505069690",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:41:38+00:00",
+        "filename": "GTNH-pl_PL-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505998984",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pt_BR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:05:09+00:00",
-        "filename": "GTNH-pt_BR-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505046938",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:17:57+00:00",
+        "filename": "GTNH-pt_BR-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505979728",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ru_RU-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:31:19+00:00",
-        "filename": "GTNH-ru_RU-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505072695",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:44:55+00:00",
+        "filename": "GTNH-ru_RU-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/506000877",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "tr_TR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T11:19:11+00:00",
-        "filename": "GTNH-tr_TR-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505061125",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:32:02+00:00",
+        "filename": "GTNH-tr_TR-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505991880",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       },
       {
         "version_tag": "zh_CN-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-07T10:52:58+00:00",
-        "filename": "GTNH-zh_CN-Translation-Daily-2026-08-07+415.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505036513",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-08-07%2B415.zip",
+        "tagged_at": "2026-08-08T03:05:15+00:00",
+        "filename": "GTNH-zh_CN-Translation-Daily-2026-08-08+416.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/505969169",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-08-08%2B416.zip",
         "extra_assets": []
       }
     ],
@@ -46311,7 +46311,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.102",
+      "latest_version": "2.0.103",
       "private": false,
       "versions": [
         {
@@ -47342,6 +47342,16 @@
           "filename": "cropsnh-2.0.102.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/504595646",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.102/cropsnh-2.0.102.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.103",
+          "changelog": "## What's Changed\n* Fix localization using server language and hardcoded text by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/233\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.102...2.0.103\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-07T17:28:51+00:00",
+          "filename": "cropsnh-2.0.103.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/505446450",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.103/cropsnh-2.0.103.jar",
           "extra_assets": []
         }
       ],
@@ -64870,7 +64880,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.76",
+      "latest_version": "5.09.54.77",
       "private": false,
       "versions": [
         {
@@ -90652,6 +90662,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/504595960",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.76/gregtech-5.09.54.76.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.77",
+          "changelog": "## What's Changed\n* Call the cover's onBaseTEDestroyed when breaking a BlockFrameBox by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7714\n* Fix crash re-opening godforge exoticizer inputs panel by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7716\n* Format steam gauge by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7686\n* Fix laser mode on debug generator by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7715\n* add NEI turbine fuel and rotor data dumpers by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6737\n* Add config waila by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7717\n* prevent wrench and soft mallet from rotatoin vanilla chest into invalid facing by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7703\n* Prevent .name from appearing due to forge early syncing by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7653\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.76...5.09.54.77\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-07T21:28:03+00:00",
+          "filename": "gregtech-5.09.54.77.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/505682852",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.77/gregtech-5.09.54.77.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -102358,7 +102378,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.180",
+      "latest_version": "2.7.181",
       "private": false,
       "versions": [
         {
@@ -108309,6 +108329,16 @@
           "filename": "hodgepodge-2.7.180.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/503442644",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.180/hodgepodge-2.7.180.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.181",
+          "changelog": "## What's Changed\n* Add QuickPlay arg support by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/967\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.180...2.7.181\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-08T03:13:54+00:00",
+          "filename": "hodgepodge-2.7.181.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/505976053",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.181/hodgepodge-2.7.181.jar",
           "extra_assets": []
         }
       ],
@@ -186836,6 +186866,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 666,
-  "latest_successful_daily": 666
+  "latest_daily": 667,
+  "latest_successful_daily": 667
 }
