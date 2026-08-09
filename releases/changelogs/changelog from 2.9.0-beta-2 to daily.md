@@ -27,11 +27,16 @@
 >* Fix crash on world reload by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/24 (1.4.5)
 >* Improve performances by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/23 (1.4.4)
 
-# Updated - Angelica - 2.1.50 --> 2.1.60
+# Updated - Angelica - 2.1.50 --> 2.2.2
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.1.60
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.2
 
 ## What's Changed:
+>* More fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1995 (2.2.2)
+>* A few fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1994 (2.2.1)
+>* Bump Gradle and 3ify dep by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/1986 (2.1.61)
+>* Do not concat strings from `glCallList` when debug is off by @boubou19 in https://github.com/GTNewHorizons/Angelica/pull/1988 (2.1.61)
+>* Fix compat for the original battlegear 2 by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/1992 (2.1.61)
 >* RenderChunkEvent for fluxloading to avoid mixin by @Midnight145 in https://github.com/GTNewHorizons/Angelica/pull/1974 (2.1.60)
 >* Fix Mekanism crash when it cast chunkTileEntityMap to HashMap by @XLin0mu in https://github.com/GTNewHorizons/Angelica/pull/1982 (2.1.60)
 >* Remove dead getCharWidth ModifyConstant by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Angelica/pull/1983 (2.1.60)
@@ -212,10 +217,11 @@ Mod is client-side only.
 >* Increase radius for ritual of magnetism to 34 by @Sanduhr32 in https://github.com/GTNewHorizons/BloodMagic/pull/138 (1.9.6)
 >* Fix broken demon city buildings by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/136 (1.9.5)
 
-# Updated - Botania - 1.13.26-GTNH --> 1.13.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.26-GTNH...1.13.32-GTNH
+# Updated - Botania - 1.13.26-GTNH --> 1.13.33-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.26-GTNH...1.13.33-GTNH
 
 ## What's Changed:
+>* fix: use renderViewEntity instead of player for rendering by @Caedis in https://github.com/GTNewHorizons/Botania/pull/151 (1.13.33-GTNH)
 >* add null check for explosionsource by @MLGfruitshoot in https://github.com/GTNewHorizons/Botania/pull/150 (1.13.32-GTNH)
 >* Fix render allocations by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/149 (1.13.31-GTNH)
 >* Pottable flowers and mushrooms by @FourIsTheNumber in https://github.com/GTNewHorizons/Botania/pull/146 (1.13.30-GTNH)
@@ -322,10 +328,11 @@ Mod is client-side only.
 >* Cleanup tooltip langs and improve waila, plant lens and scanner output by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/197 (2.0.93)
 >* Localize crop stick scanner info on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/196 (2.0.92)
 
-# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.30-GTNH
+# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.31-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.31-GTNH
 
 ## What's Changed:
+>* Reduce render load of DE placed items by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/108 (1.5.31-GTNH)
 >* Move the bindTexture out of the display list by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/107 (1.5.30-GTNH)
 >* Add NHLib dep to @Mod by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/104 (1.5.29-GTNH)
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
@@ -697,10 +704,16 @@ Mod is client-side only.
 ## What's Changed:
 >* Enable shadow dependencies by @SuperSoupr in https://github.com/GTNewHorizons/GTNH-Credits/pull/19 (1.3.2)
 
-# Updated - GTNHLib - 0.11.24 --> 0.11.36
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.36
+# Updated - GTNHExtLib - 1.0.3 --> 1.0.4
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.3...1.0.4
 
 ## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - GTNHLib - 0.11.24 --> 0.11.37
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.37
+
+## What's Changed:
+>* Bump GTNHExtLib dependency to include jvmdg 2.0.1 by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNHLib/pull/444 (0.11.37)
 >* Fix world leak caused by PlayerInventoryEventHandler by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/439 (0.11.36)
 >* Add BOP compat for flower pots by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/437 (0.11.35)
 >* switch to new RFB transform signature by @danyadev in https://github.com/GTNewHorizons/GTNHLib/pull/289 (0.11.34)
@@ -763,10 +776,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.181
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.181
+# Updated - Hodgepodge - 2.7.170 --> 2.7.182
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.182
 
 ## What's Changed:
+>* fix: Orient particles from render view entity instead of player by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/968 (2.7.182)
 >* Add QuickPlay arg support by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/967 (2.7.181)
 >* add fps counter to `/allocationshud` by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/966 (2.7.180)
 >* Fix boss bar texture when hiding crosshair by @JackOfNoneTrades in https://github.com/GTNewHorizons/Hodgepodge/pull/965 (2.7.180)

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-08T04:33:33.258943+00:00",
+  "last_updated": "2026-08-09T07:01:15.444398+00:00",
   "config": "2.9.0-nightly-2026-08-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.32-GTNH",
+      "version": "1.13.33-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -141,7 +141,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.30-GTNH",
+      "version": "1.5.31-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.36",
+      "version": "0.11.37",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.181",
+      "version": "2.7.182",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.60",
+      "version": "2.2.2",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "GTNHExtLib": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "side": "BOTH"
     },
     "GuideNH": {
