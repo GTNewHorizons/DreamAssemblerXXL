@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-09T07:01:15.444398+00:00",
+  "last_updated": "2026-08-10T05:00:24.381864+00:00",
   "config": "2.9.0-nightly-2026-08-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1028-GTNH",
+      "version": "rv3-beta-1029-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,11 +65,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.75-GTNH",
+      "version": "3.8.76-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.39",
+      "version": "2.6.40",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -109,7 +109,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.31-GTNH",
+      "version": "2.17.32-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.8.6",
+      "version": "1.8.7",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.32",
+      "version": "4.11.34",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.77",
+      "version": "5.09.54.79",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.182",
+      "version": "2.7.183",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.23",
+      "version": "1.4.24",
       "side": "BOTH"
     },
     "IFU": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.19.9-GTNH",
+      "version": "1.19.10-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.32",
+      "version": "2.9.33",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,11 +345,11 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.119-GTNH",
+      "version": "2.8.120-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.11",
+      "version": "2.7.12",
       "side": "BOTH"
     },
     "oauth": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.40-GTNH",
+      "version": "4.12.41-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.38",
+      "version": "2.7.39",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.2",
+      "version": "2.2.3",
       "side": "CLIENT"
     },
     "AkashicTome": {
