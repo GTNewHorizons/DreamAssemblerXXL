@@ -2,10 +2,12 @@
 > * Automagy-GTNH
 # Mods Removed: 
 > * Automagy
-# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.100-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.100-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.102-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.102-gtnh
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/459 (1.5.102-gtnh)
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/457 (1.5.101-gtnh)
 >* Update ME Chest display for fluid cells by @samhaines-wustl in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/456 (1.5.100-gtnh)
 >* Fix ME Fluid Interface not requesting crafting for missing fluids by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/452 (1.5.99-gtnh)
 >* Level Terminal fixes by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/455 (1.5.99-gtnh)
@@ -71,10 +73,12 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1029-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1029-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1030-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1030-GTNH
 
 ## What's Changed:
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1492 (rv3-beta-1030-GTNH)
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1494 (rv3-beta-1030-GTNH)
 >* Support NEI bookmark group drops in storage buses by @DreamYao520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1487 (rv3-beta-1029-GTNH)
 >* Fix AE2 cable placement preview ignoring colour of GridHosts by @Angry3vilbot in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1486 (rv3-beta-1029-GTNH)
 >* Add energy acceptor game test using HorizonQA helpers and new structure by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1479 (rv3-beta-1029-GTNH)
@@ -142,10 +146,11 @@ Mod is client-side only.
 >* Fix ArchitectureCraft lighting with shaders by @Benflex1 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/48 (1.12.16)
 >* Fix gui_sawbench.png by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/44 (1.12.15)
 
-# New Mod - Automagy-GTNH:0.29.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Automagy-GTNH/compare/0.29.1-GTNH...0.29.7-GTNH
+# New Mod - Automagy-GTNH:0.29.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Automagy-GTNH/compare/0.29.1-GTNH...0.29.8-GTNH
 
 ## What's Changed:
+>* fix: billboard toward renderViewEntity by @Caedis in https://github.com/GTNewHorizons/Automagy-GTNH/pull/2 (0.29.8-GTNH)
 >* Optimize Images by @UltraProdigy in https://github.com/GTNewHorizons/Automagy/pull/1 (0.29.2-GTNH)
 
 # Updated - Avaritia - 1.97 --> 1.99
@@ -177,20 +182,29 @@ Mod is client-side only.
 ## What's Changed:
 >* Implement ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/9 (0.4.7-GTNH)
 
-# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.76-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.76-GTNH
+# Updated - BetterLoadingScreen - 1.7.9-GTNH --> 1.7.10-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.9-GTNH...1.7.10-GTNH
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/37 (1.7.10-GTNH)
+
+# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.77-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.77-GTNH
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/243 (3.8.77-GTNH)
 >* Add Option to Link Other Quests in Quest Descriptions by @NotKaizul in https://github.com/GTNewHorizons/BetterQuesting/pull/232 (3.8.76-GTNH)
 >* Add Silent Quest Completion Setting by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/242 (3.8.75-GTNH)
 >* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/221 (3.8.74-GTNH)
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
 
-# Updated - Binnie - 2.6.34 --> 2.6.40
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.40
+# Updated - Binnie - 2.6.34 --> 2.6.41
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.41
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/112 (2.6.41)
 >* Don't interact with energy net on client side by @AnsonYeung in https://github.com/GTNewHorizons/Binnie/pull/111 (2.6.40)
 >* Move Paint.NET art sources out of packaged resources by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Binnie/pull/108 (2.6.39)
 >* Improve compartment inventory and GUI performance by @Algent in https://github.com/GTNewHorizons/Binnie/pull/109 (2.6.38)
@@ -215,10 +229,11 @@ Mod is client-side only.
 ## What's Changed:
 >* exclude unnecessary client side checks by @ABKQPO in https://github.com/GTNewHorizons/BloodArsenal/pull/47 (1.5.12)
 
-# Updated - BloodMagic - 1.9.4 --> 1.9.11
-**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.4...1.9.11
+# Updated - BloodMagic - 1.9.4 --> 1.9.12
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.4...1.9.12
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BloodMagic/pull/146 (1.9.12)
 >* fix loader check by @felixfour in https://github.com/GTNewHorizons/BloodMagic/pull/144 (1.9.11)
 >* Make blood orb stacks in NEI size 0 by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/142 (1.9.10)
 >* Fix bound blade not dropping blood shards if you kill in one hit by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/141 (1.9.9)
@@ -341,19 +356,28 @@ Mod is client-side only.
 >* Cleanup tooltip langs and improve waila, plant lens and scanner output by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/197 (2.0.93)
 >* Localize crop stick scanner info on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/196 (2.0.92)
 
-# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.31-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.31-GTNH
+# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.32-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.32-GTNH
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/109 (1.5.32-GTNH)
 >* Reduce render load of DE placed items by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/108 (1.5.31-GTNH)
 >* Move the bindTexture out of the display list by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/107 (1.5.30-GTNH)
 >* Add NHLib dep to @Mod by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/104 (1.5.29-GTNH)
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
-# Updated - EnderIO - 2.10.32 --> 2.10.36
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.36
+# Updated - Electro-Magic-Tools - 1.7.24 --> 1.7.25
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.24...1.7.25
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/122 (1.7.25)
+
+# Updated - EnderIO - 2.10.32 --> 2.10.38
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.38
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/248 (2.10.38)
+>* fix: billboard toward renderViewEntity by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/247 (2.10.37)
 >* Fix many render issues by @NeutronSelector in https://github.com/GTNewHorizons/EnderIO/pull/232 (2.10.36)
 >* Fix crash when removing inventory from Inventory Panel network by @wlhlm in https://github.com/GTNewHorizons/EnderIO/pull/243 (2.10.35)
 >* Extend ColorUtil class colors by @Ranzuu in https://github.com/GTNewHorizons/EnderIO/pull/242 (2.10.34)
@@ -368,10 +392,17 @@ Mod is client-side only.
 >* partially fix ender tank perfs by @boubou19 in https://github.com/GTNewHorizons/EnderStorage/pull/30 (1.8.5)
 >* Use un-dyed tank and chest for NEI lookup by @tiffit in https://github.com/GTNewHorizons/EnderStorage/pull/27 (1.8.4)
 
-# Updated - Et-Futurum-Requiem - 2.6.48-GTNH --> 2.6.51-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.48-GTNH...2.6.51-GTNH
+# Updated - EnderZoo - 1.3.5 --> 1.3.6
+**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.5...1.3.6
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderZoo/pull/16 (1.3.6)
+
+# Updated - Et-Futurum-Requiem - 2.6.48-GTNH --> 2.6.52-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.48-GTNH...2.6.52-GTNH
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/111 (2.6.52-GTNH)
 >* Allow the lantern to be worn in a Baubles-Expanded belt slot by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/107 (2.6.51-GTNH)
 >* Bug: Growing cherry tree replaced block it was growing on with dirt by @Spaghetti-OberNub in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/101 (2.6.50-GTNH)
 >* Port End Flashes and Other related features by @Eclipse-Sol in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/91 (2.6.49-GTNH)
@@ -389,10 +420,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Add MFR support for tainted trees by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/32 (0.9.17-GTNH)
 
-# Updated - ForestryMC - 4.11.31 --> 4.11.34
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.34
+# Updated - ForestryMC - 4.11.31 --> 4.11.35
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.35
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/130 (4.11.35)
 >* Fixes the display of blocks in NEI for the double slab blocks by @Cardinalstars in https://github.com/GTNewHorizons/ForestryMC/pull/129 (4.11.34)
 >* Fix Japanese block names showing as unlocalized .name keys by @sivaDog in https://github.com/GTNewHorizons/ForestryMC/pull/128 (4.11.33)
 >* fix: implement stacked block slab by @vermz99 in https://github.com/GTNewHorizons/ForestryMC/pull/127 (4.11.32)
@@ -418,10 +450,17 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.79
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.79
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.81
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.81
 
 ## What's Changed:
+>* Fix legacy wireless controller NBT loading by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7734 (5.09.54.81)
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7739 (5.09.54.81)
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7733 (5.09.54.80)
+>* Fix SLAM issues by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7722 (5.09.54.80)
+>* fix beam crafter tooltip by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7736 (5.09.54.80)
+>* Fix Mega Apiary crash due to replacing a valid bee with an invalid one by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7696 (5.09.54.80)
+>* Make EEC, Mass Solidifier and Cutter use getTierForStructure for the energy hatch tier check by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7728 (5.09.54.80)
 >* Add Indium comb chemical reactor recipe using UU-Matter by @lekior in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7370 (5.09.54.79)
 >* Replace Nuclear Stars w/ New Pseudo Stars in UXV Parts by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7732 (5.09.54.79)
 >* Enable Shift click on Item Holder covers by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7735 (5.09.54.79)
@@ -758,17 +797,26 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Port ResourceUtils from GT5U to NHlib by @Ruling-0 in https://github.com/GTNewHorizons/GTNHLib/pull/416 (0.11.26)
 >* Fix NumberPattern by @Sanduhr32 in https://github.com/GTNewHorizons/GTNHLib/pull/418 (0.11.25)
 
-# Updated - Gadomancy - 1.5.12 --> 1.5.13
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.5.12...1.5.13
+# Updated - Gadomancy - 1.5.12 --> 1.5.14
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.5.12...1.5.14
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Gadomancy/pull/59 (1.5.14)
 >* Reduce per-frame allocations in CheckpointingSet by @boubou19 in https://github.com/GTNewHorizons/Gadomancy/pull/57 (1.5.13)
 
-# Updated - Galacticraft - 3.4.31-GTNH --> 3.4.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.31-GTNH...3.4.32-GTNH
+# Updated - Galacticraft - 3.4.31-GTNH --> 3.4.33-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.31-GTNH...3.4.33-GTNH
 
 ## What's Changed:
+>* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galacticraft/pull/148 (3.4.33-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/Galacticraft/pull/147 (3.4.32-GTNH)
+
+# Updated - Galaxy-Space-GTNH - 1.1.139-GTNH --> 1.1.141-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.139-GTNH...1.1.141-GTNH
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/155 (1.1.141-GTNH)
+>* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/154 (1.1.140-GTNH)
 
 # Updated - Gravitation-Suite-Neo - 1.3.12 --> 1.3.15
 **Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.12...1.3.15
@@ -798,16 +846,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Skip redundant guide reloads during boot, keep only FML's final refresh by @Algent in https://github.com/GTNewHorizons/GuideNH/pull/41 (1.3.13)
 >* Fast game scene by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/26 (1.3.12)
 
-# Updated - Hardcore-Ender-Expansion - 1.12.25-GTNH --> 1.12.26-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.25-GTNH...1.12.26-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.12.25-GTNH --> 1.12.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.25-GTNH...1.12.27-GTNH
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46 (1.12.27-GTNH)
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.183
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.183
+# Updated - Hodgepodge - 2.7.170 --> 2.7.185
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.185
 
 ## What's Changed:
+>* Improve OpenAL sound quality, decoding performances, and memory usage by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/964 (2.7.185)
+>* fix: use renderViewEntity for fog origin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/969 (2.7.184)
 >* fix `-Dhodgepodge.logEnumValues=true` in modpack by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/972 (2.7.183)
 >* fix: Orient particles from render view entity instead of player by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/968 (2.7.182)
 >* Add QuickPlay arg support by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/967 (2.7.181)
@@ -827,6 +878,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/Hodgepodge/pull/935 (2.7.172)
 >* Set f1ShowHand default config to false by @SuperSoupr in https://github.com/GTNewHorizons/Hodgepodge/pull/946 (2.7.172)
 >* Fix controls menu crash when keybind categories share a localized name by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/943 (2.7.171)
+
+# Updated - HoloInventory - 2.5.15-GTNH --> 2.5.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.15-GTNH...2.5.16-GTNH
+
+## What's Changed:
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/HoloInventory/pull/66 (2.5.16-GTNH)
+>* Various performances fixes by @Algent in https://github.com/GTNewHorizons/HoloInventory/pull/65 (2.5.16-GTNH)
 
 # Updated - HydroEnergy - 1.4.21 --> 1.4.24
 **Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.21...1.4.24
@@ -864,10 +922,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix render allocations by @boubou19 in https://github.com/GTNewHorizons/Infernal-Mobs/pull/25 (1.10.6-GTNH)
 
-# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.45-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.45-GTNH
+# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.46-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.46-GTNH
 
 ## What's Changed:
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/221 (1.3.46-GTNH)
 >* Expose pinned slot in API by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/220 (1.3.45-GTNH)
 >* Add pinnable inventory slots on player and backpacks by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/215 (1.3.44-GTNH)
 >* fix world server leak in Ae2AmountServiceImpl by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/219 (1.3.43-GTNH)
@@ -877,10 +936,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix drop off accidental triggers and not working with key combos by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/211 (1.3.39-GTNH)
 >* fix zh_cn by @MCTBL in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/210 (1.3.38-GTNH)
 
-# Updated - Jabba - 1.5.20 --> 1.5.21
-**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.20...1.5.21
+# Updated - Jabba - 1.5.20 --> 1.5.22
+**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.20...1.5.22
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Jabba/pull/52 (1.5.22)
 >* storage drawers integration update by @ABKQPO in https://github.com/GTNewHorizons/Jabba/pull/51 (1.5.21)
 
 # Updated - JourneyMap - 5.2.19-fairplay --> 5.2.20-fairplay
@@ -937,10 +997,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix loot games not syncing in CC by @RecursivePineapple in https://github.com/GTNewHorizons/LootGames/pull/39 (2.2.14)
 
-# Updated - MagicBees - 2.10.9-GTNH --> 2.10.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.9-GTNH...2.10.10-GTNH
+# Updated - MagicBees - 2.10.9-GTNH --> 2.10.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.9-GTNH...2.10.11-GTNH
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/66 (2.10.11-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/MagicBees/pull/64 (2.10.10-GTNH)
 
 # Updated - MalisisDoors - 1.19.8-GTNH --> 1.19.10-GTNH
@@ -1020,10 +1081,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.33
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.33
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.34
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.34
 
 ## What's Changed:
+>* Fix optical circuit fluid mistake in NAC by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1902 (2.9.34)
 >* Fix TCon Ingot -> Dense Obsidian Plate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1899 (2.9.33)
 >* add fluid annihilation/formation plane recipes by @Nana-Sakura in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1898 (2.9.33)
 >* Add End Stone Brick chisel conversions by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1896 (2.9.32)
@@ -1084,10 +1146,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update deps by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/77 (1.7.36)
 >* Fix OreDict Permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/76 (1.7.35)
 
-# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.120-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.120-GTNH
+# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.122-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.122-GTNH
 
 ## What's Changed:
+>* Modernize Java code by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NotEnoughItems/pull/997 (2.8.122-GTNH)
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/998 (2.8.121-GTNH)
 >* Optimize updateUnlimitedItems by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/995 (2.8.120-GTNH)
 >* Add Recipe Filter syntax tooltip by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/992 (2.8.119-GTNH)
 >* Fix Untranslator With Broken Item by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/993 (2.8.119-GTNH)
@@ -1124,16 +1188,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [1.0 Update] Port command to Brigadier by @serenibyss in https://github.com/GTNewHorizons/Nutrition/pull/39 (1.0.0)
 >* Rename every instance of "Gingko" to "Ginkgo" by @Ranzuu in https://github.com/GTNewHorizons/Nutrition/pull/36 (0.1.10)
 
-# Updated - OCGlasses - 1.6.7-GTNH --> 1.6.8-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.7-GTNH...1.6.8-GTNH
+# Updated - OCGlasses - 1.6.7-GTNH --> 1.6.9-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.7-GTNH...1.6.9-GTNH
 
 ## What's Changed:
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/OCGlasses/pull/26 (1.6.9-GTNH)
 >* fix crash when resizing too early by @felixfour in https://github.com/GTNewHorizons/OCGlasses/pull/25 (1.6.8-GTNH)
 
-# Updated - OpenBlocks - 1.12.18-GTNH --> 1.12.19-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.18-GTNH...1.12.19-GTNH
+# Updated - OpenBlocks - 1.12.18-GTNH --> 1.12.20-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.18-GTNH...1.12.20-GTNH
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/63 (1.12.20-GTNH)
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
 # Updated - OpenComputers - 1.12.48-GTNH --> 1.12.55-GTNH
@@ -1155,10 +1221,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/OpenModularTurrets/pull/12 (2.4.6)
 
-# Updated - Opis - 1.4.8-mapless --> 1.4.9-mapless
-**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.8-mapless...1.4.9-mapless
+# Updated - Opis - 1.4.8-mapless --> 1.4.10-mapless
+**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.8-mapless...1.4.10-mapless
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/18 (1.4.10-mapless)
 >* Fix name for type tab by @AnsonYeung in https://github.com/GTNewHorizons/Opis/pull/17 (1.4.9-mapless)
 
 # Updated - ProjectRed - 4.12.39-GTNH --> 4.12.41-GTNH
@@ -1168,17 +1235,30 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Improve lamps rendering and reduce their allocations by @boubou19 in https://github.com/GTNewHorizons/ProjectRed/pull/87 (4.12.41-GTNH)
 >* Fix/spelling/primitives by @PLASMAchicken in https://github.com/GTNewHorizons/ProjectRed/pull/86 (4.12.40-GTNH)
 
-# Updated - Railcraft - 9.17.29 --> 9.17.30
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.29...9.17.30
+# Updated - Railcraft - 9.17.29 --> 9.17.31
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.29...9.17.31
 
 ## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Railcraft/pull/125 (9.17.31)
 >* Reduce ram allocs by @boubou19 in https://github.com/GTNewHorizons/Railcraft/pull/124 (9.17.30)
+
+# Updated - Random-Things - 2.7.8 --> 2.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.8...2.7.9
+
+## What's Changed:
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Random-Things/pull/23 (2.7.9)
 
 # Updated - RandomBoubles - 1.1.6 --> 1.1.7
 **Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.1.6...1.1.7
 
 ## What's Changed:
 >* clarify gt loader check by @felixfour in https://github.com/GTNewHorizons/RandomBoubles/pull/10 (1.1.7)
+
+# Updated - SC2 - 2.3.14 --> 2.3.15
+**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.14...2.3.15
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20 (2.3.15)
 
 # Updated - ServerUtilities - 2.4.1 --> 2.4.6
 **Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.6
@@ -1191,10 +1271,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix /back tp offsets by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/327 (2.4.3)
 >* Fix breeding not working in claims with mob spawns disabled by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/325 (2.4.2)
 
-# Updated - Share-Where-I-am - 2.1.7 --> 2.1.9
-**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.7...2.1.9
+# Updated - Share-Where-I-am - 2.1.7 --> 2.1.10
+**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.7...2.1.10
 
 ## What's Changed:
+>* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Share-Where-I-am/pull/13 (2.1.10)
 >* Fix missing verts for bottom face of waypoint render by @tiffit in https://github.com/GTNewHorizons/Share-Where-I-am/pull/12 (2.1.9)
 >* Disable mod if JM6 is detected by @Algent in https://github.com/GTNewHorizons/Share-Where-I-am/pull/11 (2.1.8)
 
@@ -1210,6 +1291,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Various performances fixes by @Algent in https://github.com/GTNewHorizons/SpecialMobs/pull/32 (3.7.5)
+
+# Updated - Steve-s-Factory-Manager - 1.3.12-GTNH --> 1.3.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.12-GTNH...1.3.13-GTNH
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/23 (1.3.13-GTNH)
 
 # Updated - StorageDrawers - 2.2.26-GTNH --> 2.2.28-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.2.26-GTNH...2.2.28-GTNH
@@ -1325,6 +1412,12 @@ Mod is client-side only.
 >* lazily load the freq array by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/22 (1.7.9)
 >* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21 (1.7.8)
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
+
+# Updated - amunra - 0.8.13 --> 0.8.14
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.13...0.8.14
+
+## What's Changed:
+>* fix: use renderViewEntity in sky renderer by @Caedis in https://github.com/GTNewHorizons/amunra/pull/48 (0.8.14)
 
 # Updated - harvestcraft - 1.3.11-GTNH --> 1.3.13-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.11-GTNH...1.3.13-GTNH

@@ -8652,7 +8652,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.5.100-gtnh",
+      "latest_version": "1.5.102-gtnh",
       "private": false,
       "versions": [
         {
@@ -13384,6 +13384,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/500917691",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.5.100-gtnh/ae2fc-1.5.100-gtnh.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.101-gtnh",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/457\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.100-gtnh...1.5.101-gtnh\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:39:12+00:00",
+          "filename": "ae2fc-1.5.101-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/509058551",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.5.101-gtnh/ae2fc-1.5.101-gtnh.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.102-gtnh",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/459\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.101-gtnh...1.5.102-gtnh\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T21:06:53+00:00",
+          "filename": "ae2fc-1.5.102-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/509258848",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.5.102-gtnh/ae2fc-1.5.102-gtnh.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -14749,7 +14769,7 @@
     },
     {
       "name": "amunra",
-      "latest_version": "0.8.13",
+      "latest_version": "0.8.14",
       "private": false,
       "versions": [
         {
@@ -15221,6 +15241,16 @@
           "filename": "AmunRa-GC-0.8.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/444361511",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.8.13/AmunRa-GC-0.8.13.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.14",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity in sky renderer by @Caedis in https://github.com/GTNewHorizons/amunra/pull/48\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.13...0.8.14\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:24:33+00:00",
+          "filename": "AmunRa-GC-0.8.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/509045288",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.8.14/AmunRa-GC-0.8.14.jar",
           "extra_assets": []
         }
       ],
@@ -17983,7 +18013,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1029-GTNH",
+      "latest_version": "rv3-beta-1030-GTNH",
       "private": false,
       "versions": [
         {
@@ -26865,6 +26895,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/507249918",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1029-GTNH/appliedenergistics2-rv3-beta-1029-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1030-GTNH",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1492\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1494\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1029-GTNH...rv3-beta-1030-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:08:00+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1030-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/509028026",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1030-GTNH/appliedenergistics2-rv3-beta-1030-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -27845,7 +27885,7 @@
     },
     {
       "name": "Automagy-GTNH",
-      "latest_version": "0.29.7-GTNH",
+      "latest_version": "0.29.8-GTNH",
       "private": true,
       "versions": [
         {
@@ -27916,6 +27956,16 @@
           "filename": "Automagy-0.29.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Automagy-GTNH/releases/assets/479290213",
           "browser_download_url": "https://github.com/GTNewHorizons/Automagy-GTNH/releases/download/0.29.7-GTNH/Automagy-0.29.7-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.29.8-GTNH",
+          "changelog": "## What's Changed\n* fix: billboard toward renderViewEntity by @Caedis in https://github.com/GTNewHorizons/Automagy-GTNH/pull/2\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/Automagy-GTNH/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/Automagy-GTNH/compare/0.29.6-GTNH...0.29.8-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T16:41:03+00:00",
+          "filename": "Automagy-0.29.8-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Automagy-GTNH/releases/assets/508998354",
+          "browser_download_url": "https://github.com/GTNewHorizons/Automagy-GTNH/releases/download/0.29.8-GTNH/Automagy-0.29.8-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -31904,7 +31954,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.7.9-GTNH",
+      "latest_version": "1.7.10-GTNH",
       "private": false,
       "versions": [
         {
@@ -32227,6 +32277,16 @@
           "filename": "betterloadingscreen-1.7.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/444365250",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.9-GTNH/betterloadingscreen-1.7.9-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.10-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/37\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/37\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.9-GTNH...1.7.10-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:05:51+00:00",
+          "filename": "betterloadingscreen-1.7.10-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/509144280",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.10-GTNH/betterloadingscreen-1.7.10-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -32797,7 +32857,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.8.76-GTNH",
+      "latest_version": "3.8.77-GTNH",
       "private": false,
       "versions": [
         {
@@ -34800,6 +34860,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/508285511",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.76-GTNH/BetterQuesting-3.8.76-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "3.8.77-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/243\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.76-GTNH...3.8.77-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:08:57+00:00",
+          "filename": "BetterQuesting-3.8.77-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/509147721",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.77-GTNH/BetterQuesting-3.8.77-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT",
@@ -34896,7 +34966,7 @@
     },
     {
       "name": "Binnie",
-      "latest_version": "2.6.40",
+      "latest_version": "2.6.41",
       "private": false,
       "versions": [
         {
@@ -36077,6 +36147,16 @@
           "filename": "binnie-mods-2.6.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/508286124",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.40/binnie-mods-2.6.40.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.41",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/112\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.40...2.6.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:00:57+00:00",
+          "filename": "binnie-mods-2.6.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/509138282",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.41/binnie-mods-2.6.41.jar",
           "extra_assets": []
         }
       ],
@@ -37331,7 +37411,7 @@
     },
     {
       "name": "BloodMagic",
-      "latest_version": "1.9.11",
+      "latest_version": "1.9.12",
       "private": false,
       "versions": [
         {
@@ -38623,6 +38703,16 @@
           "filename": "BloodMagic-1.9.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/494232765",
           "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.9.11/BloodMagic-1.9.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.12",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BloodMagic/pull/146\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.11...1.9.12\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:02:28+00:00",
+          "filename": "BloodMagic-1.9.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/509140509",
+          "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.9.12/BloodMagic-1.9.12.jar",
           "extra_assets": []
         }
       ],
@@ -48300,7 +48390,7 @@
     },
     {
       "name": "Draconic-Evolution",
-      "latest_version": "1.5.31-GTNH",
+      "latest_version": "1.5.32-GTNH",
       "private": false,
       "versions": [
         {
@@ -49314,6 +49404,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/506775713",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.5.31-GTNH/Draconic-Evolution-1.5.31-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.32-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/109\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.31-GTNH...1.5.32-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:07:53+00:00",
+          "filename": "Draconic-Evolution-1.5.32-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/509146459",
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.5.32-GTNH/Draconic-Evolution-1.5.32-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -49735,7 +49835,7 @@
     },
     {
       "name": "Electro-Magic-Tools",
-      "latest_version": "1.7.24",
+      "latest_version": "1.7.25",
       "private": false,
       "versions": [
         {
@@ -50848,6 +50948,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/454982611",
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.24/EMT-1.7.24.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.25",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/122\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.24...1.7.25\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:07:28+00:00",
+          "filename": "EMT-1.7.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/509146032",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.25/EMT-1.7.25.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -51317,7 +51427,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.36",
+      "latest_version": "2.10.38",
       "private": false,
       "versions": [
         {
@@ -53249,6 +53359,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/500902116",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.36/EnderIO-2.10.36.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.37",
+          "changelog": "## What's Changed\n* fix: billboard toward renderViewEntity by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/247\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.36...2.10.37\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:26:34+00:00",
+          "filename": "EnderIO-2.10.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/509047093",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.37/EnderIO-2.10.37.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.38",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/248\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.37...2.10.38\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:06:01+00:00",
+          "filename": "EnderIO-2.10.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/509144410",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.38/EnderIO-2.10.38.jar",
+          "extra_assets": []
         }
       ],
       "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
@@ -53569,7 +53699,7 @@
     },
     {
       "name": "EnderZoo",
-      "latest_version": "1.3.5",
+      "latest_version": "1.3.6",
       "private": false,
       "versions": [
         {
@@ -53741,6 +53871,16 @@
           "filename": "EnderZoo-1.3.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderZoo/releases/assets/456367242",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderZoo/releases/download/1.3.5/EnderZoo-1.3.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.6",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderZoo/pull/16\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.5...1.3.6\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:05:09+00:00",
+          "filename": "EnderZoo-1.3.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderZoo/releases/assets/509143462",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderZoo/releases/download/1.3.6/EnderZoo-1.3.6.jar",
           "extra_assets": []
         }
       ],
@@ -54183,7 +54323,7 @@
     },
     {
       "name": "Et-Futurum-Requiem",
-      "latest_version": "2.6.51-GTNH",
+      "latest_version": "2.6.52-GTNH",
       "private": false,
       "versions": [
         {
@@ -54944,6 +55084,16 @@
           "filename": "etfuturum-2.6.51-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/503442094",
           "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.51-GTNH/etfuturum-2.6.51-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.52-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/111\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/111\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.51-GTNH...2.6.52-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:08:32+00:00",
+          "filename": "etfuturum-2.6.52-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/509147218",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.52-GTNH/etfuturum-2.6.52-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -56846,7 +56996,7 @@
     },
     {
       "name": "ForestryMC",
-      "latest_version": "4.11.34",
+      "latest_version": "4.11.35",
       "private": false,
       "versions": [
         {
@@ -58200,6 +58350,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/508283903",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.34/Forestry-4.11.34.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "4.11.35",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/130\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.34...4.11.35\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T18:58:58+00:00",
+          "filename": "Forestry-4.11.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/509135911",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.35/Forestry-4.11.35.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -59280,7 +59440,7 @@
     },
     {
       "name": "Gadomancy",
-      "latest_version": "1.5.13",
+      "latest_version": "1.5.14",
       "private": false,
       "versions": [
         {
@@ -59742,6 +59902,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Gadomancy/releases/assets/500899415",
           "browser_download_url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.5.13/gadomancy-1.5.13.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.14",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Gadomancy/pull/59\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.5.13...1.5.14\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:03:01+00:00",
+          "filename": "gadomancy-1.5.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Gadomancy/releases/assets/509141121",
+          "browser_download_url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.5.14/gadomancy-1.5.14.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -59840,7 +60010,7 @@
     },
     {
       "name": "Galacticraft",
-      "latest_version": "3.4.32-GTNH",
+      "latest_version": "3.4.33-GTNH",
       "private": false,
       "versions": [
         {
@@ -60932,6 +61102,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/494245433",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.4.32-GTNH/Galacticraft-3.4.32-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "3.4.33-GTNH",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galacticraft/pull/148\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.32-GTNH...3.4.33-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:22:33+00:00",
+          "filename": "Galacticraft-3.4.33-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/509043684",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.4.33-GTNH/Galacticraft-3.4.33-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "Explicit Permission",
@@ -60940,7 +61120,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.139-GTNH",
+      "latest_version": "1.1.141-GTNH",
       "private": true,
       "versions": [
         {
@@ -61623,6 +61803,26 @@
           "filename": "GalaxySpace-1.1.139-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/440954263",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.139-GTNH/GalaxySpace-1.1.139-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.140-GTNH",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/154\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/154\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.139-GTNH...1.1.140-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T16:48:05+00:00",
+          "filename": "GalaxySpace-1.1.140-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/509006210",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.140-GTNH/GalaxySpace-1.1.140-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.141-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/155\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.140-GTNH...1.1.141-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:02:05+00:00",
+          "filename": "GalaxySpace-1.1.141-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/509140073",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.141-GTNH/GalaxySpace-1.1.141-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -65020,7 +65220,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.79",
+      "latest_version": "5.09.54.81",
       "private": false,
       "versions": [
         {
@@ -90832,6 +91032,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/508287199",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.79/gregtech-5.09.54.79.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.80",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7733\n* Fix SLAM issues by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7722\n* fix beam crafter tooltip by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7736\n* Fix Mega Apiary crash due to replacing a valid bee with an invalid one by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7696\n* Make EEC, Mass Solidifier and Cutter use getTierForStructure for the energy hatch tier check by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7728\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.79...5.09.54.80\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T16:34:51+00:00",
+          "filename": "gregtech-5.09.54.80.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/508991682",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.80/gregtech-5.09.54.80.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.81",
+          "changelog": "## What's Changed\n* Fix legacy wireless controller NBT loading by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7734\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7739\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.80...5.09.54.81\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T21:34:53+00:00",
+          "filename": "gregtech-5.09.54.81.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/509285246",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.81/gregtech-5.09.54.81.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -101688,7 +101908,7 @@
     },
     {
       "name": "Hardcore-Ender-Expansion",
-      "latest_version": "1.12.26-GTNH",
+      "latest_version": "1.12.27-GTNH",
       "private": false,
       "versions": [
         {
@@ -102109,6 +102329,16 @@
           "filename": "HardcoreEnderExpansion-1.12.26-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/493280635",
           "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.12.26-GTNH/HardcoreEnderExpansion-1.12.26-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.27-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.26-GTNH...1.12.27-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:09:04+00:00",
+          "filename": "HardcoreEnderExpansion-1.12.27-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/509147814",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.12.27-GTNH/HardcoreEnderExpansion-1.12.27-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -102558,7 +102788,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.183",
+      "latest_version": "2.7.185",
       "private": false,
       "versions": [
         {
@@ -108540,6 +108770,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/508283505",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.183/hodgepodge-2.7.183.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.184",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for fog origin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/969\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.183...2.7.184\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:27:01+00:00",
+          "filename": "hodgepodge-2.7.184.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/509047497",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.184/hodgepodge-2.7.184.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.185",
+          "changelog": "## What's Changed\n* Improve OpenAL sound quality, decoding performances, and memory usage by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/964\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.184...2.7.185\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T21:47:18+00:00",
+          "filename": "hodgepodge-2.7.185.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/509297620",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.185/hodgepodge-2.7.185.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -108548,7 +108798,7 @@
     },
     {
       "name": "HoloInventory",
-      "latest_version": "2.5.15-GTNH",
+      "latest_version": "2.5.16-GTNH",
       "private": false,
       "versions": [
         {
@@ -109121,6 +109371,16 @@
           "filename": "holoinventory-2.5.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/455704339",
           "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.5.15-GTNH/holoinventory-2.5.15-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.5.16-GTNH",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/HoloInventory/pull/66\n* Various performances fixes by @Algent in https://github.com/GTNewHorizons/HoloInventory/pull/65\n\n## New Contributors\n* @Algent made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/65\n\n**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.15-GTNH...2.5.16-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T16:33:46+00:00",
+          "filename": "holoinventory-2.5.16-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/508990615",
+          "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.5.16-GTNH/holoinventory-2.5.16-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -111261,7 +111521,7 @@
     },
     {
       "name": "InventoryBogoSorter",
-      "latest_version": "1.3.45-GTNH",
+      "latest_version": "1.3.46-GTNH",
       "private": false,
       "versions": [
         {
@@ -112454,6 +112714,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/502541904",
           "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.45-GTNH/bogosorter-1.3.45-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.46-GTNH",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/221\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.45-GTNH...1.3.46-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:03:42+00:00",
+          "filename": "bogosorter-1.3.46-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/509023195",
+          "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.46-GTNH/bogosorter-1.3.46-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -113249,7 +113519,7 @@
     },
     {
       "name": "Jabba",
-      "latest_version": "1.5.21",
+      "latest_version": "1.5.22",
       "private": false,
       "versions": [
         {
@@ -113751,6 +114021,16 @@
           "filename": "JABBA-1.5.21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/503443111",
           "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.21/JABBA-1.5.21.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.22",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Jabba/pull/52\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.21...1.5.22\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:04:10+00:00",
+          "filename": "JABBA-1.5.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/509142405",
+          "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.22/JABBA-1.5.22.jar",
           "extra_assets": []
         }
       ],
@@ -121976,7 +122256,7 @@
     },
     {
       "name": "MagicBees",
-      "latest_version": "2.10.10-GTNH",
+      "latest_version": "2.10.11-GTNH",
       "private": false,
       "versions": [
         {
@@ -122539,6 +122819,16 @@
           "filename": "magicbees-2.10.10-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/494236740",
           "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.10.10-GTNH/magicbees-2.10.10-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.11-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/66\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/66\n\n**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.10-GTNH...2.10.11-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:05:11+00:00",
+          "filename": "magicbees-2.10.11-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/509143509",
+          "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.10.11-GTNH/magicbees-2.10.11-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -131817,7 +132107,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.33",
+      "latest_version": "2.9.34",
       "private": false,
       "versions": [
         {
@@ -143709,6 +143999,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/507263267",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.33/GTNewHorizonsCoreMod-2.9.33.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.34",
+          "changelog": "## What's Changed\n* Fix optical circuit fluid mistake in NAC by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1902\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.33...2.9.34\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:13:45+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.34.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/509034199",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.34/GTNewHorizonsCoreMod-2.9.34.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -144961,7 +145261,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.120-GTNH",
+      "latest_version": "2.8.122-GTNH",
       "private": false,
       "versions": [
         {
@@ -149524,6 +149824,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/508289608",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.120-GTNH/NotEnoughItems-2.8.120-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.121-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/998\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.120-GTNH...2.8.121-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T05:42:58+00:00",
+          "filename": "NotEnoughItems-2.8.121-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/508346976",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.121-GTNH/NotEnoughItems-2.8.121-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.122-GTNH",
+          "changelog": "## What's Changed\n* Modernize Java code by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NotEnoughItems/pull/997\n\n## New Contributors\n* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/997\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.121-GTNH...2.8.122-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:28:44+00:00",
+          "filename": "NotEnoughItems-2.8.122-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/509048857",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.122-GTNH/NotEnoughItems-2.8.122-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -150421,7 +150741,7 @@
     },
     {
       "name": "OCGlasses",
-      "latest_version": "1.6.8-GTNH",
+      "latest_version": "1.6.9-GTNH",
       "private": false,
       "versions": [
         {
@@ -150674,6 +150994,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/494017337",
           "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.8-GTNH/OpenGlasses-1.6.8-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.9-GTNH",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/OCGlasses/pull/26\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/26\n\n**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.8-GTNH...1.6.9-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:15:51+00:00",
+          "filename": "OpenGlasses-1.6.9-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/509036867",
+          "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.6.9-GTNH/OpenGlasses-1.6.9-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT",
@@ -150682,7 +151012,7 @@
     },
     {
       "name": "OpenBlocks",
-      "latest_version": "1.12.19-GTNH",
+      "latest_version": "1.12.20-GTNH",
       "private": false,
       "versions": [
         {
@@ -151129,6 +151459,16 @@
           "filename": "OpenBlocks-1.12.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/477523478",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.19-GTNH/OpenBlocks-1.12.19-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.20-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/63\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.19-GTNH...1.12.20-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:10:27+00:00",
+          "filename": "OpenBlocks-1.12.20-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/509030465",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.20-GTNH/OpenBlocks-1.12.20-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -153251,7 +153591,7 @@
     },
     {
       "name": "Opis",
-      "latest_version": "1.4.9-mapless",
+      "latest_version": "1.4.10-mapless",
       "private": false,
       "versions": [
         {
@@ -153433,6 +153773,16 @@
           "filename": "Opis-1.4.9-mapless.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Opis/releases/assets/481457705",
           "browser_download_url": "https://github.com/GTNewHorizons/Opis/releases/download/1.4.9-mapless/Opis-1.4.9-mapless.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.10-mapless",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/18\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.9-mapless...1.4.10-mapless\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:07:58+00:00",
+          "filename": "Opis-1.4.10-mapless.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Opis/releases/assets/509146528",
+          "browser_download_url": "https://github.com/GTNewHorizons/Opis/releases/download/1.4.10-mapless/Opis-1.4.10-mapless.jar",
           "extra_assets": []
         }
       ],
@@ -155408,7 +155758,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.17.30",
+      "latest_version": "9.17.31",
       "private": false,
       "versions": [
         {
@@ -156550,6 +156900,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/500633464",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.30/Railcraft-9.17.30.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "9.17.31",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Railcraft/pull/125\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.30...9.17.31\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:00:52+00:00",
+          "filename": "Railcraft-9.17.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/509138213",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.31/Railcraft-9.17.31.jar",
+          "extra_assets": []
         }
       ],
       "license": "Explicit Permission",
@@ -156582,7 +156942,7 @@
     },
     {
       "name": "Random-Things",
-      "latest_version": "2.7.8",
+      "latest_version": "2.7.9",
       "private": false,
       "versions": [
         {
@@ -156854,6 +157214,16 @@
           "filename": "RandomThings-2.7.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Random-Things/releases/assets/457338978",
           "browser_download_url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.7.8/RandomThings-2.7.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.9",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Random-Things/pull/23\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/23\n\n**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.8...2.7.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:19:53+00:00",
+          "filename": "RandomThings-2.7.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Random-Things/releases/assets/509040894",
+          "browser_download_url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.7.9/RandomThings-2.7.9.jar",
           "extra_assets": []
         }
       ],
@@ -158210,7 +158580,7 @@
     },
     {
       "name": "SC2",
-      "latest_version": "2.3.14",
+      "latest_version": "2.3.15",
       "private": false,
       "versions": [
         {
@@ -158443,6 +158813,16 @@
           "filename": "StevesCarts-2.3.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/406514232",
           "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.3.14/StevesCarts-2.3.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.15",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.14...2.3.15\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:03:41+00:00",
+          "filename": "StevesCarts-2.3.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/509141920",
+          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.3.15/StevesCarts-2.3.15.jar",
           "extra_assets": []
         }
       ],
@@ -160995,7 +161375,7 @@
     },
     {
       "name": "Share-Where-I-am",
-      "latest_version": "2.1.9",
+      "latest_version": "2.1.10",
       "private": false,
       "versions": [
         {
@@ -161177,6 +161557,16 @@
           "filename": "sharewhereiam-2.1.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Share-Where-I-am/releases/assets/485152088",
           "browser_download_url": "https://github.com/GTNewHorizons/Share-Where-I-am/releases/download/2.1.9/sharewhereiam-2.1.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.10",
+          "changelog": "## What's Changed\n* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Share-Where-I-am/pull/13\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/13\n\n**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.9...2.1.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T17:17:26+00:00",
+          "filename": "sharewhereiam-2.1.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Share-Where-I-am/releases/assets/509038433",
+          "browser_download_url": "https://github.com/GTNewHorizons/Share-Where-I-am/releases/download/2.1.10/sharewhereiam-2.1.10.jar",
           "extra_assets": []
         }
       ],
@@ -162230,7 +162620,7 @@
     },
     {
       "name": "Steve-s-Factory-Manager",
-      "latest_version": "1.3.12-GTNH",
+      "latest_version": "1.3.13-GTNH",
       "private": false,
       "versions": [
         {
@@ -162512,6 +162902,16 @@
           "filename": "StevesFactoryManager-1.3.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Steve-s-Factory-Manager/releases/assets/419048466",
           "browser_download_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager/releases/download/1.3.12-GTNH/StevesFactoryManager-1.3.12-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.13-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/23\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/23\n\n**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.12-GTNH...1.3.13-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T19:16:21+00:00",
+          "filename": "StevesFactoryManager-1.3.13-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Steve-s-Factory-Manager/releases/assets/509153399",
+          "browser_download_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager/releases/download/1.3.13-GTNH/StevesFactoryManager-1.3.13-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -187136,6 +187536,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 670,
-  "latest_successful_daily": 670
+  "latest_daily": 672,
+  "latest_successful_daily": 672
 }
