@@ -198,10 +198,10 @@ jobs:
         working-directory: ${{ env.WORK_DIR }}
         run: |
           set -euo pipefail
-          curl -sSL -o horizonqa-0.11.0.jar https://github.com/GTNewHorizons/Horizon-QA/releases/download/0.11.0/horizonqa-0.11.0.jar
-          echo "bae2c70ccdcd0831dbefbe5008db5ac82652698d2178cb3a9133b874833add38  horizonqa-0.11.0.jar" | sha256sum -c -
-          cp -v horizonqa-0.11.0.jar ${{ env.WORK_DIR }}/client/.minecraft/mods/
-          cp -v horizonqa-0.11.0.jar ${{ env.WORK_DIR }}/server/mods/
+          curl -sSL -o horizonqa-0.13.1.jar https://github.com/GTNewHorizons/Horizon-QA/releases/download/0.13.1/horizonqa-0.13.1.jar
+          echo "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5  horizonqa-0.13.1.jar" | sha256sum -c -
+          cp -v horizonqa-0.13.1.jar ${{ env.WORK_DIR }}/client/.minecraft/mods/
+          cp -v horizonqa-0.13.1.jar ${{ env.WORK_DIR }}/server/mods/
 
       - name: Start server
         id: start-server
