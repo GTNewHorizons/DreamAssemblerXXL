@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-10T22:28:50.376790+00:00",
+  "last_updated": "2026-08-11T04:45:41.268451+00:00",
   "config": "2.9.0-nightly-2026-08-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.41",
+      "version": "2.6.42",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.38",
+      "version": "2.10.39",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.22",
+      "version": "1.5.23",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.32-GTNH",
+      "version": "1.5.34-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.11-GTNH",
+      "version": "2.10.12-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "Opis": {
-      "version": "1.4.10-mapless",
+      "version": "1.4.11-mapless",
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.48-GTNH",
+      "version": "1.8.49-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.19",
+      "version": "1.3.20",
       "side": "BOTH"
     },
     "Automagy-GTNH": {

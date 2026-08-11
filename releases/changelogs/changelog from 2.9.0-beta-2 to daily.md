@@ -200,10 +200,12 @@ Mod is client-side only.
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
 
-# Updated - Binnie - 2.6.34 --> 2.6.41
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.41
+# Updated - Binnie - 2.6.34 --> 2.6.42
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.42
 
 ## What's Changed:
+>* Another performance pass by @Algent in https://github.com/GTNewHorizons/Binnie/pull/110 (2.6.42)
+>* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/113 (2.6.42)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/112 (2.6.41)
 >* Don't interact with energy net on client side by @AnsonYeung in https://github.com/GTNewHorizons/Binnie/pull/111 (2.6.40)
 >* Move Paint.NET art sources out of packaged resources by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Binnie/pull/108 (2.6.39)
@@ -372,10 +374,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/122 (1.7.25)
 
-# Updated - EnderIO - 2.10.32 --> 2.10.38
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.38
+# Updated - EnderIO - 2.10.32 --> 2.10.39
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.39
 
 ## What's Changed:
+>* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/249 (2.10.39)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/248 (2.10.38)
 >* fix: billboard toward renderViewEntity by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/247 (2.10.37)
 >* Fix many render issues by @NeutronSelector in https://github.com/GTNewHorizons/EnderIO/pull/232 (2.10.36)
@@ -826,10 +829,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix GraviChestPlate flight desync and swapped energy messages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/36 (1.3.14)
 >* Send GraviSuite item and armor status messages server-side only by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/35 (1.3.13)
 
-# Updated - GuideNH - 1.3.11 --> 1.3.19
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.19
+# Updated - GuideNH - 1.3.11 --> 1.3.20
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.20
 
 ## What's Changed:
+>* Update BetterQuesting compatibility by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/57 (1.3.20)
 >* add display width and height by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/53 (1.3.19)
 >* remove guide item and reigon wand by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/54 (1.3.19)
 >* fix optional method loader checks by @felixfour in https://github.com/GTNewHorizons/GuideNH/pull/55 (1.3.18)
@@ -936,10 +940,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix drop off accidental triggers and not working with key combos by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/211 (1.3.39-GTNH)
 >* fix zh_cn by @MCTBL in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/210 (1.3.38-GTNH)
 
-# Updated - Jabba - 1.5.20 --> 1.5.22
-**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.20...1.5.22
+# Updated - Jabba - 1.5.20 --> 1.5.23
+**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.20...1.5.23
 
 ## What's Changed:
+>* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Jabba/pull/53 (1.5.23)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Jabba/pull/52 (1.5.22)
 >* storage drawers integration update by @ABKQPO in https://github.com/GTNewHorizons/Jabba/pull/51 (1.5.21)
 
@@ -982,10 +987,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Slope placement by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/105 (1.6.31)
 >* Round slopes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/65 (1.6.31)
 
-# Updated - LogisticsPipes - 1.5.28-GTNH --> 1.5.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.28-GTNH...1.5.32-GTNH
+# Updated - LogisticsPipes - 1.5.28-GTNH --> 1.5.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.28-GTNH...1.5.34-GTNH
 
 ## What's Changed:
+>* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/LogisticsPipes/pull/135 (1.5.34-GTNH)
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/LogisticsPipes/pull/133 (1.5.33-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/LogisticsPipes/pull/131 (1.5.32-GTNH)
 >* Maybe more threadsafe by @mitchej123 in https://github.com/GTNewHorizons/LogisticsPipes/pull/130 (1.5.31-GTNH)
 >* Load pipe models in init stage by @tiffit in https://github.com/GTNewHorizons/LogisticsPipes/pull/129 (1.5.30-GTNH)
@@ -997,10 +1004,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix loot games not syncing in CC by @RecursivePineapple in https://github.com/GTNewHorizons/LootGames/pull/39 (2.2.14)
 
-# Updated - MagicBees - 2.10.9-GTNH --> 2.10.11-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.9-GTNH...2.10.11-GTNH
+# Updated - MagicBees - 2.10.9-GTNH --> 2.10.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.9-GTNH...2.10.12-GTNH
 
 ## What's Changed:
+>* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/67 (2.10.12-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/66 (2.10.11-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/MagicBees/pull/64 (2.10.10-GTNH)
 
@@ -1221,10 +1229,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/OpenModularTurrets/pull/12 (2.4.6)
 
-# Updated - Opis - 1.4.8-mapless --> 1.4.10-mapless
-**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.8-mapless...1.4.10-mapless
+# Updated - Opis - 1.4.8-mapless --> 1.4.11-mapless
+**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.8-mapless...1.4.11-mapless
 
 ## What's Changed:
+>* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/20 (1.4.11-mapless)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/18 (1.4.10-mapless)
 >* Fix name for type tab by @AnsonYeung in https://github.com/GTNewHorizons/Opis/pull/17 (1.4.9-mapless)
 
@@ -1412,6 +1421,12 @@ Mod is client-side only.
 >* lazily load the freq array by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/22 (1.7.9)
 >* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21 (1.7.8)
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
+
+# Updated - WitchingGadgets - 1.8.48-GTNH --> 1.8.49-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.48-GTNH...1.8.49-GTNH
+
+## What's Changed:
+>* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/WitchingGadgets/pull/138 (1.8.49-GTNH)
 
 # Updated - amunra - 0.8.13 --> 0.8.14
 **Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.13...0.8.14

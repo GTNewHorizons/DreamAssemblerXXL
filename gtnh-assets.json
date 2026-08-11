@@ -7567,20 +7567,20 @@
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-10T03:26:37+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-08-10+418.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/508228871",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-08-10%2B418.zip",
+        "tagged_at": "2026-08-11T03:20:15+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-08-11+419.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/509598584",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-08-11%2B419.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-10T03:31:13+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-08-10+418.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/508232131",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-08-10%2B418.zip",
+        "tagged_at": "2026-08-11T03:24:24+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-08-11+419.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/509602459",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-08-11%2B419.zip",
         "extra_assets": []
       },
       {
@@ -7607,10 +7607,10 @@
         "version_tag": "ru_RU-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-10T03:57:10+00:00",
-        "filename": "GTNH-ru_RU-Translation-Daily-2026-08-10+418.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/508258340",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-08-10%2B418.zip",
+        "tagged_at": "2026-08-11T03:52:41+00:00",
+        "filename": "GTNH-ru_RU-Translation-Daily-2026-08-11+419.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/509626886",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-08-11%2B419.zip",
         "extra_assets": []
       },
       {
@@ -7627,10 +7627,10 @@
         "version_tag": "zh_CN-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-10T03:23:20+00:00",
-        "filename": "GTNH-zh_CN-Translation-Daily-2026-08-10+418.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/508225573",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-08-10%2B418.zip",
+        "tagged_at": "2026-08-11T03:16:51+00:00",
+        "filename": "GTNH-zh_CN-Translation-Daily-2026-08-11+419.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/509594969",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-08-11%2B419.zip",
         "extra_assets": []
       }
     ],
@@ -34966,7 +34966,7 @@
     },
     {
       "name": "Binnie",
-      "latest_version": "2.6.41",
+      "latest_version": "2.6.42",
       "private": false,
       "versions": [
         {
@@ -36157,6 +36157,16 @@
           "filename": "binnie-mods-2.6.41.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/509138282",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.41/binnie-mods-2.6.41.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.42",
+          "changelog": "## What's Changed\n* Another performance pass by @Algent in https://github.com/GTNewHorizons/Binnie/pull/110\n* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/113\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.41...2.6.42\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T00:54:56+00:00",
+          "filename": "binnie-mods-2.6.42.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/509462429",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.42/binnie-mods-2.6.42.jar",
           "extra_assets": []
         }
       ],
@@ -51427,7 +51437,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.38",
+      "latest_version": "2.10.39",
       "private": false,
       "versions": [
         {
@@ -53378,6 +53388,16 @@
           "filename": "EnderIO-2.10.38.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/509144410",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.38/EnderIO-2.10.38.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.39",
+          "changelog": "## What's Changed\n* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/249\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.38...2.10.39\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T00:55:48+00:00",
+          "filename": "EnderIO-2.10.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/509463032",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.39/EnderIO-2.10.39.jar",
           "extra_assets": []
         }
       ],
@@ -101704,7 +101724,7 @@
     },
     {
       "name": "GuideNH",
-      "latest_version": "1.3.19",
+      "latest_version": "1.3.20",
       "private": false,
       "versions": [
         {
@@ -101875,6 +101895,16 @@
           "filename": "guidenh-1.3.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/498928142",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.19/guidenh-1.3.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.20",
+          "changelog": "## What's Changed\n* Update BetterQuesting compatibility by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/57\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.19...1.3.20\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T03:46:44+00:00",
+          "filename": "guidenh-1.3.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/509621495",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.20/guidenh-1.3.20.jar",
           "extra_assets": []
         }
       ],
@@ -113519,7 +113549,7 @@
     },
     {
       "name": "Jabba",
-      "latest_version": "1.5.22",
+      "latest_version": "1.5.23",
       "private": false,
       "versions": [
         {
@@ -114031,6 +114061,16 @@
           "filename": "JABBA-1.5.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/509142405",
           "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.22/JABBA-1.5.22.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.23",
+          "changelog": "## What's Changed\n* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Jabba/pull/53\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.22...1.5.23\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T00:54:08+00:00",
+          "filename": "JABBA-1.5.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/509461850",
+          "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.23/JABBA-1.5.23.jar",
           "extra_assets": []
         }
       ],
@@ -117089,7 +117129,7 @@
     },
     {
       "name": "LogisticsPipes",
-      "latest_version": "1.5.32-GTNH",
+      "latest_version": "1.5.34-GTNH",
       "private": false,
       "versions": [
         {
@@ -118422,6 +118462,26 @@
           "filename": "logisticspipes-1.5.32-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/494238873",
           "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/1.5.32-GTNH/logisticspipes-1.5.32-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.33-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/LogisticsPipes/pull/133\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/133\n\n**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.32-GTNH...1.5.33-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T23:17:08+00:00",
+          "filename": "logisticspipes-1.5.33-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/509387336",
+          "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/1.5.33-GTNH/logisticspipes-1.5.33-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.34-GTNH",
+          "changelog": "## What's Changed\n* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/LogisticsPipes/pull/135\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.33-GTNH...1.5.34-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T00:55:30+00:00",
+          "filename": "logisticspipes-1.5.34-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/509462858",
+          "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/1.5.34-GTNH/logisticspipes-1.5.34-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -122256,7 +122316,7 @@
     },
     {
       "name": "MagicBees",
-      "latest_version": "2.10.11-GTNH",
+      "latest_version": "2.10.12-GTNH",
       "private": false,
       "versions": [
         {
@@ -122829,6 +122889,16 @@
           "filename": "magicbees-2.10.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/509143509",
           "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.10.11-GTNH/magicbees-2.10.11-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.12-GTNH",
+          "changelog": "## What's Changed\n* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/67\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.11-GTNH...2.10.12-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T00:56:10+00:00",
+          "filename": "magicbees-2.10.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/509463340",
+          "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.10.12-GTNH/magicbees-2.10.12-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -153591,7 +153661,7 @@
     },
     {
       "name": "Opis",
-      "latest_version": "1.4.10-mapless",
+      "latest_version": "1.4.11-mapless",
       "private": false,
       "versions": [
         {
@@ -153783,6 +153853,16 @@
           "filename": "Opis-1.4.10-mapless.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Opis/releases/assets/509146528",
           "browser_download_url": "https://github.com/GTNewHorizons/Opis/releases/download/1.4.10-mapless/Opis-1.4.10-mapless.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.11-mapless",
+          "changelog": "## What's Changed\n* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/20\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.10-mapless...1.4.11-mapless\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T00:53:42+00:00",
+          "filename": "Opis-1.4.11-mapless.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Opis/releases/assets/509461474",
+          "browser_download_url": "https://github.com/GTNewHorizons/Opis/releases/download/1.4.11-mapless/Opis-1.4.11-mapless.jar",
           "extra_assets": []
         }
       ],
@@ -186056,7 +186136,7 @@
     },
     {
       "name": "WitchingGadgets",
-      "latest_version": "1.8.48-GTNH",
+      "latest_version": "1.8.49-GTNH",
       "private": false,
       "versions": [
         {
@@ -187408,6 +187488,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/443217172",
           "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.48-GTNH/WitchingGadgets-1.8.48-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.49-GTNH",
+          "changelog": "## What's Changed\n* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/WitchingGadgets/pull/138\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/138\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.48-GTNH...1.8.49-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-10T23:18:10+00:00",
+          "filename": "WitchingGadgets-1.8.49-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/509388126",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.49-GTNH/WitchingGadgets-1.8.49-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -187536,6 +187626,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 672,
-  "latest_successful_daily": 672
+  "latest_daily": 673,
+  "latest_successful_daily": 673
 }
