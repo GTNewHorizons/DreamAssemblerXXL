@@ -32857,7 +32857,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.8.77-GTNH",
+      "latest_version": "3.8.78-GTNH",
       "private": false,
       "versions": [
         {
@@ -34869,6 +34869,16 @@
           "filename": "BetterQuesting-3.8.77-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/509147721",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.77-GTNH/BetterQuesting-3.8.77-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.8.78-GTNH",
+          "changelog": "## What's Changed\n* Add extensible localized text editor actions by @ABKQPO in https://github.com/GTNewHorizons/BetterQuesting/pull/241\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.77-GTNH...3.8.78-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T08:44:23+00:00",
+          "filename": "BetterQuesting-3.8.78-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/509891348",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.78-GTNH/BetterQuesting-3.8.78-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -46511,7 +46521,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.103",
+      "latest_version": "2.0.104",
       "private": false,
       "versions": [
         {
@@ -47552,6 +47562,16 @@
           "filename": "cropsnh-2.0.103.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/505446450",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.103/cropsnh-2.0.103.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.104",
+          "changelog": "## What's Changed\n* apply the PlatinumSludgeOverhaul directly into CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/237\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.103...2.0.104\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T08:56:40+00:00",
+          "filename": "cropsnh-2.0.104.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/509902827",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.104/cropsnh-2.0.104.jar",
           "extra_assets": []
         }
       ],
@@ -132177,7 +132197,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.34",
+      "latest_version": "2.9.35",
       "private": false,
       "versions": [
         {
@@ -144078,6 +144098,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/509034199",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.34/GTNewHorizonsCoreMod-2.9.34.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.35",
+          "changelog": "## What's Changed\n* apply the PlatinumSludgeOverhaul directly into NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1903\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.34...2.9.35\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-11T08:58:43+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/509904914",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.35/GTNewHorizonsCoreMod-2.9.35.jar",
           "extra_assets": []
         }
       ],
@@ -187626,6 +187656,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 673,
-  "latest_successful_daily": 673
+  "latest_daily": 674,
+  "latest_successful_daily": 674
 }

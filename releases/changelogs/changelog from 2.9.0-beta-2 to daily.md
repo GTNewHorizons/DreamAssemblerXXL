@@ -189,10 +189,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/37 (1.7.10-GTNH)
 
-# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.77-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.77-GTNH
+# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.78-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.78-GTNH
 
 ## What's Changed:
+>* Add extensible localized text editor actions by @ABKQPO in https://github.com/GTNewHorizons/BetterQuesting/pull/241 (3.8.78-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/243 (3.8.77-GTNH)
 >* Add Option to Link Other Quests in Quest Descriptions by @NotKaizul in https://github.com/GTNewHorizons/BetterQuesting/pull/232 (3.8.76-GTNH)
 >* Add Silent Quest Completion Setting by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/242 (3.8.75-GTNH)
@@ -334,10 +335,11 @@ Mod is client-side only.
 ## What's Changed:
 >* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30 (3.4.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.103
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.103
+# Updated - CropsNH - 2.0.91 --> 2.0.104
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.104
 
 ## What's Changed:
+>* apply the PlatinumSludgeOverhaul directly into CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/237 (2.0.104)
 >* Fix localization using server language and hardcoded text by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/233 (2.0.103)
 >* Fix recipe conflict and titanium to desh conversion by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/232 (2.0.102)
 >* fix spelling of bamboo seeds by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/225 (2.0.101)
@@ -1089,10 +1091,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.34
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.34
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.35
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.35
 
 ## What's Changed:
+>* apply the PlatinumSludgeOverhaul directly into NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1903 (2.9.35)
 >* Fix optical circuit fluid mistake in NAC by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1902 (2.9.34)
 >* Fix TCon Ingot -> Dense Obsidian Plate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1899 (2.9.33)
 >* add fluid annihilation/formation plane recipes by @Nana-Sakura in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1898 (2.9.33)
