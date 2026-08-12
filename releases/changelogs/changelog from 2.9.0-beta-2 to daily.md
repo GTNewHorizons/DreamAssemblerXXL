@@ -455,10 +455,18 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.81
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.81
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.84
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.84
 
 ## What's Changed:
+>* Matter Manipulator should copy eV threshold and normal/inverted status by @chazzybearr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7742 (5.09.54.84)
+>* Fix Dense Plate Min EU for GT++ Materials by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7750 (5.09.54.84)
+>* nerf raw silicon ebf recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7751 (5.09.54.84)
+>* fix ruthenium tetroxide solidifier recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7745 (5.09.54.83)
+>* Refactor waila by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7727 (5.09.54.83)
+>* Remove cerium line scans in GTNHLanthanides' FMLLoadCompleteEvent event by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7748 (5.09.54.83)
+>* Diode: WAILA input/output line and no more fluid tank by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7738 (5.09.54.82)
+>* Remove the platinum sludge overhaul scanning during bartworks' FMLLoadCompleteEvent event by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7743 (5.09.54.82)
 >* Fix legacy wireless controller NBT loading by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7734 (5.09.54.81)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7739 (5.09.54.81)
 >* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7733 (5.09.54.80)
@@ -859,10 +867,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46 (1.12.27-GTNH)
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.185
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.185
+# Updated - Hodgepodge - 2.7.170 --> 2.7.186
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.186
 
 ## What's Changed:
+>* Add an audio setting menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/973 (2.7.186)
 >* Improve OpenAL sound quality, decoding performances, and memory usage by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/964 (2.7.185)
 >* fix: use renderViewEntity for fog origin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/969 (2.7.184)
 >* fix `-Dhodgepodge.logEnumValues=true` in modpack by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/972 (2.7.183)
@@ -989,10 +998,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Slope placement by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/105 (1.6.31)
 >* Round slopes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/65 (1.6.31)
 
-# Updated - LogisticsPipes - 1.5.28-GTNH --> 1.5.34-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.28-GTNH...1.5.34-GTNH
+# Updated - LogisticsPipes - 1.5.28-GTNH --> 1.5.35-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.5.28-GTNH...1.5.35-GTNH
 
 ## What's Changed:
+>* fix: cull against renderViewEntity by @Caedis in https://github.com/GTNewHorizons/LogisticsPipes/pull/132 (1.5.35-GTNH)
 >* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/LogisticsPipes/pull/135 (1.5.34-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/LogisticsPipes/pull/133 (1.5.33-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/LogisticsPipes/pull/131 (1.5.32-GTNH)
@@ -1021,10 +1031,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix: sample brightness at renderViewEntity by @Caedis in https://github.com/GTNewHorizons/MalisisDoors/pull/31 (1.19.10-GTNH)
 >* Fix replacements not having their delegate names set by @tiffit in https://github.com/GTNewHorizons/MalisisDoors/pull/30 (1.19.9-GTNH)
 
-# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.52-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.52-GTNH
+# Updated - MatterManipulator - 0.1.46-GTNH --> 0.1.53-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.46-GTNH...0.1.53-GTNH
 
 ## What's Changed:
+>* Fix AE upgrades installation by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/77 (0.1.53-GTNH)
+>* Custom Ender Storage consumer by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/78 (0.1.53-GTNH)
+>* Add edit transform option for all modes by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/79 (0.1.53-GTNH)
 >* Server-side check by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/80 (0.1.52-GTNH)
 >* Copy AE Cell restrictions by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/76 (0.1.51-GTNH)
 >* Add Dynamism Tablet compat by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/75 (0.1.51-GTNH)
@@ -1091,10 +1104,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.35
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.35
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.36
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.36
 
 ## What's Changed:
+>* Enhance stellar catalyst tesseract recipe by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1901 (2.9.36)
+>* Apply the Lanthanides dynamic edit directly to NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1904 (2.9.36)
 >* apply the PlatinumSludgeOverhaul directly into NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1903 (2.9.35)
 >* Fix optical circuit fluid mistake in NAC by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1902 (2.9.34)
 >* Fix TCon Ingot -> Dense Obsidian Plate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1899 (2.9.33)
@@ -1232,10 +1247,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/OpenModularTurrets/pull/12 (2.4.6)
 
-# Updated - Opis - 1.4.8-mapless --> 1.4.11-mapless
-**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.8-mapless...1.4.11-mapless
+# Updated - Opis - 1.4.8-mapless --> 1.4.12-mapless
+**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.8-mapless...1.4.12-mapless
 
 ## What's Changed:
+>* Add Navigator integration for overlay rendering by @Algent in https://github.com/GTNewHorizons/Opis/pull/19 (1.4.12-mapless)
 >* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/20 (1.4.11-mapless)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/18 (1.4.10-mapless)
 >* Fix name for type tab by @AnsonYeung in https://github.com/GTNewHorizons/Opis/pull/17 (1.4.9-mapless)
@@ -1405,20 +1421,22 @@ Mod is client-side only.
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/VendingMachine/pull/163 (0.4.97)
 >* Revert API change by @AnsonYeung in https://github.com/GTNewHorizons/VendingMachine/pull/162 (0.4.96)
 
-# Updated - VisualProspecting - 1.5.33 --> 1.5.38
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.33...1.5.38
+# Updated - VisualProspecting - 1.5.33 --> 1.5.39
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.5.33...1.5.39
 
 ## What's Changed:
+>* Improve Undergroundfluid icon by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/105 (1.5.39)
 >* JourneyMap 6 support for ore and fluid overlays by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/104 (1.5.38)
 >* Relax a little bit the cache fallback command by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/103 (1.5.37)
 >* Fix Xaeros culling regression by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/101 (1.5.36)
 >* Fix incorrect oregen pattern being used in some case. Attempt to autofix wrong entries in cache by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/99 (1.5.35)
 >* Guard against null/fake player (Fix Log spam) by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/97 (1.5.34)
 
-# Updated - WirelessRedstone-CBE - 1.7.6 --> 1.7.11
-**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.6...1.7.11
+# Updated - WirelessRedstone-CBE - 1.7.6 --> 1.7.12
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.6...1.7.12
 
 ## What's Changed:
+>* Fix uninitialized wireless ether crash by @ABKQPO in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/25 (1.7.12)
 >* Remove render allocs from the wireless transceiver by @boubou19 in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/24 (1.7.11)
 >* Reduce jammer allocations by @boubou19 in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/23 (1.7.10)
 >* lazily load the freq array by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/22 (1.7.9)
