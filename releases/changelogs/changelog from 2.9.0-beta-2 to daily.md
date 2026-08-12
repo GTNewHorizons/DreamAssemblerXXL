@@ -335,10 +335,12 @@ Mod is client-side only.
 ## What's Changed:
 >* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30 (3.4.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.104
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.104
+# Updated - CropsNH - 2.0.91 --> 2.0.105
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.105
 
 ## What's Changed:
+>* Make getAnalyzedSeedData calls more verbose by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/238 (2.0.105)
+>* Apply the NaquadahReworkRecipeLoader dynamic edit directly to CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/239 (2.0.105)
 >* apply the PlatinumSludgeOverhaul directly into CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/237 (2.0.104)
 >* Fix localization using server language and hardcoded text by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/233 (2.0.103)
 >* Fix recipe conflict and titanium to desh conversion by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/232 (2.0.102)
@@ -455,10 +457,14 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.84
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.84
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.85
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.85
 
 ## What's Changed:
+>* add sodium nitrate neutralization recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7752 (5.09.54.85)
+>* Reduce naq coil tier in BEC recipe by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7737 (5.09.54.85)
+>* Refix SLAM waila by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7755 (5.09.54.85)
+>* Remove NaquadahReworkRecipeLoader scans in GT's FMLLoadCompleteEvent event by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7756 (5.09.54.85)
 >* Matter Manipulator should copy eV threshold and normal/inverted status by @chazzybearr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7742 (5.09.54.84)
 >* Fix Dense Plate Min EU for GT++ Materials by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7750 (5.09.54.84)
 >* nerf raw silicon ebf recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7751 (5.09.54.84)
@@ -867,10 +873,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46 (1.12.27-GTNH)
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.186
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.186
+# Updated - Hodgepodge - 2.7.170 --> 2.7.187
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.187
 
 ## What's Changed:
+>* Cache if lwjgl3ify is loaded by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/974 (2.7.187)
 >* Add an audio setting menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/973 (2.7.186)
 >* Improve OpenAL sound quality, decoding performances, and memory usage by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/964 (2.7.185)
 >* fix: use renderViewEntity for fog origin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/969 (2.7.184)
@@ -1104,10 +1111,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.36
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.36
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.38
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.38
 
 ## What's Changed:
+>* Adjust open to lan warnings behavior by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1907 (2.9.38)
+>* Apply the NaquadahReworkRecipeLoader dynamic edit directly to NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1906 (2.9.37)
 >* Enhance stellar catalyst tesseract recipe by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1901 (2.9.36)
 >* Apply the Lanthanides dynamic edit directly to NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1904 (2.9.36)
 >* apply the PlatinumSludgeOverhaul directly into NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1903 (2.9.35)

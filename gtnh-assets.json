@@ -46531,7 +46531,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.104",
+      "latest_version": "2.0.105",
       "private": false,
       "versions": [
         {
@@ -47582,6 +47582,16 @@
           "filename": "cropsnh-2.0.104.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/509902827",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.104/cropsnh-2.0.104.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.105",
+          "changelog": "## What's Changed\n* Make getAnalyzedSeedData calls more verbose by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/238\n* Apply the NaquadahReworkRecipeLoader dynamic edit directly to CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/239\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.104...2.0.105\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-12T18:29:53+00:00",
+          "filename": "cropsnh-2.0.105.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/511924645",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.105/cropsnh-2.0.105.jar",
           "extra_assets": []
         }
       ],
@@ -65270,7 +65280,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.84",
+      "latest_version": "5.09.54.85",
       "private": false,
       "versions": [
         {
@@ -91132,6 +91142,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/511100400",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.84/gregtech-5.09.54.84.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.85",
+          "changelog": "## What's Changed\n* add sodium nitrate neutralization recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7752\n* Reduce naq coil tier in BEC recipe by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7737\n* Refix SLAM waila by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7755\n* Remove NaquadahReworkRecipeLoader scans in GT's FMLLoadCompleteEvent event by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7756\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.84...5.09.54.85\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-12T18:35:06+00:00",
+          "filename": "gregtech-5.09.54.85.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/511929397",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.85/gregtech-5.09.54.85.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -102878,7 +102898,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.186",
+      "latest_version": "2.7.187",
       "private": false,
       "versions": [
         {
@@ -108889,6 +108909,16 @@
           "filename": "hodgepodge-2.7.186.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/510711284",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.186/hodgepodge-2.7.186.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.187",
+          "changelog": "## What's Changed\n* Cache if lwjgl3ify is loaded by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/974\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.186...2.7.187\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-12T14:21:35+00:00",
+          "filename": "hodgepodge-2.7.187.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/511669877",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.187/hodgepodge-2.7.187.jar",
           "extra_assets": []
         }
       ],
@@ -132267,7 +132297,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.36",
+      "latest_version": "2.9.38",
       "private": false,
       "versions": [
         {
@@ -144188,6 +144218,26 @@
           "filename": "GTNewHorizonsCoreMod-2.9.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/511098109",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.36/GTNewHorizonsCoreMod-2.9.36.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.37",
+          "changelog": "## What's Changed\n* Apply the NaquadahReworkRecipeLoader dynamic edit directly to NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1906\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.36...2.9.37\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-12T18:30:45+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/511925599",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.37/GTNewHorizonsCoreMod-2.9.37.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.38",
+          "changelog": "## What's Changed\n* Adjust open to lan warnings behavior by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1907\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.37...2.9.38\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-12T19:48:25+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/511996411",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.38/GTNewHorizonsCoreMod-2.9.38.jar",
           "extra_assets": []
         }
       ],
@@ -187766,6 +187816,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 675,
-  "latest_successful_daily": 675
+  "latest_daily": 676,
+  "latest_successful_daily": 676
 }
