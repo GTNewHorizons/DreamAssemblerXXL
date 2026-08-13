@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-12T19:52:13.646430+00:00",
+  "last_updated": "2026-08-13T05:14:16.293055+00:00",
   "config": "2.9.0-nightly-2026-08-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1030-GTNH",
+      "version": "rv3-beta-1031-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.85",
+      "version": "5.09.54.86",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.19.10-GTNH",
+      "version": "1.19.11-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.122-GTNH",
+      "version": "2.8.123-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.3",
+      "version": "2.2.4",
       "side": "CLIENT"
     },
     "AkashicTome": {

@@ -29,11 +29,12 @@
 >* Fix crash on world reload by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/24 (1.4.5)
 >* Improve performances by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/23 (1.4.4)
 
-# Updated - Angelica - 2.1.50 --> 2.2.3
+# Updated - Angelica - 2.1.50 --> 2.2.4
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.3
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.4
 
 ## What's Changed:
+>* vsync adjustments: on/mailbox/off + windows input lag fix + glsl parsing optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2009 (2.2.4)
 >* SDL followup fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2001 (2.2.3)
 >* Adjust vsync and fps limiters, and fix WSR with player models by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2002 (2.2.3)
 >* More fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1995 (2.2.2)
@@ -73,10 +74,12 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1030-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1030-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1031-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1031-GTNH
 
 ## What's Changed:
+>* test: cover import bus with full network by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1496 (rv3-beta-1031-GTNH)
+>* refactor: replace IO port continuous invariants by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1497 (rv3-beta-1031-GTNH)
 >* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1492 (rv3-beta-1030-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1494 (rv3-beta-1030-GTNH)
 >* Support NEI bookmark group drops in storage buses by @DreamYao520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1487 (rv3-beta-1029-GTNH)
@@ -457,10 +460,11 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.85
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.85
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.86
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.86
 
 ## What's Changed:
+>* Port Space Elevator multiblock tooltips to markdown (batch 7) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7744 (5.09.54.86)
 >* add sodium nitrate neutralization recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7752 (5.09.54.85)
 >* Reduce naq coil tier in BEC recipe by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7737 (5.09.54.85)
 >* Refix SLAM waila by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7755 (5.09.54.85)
@@ -1031,10 +1035,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/66 (2.10.11-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/MagicBees/pull/64 (2.10.10-GTNH)
 
-# Updated - MalisisDoors - 1.19.8-GTNH --> 1.19.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.19.8-GTNH...1.19.10-GTNH
+# Updated - MalisisDoors - 1.19.8-GTNH --> 1.19.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.19.8-GTNH...1.19.11-GTNH
 
 ## What's Changed:
+>* Make doors remember previous manual actions by @Brownshome in https://github.com/GTNewHorizons/MalisisDoors/pull/32 (1.19.11-GTNH)
 >* fix: sample brightness at renderViewEntity by @Caedis in https://github.com/GTNewHorizons/MalisisDoors/pull/31 (1.19.10-GTNH)
 >* Fix replacements not having their delegate names set by @tiffit in https://github.com/GTNewHorizons/MalisisDoors/pull/30 (1.19.9-GTNH)
 
@@ -1181,10 +1186,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update deps by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/77 (1.7.36)
 >* Fix OreDict Permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/76 (1.7.35)
 
-# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.122-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.122-GTNH
+# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.123-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.123-GTNH
 
 ## What's Changed:
+>* Bookmarks: Fix Permutations with different amount by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1000 (2.8.123-GTNH)
 >* Modernize Java code by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NotEnoughItems/pull/997 (2.8.122-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/998 (2.8.121-GTNH)
 >* Optimize updateUnlimitedItems by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/995 (2.8.120-GTNH)
@@ -1511,4 +1517,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
