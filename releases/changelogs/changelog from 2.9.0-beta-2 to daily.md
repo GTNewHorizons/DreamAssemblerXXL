@@ -74,10 +74,15 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1031-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1031-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1032-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1032-GTNH
 
 ## What's Changed:
+>* Fix crafting CPU button name overflow by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1495 (rv3-beta-1032-GTNH)
+>* Probably more thread safe by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1501 (rv3-beta-1032-GTNH)
+>* Fix pattern scrolling in interfaces by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1499 (rv3-beta-1032-GTNH)
+>* Fix Interface P2P drop ownership by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1502 (rv3-beta-1032-GTNH)
+>* Preserve orphaned Interface P2P buffers by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1503 (rv3-beta-1032-GTNH)
 >* test: cover import bus with full network by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1496 (rv3-beta-1031-GTNH)
 >* refactor: replace IO port continuous invariants by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1497 (rv3-beta-1031-GTNH)
 >* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1492 (rv3-beta-1030-GTNH)
@@ -204,10 +209,12 @@ Mod is client-side only.
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
 
-# Updated - Binnie - 2.6.34 --> 2.6.42
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.42
+# Updated - Binnie - 2.6.34 --> 2.6.43
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.43
 
 ## What's Changed:
+>* apply the PlatinumSludgeOverhaul directly into Binnie by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/114 (2.6.43)
+>* Fix GL state leak in search grid by @Algent in https://github.com/GTNewHorizons/Binnie/pull/115 (2.6.43)
 >* Another performance pass by @Algent in https://github.com/GTNewHorizons/Binnie/pull/110 (2.6.42)
 >* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/113 (2.6.42)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/112 (2.6.41)
@@ -338,10 +345,13 @@ Mod is client-side only.
 ## What's Changed:
 >* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30 (3.4.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.105
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.105
+# Updated - CropsNH - 2.0.91 --> 2.0.108
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.108
 
 ## What's Changed:
+>* Boot protection system (For 2.9, Missing feature parity) by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/228 (2.0.108)
+>* Fix energy slot not doing the energy slot work because it was not an energy slot  by @Pxx500 in https://github.com/GTNewHorizons/CropsNH/pull/243 (2.0.107)
+>* Fix getSeedData NPE (For 2.9) by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/241 (2.0.106)
 >* Make getAnalyzedSeedData calls more verbose by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/238 (2.0.105)
 >* Apply the NaquadahReworkRecipeLoader dynamic edit directly to CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/239 (2.0.105)
 >* apply the PlatinumSludgeOverhaul directly into CropsNH by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/237 (2.0.104)
@@ -430,19 +440,21 @@ Mod is client-side only.
 ## What's Changed:
 >* Add MFR support for tainted trees by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/32 (0.9.17-GTNH)
 
-# Updated - ForestryMC - 4.11.31 --> 4.11.35
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.35
+# Updated - ForestryMC - 4.11.31 --> 4.11.36
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.36
 
 ## What's Changed:
+>* More enum `.values()` caching by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/131 (4.11.36)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/130 (4.11.35)
 >* Fixes the display of blocks in NEI for the double slab blocks by @Cardinalstars in https://github.com/GTNewHorizons/ForestryMC/pull/129 (4.11.34)
 >* Fix Japanese block names showing as unlocalized .name keys by @sivaDog in https://github.com/GTNewHorizons/ForestryMC/pull/128 (4.11.33)
 >* fix: implement stacked block slab by @vermz99 in https://github.com/GTNewHorizons/ForestryMC/pull/127 (4.11.32)
 
-# Updated - ForgeMultipart - 1.7.10 --> 1.7.11
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.10...1.7.11
+# Updated - ForgeMultipart - 1.7.10 --> 1.7.12
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.10...1.7.12
 
 ## What's Changed:
+>* Isbrh interface fmp by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/53 (1.7.12)
 >* Maybe more thread safe renderpass by @mitchej123 in https://github.com/GTNewHorizons/ForgeMultipart/pull/50 (1.7.11)
 
 # Updated - ForgeRelocation - 0.3.6 --> 0.3.7
@@ -460,10 +472,18 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.86
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.86
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.88
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.88
 
 ## What's Changed:
+>* Allow spray cans to color ender chest/tank by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7651 (5.09.54.88)
+>* Modernize loggers in GT5U and replace string concat with parametrized logging by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7763 (5.09.54.88)
+>* Skip exhausted energy transfers by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7764 (5.09.54.88)
+>* Check for beam while crafting in TargetChamber by @error1number404 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7753 (5.09.54.87)
+>* [BEC] Restrict Assembler Hatch Placement by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7749 (5.09.54.87)
+>* merge output for gt++ electrolyser recipes by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7758 (5.09.54.87)
+>* fix bw ingot freezer recipe autogen algorithm by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7762 (5.09.54.87)
+>* Show physical circuits and non-consumed items in AE2 interface name for input buses by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7546 (5.09.54.87)
 >* Port Space Elevator multiblock tooltips to markdown (batch 7) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7744 (5.09.54.86)
 >* add sodium nitrate neutralization recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7752 (5.09.54.85)
 >* Reduce naq coil tier in BEC recipe by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7737 (5.09.54.85)
@@ -877,10 +897,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46 (1.12.27-GTNH)
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.187
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.187
+# Updated - Hodgepodge - 2.7.170 --> 2.7.188
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.188
 
 ## What's Changed:
+>* add reverb strength slider to the audio options menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/978 (2.7.188)
 >* Cache if lwjgl3ify is loaded by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/974 (2.7.187)
 >* Add an audio setting menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/973 (2.7.186)
 >* Improve OpenAL sound quality, decoding performances, and memory usage by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/964 (2.7.185)
@@ -1116,10 +1137,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.38
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.38
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.39
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.39
 
 ## What's Changed:
+>* Don't use GT Logger for NHCore stuff by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1908 (2.9.39)
+>* Add Farmhand -> Agriculturalist Assembler Upgrade Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1909 (2.9.39)
 >* Adjust open to lan warnings behavior by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1907 (2.9.38)
 >* Apply the NaquadahReworkRecipeLoader dynamic edit directly to NHCore by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1906 (2.9.37)
 >* Enhance stellar catalyst tesseract recipe by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1901 (2.9.36)
@@ -1186,10 +1209,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update deps by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/77 (1.7.36)
 >* Fix OreDict Permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/76 (1.7.35)
 
-# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.123-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.123-GTNH
+# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.124-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.124-GTNH
 
 ## What's Changed:
+>* Add custom render for PositionedStack by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1002 (2.8.124-GTNH)
 >* Bookmarks: Fix Permutations with different amount by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1000 (2.8.123-GTNH)
 >* Modernize Java code by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NotEnoughItems/pull/997 (2.8.122-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/998 (2.8.121-GTNH)
@@ -1392,10 +1416,11 @@ Mod is client-side only.
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/103 (2.12.29)
 >* Fix thaumic restorer suction + better automation by @vladislemon in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/102 (2.12.28)
 
-# Updated - Thaumic_Exploration - 1.5.24-GTNH --> 1.5.26-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.5.24-GTNH...1.5.26-GTNH
+# Updated - Thaumic_Exploration - 1.5.24-GTNH --> 1.5.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.5.24-GTNH...1.5.27-GTNH
 
 ## What's Changed:
+>* Talisman of Nourishment: grant Nutrition nutrients from stored food by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/63 (1.5.27-GTNH)
 >* Fixed Soul Brazier exploit and more fixes and refactors by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/57 (1.5.26-GTNH)
 >* Fix Witchery disarm dupe by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/60 (1.5.25-GTNH)
 >* Fix thaumic replicator crash by @zaru-noodles in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/61 (1.5.25-GTNH)

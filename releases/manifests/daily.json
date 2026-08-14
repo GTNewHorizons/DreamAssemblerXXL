@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-13T05:14:16.293055+00:00",
+  "last_updated": "2026-08-14T05:11:02.789405+00:00",
   "config": "2.9.0-nightly-2026-08-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1031-GTNH",
+      "version": "rv3-beta-1032-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.42",
+      "version": "2.6.43",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.35",
+      "version": "4.11.36",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.11",
+      "version": "1.7.12",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.86",
+      "version": "5.09.54.88",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.187",
+      "version": "2.7.188",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.38",
+      "version": "2.9.39",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.123-GTNH",
+      "version": "2.8.124-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.5.26-GTNH",
+      "version": "1.5.27-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.105",
+      "version": "2.0.108",
       "side": "BOTH"
     },
     "Fether": {
