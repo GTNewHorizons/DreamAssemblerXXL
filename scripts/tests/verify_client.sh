@@ -73,7 +73,12 @@ if [ "${#hs_err_logs[@]}" -gt 0 ]; then
   cat "$latest_hs_err"
 fi
 
-if [ ! -r "$CLIENT_LOG" ]; then
+if [ -r "$CLIENT_LOG" ]; then
+  if grep --quiet --fixed-strings '/FATAL]' "$CLIENT_LOG"; then
+    fail "detected FATAL errors in logs:"
+    grep -n --fixed-strings '/FATAL]' "$CLIENT_LOG"
+  fi
+else
   fail "client log missing or unreadable: $CLIENT_LOG"
 fi
 

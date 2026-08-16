@@ -56,6 +56,11 @@ if [ -r "$SERVER_LOG" ]; then
     grep -n --fixed-strings 'Fatal errors were detected' "$SERVER_LOG"
   fi
 
+  if grep --quiet --fixed-strings '/FATAL]' "$SERVER_LOG"; then
+    fail "detected FATAL errors in logs:"
+    grep -n --fixed-strings '/FATAL]' "$SERVER_LOG"
+  fi
+
   if grep --quiet --fixed-strings 'The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED' \
     "$SERVER_LOG"; then
     fail "server force stopped:"
