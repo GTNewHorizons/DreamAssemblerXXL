@@ -29,11 +29,13 @@
 >* Fix crash on world reload by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/24 (1.4.5)
 >* Improve performances by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/23 (1.4.4)
 
-# Updated - Angelica - 2.1.50 --> 2.2.6
+# Updated - Angelica - 2.1.50 --> 2.2.7
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.6
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.7
 
 ## What's Changed:
+>* Mark tiles at transform time instead of using reflection by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2024 (2.2.7)
+>* SDL presenter fixes and frame pacer adjustments by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2025 (2.2.7)
 >* Sign Fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2016 (2.2.6)
 >* Defer ticking on TEs we eagerly create until they get a description packet by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2018 (2.2.6)
 >* Tracy 0.14 by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2019 (2.2.6)
@@ -490,10 +492,18 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.91
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.91
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.93
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.93
 
 ## What's Changed:
+>* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7786 (5.09.54.93)
+>* Add Russian localization for modular armor by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6969 (5.09.54.92)
+>* Fix EEC voiding undamaged damageable items when "void enchanted or damaged" is turned on by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7775 (5.09.54.92)
+>* Fix pipe oddity in recipe registration by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7779 (5.09.54.92)
+>* Fix modular armor landing gear not absorbing low fall damage due to distance mismatch by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7778 (5.09.54.92)
+>* Vajra fix again by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7777 (5.09.54.92)
+>* Clarification of using a Soft Mallet on Pipes/Cables by @H3stur in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7781 (5.09.54.92)
+>* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7773 (5.09.54.92)
 >* Fix fusion computer showing fluid after recipe completion by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7768 (5.09.54.91)
 >* Fix MUI1 Text disappearance by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7770 (5.09.54.91)
 >* Fix ghost mold dupe in Solidifier Hatch by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7771 (5.09.54.91)
@@ -847,10 +857,12 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GTNHLib - 0.11.24 --> 0.11.37
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.37
+# Updated - GTNHLib - 0.11.24 --> 0.11.39
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.39
 
 ## What's Changed:
+>* Only block old blockstates by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/449 (0.11.39)
+>* Don't crash when old models are loaded by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/443 (0.11.38)
 >* Bump GTNHExtLib dependency to include jvmdg 2.0.1 by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNHLib/pull/444 (0.11.37)
 >* Fix world leak caused by PlayerInventoryEventHandler by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/439 (0.11.36)
 >* Add BOP compat for flower pots by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/437 (0.11.35)
@@ -1166,10 +1178,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.40
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.40
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.41
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.41
 
 ## What's Changed:
+>* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1913 (2.9.41)
 >* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1910 (2.9.40)
 >* Don't use GT Logger for NHCore stuff by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1908 (2.9.39)
 >* Add Farmhand -> Agriculturalist Assembler Upgrade Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1909 (2.9.39)
@@ -1328,6 +1341,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache more enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/20 (1.4.11-mapless)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/18 (1.4.10-mapless)
 >* Fix name for type tab by @AnsonYeung in https://github.com/GTNewHorizons/Opis/pull/17 (1.4.9-mapless)
+
+# Updated - Postea - 1.2.5 --> 1.2.6
+**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.2.5...1.2.6
+
+## What's Changed:
+>* Extend block transformer metadata to int by @Ruling-0 in https://github.com/GTNewHorizons/Postea/pull/25 (1.2.6)
 
 # Updated - ProjectRed - 4.12.39-GTNH --> 4.12.43-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.39-GTNH...4.12.43-GTNH
@@ -1523,6 +1542,12 @@ Mod is client-side only.
 >* lazily load the freq array by @Alexdoru in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/22 (1.7.9)
 >* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21 (1.7.8)
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
+
+# Updated - WitcheryExtras - 1.4.16 --> 1.4.17
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.4.16...1.4.17
+
+## What's Changed:
+>* Parametrized logger calls by @boubou19 in https://github.com/GTNewHorizons/WitcheryExtras/pull/44 (1.4.17)
 
 # Updated - WitchingGadgets - 1.8.48-GTNH --> 1.8.49-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.48-GTNH...1.8.49-GTNH

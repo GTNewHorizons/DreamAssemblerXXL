@@ -15280,7 +15280,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.6",
+      "latest_version": "2.2.7",
       "private": false,
       "versions": [
         {
@@ -17541,6 +17541,16 @@
           "filename": "angelica-2.2.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/516323220",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.6/angelica-2.2.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.7",
+          "changelog": "## What's Changed\n* Mark tiles at transform time instead of using reflection by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2024\n* SDL presenter fixes and frame pacer adjustments by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2025\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.6...2.2.7\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-17T01:16:19+00:00",
+          "filename": "angelica-2.2.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/517421814",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.7/angelica-2.2.7.jar",
           "extra_assets": []
         }
       ],
@@ -65460,7 +65470,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.91",
+      "latest_version": "5.09.54.93",
       "private": false,
       "versions": [
         {
@@ -91392,6 +91402,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/515288071",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.91/gregtech-5.09.54.91.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.92",
+          "changelog": "## What's Changed\n* Add Russian localization for modular armor by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6969\n* Fix EEC voiding undamaged damageable items when \"void enchanted or damaged\" is turned on by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7775\n* Fix pipe oddity in recipe registration by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7779\n* Fix modular armor landing gear not absorbing low fall damage due to distance mismatch by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7778\n* Vajra fix again by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7777\n* Clarification of using a Soft Mallet on Pipes/Cables by @H3stur in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7781\n* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7773\n\n## New Contributors\n* @H3stur made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7781\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.91...5.09.54.92\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-16T22:53:48+00:00",
+          "filename": "gregtech-5.09.54.92.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/517309041",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.92/gregtech-5.09.54.92.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.93",
+          "changelog": "## What's Changed\n* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7786\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.92...5.09.54.93\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-17T02:58:15+00:00",
+          "filename": "gregtech-5.09.54.93.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/517523390",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.93/gregtech-5.09.54.93.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -94264,7 +94294,7 @@
     },
     {
       "name": "GTNHLib",
-      "latest_version": "0.11.37",
+      "latest_version": "0.11.39",
       "private": false,
       "versions": [
         {
@@ -97105,6 +97135,26 @@
           "filename": "gtnhlib-0.11.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/506203681",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.37/gtnhlib-0.11.37.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.38",
+          "changelog": "## What's Changed\n* Don't crash when old models are loaded by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/443\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.37...0.11.38\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-16T23:02:44+00:00",
+          "filename": "gtnhlib-0.11.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/517315804",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.38/gtnhlib-0.11.38.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.39",
+          "changelog": "## What's Changed\n* Only block old blockstates by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/449\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.38...0.11.39\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-17T01:08:24+00:00",
+          "filename": "gtnhlib-0.11.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/517413863",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.39/gtnhlib-0.11.39.jar",
           "extra_assets": []
         }
       ],
@@ -132567,7 +132617,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.40",
+      "latest_version": "2.9.41",
       "private": false,
       "versions": [
         {
@@ -144529,6 +144579,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/515278878",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.40/GTNewHorizonsCoreMod-2.9.40.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.41",
+          "changelog": "## What's Changed\n* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1913\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.40...2.9.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-17T02:56:59+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/517522080",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.41/GTNewHorizonsCoreMod-2.9.41.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -154955,7 +155015,7 @@
     },
     {
       "name": "Postea",
-      "latest_version": "1.2.5",
+      "latest_version": "1.2.6",
       "private": false,
       "versions": [
         {
@@ -155247,6 +155307,16 @@
           "filename": "postea-1.2.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Postea/releases/assets/375212127",
           "browser_download_url": "https://github.com/GTNewHorizons/Postea/releases/download/1.2.5/postea-1.2.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.6",
+          "changelog": "## What's Changed\n* Extend block transformer metadata to int by @Ruling-0 in https://github.com/GTNewHorizons/Postea/pull/25\n\n## New Contributors\n* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/Postea/pull/25\n\n**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.2.5...1.2.6\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-16T17:30:34+00:00",
+          "filename": "postea-1.2.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Postea/releases/assets/517046547",
+          "browser_download_url": "https://github.com/GTNewHorizons/Postea/releases/download/1.2.6/postea-1.2.6.jar",
           "extra_assets": []
         }
       ],
@@ -186276,7 +186346,7 @@
     },
     {
       "name": "WitcheryExtras",
-      "latest_version": "1.4.16",
+      "latest_version": "1.4.17",
       "private": false,
       "versions": [
         {
@@ -186697,6 +186767,16 @@
           "filename": "WitcheryExtras-1.4.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/446030038",
           "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.4.16/WitcheryExtras-1.4.16.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.17",
+          "changelog": "## What's Changed\n* Parametrized logger calls by @boubou19 in https://github.com/GTNewHorizons/WitcheryExtras/pull/44\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.4.16...1.4.17\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-16T17:59:32+00:00",
+          "filename": "WitcheryExtras-1.4.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/517067941",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.4.17/WitcheryExtras-1.4.17.jar",
           "extra_assets": []
         }
       ],
@@ -188196,6 +188276,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 680,
-  "latest_successful_daily": 680
+  "latest_daily": 683,
+  "latest_successful_daily": 683
 }
