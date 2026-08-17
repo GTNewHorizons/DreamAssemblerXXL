@@ -2,10 +2,12 @@
 > * Automagy-GTNH
 # Mods Removed: 
 > * Automagy
-# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.102-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.102-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.103-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.103-gtnh
 
 ## What's Changed:
+>* Fix fluid packet orientation when rendered as an entity by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/460 (1.5.103-gtnh)
+>* Fix fluid transfer through inactive interfaces by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/462 (1.5.103-gtnh)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/459 (1.5.102-gtnh)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/457 (1.5.101-gtnh)
 >* Update ME Chest display for fluid cells by @samhaines-wustl in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/456 (1.5.100-gtnh)
@@ -16,16 +18,18 @@
 >* Fix universal terminal mode sync in baubles by @DreamYao520 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/451 (1.5.97-gtnh)
 >* Fixed grammar on fluid packet tooltip by @ham-corp in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/450 (1.5.96-gtnh)
 
-# Updated - AdventureBackpack2 - 1.4.22-GTNH --> 1.4.23-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.22-GTNH...1.4.23-GTNH
+# Updated - AdventureBackpack2 - 1.4.22-GTNH --> 1.4.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.22-GTNH...1.4.24-GTNH
 
 ## What's Changed:
+>* Fix backpack dimension/death loss by @Worive in https://github.com/GTNewHorizons/AdventureBackpack2/pull/57 (1.4.24-GTNH)
 >* Use dedicated forge method instead of recreating part of the pipeline by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/56 (1.4.23-GTNH)
 
-# Updated - Amazing-Trophies - 1.4.3 --> 1.4.5
-**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.4.3...1.4.5
+# Updated - Amazing-Trophies - 1.4.3 --> 1.4.6
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.4.3...1.4.6
 
 ## What's Changed:
+>* Use Log4J formatting instead of String.format() by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/26 (1.4.6)
 >* Fix crash on world reload by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/24 (1.4.5)
 >* Improve performances by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/23 (1.4.4)
 
@@ -82,10 +86,15 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1033-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1033-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1034-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1034-GTNH
 
 ## What's Changed:
+>* fix: annotate AE2FC compatibility test require ae2fc to be present by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1517 (rv3-beta-1034-GTNH)
+>* fix: reject crafted items when export target is missing by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1516 (rv3-beta-1034-GTNH)
+>* fix: render interface terminal tooltips above patterns by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1513 (rv3-beta-1034-GTNH)
+>* Fix Interface Terminal creative pick-block by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1514 (rv3-beta-1034-GTNH)
+>* Fix repeated ore filter operands by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1515 (rv3-beta-1034-GTNH)
 >* fix: charge power for fluid container transfers by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1504 (rv3-beta-1033-GTNH)
 >* fix: validate Fluix output capacity by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1511 (rv3-beta-1033-GTNH)
 >* Fix crafting CPU button name overflow by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1495 (rv3-beta-1032-GTNH)
@@ -180,6 +189,12 @@ Mod is client-side only.
 >* add clarified loader check by @felixfour in https://github.com/GTNewHorizons/Avaritia/pull/84 (1.98)
 >* fix the issue where the vertical acceleration was incorrect due to being different from de's calculation by @ABKQPO in https://github.com/GTNewHorizons/Avaritia/pull/85 (1.98)
 
+# Updated - Avaritiaddons - 1.9.4-GTNH --> 1.9.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.9.4-GTNH...1.9.5-GTNH
+
+## What's Changed:
+>* Fix infinity chest interaction by @AnsonYeung in https://github.com/GTNewHorizons/Avaritiaddons/pull/21 (1.9.5-GTNH)
+
 # Updated - Backhand - 1.8.11 --> 1.8.13
 **Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.8.11...1.8.13
 
@@ -213,10 +228,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Render only p2p outlines within the same dimension as the player by @Kogepan229 in https://github.com/GTNewHorizons/BetterP2P/pull/44 (1.4.6)
 
-# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.78-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.78-GTNH
+# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.79-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.79-GTNH
 
 ## What's Changed:
+>* Modularize text for PanelTaskItemBase by @koolkrafter5 in https://github.com/GTNewHorizons/BetterQuesting/pull/239 (3.8.79-GTNH)
+>* add nei recipe overlay support (#247) by @Nana-Sakura in https://github.com/GTNewHorizons/BetterQuesting/pull/248 (3.8.79-GTNH)
 >* Add extensible localized text editor actions by @ABKQPO in https://github.com/GTNewHorizons/BetterQuesting/pull/241 (3.8.78-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/243 (3.8.77-GTNH)
 >* Add Option to Link Other Quests in Quest Descriptions by @NotKaizul in https://github.com/GTNewHorizons/BetterQuesting/pull/232 (3.8.76-GTNH)
@@ -311,11 +328,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Convert Wrought Iron Blocks -> Cast Iron by @UltraProdigy in https://github.com/GTNewHorizons/Chisel/pull/99 (2.17.30-GTNH)
 >* Apply speedboost on new road pieces by @MellowArpeggiation in https://github.com/GTNewHorizons/Chisel/pull/96 (2.17.29-GTNH)
 
-# Updated - ChromaticTooltips - 1.0.29-GTNH --> 1.0.34-GTNH
+# Updated - ChromaticTooltips - 1.0.29-GTNH --> 1.0.35-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.29-GTNH...1.0.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.29-GTNH...1.0.35-GTNH
 
 ## What's Changed:
+>* Fix Tooltip background rendering issue with angelica by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/13 (1.0.35-GTNH)
 >* Change Enricher Config by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/12 (1.0.33-GTNH)
 >* Add Multi-Components Line by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/11 (1.0.32-GTNH)
 >* Fix mod filter by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/10 (1.0.31-GTNH)
@@ -393,10 +411,11 @@ Mod is client-side only.
 >* Cleanup tooltip langs and improve waila, plant lens and scanner output by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/197 (2.0.93)
 >* Localize crop stick scanner info on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/196 (2.0.92)
 
-# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.32-GTNH
+# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.33-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.33-GTNH
 
 ## What's Changed:
+>* avoid global resource refresh when downloading the missing assets by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/111 (1.5.33-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/109 (1.5.32-GTNH)
 >* Reduce render load of DE placed items by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/108 (1.5.31-GTNH)
 >* Move the bindTexture out of the display list by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/107 (1.5.30-GTNH)
@@ -901,10 +920,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/155 (1.1.141-GTNH)
 >* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/154 (1.1.140-GTNH)
 
-# Updated - Gravitation-Suite-Neo - 1.3.12 --> 1.3.15
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.12...1.3.15
+# Updated - Gravitation-Suite-Neo - 1.3.12 --> 1.3.16
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.12...1.3.16
 
 ## What's Changed:
+>* Delete ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/38 (1.3.16)
 >* fix HUD render allocations by @boubou19 in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/37 (1.3.15)
 >* Fix GraviChestPlate flight desync and swapped energy messages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/36 (1.3.14)
 >* Send GraviSuite item and armor status messages server-side only by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/35 (1.3.13)
@@ -937,10 +957,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46 (1.12.27-GTNH)
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.188
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.188
+# Updated - HelpFixer - 1.3.1 --> 1.3.2
+**Full Changelog**: https://github.com/GTNewHorizons/HelpFixer/compare/1.3.1...1.3.2
 
 ## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - Hodgepodge - 2.7.170 --> 2.7.189
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.189
+
+## What's Changed:
+>* Fix IC2 rubber sapling bone meal underflow by @Worive in https://github.com/GTNewHorizons/Hodgepodge/pull/979 (2.7.189)
 >* add reverb strength slider to the audio options menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/978 (2.7.188)
 >* Cache if lwjgl3ify is loaded by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/974 (2.7.187)
 >* Add an audio setting menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/973 (2.7.186)
@@ -1243,10 +1269,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Make keyBinding & KeyboardEventHandler public by @SuperSoupr in https://github.com/GTNewHorizons/NoHotbarNeeded/pull/3 (0.0.6)
 
-# Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.38
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.38
+# Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.39
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.39
 
 ## What's Changed:
+>* add bq ae2 nei overlay support by @Nana-Sakura in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/79 (1.7.39)
 >* fix: use the player's selected item when transferring by @hinyb in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/75 (1.7.38)
 >* Ensure dire crafter stack size by @Azusfin in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/78 (1.7.37)
 >* Update deps by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/77 (1.7.36)
