@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-08-18T04:04:27.423009+00:00",
+  "last_version": "2.9.0-beta-2",
+  "last_updated": "2026-08-18T05:45:52.445776+00:00",
   "config": "2.9.0-nightly-2026-08-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.141-GTNH",
+      "version": "1.1.142-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.94",
+      "version": "5.09.54.95",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.42",
+      "version": "2.9.43",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -915,7 +915,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.46",
+      "version": "1.5.47",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {

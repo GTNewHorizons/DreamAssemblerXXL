@@ -61490,7 +61490,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.141-GTNH",
+      "latest_version": "1.1.142-GTNH",
       "private": true,
       "versions": [
         {
@@ -62193,6 +62193,16 @@
           "filename": "GalaxySpace-1.1.141-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/509140073",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.141-GTNH/GalaxySpace-1.1.141-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.142-GTNH",
+          "changelog": "## What's Changed\n* Rename various kinds of pluto ice by @FourIsTheNumber in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/156\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.141-GTNH...1.1.142-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T04:23:55+00:00",
+          "filename": "GalaxySpace-1.1.142-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/518924445",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.142-GTNH/GalaxySpace-1.1.142-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -65610,7 +65620,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.94",
+      "latest_version": "5.09.54.95",
       "private": false,
       "versions": [
         {
@@ -91571,6 +91581,16 @@
           "filename": "gregtech-5.09.54.94.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/518687172",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.94/gregtech-5.09.54.94.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.95",
+          "changelog": "## What's Changed\n* Increase EOH part recipe times by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7741\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.94...5.09.54.95\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T04:25:48+00:00",
+          "filename": "gregtech-5.09.54.95.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/518926403",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.95/gregtech-5.09.54.95.jar",
           "extra_assets": []
         }
       ],
@@ -132807,7 +132827,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.42",
+      "latest_version": "2.9.43",
       "private": false,
       "versions": [
         {
@@ -144788,6 +144808,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.42.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/518800365",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.42/GTNewHorizonsCoreMod-2.9.42.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.43",
+          "changelog": "## What's Changed\n* Vanilla Music Disc Reforming by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1911\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.42...2.9.43\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T04:20:32+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.43.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/518921181",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.43/GTNewHorizonsCoreMod-2.9.43.jar",
           "extra_assets": []
         }
       ],
@@ -166822,7 +166852,7 @@
     },
     {
       "name": "TC-4-Tweaks",
-      "latest_version": "1.5.46",
+      "latest_version": "1.5.47",
       "needs_attention": false,
       "versions": [
         {
@@ -167460,6 +167490,19 @@
           "curse_file": {
             "project_no": "431297",
             "file_no": "8469102"
+          }
+        },
+        {
+          "version_tag": "1.5.47",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T12:45:28.784381",
+          "filename": "Thaumcraft4Tweaks-1.5.47.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8668/688/Thaumcraft4Tweaks-1.5.47.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/download/8668688",
+          "curse_file": {
+            "project_no": "431297",
+            "file_no": "8668688"
           }
         }
       ],
