@@ -513,10 +513,11 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.94
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.94
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.95
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.95
 
 ## What's Changed:
+>* Increase EOH part recipe times by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7741 (5.09.54.95)
 >* Improve waila for MTEBoiler by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7785 (5.09.54.94)
 >* Directly register aspect tags if they don't exist by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7789 (5.09.54.94)
 >* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7786 (5.09.54.93)
@@ -918,10 +919,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galacticraft/pull/148 (3.4.33-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/Galacticraft/pull/147 (3.4.32-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.139-GTNH --> 1.1.141-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.139-GTNH...1.1.141-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.139-GTNH --> 1.1.142-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.139-GTNH...1.1.142-GTNH
 
 ## What's Changed:
+>* Rename various kinds of pluto ice by @FourIsTheNumber in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/156 (1.1.142-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/155 (1.1.141-GTNH)
 >* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/154 (1.1.140-GTNH)
 
@@ -1210,10 +1212,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.42
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.42
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.43
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.43
 
 ## What's Changed:
+>* Vanilla Music Disc Reforming by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1911 (2.9.43)
 >* Cleanup, mostly tc-related by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1887 (2.9.42)
 >* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1913 (2.9.41)
 >* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1910 (2.9.40)
@@ -1473,7 +1476,7 @@ Mod is client-side only.
 >* Fix NPE during tooltip writing by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/12 (1.5.6)
 >* Fix effect handler by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/11 (1.5.5)
 
-# Updated - TC-4-Tweaks - 1.5.45 --> 1.5.46
+# Updated - TC-4-Tweaks - 1.5.45 --> 1.5.47
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TCNodeTracker - 1.4.5 --> 1.4.6
