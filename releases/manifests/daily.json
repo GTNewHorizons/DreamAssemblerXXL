@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-18T05:53:15.290948+00:00",
+  "last_updated": "2026-08-18T12:06:54.484149+00:00",
   "config": "2.9.0-nightly-2026-08-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.4.4",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.95",
+      "version": "5.09.54.96",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.99-GTNH",
+      "version": "1.14.100-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.66-GTNH",
+      "version": "1.1.67-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {

@@ -56408,7 +56408,7 @@
     },
     {
       "name": "FindIt",
-      "latest_version": "1.4.4",
+      "latest_version": "1.4.6",
       "private": false,
       "versions": [
         {
@@ -56740,6 +56740,16 @@
           "filename": "findit-1.4.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/491068721",
           "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.4.4/findit-1.4.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.6",
+          "changelog": "## What's Changed\n* Fix Build by @UltraProdigy in https://github.com/GTNewHorizons/FindIt/pull/37\n* feat: add ability to T search for contents of inventory covers by @robbert229 in https://github.com/GTNewHorizons/FindIt/pull/32\n* feat: add covers to T search by @robbert229 in https://github.com/GTNewHorizons/FindIt/pull/31\n\n## New Contributors\n* @robbert229 made their first contribution in https://github.com/GTNewHorizons/FindIt/pull/32\n\n**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.5...1.4.6\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T05:58:31+00:00",
+          "filename": "findit-1.4.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/519013137",
+          "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.4.6/findit-1.4.6.jar",
           "extra_assets": []
         }
       ],
@@ -65620,7 +65630,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.95",
+      "latest_version": "5.09.54.96",
       "private": false,
       "versions": [
         {
@@ -91591,6 +91601,16 @@
           "filename": "gregtech-5.09.54.95.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/518926403",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.95/gregtech-5.09.54.95.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.96",
+          "changelog": "## What's Changed\n* [MUI2] Ported MTEWindmill to MUI2 + rework by @mhowell9 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6908\n* fix tricorder output and distinguish power tier and recipe tier by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7788\n* Fix wireless computation deadlocking after server/world restart by @noitacude013 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7787\n* Implement waila methods for board processor by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7791\n\n## New Contributors\n* @noitacude013 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7787\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.95...5.09.54.96\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T11:57:53+00:00",
+          "filename": "gregtech-5.09.54.96.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/519394235",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.96/gregtech-5.09.54.96.jar",
           "extra_assets": []
         }
       ],
@@ -158840,7 +158860,7 @@
     },
     {
       "name": "Salis-Arcana",
-      "latest_version": "1.1.66-GTNH",
+      "latest_version": "1.1.67-GTNH",
       "private": false,
       "versions": [
         {
@@ -159481,6 +159501,16 @@
           "filename": "salisarcana-1.1.66-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Salis-Arcana/releases/assets/518765566",
           "browser_download_url": "https://github.com/GTNewHorizons/Salis-Arcana/releases/download/1.1.66-GTNH/salisarcana-1.1.66-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.67-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.66-GTNH...1.1.67-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T12:04:25+00:00",
+          "filename": "salisarcana-1.1.67-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Salis-Arcana/releases/assets/519401437",
+          "browser_download_url": "https://github.com/GTNewHorizons/Salis-Arcana/releases/download/1.1.67-GTNH/salisarcana-1.1.67-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -176630,7 +176660,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.14.99-GTNH",
+      "latest_version": "1.14.100-GTNH",
       "private": false,
       "versions": [
         {
@@ -179331,6 +179361,16 @@
           "filename": "TConstruct-1.14.99-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/516156406",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.99-GTNH/TConstruct-1.14.99-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.100-GTNH",
+          "changelog": "## What's Changed\n* change damage behavior to vanilla by @Nana-Sakura in https://github.com/GTNewHorizons/TinkersConstruct/pull/315\n* Make Tinkers ToolStations tagged (#26040) by @mattiasploesch-cpu in https://github.com/GTNewHorizons/TinkersConstruct/pull/316\n\n## New Contributors\n* @Nana-Sakura made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/315\n* @mattiasploesch-cpu made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/316\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.99-GTNH...1.14.100-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-18T11:57:21+00:00",
+          "filename": "TConstruct-1.14.100-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/519393636",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.100-GTNH/TConstruct-1.14.100-GTNH.jar",
           "extra_assets": []
         }
       ],
