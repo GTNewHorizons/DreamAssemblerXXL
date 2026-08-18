@@ -2,10 +2,11 @@
 > * Automagy-GTNH
 # Mods Removed: 
 > * Automagy
-# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.103-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.103-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.104-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.104-gtnh
 
 ## What's Changed:
+>* Fix universal terminal selection by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/461 (1.5.104-gtnh)
 >* Fix fluid packet orientation when rendered as an entity by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/460 (1.5.103-gtnh)
 >* Fix fluid transfer through inactive interfaces by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/462 (1.5.103-gtnh)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/459 (1.5.102-gtnh)
@@ -166,10 +167,11 @@ Mod is client-side only.
 >* Fix fake crafting by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1413 (rv3-beta-1002-GTNH)
 >* Don't open gui for interaction event by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1421 (rv3-beta-1001-GTNH)
 
-# Updated - ArchitectureCraft - 1.12.14 --> 1.12.16
-**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.12.14...1.12.16
+# Updated - ArchitectureCraft - 1.12.14 --> 1.12.17
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.12.14...1.12.17
 
 ## What's Changed:
+>* fix: Update getBlockReplacement signature by @vermz99 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/49 (1.12.17)
 >* Fix ArchitectureCraft lighting with shaders by @Benflex1 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/48 (1.12.16)
 >* Fix gui_sawbench.png by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/44 (1.12.15)
 
@@ -511,10 +513,12 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.93
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.93
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.94
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.94
 
 ## What's Changed:
+>* Improve waila for MTEBoiler by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7785 (5.09.54.94)
+>* Directly register aspect tags if they don't exist by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7789 (5.09.54.94)
 >* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7786 (5.09.54.93)
 >* Add Russian localization for modular armor by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6969 (5.09.54.92)
 >* Fix EEC voiding undamaged damageable items when "void enchanted or damaged" is turned on by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7775 (5.09.54.92)
@@ -876,10 +880,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GTNHLib - 0.11.24 --> 0.11.39
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.39
+# Updated - GTNHLib - 0.11.24 --> 0.11.40
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.40
 
 ## What's Changed:
+>* Fix walk/fall particle icons when walking on modeled blocks by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/434 (0.11.40)
 >* Only block old blockstates by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/449 (0.11.39)
 >* Don't crash when old models are loaded by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/443 (0.11.38)
 >* Bump GTNHExtLib dependency to include jvmdg 2.0.1 by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNHLib/pull/444 (0.11.37)
@@ -1062,10 +1067,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.6.30 --> 1.6.41
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.41
+# Updated - LittleTiles - 1.6.30 --> 1.6.42
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.42
 
 ## What's Changed:
+>* Add flip support for meshes by @S4mpsa in https://github.com/GTNewHorizons/LittleTiles/pull/156 (1.6.42)
 >* Use enum for actions by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/154 (1.6.41)
 >* Rename LittleTileRenderCache to LittleTileGeometryCache by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/151 (1.6.40)
 >* Fix compile warning and LittleHammer on single tile by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/153 (1.6.40)
@@ -1204,10 +1210,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.41
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.41
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.42
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.42
 
 ## What's Changed:
+>* Cleanup, mostly tc-related by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1887 (2.9.42)
 >* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1913 (2.9.41)
 >* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1910 (2.9.40)
 >* Don't use GT Logger for NHCore stuff by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1908 (2.9.39)
@@ -1409,6 +1416,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20 (2.3.15)
 
+# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.66-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.66-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ServerUtilities - 2.4.1 --> 2.4.6
 **Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.6
 
@@ -1587,6 +1599,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* fix: use renderViewEntity in sky renderer by @Caedis in https://github.com/GTNewHorizons/amunra/pull/48 (0.8.14)
+
+# Updated - gendustry - 1.9.11-GTNH --> 1.9.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.9.11-GTNH...1.9.12-GTNH
+
+## What's Changed:
+>* only reload if the custom lang files exist by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/24 (1.9.12-GTNH)
 
 # Updated - harvestcraft - 1.3.11-GTNH --> 1.3.13-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.11-GTNH...1.3.13-GTNH
