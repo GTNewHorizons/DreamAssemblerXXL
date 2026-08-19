@@ -516,10 +516,14 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.96
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.96
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.97
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.97
 
 ## What's Changed:
+>* Snapshot TE during explosions by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7794 (5.09.54.97)
+>* Ice Cream Machine by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7549 (5.09.54.97)
+>* Various speedups during loading time by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7798 (5.09.54.97)
+>* Ice Creams Potion effects by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7797 (5.09.54.97)
 >* [MUI2] Ported MTEWindmill to MUI2 + rework by @mhowell9 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6908 (5.09.54.96)
 >* fix tricorder output and distinguish power tier and recipe tier by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7788 (5.09.54.96)
 >* Fix wireless computation deadlocking after server/world restart by @noitacude013 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7787 (5.09.54.96)
@@ -943,10 +947,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix GraviChestPlate flight desync and swapped energy messages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/36 (1.3.14)
 >* Send GraviSuite item and armor status messages server-side only by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/35 (1.3.13)
 
-# Updated - GuideNH - 1.3.11 --> 1.3.20
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.20
+# Updated - GuideNH - 1.3.11 --> 1.3.21
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.21
 
 ## What's Changed:
+>* Bugfix by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/52 (1.3.21)
 >* Update BetterQuesting compatibility by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/57 (1.3.20)
 >* add display width and height by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/53 (1.3.19)
 >* remove guide item and reigon wand by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/54 (1.3.19)
@@ -1530,10 +1535,11 @@ Mod is client-side only.
 >* Fix Witchery disarm dupe by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/60 (1.5.25-GTNH)
 >* Fix thaumic replicator crash by @zaru-noodles in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/61 (1.5.25-GTNH)
 
-# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.100-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.100-GTNH
+# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.101-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.101-GTNH
 
 ## What's Changed:
+>* return crafting station ingredients to connected inventories by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/312 (1.14.101-GTNH)
 >* change damage behavior to vanilla by @Nana-Sakura in https://github.com/GTNewHorizons/TinkersConstruct/pull/315 (1.14.100-GTNH)
 >* Make Tinkers ToolStations tagged (#26040) by @mattiasploesch-cpu in https://github.com/GTNewHorizons/TinkersConstruct/pull/316 (1.14.100-GTNH)
 >* Change the hardcoded color to be ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/313 (1.14.99-GTNH)
