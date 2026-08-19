@@ -7617,20 +7617,20 @@
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-15T14:21:19+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-08-15+424.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/515761233",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-08-15%2B424.zip",
+        "tagged_at": "2026-08-19T09:25:20+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-08-19+5.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/520639879",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-08-19%2B5.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-15T15:30:57+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-08-15+425.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/515814371",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-08-15%2B425.zip",
+        "tagged_at": "2026-08-19T09:30:09+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-08-19+5.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/520644393",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-08-19%2B5.zip",
         "extra_assets": []
       },
       {
@@ -7647,10 +7647,10 @@
         "version_tag": "pt_BR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-08-15T15:35:44+00:00",
-        "filename": "GTNH-pt_BR-Translation-Daily-2026-08-15+425.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/515817853",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-08-15%2B425.zip",
+        "tagged_at": "2026-08-19T09:34:25+00:00",
+        "filename": "GTNH-pt_BR-Translation-Daily-2026-08-19+5.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/520649052",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-08-19%2B5.zip",
         "extra_assets": []
       },
       {
@@ -65640,7 +65640,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.97",
+      "latest_version": "5.09.54.98",
       "private": false,
       "versions": [
         {
@@ -91631,6 +91631,16 @@
           "filename": "gregtech-5.09.54.97.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/520277544",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.97/gregtech-5.09.54.97.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.98",
+          "changelog": "## What's Changed\n* fix processinglogic npe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7800\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.97...5.09.54.98\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-19T07:31:47+00:00",
+          "filename": "gregtech-5.09.54.98.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/520538713",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.98/gregtech-5.09.54.98.jar",
           "extra_assets": []
         }
       ],
@@ -188619,6 +188629,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 688,
-  "latest_successful_daily": 688
+  "latest_daily": 690,
+  "latest_successful_daily": 690
 }

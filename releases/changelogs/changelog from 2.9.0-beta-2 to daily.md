@@ -516,10 +516,11 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.97
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.97
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.98
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.98
 
 ## What's Changed:
+>* fix processinglogic npe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7800 (5.09.54.98)
 >* Snapshot TE during explosions by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7794 (5.09.54.97)
 >* Ice Cream Machine by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7549 (5.09.54.97)
 >* Various speedups during loading time by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7798 (5.09.54.97)
