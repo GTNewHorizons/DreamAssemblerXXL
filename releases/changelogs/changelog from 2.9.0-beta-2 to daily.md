@@ -2,10 +2,13 @@
 > * Automagy-GTNH
 # Mods Removed: 
 > * Automagy
-# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.102-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.102-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.104-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.104-gtnh
 
 ## What's Changed:
+>* Fix universal terminal selection by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/461 (1.5.104-gtnh)
+>* Fix fluid packet orientation when rendered as an entity by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/460 (1.5.103-gtnh)
+>* Fix fluid transfer through inactive interfaces by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/462 (1.5.103-gtnh)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/459 (1.5.102-gtnh)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/457 (1.5.101-gtnh)
 >* Update ME Chest display for fluid cells by @samhaines-wustl in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/456 (1.5.100-gtnh)
@@ -16,24 +19,31 @@
 >* Fix universal terminal mode sync in baubles by @DreamYao520 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/451 (1.5.97-gtnh)
 >* Fixed grammar on fluid packet tooltip by @ham-corp in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/450 (1.5.96-gtnh)
 
-# Updated - AdventureBackpack2 - 1.4.22-GTNH --> 1.4.23-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.22-GTNH...1.4.23-GTNH
+# Updated - AdventureBackpack2 - 1.4.22-GTNH --> 1.4.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.22-GTNH...1.4.24-GTNH
 
 ## What's Changed:
+>* Fix backpack dimension/death loss by @Worive in https://github.com/GTNewHorizons/AdventureBackpack2/pull/57 (1.4.24-GTNH)
 >* Use dedicated forge method instead of recreating part of the pipeline by @FourIsTheNumber in https://github.com/GTNewHorizons/AdventureBackpack2/pull/56 (1.4.23-GTNH)
 
-# Updated - Amazing-Trophies - 1.4.3 --> 1.4.5
-**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.4.3...1.4.5
+# Updated - Amazing-Trophies - 1.4.3 --> 1.4.6
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.4.3...1.4.6
 
 ## What's Changed:
+>* Use Log4J formatting instead of String.format() by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/26 (1.4.6)
 >* Fix crash on world reload by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/24 (1.4.5)
 >* Improve performances by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/23 (1.4.4)
 
-# Updated - Angelica - 2.1.50 --> 2.2.6
+# Updated - Angelica - 2.1.50 --> 2.2.8
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.6
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.8
 
 ## What's Changed:
+>* Many bug fixes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2017 (2.2.8)
+>* Avoid rescanning atlas for each CTM tile by @boubou19 in https://github.com/GTNewHorizons/Angelica/pull/2029 (2.2.8)
+>* Add a flag to StateAwareTesselator for per-quad directional shading by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/1989 (2.2.8)
+>* Mark tiles at transform time instead of using reflection by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2024 (2.2.7)
+>* SDL presenter fixes and frame pacer adjustments by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2025 (2.2.7)
 >* Sign Fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2016 (2.2.6)
 >* Defer ticking on TEs we eagerly create until they get a description packet by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2018 (2.2.6)
 >* Tracy 0.14 by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2019 (2.2.6)
@@ -80,10 +90,16 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1033-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1033-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1035-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1035-GTNH
 
 ## What's Changed:
+>* Fix the storage-bus ore-filter persistence issue by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1512 (rv3-beta-1035-GTNH)
+>* fix: annotate AE2FC compatibility test require ae2fc to be present by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1517 (rv3-beta-1034-GTNH)
+>* fix: reject crafted items when export target is missing by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1516 (rv3-beta-1034-GTNH)
+>* fix: render interface terminal tooltips above patterns by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1513 (rv3-beta-1034-GTNH)
+>* Fix Interface Terminal creative pick-block by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1514 (rv3-beta-1034-GTNH)
+>* Fix repeated ore filter operands by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1515 (rv3-beta-1034-GTNH)
 >* fix: charge power for fluid container transfers by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1504 (rv3-beta-1033-GTNH)
 >* fix: validate Fluix output capacity by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1511 (rv3-beta-1033-GTNH)
 >* Fix crafting CPU button name overflow by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1495 (rv3-beta-1032-GTNH)
@@ -155,10 +171,11 @@ Mod is client-side only.
 >* Fix fake crafting by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1413 (rv3-beta-1002-GTNH)
 >* Don't open gui for interaction event by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1421 (rv3-beta-1001-GTNH)
 
-# Updated - ArchitectureCraft - 1.12.14 --> 1.12.16
-**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.12.14...1.12.16
+# Updated - ArchitectureCraft - 1.12.14 --> 1.12.17
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.12.14...1.12.17
 
 ## What's Changed:
+>* fix: Update getBlockReplacement signature by @vermz99 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/49 (1.12.17)
 >* Fix ArchitectureCraft lighting with shaders by @Benflex1 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/48 (1.12.16)
 >* Fix gui_sawbench.png by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ArchitectureCraft/pull/44 (1.12.15)
 
@@ -177,6 +194,12 @@ Mod is client-side only.
 >* add optional Draconic Evolution configurable integration by @ABKQPO in https://github.com/GTNewHorizons/Avaritia/pull/83 (1.98)
 >* add clarified loader check by @felixfour in https://github.com/GTNewHorizons/Avaritia/pull/84 (1.98)
 >* fix the issue where the vertical acceleration was incorrect due to being different from de's calculation by @ABKQPO in https://github.com/GTNewHorizons/Avaritia/pull/85 (1.98)
+
+# Updated - Avaritiaddons - 1.9.4-GTNH --> 1.9.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.9.4-GTNH...1.9.5-GTNH
+
+## What's Changed:
+>* Fix infinity chest interaction by @AnsonYeung in https://github.com/GTNewHorizons/Avaritiaddons/pull/21 (1.9.5-GTNH)
 
 # Updated - Backhand - 1.8.11 --> 1.8.13
 **Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.8.11...1.8.13
@@ -211,10 +234,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Render only p2p outlines within the same dimension as the player by @Kogepan229 in https://github.com/GTNewHorizons/BetterP2P/pull/44 (1.4.6)
 
-# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.78-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.78-GTNH
+# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.79-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.79-GTNH
 
 ## What's Changed:
+>* Modularize text for PanelTaskItemBase by @koolkrafter5 in https://github.com/GTNewHorizons/BetterQuesting/pull/239 (3.8.79-GTNH)
+>* add nei recipe overlay support (#247) by @Nana-Sakura in https://github.com/GTNewHorizons/BetterQuesting/pull/248 (3.8.79-GTNH)
 >* Add extensible localized text editor actions by @ABKQPO in https://github.com/GTNewHorizons/BetterQuesting/pull/241 (3.8.78-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/243 (3.8.77-GTNH)
 >* Add Option to Link Other Quests in Quest Descriptions by @NotKaizul in https://github.com/GTNewHorizons/BetterQuesting/pull/232 (3.8.76-GTNH)
@@ -223,10 +248,11 @@ Mod is client-side only.
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
 
-# Updated - Binnie - 2.6.34 --> 2.6.43
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.43
+# Updated - Binnie - 2.6.34 --> 2.6.44
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.44
 
 ## What's Changed:
+>* fix compartments with tool station by @Pxx500 in https://github.com/GTNewHorizons/Binnie/pull/116 (2.6.44)
 >* apply the PlatinumSludgeOverhaul directly into Binnie by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/114 (2.6.43)
 >* Fix GL state leak in search grid by @Algent in https://github.com/GTNewHorizons/Binnie/pull/115 (2.6.43)
 >* Another performance pass by @Algent in https://github.com/GTNewHorizons/Binnie/pull/110 (2.6.42)
@@ -309,11 +335,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Convert Wrought Iron Blocks -> Cast Iron by @UltraProdigy in https://github.com/GTNewHorizons/Chisel/pull/99 (2.17.30-GTNH)
 >* Apply speedboost on new road pieces by @MellowArpeggiation in https://github.com/GTNewHorizons/Chisel/pull/96 (2.17.29-GTNH)
 
-# Updated - ChromaticTooltips - 1.0.29-GTNH --> 1.0.34-GTNH
+# Updated - ChromaticTooltips - 1.0.29-GTNH --> 1.0.35-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.29-GTNH...1.0.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.29-GTNH...1.0.35-GTNH
 
 ## What's Changed:
+>* Fix Tooltip background rendering issue with angelica by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/13 (1.0.35-GTNH)
 >* Change Enricher Config by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/12 (1.0.33-GTNH)
 >* Add Multi-Components Line by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/11 (1.0.32-GTNH)
 >* Fix mod filter by @slprime in https://github.com/GTNewHorizons/ChromaticTooltips/pull/10 (1.0.31-GTNH)
@@ -391,10 +418,11 @@ Mod is client-side only.
 >* Cleanup tooltip langs and improve waila, plant lens and scanner output by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/197 (2.0.93)
 >* Localize crop stick scanner info on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/CropsNH/pull/196 (2.0.92)
 
-# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.32-GTNH
+# Updated - Draconic-Evolution - 1.5.27-GTNH --> 1.5.33-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.27-GTNH...1.5.33-GTNH
 
 ## What's Changed:
+>* avoid global resource refresh when downloading the missing assets by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/111 (1.5.33-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/109 (1.5.32-GTNH)
 >* Reduce render load of DE placed items by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/108 (1.5.31-GTNH)
 >* Move the bindTexture out of the display list by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/107 (1.5.30-GTNH)
@@ -446,10 +474,13 @@ Mod is client-side only.
 >* Port End Flashes and Other related features by @Eclipse-Sol in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/91 (2.6.49-GTNH)
 >* feat: backport ridden horse floating in liquids by @jordanamr in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/95 (2.6.49-GTNH)
 
-# Updated - FindIt - 1.4.3 --> 1.4.4
-**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.3...1.4.4
+# Updated - FindIt - 1.4.3 --> 1.4.6
+**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.3...1.4.6
 
 ## What's Changed:
+>* Fix Build by @UltraProdigy in https://github.com/GTNewHorizons/FindIt/pull/37 (1.4.6)
+>* feat: add ability to T search for contents of inventory covers by @robbert229 in https://github.com/GTNewHorizons/FindIt/pull/32 (1.4.6)
+>* feat: add covers to T search by @robbert229 in https://github.com/GTNewHorizons/FindIt/pull/31 (1.4.6)
 >* Fix GL leaks by @Algent in https://github.com/GTNewHorizons/FindIt/pull/35 (1.4.4)
 
 # Updated - ForbiddenMagic - 0.9.16-GTNH --> 0.9.17-GTNH
@@ -490,10 +521,35 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.91
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.91
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.99
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.99
 
 ## What's Changed:
+>* fix htgr NPE with ME Input Hatch by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7792 (5.09.54.99)
+>* fix incorrect coil count in exo hearth tooltip by @metalcupcake5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7801 (5.09.54.99)
+>* make uv machine hull recipe needs cable other than wire by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7803 (5.09.54.99)
+>* use cable for uv-uhv normal transformer other than wire by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7807 (5.09.54.99)
+>* Crafting recipe speedups by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7806 (5.09.54.99)
+>* fix processinglogic npe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7800 (5.09.54.98)
+>* Snapshot TE during explosions by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7794 (5.09.54.97)
+>* Ice Cream Machine by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7549 (5.09.54.97)
+>* Various speedups during loading time by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7798 (5.09.54.97)
+>* Ice Creams Potion effects by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7797 (5.09.54.97)
+>* [MUI2] Ported MTEWindmill to MUI2 + rework by @mhowell9 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6908 (5.09.54.96)
+>* fix tricorder output and distinguish power tier and recipe tier by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7788 (5.09.54.96)
+>* Fix wireless computation deadlocking after server/world restart by @noitacude013 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7787 (5.09.54.96)
+>* Implement waila methods for board processor by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7791 (5.09.54.96)
+>* Increase EOH part recipe times by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7741 (5.09.54.95)
+>* Improve waila for MTEBoiler by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7785 (5.09.54.94)
+>* Directly register aspect tags if they don't exist by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7789 (5.09.54.94)
+>* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7786 (5.09.54.93)
+>* Add Russian localization for modular armor by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6969 (5.09.54.92)
+>* Fix EEC voiding undamaged damageable items when "void enchanted or damaged" is turned on by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7775 (5.09.54.92)
+>* Fix pipe oddity in recipe registration by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7779 (5.09.54.92)
+>* Fix modular armor landing gear not absorbing low fall damage due to distance mismatch by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7778 (5.09.54.92)
+>* Vajra fix again by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7777 (5.09.54.92)
+>* Clarification of using a Soft Mallet on Pipes/Cables by @H3stur in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7781 (5.09.54.92)
+>* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7773 (5.09.54.92)
 >* Fix fusion computer showing fluid after recipe completion by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7768 (5.09.54.91)
 >* Fix MUI1 Text disappearance by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7770 (5.09.54.91)
 >* Fix ghost mold dupe in Solidifier Hatch by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7771 (5.09.54.91)
@@ -847,10 +903,14 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GTNHLib - 0.11.24 --> 0.11.37
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.37
+# Updated - GTNHLib - 0.11.24 --> 0.11.41
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.41
 
 ## What's Changed:
+>* Avoid parsing metadata for unrelated resources by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/454 (0.11.41)
+>* Fix walk/fall particle icons when walking on modeled blocks by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/434 (0.11.40)
+>* Only block old blockstates by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/449 (0.11.39)
+>* Don't crash when old models are loaded by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/443 (0.11.38)
 >* Bump GTNHExtLib dependency to include jvmdg 2.0.1 by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNHLib/pull/444 (0.11.37)
 >* Fix world leak caused by PlayerInventoryEventHandler by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/439 (0.11.36)
 >* Add BOP compat for flower pots by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/437 (0.11.35)
@@ -882,25 +942,28 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galacticraft/pull/148 (3.4.33-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/Galacticraft/pull/147 (3.4.32-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.139-GTNH --> 1.1.141-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.139-GTNH...1.1.141-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.139-GTNH --> 1.1.142-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.139-GTNH...1.1.142-GTNH
 
 ## What's Changed:
+>* Rename various kinds of pluto ice by @FourIsTheNumber in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/156 (1.1.142-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/155 (1.1.141-GTNH)
 >* fix: use renderViewEntity in sky renderers by @Caedis in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/154 (1.1.140-GTNH)
 
-# Updated - Gravitation-Suite-Neo - 1.3.12 --> 1.3.15
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.12...1.3.15
+# Updated - Gravitation-Suite-Neo - 1.3.12 --> 1.3.16
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.12...1.3.16
 
 ## What's Changed:
+>* Delete ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/38 (1.3.16)
 >* fix HUD render allocations by @boubou19 in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/37 (1.3.15)
 >* Fix GraviChestPlate flight desync and swapped energy messages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/36 (1.3.14)
 >* Send GraviSuite item and armor status messages server-side only by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/35 (1.3.13)
 
-# Updated - GuideNH - 1.3.11 --> 1.3.20
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.20
+# Updated - GuideNH - 1.3.11 --> 1.3.21
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.21
 
 ## What's Changed:
+>* Bugfix by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/52 (1.3.21)
 >* Update BetterQuesting compatibility by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/57 (1.3.20)
 >* add display width and height by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/53 (1.3.19)
 >* remove guide item and reigon wand by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/54 (1.3.19)
@@ -925,10 +988,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/46 (1.12.27-GTNH)
 >* Add config to re-enable vanilla dragon egg pickup mechanics by @C0bra5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/45 (1.12.26-GTNH)
 
-# Updated - Hodgepodge - 2.7.170 --> 2.7.188
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.188
+# Updated - HelpFixer - 1.3.1 --> 1.3.2
+**Full Changelog**: https://github.com/GTNewHorizons/HelpFixer/compare/1.3.1...1.3.2
 
 ## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - Hodgepodge - 2.7.170 --> 2.7.189
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.189
+
+## What's Changed:
+>* Fix IC2 rubber sapling bone meal underflow by @Worive in https://github.com/GTNewHorizons/Hodgepodge/pull/979 (2.7.189)
 >* add reverb strength slider to the audio options menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/978 (2.7.188)
 >* Cache if lwjgl3ify is loaded by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/974 (2.7.187)
 >* Add an audio setting menu by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/973 (2.7.186)
@@ -1024,10 +1093,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.6.30 --> 1.6.41
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.41
+# Updated - LittleTiles - 1.6.30 --> 1.6.42
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.30...1.6.42
 
 ## What's Changed:
+>* Add flip support for meshes by @S4mpsa in https://github.com/GTNewHorizons/LittleTiles/pull/156 (1.6.42)
 >* Use enum for actions by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/154 (1.6.41)
 >* Rename LittleTileRenderCache to LittleTileGeometryCache by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/151 (1.6.40)
 >* Fix compile warning and LittleHammer on single tile by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/153 (1.6.40)
@@ -1166,10 +1236,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.40
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.40
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.43
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.43
 
 ## What's Changed:
+>* Vanilla Music Disc Reforming by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1911 (2.9.43)
+>* Cleanup, mostly tc-related by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1887 (2.9.42)
+>* Add another pass of buffering for delayed removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1913 (2.9.41)
 >* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1910 (2.9.40)
 >* Don't use GT Logger for NHCore stuff by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1908 (2.9.39)
 >* Add Farmhand -> Agriculturalist Assembler Upgrade Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1909 (2.9.39)
@@ -1230,10 +1303,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Make keyBinding & KeyboardEventHandler public by @SuperSoupr in https://github.com/GTNewHorizons/NoHotbarNeeded/pull/3 (0.0.6)
 
-# Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.38
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.38
+# Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.39
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.39
 
 ## What's Changed:
+>* add bq ae2 nei overlay support by @Nana-Sakura in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/79 (1.7.39)
 >* fix: use the player's selected item when transferring by @hinyb in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/75 (1.7.38)
 >* Ensure dire crafter stack size by @Azusfin in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/78 (1.7.37)
 >* Update deps by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/77 (1.7.36)
@@ -1329,6 +1403,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Opis/pull/18 (1.4.10-mapless)
 >* Fix name for type tab by @AnsonYeung in https://github.com/GTNewHorizons/Opis/pull/17 (1.4.9-mapless)
 
+# Updated - Postea - 1.2.5 --> 1.2.6
+**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.2.5...1.2.6
+
+## What's Changed:
+>* Extend block transformer metadata to int by @Ruling-0 in https://github.com/GTNewHorizons/Postea/pull/25 (1.2.6)
+
 # Updated - ProjectRed - 4.12.39-GTNH --> 4.12.43-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.39-GTNH...4.12.43-GTNH
 
@@ -1363,6 +1443,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20 (2.3.15)
 
+# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.67-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.67-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ServerUtilities - 2.4.1 --> 2.4.6
 **Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.6
 
@@ -1415,7 +1500,7 @@ Mod is client-side only.
 >* Fix NPE during tooltip writing by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/12 (1.5.6)
 >* Fix effect handler by @LazyFlesh in https://github.com/GTNewHorizons/Super-TiC/pull/11 (1.5.5)
 
-# Updated - TC-4-Tweaks - 1.5.45 --> 1.5.46
+# Updated - TC-4-Tweaks - 1.5.45 --> 1.5.47
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TCNodeTracker - 1.4.5 --> 1.4.6
@@ -1462,10 +1547,14 @@ Mod is client-side only.
 >* Fix Witchery disarm dupe by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/60 (1.5.25-GTNH)
 >* Fix thaumic replicator crash by @zaru-noodles in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/61 (1.5.25-GTNH)
 
-# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.99-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.99-GTNH
+# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.102-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.102-GTNH
 
 ## What's Changed:
+>* improve crafting station connected inventory layout by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/317 (1.14.102-GTNH)
+>* return crafting station ingredients to connected inventories by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/312 (1.14.101-GTNH)
+>* change damage behavior to vanilla by @Nana-Sakura in https://github.com/GTNewHorizons/TinkersConstruct/pull/315 (1.14.100-GTNH)
+>* Make Tinkers ToolStations tagged (#26040) by @mattiasploesch-cpu in https://github.com/GTNewHorizons/TinkersConstruct/pull/316 (1.14.100-GTNH)
 >* Change the hardcoded color to be ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/313 (1.14.99-GTNH)
 >* Fix BattleSign in world text by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/314 (1.14.99-GTNH)
 >* Fix AOE tool hit face desync by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/310 (1.14.98-GTNH)
@@ -1524,6 +1613,12 @@ Mod is client-side only.
 >* Reduce Memory and Object allocation by @Algent in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/21 (1.7.8)
 >* Fix crash with unclamped wireless frequencies by @pxbhop in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/20 (1.7.7)
 
+# Updated - WitcheryExtras - 1.4.16 --> 1.4.17
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.4.16...1.4.17
+
+## What's Changed:
+>* Parametrized logger calls by @boubou19 in https://github.com/GTNewHorizons/WitcheryExtras/pull/44 (1.4.17)
+
 # Updated - WitchingGadgets - 1.8.48-GTNH --> 1.8.49-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.48-GTNH...1.8.49-GTNH
 
@@ -1535,6 +1630,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* fix: use renderViewEntity in sky renderer by @Caedis in https://github.com/GTNewHorizons/amunra/pull/48 (0.8.14)
+
+# Updated - gendustry - 1.9.11-GTNH --> 1.9.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.9.11-GTNH...1.9.12-GTNH
+
+## What's Changed:
+>* only reload if the custom lang files exist by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/24 (1.9.12-GTNH)
 
 # Updated - harvestcraft - 1.3.11-GTNH --> 1.3.13-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.11-GTNH...1.3.13-GTNH
@@ -1583,4 +1684,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MCTBL, @MellowArpeggiation, @metalcupcake5, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Algent, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Emilgardis, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @SuperSoupr, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
