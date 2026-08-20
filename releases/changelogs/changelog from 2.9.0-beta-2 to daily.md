@@ -34,11 +34,14 @@
 >* Fix crash on world reload by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/24 (1.4.5)
 >* Improve performances by @Algent in https://github.com/GTNewHorizons/Amazing-Trophies/pull/23 (1.4.4)
 
-# Updated - Angelica - 2.1.50 --> 2.2.7
+# Updated - Angelica - 2.1.50 --> 2.2.8
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.7
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.1.50...2.2.8
 
 ## What's Changed:
+>* Many bug fixes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2017 (2.2.8)
+>* Avoid rescanning atlas for each CTM tile by @boubou19 in https://github.com/GTNewHorizons/Angelica/pull/2029 (2.2.8)
+>* Add a flag to StateAwareTesselator for per-quad directional shading by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/1989 (2.2.8)
 >* Mark tiles at transform time instead of using reflection by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2024 (2.2.7)
 >* SDL presenter fixes and frame pacer adjustments by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2025 (2.2.7)
 >* Sign Fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2016 (2.2.6)
@@ -87,10 +90,11 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1034-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1034-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1035-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1035-GTNH
 
 ## What's Changed:
+>* Fix the storage-bus ore-filter persistence issue by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1512 (rv3-beta-1035-GTNH)
 >* fix: annotate AE2FC compatibility test require ae2fc to be present by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1517 (rv3-beta-1034-GTNH)
 >* fix: reject crafted items when export target is missing by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1516 (rv3-beta-1034-GTNH)
 >* fix: render interface terminal tooltips above patterns by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1513 (rv3-beta-1034-GTNH)
@@ -244,10 +248,11 @@ Mod is client-side only.
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
 
-# Updated - Binnie - 2.6.34 --> 2.6.43
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.43
+# Updated - Binnie - 2.6.34 --> 2.6.44
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.44
 
 ## What's Changed:
+>* fix compartments with tool station by @Pxx500 in https://github.com/GTNewHorizons/Binnie/pull/116 (2.6.44)
 >* apply the PlatinumSludgeOverhaul directly into Binnie by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/114 (2.6.43)
 >* Fix GL state leak in search grid by @Algent in https://github.com/GTNewHorizons/Binnie/pull/115 (2.6.43)
 >* Another performance pass by @Algent in https://github.com/GTNewHorizons/Binnie/pull/110 (2.6.42)
@@ -516,10 +521,15 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.98
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.98
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.99
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.99
 
 ## What's Changed:
+>* fix htgr NPE with ME Input Hatch by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7792 (5.09.54.99)
+>* fix incorrect coil count in exo hearth tooltip by @metalcupcake5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7801 (5.09.54.99)
+>* make uv machine hull recipe needs cable other than wire by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7803 (5.09.54.99)
+>* use cable for uv-uhv normal transformer other than wire by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7807 (5.09.54.99)
+>* Crafting recipe speedups by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7806 (5.09.54.99)
 >* fix processinglogic npe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7800 (5.09.54.98)
 >* Snapshot TE during explosions by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7794 (5.09.54.97)
 >* Ice Cream Machine by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7549 (5.09.54.97)
@@ -893,10 +903,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GTNHLib - 0.11.24 --> 0.11.40
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.40
+# Updated - GTNHLib - 0.11.24 --> 0.11.41
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.24...0.11.41
 
 ## What's Changed:
+>* Avoid parsing metadata for unrelated resources by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/454 (0.11.41)
 >* Fix walk/fall particle icons when walking on modeled blocks by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/434 (0.11.40)
 >* Only block old blockstates by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/449 (0.11.39)
 >* Don't crash when old models are loaded by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/443 (0.11.38)
@@ -1536,10 +1547,11 @@ Mod is client-side only.
 >* Fix Witchery disarm dupe by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/60 (1.5.25-GTNH)
 >* Fix thaumic replicator crash by @zaru-noodles in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/61 (1.5.25-GTNH)
 
-# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.101-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.101-GTNH
+# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.102-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.102-GTNH
 
 ## What's Changed:
+>* improve crafting station connected inventory layout by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/317 (1.14.102-GTNH)
 >* return crafting station ingredients to connected inventories by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/312 (1.14.101-GTNH)
 >* change damage behavior to vanilla by @Nana-Sakura in https://github.com/GTNewHorizons/TinkersConstruct/pull/315 (1.14.100-GTNH)
 >* Make Tinkers ToolStations tagged (#26040) by @mattiasploesch-cpu in https://github.com/GTNewHorizons/TinkersConstruct/pull/316 (1.14.100-GTNH)

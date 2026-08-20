@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-19T09:35:02.241812+00:00",
-  "config": "2.9.0-nightly-2026-08-19",
+  "last_updated": "2026-08-20T04:05:01.649379+00:00",
+  "config": "2.9.0-nightly-2026-08-19-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.24-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1034-GTNH",
+      "version": "rv3-beta-1035-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.43",
+      "version": "2.6.44",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.98",
+      "version": "5.09.54.99",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.40",
+      "version": "0.11.41",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -513,7 +513,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.101-GTNH",
+      "version": "1.14.102-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.7",
+      "version": "2.2.8",
       "side": "CLIENT"
     },
     "AkashicTome": {
