@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-20T04:05:01.649379+00:00",
+  "last_updated": "2026-08-21T05:17:47.272949+00:00",
   "config": "2.9.0-nightly-2026-08-19-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1035-GTNH",
+      "version": "rv3-beta-1036-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "BetterCrashes": {
-      "version": "1.4.5-GTNH",
+      "version": "1.4.6-GTNH",
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.4.1-GTNH",
+      "version": "2.4.2-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -205,11 +205,11 @@
       "side": "BOTH"
     },
     "gendustry": {
-      "version": "1.9.12-GTNH",
+      "version": "1.9.13-GTNH",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.99",
+      "version": "5.09.54.101",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.41",
+      "version": "0.11.42",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.189",
+      "version": "2.7.190",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.42",
+      "version": "1.6.43",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.43",
+      "version": "2.9.45",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.58-GTNH",
+      "version": "1.7.59-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.54-GTNH",
+      "version": "2.6.55-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.98",
+      "version": "0.4.99",
       "side": "BOTH"
     },
     "Freecam": {
