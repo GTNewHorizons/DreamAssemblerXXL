@@ -21,6 +21,7 @@ RELEASE_PRISM_DIR = RELEASE_DIR / "multi_poly"
 RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
+RELEASE_MOBILE_DIR = RELEASE_DIR / "mobile"
 RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
 RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR = RELEASE_CHANGELOG_DIR / "experimental builds"
 RELEASE_CHANGELOG_DAILY_BUILDS_DIR = RELEASE_CHANGELOG_DIR / "daily builds"
@@ -42,6 +43,7 @@ class Archive(str, Enum):
     ZIP = "zip"
     CURSEFORGE = "CurseForge"
     MODRINTH = "Modrinth"
+    MOBILE = "Mobile"
 
 
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
@@ -101,6 +103,17 @@ name={}
 notes=
 """
 
+MRPACK_METADATA = """{{
+    "dependencies": {{
+        "minecraft": "1.7.10"
+    }},
+    "files": [],
+    "formatVersion": 1,
+    "game": "minecraft",
+    "name": "{0}",
+    "versionId": "{1}"
+}}"""
+
 SERVER_PROPERTIES_FILE = """generator-settings=
 op-permission-level=2
 allow-nether=true
@@ -141,6 +154,8 @@ JAVA_9_ARCHIVE_SUFFIX = "Java_17-26"
 GTNH_DEV_CYCLE = "2.9.x"
 NHCORE_CONFIG_VERSION_ENTRY = "S:ModPackVersion="
 NHCOREMOD_WINDOW_VERSION_ENTRY = "displayedModpackVersion="
+LWJGL3IFY_SHARED_CONTEXT_ENTRY = "B:sharedContext="
+LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY = "B:linuxCreateAppDesktopEntry="
 
 
 class Side(str, Enum):
