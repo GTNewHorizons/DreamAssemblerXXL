@@ -1,11 +1,11 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-21T05:17:47.272949+00:00",
+  "last_updated": "2026-08-22T04:02:11.653372+00:00",
   "config": "2.9.0-nightly-2026-08-19-2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.24-GTNH",
+      "version": "1.4.25-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1036-GTNH",
+      "version": "rv3-beta-1038-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.44",
+      "version": "2.6.45",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.12",
+      "version": "1.9.13",
       "side": "BOTH"
     },
     "Botania": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.101",
+      "version": "5.09.54.102",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.42",
+      "version": "0.11.43",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.43",
+      "version": "1.6.44",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.45",
+      "version": "2.9.46",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.7-GTNH",
+      "version": "1.5.8-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.49-GTNH",
+      "version": "1.8.50-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.8.11",
+      "version": "1.8.12",
       "side": "CLIENT"
     },
     "FloodLights": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "neiaddons": {
-      "version": "1.18.4",
+      "version": "1.18.5",
       "side": "BOTH"
     },
     "Angelica": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.46-GTNH",
+      "version": "1.3.47-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.110",
+      "version": "2.0.111",
       "side": "BOTH"
     },
     "Fether": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.21",
+      "version": "1.3.22",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
