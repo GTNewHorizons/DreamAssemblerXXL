@@ -254,11 +254,21 @@ jobs:
         with:
           name: daily-build-bundle
 
+      - name: Create daily releases token
+        id: daily-releases-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.DAILY_RELEASES_APP_CLIENT_ID }}
+          private-key: ${{ secrets.DAILY_RELEASES_APP_PRIVATE_KEY }}
+          owner: GTNewHorizons
+          repositories: GTNH-Daily-Builds
+          permission-contents: write
+
       # Publish the tested modpack variants in the configured download repository.
       - name: Publish daily release
         shell: bash
         env:
-          GH_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
           TAG: daily-${{ needs.build.outputs.today }}
         run: |
           set -euo pipefail
@@ -268,6 +278,7 @@ jobs:
             GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
             GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
             GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
           )
 
           if gh release view "$TAG" --repo "$RELEASE_REPOSITORY" >/dev/null 2>&1; then
@@ -277,12 +288,6 @@ jobs:
               --title "GTNH daily ${{ needs.build.outputs.today }}" \
               --notes-file "$daily_non_daily_changelog_file"
           fi
-
-      - name: Upload android built mrpack
-        uses: actions/upload-artifact@v7
-        with:
-          path: GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
-          archive: false
 
       - name: Push daily changelog in commit to master
         shell: bash
