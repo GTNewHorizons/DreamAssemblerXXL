@@ -9,6 +9,9 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
+env:
+  RELEASE_REPOSITORY: GTNewHorizons/GTNH-Daily-Builds
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -203,8 +206,9 @@ jobs:
           else
             title="Daily Build Success"
             color=5763719
-            artifacts_field=$(jq -n --arg url "${RUN_URL}#artifacts" \
-              '[{ name: "Artifacts", value: ("[Download](" + $url + ")"), inline: true }]')
+            release_url="https://github.com/${RELEASE_REPOSITORY}/releases/tag/daily-${BUILD_ID}"
+            artifacts_field=$(jq -n --arg url "$release_url" \
+              '[{ name: "Release", value: ("[Download](" + $url + ")"), inline: true }]')
           fi
 
           payload=$(jq -n \
@@ -249,36 +253,29 @@ jobs:
         with:
           name: daily-build-bundle
 
-      # Upload the actual variants of the modpack now that we've tested them
-      - name: Upload manifest
-        uses: actions/upload-artifact@v7
-        with:
-          name: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
-          path: releases/manifests/daily.json
+      # Publish the tested modpack variants in the configured download repository.
+      - name: Publish daily release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+          TAG: daily-${{ needs.build.outputs.today }}
+        run: |
+          set -euo pipefail
+          assets=(
+            releases/manifests/daily.json
+            GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
+          )
 
-      - name: Upload server zip
-        uses: actions/upload-artifact@v7
-        with:
-          path: GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
-          archive: false
-
-      - name: Upload modern java server zip
-        uses: actions/upload-artifact@v7
-        with:
-          path: GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
-          archive: false
-
-      - name: Upload Prism zip
-        uses: actions/upload-artifact@v7
-        with:
-          path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
-          archive: false
-
-      - name: Upload modern java Prism zip
-        uses: actions/upload-artifact@v7
-        with:
-          path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
-          archive: false
+          if gh release view "$TAG" --repo "$RELEASE_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --clobber
+          else
+            gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --prerelease \
+              --title "GTNH daily ${{ needs.build.outputs.today }}" \
+              --notes-file "$daily_non_daily_changelog_file"
+          fi
 
       - name: Push daily changelog in commit to master
         shell: bash
