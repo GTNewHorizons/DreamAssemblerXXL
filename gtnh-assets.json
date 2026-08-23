@@ -17871,7 +17871,7 @@
     },
     {
       "name": "AppleCore",
-      "latest_version": "3.3.11",
+      "latest_version": "3.3.12",
       "private": false,
       "versions": [
         {
@@ -18204,6 +18204,16 @@
           "filename": "AppleCore-3.3.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AppleCore/releases/assets/431454559",
           "browser_download_url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.3.11/AppleCore-3.3.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.12",
+          "changelog": "## What's Changed\n* Fix by removing alpha check by @Ranzuu in https://github.com/GTNewHorizons/AppleCore/pull/41\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/AppleCore/pull/41\n\n**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.11...3.3.12\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-23T13:10:56+00:00",
+          "filename": "AppleCore-3.3.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AppleCore/releases/assets/526229274",
+          "browser_download_url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.3.12/AppleCore-3.3.12.jar",
           "extra_assets": []
         }
       ],
@@ -65910,7 +65920,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.104",
+      "latest_version": "5.09.54.105",
       "private": false,
       "versions": [
         {
@@ -91972,6 +91982,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/525770512",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.104/gregtech-5.09.54.104.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.105",
+          "changelog": "## What's Changed\n* Fix a mismatch between buffered recipe removal and unbuffered recipe removal by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7838\n* Improve single block waila by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7836\n* Fix NAC draining problem by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7839\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.104...5.09.54.105\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-23T13:06:56+00:00",
+          "filename": "gregtech-5.09.54.105.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/526224126",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.105/gregtech-5.09.54.105.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -103818,7 +103838,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.190",
+      "latest_version": "2.7.191",
       "private": false,
       "versions": [
         {
@@ -109869,6 +109889,16 @@
           "filename": "hodgepodge-2.7.190.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/522597674",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.190/hodgepodge-2.7.190.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.191",
+          "changelog": "## What's Changed\n* Disable SPEEDUP_CHUNK_UNLOAD when ultramine is present by @SKProCH in https://github.com/GTNewHorizons/Hodgepodge/pull/984\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.190...2.7.191\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-23T13:05:24+00:00",
+          "filename": "hodgepodge-2.7.191.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/526222833",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.191/hodgepodge-2.7.191.jar",
           "extra_assets": []
         }
       ],
@@ -184889,7 +184919,7 @@
     },
     {
       "name": "waila",
-      "latest_version": "1.19.32",
+      "latest_version": "1.19.33",
       "private": false,
       "versions": [
         {
@@ -185611,6 +185641,16 @@
           "filename": "Waila-1.19.32.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/525763086",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.19.32/Waila-1.19.32.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.19.33",
+          "changelog": "## What's Changed\n* Add ColorUtils by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/74\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.19.32...1.19.33\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-23T13:07:38+00:00",
+          "filename": "Waila-1.19.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/526225011",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.19.33/Waila-1.19.33.jar",
           "extra_assets": []
         }
       ],
@@ -189239,6 +189279,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 696,
-  "latest_successful_daily": 696
+  "latest_daily": 697,
+  "latest_successful_daily": 697
 }

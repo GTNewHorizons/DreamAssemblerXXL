@@ -93,6 +93,12 @@ Mod is client-side only.
 >* Reenable compute shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1918 (2.1.52)
 >* Fix infinite farplane causing incorrect culling in pdim with no clouds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1917 (2.1.51)
 
+# Updated - AppleCore - 3.3.11 --> 3.3.12
+**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.11...3.3.12
+
+## What's Changed:
+>* Fix by removing alpha check by @Ranzuu in https://github.com/GTNewHorizons/AppleCore/pull/41 (3.3.12)
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1039-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1039-GTNH
 
@@ -558,10 +564,13 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.104
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.104
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.105
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.105
 
 ## What's Changed:
+>* Fix a mismatch between buffered recipe removal and unbuffered recipe removal by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7838 (5.09.54.105)
+>* Improve single block waila by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7836 (5.09.54.105)
+>* Fix NAC draining problem by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7839 (5.09.54.105)
 >* Add panel side to modular panel name by @mcmlevi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7828 (5.09.54.104)
 >* fix: getTE when crossing chunk by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7822 (5.09.54.104)
 >* Fix NAC power drain into unformed modules by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7818 (5.09.54.103)
@@ -1053,10 +1062,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Hodgepodge - 2.7.170 --> 2.7.190
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.190
+# Updated - Hodgepodge - 2.7.170 --> 2.7.191
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.191
 
 ## What's Changed:
+>* Disable SPEEDUP_CHUNK_UNLOAD when ultramine is present by @SKProCH in https://github.com/GTNewHorizons/Hodgepodge/pull/984 (2.7.191)
 >* throttle window event pumping during pack load by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/983 (2.7.190)
 >* parametrized logging and remove calls to printStackTrace by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/980 (2.7.190)
 >* Fix IC2 rubber sapling bone meal underflow by @Worive in https://github.com/GTNewHorizons/Hodgepodge/pull/979 (2.7.189)
@@ -1779,10 +1789,11 @@ Mod is client-side only.
 >* Make things pottable by @FourIsTheNumber in https://github.com/GTNewHorizons/twilightforest/pull/152 (2.7.38)
 >* Fix Ur-Ghast trophy head animation speed by @Eldrinn-Elantey in https://github.com/GTNewHorizons/twilightforest/pull/149 (2.7.37)
 
-# Updated - waila - 1.19.30 --> 1.19.32
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.19.30...1.19.32
+# Updated - waila - 1.19.30 --> 1.19.33
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.19.30...1.19.33
 
 ## What's Changed:
+>* Add ColorUtils by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/74 (1.19.33)
 >* Improve progress bar by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/73 (1.19.32)
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
