@@ -156,6 +156,7 @@ NHCORE_CONFIG_VERSION_ENTRY = "S:ModPackVersion="
 NHCOREMOD_WINDOW_VERSION_ENTRY = "displayedModpackVersion="
 LWJGL3IFY_SHARED_CONTEXT_ENTRY = "B:sharedContext="
 LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY = "B:linuxCreateAppDesktopEntry="
+BLS_THREADED_RENDERING = "B:threadedRendering="
 
 
 class Side(str, Enum):

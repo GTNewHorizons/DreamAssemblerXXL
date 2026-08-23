@@ -6,6 +6,7 @@ from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.defs import (
+    BLS_THREADED_RENDERING,
     LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY,
     LWJGL3IFY_SHARED_CONTEXT_ENTRY,
     MRPACK_METADATA,
@@ -47,11 +48,12 @@ class MobileAssembler(GenericAssembler):
             global_progress_callback=global_progress_callback,
             changelog_path=changelog_path,
         )
-        self.excluded_mod_names: list[str] = ["Craft-Presence", "BetterLoadingScreen"]
+        self.excluded_mod_names: list[str] = ["Craft-Presence"]
         self.mobile_modpack_files: Path = Path("overrides")
         self.mobile_modpack_mods: Path = self.mobile_modpack_files / "mods"
 
         self.modified_config_files["config/lwjgl3ify.cfg"] = self._modify_lwjgl3ify_config
+        self.modified_config_files["config/Betterloadingscreen/betterloadingscreen.cfg"] = self._modify_BLS
 
     async def add_mods(
         self,
@@ -118,5 +120,10 @@ class MobileAssembler(GenericAssembler):
     def _modify_lwjgl3ify_config(self, file_entry: str, data: bytes) -> bytes:
         data = self._change_forge_entry_or_raise(data=data, forge_key=LWJGL3IFY_SHARED_CONTEXT_ENTRY, replacement="false", file_entry=file_entry)
         data = self._change_forge_entry_or_raise(data=data, forge_key=LWJGL3IFY_LINUX_CREATE_DESKTOP_ENTRY, replacement="false", file_entry=file_entry)
+
+        return data
+
+    def _modify_BLS(self, file_entry: str, data: bytes) -> bytes:
+        data = self._change_forge_entry_or_raise(data=data, forge_key=BLS_THREADED_RENDERING, replacement="false", file_entry=file_entry)
 
         return data
