@@ -9,6 +9,9 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
+# The built-in GITHUB_TOKEN must not have access to DreamAssemblerXXL.
+permissions: {}
+
 env:
   RELEASE_REPOSITORY: GTNewHorizons/GTNH-Daily-Builds
   RELEASE_RETENTION_DAYS: 14
