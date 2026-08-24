@@ -174,7 +174,7 @@ jobs:
 
 
   notify-status:
-    needs: [build, test, upload, prune-releases]
+    needs: [build, test, update-repository, upload]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     steps:
@@ -188,8 +188,8 @@ jobs:
           RUN_NUMBER: ${{ github.run_number }}
           BUILD_RESULT: ${{ needs.build.result }}
           TEST_RESULT: ${{ needs.test.result }}
+          UPDATE_REPOSITORY_RESULT: ${{ needs.update-repository.result }}
           UPLOAD_RESULT: ${{ needs.upload.result }}
-          PRUNE_RESULT: ${{ needs.prune-releases.result }}
         run: |
           set -euo pipefail
           if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
@@ -199,11 +199,11 @@ jobs:
           timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
           # Precedence: failure > cancelled > success
-          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ] || [ "$PRUNE_RESULT" = "failure" ]; then
+          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPDATE_REPOSITORY_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
             title="Daily Build Failure"
             color=15548997
             artifacts_field='[]'
-          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ] || [ "$PRUNE_RESULT" = "cancelled" ]; then
+          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPDATE_REPOSITORY_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ]; then
             title="Daily Build Cancelled"
             color=9807270
             artifacts_field='[]'
@@ -237,7 +237,7 @@ jobs:
             }')
           curl -fsS -X POST -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL"
 
-  upload:
+  update-repository:
     needs: [build, test]
     runs-on: ubuntu-24.04
     env:
@@ -257,44 +257,80 @@ jobs:
         with:
           name: daily-build-bundle
 
+      - name: Push daily changelog in commit to master
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git add "$daily_non_daily_changelog_file"
+          git add "./releases/changelogs/daily builds"
+          git add ./releases/manifests/daily.json
+          git add ./gtnh-assets.json
+          git commit -m "Upload daily $changelog_name"
+          git push origin master
+
+  upload:
+    needs: [build, test, update-repository]
+    if: ${{ always() }}
+    runs-on: ubuntu-24.04
+    # This job has no checkout or DreamAssemblerXXL credential. Its GitHub App
+    # token is scoped only to GTNH-Daily-Builds.
+    permissions: {}
+    env:
+      daily_non_daily_changelog_file: ${{ needs.build.outputs.daily_non_daily_changelog_file }}
+    steps:
+      - name: Download build bundle
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
+        uses: actions/download-artifact@v7
+        with:
+          name: daily-build-bundle
+
       # Keep legacy artifacts available while consumers migrate to releases.
       - name: Upload manifest
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           name: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
           path: releases/manifests/daily.json
 
       - name: Upload server zip
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
           archive: false
 
       - name: Upload modern java server zip
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
           archive: false
 
       - name: Upload Prism zip
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
           archive: false
 
       - name: Upload modern java Prism zip
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
           archive: false
 
       - name: Upload android built mrpack
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
           archive: false
 
       - name: Create daily releases token
+        if: ${{ always() }}
         id: daily-releases-token
         uses: actions/create-github-app-token@v3
         with:
@@ -306,6 +342,7 @@ jobs:
 
       # Publish the tested modpack variants in the configured download repository.
       - name: Publish daily release
+        if: ${{ success() && needs.build.result == 'success' && needs.test.result == 'success' }}
         shell: bash
         env:
           GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
@@ -329,38 +366,8 @@ jobs:
               --notes-file "$daily_non_daily_changelog_file"
           fi
 
-      - name: Push daily changelog in commit to master
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase true
-          git add "$daily_non_daily_changelog_file"
-          git add "./releases/changelogs/daily builds"
-          git add ./releases/manifests/daily.json
-          git add ./gtnh-assets.json
-          git commit -m "Upload daily $changelog_name"
-          git push origin master
-
-  prune-releases:
-    needs: upload
-    if: ${{ always() }}
-    runs-on: ubuntu-24.04
-    # The built-in GITHUB_TOKEN must not have access to DreamAssemblerXXL.
-    # The GitHub App token below is scoped only to GTNH-Daily-Builds.
-    permissions: {}
-    steps:
-      - name: Create daily releases token
-        id: daily-releases-token
-        uses: actions/create-github-app-token@v3
-        with:
-          client-id: ${{ vars.DAILY_RELEASES_APP_CLIENT_ID }}
-          private-key: ${{ secrets.DAILY_RELEASES_APP_PRIVATE_KEY }}
-          owner: GTNewHorizons
-          repositories: GTNH-Daily-Builds
-          permission-contents: write
-
       - name: Delete expired daily releases
+        if: ${{ always() && steps.daily-releases-token.outcome == 'success' }}
         shell: bash
         env:
           GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
@@ -378,6 +385,7 @@ jobs:
           done <<< "$tags"
 
       - name: Enforce maximum daily release count
+        if: ${{ always() && steps.daily-releases-token.outcome == 'success' }}
         shell: bash
         env:
           GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
