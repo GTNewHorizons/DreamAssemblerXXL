@@ -174,7 +174,7 @@ jobs:
 
 
   notify-status:
-    needs: [build, test, update-repository, upload]
+    needs: [build, test, upload]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     steps:
@@ -188,7 +188,6 @@ jobs:
           RUN_NUMBER: ${{ github.run_number }}
           BUILD_RESULT: ${{ needs.build.result }}
           TEST_RESULT: ${{ needs.test.result }}
-          UPDATE_REPOSITORY_RESULT: ${{ needs.update-repository.result }}
           UPLOAD_RESULT: ${{ needs.upload.result }}
         run: |
           set -euo pipefail
@@ -199,11 +198,11 @@ jobs:
           timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
           # Precedence: failure > cancelled > success
-          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPDATE_REPOSITORY_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
+          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
             title="Daily Build Failure"
             color=15548997
             artifacts_field='[]'
-          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPDATE_REPOSITORY_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ]; then
+          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ]; then
             title="Daily Build Cancelled"
             color=9807270
             artifacts_field='[]'
@@ -237,49 +236,26 @@ jobs:
             }')
           curl -fsS -X POST -H "Content-Type: application/json" -d "$payload" "$DISCORD_WEBHOOK_URL"
 
-  update-repository:
+  upload:
     needs: [build, test]
+    if: ${{ always() }}
     runs-on: ubuntu-24.04
+    # The built-in token has no permissions. The checkout credential is not
+    # persisted, and the GitHub App token is scoped only to GTNH-Daily-Builds.
+    permissions: {}
     env:
       daily_non_daily_changelog_file: ${{ needs.build.outputs.daily_non_daily_changelog_file }}
       changelog_name: ${{ needs.build.outputs.changelog_name }}
     steps:
       - name: Check out repository
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/checkout@v5
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
-          persist-credentials: true
+          persist-credentials: false
           fetch-depth: 0
           ref: master
 
-      - name: Download build bundle
-        uses: actions/download-artifact@v7
-        with:
-          name: daily-build-bundle
-
-      - name: Push daily changelog in commit to master
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase true
-          git add "$daily_non_daily_changelog_file"
-          git add "./releases/changelogs/daily builds"
-          git add ./releases/manifests/daily.json
-          git add ./gtnh-assets.json
-          git commit -m "Upload daily $changelog_name"
-          git push origin master
-
-  upload:
-    needs: [build, test, update-repository]
-    if: ${{ always() }}
-    runs-on: ubuntu-24.04
-    # This job has no checkout or DreamAssemblerXXL credential. Its GitHub App
-    # token is scoped only to GTNH-Daily-Builds.
-    permissions: {}
-    env:
-      daily_non_daily_changelog_file: ${{ needs.build.outputs.daily_non_daily_changelog_file }}
-    steps:
       - name: Download build bundle
         if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/download-artifact@v7
@@ -369,6 +345,26 @@ jobs:
               --title "GTNH daily ${{ needs.build.outputs.today }}" \
               --notes-file "$daily_non_daily_changelog_file"
           fi
+
+      - name: Push daily changelog in commit to master
+        if: ${{ success() && needs.build.result == 'success' && needs.test.result == 'success' }}
+        shell: bash
+        env:
+          NIGHTLY_GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$daily_non_daily_changelog_file"
+          git add "./releases/changelogs/daily builds"
+          git add ./releases/manifests/daily.json
+          git add ./gtnh-assets.json
+          git commit -m "Upload daily $changelog_name"
+
+          auth_header=$(printf 'x-access-token:%s' "$NIGHTLY_GITHUB_TOKEN" | base64 -w0)
+          GIT_CONFIG_COUNT=1 \
+            GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+            GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth_header" \
+            git push origin master
 
       - name: Delete expired daily releases
         if: ${{ always() && steps.daily-releases-token.outcome == 'success' }}
