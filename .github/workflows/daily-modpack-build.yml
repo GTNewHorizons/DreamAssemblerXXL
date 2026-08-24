@@ -11,6 +11,8 @@ concurrency:
 
 env:
   RELEASE_REPOSITORY: GTNewHorizons/GTNH-Daily-Builds
+  RELEASE_RETENTION_DAYS: 14
+  MAX_DAILY_RELEASES: 30
 
 jobs:
   build:
@@ -172,7 +174,7 @@ jobs:
 
 
   notify-status:
-    needs: [build, test, upload]
+    needs: [build, test, upload, prune-releases]
     if: ${{ always() }}
     runs-on: ubuntu-24.04
     steps:
@@ -187,6 +189,7 @@ jobs:
           BUILD_RESULT: ${{ needs.build.result }}
           TEST_RESULT: ${{ needs.test.result }}
           UPLOAD_RESULT: ${{ needs.upload.result }}
+          PRUNE_RESULT: ${{ needs.prune-releases.result }}
         run: |
           set -euo pipefail
           if [ -z "${DISCORD_WEBHOOK_URL:-}" ]; then
@@ -196,11 +199,11 @@ jobs:
           timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
           # Precedence: failure > cancelled > success
-          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
+          if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ] || [ "$PRUNE_RESULT" = "failure" ]; then
             title="Daily Build Failure"
             color=15548997
             artifacts_field='[]'
-          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ]; then
+          elif [ "$BUILD_RESULT" = "cancelled" ] || [ "$TEST_RESULT" = "cancelled" ] || [ "$UPLOAD_RESULT" = "cancelled" ] || [ "$PRUNE_RESULT" = "cancelled" ]; then
             title="Daily Build Cancelled"
             color=9807270
             artifacts_field='[]'
@@ -338,3 +341,60 @@ jobs:
           git add ./gtnh-assets.json
           git commit -m "Upload daily $changelog_name"
           git push origin master
+
+  prune-releases:
+    needs: upload
+    if: ${{ always() }}
+    runs-on: ubuntu-24.04
+    # The built-in GITHUB_TOKEN must not have access to DreamAssemblerXXL.
+    # The GitHub App token below is scoped only to GTNH-Daily-Builds.
+    permissions: {}
+    steps:
+      - name: Create daily releases token
+        id: daily-releases-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.DAILY_RELEASES_APP_CLIENT_ID }}
+          private-key: ${{ secrets.DAILY_RELEASES_APP_PRIVATE_KEY }}
+          owner: GTNewHorizons
+          repositories: GTNH-Daily-Builds
+          permission-contents: write
+
+      - name: Delete expired daily releases
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          cutoff=$(date -u -d "$RELEASE_RETENTION_DAYS days ago" +%Y-%m-%d)
+          echo "Deleting daily releases dated before $cutoff"
+
+          tags=$(gh release list --repo "$RELEASE_REPOSITORY" --limit 1000 --json tagName --jq '.[].tagName')
+          while IFS= read -r tag; do
+            if [[ "$tag" =~ ^daily-([0-9]{4}-[0-9]{2}-[0-9]{2})\+[0-9]+$ ]] && [[ "${BASH_REMATCH[1]}" < "$cutoff" ]]; then
+              echo "Deleting expired release $tag"
+              gh release delete "$tag" --repo "$RELEASE_REPOSITORY" --cleanup-tag --yes
+            fi
+          done <<< "$tags"
+
+      - name: Enforce maximum daily release count
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          tags=$(gh release list --repo "$RELEASE_REPOSITORY" --limit 1000 --order asc --json tagName --jq '.[].tagName')
+          daily_tags=()
+          while IFS= read -r tag; do
+            [[ "$tag" =~ ^daily-[0-9]{4}-[0-9]{2}-[0-9]{2}\+[0-9]+$ ]] && daily_tags+=("$tag")
+          done <<< "$tags"
+
+          total=${#daily_tags[@]}
+          echo "Found $total daily releases (max $MAX_DAILY_RELEASES)"
+          if (( total > MAX_DAILY_RELEASES )); then
+            to_delete=$((total - MAX_DAILY_RELEASES))
+            for tag in "${daily_tags[@]:0:to_delete}"; do
+              echo "Deleting $tag to enforce the release limit"
+              gh release delete "$tag" --repo "$RELEASE_REPOSITORY" --cleanup-tag --yes
+            done
+          fi
