@@ -254,6 +254,43 @@ jobs:
         with:
           name: daily-build-bundle
 
+      # Keep legacy artifacts available while consumers migrate to releases.
+      - name: Upload manifest
+        uses: actions/upload-artifact@v7
+        with:
+          name: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
+          path: releases/manifests/daily.json
+
+      - name: Upload server zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
+          archive: false
+
+      - name: Upload modern java server zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
+          archive: false
+
+      - name: Upload Prism zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
+          archive: false
+
+      - name: Upload modern java Prism zip
+        uses: actions/upload-artifact@v7
+        with:
+          path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
+          archive: false
+
+      - name: Upload android built mrpack
+        uses: actions/upload-artifact@v7
+        with:
+          path: GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
+          archive: false
+
       - name: Create daily releases token
         id: daily-releases-token
         uses: actions/create-github-app-token@v3
