@@ -286,13 +286,17 @@ jobs:
         with:
           name: daily-build-bundle
 
+      - name: Name manifest for daily tag
+        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
+        run: mv releases/manifests/daily.json gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
+
       # Keep legacy artifacts available while consumers migrate to releases.
       - name: Upload manifest
         if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           name: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
-          path: releases/manifests/daily.json
+          path: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
 
       - name: Upload server zip
         if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
@@ -350,7 +354,7 @@ jobs:
         run: |
           set -euo pipefail
           assets=(
-            releases/manifests/daily.json
+            gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
             GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
             GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
             GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
