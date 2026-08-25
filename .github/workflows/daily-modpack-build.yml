@@ -197,7 +197,7 @@ jobs:
           fi
           timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-          # Precedence: failure > cancelled > success
+          # Precedence: failure > cancelled > success > skipped
           if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
             title="Daily Build Failure"
             color=15548997
@@ -206,12 +206,16 @@ jobs:
             title="Daily Build Cancelled"
             color=9807270
             artifacts_field='[]'
-          else
+          elif [ "$BUILD_RESULT" = "success" ] && [ "$TEST_RESULT" = "success" ] && [ "$UPLOAD_RESULT" = "success" ]; then
             title="Daily Build Success"
             color=5763719
             release_url="https://github.com/${RELEASE_REPOSITORY}/releases/tag/daily-${BUILD_ID}"
             artifacts_field=$(jq -n --arg url "$release_url" \
               '[{ name: "Release", value: ("[Download](" + $url + ")"), inline: true }]')
+          else
+            title="Daily Build Skipped"
+            color=9807270
+            artifacts_field='[]'
           fi
 
           payload=$(jq -n \
@@ -238,7 +242,6 @@ jobs:
 
   upload:
     needs: [build, test]
-    if: ${{ always() }}
     runs-on: ubuntu-24.04
     # The built-in token has no permissions. The checkout credential is not
     # persisted, and the GitHub App token is scoped only to GTNH-Daily-Builds.
@@ -248,7 +251,6 @@ jobs:
       changelog_name: ${{ needs.build.outputs.changelog_name }}
     steps:
       - name: Check out repository
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/checkout@v5
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
@@ -257,56 +259,48 @@ jobs:
           ref: master
 
       - name: Download build bundle
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/download-artifact@v7
         with:
           name: daily-build-bundle
 
       # Keep legacy artifacts available while consumers migrate to releases.
       - name: Upload manifest
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           name: gtnh-daily-${{ needs.build.outputs.today }}-manifest.json
           path: releases/manifests/daily.json
 
       - name: Upload server zip
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
           archive: false
 
       - name: Upload modern java server zip
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
           archive: false
 
       - name: Upload Prism zip
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
           archive: false
 
       - name: Upload modern java Prism zip
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
           archive: false
 
       - name: Upload android built mrpack
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         uses: actions/upload-artifact@v7
         with:
           path: GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
           archive: false
 
       - name: Package manifest release asset
-        if: ${{ needs.build.result == 'success' && needs.test.result == 'success' }}
         run: zip -j gtnh-daily-${{ needs.build.outputs.today }}-manifest.json.zip releases/manifests/daily.json
 
       - name: Create daily releases token
@@ -322,7 +316,6 @@ jobs:
 
       # Publish the tested modpack variants in the configured download repository.
       - name: Publish daily release
-        if: ${{ success() && needs.build.result == 'success' && needs.test.result == 'success' }}
         shell: bash
         env:
           GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
@@ -347,7 +340,6 @@ jobs:
           fi
 
       - name: Push daily changelog in commit to master
-        if: ${{ success() && needs.build.result == 'success' && needs.test.result == 'success' }}
         shell: bash
         env:
           NIGHTLY_GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
