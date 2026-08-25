@@ -344,10 +344,11 @@ Mod is client-side only.
 >* Increase radius for ritual of magnetism to 34 by @Sanduhr32 in https://github.com/GTNewHorizons/BloodMagic/pull/138 (1.9.6)
 >* Fix broken demon city buildings by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/136 (1.9.5)
 
-# Updated - Botania - 1.13.26-GTNH --> 1.13.33-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.26-GTNH...1.13.33-GTNH
+# Updated - Botania - 1.13.26-GTNH --> 1.13.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.26-GTNH...1.13.34-GTNH
 
 ## What's Changed:
+>* Cache slab unlocalized name by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/152 (1.13.34-GTNH)
 >* fix: use renderViewEntity instead of player for rendering by @Caedis in https://github.com/GTNewHorizons/Botania/pull/151 (1.13.33-GTNH)
 >* add null check for explosionsource by @MLGfruitshoot in https://github.com/GTNewHorizons/Botania/pull/150 (1.13.32-GTNH)
 >* Fix render allocations by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/149 (1.13.31-GTNH)
@@ -583,10 +584,15 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.108
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.108
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.110
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.110
 
 ## What's Changed:
+>* Optimize network traffic by switching from NBTTagCompound to ByteBuf by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7821 (5.09.54.110)
+>* Show physical circuits and non-consumed items in AE2 interface name for single blocks and hatches by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7853 (5.09.54.110)
+>* Port Large Fusion Computer tooltips to markdown (batch 9) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7847 (5.09.54.109)
+>* Add config toggle for machine energy capacity tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7852 (5.09.54.109)
+>* Fix ME Output Bus/Hatch WAILA content names using server locale by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7854 (5.09.54.109)
 >* Add Ice Cream crafting rolls and disallow input/output by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7843 (5.09.54.108)
 >* Add gorge power fail notification fallback and refine power validation by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7783 (5.09.54.108)
 >* [BEC] Fix incorrect T0 Metamaterial Recipes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7846 (5.09.54.108)
@@ -1311,10 +1317,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Mark all the non optional parameters as optional, to avoid Zenscript warning in logs by @boubou19 in https://github.com/GTNewHorizons/ModTweaker/pull/9 (0.14.0)
 
-# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.86-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.86-1.7.10
+# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.87-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.87-1.7.10
 
 ## What's Changed:
+>* Add explicit check if we are swapping from and to the same slot by @mcmlevi in https://github.com/GTNewHorizons/ModularUI2/pull/160 (2.3.87-1.7.10)
 >* Localize the config by @Ranzuu in https://github.com/GTNewHorizons/ModularUI2/pull/148 (2.3.86-1.7.10)
 >* Take the fluid unit from GTNHLib instead of hardcoding L by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ModularUI2/pull/157 (2.3.85-1.7.10)
 >* Promote ModularUI1 dep to compileOnlyApi by @SuperSoupr in https://github.com/GTNewHorizons/ModularUI2/pull/154 (2.3.84-1.7.10)
@@ -1342,10 +1349,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.49
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.49
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.50
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.50
 
 ## What's Changed:
+>* Fix hollow hill mob spawns being lost after relog by @Emilgardis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1925 (2.9.50)
 >* Mechanical Armor jetpack recipe updates by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1924 (2.9.49)
 >* Remove perfect hover augment recipe by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1922 (2.9.48)
 >* changes around uxv cable by @Nana-Sakura in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1921 (2.9.47)
@@ -1427,10 +1435,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update deps by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/77 (1.7.36)
 >* Fix OreDict Permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/76 (1.7.35)
 
-# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.126-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.126-GTNH
+# Updated - NotEnoughItems - 2.8.111-GTNH --> 2.8.127-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.111-GTNH...2.8.127-GTNH
 
 ## What's Changed:
+>* Fix crash when recipe search results change mid-rebuild by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1012 (2.8.127-GTNH)
 >* Fix Fluid Untranslator by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1009 (2.8.126-GTNH)
 >* Fix Autocrafting Infinity Loop by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1004 (2.8.125-GTNH)
 >* Fix Autocrafting With GTTools by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1006 (2.8.125-GTNH)
@@ -1494,10 +1503,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/63 (1.12.20-GTNH)
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
-# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.56-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.56-GTNH
+# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.57-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.57-GTNH
 
 ## What's Changed:
+>* fix(appeng): serialize stack to NBTTagCompound to satisfy signal constraints by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/213 (1.12.57-GTNH)
 >* Added ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/OpenComputers/pull/218 (1.12.56-GTNH)
 >* fix(clipboard): make clipbboard signal batching opt-in for backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/215 (1.12.55-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/OpenComputers/pull/214 (1.12.54-GTNH)
@@ -1563,8 +1573,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20 (2.3.15)
 
-# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.68-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/commits/1.1.68-GTNH/compare/1.1.65-GTNH...1.1.68-GTNH
+# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.69-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.69-GTNH
 
 ## What's Changed:
 >* Sync with upstream  by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Salis-Arcana/pull/2 (1.1.68-GTNH)

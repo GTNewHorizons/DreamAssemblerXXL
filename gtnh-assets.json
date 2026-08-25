@@ -39232,7 +39232,7 @@
     },
     {
       "name": "Botania",
-      "latest_version": "1.13.33-GTNH",
+      "latest_version": "1.13.34-GTNH",
       "private": false,
       "versions": [
         {
@@ -40323,6 +40323,16 @@
           "filename": "Botania-1.13.33-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/506514832",
           "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.13.33-GTNH/Botania-1.13.33-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.13.34-GTNH",
+          "changelog": "## What's Changed\n* Cache slab unlocalized name by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/152\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.33-GTNH...1.13.34-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:33:11+00:00",
+          "filename": "Botania-1.13.34-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/529031742",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.13.34-GTNH/Botania-1.13.34-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -66010,7 +66020,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.108",
+      "latest_version": "5.09.54.110",
       "private": false,
       "versions": [
         {
@@ -92111,6 +92121,26 @@
           "filename": "gregtech-5.09.54.108.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/527070121",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.108/gregtech-5.09.54.108.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.109",
+          "changelog": "## What's Changed\n* Port Large Fusion Computer tooltips to markdown (batch 9) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7847\n* Add config toggle for machine energy capacity tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7852\n* Fix ME Output Bus/Hatch WAILA content names using server locale by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7854\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.108...5.09.54.109\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:34:33+00:00",
+          "filename": "gregtech-5.09.54.109.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/529033166",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.109/gregtech-5.09.54.109.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.110",
+          "changelog": "## What's Changed\n* Optimize network traffic by switching from NBTTagCompound to ByteBuf by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7821\n* Show physical circuits and non-consumed items in AE2 interface name for single blocks and hatches by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7853\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.109...5.09.54.110\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T14:09:06+00:00",
+          "filename": "gregtech-5.09.54.110.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/529294517",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.110/gregtech-5.09.54.110.jar",
           "extra_assets": []
         }
       ],
@@ -129061,7 +129091,7 @@
     },
     {
       "name": "ModularUI2",
-      "latest_version": "2.3.86-1.7.10",
+      "latest_version": "2.3.87-1.7.10",
       "private": false,
       "versions": [
         {
@@ -130424,6 +130454,16 @@
           "filename": "modularui2-2.3.86-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/525760422",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.86-1.7.10/modularui2-2.3.86-1.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.87-1.7.10",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.87-1.7.10 -->\n\n## What's Changed\n* Add explicit check if we are swapping from and to the same slot by @mcmlevi in https://github.com/GTNewHorizons/ModularUI2/pull/160\n\n## New Contributors\n* @mcmlevi made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/160\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.86-1.7.10...2.3.87-1.7.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:36:49+00:00",
+          "filename": "modularui2-2.3.87-1.7.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/529035955",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.87-1.7.10/modularui2-2.3.87-1.7.10.jar",
           "extra_assets": []
         }
       ],
@@ -133517,7 +133557,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.49",
+      "latest_version": "2.9.50",
       "private": false,
       "versions": [
         {
@@ -145569,6 +145609,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/527127471",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.49/GTNewHorizonsCoreMod-2.9.49.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.50",
+          "changelog": "## What's Changed\n* Fix hollow hill mob spawns being lost after relog by @Emilgardis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1925\n\n## New Contributors\n* @Emilgardis made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1925\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.49...2.9.50\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:33:39+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.50.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/529032257",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.50/GTNewHorizonsCoreMod-2.9.50.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -146831,7 +146881,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.126-GTNH",
+      "latest_version": "2.8.127-GTNH",
       "private": false,
       "versions": [
         {
@@ -151454,6 +151504,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/526058480",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.126-GTNH/NotEnoughItems-2.8.126-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.127-GTNH",
+          "changelog": "## What's Changed\n* Fix crash when recipe search results change mid-rebuild by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1012\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.126-GTNH...2.8.127-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:33:50+00:00",
+          "filename": "NotEnoughItems-2.8.127-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/529032472",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.127-GTNH/NotEnoughItems-2.8.127-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -153098,7 +153158,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.12.56-GTNH",
+      "latest_version": "1.12.57-GTNH",
       "private": false,
       "versions": [
         {
@@ -154719,6 +154779,16 @@
           "filename": "OpenComputers-1.12.56-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/528029669",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.56-GTNH/OpenComputers-1.12.56-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.57-GTNH",
+          "changelog": "## What's Changed\n* fix(appeng): serialize stack to NBTTagCompound to satisfy signal constraints by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/213\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.56-GTNH...1.12.57-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:36:36+00:00",
+          "filename": "OpenComputers-1.12.57-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/529035675",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.57-GTNH/OpenComputers-1.12.57-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -159620,7 +159690,7 @@
     },
     {
       "name": "Salis-Arcana",
-      "latest_version": "1.1.68-GTNH",
+      "latest_version": "1.1.69-GTNH",
       "private": false,
       "versions": [
         {
@@ -160281,6 +160351,16 @@
           "filename": "salisarcana-1.1.68-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Salis-Arcana/releases/assets/526393103",
           "browser_download_url": "https://github.com/GTNewHorizons/Salis-Arcana/releases/download/1.1.68-GTNH/salisarcana-1.1.68-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.69-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.68-GTNH...1.1.69-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-25T10:06:17+00:00",
+          "filename": "salisarcana-1.1.69-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Salis-Arcana/releases/assets/528998937",
+          "browser_download_url": "https://github.com/GTNewHorizons/Salis-Arcana/releases/download/1.1.69-GTNH/salisarcana-1.1.69-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -189489,6 +189569,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 700,
-  "latest_successful_daily": 700
+  "latest_daily": 702,
+  "latest_successful_daily": 702
 }
