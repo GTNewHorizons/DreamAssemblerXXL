@@ -9,6 +9,11 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
+env:
+  RELEASE_REPOSITORY: GTNewHorizons/GTNH-Daily-Builds
+  RELEASE_RETENTION_DAYS: 14
+  MAX_DAILY_RELEASES: 30
+
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -192,7 +197,7 @@ jobs:
           fi
           timestamp=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-          # Precedence: failure > cancelled > success
+          # Precedence: failure > cancelled > success > skipped
           if [ "$BUILD_RESULT" = "failure" ] || [ "$TEST_RESULT" = "failure" ] || [ "$UPLOAD_RESULT" = "failure" ]; then
             title="Daily Build Failure"
             color=15548997
@@ -201,11 +206,16 @@ jobs:
             title="Daily Build Cancelled"
             color=9807270
             artifacts_field='[]'
-          else
+          elif [ "$BUILD_RESULT" = "success" ] && [ "$TEST_RESULT" = "success" ] && [ "$UPLOAD_RESULT" = "success" ]; then
             title="Daily Build Success"
             color=5763719
-            artifacts_field=$(jq -n --arg url "${RUN_URL}#artifacts" \
-              '[{ name: "Artifacts", value: ("[Download](" + $url + ")"), inline: true }]')
+            release_url="https://github.com/${RELEASE_REPOSITORY}/releases/tag/daily-${BUILD_ID}"
+            artifacts_field=$(jq -n --arg url "$release_url" \
+              '[{ name: "Release", value: ("[Download](" + $url + ")"), inline: true }]')
+          else
+            title="Daily Build Skipped"
+            color=9807270
+            artifacts_field='[]'
           fi
 
           payload=$(jq -n \
@@ -233,6 +243,9 @@ jobs:
   upload:
     needs: [build, test]
     runs-on: ubuntu-24.04
+    # The built-in token has no permissions. The checkout credential is not
+    # persisted, and the GitHub App token is scoped only to GTNH-Daily-Builds.
+    permissions: {}
     env:
       daily_non_daily_changelog_file: ${{ needs.build.outputs.daily_non_daily_changelog_file }}
       changelog_name: ${{ needs.build.outputs.changelog_name }}
@@ -241,7 +254,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
-          persist-credentials: true
+          persist-credentials: false
           fetch-depth: 0
           ref: master
 
@@ -250,7 +263,7 @@ jobs:
         with:
           name: daily-build-bundle
 
-      # Upload the actual variants of the modpack now that we've tested them
+      # Keep legacy artifacts available while consumers migrate to releases.
       - name: Upload manifest
         uses: actions/upload-artifact@v7
         with:
@@ -287,15 +300,101 @@ jobs:
           path: GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
           archive: false
 
+      - name: Package manifest release asset
+        run: zip -j gtnh-daily-${{ needs.build.outputs.today }}-manifest.json.zip releases/manifests/daily.json
+
+      - name: Create daily releases token
+        if: ${{ always() }}
+        id: daily-releases-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.DAILY_RELEASES_APP_CLIENT_ID }}
+          private-key: ${{ secrets.DAILY_RELEASES_APP_PRIVATE_KEY }}
+          owner: GTNewHorizons
+          repositories: GTNH-Daily-Builds
+          permission-contents: write
+
+      # Publish the tested modpack variants in the configured download repository.
+      - name: Publish daily release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
+          TAG: daily-${{ needs.build.outputs.today }}
+        run: |
+          set -euo pipefail
+          assets=(
+            gtnh-daily-${{ needs.build.outputs.today }}-manifest.json.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-server-java8.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-server-java17-26.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java8.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-mmcprism-java17-26.zip
+            GTNH-daily-${{ needs.build.outputs.today }}-android-java17-26.mrpack
+          )
+
+          if gh release view "$TAG" --repo "$RELEASE_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --clobber
+          else
+            gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --prerelease \
+              --title "GTNH daily ${{ needs.build.outputs.today }}" \
+              --notes-file "$daily_non_daily_changelog_file"
+          fi
+
       - name: Push daily changelog in commit to master
         shell: bash
+        env:
+          NIGHTLY_GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase true
           git add "$daily_non_daily_changelog_file"
           git add "./releases/changelogs/daily builds"
           git add ./releases/manifests/daily.json
           git add ./gtnh-assets.json
           git commit -m "Upload daily $changelog_name"
-          git push origin master
+
+          auth_header=$(printf 'x-access-token:%s' "$NIGHTLY_GITHUB_TOKEN" | base64 -w0)
+          GIT_CONFIG_COUNT=1 \
+            GIT_CONFIG_KEY_0=http.https://github.com/.extraheader \
+            GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth_header" \
+            git push origin master
+
+      - name: Delete expired daily releases
+        if: ${{ always() && steps.daily-releases-token.outcome == 'success' }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          cutoff=$(date -u -d "$RELEASE_RETENTION_DAYS days ago" +%Y-%m-%d)
+          echo "Deleting daily releases dated before $cutoff"
+
+          tags=$(gh release list --repo "$RELEASE_REPOSITORY" --limit 1000 --json tagName --jq '.[].tagName')
+          while IFS= read -r tag; do
+            if [[ "$tag" =~ ^daily-([0-9]{4}-[0-9]{2}-[0-9]{2})\+[0-9]+$ ]] && [[ "${BASH_REMATCH[1]}" < "$cutoff" ]]; then
+              echo "Deleting expired release $tag"
+              gh release delete "$tag" --repo "$RELEASE_REPOSITORY" --cleanup-tag --yes
+            fi
+          done <<< "$tags"
+
+      - name: Enforce maximum daily release count
+        if: ${{ always() && steps.daily-releases-token.outcome == 'success' }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.daily-releases-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          tags=$(gh release list --repo "$RELEASE_REPOSITORY" --limit 1000 --order asc --json tagName --jq '.[].tagName')
+          daily_tags=()
+          while IFS= read -r tag; do
+            [[ "$tag" =~ ^daily-[0-9]{4}-[0-9]{2}-[0-9]{2}\+[0-9]+$ ]] && daily_tags+=("$tag")
+          done <<< "$tags"
+
+          total=${#daily_tags[@]}
+          echo "Found $total daily releases (max $MAX_DAILY_RELEASES)"
+          if (( total > MAX_DAILY_RELEASES )); then
+            to_delete=$((total - MAX_DAILY_RELEASES))
+            for tag in "${daily_tags[@]:0:to_delete}"; do
+              echo "Deleting $tag to enforce the release limit"
+              gh release delete "$tag" --repo "$RELEASE_REPOSITORY" --cleanup-tag --yes
+            done
+          fi
