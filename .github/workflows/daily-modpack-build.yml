@@ -334,7 +334,7 @@ jobs:
           if gh release view "$TAG" --repo "$RELEASE_REPOSITORY" >/dev/null 2>&1; then
             gh release upload "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --clobber
           else
-            gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --prerelease \
+            gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" \
               --title "GTNH daily ${{ needs.build.outputs.today }}"
           fi
 
