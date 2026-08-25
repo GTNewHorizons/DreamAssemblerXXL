@@ -335,8 +335,7 @@ jobs:
             gh release upload "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --clobber
           else
             gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --prerelease \
-              --title "GTNH daily ${{ needs.build.outputs.today }}" \
-              --notes-file "$daily_non_daily_changelog_file"
+              --title "GTNH daily ${{ needs.build.outputs.today }}"
           fi
 
       - name: Push daily changelog in commit to master
