@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-24T06:26:04.086251+00:00",
-  "config": "2.9.0-nightly-2026-08-24",
+  "last_updated": "2026-08-25T04:05:44.098888+00:00",
+  "config": "2.9.0-nightly-2026-08-24-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.25-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.104-gtnh",
+      "version": "1.5.105-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1040-GTNH",
+      "version": "rv3-beta-1041-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.79-GTNH",
+      "version": "3.8.80-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.9-GTNH",
+      "version": "1.9.10-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.16-GTNH",
+      "version": "2.5.17-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.23",
+      "version": "2.8.24",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.55-GTNH",
+      "version": "1.12.56-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {

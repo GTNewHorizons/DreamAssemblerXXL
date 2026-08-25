@@ -2,10 +2,11 @@
 > * Automagy-GTNH
 # Mods Removed: 
 > * Automagy
-# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.104-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.104-gtnh
+# Updated - AE2FluidCraft-Rework - 1.5.95-gtnh --> 1.5.105-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.95-gtnh...1.5.105-gtnh
 
 ## What's Changed:
+>* make level maintainer able to use lite crafting mode by @Nana-Sakura in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/463 (1.5.105-gtnh)
 >* Fix universal terminal selection by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/461 (1.5.104-gtnh)
 >* Fix fluid packet orientation when rendered as an entity by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/460 (1.5.103-gtnh)
 >* Fix fluid transfer through inactive interfaces by @Worive in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/462 (1.5.103-gtnh)
@@ -99,10 +100,13 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix by removing alpha check by @Ranzuu in https://github.com/GTNewHorizons/AppleCore/pull/41 (3.3.12)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1040-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1040-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1041-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1041-GTNH
 
 ## What's Changed:
+>* Fixes cell workbench not clearing cell restrictions by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1540 (rv3-beta-1041-GTNH)
+>* Fix IOPort restone pulse mode by @guusw in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1536 (rv3-beta-1041-GTNH)
+>* Add tests for IOPort redstone pulse mode by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1544 (rv3-beta-1041-GTNH)
 >* Add IStorageBus#getPartName for storage bus GUI titles (#26041) by @vVvDAPPA in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1538 (rv3-beta-1040-GTNH)
 >* fix npe issue with invalid pattern by @Nana-Sakura in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1528 (rv3-beta-1040-GTNH)
 >* Remove deprecated gametest methods usages by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1539 (rv3-beta-1040-GTNH)
@@ -272,10 +276,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Render only p2p outlines within the same dimension as the player by @Kogepan229 in https://github.com/GTNewHorizons/BetterP2P/pull/44 (1.4.6)
 
-# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.79-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.79-GTNH
+# Updated - BetterQuesting - 3.8.72-GTNH --> 3.8.80-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.72-GTNH...3.8.80-GTNH
 
 ## What's Changed:
+>* Extend Text Format Stripping to Quest File Names on Save by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/250 (3.8.80-GTNH)
 >* Modularize text for PanelTaskItemBase by @koolkrafter5 in https://github.com/GTNewHorizons/BetterQuesting/pull/239 (3.8.79-GTNH)
 >* add nei recipe overlay support (#247) by @Nana-Sakura in https://github.com/GTNewHorizons/BetterQuesting/pull/248 (3.8.79-GTNH)
 >* Add extensible localized text editor actions by @ABKQPO in https://github.com/GTNewHorizons/BetterQuesting/pull/241 (3.8.78-GTNH)
@@ -409,10 +414,11 @@ Mod is client-side only.
 >* NPE check on onChunkUnload by @DrParadox7 in https://github.com/GTNewHorizons/CodeChickenCore/pull/51 (1.4.18)
 >* Additional thread saftey for CCL by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenCore/pull/50 (1.4.17)
 
-# Updated - Computronics - 1.9.8-GTNH --> 1.9.9-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.8-GTNH...1.9.9-GTNH
+# Updated - Computronics - 1.9.8-GTNH --> 1.9.10-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.8-GTNH...1.9.10-GTNH
 
 ## What's Changed:
+>* include custom info data in sensor information by @Yoshy2002 in https://github.com/GTNewHorizons/Computronics/pull/41 (1.9.10-GTNH)
 >* fix mod deps to not break with GT6 by @felixfour in https://github.com/GTNewHorizons/Computronics/pull/42 (1.9.9-GTNH)
 
 # Updated - Controlling - 2.1.7 --> 2.1.10
@@ -1115,10 +1121,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Set f1ShowHand default config to false by @SuperSoupr in https://github.com/GTNewHorizons/Hodgepodge/pull/946 (2.7.172)
 >* Fix controls menu crash when keybind categories share a localized name by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/943 (2.7.171)
 
-# Updated - HoloInventory - 2.5.15-GTNH --> 2.5.16-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.15-GTNH...2.5.16-GTNH
+# Updated - HoloInventory - 2.5.15-GTNH --> 2.5.17-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.15-GTNH...2.5.17-GTNH
 
 ## What's Changed:
+>* Show fluids and essentia in AE2 pattern holograms by @Eldrinn-Elantey in https://github.com/GTNewHorizons/HoloInventory/pull/67 (2.5.17-GTNH)
 >* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/HoloInventory/pull/66 (2.5.16-GTNH)
 >* Various performances fixes by @Algent in https://github.com/GTNewHorizons/HoloInventory/pull/65 (2.5.16-GTNH)
 
@@ -1317,10 +1324,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix BigDecimal parsing failures leaking through expression evaluation by @vnesterovskyi in https://github.com/GTNewHorizons/ModularUI2/pull/151 (2.3.81-1.7.10)
 >* Restore GL state after untextured draws (fixes white NEI items) by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/147 (2.3.80-1.7.10)
 
-# Updated - Natura - 2.8.20 --> 2.8.23
-**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.20...2.8.23
+# Updated - Natura - 2.8.20 --> 2.8.24
+**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.20...2.8.24
 
 ## What's Changed:
+>* Fix Irresistible Typo by @UltraProdigy in https://github.com/GTNewHorizons/Natura/pull/47 (2.8.24)
 >* Make things pottable by @FourIsTheNumber in https://github.com/GTNewHorizons/Natura/pull/46 (2.8.23)
 >* Fix saplings being able to be placed in mid-air by @loenaaaa in https://github.com/GTNewHorizons/Natura/pull/44 (2.8.22)
 >* Fix saplings by @zaru-noodles in https://github.com/GTNewHorizons/Natura/pull/45 (2.8.21)
@@ -1486,10 +1494,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/63 (1.12.20-GTNH)
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
-# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.55-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.55-GTNH
+# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.56-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.56-GTNH
 
 ## What's Changed:
+>* Added ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/OpenComputers/pull/218 (1.12.56-GTNH)
 >* fix(clipboard): make clipbboard signal batching opt-in for backward compatibility by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/215 (1.12.55-GTNH)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/OpenComputers/pull/214 (1.12.54-GTNH)
 >* fix: batch clipboard paste signals by @shironakoushi in https://github.com/GTNewHorizons/OpenComputers/pull/212 (1.12.53-GTNH)
@@ -1824,4 +1833,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @error1number404, @evgengoldwar, @FalsePattern, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
