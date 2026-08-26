@@ -334,8 +334,9 @@ jobs:
           if gh release view "$TAG" --repo "$RELEASE_REPOSITORY" >/dev/null 2>&1; then
             gh release upload "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --clobber
           else
-            gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" --prerelease \
-              --title "GTNH daily ${{ needs.build.outputs.today }}"
+            gh release create "$TAG" "${assets[@]}" --repo "$RELEASE_REPOSITORY" \
+              --title "GTNH daily ${{ needs.build.outputs.today }}" \
+              --notes "Automated daily build. See [workflow run #${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for build details."$'\n\n'"To download a build, open the **Assets** section below and select the file you need."
           fi
 
       - name: Push daily changelog in commit to master
