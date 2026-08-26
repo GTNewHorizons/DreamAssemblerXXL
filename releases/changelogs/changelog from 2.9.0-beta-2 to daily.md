@@ -291,10 +291,11 @@ Mod is client-side only.
 >* New button to hide locked quest lines. Plus a few extras improvements by @Algent in https://github.com/GTNewHorizons/BetterQuesting/pull/237 (3.8.74-GTNH)
 >* Enable Automatic QB Update Reloading by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/236 (3.8.73-GTNH)
 
-# Updated - Binnie - 2.6.34 --> 2.6.46
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.46
+# Updated - Binnie - 2.6.34 --> 2.6.47
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.34...2.6.47
 
 ## What's Changed:
+>* Fix allocation hell hole by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/119 (2.6.47)
 >* Fix Avocado Typo by @UltraProdigy in https://github.com/GTNewHorizons/Binnie/pull/118 (2.6.46)
 >* Use Forestry's ArmorApiaristHelper instead of reinventing it by @FourIsTheNumber in https://github.com/GTNewHorizons/Binnie/pull/117 (2.6.45)
 >* fix compartments with tool station by @Pxx500 in https://github.com/GTNewHorizons/Binnie/pull/116 (2.6.44)
@@ -445,10 +446,12 @@ Mod is client-side only.
 ## What's Changed:
 >* update buildscript and bump zenscript to 1.0.2 by @boubou19 in https://github.com/GTNewHorizons/CraftTweaker/pull/30 (3.4.8)
 
-# Updated - CropsNH - 2.0.91 --> 2.0.111
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.111
+# Updated - CropsNH - 2.0.91 --> 2.0.112
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.91...2.0.112
 
 ## What's Changed:
+>* Make Industral Farm change its mode via screwdriver by @Angry3vilbot in https://github.com/GTNewHorizons/CropsNH/pull/251 (2.0.112)
+>* Stonelilies and Lazulia Texture Updates by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/250 (2.0.112)
 >* remove unused bonsai code by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/247 (2.0.111)
 >* Remove more useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/245 (2.0.110)
 >* Remove useless recipe removals by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/244 (2.0.109)
@@ -552,10 +555,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Add MFR support for tainted trees by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/32 (0.9.17-GTNH)
 
-# Updated - ForestryMC - 4.11.31 --> 4.11.36
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.36
+# Updated - ForestryMC - 4.11.31 --> 4.11.37
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.31...4.11.37
 
 ## What's Changed:
+>* reduce allocations of arrays to once per call by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/133 (4.11.37)
 >* More enum `.values()` caching by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/131 (4.11.36)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/130 (4.11.35)
 >* Fixes the display of blocks in NEI for the double slab blocks by @Cardinalstars in https://github.com/GTNewHorizons/ForestryMC/pull/129 (4.11.34)
@@ -584,10 +588,13 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.110
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.110
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.111
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.111
 
 ## What's Changed:
+>* Feature/markdown tooltips antimatter by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7855 (5.09.54.111)
+>* fix assline ignoring gt_hatch by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7859 (5.09.54.111)
+>* Translate GregTech lang file to Russian by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7848 (5.09.54.111)
 >* Optimize network traffic by switching from NBTTagCompound to ByteBuf by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7821 (5.09.54.110)
 >* Show physical circuits and non-consumed items in AE2 interface name for single blocks and hatches by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7853 (5.09.54.110)
 >* Port Large Fusion Computer tooltips to markdown (batch 9) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7847 (5.09.54.109)
@@ -1349,10 +1356,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.50
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.50
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.51
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.51
 
 ## What's Changed:
+>* Armor: Fix recipe balancing/gating  by @Spaghetti-OberNub in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1926 (2.9.51)
 >* Fix hollow hill mob spawns being lost after relog by @Emilgardis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1925 (2.9.50)
 >* Mechanical Armor jetpack recipe updates by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1924 (2.9.49)
 >* Remove perfect hover augment recipe by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1922 (2.9.48)
@@ -1573,8 +1581,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20 (2.3.15)
 
-# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.69-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.69-GTNH
+# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.70-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.70-GTNH
 
 ## What's Changed:
 >* Sync with upstream  by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Salis-Arcana/pull/2 (1.1.68-GTNH)
