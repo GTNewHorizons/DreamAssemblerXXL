@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-08-27T08:24:02.290788+00:00",
+  "last_updated": "2026-08-27T14:23:06.206846+00:00",
   "config": "2.9.0-nightly-2026-08-27",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.112",
+      "version": "5.09.54.114",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.52",
+      "version": "2.9.53",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "CLIENT"
     },
     "Mobs-Info": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.56-GTNH",
+      "version": "2.6.57-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {

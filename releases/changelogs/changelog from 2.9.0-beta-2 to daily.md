@@ -496,6 +496,13 @@ Mod is client-side only.
 >* Add NHLib dep to @Mod by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/104 (1.5.29-GTNH)
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
+# Updated - DuraDisplay - 1.4.4 --> 1.4.5
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.4...1.4.5
+
+## What's Changed:
+>* Optimization pass by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/29 (1.4.5)
+
 # Updated - Electro-Magic-Tools - 1.7.24 --> 1.7.25
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.24...1.7.25
 
@@ -530,10 +537,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/EnderZoo/pull/16 (1.3.6)
 
-# Updated - Et-Futurum-Requiem - 2.6.48-GTNH --> 2.6.56-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.48-GTNH...2.6.56-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.48-GTNH --> 2.6.57-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.48-GTNH...2.6.57-GTNH
 
 ## What's Changed:
+>* Add Cooper's Mallet by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/116 (2.6.57-GTNH)
 >* Fixed boat camera/key jitter by @JackOfNoneTrades in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/74 (2.6.56-GTNH)
 >* Better deepslate failure log by @boubou19 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/115 (2.6.55-GTNH)
 >* Backport blocklight + nightvision color and gradients by @Eclipse-Sol in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/104 (2.6.54-GTNH)
@@ -592,10 +600,12 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.112
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.112
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.114
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.114
 
 ## What's Changed:
+>* [BEC] Nerf Entanglement Speed, Improve Maxwell Gate, Recipe Changes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7824 (5.09.54.114)
+>* Reduce render block allocs by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7872 (5.09.54.113)
 >* remove unused gtpp items by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7851 (5.09.54.112)
 >* Fix Phosphorus Typo by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7862 (5.09.54.112)
 >* Bump Horizon-QA to 0.14.0 by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7864 (5.09.54.112)
@@ -1369,10 +1379,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.52
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.52
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.53
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.53
 
 ## What's Changed:
+>* Dyson Module Rebalance and Minor Dyson Retier by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1920 (2.9.53)
+>* [BEC] Nerf Entanglement Speed, Improve Maxwell Gate, Recipe Changes by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1927 (2.9.53)
 >* Fix More UEV and UIV Hull Uptiering Errors by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1930 (2.9.52)
 >* Armor: Fix recipe balancing/gating  by @Spaghetti-OberNub in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1926 (2.9.51)
 >* Fix hollow hill mob spawns being lost after relog by @Emilgardis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1925 (2.9.50)

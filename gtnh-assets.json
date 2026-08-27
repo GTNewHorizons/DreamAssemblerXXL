@@ -50244,7 +50244,7 @@
     },
     {
       "name": "DuraDisplay",
-      "latest_version": "1.4.4",
+      "latest_version": "1.4.5",
       "private": false,
       "versions": [
         {
@@ -50556,6 +50556,16 @@
           "filename": "duradisplay-1.4.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/462447106",
           "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.4.4/duradisplay-1.4.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.5",
+          "changelog": "## What's Changed\n* Optimization pass by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.4...1.4.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T11:33:27+00:00",
+          "filename": "duradisplay-1.4.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/532214796",
+          "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.4.5/duradisplay-1.4.5.jar",
           "extra_assets": []
         }
       ],
@@ -55073,7 +55083,7 @@
     },
     {
       "name": "Et-Futurum-Requiem",
-      "latest_version": "2.6.56-GTNH",
+      "latest_version": "2.6.57-GTNH",
       "private": false,
       "versions": [
         {
@@ -55884,6 +55894,16 @@
           "filename": "etfuturum-2.6.56-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/525764691",
           "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.56-GTNH/etfuturum-2.6.56-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.57-GTNH",
+          "changelog": "## What's Changed\n* Add Cooper's Mallet by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/116\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.56-GTNH...2.6.57-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T03:56:33+00:00",
+          "filename": "etfuturum-2.6.57-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/531714039",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.57-GTNH/etfuturum-2.6.57-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -66100,7 +66120,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.112",
+      "latest_version": "5.09.54.114",
       "private": false,
       "versions": [
         {
@@ -92241,6 +92261,26 @@
           "filename": "gregtech-5.09.54.112.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/531722905",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.112/gregtech-5.09.54.112.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.113",
+          "changelog": "## What's Changed\n* Reduce render block allocs by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7872\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.112...5.09.54.113\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T12:58:35+00:00",
+          "filename": "gregtech-5.09.54.113.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/532310977",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.113/gregtech-5.09.54.113.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.114",
+          "changelog": "## What's Changed\n* [BEC] Nerf Entanglement Speed, Improve Maxwell Gate, Recipe Changes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7824\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.113...5.09.54.114\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T13:58:18+00:00",
+          "filename": "gregtech-5.09.54.114.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/532380435",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.114/gregtech-5.09.54.114.jar",
           "extra_assets": []
         }
       ],
@@ -133657,7 +133697,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.52",
+      "latest_version": "2.9.53",
       "private": false,
       "versions": [
         {
@@ -145738,6 +145778,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.52.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/531712714",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.52/GTNewHorizonsCoreMod-2.9.52.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.53",
+          "changelog": "## What's Changed\n* Dyson Module Rebalance and Minor Dyson Retier by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1920\n* [BEC] Nerf Entanglement Speed, Improve Maxwell Gate, Recipe Changes by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1927\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.52...2.9.53\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T13:47:43+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.53.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/532366725",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.53/GTNewHorizonsCoreMod-2.9.53.jar",
           "extra_assets": []
         }
       ],
@@ -189719,6 +189769,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 704,
-  "latest_successful_daily": 704
+  "latest_daily": 706,
+  "latest_successful_daily": 706
 }
