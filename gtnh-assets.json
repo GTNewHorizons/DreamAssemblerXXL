@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-08-26",
+    "latest_version": "2.9.0-nightly-2026-08-27",
     "needs_attention": false,
     "versions": [
       {
@@ -7642,6 +7642,16 @@
         "filename": "2.9.0-nightly-2026-08-26.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/530173679",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-08-26/2.9.0-nightly-2026-08-26.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-08-27",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-08-27T03:58:52+00:00",
+        "filename": "2.9.0-nightly-2026-08-27.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/531717000",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-08-27/2.9.0-nightly-2026-08-27.zip",
         "extra_assets": []
       }
     ],
@@ -18263,7 +18273,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1041-GTNH",
+      "latest_version": "rv3-beta-1042-GTNH",
       "private": false,
       "versions": [
         {
@@ -27265,6 +27275,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/527764819",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1041-GTNH/appliedenergistics2-rv3-beta-1041-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1042-GTNH",
+          "changelog": "## What's Changed\n* Fix WirelessKit connection by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1548\n* Bump Horizon-QA to 0.14.0 by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1549\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1041-GTNH...rv3-beta-1042-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T03:58:55+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1042-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/531717053",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1042-GTNH/appliedenergistics2-rv3-beta-1042-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -33287,7 +33307,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.8.80-GTNH",
+      "latest_version": "3.8.81-GTNH",
       "private": false,
       "versions": [
         {
@@ -35329,6 +35349,16 @@
           "filename": "BetterQuesting-3.8.80-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/527765179",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.80-GTNH/BetterQuesting-3.8.80-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.8.81-GTNH",
+          "changelog": "## What's Changed\n* Change Dependants -> Dependents in EN_US.lang by @fbfnysnshnsgnwg in https://github.com/GTNewHorizons/BetterQuesting/pull/254\n\n## New Contributors\n* @fbfnysnshnsgnwg made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/254\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.80-GTNH...3.8.81-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T03:57:49+00:00",
+          "filename": "BetterQuesting-3.8.81-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/531715246",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.81-GTNH/BetterQuesting-3.8.81-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -47091,7 +47121,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.112",
+      "latest_version": "2.0.113",
       "private": false,
       "versions": [
         {
@@ -48222,6 +48252,16 @@
           "filename": "cropsnh-2.0.112.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/530177775",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.112/cropsnh-2.0.112.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.113",
+          "changelog": "## What's Changed\n* Track tired recipe component changes from core mod by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/252\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.112...2.0.113\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T03:58:38+00:00",
+          "filename": "cropsnh-2.0.113.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/531716747",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.113/cropsnh-2.0.113.jar",
           "extra_assets": []
         }
       ],
@@ -66060,7 +66100,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.111",
+      "latest_version": "5.09.54.112",
       "private": false,
       "versions": [
         {
@@ -92191,6 +92231,16 @@
           "filename": "gregtech-5.09.54.111.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/530198653",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.111/gregtech-5.09.54.111.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.112",
+          "changelog": "## What's Changed\n* remove unused gtpp items by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7851\n* Fix Phosphorus Typo by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7862\n* Bump Horizon-QA to 0.14.0 by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7864\n* Move electrodes to normal compressor recipe map by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7863\n* fix Fr line chrome recycle possibility by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7867\n* Port GoodGenerator multiblock tooltips to markdown (batch 11) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7858\n* Re-disable runtime Angelica by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7868\n* Remove mention of output hatch requirement from the Source Chamber by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7870\n* Fix More UEV and UIV Hull Uptiering Errors by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7865\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.111...5.09.54.112\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T04:06:12+00:00",
+          "filename": "gregtech-5.09.54.112.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/531722905",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.112/gregtech-5.09.54.112.jar",
           "extra_assets": []
         }
       ],
@@ -133607,7 +133657,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.51",
+      "latest_version": "2.9.52",
       "private": false,
       "versions": [
         {
@@ -145679,6 +145729,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/530176313",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.51/GTNewHorizonsCoreMod-2.9.51.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.52",
+          "changelog": "## What's Changed\n* Fix More UEV and UIV Hull Uptiering Errors by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1930\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.51...2.9.52\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T03:55:40+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.52.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/531712714",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.52/GTNewHorizonsCoreMod-2.9.52.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -146941,7 +147001,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.127-GTNH",
+      "latest_version": "2.8.128-GTNH",
       "private": false,
       "versions": [
         {
@@ -151573,6 +151633,16 @@
           "filename": "NotEnoughItems-2.8.127-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/529032472",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.127-GTNH/NotEnoughItems-2.8.127-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.128-GTNH",
+          "changelog": "## What's Changed\n* Add feature to save history like bookmarks by @vcwdfca in https://github.com/GTNewHorizons/NotEnoughItems/pull/1011\n* Check unknown bookmark group by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1014\n\n## New Contributors\n* @vcwdfca made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/1011\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.127-GTNH...2.8.128-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T04:36:23+00:00",
+          "filename": "NotEnoughItems-2.8.128-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/531747328",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.128-GTNH/NotEnoughItems-2.8.128-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -177610,7 +177680,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.14.103-GTNH",
+      "latest_version": "1.14.104-GTNH",
       "private": false,
       "versions": [
         {
@@ -180351,6 +180421,16 @@
           "filename": "TConstruct-1.14.103-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/525433564",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.103-GTNH/TConstruct-1.14.103-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.104-GTNH",
+          "changelog": "## What's Changed\n* Fix render allocs of the tools by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/321\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.103-GTNH...1.14.104-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-27T03:57:15+00:00",
+          "filename": "TConstruct-1.14.104-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/531714698",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.104-GTNH/TConstruct-1.14.104-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -189639,6 +189719,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 703,
-  "latest_successful_daily": 703
+  "latest_daily": 704,
+  "latest_successful_daily": 704
 }
