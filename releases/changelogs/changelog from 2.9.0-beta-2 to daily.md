@@ -100,10 +100,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix by removing alpha check by @Ranzuu in https://github.com/GTNewHorizons/AppleCore/pull/41 (3.3.12)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1042-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1042-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1043-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1043-GTNH
 
 ## What's Changed:
+>* Support bookmark group drops in cell workbenches by @DreamYao520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1552 (rv3-beta-1043-GTNH)
 >* Fix WirelessKit connection by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1548 (rv3-beta-1042-GTNH)
 >* Bump Horizon-QA to 0.14.0 by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1549 (rv3-beta-1042-GTNH)
 >* Fixes cell workbench not clearing cell restrictions by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1540 (rv3-beta-1041-GTNH)
@@ -496,11 +497,12 @@ Mod is client-side only.
 >* Add NHLib dep to @Mod by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/104 (1.5.29-GTNH)
 >* fix shield hud and bow matching rules by @ABKQPO in https://github.com/GTNewHorizons/Draconic-Evolution/pull/102 (1.5.28-GTNH)
 
-# Updated - DuraDisplay - 1.4.4 --> 1.4.5
+# Updated - DuraDisplay - 1.4.4 --> 1.4.6
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.4...1.4.5
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.4.4...1.4.6
 
 ## What's Changed:
+>* Batch outlined text by @boubou19 in https://github.com/GTNewHorizons/DuraDisplay/pull/30 (1.4.6)
 >* Optimization pass by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/29 (1.4.5)
 
 # Updated - Electro-Magic-Tools - 1.7.24 --> 1.7.25
@@ -600,10 +602,16 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.114
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.114
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.115
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.115
 
 ## What's Changed:
+>* remove unused blueprint by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7874 (5.09.54.115)
+>* Remove alternate BEC recipes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7878 (5.09.54.115)
+>* Remove step up/down string from distributor WAILA tooltip by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7875 (5.09.54.115)
+>* Fix EOH animation stuttering by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7881 (5.09.54.115)
+>* stop debug bus from spilling its contents on break by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7884 (5.09.54.115)
+>* Change Dyson Drone Case Texture by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7873 (5.09.54.115)
 >* [BEC] Nerf Entanglement Speed, Improve Maxwell Gate, Recipe Changes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7824 (5.09.54.114)
 >* Reduce render block allocs by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7872 (5.09.54.113)
 >* remove unused gtpp items by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7851 (5.09.54.112)
@@ -1322,10 +1330,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* MM Inventory Consumer with support for custom consumer by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/72 (0.1.48-GTNH)
 >* Fix MM pulling patterns from Arcane Assembler as if they were items by @tiffit in https://github.com/GTNewHorizons/MatterManipulator/pull/67 (0.1.47-GTNH)
 
-# Updated - Minecraft-Backpack-Mod - 2.6.13-GTNH --> 2.6.16-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.6.13-GTNH...2.6.16-GTNH
+# Updated - Minecraft-Backpack-Mod - 2.6.13-GTNH --> 2.6.17-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.6.13-GTNH...2.6.17-GTNH
 
 ## What's Changed:
+>* Added support of NoHotBarNeed to the mod. Backpack UI will stay open when backpack item changes slot in player's inventory. by @Erixonich in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/36 (2.6.17-GTNH)
+>* Flush the open container before reading the backpack save by @Luca-Guettinger in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/37 (2.6.17-GTNH)
 >* Defer backpack file writes to world saves by @Algent in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/35 (2.6.16-GTNH)
 >* Fix crash due to invalid backpack metadata by @Algent in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/34 (2.6.15-GTNH)
 >* feat: Add inventory tab for equipped personal backpack by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/30 (2.6.14-GTNH)
@@ -1862,10 +1872,11 @@ Mod is client-side only.
 >* Implement ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/neiaddons/pull/17 (1.18.4)
 >* Rename products.png to products_dynamic.png by @tiffit in https://github.com/GTNewHorizons/neiaddons/pull/16 (1.18.3)
 
-# Updated - twilightforest - 2.7.36 --> 2.7.39
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.36...2.7.39
+# Updated - twilightforest - 2.7.36 --> 2.7.40
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.36...2.7.40
 
 ## What's Changed:
+>* Add soft mallet mute toggle for Timewood Clock by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/158 (2.7.40)
 >* fix: use renderViewEntity in sky renderer by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/154 (2.7.39)
 >* Make things pottable by @FourIsTheNumber in https://github.com/GTNewHorizons/twilightforest/pull/152 (2.7.38)
 >* Fix Ur-Ghast trophy head animation speed by @Eldrinn-Elantey in https://github.com/GTNewHorizons/twilightforest/pull/149 (2.7.37)
@@ -1880,4 +1891,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @error1number404, @evgengoldwar, @FalsePattern, @fbfnysnshnsgnwg, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vcwdfca, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @Erixonich, @error1number404, @evgengoldwar, @FalsePattern, @fbfnysnshnsgnwg, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vcwdfca, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
