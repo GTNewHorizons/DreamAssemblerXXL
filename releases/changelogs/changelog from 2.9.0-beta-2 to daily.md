@@ -100,10 +100,15 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix by removing alpha check by @Ranzuu in https://github.com/GTNewHorizons/AppleCore/pull/41 (3.3.12)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1043-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1043-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1044-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1044-GTNH
 
 ## What's Changed:
+>* Fix Wireless Kit by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1551 (rv3-beta-1044-GTNH)
+>* Avoid redundant wireless connection restoration by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1553 (rv3-beta-1044-GTNH)
+>* test: parameterize IO port speed budgets by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1555 (rv3-beta-1044-GTNH)
+>* Use named Horizon-QA tick callbacks by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1546 (rv3-beta-1044-GTNH)
+>* Resolve interface name suffixes as chat components by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1545 (rv3-beta-1044-GTNH)
 >* Support bookmark group drops in cell workbenches by @DreamYao520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1552 (rv3-beta-1043-GTNH)
 >* Fix WirelessKit connection by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1548 (rv3-beta-1042-GTNH)
 >* Bump Horizon-QA to 0.14.0 by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1549 (rv3-beta-1042-GTNH)
@@ -602,10 +607,15 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.115
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.115
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.117
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.117
 
 ## What's Changed:
+>* Add a helper method to retrieve the list of OrePrefixes for mateirials by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7886 (5.09.54.117)
+>* Adds Debug NEI Alias to Various Hatches by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7885 (5.09.54.116)
+>* allow superchests to unload matter clusters by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7834 (5.09.54.116)
+>* Fix single machine waila by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7840 (5.09.54.116)
+>* Localize interface name suffixes on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7857 (5.09.54.116)
 >* remove unused blueprint by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7874 (5.09.54.115)
 >* Remove alternate BEC recipes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7878 (5.09.54.115)
 >* Remove step up/down string from distributor WAILA tooltip by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7875 (5.09.54.115)
@@ -1664,10 +1674,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/23 (1.3.13-GTNH)
 
-# Updated - StorageDrawers - 2.2.26-GTNH --> 2.2.28-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.2.26-GTNH...2.2.28-GTNH
+# Updated - StorageDrawers - 2.2.26-GTNH --> 2.2.29-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.2.26-GTNH...2.2.29-GTNH
 
 ## What's Changed:
+>* Made the controller/slave able to be used by the OpenComputers transposer by @playfuldoggo in https://github.com/GTNewHorizons/StorageDrawers/pull/77 (2.2.29-GTNH)
 >* add support for placing drawers facing upwards and downwards by @ABKQPO in https://github.com/GTNewHorizons/StorageDrawers/pull/74 (2.2.28-GTNH)
 >* Fix drawers clicking not always registering by @Algent in https://github.com/GTNewHorizons/StorageDrawers/pull/76 (2.2.27-GTNH)
 
@@ -1717,10 +1728,11 @@ Mod is client-side only.
 >* Display Warded Syringe with correct NBT data in NEI by @Ableytner in https://github.com/GTNewHorizons/ThaumicHorizons/pull/137 (1.8.22)
 >* Move pocket plane generation back to main server thread by @tiffit in https://github.com/GTNewHorizons/ThaumicHorizons/pull/134 (1.8.21)
 
-# Updated - ThaumicTinkerer - 2.12.27 --> 2.12.30
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.27...2.12.30
+# Updated - ThaumicTinkerer - 2.12.27 --> 2.12.31
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.27...2.12.31
 
 ## What's Changed:
+>* Adds a NEI Page for Infused Seeds and fixes their drops. by @Spaghetti-OberNub in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/106 (2.12.31)
 >* Fixes for [Client thread/ERROR]: Couldn't render entity by @mitchej123 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/104 (2.12.30)
 >* fix gt loader check by @felixfour in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/103 (2.12.29)
 >* Fix thaumic restorer suction + better automation by @vladislemon in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/102 (2.12.28)
@@ -1816,10 +1828,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Parametrized logger calls by @boubou19 in https://github.com/GTNewHorizons/WitcheryExtras/pull/44 (1.4.17)
 
-# Updated - WitchingGadgets - 1.8.48-GTNH --> 1.8.50-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.48-GTNH...1.8.50-GTNH
+# Updated - WitchingGadgets - 1.8.48-GTNH --> 1.8.51-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.48-GTNH...1.8.51-GTNH
 
 ## What's Changed:
+>* Special-case the macerator output for NaquadahEnriched clusters to us… by @liryril1 in https://github.com/GTNewHorizons/WitchingGadgets/pull/132 (1.8.51-GTNH)
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/WitchingGadgets/pull/138 (1.8.50-GTNH)
 >* Add a NBT save on GUI close for Bag of Tricks by @Edgaru089 in https://github.com/GTNewHorizons/WitchingGadgets/pull/136 (1.8.50-GTNH)
 >* Fix Cloak of Voluminous Pockets opening for nearby players by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitchingGadgets/pull/137 (1.8.50-GTNH)
@@ -1891,4 +1904,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @Erixonich, @error1number404, @evgengoldwar, @FalsePattern, @fbfnysnshnsgnwg, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vcwdfca, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @Erixonich, @error1number404, @evgengoldwar, @FalsePattern, @fbfnysnshnsgnwg, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @liryril1, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vcwdfca, @vermz99, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
