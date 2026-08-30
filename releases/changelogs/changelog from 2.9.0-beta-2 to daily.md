@@ -607,10 +607,12 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.117
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.117
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.118
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.118
 
 ## What's Changed:
+>* improve large NEI page rendering by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7883 (5.09.54.118)
+>* Don't sort input bus if it's not changed by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7866 (5.09.54.118)
 >* Add a helper method to retrieve the list of OrePrefixes for mateirials by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7886 (5.09.54.117)
 >* Adds Debug NEI Alias to Various Hatches by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7885 (5.09.54.116)
 >* allow superchests to unload matter clusters by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7834 (5.09.54.116)
@@ -1399,10 +1401,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix missing Topo button on JourneyMap fullscreen map by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Navigator/pull/19 (1.1.6)
 >* Stop navigator to try to mixin in unsupported Journeymap version by @Algent in https://github.com/GTNewHorizons/Navigator/pull/18 (1.1.5)
 
-# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.53
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.53
+# Updated - NewHorizonsCoreMod - 2.9.5 --> 2.9.55
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.5...2.9.55
 
 ## What's Changed:
+>* Improve planet recipes with naturally generated ores by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1933 (2.9.55)
+>* Fix Dyson Circuits by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1934 (2.9.54)
+>* Add recipe for the Cooper's Mallet by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1936 (2.9.54)
 >* Dyson Module Rebalance and Minor Dyson Retier by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1920 (2.9.53)
 >* [BEC] Nerf Entanglement Speed, Improve Maxwell Gate, Recipe Changes by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1927 (2.9.53)
 >* Fix More UEV and UIV Hull Uptiering Errors by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1930 (2.9.52)
