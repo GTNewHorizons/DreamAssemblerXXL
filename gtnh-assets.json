@@ -66210,7 +66210,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.119",
+      "latest_version": "5.09.54.120",
       "private": false,
       "versions": [
         {
@@ -92421,6 +92421,16 @@
           "filename": "gregtech-5.09.54.119.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/537215186",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.119/gregtech-5.09.54.119.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.120",
+          "changelog": "## What's Changed\n* Fix energy distributor assembler recipes by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7901\n* Format coil heat by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7897\n* Move multiblock controller names to asset lang files by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7892\n* Fix NAC module crash with renamed items by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7905\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.119...5.09.54.120\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-31T15:40:07+00:00",
+          "filename": "gregtech-5.09.54.120.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/538184906",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.120/gregtech-5.09.54.120.jar",
           "extra_assets": []
         }
       ],
@@ -146198,7 +146208,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.7.40",
+      "latest_version": "1.7.41",
       "private": false,
       "versions": [
         {
@@ -146971,6 +146981,16 @@
           "filename": "NotEnoughEnergistics-1.7.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/536835362",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.40/NotEnoughEnergistics-1.7.40.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.41",
+          "changelog": "## What's Changed\n* Fix processing pattern output transfer limit by @Worive in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/82\n\n## New Contributors\n* @Worive made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/82\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.40...1.7.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-31T14:15:32+00:00",
+          "filename": "NotEnoughEnergistics-1.7.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/538087686",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.41/NotEnoughEnergistics-1.7.41.jar",
           "extra_assets": []
         }
       ],
@@ -190069,6 +190089,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 710,
-  "latest_successful_daily": 710
+  "latest_daily": 711,
+  "latest_successful_daily": 711
 }

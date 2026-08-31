@@ -614,10 +614,14 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.119
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.119
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.120
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.120
 
 ## What's Changed:
+>* Fix energy distributor assembler recipes by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7901 (5.09.54.120)
+>* Format coil heat by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7897 (5.09.54.120)
+>* Move multiblock controller names to asset lang files by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7892 (5.09.54.120)
+>* Fix NAC module crash with renamed items by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7905 (5.09.54.120)
 >* Make Laser Vacuum Pipe non-tickable by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7682 (5.09.54.119)
 >* Adjust godforge plasma fabricator scaling by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7871 (5.09.54.119)
 >* Reduce BHC usage in Spacetime Compression Generators by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7891 (5.09.54.119)
@@ -1509,10 +1513,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Make keyBinding & KeyboardEventHandler public by @SuperSoupr in https://github.com/GTNewHorizons/NoHotbarNeeded/pull/3 (0.0.6)
 
-# Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.40
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.40
+# Updated - NotEnoughEnergistics - 1.7.34 --> 1.7.41
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.34...1.7.41
 
 ## What's Changed:
+>* Fix processing pattern output transfer limit by @Worive in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/82 (1.7.41)
 >* Stop transferring furnace fuel into ME patterns by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/81 (1.7.40)
 >* add bq ae2 nei overlay support by @Nana-Sakura in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/79 (1.7.39)
 >* fix: use the player's selected item when transferring by @hinyb in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/75 (1.7.38)
