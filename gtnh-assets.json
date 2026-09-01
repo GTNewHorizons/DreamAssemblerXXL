@@ -43684,7 +43684,7 @@
     },
     {
       "name": "Chunk API",
-      "latest_version": "0.8.3",
+      "latest_version": "0.8.4",
       "needs_attention": false,
       "versions": [
         {
@@ -43724,6 +43724,19 @@
           "curse_file": {
             "project_no": "844484",
             "file_no": "8125001"
+          }
+        },
+        {
+          "version_tag": "0.8.4",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T21:01:53.928102",
+          "filename": "chunkapi-mc1.7.10-0.8.4.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8609/71/chunkapi-mc1.7.10-0.8.4.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/chunkapi/download/8609071",
+          "curse_file": {
+            "project_no": "844484",
+            "file_no": "8609071"
           }
         }
       ],
@@ -56685,7 +56698,7 @@
     },
     {
       "name": "Extreme Sound Muffler",
-      "latest_version": "1.1.0",
+      "latest_version": "1.1.1",
       "needs_attention": false,
       "versions": [
         {
@@ -56738,6 +56751,19 @@
           "curse_file": {
             "project_no": "1052470",
             "file_no": "8015972"
+          }
+        },
+        {
+          "version_tag": "1.1.1",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T21:02:20.838970",
+          "filename": "esm-legacy-1.7.10-1.1.1.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8196/169/esm-legacy-1.7.10-1.1.1.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy/download/8196169",
+          "curse_file": {
+            "project_no": "1052470",
+            "file_no": "8196169"
           }
         }
       ],
@@ -113241,7 +113267,7 @@
     },
     {
       "name": "InventoryBogoSorter",
-      "latest_version": "1.3.47-GTNH",
+      "latest_version": "1.3.49-GTNH",
       "private": false,
       "versions": [
         {
@@ -114453,6 +114479,26 @@
           "filename": "bogosorter-1.3.47-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/524567260",
           "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.47-GTNH/bogosorter-1.3.47-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.48-GTNH",
+          "changelog": "## What's Changed\n* Number Formatting by @Connor-Colenso in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/223\n\n## New Contributors\n* @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/223\n\n**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.47-GTNH...1.3.48-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T18:07:53+00:00",
+          "filename": "bogosorter-1.3.48-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/539938972",
+          "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.48-GTNH/bogosorter-1.3.48-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.49-GTNH",
+          "changelog": "## What's Changed\n* feat: add NBT sort rules for Thaumcraft essentia and Forestry species by @Faith4ng in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/225\n* Add sorting for WitchingGadgets Bag and Cloak by @Edgaru089 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/218\n* brings in forestry workbench integration by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/205\n\n## New Contributors\n* @Faith4ng made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/225\n* @Edgaru089 made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/218\n\n**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.48-GTNH...1.3.49-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T19:07:53+00:00",
+          "filename": "bogosorter-1.3.49-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/540005626",
+          "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.49-GTNH/bogosorter-1.3.49-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -160270,7 +160316,7 @@
     },
     {
       "name": "Salis-Arcana",
-      "latest_version": "1.1.70-GTNH",
+      "latest_version": "1.1.71-GTNH",
       "private": false,
       "versions": [
         {
@@ -160952,6 +160998,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Salis-Arcana/releases/assets/530046748",
           "browser_download_url": "https://github.com/GTNewHorizons/Salis-Arcana/releases/download/1.1.70-GTNH/salisarcana-1.1.70-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.71-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.70-GTNH...1.1.71-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T17:26:45+00:00",
+          "filename": "salisarcana-1.1.71-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Salis-Arcana/releases/assets/539894801",
+          "browser_download_url": "https://github.com/GTNewHorizons/Salis-Arcana/releases/download/1.1.71-GTNH/salisarcana-1.1.71-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -161503,7 +161559,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.7",
+      "latest_version": "2.4.8",
       "private": false,
       "versions": [
         {
@@ -163595,6 +163651,16 @@
           "filename": "ServerUtilities-2.4.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/526448197",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.7/ServerUtilities-2.4.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.8",
+          "changelog": "## What's Changed\n* Fix backups silently stopping until the game is restarted by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/338\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.7...2.4.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T17:22:35+00:00",
+          "filename": "ServerUtilities-2.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/539889943",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.8/ServerUtilities-2.4.8.jar",
           "extra_assets": []
         }
       ],
