@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-08-29",
+    "latest_version": "2.9.0-nightly-2026-08-31",
     "needs_attention": false,
     "versions": [
       {
@@ -7673,6 +7673,16 @@
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/534695002",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-08-29/2.9.0-nightly-2026-08-29.zip",
         "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-08-31",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-01T02:21:06+00:00",
+        "filename": "2.9.0-nightly-2026-08-31.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/538814679",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-08-31/2.9.0-nightly-2026-08-31.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
@@ -14528,7 +14538,7 @@
     },
     {
       "name": "Amazing-Trophies",
-      "latest_version": "1.4.7",
+      "latest_version": "1.4.8",
       "private": false,
       "versions": [
         {
@@ -14960,6 +14970,16 @@
           "filename": "amazingtrophies-1.4.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Amazing-Trophies/releases/assets/525993111",
           "browser_download_url": "https://github.com/GTNewHorizons/Amazing-Trophies/releases/download/1.4.7/amazingtrophies-1.4.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.8",
+          "changelog": "## What's Changed\n* [WIKI] Fix example `basic` trophy paths by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.4.7...1.4.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T02:21:09+00:00",
+          "filename": "amazingtrophies-1.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Amazing-Trophies/releases/assets/538814729",
+          "browser_download_url": "https://github.com/GTNewHorizons/Amazing-Trophies/releases/download/1.4.8/amazingtrophies-1.4.8.jar",
           "extra_assets": []
         }
       ],
@@ -47201,7 +47221,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.113",
+      "latest_version": "2.0.114",
       "private": false,
       "versions": [
         {
@@ -48342,6 +48362,16 @@
           "filename": "cropsnh-2.0.113.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/531716747",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.113/cropsnh-2.0.113.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.114",
+          "changelog": "## What's Changed\n* Fix crop-stick placement behaviour (For 2.9, Regression Fix) by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/231\n* Fix item stack map counts being lost on NBT load by @Chitak985 in https://github.com/GTNewHorizons/CropsNH/pull/254\n\n## New Contributors\n* @Chitak985 made their first contribution in https://github.com/GTNewHorizons/CropsNH/pull/254\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.113...2.0.114\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-31T23:57:04+00:00",
+          "filename": "cropsnh-2.0.114.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/538677153",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.114/cropsnh-2.0.114.jar",
           "extra_assets": []
         }
       ],
@@ -52257,7 +52287,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.40",
+      "latest_version": "2.10.41",
       "private": false,
       "versions": [
         {
@@ -54228,6 +54258,16 @@
           "filename": "EnderIO-2.10.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/526060775",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.40/EnderIO-2.10.40.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.41",
+          "changelog": "## What's Changed\n* Update TileReservoir.java by @june-dev-username in https://github.com/GTNewHorizons/EnderIO/pull/256\n* Update en_US.lang by @june-dev-username in https://github.com/GTNewHorizons/EnderIO/pull/257\n* Temporary revert #256 and #257 by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/258\n\n## New Contributors\n* @june-dev-username made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/256\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.40...2.10.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T02:21:03+00:00",
+          "filename": "EnderIO-2.10.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/538814627",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.41/EnderIO-2.10.41.jar",
           "extra_assets": []
         }
       ],
@@ -66210,7 +66250,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.120",
+      "latest_version": "5.09.54.121",
       "private": false,
       "versions": [
         {
@@ -92432,6 +92472,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/538184906",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.120/gregtech-5.09.54.120.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.121",
+          "changelog": "## What's Changed\n* Add Vajra mining speed modes by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7877\n* Fix BEC IONode Tierskipping Issues by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7906\n* Create new Trophy Ice Cream by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7896\n* Armor: Adjustments to Terrasteel augment by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7819\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.120...5.09.54.121\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T01:15:34+00:00",
+          "filename": "gregtech-5.09.54.121.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/538746533",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.121/gregtech-5.09.54.121.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -104308,7 +104358,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.192",
+      "latest_version": "2.7.193",
       "private": false,
       "versions": [
         {
@@ -110379,6 +110429,16 @@
           "filename": "hodgepodge-2.7.192.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/537295860",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.192/hodgepodge-2.7.192.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.193",
+          "changelog": "## What's Changed\n* Prevent Bibliocraft Armor Stands from blindly destroying their other half by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/987\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.192...2.7.193\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T02:22:44+00:00",
+          "filename": "hodgepodge-2.7.193.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/538816261",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.193/hodgepodge-2.7.193.jar",
           "extra_assets": []
         }
       ],
@@ -133907,7 +133967,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.55",
+      "latest_version": "2.9.56",
       "private": false,
       "versions": [
         {
@@ -146019,6 +146079,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/536035067",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.55/GTNewHorizonsCoreMod-2.9.55.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.56",
+          "changelog": "## What's Changed\n* Use wildcard for boots crafts by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1938\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.55...2.9.56\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T02:23:05+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.56.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/538816584",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.56/GTNewHorizonsCoreMod-2.9.56.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -147301,7 +147371,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.128-GTNH",
+      "latest_version": "2.8.129-GTNH",
       "private": false,
       "versions": [
         {
@@ -151943,6 +152013,16 @@
           "filename": "NotEnoughItems-2.8.128-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/531747328",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.128-GTNH/NotEnoughItems-2.8.128-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.129-GTNH",
+          "changelog": "## What's Changed\n* add centerOverlay by @vcwdfca in https://github.com/GTNewHorizons/NotEnoughItems/pull/1016\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.128-GTNH...2.8.129-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T02:23:07+00:00",
+          "filename": "NotEnoughItems-2.8.129-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/538816632",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.129-GTNH/NotEnoughItems-2.8.129-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -178030,7 +178110,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.14.104-GTNH",
+      "latest_version": "1.14.105-GTNH",
       "private": false,
       "versions": [
         {
@@ -180781,6 +180861,16 @@
           "filename": "TConstruct-1.14.104-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/531714698",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.104-GTNH/TConstruct-1.14.104-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.105-GTNH",
+          "changelog": "## What's Changed\n* Fix on \"fixed quartz modifier not adding attack due to overflow\" by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/323\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.104-GTNH...1.14.105-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T02:23:16+00:00",
+          "filename": "TConstruct-1.14.105-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/538816770",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.105-GTNH/TConstruct-1.14.105-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -188139,7 +188229,7 @@
     },
     {
       "name": "WitcheryExtras",
-      "latest_version": "1.4.17",
+      "latest_version": "1.4.18",
       "private": false,
       "versions": [
         {
@@ -188570,6 +188660,16 @@
           "filename": "WitcheryExtras-1.4.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/517067941",
           "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.4.17/WitcheryExtras-1.4.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.18",
+          "changelog": "## What's Changed\n* Fix cauldron altar power shown in NEI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/45\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.4.17...1.4.18\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-01T01:26:25+00:00",
+          "filename": "WitcheryExtras-1.4.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/538760332",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.4.18/WitcheryExtras-1.4.18.jar",
           "extra_assets": []
         }
       ],
@@ -190089,6 +190189,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 711,
-  "latest_successful_daily": 711
+  "latest_daily": 712,
+  "latest_successful_daily": 712
 }
