@@ -427,6 +427,9 @@ Mod is client-side only.
 >* Fix MUI2 Header by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/14 (1.0.36-GTNH)
 >* Fix Waila Size by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/13 (1.0.34-GTNH)
 
+# Updated - Chunk API - 0.8.3 --> 0.8.4
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - CodeChickenCore - 1.4.16 --> 1.4.18
 **Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.16...1.4.18
 
@@ -573,6 +576,10 @@ Mod is client-side only.
 >* Port End Flashes and Other related features by @Eclipse-Sol in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/91 (2.6.49-GTNH)
 >* feat: backport ridden horse floating in liquids by @jordanamr in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/95 (2.6.49-GTNH)
 
+# Updated - Extreme Sound Muffler - 1.1.0 --> 1.1.1
+Mod is client-side only.
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - FindIt - 1.4.3 --> 1.4.6
 **Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.3...1.4.6
 
@@ -1270,10 +1277,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix render allocations by @boubou19 in https://github.com/GTNewHorizons/Infernal-Mobs/pull/25 (1.10.6-GTNH)
 
-# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.47-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.47-GTNH
+# Updated - InventoryBogoSorter - 1.3.37-GTNH --> 1.3.49-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.37-GTNH...1.3.49-GTNH
 
 ## What's Changed:
+>* feat: add NBT sort rules for Thaumcraft essentia and Forestry species by @Faith4ng in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/225 (1.3.49-GTNH)
+>* Add sorting for WitchingGadgets Bag and Cloak by @Edgaru089 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/218 (1.3.49-GTNH)
+>* brings in forestry workbench integration by @MassAnarchyy in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/205 (1.3.49-GTNH)
+>* Number Formatting by @Connor-Colenso in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/223 (1.3.48-GTNH)
 >* clarify dont change gregtech to gregtech_nh by @felixfour in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/216 (1.3.47-GTNH)
 >* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/221 (1.3.46-GTNH)
 >* Expose pinned slot in API by @Algent in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/220 (1.3.45-GTNH)
@@ -1689,16 +1700,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/SC2/pull/20 (2.3.15)
 
-# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.70-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.70-GTNH
+# Updated - Salis-Arcana - 1.1.65-GTNH --> 1.1.71-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.65-GTNH...1.1.71-GTNH
 
 ## What's Changed:
 >* Sync with upstream  by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Salis-Arcana/pull/2 (1.1.68-GTNH)
 
-# Updated - ServerUtilities - 2.4.1 --> 2.4.7
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.7
+# Updated - ServerUtilities - 2.4.1 --> 2.4.8
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.1...2.4.8
 
 ## What's Changed:
+>* Fix backups silently stopping until the game is restarted by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/338 (2.4.8)
 >* Remove PAUSE_WHEN_EMPTY mixin when ultramine is present by @SKProCH in https://github.com/GTNewHorizons/ServerUtilities/pull/337 (2.4.7)
 >* Add admin ui for editing any team by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/335 (2.4.6)
 >* JourneyMap 6 support for claims overlay and various improvements by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/333 (2.4.5)
@@ -1974,4 +1986,4 @@ Mod is client-side only.
 >* Change progress bars lengths by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/71 (1.19.31)
 
 # Credits
-Special thanks to @1328116700, @54M44R, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @Chitak985, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @Erixonich, @error1number404, @evgengoldwar, @FalsePattern, @fbfnysnshnsgnwg, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @june-dev-username, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @liryril1, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @1328116700, @54M44R, @ABKQPO, @Ableytner, @Adowrath, @ah-OOG-ah, @Alexdoru, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @Benflex1, @boubou19, @brandyyn, @Brownshome, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @Chitak985, @chrombread, @combusterf, @Connor-Colenso, @CRIMSTAL, @czqwq, @DancingSnow0517, @danyadev, @DarkShadow44, @daxsc, @DreamYao520, @DrParadox7, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elyspio, @Emilgardis, @EnderProyects, @Erixonich, @error1number404, @evgengoldwar, @Faith4ng, @FalsePattern, @fbfnysnshnsgnwg, @fehling135, @felixfour, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Ghoose1, @Glease, @glowredman, @Graymare, @guusw, @H3stur, @ham-corp, @HectorHW, @hinyb, @iouter, @JackOfNoneTrades, @jordanamr, @june-dev-username, @KAMKEEL, @Keter01, @kirilwapj, @Kogepan229, @koolkrafter5, @label-sync-bot-gt-nh[bot], @label-sync-bot-gtnh[bot], @LazyFlesh, @lc-1337, @lekior, @liryril1, @loenaaaa, @Luca-Guettinger, @lunawinxp, @Lyfts, @MalTeeez, @MassAnarchyy, @mattiasploesch-cpu, @mcmlevi, @MCTBL, @MellowArpeggiation, @metalcupcake5, @mhowell9, @Midnight145, @Miklebe, @mitchej123, @MLGfruitshoot, @mllfjn, @Mrnikbobjeff, @Nana-Sakura, @NeutronSelector, @Nikolay-Sitnikov, @noitacude013, @NotKaizul, @ohentis, @Omgise, @PLASMAchicken, @playfuldoggo, @przemo1232, @pxbhop, @Pxx500, @Quaerere-Git, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @ReignOfFROZE, @rieverholic, @robbert229, @Ruling-0, @S4mpsa, @samhaines-wustl, @Sanduhr32, @sbancuz, @serenibyss, @shironakoushi, @sivaDog, @SiwwiSiwwi, @SKProCH, @slprime, @SpacEagle17, @Spaghetti-OberNub, @starxingchenc, @sunshinekitsune, @SuperSoupr, @telemenar, @thehoblit, @TheYoingLad, @tiffit, @toenailsin, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @vladislemon, @vnesterovskyi, @VortexSo4, @vVvDAPPA, @Windorain, @wlhlm, @Worive, @xicoa, @XLin0mu, @YamiKami-Sama, @YannickMG, @Yoshy2002, @zaru-noodles, @ZaykieT, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
