@@ -102,10 +102,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix by removing alpha check by @Ranzuu in https://github.com/GTNewHorizons/AppleCore/pull/41 (3.3.12)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1045-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1045-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1000-GTNH --> rv3-beta-1046-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1000-GTNH...rv3-beta-1046-GTNH
 
 ## What's Changed:
+>* Fix color applicator shift-right-click GUI by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1560 (rv3-beta-1046-GTNH)
 >* Fix crashes when diffing read-only network item lists by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1558 (rv3-beta-1045-GTNH)
 >* Fix Mad Chameleon mode by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1550 (rv3-beta-1045-GTNH)
 >* Fix empty custom name being kept on cable parts by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1554 (rv3-beta-1045-GTNH)
@@ -620,10 +621,15 @@ Mod is client-side only.
 >* Change modid by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/22 (1.0.11)
 >* feat: hide mod overlays while in freecam by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/21 (1.0.10)
 
-# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.121
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.121
+# Updated - GT5-Unofficial - 5.09.54.20 --> 5.09.54.122
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.20...5.09.54.122
 
 ## What's Changed:
+>* Fix IAF structure by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7909 (5.09.54.122)
+>* Fix solar panel covers on cable endpoints by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7907 (5.09.54.122)
+>* Fix Endothermic Fridge Autoplace Limit by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7908 (5.09.54.122)
+>* Buff LHC by pushing back power nerf threshold by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7903 (5.09.54.122)
+>* Restore Naquadah Fuels by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7912 (5.09.54.122)
 >* Add Vajra mining speed modes by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7877 (5.09.54.121)
 >* Fix BEC IONode Tierskipping Issues by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7906 (5.09.54.121)
 >* Create new Trophy Ice Cream by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7896 (5.09.54.121)
@@ -1142,10 +1148,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix GraviChestPlate flight desync and swapped energy messages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/36 (1.3.14)
 >* Send GraviSuite item and armor status messages server-side only by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/35 (1.3.13)
 
-# Updated - GuideNH - 1.3.11 --> 1.3.23
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.23
+# Updated - GuideNH - 1.3.11 --> 1.3.24
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.11...1.3.24
 
 ## What's Changed:
+>* Optimize guide reloads and improve editor/AE2 previews by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/65 (1.3.24)
 >* set default BlockImage scale 4 by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/64 (1.3.23)
 >* Reduce memory allocation pressure by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/66 (1.3.23)
 >* Various minor bug fixes by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/60 (1.3.22)
@@ -1180,10 +1187,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Hodgepodge - 2.7.170 --> 2.7.193
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.193
+# Updated - Hodgepodge - 2.7.170 --> 2.7.194
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.170...2.7.194
 
 ## What's Changed:
+>* Optimize TE packets by @AnsonYeung in https://github.com/GTNewHorizons/Hodgepodge/pull/985 (2.7.194)
 >* Prevent Bibliocraft Armor Stands from blindly destroying their other half by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/987 (2.7.193)
 >* Fix block hit delay after survival/creative mode switch by @AnsonYeung in https://github.com/GTNewHorizons/Hodgepodge/pull/988 (2.7.192)
 >* Fix BiblioCraft FancySign shift-click dupe by @Worive in https://github.com/GTNewHorizons/Hodgepodge/pull/989 (2.7.192)
@@ -1408,10 +1416,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Mark all the non optional parameters as optional, to avoid Zenscript warning in logs by @boubou19 in https://github.com/GTNewHorizons/ModTweaker/pull/9 (0.14.0)
 
-# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.87-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.87-1.7.10
+# Updated - ModularUI2 - 2.3.79-1.7.10 --> 2.3.88-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.79-1.7.10...2.3.88-1.7.10
 
 ## What's Changed:
+>* Fix fluid icons rendering cropped when sprites are padded by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ModularUI2/pull/161 (2.3.88-1.7.10)
 >* Add explicit check if we are swapping from and to the same slot by @mcmlevi in https://github.com/GTNewHorizons/ModularUI2/pull/160 (2.3.87-1.7.10)
 >* Localize the config by @Ranzuu in https://github.com/GTNewHorizons/ModularUI2/pull/148 (2.3.86-1.7.10)
 >* Take the fluid unit from GTNHLib instead of hardcoding L by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ModularUI2/pull/157 (2.3.85-1.7.10)
@@ -1608,10 +1617,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache enum `.values()` by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/63 (1.12.20-GTNH)
 >* fix: infinite speed and altitude using hand glider with elytra by @jordanamr in https://github.com/GTNewHorizons/OpenBlocks/pull/57 (1.12.19-GTNH)
 
-# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.58-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.58-GTNH
+# Updated - OpenComputers - 1.12.48-GTNH --> 1.12.59-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.48-GTNH...1.12.59-GTNH
 
 ## What's Changed:
+>* Add AE2 Cell Workbench API by @Armisael5 in https://github.com/GTNewHorizons/OpenComputers/pull/219 (1.12.59-GTNH)
 >* feat(dropfile): add configurable limits for drop file by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/216 (1.12.58-GTNH)
 >* fix(appeng): serialize stack to NBTTagCompound to satisfy signal constraints by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/213 (1.12.57-GTNH)
 >* Added ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/OpenComputers/pull/218 (1.12.56-GTNH)
@@ -1797,10 +1807,11 @@ Mod is client-side only.
 >* Fix Witchery disarm dupe by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/60 (1.5.25-GTNH)
 >* Fix thaumic replicator crash by @zaru-noodles in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/61 (1.5.25-GTNH)
 
-# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.105-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.105-GTNH
+# Updated - TinkersConstruct - 1.14.93-GTNH --> 1.14.106-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.93-GTNH...1.14.106-GTNH
 
 ## What's Changed:
+>* fix crafting station shift click and adjacent hotbar slot selection by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/324 (1.14.106-GTNH)
 >* Fix on "fixed quartz modifier not adding attack due to overflow" by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/323 (1.14.105-GTNH)
 >* Fix render allocs of the tools by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/321 (1.14.104-GTNH)
 >* increase minimum bookmark columns to original by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/319 (1.14.103-GTNH)
