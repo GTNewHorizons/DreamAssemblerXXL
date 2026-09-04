@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-04-02",
+    "latest_version": "2.9.0-nightly-2026-09-04-03",
     "needs_attention": false,
     "versions": [
       {
@@ -7712,6 +7712,16 @@
         "filename": "2.9.0-nightly-2026-09-04-02.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/543868270",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-04-02/2.9.0-nightly-2026-09-04-02.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-04-03",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-04T17:10:46+00:00",
+        "filename": "2.9.0-nightly-2026-09-04-03.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/544647082",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-04-03/2.9.0-nightly-2026-09-04-03.zip",
         "extra_assets": []
       }
     ],
@@ -18393,7 +18403,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1047-GTNH",
+      "latest_version": "rv3-beta-1048-GTNH",
       "private": false,
       "versions": [
         {
@@ -27455,6 +27465,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/543708866",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1047-GTNH/appliedenergistics2-rv3-beta-1047-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1048-GTNH",
+          "changelog": "## What's Changed\n* Fix inverted fuzzy durability thresholds by @Chitak985 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1564\n* Fix fluid network search highlighting by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1569\n* Fix FacadePart prevLight crash by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1573\n\n## New Contributors\n* @Chitak985 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1564\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1047-GTNH...rv3-beta-1048-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T21:56:50+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1048-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/544960848",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1048-GTNH/appliedenergistics2-rv3-beta-1048-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -32584,7 +32604,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.7.15-GTNH",
+      "latest_version": "1.7.16-GTNH",
       "private": false,
       "versions": [
         {
@@ -32967,6 +32987,16 @@
           "filename": "betterloadingscreen-1.7.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/543466601",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.15-GTNH/betterloadingscreen-1.7.15-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.16-GTNH",
+          "changelog": "## What's Changed\n* Non thread mode improvements by @danyadev in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/44\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.15-GTNH...1.7.16-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T22:29:39+00:00",
+          "filename": "betterloadingscreen-1.7.16-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/544992617",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.16-GTNH/betterloadingscreen-1.7.16-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -52490,7 +52520,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.42",
+      "latest_version": "2.10.43",
       "private": false,
       "versions": [
         {
@@ -54481,6 +54511,16 @@
           "filename": "EnderIO-2.10.42.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/543709631",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.42/EnderIO-2.10.42.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.43",
+          "changelog": "## What's Changed\n* Revert #231 by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/261\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.42...2.10.43\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T17:11:27+00:00",
+          "filename": "EnderIO-2.10.43.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/544647749",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.43/EnderIO-2.10.43.jar",
           "extra_assets": []
         }
       ],
@@ -66486,7 +66526,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.128",
+      "latest_version": "5.09.54.129",
       "private": false,
       "versions": [
         {
@@ -92788,6 +92828,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/543870204",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.128/gregtech-5.09.54.128.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.129",
+          "changelog": "## What's Changed\n* Add rhenium to QFT by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7911\n* Toolbox soldering iron and broken tool animation fix by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7832\n* Adds reading comprehension test (Explosive Ice cream) by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7934\n* Fix reinforced block casings Inconsistencies by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7938\n* Fix Active Transformer throughput display sampling a single tick per second by @Jesse-njx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7923\n* Fix Godforge beam shader compilation by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7941\n* Document Intentional Eye of Harmony Pity Behavior by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7943\n* Fix WAILA display for steam singleblocks usage by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7942\n\n## New Contributors\n* @Jesse-njx made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7923\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.128...5.09.54.129\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T21:57:06+00:00",
+          "filename": "gregtech-5.09.54.129.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/544961173",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.129/gregtech-5.09.54.129.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -95670,7 +95720,7 @@
     },
     {
       "name": "GTNHLib",
-      "latest_version": "0.11.44",
+      "latest_version": "0.11.45",
       "private": false,
       "versions": [
         {
@@ -98581,6 +98631,16 @@
           "filename": "gtnhlib-0.11.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/537175715",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.44/gtnhlib-0.11.44.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.45",
+          "changelog": "## What's Changed\n* Improve edge cases of `@EventBusSubscriber` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNHLib/pull/448\n* Vanilla Color Code Rules Option + Minor JSON Crash Fix  by @KAMKEEL in https://github.com/GTNewHorizons/GTNHLib/pull/447\n* add colors to /blockstate property values by @flamingowrangler2869 in https://github.com/GTNewHorizons/GTNHLib/pull/329\n* Add various debug logs to the model system by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/467\n* Allow non-block textures in JSON models by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/438\n\n## New Contributors\n* @KAMKEEL made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/447\n* @flamingowrangler2869 made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/329\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.44...0.11.45\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T22:02:38+00:00",
+          "filename": "gtnhlib-0.11.45.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/544966736",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.45/gtnhlib-0.11.45.jar",
           "extra_assets": []
         }
       ],
@@ -103520,7 +103580,7 @@
     },
     {
       "name": "GuideNH",
-      "latest_version": "1.3.25",
+      "latest_version": "1.3.26",
       "private": false,
       "versions": [
         {
@@ -103751,6 +103811,16 @@
           "filename": "guidenh-1.3.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/543242004",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.25/guidenh-1.3.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.26",
+          "changelog": "## What's Changed\n* Add navigation search keywords by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/69\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.25...1.3.26\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T17:11:41+00:00",
+          "filename": "guidenh-1.3.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/544648015",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.26/guidenh-1.3.26.jar",
           "extra_assets": []
         }
       ],
@@ -104684,7 +104754,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.195",
+      "latest_version": "2.7.196",
       "private": false,
       "versions": [
         {
@@ -110785,6 +110855,16 @@
           "filename": "hodgepodge-2.7.195.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/540712228",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.195/hodgepodge-2.7.195.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.196",
+          "changelog": "## What's Changed\n* Fix duplicate players on reconnect by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/986\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.195...2.7.196\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T18:08:08+00:00",
+          "filename": "hodgepodge-2.7.196.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/544710700",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.196/hodgepodge-2.7.196.jar",
           "extra_assets": []
         }
       ],
@@ -134363,7 +134443,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.58",
+      "latest_version": "2.9.60",
       "private": false,
       "versions": [
         {
@@ -146505,6 +146585,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/543754625",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.58/GTNewHorizonsCoreMod-2.9.58.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.59",
+          "changelog": "## What's Changed\n* Recipes for tilled fertilized dirt and farmland by @Spaghetti-OberNub in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1942\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.58...2.9.59\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T17:10:55+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/544647249",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.59/GTNewHorizonsCoreMod-2.9.59.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.60",
+          "changelog": "## What's Changed\n* Fix enderium base dust mixer dust ratio by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1944\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.59...2.9.60\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T21:58:55+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/544962866",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.60/GTNewHorizonsCoreMod-2.9.60.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -152458,7 +152558,7 @@
     },
     {
       "name": "Nuclear-Control",
-      "latest_version": "2.7.12",
+      "latest_version": "2.7.13",
       "private": false,
       "versions": [
         {
@@ -152951,6 +153051,16 @@
           "filename": "IC2NuclearControl-2.7.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nuclear-Control/releases/assets/507362418",
           "browser_download_url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.7.12/IC2NuclearControl-2.7.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.13",
+          "changelog": "## What's Changed\n* Fix zfighting issues on screen display and wrong culling under some angles by @boubou19 in https://github.com/GTNewHorizons/Nuclear-Control/pull/49\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.7.12...2.7.13\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T17:09:46+00:00",
+          "filename": "IC2NuclearControl-2.7.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nuclear-Control/releases/assets/544646118",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.7.13/IC2NuclearControl-2.7.13.jar",
           "extra_assets": []
         }
       ],
@@ -154094,7 +154204,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.12.60-GTNH",
+      "latest_version": "1.12.61-GTNH",
       "private": false,
       "versions": [
         {
@@ -155755,6 +155865,16 @@
           "filename": "OpenComputers-1.12.60-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/543712408",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.60-GTNH/OpenComputers-1.12.60-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.61-GTNH",
+          "changelog": "## What's Changed\n* Adjust the BEC Maxwell Gate API to align with its improvements. by @hxync in https://github.com/GTNewHorizons/OpenComputers/pull/221\n\n## New Contributors\n* @hxync made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/221\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.60-GTNH...1.12.61-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T17:10:48+00:00",
+          "filename": "OpenComputers-1.12.61-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/544647103",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.61-GTNH/OpenComputers-1.12.61-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -190725,6 +190845,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 719,
-  "latest_successful_daily": 719
+  "latest_daily": 720,
+  "latest_successful_daily": 720
 }
