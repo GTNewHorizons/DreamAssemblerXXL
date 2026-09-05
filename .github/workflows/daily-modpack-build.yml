@@ -152,6 +152,8 @@ jobs:
             GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip
             GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack
             releases/manifests/daily.json
+            releases/manifests/previous_daily.json
+            releases/readmes/README_daily.MD
             releases/changelogs/
             gtnh-assets.json
           if-no-files-found: error
@@ -349,6 +351,8 @@ jobs:
           git add "$daily_non_daily_changelog_file"
           git add "./releases/changelogs/daily builds"
           git add ./releases/manifests/daily.json
+          git add ./releases/manifests/previous_daily.json
+          git add ./releases/readmes/README_daily.MD
           git add ./gtnh-assets.json
           git commit -m "Upload daily $changelog_name"
 
