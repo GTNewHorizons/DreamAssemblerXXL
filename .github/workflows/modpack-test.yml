@@ -62,6 +62,7 @@ jobs:
               -Dfml.readTimeout=45
               -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
               -Dhorizonqa.reportDir=/tmp/daily-test/run
+              -Dmixin.debug.countInjections=true -Dmixin.debug=true
               @java9args.txt
               -jar lwjgl3ify-forgePatches.jar
               nogui
@@ -79,6 +80,7 @@ jobs:
               -Dfml.readTimeout=45
               -Dhorizonqa.mode=ci -Dhorizonqa.autoRun=false -Dhorizonqa.world=normal -Dhorizonqa.gridOrigin=0,128,0
               -Dhorizonqa.reportDir=/tmp/daily-test/run
+              -Dmixin.debug.countInjections=true -Dmixin.debug=true
               -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
               nogui
             server-startup-timeout: 240
