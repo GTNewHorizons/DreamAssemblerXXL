@@ -52520,7 +52520,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.43",
+      "latest_version": "2.10.44",
       "private": false,
       "versions": [
         {
@@ -54521,6 +54521,16 @@
           "filename": "EnderIO-2.10.43.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/544647749",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.43/EnderIO-2.10.43.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.44",
+          "changelog": "## What's Changed\n* Fix night vision deactivating after dimension change via portal by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderIO/pull/262\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.43...2.10.44\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T23:44:08+00:00",
+          "filename": "EnderIO-2.10.44.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/545067356",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.44/EnderIO-2.10.44.jar",
           "extra_assets": []
         }
       ],
@@ -190845,6 +190855,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 720,
-  "latest_successful_daily": 720
+  "latest_daily": 721,
+  "latest_successful_daily": 721
 }

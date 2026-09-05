@@ -571,10 +571,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Support vanilla fluids with U/R in NEI Widgets by @sbancuz in https://github.com/GTNewHorizons/EnderCore/pull/35 (0.5.15)
 
-# Updated - EnderIO - 2.10.32 --> 2.10.43
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.43
+# Updated - EnderIO - 2.10.32 --> 2.10.44
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.32...2.10.44
 
 ## What's Changed:
+>* Fix night vision deactivating after dimension change via portal by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderIO/pull/262 (2.10.44)
 >* Revert #231 by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/261 (2.10.43)
 >* remove direct getStackInSlot exploit by @felixfour in https://github.com/GTNewHorizons/EnderIO/pull/245 (2.10.42)
 >* Fix Player inventory cannot be shown when the EnderIO fluid conduit tier is lower than Ender by @vcwdfca in https://github.com/GTNewHorizons/EnderIO/pull/255 (2.10.42)
