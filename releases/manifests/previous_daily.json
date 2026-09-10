@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-09-08T08:14:17.391962+00:00",
-  "config": "2.9.0-nightly-2026-09-07",
+  "last_updated": "2026-09-09T08:19:09.167332+00:00",
+  "config": "2.9.0-nightly-2026-09-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1053-GTNH",
+      "version": "rv3-beta-1054-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.84-GTNH",
+      "version": "3.8.85-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.137",
+      "version": "5.09.54.140",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.200",
+      "version": "2.7.201",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.46",
+      "version": "1.6.47",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -345,11 +345,11 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.130-GTNH",
+      "version": "2.8.133-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.13",
+      "version": "2.7.14",
       "side": "BOTH"
     },
     "oauth": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.39",
+      "version": "1.5.40",
       "side": "BOTH"
     },
     "waila": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.11",
+      "version": "2.2.12",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "GTNH-Credits": {
@@ -813,7 +813,7 @@
       "side": "CLIENT"
     },
     "CosmeticArmorReworked": {
-      "version": "1.0.6-GTNH",
+      "version": "1.0.7-GTNH",
       "side": "BOTH"
     },
     "SimpleSkinBackport": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.29",
+      "version": "1.3.30",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
