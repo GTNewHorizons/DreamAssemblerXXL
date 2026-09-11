@@ -61676,7 +61676,7 @@
     },
     {
       "name": "Galacticraft",
-      "latest_version": "3.4.33-GTNH",
+      "latest_version": "3.4.34-GTNH",
       "private": false,
       "versions": [
         {
@@ -62777,6 +62777,16 @@
           "filename": "Galacticraft-3.4.33-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/509043684",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.4.33-GTNH/Galacticraft-3.4.33-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.4.34-GTNH",
+          "changelog": "## What's Changed\n* Remove Oxygenheightlimit by @ShadowReaper420 in https://github.com/GTNewHorizons/Galacticraft/pull/150\n\n## New Contributors\n* @ShadowReaper420 made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/150\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.33-GTNH...3.4.34-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-11T15:10:09+00:00",
+          "filename": "Galacticraft-3.4.34-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/557471190",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.4.34-GTNH/Galacticraft-3.4.34-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -66926,7 +66936,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.144",
+      "latest_version": "5.09.54.148",
       "private": false,
       "versions": [
         {
@@ -93387,6 +93397,46 @@
           "filename": "gregtech-5.09.54.144.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/556677110",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.144/gregtech-5.09.54.144.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.145",
+          "changelog": "## What's Changed\n* Fix BEC route traversal latency by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8009\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.144...5.09.54.145\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-11T15:11:54+00:00",
+          "filename": "gregtech-5.09.54.145.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/557474114",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.145/gregtech-5.09.54.145.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.146",
+          "changelog": "## What's Changed\n* Update redstone state immediately after changing GUI settings in electrode hatch by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8011\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.145...5.09.54.146\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-11T18:09:12+00:00",
+          "filename": "gregtech-5.09.54.146.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/557748231",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.146/gregtech-5.09.54.146.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.147",
+          "changelog": "## What's Changed\n* Buff Seaweed Line Slightly by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7990\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.146...5.09.54.147\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-11T18:34:17+00:00",
+          "filename": "gregtech-5.09.54.147.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/557785252",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.147/gregtech-5.09.54.147.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.148",
+          "changelog": "## What's Changed\n* Give singleblock compressors a fluid slot by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8016\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.147...5.09.54.148\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-11T19:27:24+00:00",
+          "filename": "gregtech-5.09.54.148.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/557869106",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.148/gregtech-5.09.54.148.jar",
           "extra_assets": []
         }
       ],
@@ -191907,6 +191957,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 729,
-  "latest_successful_daily": 729
+  "latest_daily": 730,
+  "latest_successful_daily": 730
 }

@@ -137,10 +137,14 @@ Mod is client-side only.
 ## What's Changed:
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.144
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.144
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.148
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.148
 
 ## What's Changed:
+>* Give singleblock compressors a fluid slot by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8016 (5.09.54.148)
+>* Buff Seaweed Line Slightly by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7990 (5.09.54.147)
+>* Update redstone state immediately after changing GUI settings in electrode hatch by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8011 (5.09.54.146)
+>* Fix BEC route traversal latency by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8009 (5.09.54.145)
 >* fix MOC coils by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8006 (5.09.54.144)
 >* Fix multiblock shutdown reason and mode localization on servers by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7918 (5.09.54.144)
 >* chore: bump Horizon-QA to 0.14.1 by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8001 (5.09.54.143)
@@ -183,6 +187,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add Ukrainian 🇺🇦 (uk_UA) localization and translate documentation by @Jarnexis in https://github.com/GTNewHorizons/GTNHLib/pull/455 (0.11.48)
 >* Add simplex noise utilities by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/428 (0.11.47)
+
+# Updated - Galacticraft - 3.4.33-GTNH --> 3.4.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.33-GTNH...3.4.34-GTNH
+
+## What's Changed:
+>* Remove Oxygenheightlimit by @ShadowReaper420 in https://github.com/GTNewHorizons/Galacticraft/pull/150 (3.4.34-GTNH)
 
 # Updated - GuideNH - 1.3.29 --> 1.3.31
 **Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.31
@@ -324,4 +334,4 @@ Mod is client-side only.
 >* Avoid filling the stack trace in Lwjgl3AwareException by @Oondanomala in https://github.com/GTNewHorizons/lwjgl3ify/pull/351 (3.0.32)
 
 # Credits
-Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DylanTaylor1, @Eldrinn-Elantey, @Elyspio, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @ham-corp, @hensmth, @hinyb, @Jarnexis, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @LazyFlesh, @Luca-Guettinger, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Oondanomala, @philipxjm, @PLASMAchicken, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @slprime, @StaffiX, @vermz99, @Viptunbeqwfwew, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DylanTaylor1, @Eldrinn-Elantey, @Elyspio, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @ham-corp, @hensmth, @hinyb, @Jarnexis, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @LazyFlesh, @Luca-Guettinger, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Oondanomala, @philipxjm, @PLASMAchicken, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @slprime, @StaffiX, @vermz99, @Viptunbeqwfwew, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
