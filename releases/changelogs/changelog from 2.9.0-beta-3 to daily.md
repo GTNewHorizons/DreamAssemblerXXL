@@ -106,10 +106,14 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.115
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.115
+# Updated - CropsNH - 2.0.114 --> 2.0.117
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.117
 
 ## What's Changed:
+>* Change color of the necrobloom seed by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/259 (2.0.117)
+>* Add optional runtime dep configs in a zipped folder by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/253 (2.0.117)
+>* Change color of the necrobloom seed by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/259 (2.0.116)
+>* Add optional runtime dep configs in a zipped folder by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/253 (2.0.116)
 >* Tweak liked biomes of a few low-tier crops. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/258 (2.0.115)
 
 # Updated - Default-Configs - 1.3.1 --> 1.3.2
@@ -137,10 +141,14 @@ Mod is client-side only.
 ## What's Changed:
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.148
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.148
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.149
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.149
 
 ## What's Changed:
+>* Remove Item Output Restriction on Battery Buffers by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7996 (5.09.54.149)
+>* Fix duplicated extension in ore texture path by @Chitak985 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7978 (5.09.54.149)
+>* make NAM use structure channels for autoplace by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8021 (5.09.54.149)
+>* clarify ability to split ccs in splitter tooltip by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8019 (5.09.54.149)
 >* Give singleblock compressors a fluid slot by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8016 (5.09.54.148)
 >* Buff Seaweed Line Slightly by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7990 (5.09.54.147)
 >* Update redstone state immediately after changing GUI settings in electrode hatch by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8011 (5.09.54.146)
@@ -334,4 +342,4 @@ Mod is client-side only.
 >* Avoid filling the stack trace in Lwjgl3AwareException by @Oondanomala in https://github.com/GTNewHorizons/lwjgl3ify/pull/351 (3.0.32)
 
 # Credits
-Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DylanTaylor1, @Eldrinn-Elantey, @Elyspio, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @ham-corp, @hensmth, @hinyb, @Jarnexis, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @LazyFlesh, @Luca-Guettinger, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Oondanomala, @philipxjm, @PLASMAchicken, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @slprime, @StaffiX, @vermz99, @Viptunbeqwfwew, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DylanTaylor1, @Eldrinn-Elantey, @Elyspio, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @ham-corp, @hensmth, @hinyb, @Jarnexis, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @LazyFlesh, @Luca-Guettinger, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Oondanomala, @philipxjm, @PLASMAchicken, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @slprime, @StaffiX, @UltraProdigy, @vermz99, @Viptunbeqwfwew, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
