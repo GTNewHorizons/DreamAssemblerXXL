@@ -18543,7 +18543,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1058-GTNH",
+      "latest_version": "rv3-beta-1059-GTNH",
       "private": false,
       "versions": [
         {
@@ -27714,6 +27714,16 @@
           "filename": "appliedenergistics2-rv3-beta-1058-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/559899216",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1058-GTNH/appliedenergistics2-rv3-beta-1058-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1059-GTNH",
+          "changelog": "## What's Changed\n* Fix Reshuffle progress bar end marker by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1615\n* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1609\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1058-GTNH...rv3-beta-1059-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T02:26:17+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1059-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/560392917",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1059-GTNH/appliedenergistics2-rv3-beta-1059-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -147846,7 +147856,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.7.41",
+      "latest_version": "1.7.42",
       "private": false,
       "versions": [
         {
@@ -148629,6 +148639,16 @@
           "filename": "NotEnoughEnergistics-1.7.41.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/538087686",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.41/NotEnoughEnergistics-1.7.41.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.42",
+          "changelog": "## What's Changed\n* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.41...1.7.42\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T02:21:43+00:00",
+          "filename": "NotEnoughEnergistics-1.7.42.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/560386599",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.42/NotEnoughEnergistics-1.7.42.jar",
           "extra_assets": []
         }
       ],
@@ -192147,6 +192167,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 732,
-  "latest_successful_daily": 732
+  "latest_daily": 733,
+  "latest_successful_daily": 733
 }

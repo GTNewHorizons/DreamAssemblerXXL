@@ -24,10 +24,12 @@ Mod is client-side only.
 >* Add Ukrainian (uk_UA) localization and translate documentation by @Jarnexis in https://github.com/GTNewHorizons/Angelica/pull/1990 (2.2.11)
 >* support custom fonts on macos by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/2066 (2.2.11)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1058-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1058-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1059-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1059-GTNH
 
 ## What's Changed:
+>* Fix Reshuffle progress bar end marker by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1615 (rv3-beta-1059-GTNH)
+>* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1609 (rv3-beta-1059-GTNH)
 >* Fixed a bug in submitting jobs #26770 by @mattiasploesch-cpu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1614 (rv3-beta-1058-GTNH)
 >* fix multipart host bindings and placement validation by @Pxx500 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1611 (rv3-beta-1058-GTNH)
 >* Reuse crafting pattern snapshots between requests by @Algent in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1599 (rv3-beta-1057-GTNH)
@@ -314,6 +316,12 @@ Mod is client-side only.
 >* Fix Mixed Metal Ingot assembler recipe to match the crafting table by @mattiasploesch-cpu in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1948 (2.9.63)
 >* [NAC] Rework NAC power consumption by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1949 (2.9.63)
 >* Add a sponge recipe by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1947 (2.9.62)
+
+# Updated - NotEnoughEnergistics - 1.7.41 --> 1.7.42
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.41...1.7.42
+
+## What's Changed:
+>* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83 (1.7.42)
 
 # Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.139-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.139-GTNH
