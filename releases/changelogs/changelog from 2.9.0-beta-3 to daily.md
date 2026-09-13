@@ -24,10 +24,12 @@ Mod is client-side only.
 >* Add Ukrainian (uk_UA) localization and translate documentation by @Jarnexis in https://github.com/GTNewHorizons/Angelica/pull/1990 (2.2.11)
 >* support custom fonts on macos by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/2066 (2.2.11)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1059-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1059-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1060-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1060-GTNH
 
 ## What's Changed:
+>* Advanced Level Emitter check change by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1617 (rv3-beta-1060-GTNH)
+>* Fix item loss during storage reshuffling by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1612 (rv3-beta-1060-GTNH)
 >* Fix Reshuffle progress bar end marker by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1615 (rv3-beta-1059-GTNH)
 >* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1609 (rv3-beta-1059-GTNH)
 >* Fixed a bug in submitting jobs #26770 by @mattiasploesch-cpu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1614 (rv3-beta-1058-GTNH)
@@ -106,6 +108,12 @@ Mod is client-side only.
 >* Fix EnderIO mixin. Addd NEI Fluids by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/16 (1.0.38-GTNH)
 >* Add NEI Fluids by @slprime in https://github.com/GTNewHorizons/ChromaticTooltipsCompat/pull/15 (1.0.37-GTNH)
 
+# Updated - CookingForBlockheads - 1.4.13-GTNH --> 1.4.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.13-GTNH...1.4.14-GTNH
+
+## What's Changed:
+>* Fix kitchen door hinges ending up on the wrong side by @JustRomanBZK in https://github.com/GTNewHorizons/CookingForBlockheads/pull/66 (1.4.14-GTNH)
+
 # Updated - CosmeticArmorReworked - 1.0.6-GTNH --> 1.0.7-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/CosmeticArmorReworked/compare/1.0.6-GTNH...1.0.7-GTNH
 
@@ -149,10 +157,15 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.150
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.150
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.152
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.152
 
 ## What's Changed:
+>* [Mechanical Armor] Flatten per-tier armor values for frames by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8042 (5.09.54.152)
+>* [NAC] Allow VC hatches on full bottom face of modules by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8039 (5.09.54.151)
+>* [NAC] Fix VC hatch tier being UIV instead of UHV by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8040 (5.09.54.151)
+>* fix circuit conflict by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8046 (5.09.54.151)
+>* Allow rotated large turbine formation by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8045 (5.09.54.151)
 >* NAC NBT QoL by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8023 (5.09.54.150)
 >* Move item names and tooltips into the asset lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8003 (5.09.54.150)
 >* Merge tiered tool names into one key per family by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8025 (5.09.54.150)
@@ -234,10 +247,18 @@ Mod is client-side only.
 >* Block state button icon by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/78 (1.3.31)
 >* Optimize GuideScene and Ponder rendering by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/74 (1.3.30)
 
-# Updated - Hodgepodge - 2.7.196 --> 2.7.204
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.204
+# Updated - Hardcore-Ender-Expansion - 1.12.27-GTNH --> 1.12.28-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.27-GTNH...1.12.28-GTNH
 
 ## What's Changed:
+>* Fix baby Enderman item duplication by @Worive in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/49 (1.12.28-GTNH)
+
+# Updated - Hodgepodge - 2.7.196 --> 2.7.206
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.206
+
+## What's Changed:
+>* Mark the Bibliocraft Armor Stand as dirty when the inventory changes by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/1005 (2.7.206)
+>* Fix Furnace doesn't save current item burn time to NBT by @Faotik in https://github.com/GTNewHorizons/Hodgepodge/pull/1001 (2.7.206)
 >* Add a packetstats command by @kurrycat2004 in https://github.com/GTNewHorizons/Hodgepodge/pull/1003 (2.7.204)
 >* Add option to limit received packet processing by time by @kurrycat2004 in https://github.com/GTNewHorizons/Hodgepodge/pull/1004 (2.7.204)
 >* Add Japanese Localization by @Kokekabe-Madoha in https://github.com/GTNewHorizons/Hodgepodge/pull/996 (2.7.203)
@@ -260,10 +281,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix GL Leak by @Ranzuu in https://github.com/GTNewHorizons/InGame-Info-XML/pull/44 (2.9.7)
 
-# Updated - LittleTiles - 1.6.44 --> 1.6.47
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.44...1.6.47
+# Updated - LittleTiles - 1.6.44 --> 1.6.48
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.44...1.6.48
 
 ## What's Changed:
+>* fix(tile container): Guard against invalid GUI packet stacks by @Worive in https://github.com/GTNewHorizons/LittleTiles/pull/170 (1.6.48)
 >* fix(lighting): Properly update and emit light on blocks with meta-driven light values by @vermz99 in https://github.com/GTNewHorizons/LittleTiles/pull/165 (1.6.47)
 >* feat(chisel shapes): Inner and Outer Convex Slope Corners by @vermz99 in https://github.com/GTNewHorizons/LittleTiles/pull/161 (1.6.46)
 >* fix(LittleChisel): Add defensive guard for invalid shape to prevent crash by @vermz99 in https://github.com/GTNewHorizons/LittleTiles/pull/162 (1.6.46)
@@ -378,10 +400,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Format tooltip by @Connor-Colenso in https://github.com/GTNewHorizons/TiC-Tooltips/pull/11 (1.4.2)
 
-# Updated - TinkersConstruct - 1.14.108-GTNH --> 1.14.111-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.108-GTNH...1.14.111-GTNH
+# Updated - TinkersConstruct - 1.14.108-GTNH --> 1.14.112-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.108-GTNH...1.14.112-GTNH
 
 ## What's Changed:
+>* preserve crafting tool inventory origin after use by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/339 (1.14.112-GTNH)
 >* Clarify undead soil heals undead that walk over it by @LazyFlesh in https://github.com/GTNewHorizons/TinkersConstruct/pull/336 (1.14.111-GTNH)
 >* add config option for classic crafting station layout by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/334 (1.14.110-GTNH)
 >* Bugfix blocking damage battlesign by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/331 (1.14.109-GTNH)
@@ -417,5 +440,12 @@ Mod is client-side only.
 >* Add version information for embedded ASM by @ah-OOG-ah in https://github.com/GTNewHorizons/lwjgl3ify/pull/358 (3.0.32)
 >* Avoid filling the stack trace in Lwjgl3AwareException by @Oondanomala in https://github.com/GTNewHorizons/lwjgl3ify/pull/351 (3.0.32)
 
+# Updated - twilightforest - 2.7.40 --> 2.7.41
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.41
+
+## What's Changed:
+>* Add redstone control for Timewood Clocks by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/159 (2.7.41)
+>* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
+
 # Credits
-Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DreamYao520, @DylanTaylor1, @Eldrinn-Elantey, @Elyspio, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @ham-corp, @hensmth, @hinyb, @Jarnexis, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @kurrycat2004, @LazyFlesh, @Luca-Guettinger, @mattiasploesch-cpu, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Oondanomala, @philipxjm, @PLASMAchicken, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @slprime, @Spagles, @StaffiX, @UltraProdigy, @vermz99, @Viptunbeqwfwew, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DreamYao520, @DylanTaylor1, @Eldrinn-Elantey, @Elyspio, @Faotik, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @ham-corp, @hensmth, @hinyb, @Jarnexis, @JustRomanBZK, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @kurrycat2004, @LazyFlesh, @Luca-Guettinger, @mattiasploesch-cpu, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @philipxjm, @PLASMAchicken, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @slprime, @Spagles, @StaffiX, @UltraProdigy, @vermz99, @Viptunbeqwfwew, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

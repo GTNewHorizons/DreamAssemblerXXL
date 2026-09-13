@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-12",
+    "latest_version": "2.9.0-nightly-2026-09-13",
     "needs_attention": false,
     "versions": [
       {
@@ -7812,6 +7812,16 @@
         "filename": "2.9.0-nightly-2026-09-12.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/559897317",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-12/2.9.0-nightly-2026-09-12.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-13",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-13T19:23:09+00:00",
+        "filename": "2.9.0-nightly-2026-09-13.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/561782104",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-13/2.9.0-nightly-2026-09-13.zip",
         "extra_assets": []
       }
     ],
@@ -18543,7 +18553,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1059-GTNH",
+      "latest_version": "rv3-beta-1060-GTNH",
       "private": false,
       "versions": [
         {
@@ -27724,6 +27734,16 @@
           "filename": "appliedenergistics2-rv3-beta-1059-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/560392917",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1059-GTNH/appliedenergistics2-rv3-beta-1059-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1060-GTNH",
+          "changelog": "## What's Changed\n* Advanced Level Emitter check change by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1617\n* Fix item loss during storage reshuffling by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1612\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1059-GTNH...rv3-beta-1060-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T18:44:39+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1060-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/561730484",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1060-GTNH/appliedenergistics2-rv3-beta-1060-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -45580,7 +45600,7 @@
     },
     {
       "name": "CookingForBlockheads",
-      "latest_version": "1.4.13-GTNH",
+      "latest_version": "1.4.14-GTNH",
       "private": false,
       "versions": [
         {
@@ -45912,6 +45932,16 @@
           "filename": "CookingForBlockheads-1.4.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CookingForBlockheads/releases/assets/500882287",
           "browser_download_url": "https://github.com/GTNewHorizons/CookingForBlockheads/releases/download/1.4.13-GTNH/CookingForBlockheads-1.4.13-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.14-GTNH",
+          "changelog": "## What's Changed\n* Fix kitchen door hinges ending up on the wrong side by @JustRomanBZK in https://github.com/GTNewHorizons/CookingForBlockheads/pull/66\n\n## New Contributors\n* @JustRomanBZK made their first contribution in https://github.com/GTNewHorizons/CookingForBlockheads/pull/66\n\n**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.13-GTNH...1.4.14-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:22:47+00:00",
+          "filename": "CookingForBlockheads-1.4.14-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CookingForBlockheads/releases/assets/561781533",
+          "browser_download_url": "https://github.com/GTNewHorizons/CookingForBlockheads/releases/download/1.4.14-GTNH/CookingForBlockheads-1.4.14-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -67026,7 +67056,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.150",
+      "latest_version": "5.09.54.152",
       "private": false,
       "versions": [
         {
@@ -93548,6 +93578,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/559900725",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.150/gregtech-5.09.54.150.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.151",
+          "changelog": "## What's Changed\n* [NAC] Allow VC hatches on full bottom face of modules by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8039\n* [NAC] Fix VC hatch tier being UIV instead of UHV by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8040\n* fix circuit conflict by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8046\n* Allow rotated large turbine formation by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8045\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.150...5.09.54.151\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T18:20:47+00:00",
+          "filename": "gregtech-5.09.54.151.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/561696149",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.151/gregtech-5.09.54.151.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.152",
+          "changelog": "## What's Changed\n* [Mechanical Armor] Flatten per-tier armor values for frames by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8042\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.151...5.09.54.152\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:26:40+00:00",
+          "filename": "gregtech-5.09.54.152.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/561787780",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.152/gregtech-5.09.54.152.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -104644,7 +104694,7 @@
     },
     {
       "name": "Hardcore-Ender-Expansion",
-      "latest_version": "1.12.27-GTNH",
+      "latest_version": "1.12.28-GTNH",
       "private": false,
       "versions": [
         {
@@ -105075,6 +105125,16 @@
           "filename": "HardcoreEnderExpansion-1.12.27-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/509147814",
           "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.12.27-GTNH/HardcoreEnderExpansion-1.12.27-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.28-GTNH",
+          "changelog": "## What's Changed\n* Fix baby Enderman item duplication by @Worive in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/49\n\n## New Contributors\n* @Worive made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/49\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.27-GTNH...1.12.28-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:30:20+00:00",
+          "filename": "HardcoreEnderExpansion-1.12.28-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/561793926",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.12.28-GTNH/HardcoreEnderExpansion-1.12.28-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -105554,7 +105614,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.204",
+      "latest_version": "2.7.206",
       "private": false,
       "versions": [
         {
@@ -111745,6 +111805,16 @@
           "filename": "hodgepodge-2.7.204.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/559899568",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.204/hodgepodge-2.7.204.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.206",
+          "changelog": "## What's Changed\n* Mark the Bibliocraft Armor Stand as dirty when the inventory changes by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/1005\n* Fix Furnace doesn't save current item burn time to NBT by @Faotik in https://github.com/GTNewHorizons/Hodgepodge/pull/1001\n\n## New Contributors\n* @Faotik made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/1001\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.204...2.7.206\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:13:51+00:00",
+          "filename": "hodgepodge-2.7.206.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/561769943",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.206/hodgepodge-2.7.206.jar",
           "extra_assets": []
         }
       ],
@@ -119443,7 +119513,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.47",
+      "latest_version": "1.6.48",
       "private": false,
       "versions": [
         {
@@ -120196,6 +120266,16 @@
           "filename": "littletiles-1.6.47.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/551320187",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.47/littletiles-1.6.47.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.48",
+          "changelog": "## What's Changed\n* fix(tile container): Guard against invalid GUI packet stacks by @Worive in https://github.com/GTNewHorizons/LittleTiles/pull/170\n\n## New Contributors\n* @Worive made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/170\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.47...1.6.48\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:32:41+00:00",
+          "filename": "littletiles-1.6.48.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/561797265",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.48/littletiles-1.6.48.jar",
           "extra_assets": []
         }
       ],
@@ -179978,7 +180058,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.14.111-GTNH",
+      "latest_version": "1.14.112-GTNH",
       "private": false,
       "versions": [
         {
@@ -182800,6 +182880,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/556672376",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.111-GTNH/TConstruct-1.14.111-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.112-GTNH",
+          "changelog": "## What's Changed\n* preserve crafting tool inventory origin after use by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/339\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.111-GTNH...1.14.112-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:35:48+00:00",
+          "filename": "TConstruct-1.14.112-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/561801791",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.112-GTNH/TConstruct-1.14.112-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -183498,7 +183588,7 @@
     },
     {
       "name": "twilightforest",
-      "latest_version": "2.7.40",
+      "latest_version": "2.7.41",
       "private": false,
       "versions": [
         {
@@ -184681,6 +184771,16 @@
           "filename": "TwilightForest-2.7.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/533195794",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.40/TwilightForest-2.7.40.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.41",
+          "changelog": "## What's Changed\n* Add redstone control for Timewood Clocks by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/159\n* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-13T19:18:37+00:00",
+          "filename": "TwilightForest-2.7.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/561776135",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.41/TwilightForest-2.7.41.jar",
           "extra_assets": []
         }
       ],
@@ -192167,6 +192267,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 733,
-  "latest_successful_daily": 733
+  "latest_daily": 734,
+  "latest_successful_daily": 734
 }
