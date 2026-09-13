@@ -102,9 +102,6 @@ class ReleaseAssemblerController:
                 self.callback(self.delta_progress, f"Assembling {side} {platform} archive")
             await assembling(side, verbose)
 
-        # TODO: Remove when the maven urls are calculated on add, instead of in curse
-        self.context.asset_service.save_assets()
-
     async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the zip archive.

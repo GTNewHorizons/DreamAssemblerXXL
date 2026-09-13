@@ -97,7 +97,7 @@ class GenericAssembler:
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            return len([item for item in config_zip.namelist() if item not in self.exclusions[side]])
+            return len([item for item in config_zip.namelist() if item not in self.excluded_config_files and item not in self.exclusions[side]])
 
     def get_amount_of_files_in_locales(self) -> int:
         """
