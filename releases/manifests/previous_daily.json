@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
-  "last_version": "2.9.0-beta-3",
-  "last_updated": "2026-09-14T08:45:11.212442+00:00",
+  "last_version": "previous_daily",
+  "last_updated": "2026-09-14T09:56:25.200772+00:00",
   "config": "2.9.0-nightly-2026-09-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.108-gtnh",
+      "version": "1.5.109-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1060-GTNH",
+      "version": "rv3-beta-1061-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.19",
+      "version": "1.4.20",
       "side": "BOTH"
     },
     "Computronics": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.152",
+      "version": "5.09.54.154",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.34",
+      "version": "1.8.35",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.139-GTNH",
+      "version": "2.8.140-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.7.6",
+      "version": "3.7.7",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -653,7 +653,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.7.9",
+      "version": "2.7.10",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.89-1.7.10",
+      "version": "2.3.90-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.118",
+      "version": "2.0.119",
       "side": "BOTH"
     },
     "Fether": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.31",
+      "version": "1.3.32",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
