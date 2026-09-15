@@ -597,20 +597,6 @@ class ReleaseController:
         release_assembler.generate_changelog()
         self.global_callback(self.delta_progress, f"Generate changelog from {self.last_version} to {self.version}")
 
-    async def generate_intermediate_cf_files(self, task_progressbar: Any) -> None:
-        """
-        Generate curseforge intermediate files.
-
-        :param task_progressbar: progress bar object forwarded to the curse assembler
-        :return: None
-        """
-        self.delta_progress = 100 / 3
-        release_assembler: ReleaseAssemblerController = await self.pre_assembling()
-        self.global_callback(self.delta_progress, "Generating the dependencies.json")
-        await release_assembler.curse_assembler.generate_json_dep(task_progressbar)
-        self.global_callback(self.delta_progress, "Generating the archive containing the mods to upload")
-        await release_assembler.curse_assembler.generate_mods_to_upload(task_progressbar)
-
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """
         Assemble the archive corresponding to the provided side and archive type.
