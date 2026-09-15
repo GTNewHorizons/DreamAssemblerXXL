@@ -55,6 +55,7 @@ jobs:
       matrix:
         include:
           - java-version: 26
+            jvmdg-target: 17
             server-zip-variant: server-java17-26
             client-zip-variant: mmcprism-java17-26
             server-java-args: |
@@ -71,6 +72,7 @@ jobs:
             client-max-memory: 3400m
 
           - java-version: 8
+            jvmdg-target: 8
             server-zip-variant: server-java8
             client-zip-variant: mmcprism-java8
             server-java-args: |
@@ -102,8 +104,9 @@ jobs:
           fetch-depth: 0
           ref: master
           persist-credentials: false
-          sparse-checkout:
+          sparse-checkout: |
             scripts/
+            src/daxxl/
 
       - name: Install dependencies (for clientside)
         run: |
@@ -184,6 +187,32 @@ jobs:
           --jvm-arg "-Dheadlessnh.gate.timeout=60000"
           --jvm-arg "-Dheadlessnh.forcefocus=true"
           --game-dir ${{ env.WORK_DIR }}/client/.minecraft
+
+      - name: Report JvmDowngrader API usage
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          report="${WORK_DIR}/run/jvmdg-usage-java${{ matrix.jvmdg-target }}.json"
+          summary="${WORK_DIR}/run/jvmdg-usage-java${{ matrix.jvmdg-target }}.md"
+          python3 src/daxxl/jvmdg_usage_report.py \
+            --build-id "${{ inputs.today }}" \
+            --java-target "${{ matrix.jvmdg-target }}" \
+            --output "$report" \
+            --input "server=${WORK_DIR}/server" \
+            --input "client=${WORK_DIR}/client" \
+            | tee "$summary"
+
+      - name: Upload JvmDowngrader usage report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: jvmdg-usage-${{ inputs.media-label }}-java${{ matrix.jvmdg-target }}
+          path: |
+            ${{ env.WORK_DIR }}/run/jvmdg-usage-java${{ matrix.jvmdg-target }}.json
+            ${{ env.WORK_DIR }}/run/jvmdg-usage-java${{ matrix.jvmdg-target }}.md
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Add HeadlessNH to client mods
         shell: bash
