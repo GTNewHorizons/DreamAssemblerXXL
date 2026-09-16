@@ -38,10 +38,11 @@ Mod is client-side only.
 >* Add Ukrainian (uk_UA) localization and translate documentation by @Jarnexis in https://github.com/GTNewHorizons/Angelica/pull/1990 (2.2.11)
 >* support custom fonts on macos by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/2066 (2.2.11)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1064-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1064-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1065-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1065-GTNH
 
 ## What's Changed:
+>* block fluidstack being cast to itemstack caused err by @Nana-Sakura in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1625 (rv3-beta-1065-GTNH)
 >* Improve tick rate on stuck interfaces by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1624 (rv3-beta-1064-GTNH)
 >* Change the position of the inventory label inside the Interface terminal by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1622 (rv3-beta-1063-GTNH)
 >* improve crafting tree visibility and branch collapsing by @Pxx500 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1616 (rv3-beta-1062-GTNH)
@@ -146,10 +147,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.120
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.120
+# Updated - CropsNH - 2.0.114 --> 2.0.121
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.121
 
 ## What's Changed:
+>* Fix unplaceable items shown in NEI breeding chart by @Fib4ik in https://github.com/GTNewHorizons/CropsNH/pull/265 (2.0.121)
 >* Improve cannot breed and cannot spread tooltips by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/262 (2.0.120)
 >* Fix Industrial Farm item drops by @Worive in https://github.com/GTNewHorizons/CropsNH/pull/261 (2.0.119)
 >* Fix gaiawart mutation formula by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/260 (2.0.118)
@@ -178,6 +180,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fixed gui texture beeing cut by @Ranzuu in https://github.com/GTNewHorizons/EnhancedLootBags/pull/22 (1.3.5)
 
+# Updated - Et-Futurum-Requiem - 2.6.58-GTNH --> 2.6.59-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.58-GTNH...2.6.59-GTNH
+
+## What's Changed:
+>* backport modern wither spawning behavior by @Nana-Sakura in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/124 (2.6.59-GTNH)
+
 # Updated - Fether - 2.0.5 --> 2.0.7
 **Full Changelog**: https://github.com/GTNewHorizons/Fether/compare/2.0.5...2.0.7
 
@@ -199,10 +207,13 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.161
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.161
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.163
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.163
 
 ## What's Changed:
+>* Give the Acid Generator tiers their own names by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8081 (5.09.54.163)
+>* Add missing Oil cracker achievement by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8088 (5.09.54.162)
+>* fix wetware t3 calibration being useless by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8084 (5.09.54.162)
 >* add umv and uxv buck converter recipes by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8068 (5.09.54.161)
 >* Make Tiered Bio Lab names distinguishable by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8080 (5.09.54.161)
 >* Fix BEC Storage muffling by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8051 (5.09.54.160)
@@ -315,10 +326,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Remove Oxygenheightlimit by @ShadowReaper420 in https://github.com/GTNewHorizons/Galacticraft/pull/150 (3.4.34-GTNH)
 
-# Updated - GuideNH - 1.3.29 --> 1.3.32
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.32
+# Updated - GuideNH - 1.3.29 --> 1.3.33
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.33
 
 ## What's Changed:
+>* Restore StructureLib Preview Hatch Candidates by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/82 (1.3.33)
 >* Make Guide Editor Completion Pluggable and Fix In-Game/Site Parity by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/80 (1.3.32)
 >* remove the mixin and access the variables directly by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/81 (1.3.32)
 >* Preserve guide page resource pack provenance by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/76 (1.3.31)
@@ -424,10 +436,11 @@ Mod is client-side only.
 ## What's Changed:
 >* fix unintended shiftclicks when returning from NEI recipes by @Pxx500 in https://github.com/GTNewHorizons/MouseTweaks/pull/18 (2.5.3-GTNH)
 
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.65
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.65
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.66
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.66
 
 ## What's Changed:
+>* Remove legacy Extra Utilities recipes and adjust reinforced watering can recipe by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1959 (2.9.66)
 >* Change ProjectRed Soldering recipes to use alternating fluid display by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1960 (2.9.65)
 >* Fix Last Mixed Metal Inconsistencies by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1954 (2.9.64)
 >* Use circuit 1 for the remote orderer logistics pipe by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1951 (2.9.63)
@@ -560,4 +573,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @Faotik, @fehling135, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @glowredman, @ham-corp, @hensmth, @hinyb, @Jarnexis, @JustRomanBZK, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @mak8427, @mattiasploesch-cpu, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @philipxjm, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spagles, @StaffiX, @UltraProdigy, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @ABKQPO, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @glowredman, @ham-corp, @hensmth, @hinyb, @Jarnexis, @JustRomanBZK, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @mak8427, @mattiasploesch-cpu, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @philipxjm, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RecursivePineapple, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spagles, @StaffiX, @UltraProdigy, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
