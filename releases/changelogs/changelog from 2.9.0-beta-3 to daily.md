@@ -156,10 +156,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.121
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.121
+# Updated - CropsNH - 2.0.114 --> 2.0.122
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.122
 
 ## What's Changed:
+>* Cleanup CropsNHUtils.getBlockFromItem calls and isAir checks by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/266 (2.0.122)
 >* Fix unplaceable items shown in NEI breeding chart by @Fib4ik in https://github.com/GTNewHorizons/CropsNH/pull/265 (2.0.121)
 >* Improve cannot breed and cannot spread tooltips by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/262 (2.0.120)
 >* Fix Industrial Farm item drops by @Worive in https://github.com/GTNewHorizons/CropsNH/pull/261 (2.0.119)
@@ -216,10 +217,11 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.165
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.165
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.166
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.166
 
 ## What's Changed:
+>* Remove maintenance hatch from Integrated Ore Factory requirements and structure tooltip by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8093 (5.09.54.166)
 >* Research Station Tooltip Fix by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8091 (5.09.54.165)
 >* Spinmatron CTM + Various CTM Fixes by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8086 (5.09.54.165)
 >* Monster repeller blocks portal spawns by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7915 (5.09.54.165)
@@ -520,6 +522,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix hungry mob crash when eating items from lunchbags that dont extend ItemFood by @GDCloudstrike in https://github.com/GTNewHorizons/SpecialMobs/pull/34 (3.7.7)
 >* Hungry mob variant behaviour change/fix by @GDCloudstrike in https://github.com/GTNewHorizons/SpecialMobs/pull/33 (3.7.6)
+
+# Updated - StorageDrawers - 2.2.29-GTNH --> 2.2.30-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.2.29-GTNH...2.2.30-GTNH
+
+## What's Changed:
+>* Fix protected drawer extraction by @Worive in https://github.com/GTNewHorizons/StorageDrawers/pull/78 (2.2.30-GTNH)
 
 # Updated - StructureLib - 1.4.42 --> 1.4.43
 **Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.42...1.4.43
