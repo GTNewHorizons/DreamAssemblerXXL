@@ -118095,26 +118095,6 @@
       "slug": "journeymap-server"
     },
     {
-      "name": "Journeymap-Github",
-      "latest_version": "5.2.22",
-      "versions": [
-        {
-          "version_tag": "5.2.22",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-14T12:56:15.002023",
-          "filename": "journeymap-1.7.10-1.7.10-5.2.22-fairplay.jar",
-          "download_url": "https://github.com/GTNewHorizons/journeymap-legacy/releases/download/1.7.10-5.2.22/journeymap-1.7.10-1.7.10-5.2.22-fairplay.jar",
-          "browser_download_url": "https://github.com/GTNewHorizons/journeymap-legacy/releases/tag/1.7.10-5.2.22"
-        }
-      ],
-      "license": "ARR",
-      "side": "CLIENT",
-      "source": "other",
-      "external_url": "https://github.com/TeamJM/journeymap-legacy/",
-      "disabled": false
-    },
-    {
       "name": "KekzTech",
       "latest_version": "0.11.4",
       "private": false,
@@ -149582,7 +149562,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.142-GTNH",
+      "latest_version": "2.8.143-GTNH",
       "private": false,
       "versions": [
         {
@@ -154364,6 +154344,16 @@
           "filename": "NotEnoughItems-2.8.142-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/569634672",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.142-GTNH/NotEnoughItems-2.8.142-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.143-GTNH",
+          "changelog": "## What's Changed\n* Publishing by @kuba6000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1039\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/1039\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.142-GTNH...2.8.143-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T12:12:06+00:00",
+          "filename": "NotEnoughItems-2.8.143-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/570194158",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.143-GTNH/NotEnoughItems-2.8.143-GTNH.jar",
           "extra_assets": []
         }
       ],
