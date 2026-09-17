@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-17",
+    "latest_version": "2.9.0-nightly-2026-09-17-02",
     "needs_attention": false,
     "versions": [
       {
@@ -7862,6 +7862,16 @@
         "filename": "2.9.0-nightly-2026-09-17.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/569644034",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-17/2.9.0-nightly-2026-09-17.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-17-02",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-17T10:57:23+00:00",
+        "filename": "2.9.0-nightly-2026-09-17-02.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/570073885",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-17-02/2.9.0-nightly-2026-09-17-02.zip",
         "extra_assets": []
       }
     ],
@@ -48004,7 +48014,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.121",
+      "latest_version": "2.0.122",
       "private": false,
       "versions": [
         {
@@ -49225,6 +49235,16 @@
           "filename": "cropsnh-2.0.121.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/568522384",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.121/cropsnh-2.0.121.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.122",
+          "changelog": "## What's Changed\n* Cleanup CropsNHUtils.getBlockFromItem calls and isAir checks by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/266\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.121...2.0.122\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T10:50:18+00:00",
+          "filename": "cropsnh-2.0.122.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/570062546",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.122/cropsnh-2.0.122.jar",
           "extra_assets": []
         }
       ],
@@ -67286,7 +67306,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.165",
+      "latest_version": "5.09.54.166",
       "private": false,
       "versions": [
         {
@@ -93958,6 +93978,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/569638795",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.165/gregtech-5.09.54.165.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.166",
+          "changelog": "## What's Changed\n* Remove maintenance hatch from Integrated Ore Factory requirements and structure tooltip by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8093\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.165...5.09.54.166\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T10:51:39+00:00",
+          "filename": "gregtech-5.09.54.166.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/570064713",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.166/gregtech-5.09.54.166.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -117746,7 +117776,7 @@
     },
     {
       "name": "JourneyMap",
-      "latest_version": "5.2.20-fairplay",
+      "latest_version": "5.2.23-fairplay",
       "needs_attention": false,
       "versions": [
         {
@@ -118019,10 +118049,23 @@
             "project_no": "32274",
             "file_no": "8421935"
           }
+        },
+        {
+          "version_tag": "5.2.23-fairplay",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T13:03:25.047227",
+          "filename": "journeymap-1.7.10-5.2.23-fairplay.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8879/298/journeymap-1.7.10-5.2.23-fairplay.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/8879298",
+          "curse_file": {
+            "project_no": "32274",
+            "file_no": "8879298"
+          }
         }
       ],
       "license": "ARR",
-      "side": "NONE",
+      "side": "CLIENT",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
       "project_id": "32274",
@@ -167951,7 +167994,7 @@
     },
     {
       "name": "StorageDrawers",
-      "latest_version": "2.2.29-GTNH",
+      "latest_version": "2.2.30-GTNH",
       "private": false,
       "versions": [
         {
@@ -168742,6 +168785,16 @@
           "filename": "StorageDrawers-2.2.29-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/534659696",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/2.2.29-GTNH/StorageDrawers-2.2.29-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.30-GTNH",
+          "changelog": "## What's Changed\n* Fix protected drawer extraction by @Worive in https://github.com/GTNewHorizons/StorageDrawers/pull/78\n\n## New Contributors\n* @Worive made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/78\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.2.29-GTNH...2.2.30-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T10:49:56+00:00",
+          "filename": "StorageDrawers-2.2.30-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/570062016",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/2.2.30-GTNH/StorageDrawers-2.2.30-GTNH.jar",
           "extra_assets": []
         }
       ],
