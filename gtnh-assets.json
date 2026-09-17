@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-16-02",
+    "latest_version": "2.9.0-nightly-2026-09-17",
     "needs_attention": false,
     "versions": [
       {
@@ -7852,6 +7852,16 @@
         "filename": "2.9.0-nightly-2026-09-16-02.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/568417464",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-16-02/2.9.0-nightly-2026-09-16-02.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-17",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-17T06:43:43+00:00",
+        "filename": "2.9.0-nightly-2026-09-17.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/569644034",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-17/2.9.0-nightly-2026-09-17.zip",
         "extra_assets": []
       }
     ],
@@ -15730,7 +15740,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.14",
+      "latest_version": "2.2.15",
       "private": false,
       "versions": [
         {
@@ -18072,6 +18082,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/564802237",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.14/angelica-2.2.14.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.15",
+          "changelog": "## What's Changed\n* Improve upon Texture Filtering Work by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2096\n* fix resize handling on non-main thread for lwjgl2 by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/2106\n* Instance more things by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2104\n* Fix microblock transparency in the hotbar by @Algent in https://github.com/GTNewHorizons/Angelica/pull/2107\n* Fix borking modded mobs with broken eyes by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2108\n* Hex Text and other Font Mod Compat System by @KAMKEEL in https://github.com/GTNewHorizons/Angelica/pull/1972\n* Added abutting block detection and processing by @Kremnari in https://github.com/GTNewHorizons/Angelica/pull/2068\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.14...2.2.15\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T00:09:05+00:00",
+          "filename": "angelica-2.2.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/569061627",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.15/angelica-2.2.15.jar",
+          "extra_assets": []
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -18603,7 +18623,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1065-GTNH",
+      "latest_version": "rv3-beta-1066-GTNH",
       "private": false,
       "versions": [
         {
@@ -27844,6 +27864,16 @@
           "filename": "appliedenergistics2-rv3-beta-1065-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/568409516",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1065-GTNH/appliedenergistics2-rv3-beta-1065-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1066-GTNH",
+          "changelog": "## What's Changed\n* Fix blocking mode ignoring the contents of the fluid P2Ps destination by @Angry3vilbot in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1629\n* Cable client connection by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1618\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1065-GTNH...rv3-beta-1066-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T06:39:05+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1066-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/569636806",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1066-GTNH/appliedenergistics2-rv3-beta-1066-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -67256,7 +67286,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.163",
+      "latest_version": "5.09.54.165",
       "private": false,
       "versions": [
         {
@@ -93908,6 +93938,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/568448011",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.163/gregtech-5.09.54.163.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.164",
+          "changelog": "## What's Changed\n* Revert P2P connection fixes by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8089\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.163...5.09.54.164\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-16T19:02:37+00:00",
+          "filename": "gregtech-5.09.54.164.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/568595846",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.164/gregtech-5.09.54.164.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.165",
+          "changelog": "## What's Changed\n* Research Station Tooltip Fix by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8091\n* Spinmatron CTM + Various CTM Fixes by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8086\n* Monster repeller blocks portal spawns by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7915\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.164...5.09.54.165\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T06:40:15+00:00",
+          "filename": "gregtech-5.09.54.165.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/569638795",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.165/gregtech-5.09.54.165.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -114947,7 +114997,7 @@
     },
     {
       "name": "InventoryBogoSorter",
-      "latest_version": "1.3.50-GTNH",
+      "latest_version": "1.3.51-GTNH",
       "private": false,
       "versions": [
         {
@@ -116189,6 +116239,16 @@
           "filename": "bogosorter-1.3.50-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/543399752",
           "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.50-GTNH/bogosorter-1.3.50-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.51-GTNH",
+          "changelog": "## What's Changed\n* feat(events): New events to cancel sorting by @vermz99 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/227\n\n## New Contributors\n* @vermz99 made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/227\n\n**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.51-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-16T19:10:39+00:00",
+          "filename": "bogosorter-1.3.51-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/568609175",
+          "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.51-GTNH/bogosorter-1.3.51-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -119883,7 +119943,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.48",
+      "latest_version": "1.6.49",
       "private": false,
       "versions": [
         {
@@ -120646,6 +120706,16 @@
           "filename": "littletiles-1.6.48.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/561797265",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.48/littletiles-1.6.48.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.49",
+          "changelog": "## What's Changed\n* feat(chisel): MiddleClick to pick block in Inventory and NEI by @vermz99 in https://github.com/GTNewHorizons/LittleTiles/pull/163\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.48...1.6.49\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-16T20:45:16+00:00",
+          "filename": "littletiles-1.6.49.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/568765074",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.49/littletiles-1.6.49.jar",
           "extra_assets": []
         }
       ],
@@ -127072,7 +127142,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.56-GTNH",
+      "latest_version": "0.1.57-GTNH",
       "private": false,
       "versions": [
         {
@@ -128044,6 +128114,16 @@
           "filename": "matter-manipulator-0.1.56-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/564326070",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.56-GTNH/matter-manipulator-0.1.56-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.57-GTNH",
+          "changelog": "## What's Changed\n* chore(middle-click): Cancel Bogo sort on middle-click when MM is held/picked-up by @vermz99 in https://github.com/GTNewHorizons/MatterManipulator/pull/84\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.56-GTNH...0.1.57-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-16T20:20:26+00:00",
+          "filename": "matter-manipulator-0.1.57-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/568723784",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.57-GTNH/matter-manipulator-0.1.57-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -149459,7 +149539,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.141-GTNH",
+      "latest_version": "2.8.142-GTNH",
       "private": false,
       "versions": [
         {
@@ -154231,6 +154311,16 @@
           "filename": "NotEnoughItems-2.8.141-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/563934706",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.141-GTNH/NotEnoughItems-2.8.141-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.142-GTNH",
+          "changelog": "## What's Changed\n* fix(NEIController): Skip MMB on slot click to avoid unecessary conflict with itemstack using it by @vermz99 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1038\n\n## New Contributors\n* @vermz99 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/1038\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.141-GTNH...2.8.142-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-17T06:37:50+00:00",
+          "filename": "NotEnoughItems-2.8.142-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/569634672",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.142-GTNH/NotEnoughItems-2.8.142-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -192727,6 +192817,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 742,
-  "latest_successful_daily": 742
+  "latest_daily": 743,
+  "latest_successful_daily": 743
 }
