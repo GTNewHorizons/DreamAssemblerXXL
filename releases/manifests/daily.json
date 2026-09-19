@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-09-18T08:24:01.608393+00:00",
-  "config": "2.9.0-nightly-2026-09-18",
+  "last_updated": "2026-09-19T08:12:10.640910+00:00",
+  "config": "2.9.0-nightly-2026-09-18-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.109-gtnh",
+      "version": "1.5.110-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1066-GTNH",
+      "version": "rv3-beta-1068-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.86-GTNH",
+      "version": "3.8.87-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.170",
+      "version": "5.09.54.172",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.208",
+      "version": "2.7.209",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.50",
+      "version": "1.6.53",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.67",
+      "version": "2.9.70",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.4.11",
+      "version": "2.4.12",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.15",
+      "version": "2.2.16",
       "side": "CLIENT"
     },
     "AkashicTome": {
