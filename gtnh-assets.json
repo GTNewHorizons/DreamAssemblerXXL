@@ -135124,7 +135124,32 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Navigator",
-      "side": "BOTH"
+      "side": "NONE"
+    },
+    {
+      "name": "Navigator-Curse",
+      "latest_version": "1.1.10",
+      "versions": [
+        {
+          "version_tag": "1.1.10",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T16:59:00.951344",
+          "filename": "navigator-1.1.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8907/397/navigator-1.1.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/navigator/files/8907397",
+          "curse_file": {
+            "project_no": "1539674",
+            "file_no": "8907397"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/navigator",
+      "project_id": "1539674",
+      "disabled": false
     },
     {
       "name": "nei-custom-diagram",
