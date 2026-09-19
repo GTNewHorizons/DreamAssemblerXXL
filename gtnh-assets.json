@@ -164344,6 +164344,31 @@
       "side": "CLIENT"
     },
     {
+      "name": "Server-Utils",
+      "latest_version": "2.4.12",
+      "versions": [
+        {
+          "version_tag": "2.4.12",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T17:46:14.754659",
+          "filename": "ServerUtilities-2.4.12.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8914/204/ServerUtilities-2.4.12.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/files/8914204",
+          "curse_file": {
+            "project_no": "1539566",
+            "file_no": "8914204"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/",
+      "project_id": "1539566",
+      "disabled": false
+    },
+    {
       "name": "ServerUtilities",
       "latest_version": "2.4.12",
       "private": false,
@@ -166492,7 +166517,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ServerUtilities",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "SGCraft",

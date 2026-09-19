@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "2.9.0-beta-3",
-  "last_updated": "2026-09-19T14:59:23.299052+00:00",
+  "last_updated": "2026-09-19T15:46:32.535354+00:00",
   "config": "2.9.0-nightly-2026-09-18-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -696,10 +696,6 @@
       "version": "1.4.10",
       "side": "BOTH"
     },
-    "ServerUtilities": {
-      "version": "2.4.12",
-      "side": "BOTH"
-    },
     "Tinkers-Defense": {
       "version": "1.3.4",
       "side": "BOTH"
@@ -972,6 +968,10 @@
     },
     "Navigator-Curse": {
       "version": "1.1.10",
+      "side": "BOTH"
+    },
+    "Server-Utils": {
+      "version": "2.4.12",
       "side": "BOTH"
     }
   }
