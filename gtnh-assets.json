@@ -129343,6 +129343,31 @@
       "side": "NONE"
     },
     {
+      "name": "Mobs Info",
+      "latest_version": "0.6.0",
+      "versions": [
+        {
+          "version_tag": "0.6.0",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T16:47:12.769667",
+          "filename": "mobsinfo-0.6.0.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8861/46/mobsinfo-0.6.0.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mobs-info/files/8861046",
+          "curse_file": {
+            "project_no": "879914",
+            "file_no": "8861046"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/mobs-info/",
+      "project_id": "879914",
+      "disabled": false
+    },
+    {
       "name": "Mobs-Info",
       "latest_version": "0.6.0-GTNH",
       "private": false,
@@ -129981,7 +130006,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Mobs-Info",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "ModernMarkings",

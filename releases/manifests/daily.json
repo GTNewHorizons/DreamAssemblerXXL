@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "2.9.0-beta-3",
-  "last_updated": "2026-09-19T13:02:08.185456+00:00",
+  "last_updated": "2026-09-19T14:47:33.064051+00:00",
   "config": "2.9.0-nightly-2026-09-18-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -672,10 +672,6 @@
       "version": "1.4.6",
       "side": "CLIENT"
     },
-    "Mobs-Info": {
-      "version": "0.6.0-GTNH",
-      "side": "BOTH"
-    },
     "BeeBetterAtBees-GTNH": {
       "version": "0.4.7-GTNH",
       "side": "CLIENT"
@@ -973,6 +969,10 @@
     "JourneyMap": {
       "version": "5.2.23-fairplay",
       "side": "CLIENT"
+    },
+    "Mobs Info": {
+      "version": "0.6.0",
+      "side": "BOTH"
     }
   }
 }
