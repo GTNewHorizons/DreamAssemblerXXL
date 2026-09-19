@@ -28070,16 +28070,21 @@
           "version_tag": "0.8.0",
           "changelog": "",
           "prerelease": false,
-          "tagged_at": "2026-05-23T21:32:17.039665",
+          "tagged_at": "2026-09-19T14:55:09.180759",
           "filename": "archaicfix-0.8.0.jar",
           "download_url": "https://mediafilez.forgecdn.net/files/8125/364/archaicfix-0.8.0.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/archaicfix/download/8125364"
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/archaicfix/files/8125364",
+          "curse_file": {
+            "project_no": "677782",
+            "file_no": "8125364"
+          }
         }
       ],
       "license": "LGPL-3.0",
       "side": "BOTH",
-      "source": "other",
+      "source": "curse",
       "external_url": "https://github.com/embeddedt/ArchaicFix",
+      "project_id": "677782",
       "disabled": false
     },
     {
