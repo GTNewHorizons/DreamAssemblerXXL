@@ -167394,6 +167394,31 @@
       "side": "BOTH"
     },
     {
+      "name": "Spice-of-Life",
+      "latest_version": "2.2.10-carrot",
+      "versions": [
+        {
+          "version_tag": "2.2.10-carrot",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T17:50:29.049458",
+          "filename": "SpiceOfLife-2.2.10-carrot.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8242/713/SpiceOfLife-2.2.10-carrot.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/files/8242713",
+          "curse_file": {
+            "project_no": "782155",
+            "file_no": "8242713"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/",
+      "project_id": "782155",
+      "disabled": false
+    },
+    {
       "name": "SpiceOfLife",
       "latest_version": "2.2.10-carrot",
       "private": false,
@@ -167783,7 +167808,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "SpongeMixins",
