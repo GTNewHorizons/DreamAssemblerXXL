@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-18-02",
+    "latest_version": "2.9.0-nightly-2026-09-20",
     "needs_attention": false,
     "versions": [
       {
@@ -7892,6 +7892,16 @@
         "filename": "2.9.0-nightly-2026-09-18-02.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/572725484",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-18-02/2.9.0-nightly-2026-09-18-02.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-20",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-20T00:27:17+00:00",
+        "filename": "2.9.0-nightly-2026-09-20.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/575759053",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-20/2.9.0-nightly-2026-09-20.zip",
         "extra_assets": []
       }
     ],
@@ -18693,7 +18703,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1068-GTNH",
+      "latest_version": "rv3-beta-1069-GTNH",
       "private": false,
       "versions": [
         {
@@ -27965,6 +27975,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/573291236",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1068-GTNH/appliedenergistics2-rv3-beta-1068-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1069-GTNH",
+          "changelog": "## What's Changed\n* add light texture entry for creative controller by @Nana-Sakura in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1643\n* Add ME Drive storageTypes by @ABKQPO in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1642\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1068-GTNH...rv3-beta-1069-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T00:27:17+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1069-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/575759048",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1069-GTNH/appliedenergistics2-rv3-beta-1069-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -33129,7 +33149,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.7.17-GTNH",
+      "latest_version": "1.7.18-GTNH",
       "private": false,
       "versions": [
         {
@@ -33532,6 +33552,16 @@
           "filename": "betterloadingscreen-1.7.17-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/549428693",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.17-GTNH/betterloadingscreen-1.7.17-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.18-GTNH",
+          "changelog": "## What's Changed\n* fix rendering one frame after resize using stale dimensions by @danyadev in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.17-GTNH...1.7.18-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T08:48:55+00:00",
+          "filename": "betterloadingscreen-1.7.18-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/574421628",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.7.18-GTNH/betterloadingscreen-1.7.18-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -44603,7 +44633,7 @@
     },
     {
       "name": "CodeChickenCore",
-      "latest_version": "1.4.21",
+      "latest_version": "1.4.22",
       "private": false,
       "versions": [
         {
@@ -45094,6 +45124,16 @@
           "filename": "CodeChickenCore-1.4.21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/571229663",
           "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.4.21/CodeChickenCore-1.4.21.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.22",
+          "changelog": "## What's Changed\n* Add initial Ukrainian (uk_UA) localization for CodeChickenCore by @Jarnexis in https://github.com/GTNewHorizons/CodeChickenCore/pull/55\n\n## New Contributors\n* @Jarnexis made their first contribution in https://github.com/GTNewHorizons/CodeChickenCore/pull/55\n\n**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.21...1.4.22\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T00:27:20+00:00",
+          "filename": "CodeChickenCore-1.4.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/575759160",
+          "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.4.22/CodeChickenCore-1.4.22.jar",
           "extra_assets": []
         }
       ],
@@ -67450,7 +67490,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.172",
+      "latest_version": "5.09.54.174",
       "private": false,
       "versions": [
         {
@@ -94191,6 +94231,26 @@
           "filename": "gregtech-5.09.54.172.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/573293844",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.172/gregtech-5.09.54.172.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.173",
+          "changelog": "## What's Changed\n* Buff top/bottom quark catalyst recipes by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8017\n* make exo actually use manually inputed parallels by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8136\n* make ulv machine casing plate recipe time no longer be 0 nor using integrated circuit 0 by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8128\n* add steam boiler steam producing speed waila by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8107\n* add fluid input for steam multi compressor by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8131\n* fix beamline not consuming power by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8139\n* Ore dictionary cleanup by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7998\n* Optimize LMA performance by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8140\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.172...5.09.54.173\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T11:26:51+00:00",
+          "filename": "gregtech-5.09.54.173.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/574648538",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.173/gregtech-5.09.54.173.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.174",
+          "changelog": "## What's Changed\n* Super Quick LES Tooltip Fix by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8142\n* make ucfe tooltip easier to understand by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7989\n* Fix Drone Downlink Module WAILA showing machine names in English by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8133\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.173...5.09.54.174\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T00:27:59+00:00",
+          "filename": "gregtech-5.09.54.174.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/575759981",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.174/gregtech-5.09.54.174.jar",
           "extra_assets": []
         }
       ],
@@ -136469,7 +136529,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.70",
+      "latest_version": "2.9.71",
       "private": false,
       "versions": [
         {
@@ -148731,6 +148791,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/573347664",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.70/GTNewHorizonsCoreMod-2.9.70.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.71",
+          "changelog": "## What's Changed\n* remove deploader by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1965\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.70...2.9.71\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T11:25:01+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.71.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/574646291",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.71/GTNewHorizonsCoreMod-2.9.71.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -148920,7 +148990,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.7.42",
+      "latest_version": "1.7.43",
       "private": false,
       "versions": [
         {
@@ -149713,6 +149783,16 @@
           "filename": "NotEnoughEnergistics-1.7.42.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/560386599",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.42/NotEnoughEnergistics-1.7.42.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.43",
+          "changelog": "## What's Changed\n* Finally got GT6 fluids to work properly as far as I can test.  Can pu… by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84\n\n## New Contributors\n* @OvermindDL1 made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.42...1.7.43\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T00:27:53+00:00",
+          "filename": "NotEnoughEnergistics-1.7.43.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/575759833",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.43/NotEnoughEnergistics-1.7.43.jar",
           "extra_assets": []
         }
       ],
@@ -162094,7 +162174,7 @@
     },
     {
       "name": "Random-Things",
-      "latest_version": "2.7.10",
+      "latest_version": "2.7.11",
       "private": false,
       "versions": [
         {
@@ -162386,6 +162466,16 @@
           "filename": "RandomThings-2.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Random-Things/releases/assets/562948286",
           "browser_download_url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.7.10/RandomThings-2.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.11",
+          "changelog": "## What's Changed\n* Fix blood moon client sync issues by @GDCloudstrike in https://github.com/GTNewHorizons/Random-Things/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.10...2.7.11\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T00:28:22+00:00",
+          "filename": "RandomThings-2.7.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Random-Things/releases/assets/575760408",
+          "browser_download_url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.7.11/RandomThings-2.7.11.jar",
           "extra_assets": []
         }
       ],
@@ -193461,6 +193551,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 746,
-  "latest_successful_daily": 746
+  "latest_daily": 747,
+  "latest_successful_daily": 747
 }

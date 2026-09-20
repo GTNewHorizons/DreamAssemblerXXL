@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-09-18T08:24:01.608393+00:00",
-  "config": "2.9.0-nightly-2026-09-18",
+  "last_version": "2.9.0-beta-3",
+  "last_updated": "2026-09-19T15:51:00.090433+00:00",
+  "config": "2.9.0-nightly-2026-09-18-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.109-gtnh",
+      "version": "1.5.110-gtnh",
       "side": "BOTH"
     },
     "AFSU": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1066-GTNH",
+      "version": "rv3-beta-1068-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.86-GTNH",
+      "version": "3.8.87-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.170",
+      "version": "5.09.54.172",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.208",
+      "version": "2.7.209",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.50",
+      "version": "1.6.53",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.67",
+      "version": "2.9.70",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -438,10 +438,6 @@
     },
     "SpecialMobs": {
       "version": "3.7.7",
-      "side": "BOTH"
-    },
-    "SpiceOfLife": {
-      "version": "2.2.10-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -672,10 +668,6 @@
       "version": "1.4.6",
       "side": "CLIENT"
     },
-    "Mobs-Info": {
-      "version": "0.6.0-GTNH",
-      "side": "BOTH"
-    },
     "BeeBetterAtBees-GTNH": {
       "version": "0.4.7-GTNH",
       "side": "CLIENT"
@@ -700,10 +692,6 @@
       "version": "1.4.10",
       "side": "BOTH"
     },
-    "ServerUtilities": {
-      "version": "2.4.11",
-      "side": "BOTH"
-    },
     "Tinkers-Defense": {
       "version": "1.3.4",
       "side": "BOTH"
@@ -713,19 +701,11 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.15",
+      "version": "2.2.16",
       "side": "CLIENT"
     },
     "AkashicTome": {
       "version": "1.2.7",
-      "side": "BOTH"
-    },
-    "Navigator": {
-      "version": "1.1.10",
-      "side": "BOTH"
-    },
-    "ModularUI2": {
-      "version": "2.3.91-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -947,7 +927,7 @@
       "side": "CLIENT"
     },
     "Bug-Torch": {
-      "version": "1.2.15",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "Extreme Sound Muffler": {
@@ -973,6 +953,26 @@
     "JourneyMap": {
       "version": "5.2.23-fairplay",
       "side": "CLIENT"
+    },
+    "Mobs Info": {
+      "version": "0.6.0",
+      "side": "BOTH"
+    },
+    "Modular-UI-2": {
+      "version": "2.3.91-1.7.10",
+      "side": "BOTH"
+    },
+    "Navigator-Curse": {
+      "version": "1.1.10",
+      "side": "BOTH"
+    },
+    "Server-Utils": {
+      "version": "2.4.12",
+      "side": "BOTH"
+    },
+    "Spice-of-Life": {
+      "version": "2.2.10-carrot",
+      "side": "BOTH"
     }
   }
 }

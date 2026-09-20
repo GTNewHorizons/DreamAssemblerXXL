@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "2.9.0-beta-3",
-  "last_updated": "2026-09-19T15:51:00.090433+00:00",
-  "config": "2.9.0-nightly-2026-09-18-02",
+  "last_version": "previous_daily",
+  "last_updated": "2026-09-20T08:44:17.552399+00:00",
+  "config": "2.9.0-nightly-2026-09-20",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1068-GTNH",
+      "version": "rv3-beta-1069-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -57,7 +57,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.7.17-GTNH",
+      "version": "1.7.18-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.21",
+      "version": "1.4.22",
       "side": "BOTH"
     },
     "Computronics": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.172",
+      "version": "5.09.54.174",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.70",
+      "version": "2.9.71",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.42",
+      "version": "1.7.43",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.7.10",
+      "version": "2.7.11",
       "side": "BOTH"
     },
     "Tainted-Magic": {
