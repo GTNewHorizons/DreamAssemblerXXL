@@ -204,6 +204,7 @@ jobs:
             | tee "$summary"
 
       - name: Upload JvmDowngrader usage report
+        continue-on-error: true
         if: always()
         uses: actions/upload-artifact@v7
         with:

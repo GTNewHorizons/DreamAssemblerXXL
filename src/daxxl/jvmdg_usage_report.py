@@ -7,6 +7,7 @@ import hashlib
 import json
 import re
 import struct
+import zlib
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -196,12 +197,16 @@ def _archives(roots: list[tuple[str, Path]]) -> tuple[dict[Path, set[str]], list
             errors.append(f"missing input: {label}={root}")
             continue
         paths = [root] if root.is_file() else sorted(root.rglob("*.jar"))
+        has_archive = False
         for path in paths:
             if not path.is_file() or path.suffix.lower() != ".jar":
                 continue
             resolved = path.resolve()
+            has_archive = True
             relative = path.name if root.is_file() else path.relative_to(root).as_posix()
             found[resolved].add(f"{label}/{relative}")
+        if not has_archive:
+            errors.append(f"no JAR files found in input: {label}={root}")
     if not found:
         errors.append("no JAR files found")
     return found, errors
@@ -229,7 +234,7 @@ def build_report(build_id: str, java_target: str, roots: list[tuple[str, Path]])
         locations = sorted(record.locations)
         try:
             scan = scan_archive(record.path)
-        except (BadZipFile, OSError, RuntimeError, ValueError) as exc:
+        except (BadZipFile, EOFError, OSError, RuntimeError, ValueError, zlib.error) as exc:
             errors.append(f"{', '.join(locations)}: {exc}")
             continue
 
@@ -286,6 +291,9 @@ def markdown_summary(report: dict[str, Any]) -> str:
         f"Scanned {stats['unique_archives_scanned']} unique JARs and {stats['classes_scanned']} classes; "
         f"found {stats['referenced_classes']} API classes, {stats['referenced_members']} API members, "
         f"and {stats['possible_dynamic_references']} possible dynamic references.",
+        "",
+        "Conservative static references, not runtime usage. All multi-release class variants are scanned; "
+        "the Java target labels the pack variant and does not filter class entries.",
     ]
     if stats["errors"]:
         lines.extend(["", f"Warning: {stats['errors']} inputs could not be scanned; see the JSON report."])
