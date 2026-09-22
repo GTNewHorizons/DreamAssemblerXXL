@@ -15810,7 +15810,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.18",
+      "latest_version": "2.2.19",
       "private": false,
       "versions": [
         {
@@ -18191,6 +18191,16 @@
           "filename": "angelica-2.2.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/580492906",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.18/angelica-2.2.18.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.19",
+          "changelog": "## What's Changed\n* Properly handle display lists with the push/pop optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2126\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.18...2.2.19\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T16:38:36+00:00",
+          "filename": "angelica-2.2.19.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/581802027",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.19/angelica-2.2.19.jar",
           "extra_assets": []
         }
       ],
@@ -48248,7 +48258,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.127",
+      "latest_version": "2.0.128",
       "private": false,
       "versions": [
         {
@@ -49529,6 +49539,16 @@
           "filename": "cropsnh-2.0.127.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/578557845",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.127/cropsnh-2.0.127.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.128",
+          "changelog": "## What's Changed\n* Fix a very important typo by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/272\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.127...2.0.128\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T09:16:53+00:00",
+          "filename": "cropsnh-2.0.128.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/581022925",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.128/cropsnh-2.0.128.jar",
           "extra_assets": []
         }
       ],
@@ -67600,7 +67620,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.176",
+      "latest_version": "5.09.54.177",
       "private": false,
       "versions": [
         {
@@ -94382,6 +94402,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/579604404",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.176/gregtech-5.09.54.176.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.177",
+          "changelog": "## What's Changed\n* Show Large Molecular Assembler when filtering in Interface Terminal by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8108\n* Fix Vajra AE2 part hotswap placement by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8170\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.176...5.09.54.177\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T09:18:56+00:00",
+          "filename": "gregtech-5.09.54.177.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/581026231",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.177/gregtech-5.09.54.177.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -115521,7 +115551,7 @@
     },
     {
       "name": "InventoryBogoSorter",
-      "latest_version": "1.3.51-GTNH",
+      "latest_version": "1.3.52-GTNH",
       "private": false,
       "versions": [
         {
@@ -116773,6 +116803,16 @@
           "filename": "bogosorter-1.3.51-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/568609175",
           "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.51-GTNH/bogosorter-1.3.51-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.52-GTNH",
+          "changelog": "## What's Changed\n* Fix world memory leak caused by ItemStack mixin by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/228\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.51-GTNH...1.3.52-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T09:16:14+00:00",
+          "filename": "bogosorter-1.3.52-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InventoryBogoSorter/releases/assets/581021718",
+          "browser_download_url": "https://github.com/GTNewHorizons/InventoryBogoSorter/releases/download/1.3.52-GTNH/bogosorter-1.3.52-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -130551,6 +130591,31 @@
       "side": "BOTH"
     },
     {
+      "name": "Modular-UI-2",
+      "latest_version": "2.3.91-1.7.10",
+      "versions": [
+        {
+          "version_tag": "2.3.91-1.7.10",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T16:53:47.983664",
+          "filename": "modularui2-2.3.91-1.7.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8907/362/modularui2-2.3.91-1.7.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/files/8907362",
+          "curse_file": {
+            "project_no": "624243",
+            "file_no": "8907362"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/",
+      "project_id": "624243",
+      "disabled": false
+    },
+    {
       "name": "ModularUI",
       "latest_version": "1.3.4",
       "private": false,
@@ -133551,7 +133616,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ModularUI2",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "Morpheus",
@@ -135359,7 +135424,32 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Navigator",
-      "side": "BOTH"
+      "side": "NONE"
+    },
+    {
+      "name": "Navigator-Curse",
+      "latest_version": "1.1.10",
+      "versions": [
+        {
+          "version_tag": "1.1.10",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T16:59:00.951344",
+          "filename": "navigator-1.1.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8907/397/navigator-1.1.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/navigator/files/8907397",
+          "curse_file": {
+            "project_no": "1539674",
+            "file_no": "8907397"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/navigator",
+      "project_id": "1539674",
+      "disabled": false
     },
     {
       "name": "nei-custom-diagram",
@@ -136679,7 +136769,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.72",
+      "latest_version": "2.9.73",
       "private": false,
       "versions": [
         {
@@ -148961,6 +149051,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/579721777",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.72/GTNewHorizonsCoreMod-2.9.72.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.73",
+          "changelog": "## What's Changed\n* Fix saw blade remappings to work for Yamcl item IDs by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1967\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.72...2.9.73\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T09:17:29+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.73.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/581023819",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.73/GTNewHorizonsCoreMod-2.9.73.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -149150,7 +149250,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.7.44",
+      "latest_version": "1.7.45",
       "private": false,
       "versions": [
         {
@@ -149963,6 +150063,16 @@
           "filename": "NotEnoughEnergistics-1.7.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/577118971",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.44/NotEnoughEnergistics-1.7.44.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.45",
+          "changelog": "## What's Changed\n* Got GT6 fluid recipes (both lookup and uses) working now too by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/86\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.44...1.7.45\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T09:17:21+00:00",
+          "filename": "NotEnoughEnergistics-1.7.45.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/581023619",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.45/NotEnoughEnergistics-1.7.45.jar",
           "extra_assets": []
         }
       ],
@@ -164614,6 +164724,31 @@
       "side": "CLIENT"
     },
     {
+      "name": "Server-Utils",
+      "latest_version": "2.4.12",
+      "versions": [
+        {
+          "version_tag": "2.4.12",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T17:46:14.754659",
+          "filename": "ServerUtilities-2.4.12.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8914/204/ServerUtilities-2.4.12.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/files/8914204",
+          "curse_file": {
+            "project_no": "1539566",
+            "file_no": "8914204"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/",
+      "project_id": "1539566",
+      "disabled": false
+    },
+    {
       "name": "ServerUtilities",
       "latest_version": "2.4.12",
       "private": false,
@@ -166762,7 +166897,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ServerUtilities",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "SGCraft",
@@ -167639,6 +167774,31 @@
       "side": "BOTH"
     },
     {
+      "name": "Spice-of-Life",
+      "latest_version": "2.2.10-carrot",
+      "versions": [
+        {
+          "version_tag": "2.2.10-carrot",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T17:50:29.049458",
+          "filename": "SpiceOfLife-2.2.10-carrot.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8242/713/SpiceOfLife-2.2.10-carrot.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/files/8242713",
+          "curse_file": {
+            "project_no": "782155",
+            "file_no": "8242713"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/",
+      "project_id": "782155",
+      "disabled": false
+    },
+    {
       "name": "SpiceOfLife",
       "latest_version": "2.2.10-carrot",
       "private": false,
@@ -168028,7 +168188,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "SpongeMixins",
@@ -169944,7 +170104,7 @@
     },
     {
       "name": "StructureCompat",
-      "latest_version": "0.7.4",
+      "latest_version": "0.7.5",
       "private": false,
       "versions": [
         {
@@ -170127,6 +170287,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/StructureCompat/releases/assets/283116664",
           "browser_download_url": "https://github.com/GTNewHorizons/StructureCompat/releases/download/0.7.4/structurecompat-0.7.4.jar",
           "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/StructureCompat/0.7.4/StructureCompat-0.7.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.5",
+          "changelog": "## What's Changed\n* feat(bogo): Add bogo compat to prevent sort on projector held/picked. by @vermz99 in https://github.com/GTNewHorizons/StructureCompat/pull/16\n\n## New Contributors\n* @vermz99 made their first contribution in https://github.com/GTNewHorizons/StructureCompat/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.7.4...0.7.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-22T09:17:29+00:00",
+          "filename": "structurecompat-0.7.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureCompat/releases/assets/581023815",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureCompat/releases/download/0.7.5/structurecompat-0.7.5.jar",
           "extra_assets": []
         }
       ],
@@ -193731,6 +193901,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 749,
-  "latest_successful_daily": 749
+  "latest_daily": 750,
+  "latest_successful_daily": 750
 }

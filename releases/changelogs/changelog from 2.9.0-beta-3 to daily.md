@@ -21,11 +21,12 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.18
+# Updated - Angelica - 2.2.10 --> 2.2.19
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.18
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.19
 
 ## What's Changed:
+>* Properly handle display lists with the push/pop optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2126 (2.2.19)
 >* fix asm class dumper following rfb changes by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/2123 (2.2.18)
 >* Render pass and state stack optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2124 (2.2.18)
 >* Fix texture filtering sampling regression by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2115 (2.2.17)
@@ -209,10 +210,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.127
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.127
+# Updated - CropsNH - 2.0.114 --> 2.0.128
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.128
 
 ## What's Changed:
+>* Fix a very important typo by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/272 (2.0.128)
 >* Fix NEI breeding dump and migrator crop lang key by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/271 (2.0.127)
 >* Fix improper tier lookup for energy hatches on the IF by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/270 (2.0.126)
 >* Update env module textures by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/268 (2.0.126)
@@ -277,10 +279,12 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.176
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.176
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.177
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.177
 
 ## What's Changed:
+>* Show Large Molecular Assembler when filtering in Interface Terminal by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8108 (5.09.54.177)
+>* Fix Vajra AE2 part hotswap placement by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8170 (5.09.54.177)
 >* fix eoh recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8153 (5.09.54.176)
 >* Fix Stocking Input Bus HoloInventory quantities by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8152 (5.09.54.176)
 >* make nac module gui have the right info panel by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8156 (5.09.54.176)
@@ -514,10 +518,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Make config values public by @GDCloudstrike in https://github.com/GTNewHorizons/Infernal-Mobs/pull/26 (1.10.7-GTNH)
 
-# Updated - InventoryBogoSorter - 1.3.50-GTNH --> 1.3.51-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.51-GTNH
+# Updated - InventoryBogoSorter - 1.3.50-GTNH --> 1.3.52-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.52-GTNH
 
 ## What's Changed:
+>* Fix world memory leak caused by ItemStack mixin by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/228 (1.3.52-GTNH)
 >* feat(events): New events to cancel sorting by @vermz99 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/227 (1.3.51-GTNH)
 
 # Updated - JourneyMap - 5.2.20-fairplay --> 5.2.23-fairplay
@@ -563,10 +568,11 @@ Mod is client-side only.
 # New Mod - Navigator-Curse:1.1.10
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.72
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.72
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.73
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.73
 
 ## What's Changed:
+>* Fix saw blade remappings to work for Yamcl item IDs by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1967 (2.9.73)
 >* Fix HazardousItems profiler interval check by @Chitak985 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1953 (2.9.72)
 >* Use GT blood infused iron in altar recipe by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1956 (2.9.72)
 >* Remove old GT++ particle recipes by @ham-corp in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1966 (2.9.72)
@@ -584,10 +590,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [NAC] Rework NAC power consumption by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1949 (2.9.63)
 >* Add a sponge recipe by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1947 (2.9.62)
 
-# Updated - NotEnoughEnergistics - 1.7.41 --> 1.7.44
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.41...1.7.44
+# Updated - NotEnoughEnergistics - 1.7.41 --> 1.7.45
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.41...1.7.45
 
 ## What's Changed:
+>* Got GT6 fluid recipes (both lookup and uses) working now too by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/86 (1.7.45)
 >* Fix issue with BotaniaRecipeProcessor not working by @vcwdfca in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/85 (1.7.44)
 >* Finally got GT6 fluids to work properly as far as I can test.  Can pu… by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84 (1.7.43)
 >* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83 (1.7.42)
@@ -661,6 +668,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* Fix protected drawer extraction by @Worive in https://github.com/GTNewHorizons/StorageDrawers/pull/78 (2.2.30-GTNH)
+
+# Updated - StructureCompat - 0.7.4 --> 0.7.5
+**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.7.4...0.7.5
+
+## What's Changed:
+>* feat(bogo): Add bogo compat to prevent sort on projector held/picked. by @vermz99 in https://github.com/GTNewHorizons/StructureCompat/pull/16 (0.7.5)
 
 # Updated - StructureLib - 1.4.42 --> 1.4.45
 **Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.42...1.4.45
