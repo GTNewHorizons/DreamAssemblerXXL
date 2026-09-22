@@ -130551,31 +130551,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Modular-UI-2",
-      "latest_version": "2.3.91-1.7.10",
-      "versions": [
-        {
-          "version_tag": "2.3.91-1.7.10",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T16:53:47.983664",
-          "filename": "modularui2-2.3.91-1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8907/362/modularui2-2.3.91-1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/files/8907362",
-          "curse_file": {
-            "project_no": "624243",
-            "file_no": "8907362"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/",
-      "project_id": "624243",
-      "disabled": false
-    },
-    {
       "name": "ModularUI",
       "latest_version": "1.3.4",
       "private": false,
@@ -133576,7 +133551,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ModularUI2",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "Morpheus",
@@ -135384,32 +135359,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Navigator",
-      "side": "NONE"
-    },
-    {
-      "name": "Navigator-Curse",
-      "latest_version": "1.1.10",
-      "versions": [
-        {
-          "version_tag": "1.1.10",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T16:59:00.951344",
-          "filename": "navigator-1.1.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8907/397/navigator-1.1.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/navigator/files/8907397",
-          "curse_file": {
-            "project_no": "1539674",
-            "file_no": "8907397"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/navigator",
-      "project_id": "1539674",
-      "disabled": false
+      "side": "BOTH"
     },
     {
       "name": "nei-custom-diagram",
@@ -164664,31 +164614,6 @@
       "side": "CLIENT"
     },
     {
-      "name": "Server-Utils",
-      "latest_version": "2.4.12",
-      "versions": [
-        {
-          "version_tag": "2.4.12",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T17:46:14.754659",
-          "filename": "ServerUtilities-2.4.12.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8914/204/ServerUtilities-2.4.12.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/files/8914204",
-          "curse_file": {
-            "project_no": "1539566",
-            "file_no": "8914204"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/",
-      "project_id": "1539566",
-      "disabled": false
-    },
-    {
       "name": "ServerUtilities",
       "latest_version": "2.4.12",
       "private": false,
@@ -166837,7 +166762,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ServerUtilities",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "SGCraft",
@@ -167714,31 +167639,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Spice-of-Life",
-      "latest_version": "2.2.10-carrot",
-      "versions": [
-        {
-          "version_tag": "2.2.10-carrot",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T17:50:29.049458",
-          "filename": "SpiceOfLife-2.2.10-carrot.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8242/713/SpiceOfLife-2.2.10-carrot.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/files/8242713",
-          "curse_file": {
-            "project_no": "782155",
-            "file_no": "8242713"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/",
-      "project_id": "782155",
-      "disabled": false
-    },
-    {
       "name": "SpiceOfLife",
       "latest_version": "2.2.10-carrot",
       "private": false,
@@ -168128,7 +168028,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "SpongeMixins",

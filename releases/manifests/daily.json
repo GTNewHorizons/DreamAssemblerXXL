@@ -440,6 +440,10 @@
       "version": "3.7.7",
       "side": "BOTH"
     },
+    "SpiceOfLife": {
+      "version": "2.2.10-carrot",
+      "side": "BOTH"
+    },
     "Steve-s-Factory-Manager": {
       "version": "1.3.13-GTNH",
       "side": "BOTH"
@@ -692,6 +696,10 @@
       "version": "1.4.10",
       "side": "BOTH"
     },
+    "ServerUtilities": {
+      "version": "2.4.12",
+      "side": "BOTH"
+    },
     "Tinkers-Defense": {
       "version": "1.3.4",
       "side": "BOTH"
@@ -706,6 +714,14 @@
     },
     "AkashicTome": {
       "version": "1.2.7",
+      "side": "BOTH"
+    },
+    "Navigator": {
+      "version": "1.1.10",
+      "side": "BOTH"
+    },
+    "ModularUI2": {
+      "version": "2.3.91-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -956,22 +972,6 @@
     },
     "Mobs Info": {
       "version": "0.6.0",
-      "side": "BOTH"
-    },
-    "Modular-UI-2": {
-      "version": "2.3.91-1.7.10",
-      "side": "BOTH"
-    },
-    "Navigator-Curse": {
-      "version": "1.1.10",
-      "side": "BOTH"
-    },
-    "Server-Utils": {
-      "version": "2.4.12",
-      "side": "BOTH"
-    },
-    "Spice-of-Life": {
-      "version": "2.2.10-carrot",
       "side": "BOTH"
     }
   }
