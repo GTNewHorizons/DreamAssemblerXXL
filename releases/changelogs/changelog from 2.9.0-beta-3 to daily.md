@@ -21,11 +21,13 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.17
+# Updated - Angelica - 2.2.10 --> 2.2.18
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.17
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.18
 
 ## What's Changed:
+>* fix asm class dumper following rfb changes by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/2123 (2.2.18)
+>* Render pass and state stack optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2124 (2.2.18)
 >* Fix texture filtering sampling regression by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2115 (2.2.17)
 >* Fix edge cases with cloud wraps by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2122 (2.2.17)
 >* Fix mipmaps bleeding by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2112 (2.2.16)
@@ -113,6 +115,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - Backhand - 1.8.14 --> 1.8.15
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.8.14...1.8.15
+
+## What's Changed:
+>* Create config for moving the backhand inventory slot by @Ranzuu in https://github.com/GTNewHorizons/Backhand/pull/199 (1.8.15)
+
 # Updated - Baubles-Expanded - 2.2.22-GTNH --> 2.2.24-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.2.22-GTNH...2.2.24-GTNH
 
@@ -269,10 +277,24 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.175
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.175
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.176
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.176
 
 ## What's Changed:
+>* fix eoh recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8153 (5.09.54.176)
+>* Fix Stocking Input Bus HoloInventory quantities by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8152 (5.09.54.176)
+>* make nac module gui have the right info panel by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8156 (5.09.54.176)
+>* Fix off by one MapGenRuins air chance checks by @Chitak985 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8160 (5.09.54.176)
+>* Fix jars spawning Flux at the wrong coordinates by @Chitak985 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8159 (5.09.54.176)
+>* Fix Eternity Dust Melting by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8161 (5.09.54.176)
+>* Move tooltip parameter colors from code into lang files by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8154 (5.09.54.176)
+>* change solar tower tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8157 (5.09.54.176)
+>* Fix Vajra hotswap for AE2 parts by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8164 (5.09.54.176)
+>* fix ebf tt by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8162 (5.09.54.176)
+>* make the rocketdyne tooltip readable by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7983 (5.09.54.176)
+>* Fix various asteroid-related small bugs by @Chitak985 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8158 (5.09.54.176)
+>* add decayables chest item model by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8163 (5.09.54.176)
+>* set mechanical armor t1 jetpack upgrade hoverSlowSpeed to 0 by @metalcupcake5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8044 (5.09.54.176)
 >* fix sensor hatches by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8118 (5.09.54.175)
 >* Fix tesla effect config not working on client side by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8148 (5.09.54.175)
 >* Add alias for drone downlink hatch by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8144 (5.09.54.175)
@@ -454,10 +476,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix baby Enderman item duplication by @Worive in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/49 (1.12.28-GTNH)
 
-# Updated - Hodgepodge - 2.7.196 --> 2.7.210
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.210
+# Updated - Hodgepodge - 2.7.196 --> 2.7.211
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.211
 
 ## What's Changed:
+>* Override the player inventory layout with moved crafting grid and new texture by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/1009 (2.7.211)
 >* Skip unchanged forced chunk saves by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/1008 (2.7.210)
 >* Fix chunk NBT corruption during concurrent saves by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/1002 (2.7.209)
 >* Fixed furnace BurnTime overflow with high BurnTime fuels by @playfuldoggo in https://github.com/GTNewHorizons/Hodgepodge/pull/990 (2.7.207)
@@ -540,10 +563,13 @@ Mod is client-side only.
 # New Mod - Navigator-Curse:1.1.10
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.71
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.71
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.72
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.72
 
 ## What's Changed:
+>* Fix HazardousItems profiler interval check by @Chitak985 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1953 (2.9.72)
+>* Use GT blood infused iron in altar recipe by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1956 (2.9.72)
+>* Remove old GT++ particle recipes by @ham-corp in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1966 (2.9.72)
 >* remove deploader by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1965 (2.9.71)
 >* remove duplicated ardite & manyullyn saw blades by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1958 (2.9.70)
 >* Move Project Red Logic Gates to Assembler by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1871 (2.9.69)
@@ -599,6 +625,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Ignore grave interactions from a dead player by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/66 (1.12.22-GTNH)
 
+# Updated - OpenComputers - 1.12.61-GTNH --> 1.12.62-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.61-GTNH...1.12.62-GTNH
+
+## What's Changed:
+>* Add APIs for Stocking Input Bus/Hatch by @hxync in https://github.com/GTNewHorizons/OpenComputers/pull/222 (1.12.62-GTNH)
+
 # Updated - PersonalSpace - 1.0.40 --> 1.0.41
 **Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.40...1.0.41
 
@@ -630,10 +662,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix protected drawer extraction by @Worive in https://github.com/GTNewHorizons/StorageDrawers/pull/78 (2.2.30-GTNH)
 
-# Updated - StructureLib - 1.4.42 --> 1.4.44
-**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.42...1.4.44
+# Updated - StructureLib - 1.4.42 --> 1.4.45
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.42...1.4.45
 
 ## What's Changed:
+>* feat(middle-click): Add in GUI and in-world middle-click pick to set and reset channels by @vermz99 in https://github.com/GTNewHorizons/StructureLib/pull/74 (1.4.45)
 >* Clean up empty NBT when clearing projector channels by @Chitak985 in https://github.com/GTNewHorizons/StructureLib/pull/75 (1.4.44)
 >* Localize and unify missing block messages in autoplace by @Eldrinn-Elantey in https://github.com/GTNewHorizons/StructureLib/pull/70 (1.4.43)
 
@@ -673,10 +706,11 @@ Mod is client-side only.
 >* add config option for classic crafting station layout by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/334 (1.14.110-GTNH)
 >* Bugfix blocking damage battlesign by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/331 (1.14.109-GTNH)
 
-# Updated - VillageNames - 4.5.17-GTNH --> 4.5.18-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.17-GTNH...4.5.18-GTNH
+# Updated - VillageNames - 4.5.17-GTNH --> 4.5.19-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.17-GTNH...4.5.19-GTNH
 
 ## What's Changed:
+>* fix persistance for named mobs by @LazyFlesh in https://github.com/GTNewHorizons/VillageNames/pull/16 (4.5.19-GTNH)
 >* Fix EntityMonitorHandler refactoring by @kurrycat2004 in https://github.com/GTNewHorizons/VillageNames/pull/15 (4.5.18-GTNH)
 
 # Updated - VisualProspecting - 1.5.39 --> 1.5.41
@@ -719,4 +753,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @ABKQPO, @Ableytner, @ah-OOG-ah, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Glease, @glowredman, @ham-corp, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @JustRomanBZK, @KAMKEEL, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Glease, @glowredman, @ham-corp, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @JustRomanBZK, @KAMKEEL, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

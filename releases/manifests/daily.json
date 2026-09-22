@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-09-21T09:08:51.118866+00:00",
-  "config": "2.9.0-nightly-2026-09-20",
+  "last_updated": "2026-09-22T08:42:21.022196+00:00",
+  "config": "2.9.0-nightly-2026-09-21",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.175",
+      "version": "5.09.54.176",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.210",
+      "version": "2.7.211",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.71",
+      "version": "2.9.72",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.61-GTNH",
+      "version": "1.12.62-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -457,7 +457,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.44",
+      "version": "1.4.45",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.17",
+      "version": "2.2.18",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.14",
+      "version": "1.8.15",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -801,7 +801,7 @@
       "side": "CLIENT"
     },
     "VillageNames": {
-      "version": "4.5.18-GTNH",
+      "version": "4.5.19-GTNH",
       "side": "BOTH"
     },
     "ChromaticTooltips": {
