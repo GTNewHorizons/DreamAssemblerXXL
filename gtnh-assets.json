@@ -46963,7 +46963,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.128",
+      "latest_version": "2.0.129",
       "private": false,
       "versions": [
         {
@@ -48254,6 +48254,16 @@
           "filename": "cropsnh-2.0.128.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/581022925",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.128/cropsnh-2.0.128.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.129",
+          "changelog": "## What's Changed\n* Mini bugfix: crop managers water/fertilize/weedex broken crop sticks by @MarloGr in https://github.com/GTNewHorizons/CropsNH/pull/273\n\n## New Contributors\n* @MarloGr made their first contribution in https://github.com/GTNewHorizons/CropsNH/pull/273\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.128...2.0.129\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-23T17:52:40+00:00",
+          "filename": "cropsnh-2.0.129.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/584304714",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.129/cropsnh-2.0.129.jar",
           "extra_assets": []
         }
       ],
@@ -66159,7 +66169,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.179",
+      "latest_version": "5.09.54.180",
       "private": false,
       "versions": [
         {
@@ -92970,6 +92980,16 @@
           "filename": "gregtech-5.09.54.179.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/582263511",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.179/gregtech-5.09.54.179.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.180",
+          "changelog": "## What's Changed\n* capitalisation by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8179\n* make coloring hatches update the module theyre connected to's structure by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8167\n* Document that flushing the Board Processor requires an Output Hatch by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8090\n* Super Quick Tooltip Standardization by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8181\n* Unify some behaviors of the Output Bus/Hatch by @hxync in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8174\n* Undo Naq Fuel Re-naming by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8186\n* Fix unacceptable spelling mistake by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8187\n* [NAC] Optical and Specialty circuit rebalance by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7946\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.179...5.09.54.180\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-23T19:22:03+00:00",
+          "filename": "gregtech-5.09.54.180.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/584439186",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.180/gregtech-5.09.54.180.jar",
           "extra_assets": []
         }
       ],
@@ -135145,7 +135165,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.74",
+      "latest_version": "2.9.75",
       "private": false,
       "versions": [
         {
@@ -147446,6 +147466,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.74.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/582224567",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.74/GTNewHorizonsCoreMod-2.9.74.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.75",
+          "changelog": "## What's Changed\n* [NAC] Optical and Specialty Circuit Rebalance by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1945\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.74...2.9.75\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-23T19:38:31+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.75.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/584462048",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.75/GTNewHorizonsCoreMod-2.9.75.jar",
           "extra_assets": []
         }
       ],
@@ -163003,7 +163033,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.12",
+      "latest_version": "2.4.13",
       "private": false,
       "versions": [
         {
@@ -165145,6 +165175,16 @@
           "filename": "ServerUtilities-2.4.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/573262223",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.12/ServerUtilities-2.4.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.13",
+          "changelog": "## What's Changed\n* Reduce server stalls during backup preparation by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/345\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.12...2.4.13\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T21:25:20+00:00",
+          "filename": "ServerUtilities-2.4.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/577590304",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.13/ServerUtilities-2.4.13.jar",
           "extra_assets": []
         }
       ],
