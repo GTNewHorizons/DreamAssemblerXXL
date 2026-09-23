@@ -167113,7 +167113,7 @@
         }
       ],
       "license": "GNU",
-      "side": "BOTH",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/",
       "project_id": "782155",
@@ -167509,7 +167509,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "SpongeMixins",
