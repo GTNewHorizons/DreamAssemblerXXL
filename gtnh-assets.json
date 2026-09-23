@@ -28659,52 +28659,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Aroma1997Core",
-      "latest_version": "1.0.2.16",
-      "versions": [
-        {
-          "version_tag": "1.0.2.16",
-          "tagged_at": "2015-09-19T00:35:00",
-          "filename": "Aroma1997Core-1.7.10-1.0.2.16.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2257/644/Aroma1997Core-1.7.10-1.0.2.16.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core/files/2257644",
-          "curse_file": {
-            "project_no": "223735",
-            "file_no": "2257644"
-          }
-        }
-      ],
-      "license": "GNU General Public License v3.0",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
-      "project_id": "223735",
-      "slug": "aroma1997core"
-    },
-    {
-      "name": "AromaBackup",
-      "latest_version": "0.1.0.0",
-      "versions": [
-        {
-          "version_tag": "0.1.0.0",
-          "tagged_at": "2016-02-29T23:58:00",
-          "filename": "AromaBackup-1.7.10-0.1.0.0.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2284/754/AromaBackup-1.7.10-0.1.0.0.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup/files/2284754",
-          "curse_file": {
-            "project_no": "225658",
-            "file_no": "2284754"
-          }
-        }
-      ],
-      "license": "Custom License, permission to distribute derivative works granted since GTNH is provided through CurseForge. (https://www.curseforge.com/project/225658/license)",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
-      "project_id": "225658",
-      "slug": "aromabackup"
-    },
-    {
       "name": "AsieLib",
       "latest_version": "0.7.2",
       "private": false,
@@ -29054,29 +29008,6 @@
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/AspectRecipeIndex",
       "side": "BOTH"
-    },
-    {
-      "name": "Automagy",
-      "latest_version": "0.28.2",
-      "versions": [
-        {
-          "version_tag": "0.28.2",
-          "tagged_at": "2016-03-04T20:36:00",
-          "filename": "Automagy-1.7.10-0.28.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2285/272/Automagy-1.7.10-0.28.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/automagy/files/2285272",
-          "curse_file": {
-            "project_no": "222153",
-            "file_no": "2285272"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/automagy",
-      "project_id": "222153",
-      "slug": "automagy"
     },
     {
       "name": "Automagy-GTNH",
@@ -32484,155 +32415,6 @@
       "license": "Minecraft Mod Public License v1.0.1",
       "repo_url": "https://github.com/GTNewHorizons/bdlib",
       "side": "BOTH"
-    },
-    {
-      "name": "BeeBetterAtBees",
-      "latest_version": "0.3",
-      "versions": [
-        {
-          "version_tag": "0.3",
-          "tagged_at": "2016-05-01T14:33:00",
-          "filename": "BeeBetterAtBees-0.3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2297/397/BeeBetterAtBees-0.3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees/files/2297397",
-          "curse_file": {
-            "project_no": "244516",
-            "file_no": "2297397"
-          }
-        }
-      ],
-      "license": "Quick licence notice: ARR - you're of course allowed to put it into packs and all other stuff. The licence is meant for redistribution on other websites and copying.",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees",
-      "project_id": "244516",
-      "slug": "beebetteratbees"
-    },
-    {
-      "name": "BeeBetterAtBees-GTNH",
-      "latest_version": "0.4.7-GTNH",
-      "private": false,
-      "versions": [
-        {
-          "version_tag": "0.3.1-GTNH",
-          "changelog": "## What's Changed\n* Create README.md by @Dream-Master in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/1\n* Update README.md by @Dream-Master in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/2\n* Update Buildscript and fill README by @glowredman in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/3\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/1\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/3\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees/commits/0.3.1-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2023-06-15T20:51:00+00:00",
-          "filename": "beebetteratbees-0.3.1-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/112955798",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.3.1-GTNH/beebetteratbees-0.3.1-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.0-GTNH",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.3.1-GTNH...0.4.0-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2024-01-11T20:53:05+00:00",
-          "filename": "beebetteratbees-0.4.0-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/145115891",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.0-GTNH/beebetteratbees-0.4.0-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.1-GTNH-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.0-GTNH...0.4.1-GTNH-pre\n",
-          "prerelease": false,
-          "tagged_at": "2024-06-05T20:55:50+00:00",
-          "filename": "beebetteratbees-0.4.1-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/172137878",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.1-GTNH-pre/beebetteratbees-0.4.1-GTNH-pre.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.2-GTNH",
-          "changelog": "## What's Changed\n* Remove unnecessary glDepthMask calls by @Lyfts in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/4\n\n## New Contributors\n* @Lyfts made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/4\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.0-GTNH...0.4.2-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2024-06-17T21:30:13+00:00",
-          "filename": "beebetteratbees-0.4.2-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/174355758",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.2-GTNH/beebetteratbees-0.4.2-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BeeBetterAtBees-GTNH/0.4.2-GTNH/BeeBetterAtBees-GTNH-0.4.2-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.3-GTNH",
-          "changelog": "## What's Changed\n* add german translation by @2ndDerivative in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/5\n\n## New Contributors\n* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.2-GTNH...0.4.3-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2025-07-29T07:44:49+00:00",
-          "filename": "beebetteratbees-0.4.3-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/277331462",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.3-GTNH/beebetteratbees-0.4.3-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BeeBetterAtBees-GTNH/0.4.3-GTNH/BeeBetterAtBees-GTNH-0.4.3-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.4-GTNH",
-          "changelog": "## What's Changed\n* Fix Mutation Requirement Tooltips by @Ruling-0 in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/6\n\n## New Contributors\n* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/6\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.3-GTNH...0.4.4-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2026-01-15T04:36:57+00:00",
-          "filename": "beebetteratbees-0.4.4-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/340793172",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.4-GTNH/beebetteratbees-0.4.4-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.5-GTNH",
-          "changelog": "## What's Changed\n* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/7\n\n## New Contributors\n* @UltraProdigy made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/7\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.4-GTNH...0.4.5-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2026-04-27T11:25:04+00:00",
-          "filename": "beebetteratbees-0.4.5-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/406538937",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.5-GTNH/beebetteratbees-0.4.5-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.6-GTNH",
-          "changelog": "## What's Changed\n* Fix HEI Handler Tooltip by @slprime in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/8\n\n## New Contributors\n* @slprime made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/8\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.5-GTNH...0.4.6-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2026-05-15T04:43:39+00:00",
-          "filename": "beebetteratbees-0.4.6-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/420737123",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.6-GTNH/beebetteratbees-0.4.6-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.4.7-GTNH",
-          "changelog": "## What's Changed\n* Implement ColorUtils by @Ranzuu in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/9\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/9\n\n**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.6-GTNH...0.4.7-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2026-07-20T05:27:38+00:00",
-          "filename": "beebetteratbees-0.4.7-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/483096083",
-          "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.7-GTNH/beebetteratbees-0.4.7-GTNH.jar",
-          "extra_assets": []
-        }
-      ],
-      "license": "All Rights Reserved (fallback)",
-      "repo_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH",
-      "side": "CLIENT"
-    },
-    {
-      "name": "Better Questing - Quest Book",
-      "latest_version": "3.0.0",
-      "versions": [
-        {
-          "version_tag": "3.0.0",
-          "tagged_at": "2020-04-18T12:40:00",
-          "filename": "questbook-3.0.0-1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2933/973/questbook-3.0.0-1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2933973",
-          "curse_file": {
-            "project_no": "242106",
-            "file_no": "2933973"
-          }
-        }
-      ],
-      "license": "ARR",
-      "repo_url": "https://github.com/Drethic/QuestBook",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
-      "project_id": "242106",
-      "slug": "better-questing-quest-book"
     },
     {
       "name": "BetterAchievements",
@@ -42026,81 +41808,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Brandon's Core",
-      "latest_version": "1.0.0.12",
-      "versions": [
-        {
-          "version_tag": "1.0.0.12",
-          "tagged_at": "2016-04-04T07:41:00",
-          "filename": "BrandonsCore-1.0.0.12.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2292/125/BrandonsCore-1.0.0.12.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core/files/2292125",
-          "curse_file": {
-            "project_no": "231382",
-            "file_no": "2292125"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/BrandonsCore",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
-      "project_id": "231382",
-      "slug": "brandons-core"
-    },
-    {
-      "name": "BrandonsCore",
-      "latest_version": "1.2.1-GTNH",
-      "private": false,
-      "versions": [
-        {
-          "version_tag": "1.0.0.13-GTNH",
-          "changelog": "## What's Changed\n* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/BrandonsCore/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/BrandonsCore/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/commits/1.0.0.13-GTNH",
-          "prerelease": false,
-          "tagged_at": "2022-07-10T15:03:58+00:00",
-          "filename": "BrandonsCore-1.7.10-1.0.0.13-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BrandonsCore/releases/assets/71144366",
-          "browser_download_url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.0.0.13-GTNH/BrandonsCore-1.7.10-1.0.0.13-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.1.0-GTNH",
-          "changelog": "## What's Changed\n* [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/BrandonsCore/pull/2\n\n## New Contributors\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/BrandonsCore/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/compare/1.0.0.13-GTNH...1.1.0-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2024-01-09T21:27:46+00:00",
-          "filename": "BrandonsCore-1.1.0-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BrandonsCore/releases/assets/144675764",
-          "browser_download_url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.1.0-GTNH/BrandonsCore-1.1.0-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.2.0-GTNH",
-          "changelog": "## What's Changed\n* Disable `useDependencyInformation` by @glowredman in https://github.com/GTNewHorizons/BrandonsCore/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/compare/1.1.0-GTNH...1.2.0-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2024-06-28T21:01:31+00:00",
-          "filename": "BrandonsCore-1.2.0-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BrandonsCore/releases/assets/176567833",
-          "browser_download_url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.2.0-GTNH/BrandonsCore-1.2.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BrandonsCore/1.2.0-GTNH/BrandonsCore-1.2.0-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.2.1-GTNH",
-          "changelog": "## What's Changed\n* Format number migration by @Connor-Colenso in https://github.com/GTNewHorizons/BrandonsCore/pull/4\n\n## New Contributors\n* @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/BrandonsCore/pull/4\n\n**Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/compare/1.2.0-GTNH...1.2.1-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2026-01-24T14:12:41+00:00",
-          "filename": "BrandonsCore-1.2.1-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BrandonsCore/releases/assets/345259341",
-          "browser_download_url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.2.1-GTNH/BrandonsCore-1.2.1-GTNH.jar",
-          "extra_assets": []
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/BrandonsCore",
-      "side": "NONE"
-    },
-    {
       "name": "Bug-Torch",
       "latest_version": "1.3.1",
       "needs_attention": false,
@@ -42750,24 +42457,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Buildcraft Oil Tweaks",
-      "latest_version": "1.0.3",
-      "versions": [
-        {
-          "version_tag": "1.0.3",
-          "tagged_at": "2015-07-05T13:33:06",
-          "filename": "BuildCraftOilTweak-1.7.10-1.0.3.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/BuildCraftOilTweak-1.7.10-1.0.3.jar",
-          "browser_download_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak"
-        }
-      ],
-      "license": "ARR",
-      "maven": "https://files.vexatos.com/BuildCraftOilTweak/",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak"
-    },
-    {
       "name": "BuildCraftCompat",
       "latest_version": "7.1.22",
       "private": false,
@@ -42968,30 +42657,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/BuildCraftOilTweak",
       "side": "BOTH"
-    },
-    {
-      "name": "Carpenter's Blocks",
-      "latest_version": "3.3.8.2",
-      "versions": [
-        {
-          "version_tag": "3.3.8.2",
-          "tagged_at": "2019-06-03T17:56:00",
-          "filename": "Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2719/376/Carpenter%27s+Blocks+v3.3.8.2+-+MC+1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks/files/2719376",
-          "curse_file": {
-            "project_no": "228932",
-            "file_no": "2719376"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public Library v2.1",
-      "repo_url": "https://github.com/GTNewHorizons/CarpentersBlocks",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
-      "project_id": "228932",
-      "slug": "carpenters-blocks"
     },
     {
       "name": "CarpentersBlocks",
@@ -45445,54 +45110,6 @@
       "slug": "cofh-core"
     },
     {
-      "name": "CoFH Lib",
-      "latest_version": "1.2.1-185",
-      "versions": [
-        {
-          "version_tag": "1.2.1-185",
-          "tagged_at": "2017-03-04T10:42:00",
-          "filename": "CoFHLib-[1.7.10]1.2.1-185.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2388/747/CoFHLib-%5b1.7.10%5d1.2.1-185.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib/files/2388747",
-          "curse_file": {
-            "project_no": "220333",
-            "file_no": "2388747"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public Library v3.0",
-      "repo_url": "https://github.com/CoFH/CoFHLib-1.7.10-Legacy",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
-      "project_id": "220333",
-      "slug": "cofh-lib"
-    },
-    {
-      "name": "Command Blocks for Better Questing",
-      "latest_version": "3",
-      "versions": [
-        {
-          "version_tag": "3",
-          "tagged_at": "2019-07-08T10:35:00",
-          "filename": "CB4BQ-3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2737/661/CB4BQ-3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing/files/2737661",
-          "curse_file": {
-            "project_no": "326290",
-            "file_no": "2737661"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/bartimaeusnek/CB-for-BQ",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing",
-      "project_id": "326290",
-      "slug": "command-blocks-for-better-questing"
-    },
-    {
       "name": "Compact Kinetic Generators",
       "latest_version": "1.0",
       "versions": [
@@ -46372,26 +45989,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/CookingForBlockheads",
       "side": "BOTH"
-    },
-    {
-      "name": "Core-Tweaks",
-      "latest_version": "0.3.3.2",
-      "versions": [
-        {
-          "version_tag": "0.3.3.2",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2024-02-07T08:49:43.510807",
-          "filename": "CoreTweaks-1.7.10-0.3.3.2+nomixin.jar",
-          "download_url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.3.2/CoreTweaks-1.7.10-0.3.3.2+nomixin.jar",
-          "browser_download_url": "https://github.com/makamys/CoreTweaks/releases/tag/0.3.3.2"
-        }
-      ],
-      "license": "MIT",
-      "side": "NONE",
-      "source": "other",
-      "external_url": "https://github.com/makamys/CoreTweaks",
-      "disabled": false
     },
     {
       "name": "CoreTweaks",
@@ -49585,30 +49182,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/CropsNH",
       "side": "BOTH"
-    },
-    {
-      "name": "Custom Main Menu",
-      "latest_version": "1.9.2",
-      "versions": [
-        {
-          "version_tag": "1.9.2",
-          "tagged_at": "2015-10-31T08:48:00",
-          "filename": "CustomMainMenu-MC1.7.10-1.9.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2264/779/CustomMainMenu-MC1.7.10-1.9.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu/files/2264779",
-          "curse_file": {
-            "project_no": "226406",
-            "file_no": "2264779"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/Custom-Main-Menu",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
-      "project_id": "226406",
-      "slug": "custom-main-menu"
     },
     {
       "name": "Custom-Main-Menu",
@@ -56469,36 +56042,6 @@
       "side": "NONE"
     },
     {
-      "name": "Et Futurum Requiem",
-      "latest_version": "2.6.2",
-      "needs_attention": false,
-      "versions": [
-        {
-          "version_tag": "2.6.0",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2024-09-02T22:34:58.065306",
-          "filename": "Et_Futurum_Requiem-2.6.0.jar",
-          "download_url": "https://cdn.modrinth.com/data/o56psTwz/versions/i2baYHfY/Et_Futurum_Requiem-2.6.0.jar",
-          "browser_download_url": "https://modrinth.com/mod/etfuturum/version/2.6.0"
-        },
-        {
-          "version_tag": "2.6.2",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2024-12-26T23:52:25.363615",
-          "filename": "etfuturum-2.6.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/5873/837/etfuturum-2.6.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/et-futurum-requiem/download/5873837"
-        }
-      ],
-      "license": "LGPL-3.0-only",
-      "side": "NONE",
-      "source": "other",
-      "external_url": "https://modrinth.com/mod/etfuturum",
-      "disabled": false
-    },
-    {
       "name": "Et-Futurum-Requiem",
       "latest_version": "2.6.59-GTNH",
       "private": false,
@@ -58124,29 +57667,6 @@
       "disabled": false
     },
     {
-      "name": "FastCraft",
-      "latest_version": "1.25",
-      "versions": [
-        {
-          "version_tag": "1.25",
-          "tagged_at": "2018-01-20T07:51:00",
-          "filename": "fastcraft-1.25.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2522/249/fastcraft-1.25.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft/files/2522249",
-          "curse_file": {
-            "project_no": "242677",
-            "file_no": "2522249"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
-      "project_id": "242677",
-      "slug": "fastcraft"
-    },
-    {
       "name": "Fether",
       "latest_version": "2.0.7",
       "private": false,
@@ -58686,31 +58206,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/FindIt",
       "side": "BOTH"
-    },
-    {
-      "name": "Floodlights",
-      "latest_version": "1.2.8-137",
-      "versions": [
-        {
-          "version_tag": "1.2.8-137",
-          "tagged_at": "2016-07-31T09:03:00",
-          "filename": "FloodLights-1.7.10-1.2.8-137.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2320/32/FloodLights-1.7.10-1.2.8-137.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights/files/2320032",
-          "curse_file": {
-            "project_no": "224728",
-            "file_no": "2320032"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public License v3.0",
-      "repo_url": "https://github.com/GTNewHorizons/FloodLights",
-      "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
-      "project_id": "224728",
-      "slug": "floodlights"
     },
     {
       "name": "FloodLights",
@@ -60685,54 +60180,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ForestryMC",
       "side": "BOTH"
-    },
-    {
-      "name": "Forge Relocation",
-      "latest_version": "0.0.1.4",
-      "versions": [
-        {
-          "version_tag": "0.0.1.4",
-          "tagged_at": "2015-07-30T09:33:00",
-          "filename": "ForgeRelocation-0.0.1.4-universal.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2249/874/ForgeRelocation-0.0.1.4-universal.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation/files/2249874",
-          "curse_file": {
-            "project_no": "232075",
-            "file_no": "2249874"
-          }
-        }
-      ],
-      "license": "GNU General Public License v3.0",
-      "repo_url": "https://github.com/MrTJP/ForgeRelocation",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
-      "project_id": "232075",
-      "slug": "forge-relocation"
-    },
-    {
-      "name": "Forge Relocation - FMP Plugin",
-      "latest_version": "0.0.1.2",
-      "versions": [
-        {
-          "version_tag": "0.0.1.2",
-          "tagged_at": "2015-06-28T23:21:00",
-          "filename": "ForgeRelocationFMP-0.0.1.2-universal.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2244/822/ForgeRelocationFMP-0.0.1.2-universal.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin/files/2244822",
-          "curse_file": {
-            "project_no": "232076",
-            "file_no": "2244822"
-          }
-        }
-      ],
-      "license": "GNU General Public License v3.0",
-      "repo_url": "https://github.com/MrTJP/ForgeRelocationFMP",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
-      "project_id": "232076",
-      "slug": "forge-relocation-fmp-plugin"
     },
     {
       "name": "Forgelin",
@@ -67130,22 +66577,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/GoodGenerator",
       "side": "NONE"
-    },
-    {
-      "name": "Gravitation Suite",
-      "latest_version": "2.0.68u",
-      "versions": [
-        {
-          "version_tag": "2.0.68u",
-          "tagged_at": "2020-12-20T21:53:00",
-          "filename": "GraviSuite-1.7.10-2.0.68u.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.68u.jar",
-          "browser_download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.68u.jar"
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse"
     },
     {
       "name": "Gravitation-Suite-Neo",
@@ -105613,30 +105044,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Hardcore Darkness",
-      "latest_version": "1.7",
-      "versions": [
-        {
-          "version_tag": "1.7",
-          "tagged_at": "2015-10-14T02:17:00",
-          "filename": "HardcoreDarkness-MC1.7.10-1.7.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2262/352/HardcoreDarkness-MC1.7.10-1.7.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness/files/2262352",
-          "curse_file": {
-            "project_no": "225957",
-            "file_no": "2262352"
-          }
-        }
-      ],
-      "license": "ARR",
-      "repo_url": "https://github.com/lumien231/Hardcore-Darkness",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness",
-      "project_id": "225957",
-      "slug": "hardcore-darkness"
-    },
-    {
       "name": "Hardcore-Ender-Expansion",
       "latest_version": "1.12.28-GTNH",
       "private": false,
@@ -113974,29 +113381,6 @@
       "side": "BOTH"
     },
     {
-      "name": "IC2 Crop-Breeding Plugin",
-      "latest_version": "1.3.1",
-      "versions": [
-        {
-          "version_tag": "1.3.1",
-          "tagged_at": "2020-04-27T07:11:00",
-          "filename": "IC2 Crop Plugin Version 1.7.10-1.3.1.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2941/926/IC2+Crop+Plugin+Version+1.7.10-1.3.1.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin/files/2941926",
-          "curse_file": {
-            "project_no": "236609",
-            "file_no": "2941926"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin",
-      "project_id": "236609",
-      "slug": "ic2-nei-crop-plugin"
-    },
-    {
       "name": "IFU",
       "latest_version": "1.12.4",
       "private": false,
@@ -117622,30 +117006,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/Irontanks",
       "side": "BOTH"
-    },
-    {
-      "name": "It's the little things",
-      "latest_version": "1.0.3",
-      "versions": [
-        {
-          "version_tag": "1.0.3",
-          "tagged_at": "2021-06-02T09:42:00",
-          "filename": "itlt-1.7.x-1.0.3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/3335/234/itlt-1.7.x-1.0.3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things/files/3335234",
-          "curse_file": {
-            "project_no": "232791",
-            "file_no": "3335234"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/itlt",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
-      "project_id": "232791",
-      "slug": "its-the-little-things"
     },
     {
       "name": "itlt",
@@ -127354,30 +126714,6 @@
       "side": "NONE"
     },
     {
-      "name": "MalisisDoor",
-      "latest_version": "1.13.2",
-      "versions": [
-        {
-          "version_tag": "1.13.2",
-          "tagged_at": "2016-02-28T06:06:00",
-          "filename": "malisisdoors-1.7.10-1.13.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2284/380/malisisdoors-1.7.10-1.13.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors/files/2284380",
-          "curse_file": {
-            "project_no": "223891",
-            "file_no": "2284380"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/MalisisDoors",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
-      "project_id": "223891",
-      "slug": "malisisdoors"
-    },
-    {
       "name": "MalisisDoors",
       "latest_version": "1.19.11-GTNH",
       "private": false,
@@ -130669,7 +130005,7 @@
         }
       ],
       "license": "GNU",
-      "side": "BOTH",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/",
       "project_id": "624243",
@@ -133676,7 +133012,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ModularUI2",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "Morpheus",
@@ -133701,30 +133037,6 @@
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus",
       "project_id": "69118",
       "slug": "morpheus"
-    },
-    {
-      "name": "Mouse Tweaks",
-      "latest_version": "2.4.4",
-      "versions": [
-        {
-          "version_tag": "2.4.4",
-          "tagged_at": "2014-07-22T00:01:00",
-          "filename": "MouseTweaks-2.4.4-mc1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/2209265",
-          "curse_file": {
-            "project_no": "60089",
-            "file_no": "2209265"
-          }
-        }
-      ],
-      "license": "BSD-3-Clause",
-      "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
-      "project_id": "60089",
-      "slug": "mouse-tweaks"
     },
     {
       "name": "MouseTweaks",
@@ -135011,30 +134323,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Nature's Compass",
-      "latest_version": "1.3.1",
-      "versions": [
-        {
-          "version_tag": "1.3.1",
-          "tagged_at": "2017-07-16T06:45:00",
-          "filename": "NaturesCompass-1.7.10-1.3.1.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2451/823/NaturesCompass-1.7.10-1.3.1.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/2451823",
-          "curse_file": {
-            "project_no": "252848",
-            "file_no": "2451823"
-          }
-        }
-      ],
-      "license": "CC-BY-NC-SA-4.0",
-      "repo_url": "https://github.com/GTNewHorizons/NaturesCompass",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
-      "project_id": "252848",
-      "slug": "natures-compass"
-    },
-    {
       "name": "NaturesCompass",
       "latest_version": "1.5.2-GTNH",
       "private": false,
@@ -135484,7 +134772,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Navigator",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "Navigator-Curse",
@@ -135505,7 +134793,7 @@
         }
       ],
       "license": "GNU",
-      "side": "BOTH",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/navigator",
       "project_id": "1539674",
@@ -164822,7 +164110,7 @@
         }
       ],
       "license": "GNU",
-      "side": "BOTH",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/",
       "project_id": "1539566",
@@ -166977,7 +166265,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ServerUtilities",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "SGCraft",

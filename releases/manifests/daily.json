@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-09-23T08:45:28.328008+00:00",
+  "last_version": "2.9.0-beta-3",
+  "last_updated": "2026-09-23T20:18:52.486985+00:00",
   "config": "2.9.0-nightly-2026-09-22-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -835,6 +835,18 @@
     "Automagy-GTNH": {
       "version": "0.29.8-GTNH",
       "side": "BOTH"
+    },
+    "ModularUI2": {
+      "version": "2.3.91-1.7.10",
+      "side": "BOTH"
+    },
+    "Navigator": {
+      "version": "1.1.10",
+      "side": "BOTH"
+    },
+    "ServerUtilities": {
+      "version": "2.4.12",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -956,18 +968,6 @@
     },
     "Mobs Info": {
       "version": "0.6.0",
-      "side": "BOTH"
-    },
-    "Modular-UI-2": {
-      "version": "2.3.91-1.7.10",
-      "side": "BOTH"
-    },
-    "Navigator-Curse": {
-      "version": "1.1.10",
-      "side": "BOTH"
-    },
-    "Server-Utils": {
-      "version": "2.4.12",
       "side": "BOTH"
     },
     "Spice-of-Life": {
