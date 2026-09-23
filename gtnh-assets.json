@@ -12940,6 +12940,38 @@
       "repo_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework",
       "side": "BOTH"
     },
+        {
+      "name": "AE2NoUltimatePatterns",
+      "latest_version": "1.0.1",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.0.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2NoUltimatePatterns/commits/1.0.0\n",
+          "prerelease": false,
+          "tagged_at": "2025-06-21T08:34:18+00:00",
+          "filename": "ae2noultimatepatterns-1.0.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2NoUltimatePatterns/releases/assets/265972972",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2NoUltimatePatterns/releases/download/1.0.0/ae2noultimatepatterns-1.0.0.jar",
+          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/AE2NoUltimatePatterns/1.0.0/AE2NoUltimatePatterns-1.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.1",
+          "changelog": "## What's Changed\n* Give a package to the mod instead of having everything sitting at root by @Alexdoru in https://github.com/GTNewHorizons/AE2NoUltimatePatterns/pull/1\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2NoUltimatePatterns/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2NoUltimatePatterns/compare/1.0.0...1.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2025-08-13T16:01:41+00:00",
+          "filename": "ae2noultimatepatterns-1.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2NoUltimatePatterns/releases/assets/282196539",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2NoUltimatePatterns/releases/download/1.0.1/ae2noultimatepatterns-1.0.1.jar",
+          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/AE2NoUltimatePatterns/1.0.1/AE2NoUltimatePatterns-1.0.1.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "MIT",
+      "repo_url": "https://github.com/GTNewHorizons/AE2NoUltimatePatterns",
+      "side": "NONE"
+    },
     {
       "name": "ae2stuff",
       "latest_version": "0.10.19-GTNH",
