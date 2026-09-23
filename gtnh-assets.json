@@ -158712,53 +158712,6 @@
       "side": "CLIENT"
     },
     {
-      "name": "p455w0rd's Library",
-      "latest_version": "1.0.4",
-      "versions": [
-        {
-          "version_tag": "1.0.4",
-          "tagged_at": "2016-12-23T04:12:00",
-          "filename": "p455w0rdslib-1.7.10-1.0.4.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library/files/2359471",
-          "curse_file": {
-            "project_no": "255232",
-            "file_no": "2359471"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/p455w0rd/p455w0rds-Library",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library",
-      "project_id": "255232",
-      "slug": "p455w0rds-library"
-    },
-    {
-      "name": "Pam's Harvest the Nether",
-      "latest_version": "1.7.10a",
-      "versions": [
-        {
-          "version_tag": "1.7.10a",
-          "tagged_at": "2015-06-04T17:26:00",
-          "filename": "Pam's Harvest the Nether 1.7.10a.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2241/397/Pam%27s+Harvest+the+Nether+1.7.10a.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether/files/2241397",
-          "curse_file": {
-            "project_no": "231262",
-            "file_no": "2241397"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
-      "project_id": "231262",
-      "slug": "pams-harvest-the-nether"
-    },
-    {
       "name": "PersonalSpace",
       "latest_version": "1.0.41",
       "private": false,
@@ -170745,30 +170698,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Tainted Magic",
-      "latest_version": "r7.6",
-      "versions": [
-        {
-          "version_tag": "r7.6",
-          "tagged_at": "2016-11-15T17:18:00",
-          "filename": "Tainted-Magic-r7.6.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2345/241/Tainted-Magic-r7.6.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic/files/2345241",
-          "curse_file": {
-            "project_no": "231061",
-            "file_no": "2345241"
-          }
-        }
-      ],
-      "license": "CC-BY-NC-ND-4.0",
-      "repo_url": "https://github.com/yorkeJohn/Tainted-Magic",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic",
-      "project_id": "231061",
-      "slug": "tainted-magic"
-    },
-    {
       "name": "Tainted-Magic",
       "latest_version": "7.7.8-GTNH",
       "private": false,
@@ -175028,29 +174957,6 @@
       "slug": "thaumcraft"
     },
     {
-      "name": "Thaumcraft NEI Plugin",
-      "latest_version": "1.7a",
-      "versions": [
-        {
-          "version_tag": "1.7a",
-          "tagged_at": "2015-06-08T01:20:00",
-          "filename": "thaumcraftneiplugin-1.7.10-1.7a.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin/files/2241913",
-          "curse_file": {
-            "project_no": "225095",
-            "file_no": "2241913"
-          }
-        }
-      ],
-      "license": "You have my permission to include \"Thaumcraft NEI Plugin\" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin",
-      "project_id": "225095",
-      "slug": "thaumcraft-nei-plugin"
-    },
-    {
       "name": "thaumcraft-research-tweaks",
       "latest_version": "1.4.1",
       "private": false,
@@ -175242,47 +175148,6 @@
       "license": "Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects",
       "side": "BOTH"
-    },
-    {
-      "name": "Thaumic Inventory Scanning",
-      "latest_version": "1.0.11",
-      "versions": [
-        {
-          "version_tag": "1.0.11",
-          "tagged_at": "2016-06-13T18:46:00",
-          "filename": "tcinventoryscan-mc1.7.10-1.0.11.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2286/894/tcinventoryscan-mc1.7.10-1.0.11.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2286894",
-          "curse_file": {
-            "project_no": "238003",
-            "file_no": "2286894"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning ",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
-      "project_id": "238003",
-      "slug": "thaumcraft-inventory-scanning"
-    },
-    {
-      "name": "Thaumic Machina",
-      "latest_version": "0.2.1",
-      "versions": [
-        {
-          "version_tag": "0.2.1",
-          "tagged_at": "2014-09-01T01:35:00",
-          "filename": "Thaumic Machina-1.7.10-0.2.1.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Thaumic-Machina-1.7.10-0.2.1.jar",
-          "browser_download_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic"
-        }
-      ],
-      "license": "All Rights Reserved. - You may use this mod in mod packs IF you give credit to me, I don't care what pack you are or what other mods you run with, as long as you give me credit for my work, you are allowed to redestribute my mod under your mod pack. If you wish to generate revenue off my work, you require permission from me to do so within the terms of this license.",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic"
     },
     {
       "name": "Thaumic_Exploration",
@@ -180817,26 +180682,6 @@
       "side": "CLIENT"
     },
     {
-      "name": "Tinkers' Defense",
-      "latest_version": "1.2.1d",
-      "versions": [
-        {
-          "version_tag": "1.2.1d",
-          "tagged_at": "2020-12-20T21:53:00",
-          "filename": "Tinkers-Defense-1.2.1d.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Tinkers-Defense-1.2.1d.jar",
-          "browser_download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/"
-        }
-      ],
-      "license": "GNU General Public Library v3.0",
-      "repo_url": "https://github.com/GTNewHorizons/Tinkers-Defense",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/compendium",
-      "project_id": "226910",
-      "slug": "compendium"
-    },
-    {
       "name": "Tinkers-Defense",
       "latest_version": "1.3.4",
       "private": false,
@@ -184451,32 +184296,6 @@
       "license": "Original code licensed under the MIT License, GTNH changes licensed under the GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/Translocators",
       "side": "BOTH"
-    },
-    {
-      "name": "Travellers Gear",
-      "latest_version": "1.16.6",
-      "versions": [
-        {
-          "version_tag": "1.16.6",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2023-03-01T15:41:05.220494",
-          "filename": "TravellersGear-1.7.10-1.16.6.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2262/112/TravellersGear-1.7.10-1.16.6.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear/files/2262112",
-          "curse_file": {
-            "project_no": "",
-            "file_no": "2262112"
-          }
-        }
-      ],
-      "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
-      "repo_url": "https://github.com/BluSunrize/TravellersGear",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear",
-      "project_id": "224440",
-      "slug": "travellers-gear"
     },
     {
       "name": "TravellersGearNeo",
