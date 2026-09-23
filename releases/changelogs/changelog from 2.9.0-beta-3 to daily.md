@@ -68,10 +68,12 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1071-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1071-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1072-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1072-GTNH
 
 ## What's Changed:
+>* Makes controller animations per storage network instead of globally  by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1595 (rv3-beta-1072-GTNH)
+>* ignore format codes when sorting by name by @alppp in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1656 (rv3-beta-1072-GTNH)
 >* Fix replenisher storage notifications and byte accounting by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1621 (rv3-beta-1071-GTNH)
 >* Avoid network scans in getAvailableItems by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1473 (rv3-beta-1070-GTNH)
 >* Preserve custom names in Network Status entries by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1647 (rv3-beta-1070-GTNH)
@@ -211,10 +213,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.128
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.128
+# Updated - CropsNH - 2.0.114 --> 2.0.129
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.129
 
 ## What's Changed:
+>* Mini bugfix: crop managers water/fertilize/weedex broken crop sticks by @MarloGr in https://github.com/GTNewHorizons/CropsNH/pull/273 (2.0.129)
 >* Fix a very important typo by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/272 (2.0.128)
 >* Fix NEI breeding dump and migrator crop lang key by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/271 (2.0.127)
 >* Fix improper tier lookup for energy hatches on the IF by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/270 (2.0.126)
@@ -280,10 +283,20 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.179
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.179
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.181
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.181
 
 ## What's Changed:
+>* decay warehouse tooltip improvements by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8176 (5.09.54.181)
+>* Use superdense bedrockium instead of condensate in singularity casing by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8183 (5.09.54.181)
+>* capitalisation by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8179 (5.09.54.180)
+>* make coloring hatches update the module theyre connected to's structure by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8167 (5.09.54.180)
+>* Document that flushing the Board Processor requires an Output Hatch by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8090 (5.09.54.180)
+>* Super Quick Tooltip Standardization by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8181 (5.09.54.180)
+>* Unify some behaviors of the Output Bus/Hatch by @hxync in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8174 (5.09.54.180)
+>* Undo Naq Fuel Re-naming by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8186 (5.09.54.180)
+>* Fix unacceptable spelling mistake by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8187 (5.09.54.180)
+>* [NAC] Optical and Specialty circuit rebalance by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7946 (5.09.54.180)
 >* allow swimming in the everglades by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8178 (5.09.54.179)
 >* Revert direct AE2 part placement handling by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8173 (5.09.54.178)
 >* Remove obsolete fast recipe check text by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8172 (5.09.54.178)
@@ -526,10 +539,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Make config values public by @GDCloudstrike in https://github.com/GTNewHorizons/Infernal-Mobs/pull/26 (1.10.7-GTNH)
 
-# Updated - InventoryBogoSorter - 1.3.50-GTNH --> 1.3.53-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.53-GTNH
+# Updated - InventoryBogoSorter - 1.3.50-GTNH --> 1.3.54-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.54-GTNH
 
 ## What's Changed:
+>* ignore format codes in display name sort by @alppp in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/230 (1.3.54-GTNH)
 >* Remove NEI GuiRecipe Hooks by @slprime in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/229 (1.3.53-GTNH)
 >* Fix world memory leak caused by ItemStack mixin by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/228 (1.3.52-GTNH)
 >* feat(events): New events to cancel sorting by @vermz99 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/227 (1.3.51-GTNH)
@@ -577,10 +591,11 @@ Mod is client-side only.
 # New Mod - Navigator-Curse:1.1.10
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.74
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.74
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.75
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.75
 
 ## What's Changed:
+>* [NAC] Optical and Specialty Circuit Rebalance by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1945 (2.9.75)
 >* Baby chest ticks 4x more than intended by @MarloGr in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1968 (2.9.74)
 >* Fix UIV Solenoids not using any coolant by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1963 (2.9.74)
 >* Fix saw blade remappings to work for Yamcl item IDs by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1967 (2.9.73)
