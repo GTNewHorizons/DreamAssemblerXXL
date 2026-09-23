@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-09-23T08:45:28.328008+00:00",
+  "last_updated": "2026-09-23T21:23:51.461122+00:00",
   "config": "2.9.0-nightly-2026-09-22-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1071-GTNH",
+      "version": "rv3-beta-1072-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.179",
+      "version": "5.09.54.181",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.74",
+      "version": "2.9.75",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -717,7 +717,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.53-GTNH",
+      "version": "1.3.54-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.128",
+      "version": "2.0.129",
       "side": "BOTH"
     },
     "Fether": {
