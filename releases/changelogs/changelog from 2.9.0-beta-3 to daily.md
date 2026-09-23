@@ -68,10 +68,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1070-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1070-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1071-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1071-GTNH
 
 ## What's Changed:
+>* Fix replenisher storage notifications and byte accounting by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1621 (rv3-beta-1071-GTNH)
 >* Avoid network scans in getAvailableItems by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1473 (rv3-beta-1070-GTNH)
 >* Preserve custom names in Network Status entries by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1647 (rv3-beta-1070-GTNH)
 >* Fix crafting test simulation timing by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1645 (rv3-beta-1070-GTNH)
@@ -279,10 +280,17 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.177
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.177
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.179
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.179
 
 ## What's Changed:
+>* allow swimming in the everglades by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8178 (5.09.54.179)
+>* Revert direct AE2 part placement handling by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8173 (5.09.54.178)
+>* Remove obsolete fast recipe check text by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8172 (5.09.54.178)
+>* Booster Fluids for LHC by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8002 (5.09.54.178)
+>* give the NAC the ability to imperfect OC with excess power by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8175 (5.09.54.178)
+>* who doesnt love colours by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8165 (5.09.54.178)
+>* Fix renaming items in NAC splitter ui renaming the wrong slot by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8177 (5.09.54.178)
 >* Show Large Molecular Assembler when filtering in Interface Terminal by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8108 (5.09.54.177)
 >* Fix Vajra AE2 part hotswap placement by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8170 (5.09.54.177)
 >* fix eoh recipe by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8153 (5.09.54.176)
@@ -518,10 +526,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Make config values public by @GDCloudstrike in https://github.com/GTNewHorizons/Infernal-Mobs/pull/26 (1.10.7-GTNH)
 
-# Updated - InventoryBogoSorter - 1.3.50-GTNH --> 1.3.52-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.52-GTNH
+# Updated - InventoryBogoSorter - 1.3.50-GTNH --> 1.3.53-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.3.50-GTNH...1.3.53-GTNH
 
 ## What's Changed:
+>* Remove NEI GuiRecipe Hooks by @slprime in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/229 (1.3.53-GTNH)
 >* Fix world memory leak caused by ItemStack mixin by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/228 (1.3.52-GTNH)
 >* feat(events): New events to cancel sorting by @vermz99 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/227 (1.3.51-GTNH)
 
@@ -568,10 +577,12 @@ Mod is client-side only.
 # New Mod - Navigator-Curse:1.1.10
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.73
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.73
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.74
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.74
 
 ## What's Changed:
+>* Baby chest ticks 4x more than intended by @MarloGr in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1968 (2.9.74)
+>* Fix UIV Solenoids not using any coolant by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1963 (2.9.74)
 >* Fix saw blade remappings to work for Yamcl item IDs by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1967 (2.9.73)
 >* Fix HazardousItems profiler interval check by @Chitak985 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1953 (2.9.72)
 >* Use GT blood infused iron in altar recipe by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1956 (2.9.72)
@@ -599,10 +610,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Finally got GT6 fluids to work properly as far as I can test.  Can pu… by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84 (1.7.43)
 >* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83 (1.7.42)
 
-# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.144-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.144-GTNH
+# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.145-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.145-GTNH
 
 ## What's Changed:
+>* Add List View to Recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1041 (2.8.145-GTNH)
 >* Publishing by @kuba6000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1039 (2.8.143-GTNH)
 >* fix(NEIController): Skip MMB on slot click to avoid unecessary conflict with itemstack using it by @vermz99 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1038 (2.8.142-GTNH)
 >* Item Craftables Panel Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1036 (2.8.141-GTNH)
@@ -758,10 +770,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Expose some variables for access by @ABKQPO in https://github.com/GTNewHorizons/nei-custom-diagram/pull/80 (1.8.35)
 
-# Updated - twilightforest - 2.7.40 --> 2.7.41
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.41
+# Updated - twilightforest - 2.7.40 --> 2.7.42
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.42
 
 ## What's Changed:
+>* Fix Silk Touch for special magic logs by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/162 (2.7.42)
 >* Add redstone control for Timewood Clocks by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/159 (2.7.41)
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
