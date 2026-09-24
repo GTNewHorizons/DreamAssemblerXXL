@@ -601,10 +601,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.75
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.75
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.76
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.76
 
 ## What's Changed:
+>* reduce the amount of kevlar the primed unattuned circuitry takes by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1969 (2.9.76)
 >* [NAC] Optical and Specialty Circuit Rebalance by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1945 (2.9.75)
 >* Baby chest ticks 4x more than intended by @MarloGr in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1968 (2.9.74)
 >* Fix UIV Solenoids not using any coolant by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1963 (2.9.74)
@@ -754,10 +755,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Format tooltip by @Connor-Colenso in https://github.com/GTNewHorizons/TiC-Tooltips/pull/11 (1.4.2)
 
-# Updated - TinkersConstruct - 1.14.108-GTNH --> 1.14.113-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.108-GTNH...1.14.113-GTNH
+# Updated - TinkersConstruct - 1.14.108-GTNH --> 1.14.115-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.108-GTNH...1.14.115-GTNH
 
 ## What's Changed:
+>* add extended crafting station stacks api by @ABKQPO in https://github.com/GTNewHorizons/TinkersConstruct/pull/344 (1.14.115-GTNH)
+>* fix and configure crafting station shift-click behavior by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/337 (1.14.114-GTNH)
 >* Fix the cut inventory (patternchestmini) by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/342 (1.14.113-GTNH)
 >* preserve crafting tool inventory origin after use by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/339 (1.14.112-GTNH)
 >* Clarify undead soil heals undead that walk over it by @LazyFlesh in https://github.com/GTNewHorizons/TinkersConstruct/pull/336 (1.14.111-GTNH)
@@ -802,6 +805,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Expose some variables for access by @ABKQPO in https://github.com/GTNewHorizons/nei-custom-diagram/pull/80 (1.8.35)
+
+# Updated - neiaddons - 1.18.5 --> 1.18.6
+**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.18.5...1.18.6
+
+## What's Changed:
+>* fix duplicate jubilance tooltips by @MarloGr in https://github.com/GTNewHorizons/neiaddons/pull/20 (1.18.6)
 
 # Updated - twilightforest - 2.7.40 --> 2.7.42
 **Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.42
