@@ -17773,7 +17773,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1072-GTNH",
+      "latest_version": "rv3-beta-1073-GTNH",
       "private": false,
       "versions": [
         {
@@ -27084,6 +27084,16 @@
           "filename": "appliedenergistics2-rv3-beta-1072-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/584579984",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1072-GTNH/appliedenergistics2-rv3-beta-1072-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1073-GTNH",
+          "changelog": "## What's Changed\n* Reduce external inventory polling overhead by @Algent in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1596\n* Add reshuffler access configuration by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1613\n* Add component search to Network Status by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1649\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1072-GTNH...rv3-beta-1073-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-24T12:59:18+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1073-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/585968348",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1073-GTNH/appliedenergistics2-rv3-beta-1073-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -66286,7 +66296,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.181",
+      "latest_version": "5.09.54.183",
       "private": false,
       "versions": [
         {
@@ -93117,6 +93127,26 @@
           "filename": "gregtech-5.09.54.181.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/584583232",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.181/gregtech-5.09.54.181.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.182",
+          "changelog": "## What's Changed\n* Fix mapiary's royal jelly check in swarmer mode by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8185\n* improve rfpp tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8188\n* improve lftr tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8169\n* improve the nspp tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8189\n\n## New Contributors\n* @Ressed made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8185\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.181...5.09.54.182\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-24T13:01:45+00:00",
+          "filename": "gregtech-5.09.54.182.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/585972660",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.182/gregtech-5.09.54.182.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.183",
+          "changelog": "## What's Changed\n* Support spray painting ProjectRed insulated wires by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8190\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.182...5.09.54.183\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-24T13:15:36+00:00",
+          "filename": "gregtech-5.09.54.183.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/585996535",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.183/gregtech-5.09.54.183.jar",
           "extra_assets": []
         }
       ],
@@ -126412,7 +126442,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.58-GTNH",
+      "latest_version": "0.1.59-GTNH",
       "private": false,
       "versions": [
         {
@@ -127404,6 +127434,16 @@
           "filename": "matter-manipulator-0.1.58-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/578027839",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.58-GTNH/matter-manipulator-0.1.58-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.59-GTNH",
+          "changelog": "## What's Changed\n* Fix survival target desync caused by mismatched reach distance by @Jesse-njx in https://github.com/GTNewHorizons/MatterManipulator/pull/85\n\n## New Contributors\n* @Jesse-njx made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/85\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.58-GTNH...0.1.59-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-24T13:22:46+00:00",
+          "filename": "matter-manipulator-0.1.59-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/586008693",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.59-GTNH/matter-manipulator-0.1.59-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -158853,7 +158893,7 @@
     },
     {
       "name": "ProjectRed",
-      "latest_version": "4.12.43-GTNH",
+      "latest_version": "4.12.44-GTNH",
       "private": false,
       "versions": [
         {
@@ -159684,6 +159724,16 @@
           "filename": "ProjRed-4.12.43-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectRed/releases/assets/516192787",
           "browser_download_url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.12.43-GTNH/ProjRed-4.12.43-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.12.44-GTNH",
+          "changelog": "## What's Changed\n* Allow spray cans to recolor insulated wires by @DreamYao520 in https://github.com/GTNewHorizons/ProjectRed/pull/96\n\n## New Contributors\n* @DreamYao520 made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/96\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.43-GTNH...4.12.44-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-24T13:01:12+00:00",
+          "filename": "ProjRed-4.12.44-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectRed/releases/assets/585971741",
+          "browser_download_url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.12.44-GTNH/ProjRed-4.12.44-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -192182,6 +192232,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 753,
-  "latest_successful_daily": 753
+  "latest_daily": 754,
+  "latest_successful_daily": 754
 }

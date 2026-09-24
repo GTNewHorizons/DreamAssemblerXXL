@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-09-24T08:37:49.938780+00:00",
+  "last_updated": "2026-09-24T15:08:02.843907+00:00",
   "config": "2.9.0-nightly-2026-09-22-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1072-GTNH",
+      "version": "rv3-beta-1073-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.181",
+      "version": "5.09.54.183",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.43-GTNH",
+      "version": "4.12.44-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.58-GTNH",
+      "version": "0.1.59-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
