@@ -835,6 +835,22 @@
     "Automagy-GTNH": {
       "version": "0.29.8-GTNH",
       "side": "BOTH"
+    },
+    "ModularUI2": {
+      "version": "2.3.91-1.7.10",
+      "side": "BOTH"
+    },
+    "Navigator": {
+      "version": "1.1.10",
+      "side": "BOTH"
+    },
+    "ServerUtilities": {
+      "version": "2.4.13",
+      "side": "BOTH"
+    },
+    "SpiceOfLife": {
+      "version": "2.2.10-carrot",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -956,22 +972,6 @@
     },
     "Mobs Info": {
       "version": "0.6.0",
-      "side": "BOTH"
-    },
-    "Modular-UI-2": {
-      "version": "2.3.91-1.7.10",
-      "side": "BOTH"
-    },
-    "Navigator-Curse": {
-      "version": "1.1.10",
-      "side": "BOTH"
-    },
-    "Server-Utils": {
-      "version": "2.4.12",
-      "side": "BOTH"
-    },
-    "Spice-of-Life": {
-      "version": "2.2.10-carrot",
       "side": "BOTH"
     }
   }

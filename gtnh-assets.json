@@ -5,1036 +5,6 @@
     "needs_attention": false,
     "versions": [
       {
-        "version_tag": "2.1.2.3qf-test",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-03-13T19:31:39+00:00",
-        "filename": "2.1.2.3qf-test.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/59399229",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.3qf-test/2.1.2.3qf-test.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-6-zeta-dev",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-10T09:29:55+00:00",
-        "filename": "2.1.2.4-6-zeta-dev.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68088196",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-6-zeta-dev/2.1.2.4-6-zeta-dev.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-7-dev",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-12T19:54:14+00:00",
-        "filename": "2.1.2.4-7-dev.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68280382",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-7-dev/2.1.2.4-7-dev.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-8-dev",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-12T20:54:38+00:00",
-        "filename": "2.1.2.4-8-dev.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68283725",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-8-dev/2.1.2.4-8-dev.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-9-dev",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-14T21:44:06+00:00",
-        "filename": "2.1.2.4-9-dev.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68492443",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-9-dev/2.1.2.4-9-dev.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-10",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-15T22:24:02+00:00",
-        "filename": "2.1.2.4-10.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68606735",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-10/2.1.2.4-10.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-11-dev",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-16T18:37:40+00:00",
-        "filename": "2.1.2.4-11-dev.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68698851",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-11-dev/2.1.2.4-11-dev.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-12-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-22T09:30:45+00:00",
-        "filename": "2.1.2.4-12-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69233541",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-12-pre/2.1.2.4-12-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-13-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-24T13:59:21+00:00",
-        "filename": "2.1.2.4-13-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69507877",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-13-pre/2.1.2.4-13-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-14-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-06-26T11:55:39+00:00",
-        "filename": "2.1.2.4-14-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69678300",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-14-pre/2.1.2.4-14-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-15-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-07-05T15:02:22+00:00",
-        "filename": "2.1.2.4-15-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70638192",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-15-pre/2.1.2.4-15-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-16-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-07-05T16:05:03+00:00",
-        "filename": "2.1.2.4-16-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70644281",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-16-pre/2.1.2.4-16-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-17-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-07-06T12:51:23+00:00",
-        "filename": "2.1.2.4-17-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70736026",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-17-pre/2.1.2.4-17-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-18-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-07-08T10:11:46+00:00",
-        "filename": "2.1.2.4-18-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70956071",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-18-pre/2.1.2.4-18-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-19-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-07-12T13:41:36+00:00",
-        "filename": "2.1.2.4-19-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71341083",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-19-pre/2.1.2.4-19-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-20-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-07-13T14:55:55+00:00",
-        "filename": "2.1.2.4-20-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71463118",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-20-pre/2.1.2.4-20-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-21-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-01T08:55:00+00:00",
-        "filename": "2.1.2.4-21-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73316191",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-21-pre/2.1.2.4-21-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-22-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-01T10:19:23+00:00",
-        "filename": "2.1.2.4-22-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73323921",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-22-pre/2.1.2.4-22-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-23-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-02T11:31:25+00:00",
-        "filename": "2.1.2.4-23-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73442048",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-23-pre/2.1.2.4-23-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-24-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-03T01:40:44+00:00",
-        "filename": "2.1.2.4-24-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73510337",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-24-pre/2.1.2.4-24-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-25-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-03T09:24:59+00:00",
-        "filename": "2.1.2.4-25-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73544160",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-25-pre/2.1.2.4-25-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-26-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-14T14:06:43+00:00",
-        "filename": "2.1.2.4-26-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74683655",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-26-pre/2.1.2.4-26-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-27-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-16T19:31:57+00:00",
-        "filename": "2.1.2.4-27-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74909241",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-27-pre/2.1.2.4-27-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-28-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-17T09:35:21+00:00",
-        "filename": "2.1.2.4-28-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74969236",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-28-pre/2.1.2.4-28-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.1.2.4-29-pre",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-08-28T13:50:59+00:00",
-        "filename": "2.1.2.4-29-pre.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/76105656",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-29-pre/2.1.2.4-29-pre.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.0.0-RC-1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-09-06T17:38:04+00:00",
-        "filename": "2.2.0.0-RC-1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/77045842",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-1/2.2.0.0-RC-1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.0.0-RC-2",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-09-10T14:06:49+00:00",
-        "filename": "2.2.0.0-RC-2.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/77448203",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-2/2.2.0.0-RC-2.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.0.0-RC-3",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-09-18T09:34:49+00:00",
-        "filename": "2.2.0.0-RC-3.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78234075",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-3/2.2.0.0-RC-3.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.0.0-RC-4",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-09-24T10:28:46+00:00",
-        "filename": "2.2.0.0-RC-4.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78870238",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-4/2.2.0.0-RC-4.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.0.0",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-09-27T14:03:52+00:00",
-        "filename": "2.2.0.0.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79179822",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0/2.2.0.0.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.0.1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-10-03T10:57:51+00:00",
-        "filename": "2.2.0.1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79802269",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.1/2.2.0.1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-10-05T17:39:39+00:00",
-        "filename": "2.2.1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80064643",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.1/2.2.1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.2",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-10-06T09:06:44+00:00",
-        "filename": "2.2.2.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80130363",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.2/2.2.2.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.3",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-10-07T21:10:06+00:00",
-        "filename": "2.2.3.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80312736",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.3/2.2.3.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.4",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-10-09T11:22:11+00:00",
-        "filename": "2.2.4.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80448153",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.4/2.2.4.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.5",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-10-13T07:57:49+00:00",
-        "filename": "2.2.5.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80863550",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.5/2.2.5.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.6",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-12-10T12:33:18+00:00",
-        "filename": "2.2.6.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87698080",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.6/2.2.6.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.7",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-12-11T18:53:04+00:00",
-        "filename": "2.2.7.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87815867",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.7/2.2.7.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.8",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2022-12-24T00:03:09+00:00",
-        "filename": "2.2.8.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/89321974",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.8/2.2.8.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.9",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-02-12T18:50:20+00:00",
-        "filename": "2.2.9.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/95359249",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.9/2.2.9.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.10",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-02-17T21:50:44+00:00",
-        "filename": "2.2.10.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/96116903",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.10/2.2.10.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.2.11-nightly",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-02-21T19:04:41+00:00",
-        "filename": "2.2.11-nightly.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/96563168",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.11-nightly/2.2.11-nightly.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.0-RC1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-01T15:02:33+00:00",
-        "filename": "2.3.0-RC1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/97615711",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC1/2.3.0-RC1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.0-RC2",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-03T12:15:05+00:00",
-        "filename": "2.3.0-RC2.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/97901800",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC2/2.3.0-RC2.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.0-RC3",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-06T07:02:42+00:00",
-        "filename": "2.3.0-RC3.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/98204591",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC3/2.3.0-RC3.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.0-RC4",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-10T10:25:00+00:00",
-        "filename": "2.3.0-RC4.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/98817489",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC4/2.3.0-RC4.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.0",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-11T08:39:47+00:00",
-        "filename": "2.3.0.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/98945674",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0/2.3.0.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-19T12:41:44+00:00",
-        "filename": "2.3.1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/100023881",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.1/2.3.1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.2",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-03-26T14:00:39+00:00",
-        "filename": "2.3.2.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/101023197",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.2/2.3.2.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.3",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-04-23T11:11:45+00:00",
-        "filename": "2.3.3.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/104919769",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.3/2.3.3.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.4",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-06-11T12:35:23+00:00",
-        "filename": "2.3.4.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/112259041",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4/2.3.4.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.4-nightly-2023-05-29",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-05-29T08:36:11+00:00",
-        "filename": "2.3.4-nightly-2023-05-29.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/110282706",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4-nightly-2023-05-29/2.3.4-nightly-2023-05-29.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.4-nightly-2023-06-02",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-06-02T18:25:20+00:00",
-        "filename": "2.3.4-nightly-2023-06-02.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/111020137",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4-nightly-2023-06-02/2.3.4-nightly-2023-06-02.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.4-nihghtly-2023-06-05",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2024-09-12T06:27:03+00:00",
-        "filename": "2.3.4-nihghtly-2023-06-05.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/192138831",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4-nihghtly-2023-06-05/2.3.4-nihghtly-2023-06-05.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.5",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-07-23T10:45:36+00:00",
-        "filename": "2.3.5.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/118229068",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.5/2.3.5.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.5-nightly-2023-07-08",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-07-08T19:24:52+00:00",
-        "filename": "2.3.5-nightly-2023-07-08.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/116133296",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.5-nightly-2023-07-08/2.3.5-nightly-2023-07-08.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.5-nightly-2023-07-10",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-07-10T16:15:06+00:00",
-        "filename": "2.3.5-nightly-2023-07-10.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/116378716",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.5-nightly-2023-07-10/2.3.5-nightly-2023-07-10.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.5-nightly-2023-07-13",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-07-13T18:57:02+00:00",
-        "filename": "2.3.5-nightly-2023-07-13.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/116881757",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.5-nightly-2023-07-13/2.3.5-nightly-2023-07-13.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.5-nightly-2023-07-15",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-07-15T14:09:02+00:00",
-        "filename": "2.3.5-nightly-2023-07-15.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/117140255",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.5-nightly-2023-07-15/2.3.5-nightly-2023-07-15.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.5-nightly-2023-07-22",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-07-22T15:39:26+00:00",
-        "filename": "2.3.5-nightly-2023-07-22.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/118136057",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.5-nightly-2023-07-22/2.3.5-nightly-2023-07-22.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.6",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-05T11:04:21+00:00",
-        "filename": "2.3.6.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/120211060",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.6/2.3.6.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.6-nightly-2023-08-02",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-02T15:56:16+00:00",
-        "filename": "2.3.6-nightly-2023-08-02.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/119775909",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.6-nightly-2023-08-02/2.3.6-nightly-2023-08-02.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.6-nightly-2023-08-05",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-05T10:52:06+00:00",
-        "filename": "2.3.6-nightly-2023-08-05.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/120210219",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.6-nightly-2023-08-05/2.3.6-nightly-2023-08-05.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.7",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-19T11:15:09+00:00",
-        "filename": "2.3.7.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/122202912",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.7/2.3.7.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.7-nightly-2023-08-11",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-11T07:14:03+00:00",
-        "filename": "2.3.7-nightly-2023-08-11.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/121056284",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.7-nightly-2023-08-11/2.3.7-nightly-2023-08-11.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.7-nightly-2023-08-18",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-18T20:11:42+00:00",
-        "filename": "2.3.7-nightly-2023-08-18.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/122108672",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.7-nightly-2023-08-18/2.3.7-nightly-2023-08-18.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.8-nightly-2023-08-21",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-21T20:01:10+00:00",
-        "filename": "2.3.8-nightly-2023-08-21.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/122493518",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.8-nightly-2023-08-21/2.3.8-nightly-2023-08-21.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.3.8-nightly-2023-08-25",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-25T18:36:38+00:00",
-        "filename": "2.3.8-nightly-2023-08-25.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/123132395",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.8-nightly-2023-08-25/2.3.8-nightly-2023-08-25.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.0-RC1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-08-28T19:23:50+00:00",
-        "filename": "2.4.0-RC1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/123500952",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.0-RC1/2.4.0-RC1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.0-RC2",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-01T05:55:41+00:00",
-        "filename": "2.4.0-RC2.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/124058628",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.0-RC2/2.4.0-RC2.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.0",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-03T15:37:06+00:00",
-        "filename": "2.4.0.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/124368601",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.0/2.4.0.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-25T18:15:45+00:00",
-        "filename": "2.4.1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/127670189",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.1/2.4.1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.1-nightly-2023-09-06",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-06T08:49:15+00:00",
-        "filename": "2.4.1-nightly-2023-09-06.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/124784621",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.1-nightly-2023-09-06/2.4.1-nightly-2023-09-06.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.1-nightly-2023-09-14",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-14T17:24:00+00:00",
-        "filename": "2.4.1-nightly-2023-09-14.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/126061103",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.1-nightly-2023-09-14/2.4.1-nightly-2023-09-14.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.1-nightly-2023-09-17",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-17T12:32:42+00:00",
-        "filename": "2.4.1-nightly-2023-09-17.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/126442798",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.1-nightly-2023-09-17/2.4.1-nightly-2023-09-17.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.1-nightly-2023-09-23",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-23T16:02:50+00:00",
-        "filename": "2.4.1-nightly-2023-09-23.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/127404434",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.1-nightly-2023-09-23/2.4.1-nightly-2023-09-23.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-09-27",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-09-27T20:43:17+00:00",
-        "filename": "2.4.2-nightly-2023-09-27.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/128034081",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-09-27/2.4.2-nightly-2023-09-27.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-05",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-04T22:17:54+00:00",
-        "filename": "2.4.2-nightly-2023-10-05.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/129069365",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-05/2.4.2-nightly-2023-10-05.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-13",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-13T13:09:49+00:00",
-        "filename": "2.4.2-nightly-2023-10-13.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/130438972",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-13/2.4.2-nightly-2023-10-13.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-14",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-14T19:57:23+00:00",
-        "filename": "2.4.2-nightly-2023-10-14.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/130616157",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-14/2.4.2-nightly-2023-10-14.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-21",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-21T12:36:16+00:00",
-        "filename": "2.4.2-nightly-2023-10-21.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/131682797",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-21/2.4.2-nightly-2023-10-21.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-22",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-22T10:30:13+00:00",
-        "filename": "2.4.2-nightly-2023-10-22.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/131796967",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-22/2.4.2-nightly-2023-10-22.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-24",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-24T17:15:59+00:00",
-        "filename": "2.4.2-nightly-2023-10-24.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/132149808",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-24/2.4.2-nightly-2023-10-24.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-28",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-28T17:17:24+00:00",
-        "filename": "2.4.2-nightly-2023-10-28.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/132809704",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-28/2.4.2-nightly-2023-10-28.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-10-30",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-10-30T18:51:58+00:00",
-        "filename": "2.4.2-nightly-2023-10-30.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/133104872",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-10-30/2.4.2-nightly-2023-10-30.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-11-10",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-11-10T13:42:16+00:00",
-        "filename": "2.4.2-nightly-2023-11-10.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/134911911",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-11-10/2.4.2-nightly-2023-11-10.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-11-12",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-11-12T12:12:31+00:00",
-        "filename": "2.4.2-nightly-2023-11-12.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/135161786",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-11-12/2.4.2-nightly-2023-11-12.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-11-16",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-11-16T10:17:05+00:00",
-        "filename": "2.4.2-nightly-2023-11-16.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/135827269",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-11-16/2.4.2-nightly-2023-11-16.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-11-22",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-11-22T16:42:29+00:00",
-        "filename": "2.4.2-nightly-2023-11-22.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/136931746",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-11-22/2.4.2-nightly-2023-11-22.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-11-30",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-11-30T10:17:33+00:00",
-        "filename": "2.4.2-nightly-2023-11-30.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/138195924",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-11-30/2.4.2-nightly-2023-11-30.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-01",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-02T10:27:35+00:00",
-        "filename": "2.4.2-nightly-2023-12-01.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/138562828",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-01/2.4.2-nightly-2023-12-01.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-03",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-03T15:54:01+00:00",
-        "filename": "2.4.2-nightly-2023-12-03.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/138720698",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-03/2.4.2-nightly-2023-12-03.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-03-2",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-03T17:03:13+00:00",
-        "filename": "2.4.2-nightly-2023-12-03-2.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/138726677",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-03-2/2.4.2-nightly-2023-12-03-2.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-04",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-03T23:59:19+00:00",
-        "filename": "2.4.2-nightly-2023-12-04.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/138770067",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-04/2.4.2-nightly-2023-12-04.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-05",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-05T12:09:20+00:00",
-        "filename": "2.4.2-nightly-2023-12-05.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/139050170",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-05/2.4.2-nightly-2023-12-05.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-07",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-07T22:25:54+00:00",
-        "filename": "2.4.2-nightly-2023-12-07.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/139539534",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-07/2.4.2-nightly-2023-12-07.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.4.2-nightly-2023-12-08",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-08T23:56:22+00:00",
-        "filename": "2.4.2-nightly-2023-12-08.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/139727322",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.4.2-nightly-2023-12-08/2.4.2-nightly-2023-12-08.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.5.0-beta-1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-09T18:35:09+00:00",
-        "filename": "2.5.0-beta-1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/139827716",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.5.0-beta-1/2.5.0-beta-1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.5.0-RC1",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-14T18:17:09+00:00",
-        "filename": "2.5.0-RC1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/140704528",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.5.0-RC1/2.5.0-RC1.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.5.0",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-17T22:11:12+00:00",
-        "filename": "2.5.0.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/141173469",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.5.0/2.5.0.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.5.0-nightly-2023-12-10",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-10T10:39:44+00:00",
-        "filename": "2.5.0-nightly-2023-12-10.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/139917521",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.5.0-nightly-2023-12-10/2.5.0-nightly-2023-12-10.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.5.0-nightly-2023-12-11",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-11T10:47:16+00:00",
-        "filename": "2.5.0-nightly-2023-12-11.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/140058507",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.5.0-nightly-2023-12-11/2.5.0-nightly-2023-12-11.zip",
-        "extra_assets": []
-      },
-      {
-        "version_tag": "2.5.0-nightly-2023-12-12",
-        "changelog": "",
-        "prerelease": false,
-        "tagged_at": "2023-12-12T10:33:22+00:00",
-        "filename": "2.5.0-nightly-2023-12-12.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/140243239",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.5.0-nightly-2023-12-12/2.5.0-nightly-2023-12-12.zip",
-        "extra_assets": []
-      },
-      {
         "version_tag": "2.5.1",
         "changelog": "",
         "prerelease": false,
@@ -8312,7 +7282,7 @@
     },
     {
       "name": "Advanced-Botany",
-      "latest_version": "1.4.5",
+      "latest_version": "1.4.9",
       "private": false,
       "versions": [
         {
@@ -8373,6 +7343,46 @@
           "filename": "AdvancedBotany-1.4.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Advanced-Botany/releases/assets/255298680",
           "browser_download_url": "https://github.com/GTNewHorizons/Advanced-Botany/releases/download/1.4.5/AdvancedBotany-1.4.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.6",
+          "changelog": "## What's Changed\n* Remove CodeChickenLib by @koolkrafter5 in https://github.com/GTNewHorizons/Advanced-Botany/pull/13\n* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Advanced-Botany/pull/14\n\n## New Contributors\n* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/13\n* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/14\n\n**Full Changelog**: https://github.com/GTNewHorizons/Advanced-Botany/compare/1.4.5...1.4.6\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-17T10:25:36+00:00",
+          "filename": "AdvancedBotany-1.4.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Advanced-Botany/releases/assets/341871129",
+          "browser_download_url": "https://github.com/GTNewHorizons/Advanced-Botany/releases/download/1.4.6/AdvancedBotany-1.4.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.7",
+          "changelog": "## What's Changed\n* fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/Advanced-Botany/pull/15\n\n## New Contributors\n* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/Advanced-Botany/compare/1.4.6...1.4.7\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-29T03:36:59+00:00",
+          "filename": "AdvancedBotany-1.4.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Advanced-Botany/releases/assets/347485643",
+          "browser_download_url": "https://github.com/GTNewHorizons/Advanced-Botany/releases/download/1.4.7/AdvancedBotany-1.4.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.8",
+          "changelog": "## What's Changed\n* Revert Lang Correction by @UltraProdigy in https://github.com/GTNewHorizons/Advanced-Botany/pull/16\n\n## New Contributors\n* @UltraProdigy made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/Advanced-Botany/compare/1.4.7...1.4.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-30T06:28:41+00:00",
+          "filename": "AdvancedBotany-1.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Advanced-Botany/releases/assets/348067050",
+          "browser_download_url": "https://github.com/GTNewHorizons/Advanced-Botany/releases/download/1.4.8/AdvancedBotany-1.4.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.9",
+          "changelog": "## What's Changed\n* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Advanced-Botany/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Advanced-Botany/compare/1.4.8...1.4.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-04-03T21:36:28+00:00",
+          "filename": "AdvancedBotany-1.4.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Advanced-Botany/releases/assets/388230138",
+          "browser_download_url": "https://github.com/GTNewHorizons/Advanced-Botany/releases/download/1.4.9/AdvancedBotany-1.4.9.jar",
           "extra_assets": []
         }
       ],
@@ -8847,7 +7857,7 @@
         },
         {
           "version_tag": "1.4.4-GTNH",
-          "changelog": "## What's Changed\n* Properly handle detectAndSendChanges calls by @SuperSoupr in https://github.com/GTNewHorizons/AdventureBackpack2/pull/39\n\n## New Contributors\n* @SuperSoupr made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/39\n\n**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.1-GTNH...1.4.4-GTNH\n",
+          "changelog": "## What's Changed\r\n* Properly handle detectAndSendChanges calls by @SuperSoupr in https://github.com/GTNewHorizons/AdventureBackpack2/pull/39\r\n\r\n## New Contributors\r\n* @SuperSoupr made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/39\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.1-GTNH...1.4.4-GTNH\r\n",
           "prerelease": false,
           "tagged_at": "2025-11-30T13:33:48+00:00",
           "filename": "adventurebackpack-1.4.4-GTNH.jar",
@@ -28669,52 +27679,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Aroma1997Core",
-      "latest_version": "1.0.2.16",
-      "versions": [
-        {
-          "version_tag": "1.0.2.16",
-          "tagged_at": "2015-09-19T00:35:00",
-          "filename": "Aroma1997Core-1.7.10-1.0.2.16.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2257/644/Aroma1997Core-1.7.10-1.0.2.16.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core/files/2257644",
-          "curse_file": {
-            "project_no": "223735",
-            "file_no": "2257644"
-          }
-        }
-      ],
-      "license": "GNU General Public License v3.0",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
-      "project_id": "223735",
-      "slug": "aroma1997core"
-    },
-    {
-      "name": "AromaBackup",
-      "latest_version": "0.1.0.0",
-      "versions": [
-        {
-          "version_tag": "0.1.0.0",
-          "tagged_at": "2016-02-29T23:58:00",
-          "filename": "AromaBackup-1.7.10-0.1.0.0.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2284/754/AromaBackup-1.7.10-0.1.0.0.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup/files/2284754",
-          "curse_file": {
-            "project_no": "225658",
-            "file_no": "2284754"
-          }
-        }
-      ],
-      "license": "Custom License, permission to distribute derivative works granted since GTNH is provided through CurseForge. (https://www.curseforge.com/project/225658/license)",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
-      "project_id": "225658",
-      "slug": "aromabackup"
-    },
-    {
       "name": "AsieLib",
       "latest_version": "0.7.2",
       "private": false,
@@ -29064,29 +28028,6 @@
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/AspectRecipeIndex",
       "side": "BOTH"
-    },
-    {
-      "name": "Automagy",
-      "latest_version": "0.28.2",
-      "versions": [
-        {
-          "version_tag": "0.28.2",
-          "tagged_at": "2016-03-04T20:36:00",
-          "filename": "Automagy-1.7.10-0.28.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2285/272/Automagy-1.7.10-0.28.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/automagy/files/2285272",
-          "curse_file": {
-            "project_no": "222153",
-            "file_no": "2285272"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/automagy",
-      "project_id": "222153",
-      "slug": "automagy"
     },
     {
       "name": "Automagy-GTNH",
@@ -32496,29 +31437,6 @@
       "side": "BOTH"
     },
     {
-      "name": "BeeBetterAtBees",
-      "latest_version": "0.3",
-      "versions": [
-        {
-          "version_tag": "0.3",
-          "tagged_at": "2016-05-01T14:33:00",
-          "filename": "BeeBetterAtBees-0.3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2297/397/BeeBetterAtBees-0.3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees/files/2297397",
-          "curse_file": {
-            "project_no": "244516",
-            "file_no": "2297397"
-          }
-        }
-      ],
-      "license": "Quick licence notice: ARR - you're of course allowed to put it into packs and all other stuff. The licence is meant for redistribution on other websites and copying.",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees",
-      "project_id": "244516",
-      "slug": "beebetteratbees"
-    },
-    {
       "name": "BeeBetterAtBees-GTNH",
       "latest_version": "0.4.7-GTNH",
       "private": false,
@@ -32561,7 +31479,6 @@
           "filename": "beebetteratbees-0.4.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/174355758",
           "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.2-GTNH/beebetteratbees-0.4.2-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BeeBetterAtBees-GTNH/0.4.2-GTNH/BeeBetterAtBees-GTNH-0.4.2-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -32572,7 +31489,6 @@
           "filename": "beebetteratbees-0.4.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BeeBetterAtBees-GTNH/releases/assets/277331462",
           "browser_download_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/releases/download/0.4.3-GTNH/beebetteratbees-0.4.3-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BeeBetterAtBees-GTNH/0.4.3-GTNH/BeeBetterAtBees-GTNH-0.4.3-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -32619,30 +31535,6 @@
       "license": "All Rights Reserved (fallback)",
       "repo_url": "https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH",
       "side": "CLIENT"
-    },
-    {
-      "name": "Better Questing - Quest Book",
-      "latest_version": "3.0.0",
-      "versions": [
-        {
-          "version_tag": "3.0.0",
-          "tagged_at": "2020-04-18T12:40:00",
-          "filename": "questbook-3.0.0-1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2933/973/questbook-3.0.0-1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2933973",
-          "curse_file": {
-            "project_no": "242106",
-            "file_no": "2933973"
-          }
-        }
-      ],
-      "license": "ARR",
-      "repo_url": "https://github.com/Drethic/QuestBook",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
-      "project_id": "242106",
-      "slug": "better-questing-quest-book"
     },
     {
       "name": "BetterAchievements",
@@ -42760,24 +41652,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Buildcraft Oil Tweaks",
-      "latest_version": "1.0.3",
-      "versions": [
-        {
-          "version_tag": "1.0.3",
-          "tagged_at": "2015-07-05T13:33:06",
-          "filename": "BuildCraftOilTweak-1.7.10-1.0.3.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/BuildCraftOilTweak-1.7.10-1.0.3.jar",
-          "browser_download_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak"
-        }
-      ],
-      "license": "ARR",
-      "maven": "https://files.vexatos.com/BuildCraftOilTweak/",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak"
-    },
-    {
       "name": "BuildCraftCompat",
       "latest_version": "7.1.22",
       "private": false,
@@ -42978,30 +41852,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/BuildCraftOilTweak",
       "side": "BOTH"
-    },
-    {
-      "name": "Carpenter's Blocks",
-      "latest_version": "3.3.8.2",
-      "versions": [
-        {
-          "version_tag": "3.3.8.2",
-          "tagged_at": "2019-06-03T17:56:00",
-          "filename": "Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2719/376/Carpenter%27s+Blocks+v3.3.8.2+-+MC+1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks/files/2719376",
-          "curse_file": {
-            "project_no": "228932",
-            "file_no": "2719376"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public Library v2.1",
-      "repo_url": "https://github.com/GTNewHorizons/CarpentersBlocks",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
-      "project_id": "228932",
-      "slug": "carpenters-blocks"
     },
     {
       "name": "CarpentersBlocks",
@@ -45455,54 +44305,6 @@
       "slug": "cofh-core"
     },
     {
-      "name": "CoFH Lib",
-      "latest_version": "1.2.1-185",
-      "versions": [
-        {
-          "version_tag": "1.2.1-185",
-          "tagged_at": "2017-03-04T10:42:00",
-          "filename": "CoFHLib-[1.7.10]1.2.1-185.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2388/747/CoFHLib-%5b1.7.10%5d1.2.1-185.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib/files/2388747",
-          "curse_file": {
-            "project_no": "220333",
-            "file_no": "2388747"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public Library v3.0",
-      "repo_url": "https://github.com/CoFH/CoFHLib-1.7.10-Legacy",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
-      "project_id": "220333",
-      "slug": "cofh-lib"
-    },
-    {
-      "name": "Command Blocks for Better Questing",
-      "latest_version": "3",
-      "versions": [
-        {
-          "version_tag": "3",
-          "tagged_at": "2019-07-08T10:35:00",
-          "filename": "CB4BQ-3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2737/661/CB4BQ-3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing/files/2737661",
-          "curse_file": {
-            "project_no": "326290",
-            "file_no": "2737661"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/bartimaeusnek/CB-for-BQ",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing",
-      "project_id": "326290",
-      "slug": "command-blocks-for-better-questing"
-    },
-    {
       "name": "Compact Kinetic Generators",
       "latest_version": "1.0",
       "versions": [
@@ -46382,26 +45184,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/CookingForBlockheads",
       "side": "BOTH"
-    },
-    {
-      "name": "Core-Tweaks",
-      "latest_version": "0.3.3.2",
-      "versions": [
-        {
-          "version_tag": "0.3.3.2",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2024-02-07T08:49:43.510807",
-          "filename": "CoreTweaks-1.7.10-0.3.3.2+nomixin.jar",
-          "download_url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.3.2/CoreTweaks-1.7.10-0.3.3.2+nomixin.jar",
-          "browser_download_url": "https://github.com/makamys/CoreTweaks/releases/tag/0.3.3.2"
-        }
-      ],
-      "license": "MIT",
-      "side": "NONE",
-      "source": "other",
-      "external_url": "https://github.com/makamys/CoreTweaks",
-      "disabled": false
     },
     {
       "name": "CoreTweaks",
@@ -49605,30 +48387,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/CropsNH",
       "side": "BOTH"
-    },
-    {
-      "name": "Custom Main Menu",
-      "latest_version": "1.9.2",
-      "versions": [
-        {
-          "version_tag": "1.9.2",
-          "tagged_at": "2015-10-31T08:48:00",
-          "filename": "CustomMainMenu-MC1.7.10-1.9.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2264/779/CustomMainMenu-MC1.7.10-1.9.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu/files/2264779",
-          "curse_file": {
-            "project_no": "226406",
-            "file_no": "2264779"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/Custom-Main-Menu",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
-      "project_id": "226406",
-      "slug": "custom-main-menu"
     },
     {
       "name": "Custom-Main-Menu",
@@ -56489,36 +55247,6 @@
       "side": "NONE"
     },
     {
-      "name": "Et Futurum Requiem",
-      "latest_version": "2.6.2",
-      "needs_attention": false,
-      "versions": [
-        {
-          "version_tag": "2.6.0",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2024-09-02T22:34:58.065306",
-          "filename": "Et_Futurum_Requiem-2.6.0.jar",
-          "download_url": "https://cdn.modrinth.com/data/o56psTwz/versions/i2baYHfY/Et_Futurum_Requiem-2.6.0.jar",
-          "browser_download_url": "https://modrinth.com/mod/etfuturum/version/2.6.0"
-        },
-        {
-          "version_tag": "2.6.2",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2024-12-26T23:52:25.363615",
-          "filename": "etfuturum-2.6.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/5873/837/etfuturum-2.6.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/et-futurum-requiem/download/5873837"
-        }
-      ],
-      "license": "LGPL-3.0-only",
-      "side": "NONE",
-      "source": "other",
-      "external_url": "https://modrinth.com/mod/etfuturum",
-      "disabled": false
-    },
-    {
       "name": "Et-Futurum-Requiem",
       "latest_version": "2.6.59-GTNH",
       "private": false,
@@ -58144,29 +56872,6 @@
       "disabled": false
     },
     {
-      "name": "FastCraft",
-      "latest_version": "1.25",
-      "versions": [
-        {
-          "version_tag": "1.25",
-          "tagged_at": "2018-01-20T07:51:00",
-          "filename": "fastcraft-1.25.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2522/249/fastcraft-1.25.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft/files/2522249",
-          "curse_file": {
-            "project_no": "242677",
-            "file_no": "2522249"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
-      "project_id": "242677",
-      "slug": "fastcraft"
-    },
-    {
       "name": "Fether",
       "latest_version": "2.0.7",
       "private": false,
@@ -58706,31 +57411,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/FindIt",
       "side": "BOTH"
-    },
-    {
-      "name": "Floodlights",
-      "latest_version": "1.2.8-137",
-      "versions": [
-        {
-          "version_tag": "1.2.8-137",
-          "tagged_at": "2016-07-31T09:03:00",
-          "filename": "FloodLights-1.7.10-1.2.8-137.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2320/32/FloodLights-1.7.10-1.2.8-137.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights/files/2320032",
-          "curse_file": {
-            "project_no": "224728",
-            "file_no": "2320032"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public License v3.0",
-      "repo_url": "https://github.com/GTNewHorizons/FloodLights",
-      "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
-      "project_id": "224728",
-      "slug": "floodlights"
     },
     {
       "name": "FloodLights",
@@ -60705,54 +59385,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ForestryMC",
       "side": "BOTH"
-    },
-    {
-      "name": "Forge Relocation",
-      "latest_version": "0.0.1.4",
-      "versions": [
-        {
-          "version_tag": "0.0.1.4",
-          "tagged_at": "2015-07-30T09:33:00",
-          "filename": "ForgeRelocation-0.0.1.4-universal.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2249/874/ForgeRelocation-0.0.1.4-universal.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation/files/2249874",
-          "curse_file": {
-            "project_no": "232075",
-            "file_no": "2249874"
-          }
-        }
-      ],
-      "license": "GNU General Public License v3.0",
-      "repo_url": "https://github.com/MrTJP/ForgeRelocation",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
-      "project_id": "232075",
-      "slug": "forge-relocation"
-    },
-    {
-      "name": "Forge Relocation - FMP Plugin",
-      "latest_version": "0.0.1.2",
-      "versions": [
-        {
-          "version_tag": "0.0.1.2",
-          "tagged_at": "2015-06-28T23:21:00",
-          "filename": "ForgeRelocationFMP-0.0.1.2-universal.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2244/822/ForgeRelocationFMP-0.0.1.2-universal.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin/files/2244822",
-          "curse_file": {
-            "project_no": "232076",
-            "file_no": "2244822"
-          }
-        }
-      ],
-      "license": "GNU General Public License v3.0",
-      "repo_url": "https://github.com/MrTJP/ForgeRelocationFMP",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
-      "project_id": "232076",
-      "slug": "forge-relocation-fmp-plugin"
     },
     {
       "name": "Forgelin",
@@ -67150,22 +65782,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/GoodGenerator",
       "side": "NONE"
-    },
-    {
-      "name": "Gravitation Suite",
-      "latest_version": "2.0.68u",
-      "versions": [
-        {
-          "version_tag": "2.0.68u",
-          "tagged_at": "2020-12-20T21:53:00",
-          "filename": "GraviSuite-1.7.10-2.0.68u.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.68u.jar",
-          "browser_download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.68u.jar"
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse"
     },
     {
       "name": "Gravitation-Suite-Neo",
@@ -105653,30 +104269,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Hardcore Darkness",
-      "latest_version": "1.7",
-      "versions": [
-        {
-          "version_tag": "1.7",
-          "tagged_at": "2015-10-14T02:17:00",
-          "filename": "HardcoreDarkness-MC1.7.10-1.7.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2262/352/HardcoreDarkness-MC1.7.10-1.7.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness/files/2262352",
-          "curse_file": {
-            "project_no": "225957",
-            "file_no": "2262352"
-          }
-        }
-      ],
-      "license": "ARR",
-      "repo_url": "https://github.com/lumien231/Hardcore-Darkness",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness",
-      "project_id": "225957",
-      "slug": "hardcore-darkness"
-    },
-    {
       "name": "Hardcore-Ender-Expansion",
       "latest_version": "1.12.28-GTNH",
       "private": false,
@@ -114014,29 +112606,6 @@
       "side": "BOTH"
     },
     {
-      "name": "IC2 Crop-Breeding Plugin",
-      "latest_version": "1.3.1",
-      "versions": [
-        {
-          "version_tag": "1.3.1",
-          "tagged_at": "2020-04-27T07:11:00",
-          "filename": "IC2 Crop Plugin Version 1.7.10-1.3.1.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2941/926/IC2+Crop+Plugin+Version+1.7.10-1.3.1.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin/files/2941926",
-          "curse_file": {
-            "project_no": "236609",
-            "file_no": "2941926"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin",
-      "project_id": "236609",
-      "slug": "ic2-nei-crop-plugin"
-    },
-    {
       "name": "IFU",
       "latest_version": "1.12.4",
       "private": false,
@@ -117672,30 +116241,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/Irontanks",
       "side": "BOTH"
-    },
-    {
-      "name": "It's the little things",
-      "latest_version": "1.0.3",
-      "versions": [
-        {
-          "version_tag": "1.0.3",
-          "tagged_at": "2021-06-02T09:42:00",
-          "filename": "itlt-1.7.x-1.0.3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/3335/234/itlt-1.7.x-1.0.3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things/files/3335234",
-          "curse_file": {
-            "project_no": "232791",
-            "file_no": "3335234"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/itlt",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
-      "project_id": "232791",
-      "slug": "its-the-little-things"
     },
     {
       "name": "itlt",
@@ -127404,30 +125949,6 @@
       "side": "NONE"
     },
     {
-      "name": "MalisisDoor",
-      "latest_version": "1.13.2",
-      "versions": [
-        {
-          "version_tag": "1.13.2",
-          "tagged_at": "2016-02-28T06:06:00",
-          "filename": "malisisdoors-1.7.10-1.13.2.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2284/380/malisisdoors-1.7.10-1.13.2.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors/files/2284380",
-          "curse_file": {
-            "project_no": "223891",
-            "file_no": "2284380"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/MalisisDoors",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
-      "project_id": "223891",
-      "slug": "malisisdoors"
-    },
-    {
       "name": "MalisisDoors",
       "latest_version": "1.19.11-GTNH",
       "private": false,
@@ -130701,31 +129222,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Modular-UI-2",
-      "latest_version": "2.3.91-1.7.10",
-      "versions": [
-        {
-          "version_tag": "2.3.91-1.7.10",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T16:53:47.983664",
-          "filename": "modularui2-2.3.91-1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8907/362/modularui2-2.3.91-1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/files/8907362",
-          "curse_file": {
-            "project_no": "624243",
-            "file_no": "8907362"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/modularui/",
-      "project_id": "624243",
-      "disabled": false
-    },
-    {
       "name": "ModularUI",
       "latest_version": "1.3.4",
       "private": false,
@@ -133726,7 +132222,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ModularUI2",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "Morpheus",
@@ -133751,30 +132247,6 @@
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus",
       "project_id": "69118",
       "slug": "morpheus"
-    },
-    {
-      "name": "Mouse Tweaks",
-      "latest_version": "2.4.4",
-      "versions": [
-        {
-          "version_tag": "2.4.4",
-          "tagged_at": "2014-07-22T00:01:00",
-          "filename": "MouseTweaks-2.4.4-mc1.7.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/2209265",
-          "curse_file": {
-            "project_no": "60089",
-            "file_no": "2209265"
-          }
-        }
-      ],
-      "license": "BSD-3-Clause",
-      "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
-      "project_id": "60089",
-      "slug": "mouse-tweaks"
     },
     {
       "name": "MouseTweaks",
@@ -135061,30 +133533,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Nature's Compass",
-      "latest_version": "1.3.1",
-      "versions": [
-        {
-          "version_tag": "1.3.1",
-          "tagged_at": "2017-07-16T06:45:00",
-          "filename": "NaturesCompass-1.7.10-1.3.1.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2451/823/NaturesCompass-1.7.10-1.3.1.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/2451823",
-          "curse_file": {
-            "project_no": "252848",
-            "file_no": "2451823"
-          }
-        }
-      ],
-      "license": "CC-BY-NC-SA-4.0",
-      "repo_url": "https://github.com/GTNewHorizons/NaturesCompass",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
-      "project_id": "252848",
-      "slug": "natures-compass"
-    },
-    {
       "name": "NaturesCompass",
       "latest_version": "1.5.2-GTNH",
       "private": false,
@@ -135534,32 +133982,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Navigator",
-      "side": "NONE"
-    },
-    {
-      "name": "Navigator-Curse",
-      "latest_version": "1.1.10",
-      "versions": [
-        {
-          "version_tag": "1.1.10",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T16:59:00.951344",
-          "filename": "navigator-1.1.10.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8907/397/navigator-1.1.10.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/navigator/files/8907397",
-          "curse_file": {
-            "project_no": "1539674",
-            "file_no": "8907397"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/navigator",
-      "project_id": "1539674",
-      "disabled": false
+      "side": "BOTH"
     },
     {
       "name": "nei-custom-diagram",
@@ -159484,53 +157907,6 @@
       "side": "CLIENT"
     },
     {
-      "name": "p455w0rd's Library",
-      "latest_version": "1.0.4",
-      "versions": [
-        {
-          "version_tag": "1.0.4",
-          "tagged_at": "2016-12-23T04:12:00",
-          "filename": "p455w0rdslib-1.7.10-1.0.4.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library/files/2359471",
-          "curse_file": {
-            "project_no": "255232",
-            "file_no": "2359471"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/p455w0rd/p455w0rds-Library",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library",
-      "project_id": "255232",
-      "slug": "p455w0rds-library"
-    },
-    {
-      "name": "Pam's Harvest the Nether",
-      "latest_version": "1.7.10a",
-      "versions": [
-        {
-          "version_tag": "1.7.10a",
-          "tagged_at": "2015-06-04T17:26:00",
-          "filename": "Pam's Harvest the Nether 1.7.10a.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2241/397/Pam%27s+Harvest+the+Nether+1.7.10a.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether/files/2241397",
-          "curse_file": {
-            "project_no": "231262",
-            "file_no": "2241397"
-          }
-        }
-      ],
-      "license": "ARR",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
-      "project_id": "231262",
-      "slug": "pams-harvest-the-nether"
-    },
-    {
       "name": "PersonalSpace",
       "latest_version": "1.0.41",
       "private": false,
@@ -159930,29 +158306,6 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/PersonalSpace",
       "side": "BOTH"
-    },
-    {
-      "name": "Player API",
-      "latest_version": "1.4",
-      "versions": [
-        {
-          "version_tag": "1.4",
-          "tagged_at": "2015-07-25T11:54:00",
-          "filename": "PlayerAPI-1.7.10-1.4.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2248/928/PlayerAPI-1.7.10-1.4.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/player-api/files/2248928",
-          "curse_file": {
-            "project_no": "228969",
-            "file_no": "2248928"
-          }
-        }
-      ],
-      "license": "GNU Lesser General Public License v3.0",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/player-api",
-      "project_id": "228969",
-      "slug": "player-api"
     },
     {
       "name": "Player-API",
@@ -162579,30 +160932,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Random Things",
-      "latest_version": "2.2.4",
-      "versions": [
-        {
-          "version_tag": "2.2.4",
-          "tagged_at": "2015-01-23T09:47:00",
-          "filename": "RandomThings-2.2.4.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2225/310/RandomThings-2.2.4.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/random-things/files/2225310",
-          "curse_file": {
-            "project_no": "59816",
-            "file_no": "2225310"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/Random-Things",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
-      "project_id": "59816",
-      "slug": "random-things"
-    },
-    {
       "name": "Random-Things",
       "latest_version": "2.7.11",
       "private": false,
@@ -163494,30 +161823,6 @@
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/RemoteIO",
       "side": "BOTH"
-    },
-    {
-      "name": "Resource Loader",
-      "latest_version": "1.3",
-      "versions": [
-        {
-          "version_tag": "1.3",
-          "tagged_at": "2016-04-07T05:00:00",
-          "filename": "ResourceLoader-MC1.7.10-1.3.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2292/845/ResourceLoader-MC1.7.10-1.3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader/files/2292845",
-          "curse_file": {
-            "project_no": "226447",
-            "file_no": "2292845"
-          }
-        }
-      ],
-      "license": "All Rights Reserved. - You can use this mod in any modpack without asking first",
-      "repo_url": "https://github.com/lumien231/Resource-Loader",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
-      "project_id": "226447",
-      "slug": "resource-loader"
     },
     {
       "name": "Roguelike-Dungeons",
@@ -164864,33 +163169,8 @@
       "side": "CLIENT"
     },
     {
-      "name": "Server-Utils",
-      "latest_version": "2.4.12",
-      "versions": [
-        {
-          "version_tag": "2.4.12",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T17:46:14.754659",
-          "filename": "ServerUtilities-2.4.12.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8914/204/ServerUtilities-2.4.12.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/files/8914204",
-          "curse_file": {
-            "project_no": "1539566",
-            "file_no": "8914204"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/serverutilities-gtnh/",
-      "project_id": "1539566",
-      "disabled": false
-    },
-    {
       "name": "ServerUtilities",
-      "latest_version": "2.4.12",
+      "latest_version": "2.4.13",
       "private": false,
       "versions": [
         {
@@ -167033,11 +165313,21 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/573262223",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.12/ServerUtilities-2.4.12.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.13",
+          "changelog": "## What's Changed\n* Reduce server stalls during backup preparation by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/345\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.12...2.4.13\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-20T21:25:20+00:00",
+          "filename": "ServerUtilities-2.4.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/577590304",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.13/ServerUtilities-2.4.13.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ServerUtilities",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "SGCraft",
@@ -167914,31 +166204,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Spice-of-Life",
-      "latest_version": "2.2.10-carrot",
-      "versions": [
-        {
-          "version_tag": "2.2.10-carrot",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2026-09-19T17:50:29.049458",
-          "filename": "SpiceOfLife-2.2.10-carrot.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/8242/713/SpiceOfLife-2.2.10-carrot.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/files/8242713",
-          "curse_file": {
-            "project_no": "782155",
-            "file_no": "8242713"
-          }
-        }
-      ],
-      "license": "GNU",
-      "side": "BOTH",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition-unofficial/",
-      "project_id": "782155",
-      "disabled": false
-    },
-    {
       "name": "SpiceOfLife",
       "latest_version": "2.2.10-carrot",
       "private": false,
@@ -168328,7 +166593,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "SpongeMixins",
@@ -171515,30 +169780,6 @@
       "license": "All Rights Reserved (fallback)",
       "repo_url": "https://github.com/GTNewHorizons/supersolarpanels",
       "side": "BOTH"
-    },
-    {
-      "name": "Tainted Magic",
-      "latest_version": "r7.6",
-      "versions": [
-        {
-          "version_tag": "r7.6",
-          "tagged_at": "2016-11-15T17:18:00",
-          "filename": "Tainted-Magic-r7.6.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2345/241/Tainted-Magic-r7.6.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic/files/2345241",
-          "curse_file": {
-            "project_no": "231061",
-            "file_no": "2345241"
-          }
-        }
-      ],
-      "license": "CC-BY-NC-ND-4.0",
-      "repo_url": "https://github.com/yorkeJohn/Tainted-Magic",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic",
-      "project_id": "231061",
-      "slug": "tainted-magic"
     },
     {
       "name": "Tainted-Magic",
@@ -175800,29 +174041,6 @@
       "slug": "thaumcraft"
     },
     {
-      "name": "Thaumcraft NEI Plugin",
-      "latest_version": "1.7a",
-      "versions": [
-        {
-          "version_tag": "1.7a",
-          "tagged_at": "2015-06-08T01:20:00",
-          "filename": "thaumcraftneiplugin-1.7.10-1.7a.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin/files/2241913",
-          "curse_file": {
-            "project_no": "225095",
-            "file_no": "2241913"
-          }
-        }
-      ],
-      "license": "You have my permission to include \"Thaumcraft NEI Plugin\" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin",
-      "project_id": "225095",
-      "slug": "thaumcraft-nei-plugin"
-    },
-    {
       "name": "thaumcraft-research-tweaks",
       "latest_version": "1.4.1",
       "private": false,
@@ -176014,47 +174232,6 @@
       "license": "Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects",
       "side": "BOTH"
-    },
-    {
-      "name": "Thaumic Inventory Scanning",
-      "latest_version": "1.0.11",
-      "versions": [
-        {
-          "version_tag": "1.0.11",
-          "tagged_at": "2016-06-13T18:46:00",
-          "filename": "tcinventoryscan-mc1.7.10-1.0.11.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2286/894/tcinventoryscan-mc1.7.10-1.0.11.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2286894",
-          "curse_file": {
-            "project_no": "238003",
-            "file_no": "2286894"
-          }
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning ",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
-      "project_id": "238003",
-      "slug": "thaumcraft-inventory-scanning"
-    },
-    {
-      "name": "Thaumic Machina",
-      "latest_version": "0.2.1",
-      "versions": [
-        {
-          "version_tag": "0.2.1",
-          "tagged_at": "2014-09-01T01:35:00",
-          "filename": "Thaumic Machina-1.7.10-0.2.1.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Thaumic-Machina-1.7.10-0.2.1.jar",
-          "browser_download_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic"
-        }
-      ],
-      "license": "All Rights Reserved. - You may use this mod in mod packs IF you give credit to me, I don't care what pack you are or what other mods you run with, as long as you give me credit for my work, you are allowed to redestribute my mod under your mod pack. If you wish to generate revenue off my work, you require permission from me to do so within the terms of this license.",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic"
     },
     {
       "name": "Thaumic_Exploration",
@@ -181589,26 +179766,6 @@
       "side": "CLIENT"
     },
     {
-      "name": "Tinkers' Defense",
-      "latest_version": "1.2.1d",
-      "versions": [
-        {
-          "version_tag": "1.2.1d",
-          "tagged_at": "2020-12-20T21:53:00",
-          "filename": "Tinkers-Defense-1.2.1d.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Tinkers-Defense-1.2.1d.jar",
-          "browser_download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/"
-        }
-      ],
-      "license": "GNU General Public Library v3.0",
-      "repo_url": "https://github.com/GTNewHorizons/Tinkers-Defense",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/compendium",
-      "project_id": "226910",
-      "slug": "compendium"
-    },
-    {
       "name": "Tinkers-Defense",
       "latest_version": "1.3.4",
       "private": false,
@@ -185223,32 +183380,6 @@
       "license": "Original code licensed under the MIT License, GTNH changes licensed under the GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/Translocators",
       "side": "BOTH"
-    },
-    {
-      "name": "Travellers Gear",
-      "latest_version": "1.16.6",
-      "versions": [
-        {
-          "version_tag": "1.16.6",
-          "changelog": "",
-          "prerelease": false,
-          "tagged_at": "2023-03-01T15:41:05.220494",
-          "filename": "TravellersGear-1.7.10-1.16.6.jar",
-          "download_url": "https://mediafilez.forgecdn.net/files/2262/112/TravellersGear-1.7.10-1.16.6.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear/files/2262112",
-          "curse_file": {
-            "project_no": "",
-            "file_no": "2262112"
-          }
-        }
-      ],
-      "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
-      "repo_url": "https://github.com/BluSunrize/TravellersGear",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear",
-      "project_id": "224440",
-      "slug": "travellers-gear"
     },
     {
       "name": "TravellersGearNeo",
