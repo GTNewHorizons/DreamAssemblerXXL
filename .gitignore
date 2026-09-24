@@ -6,5 +6,7 @@ updated_mods.json
 releases/**/*.zip
 releases/curse/
 releases/technic/
+releases/mobile/
+releases/modrinth/
 .inplace_mod_exclusions
 .inplace_pinned_mods

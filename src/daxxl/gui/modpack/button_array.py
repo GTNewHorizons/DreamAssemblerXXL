@@ -22,6 +22,7 @@ class ButtonArrayCallback:
     server_zip_j9: Callable[[], Task[None]]
     client_curse: Callable[[], Task[None]]
     client_modrinth: Callable[[], Task[None]]
+    client_mobile: Callable[[], Task[None]]
     client_technic: Callable[[], Task[None]]
     update_all: Callable[[], Task[None]]
     update_beta: Callable[[], Task[None]]
@@ -82,6 +83,8 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             themed=self.themed,
             state=DISABLED,
         )
+
+        self.btn_client_mobile: CustomButton = CustomButton(self.frame_btn, text="Mobile Java 9+ archive", command=callbacks.client_mobile, themed=self.themed)
         self.btn_generate_all: CustomButton = CustomButton(self.frame_btn, text="Generate stable release", command=callbacks.update_all, themed=self.themed)
         self.btn_generate_beta: CustomButton = CustomButton(self.frame_btn, text="Generate beta/RC release", command=callbacks.update_beta, themed=self.themed)
         self.btn_update_experimental: CustomButton = CustomButton(
@@ -113,6 +116,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self.btn_client_cf,
             self.btn_client_technic,
             self.btn_client_modrinth,
+            self.btn_client_mobile,
             self.btn_client_prism,
             self.btn_client_prism_j9,
             self.btn_update_assets,
@@ -178,8 +182,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.btn_server_zip.grid(row=0, column=2)
         self.btn_server_zip_j9.grid(row=1, column=2)
         self.btn_client_cf.grid(row=2, column=2)
-        self.btn_client_modrinth.grid(row=3, column=2)
-        self.btn_generate_cf_files.grid(row=4, column=2)
+        self.btn_generate_cf_files.grid(row=3, column=2)
+        self.btn_client_modrinth.grid(row=4, column=2)
+        self.btn_client_mobile.grid(row=5, column=2)
 
     def configure_widgets(self) -> None:
         """

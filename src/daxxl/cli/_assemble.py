@@ -24,5 +24,6 @@ async def assemble_dev_release(dev_release: DevRelease, verbose: bool) -> None:
     await assembler.assemble_zip(Side.SERVER, verbose=verbose)
     await assembler.assemble_prism(Side.CLIENT, verbose=verbose)
     await assembler.assemble_prism(Side.CLIENT_JAVA9, verbose=verbose)
+    await assembler.assemble_mobile(Side.CLIENT_JAVA9, verbose=verbose)
 
     context.counter.set_last_successful_dev_build_id(dev_release, context.counter.get_dev_release_count(dev_release))
