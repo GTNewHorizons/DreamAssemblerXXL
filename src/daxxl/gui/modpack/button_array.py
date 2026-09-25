@@ -27,7 +27,6 @@ class ButtonArrayCallback:
     update_all: Callable[[], Task[None]]
     update_beta: Callable[[], Task[None]]
     generate_changelog: Callable[[], Task[None]]
-    generate_intermediate_cf_files: Callable[[], Task[None]]
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):
@@ -99,13 +98,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self.frame_btn, text="Generate changelog", command=callbacks.generate_changelog, themed=self.themed
         )
 
-        self.btn_generate_cf_files: CustomButton = CustomButton(
-            self.frame_btn,
-            text="Generate intermediate CF files",
-            command=callbacks.generate_intermediate_cf_files,
-            themed=self.themed,
-        )
-
         progress_bar_length: int = 500
 
         self.progress_bar_global = CustomProgressBar(self, label_text="test global", progress_bar_length=progress_bar_length)
@@ -128,7 +120,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
             self.btn_client_zip,
             self.btn_server_zip,
             self.btn_server_zip_j9,
-            self.btn_generate_cf_files,
             self.progress_bar_global,
             self.progress_bar_current_task,
         ]
@@ -182,7 +173,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.btn_server_zip.grid(row=0, column=2)
         self.btn_server_zip_j9.grid(row=1, column=2)
         self.btn_client_cf.grid(row=2, column=2)
-        self.btn_generate_cf_files.grid(row=3, column=2)
         self.btn_client_modrinth.grid(row=4, column=2)
         self.btn_client_mobile.grid(row=5, column=2)
 
