@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-09-25T08:58:29.361308+00:00",
-  "config": "2.9.0-nightly-2026-09-22-02",
+  "last_updated": "2026-09-25T19:35:47.024200+00:00",
+  "config": "2.9.0-nightly-2026-09-25",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.46",
+      "version": "2.10.47",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.142-GTNH",
+      "version": "1.1.143-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.183",
+      "version": "5.09.54.184",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.76",
+      "version": "2.9.78",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.145-GTNH",
+      "version": "2.8.146-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.59-GTNH",
+      "version": "0.1.60-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.129",
+      "version": "2.0.131",
       "side": "BOTH"
     },
     "Fether": {
@@ -829,7 +829,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.36",
+      "version": "1.3.37",
       "side": "BOTH"
     },
     "Automagy-GTNH": {

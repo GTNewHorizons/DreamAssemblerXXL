@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-22-02",
+    "latest_version": "2.9.0-nightly-2026-09-25",
     "needs_attention": false,
     "versions": [
       {
@@ -7942,6 +7942,16 @@
         "filename": "2.9.0-nightly-2026-09-22-02.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/582727350",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-22-02/2.9.0-nightly-2026-09-22-02.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-25",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-25T19:13:29+00:00",
+        "filename": "2.9.0-nightly-2026-09-25.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/589053042",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-25/2.9.0-nightly-2026-09-25.zip",
         "extra_assets": []
       }
     ],
@@ -48130,7 +48140,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.129",
+      "latest_version": "2.0.131",
       "private": false,
       "versions": [
         {
@@ -49431,6 +49441,26 @@
           "filename": "cropsnh-2.0.129.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/584304714",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.129/cropsnh-2.0.129.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.130",
+          "changelog": "## What's Changed\n* Re-add growth reqs in mutation tab by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/274\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.129...2.0.130\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:21:43+00:00",
+          "filename": "cropsnh-2.0.130.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/589067692",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.130/cropsnh-2.0.130.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.131",
+          "changelog": "## What's Changed\n* Re-add growth reqs in mutation tab by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/274\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.129...2.0.131\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:24:03+00:00",
+          "filename": "cropsnh-2.0.131.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/589071455",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.131/cropsnh-2.0.131.jar",
           "extra_assets": []
         }
       ],
@@ -53342,7 +53372,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.46",
+      "latest_version": "2.10.47",
       "private": false,
       "versions": [
         {
@@ -55373,6 +55403,16 @@
           "filename": "EnderIO-2.10.46.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/577117259",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.46/EnderIO-2.10.46.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.47",
+          "changelog": "## What's Changed\n* Make specialmobs really availale for soul binder by @fehling135 in https://github.com/GTNewHorizons/EnderIO/pull/270\n\n## New Contributors\n* @fehling135 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/270\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.46...2.10.47\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:16:57+00:00",
+          "filename": "EnderIO-2.10.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/589059861",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.47/EnderIO-2.10.47.jar",
           "extra_assets": []
         }
       ],
@@ -63212,7 +63252,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.142-GTNH",
+      "latest_version": "1.1.143-GTNH",
       "private": true,
       "versions": [
         {
@@ -63925,6 +63965,16 @@
           "filename": "GalaxySpace-1.1.142-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/518924445",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.142-GTNH/GalaxySpace-1.1.142-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.143-GTNH",
+          "changelog": "## What's Changed\n* Make clouds respect client's render distance by @Eclipse-Sol in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/157\n\n## New Contributors\n* @Eclipse-Sol made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/157\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.142-GTNH...1.1.143-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T14:10:16+00:00",
+          "filename": "GalaxySpace-1.1.143-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/588499510",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.143-GTNH/GalaxySpace-1.1.143-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -67336,7 +67386,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.183",
+      "latest_version": "5.09.54.184",
       "private": false,
       "versions": [
         {
@@ -94188,6 +94238,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/585996535",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.183/gregtech-5.09.54.183.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.184",
+          "changelog": "## What's Changed\n* Optical fiber cable consistency by @PierceC7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8202\n* Changed ICO Multi Amp Hatch Error Message by @PierceC7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8198\n* cryo tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8203\n* Fix NAC sound range by @GreatBrandon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8200\n* Fix non-electric basic machines showing a EU bar in WAILA by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8210\n* fix: nac keeps calibration on game reload by @MarloGr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8207\n\n## New Contributors\n* @PierceC7 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8202\n* @GreatBrandon made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8200\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.183...5.09.54.184\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:15:43+00:00",
+          "filename": "gregtech-5.09.54.184.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/589057356",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.184/gregtech-5.09.54.184.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -104990,7 +105050,7 @@
     },
     {
       "name": "GuideNH",
-      "latest_version": "1.3.36",
+      "latest_version": "1.3.37",
       "private": false,
       "versions": [
         {
@@ -105331,6 +105391,16 @@
           "filename": "guidenh-1.3.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/578263426",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.36/guidenh-1.3.36.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.37",
+          "changelog": "## What's Changed\n* Add MediaWiki style MDX templates for guide pages by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/84\n* Create GuideNH web view editor github page by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/87\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.36...1.3.37\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:15:51+00:00",
+          "filename": "guidenh-1.3.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/589057671",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.37/guidenh-1.3.37.jar",
           "extra_assets": []
         }
       ],
@@ -127482,7 +127552,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.59-GTNH",
+      "latest_version": "0.1.60-GTNH",
       "private": false,
       "versions": [
         {
@@ -128484,6 +128554,16 @@
           "filename": "matter-manipulator-0.1.59-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/586008693",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.59-GTNH/matter-manipulator-0.1.59-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.60-GTNH",
+          "changelog": "## What's Changed\n* Fix GT IItemLockable compatibility by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/90\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.59-GTNH...0.1.60-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:17:32+00:00",
+          "filename": "matter-manipulator-0.1.60-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/589060776",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.60-GTNH/matter-manipulator-0.1.60-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -136392,7 +136472,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.76",
+      "latest_version": "2.9.78",
       "private": false,
       "versions": [
         {
@@ -148714,6 +148794,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/586681658",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.76/GTNewHorizonsCoreMod-2.9.76.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.77",
+          "changelog": "## What's Changed\n* add the UV monster repellator to assembler recipes by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1970\n* Add Hardness to Metal Bars by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1972\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.76...2.9.77\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:15:11+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.77.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/589056580",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.77/GTNewHorizonsCoreMod-2.9.77.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.78",
+          "changelog": "## What's Changed\n* add the UV monster repellator to assembler recipes by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1970\n* Add Hardness to Metal Bars by @fehling135 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1972\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.76...2.9.78\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:17:41+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.78.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/589060992",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.78/GTNewHorizonsCoreMod-2.9.78.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -150036,7 +150136,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.145-GTNH",
+      "latest_version": "2.8.146-GTNH",
       "private": false,
       "versions": [
         {
@@ -154848,6 +154948,16 @@
           "filename": "NotEnoughItems-2.8.145-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/582729166",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.145-GTNH/NotEnoughItems-2.8.145-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.146-GTNH",
+          "changelog": "## What's Changed\n* Refactoring Chain Tooltip by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1044\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.145-GTNH...2.8.146-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T19:17:55+00:00",
+          "filename": "NotEnoughItems-2.8.146-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/589061343",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.146-GTNH/NotEnoughItems-2.8.146-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -193312,6 +193422,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 756,
-  "latest_successful_daily": 756
+  "latest_daily": 757,
+  "latest_successful_daily": 757
 }
