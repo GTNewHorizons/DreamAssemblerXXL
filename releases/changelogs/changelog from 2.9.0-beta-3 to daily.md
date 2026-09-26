@@ -13,11 +13,15 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.19
+# Updated - Angelica - 2.2.10 --> 2.2.20
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.19
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.20
 
 ## What's Changed:
+>* Weather instancing by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2127 (2.2.20)
+>* Only enable shader DH compat if DH is enabled by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/2130 (2.2.20)
+>* Add Galaxy Space compat and fix culling issues by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2131 (2.2.20)
+>* Properly reset/flush state for crash interceptors by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2133 (2.2.20)
 >* Properly handle display lists with the push/pop optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2126 (2.2.19)
 >* fix asm class dumper following rfb changes by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/2123 (2.2.18)
 >* Render pass and state stack optimizations by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2124 (2.2.18)
@@ -208,10 +212,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.131
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.131
+# Updated - CropsNH - 2.0.114 --> 2.0.133
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.133
 
 ## What's Changed:
+>* Default the seed amount to one when planting or harvesting seeds. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/276 (2.0.133)
+>* Cleanup fertilizer recipes declarations by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/275 (2.0.132)
 >* Re-add growth reqs in mutation tab by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/274 (2.0.131)
 >* Re-add growth reqs in mutation tab by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/274 (2.0.130)
 >* Mini bugfix: crop managers water/fertilize/weedex broken crop sticks by @MarloGr in https://github.com/GTNewHorizons/CropsNH/pull/273 (2.0.129)
@@ -267,6 +273,12 @@ Mod is client-side only.
 >* Fix Nether Tree handling in other mods by @glowredman in https://github.com/GTNewHorizons/Fether/pull/11 (2.0.7)
 >* Add return statement to block removal method by @mattparksjr in https://github.com/GTNewHorizons/Fether/pull/10 (2.0.6)
 
+# Updated - FindIt - 1.4.6 --> 1.4.7
+**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.6...1.4.7
+
+## What's Changed:
+>* Fix incorrect block highlights with Cubic Chunks by @5-Esania in https://github.com/GTNewHorizons/FindIt/pull/38 (1.4.7)
+
 # Updated - ForestryMC - 4.11.37 --> 4.11.38
 **Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.37...4.11.38
 
@@ -281,10 +293,11 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.184
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.184
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.185
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.185
 
 ## What's Changed:
+>* fix a typo in calabi yau manifold item by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8211 (5.09.54.185)
 >* Optical fiber cable consistency by @PierceC7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8202 (5.09.54.184)
 >* Changed ICO Multi Amp Hatch Error Message by @PierceC7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8198 (5.09.54.184)
 >* cryo tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8203 (5.09.54.184)
@@ -658,10 +671,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Finally got GT6 fluids to work properly as far as I can test.  Can pu… by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84 (1.7.43)
 >* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83 (1.7.42)
 
-# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.146-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.146-GTNH
+# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.147-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.147-GTNH
 
 ## What's Changed:
+>* Fix search autofocus losing the first typed character by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1045 (2.8.147-GTNH)
+>* Fix Keybinding Category Names by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1046 (2.8.147-GTNH)
+>* Add Flowinf Texture to PositionStack by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1047 (2.8.147-GTNH)
 >* Refactoring Chain Tooltip by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1044 (2.8.146-GTNH)
 >* Add List View to Recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1041 (2.8.145-GTNH)
 >* Publishing by @kuba6000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1039 (2.8.143-GTNH)
@@ -778,10 +794,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Format tooltip by @Connor-Colenso in https://github.com/GTNewHorizons/TiC-Tooltips/pull/11 (1.4.2)
 
-# Updated - TinkersConstruct - 1.14.108-GTNH --> 1.14.115-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.108-GTNH...1.14.115-GTNH
+# Updated - TinkersConstruct - 1.14.108-GTNH --> 1.14.116-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.108-GTNH...1.14.116-GTNH
 
 ## What's Changed:
+>* fix nei bookmark pull from crafting station inventories by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/345 (1.14.116-GTNH)
 >* add extended crafting station stacks api by @ABKQPO in https://github.com/GTNewHorizons/TinkersConstruct/pull/344 (1.14.115-GTNH)
 >* fix and configure crafting station shift-click behavior by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/337 (1.14.114-GTNH)
 >* Fix the cut inventory (patternchestmini) by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/342 (1.14.113-GTNH)
@@ -835,13 +852,14 @@ Mod is client-side only.
 ## What's Changed:
 >* fix duplicate jubilance tooltips by @MarloGr in https://github.com/GTNewHorizons/neiaddons/pull/20 (1.18.6)
 
-# Updated - twilightforest - 2.7.40 --> 2.7.42
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.42
+# Updated - twilightforest - 2.7.40 --> 2.7.43
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.43
 
 ## What's Changed:
+>* Optimize sorting tree logic by @fehling135 in https://github.com/GTNewHorizons/twilightforest/pull/164 (2.7.43)
 >* Fix Silk Touch for special magic logs by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/162 (2.7.42)
 >* Add redstone control for Timewood Clocks by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/159 (2.7.41)
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
