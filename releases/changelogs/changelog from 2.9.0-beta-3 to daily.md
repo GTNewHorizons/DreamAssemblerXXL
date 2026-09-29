@@ -76,10 +76,14 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1074-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1074-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1076-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1076-GTNH
 
 ## What's Changed:
+>* Fix ME terminal lag from re-sorting on every inventory update by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1665 (rv3-beta-1076-GTNH)
+>* Fix inventory scrollbar's drag state after mouse release by @Ressed in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1666 (rv3-beta-1075-GTNH)
+>* fix shift not locking items into place by @MarloGr in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1663 (rv3-beta-1075-GTNH)
+>* Prevent inactive GT EU P2P outputs from injecting energy by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1667 (rv3-beta-1075-GTNH)
 >* fix(middle-click): Prevent middle click craft when an item is picked up by the player by @vermz99 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1660 (rv3-beta-1074-GTNH)
 >* Reduce external inventory polling overhead by @Algent in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1596 (rv3-beta-1073-GTNH)
 >* Add reshuffler access configuration by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1613 (rv3-beta-1073-GTNH)
@@ -185,6 +189,13 @@ Mod is client-side only.
 >* Change methods to static in ConstructableData by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/65 (1.4.23)
 >* use new gt api by @danyadev in https://github.com/GTNewHorizons/BlockRenderer6343/pull/64 (1.4.22)
 >* expose some variables for access for guidenh by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/63 (1.4.22)
+
+# Updated - BloodMagic - 1.9.13 --> 1.9.14
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.13...1.9.14
+
+## What's Changed:
+>* Fix item foci not being recognised by the spell table by @micvog in https://github.com/GTNewHorizons/BloodMagic/pull/151 (1.9.14)
+>* Fix inverted owner check in Teleport, Watery Grave and Lightning Bolt spells by @micvog in https://github.com/GTNewHorizons/BloodMagic/pull/152 (1.9.14)
 
 # Updated - Botania - 1.13.34-GTNH --> 1.13.36-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.34-GTNH...1.13.36-GTNH
@@ -319,10 +330,15 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.188
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.188
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.189
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.189
 
 ## What's Changed:
+>* Make FRF Coils AAL Friendly by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8227 (5.09.54.189)
+>* adjust late game turbine tiers for spinmatron by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8224 (5.09.54.189)
+>* uncaps OCs for spinmatron heavy mode by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8225 (5.09.54.189)
+>* Spinmatron tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8196 (5.09.54.189)
+>* Fix Microwave Transmitter Cross-dim Without Nitrogen Plasma by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8228 (5.09.54.189)
 >* Fix ME output hatch and bus tooltips by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8230 (5.09.54.188)
 >* change primitive calibration text to be more succinct by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8233 (5.09.54.188)
 >* Issue 26952 by @PierceC7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8213 (5.09.54.188)
@@ -551,10 +567,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Make clouds respect client's render distance by @Eclipse-Sol in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/157 (1.1.143-GTNH)
 
-# Updated - GuideNH - 1.3.29 --> 1.3.38
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.38
+# Updated - GuideNH - 1.3.29 --> 1.3.39
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.39
 
 ## What's Changed:
+>* Optimize ExportSite by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/90 (1.3.39)
 >* enhanced web editor, rework export site by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/88 (1.3.38)
 >* Unify path resolution by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/89 (1.3.38)
 >* Add MediaWiki style MDX templates for guide pages by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/84 (1.3.37)
@@ -768,10 +785,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Ignore grave interactions from a dead player by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/66 (1.12.22-GTNH)
 
-# Updated - OpenComputers - 1.12.61-GTNH --> 1.12.62-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.61-GTNH...1.12.62-GTNH
+# Updated - OpenComputers - 1.12.61-GTNH --> 1.12.63-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.61-GTNH...1.12.63-GTNH
 
 ## What's Changed:
+>* Fluid Interface 1-indexed API by @Azusfin in https://github.com/GTNewHorizons/OpenComputers/pull/225 (1.12.63-GTNH)
 >* Add APIs for Stocking Input Bus/Hatch by @hxync in https://github.com/GTNewHorizons/OpenComputers/pull/222 (1.12.62-GTNH)
 
 # Updated - PersonalSpace - 1.0.40 --> 1.0.41
@@ -942,4 +960,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, @YannickMG, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Wokafishh, @Worive, @wufe8, @YannickMG, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
