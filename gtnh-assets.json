@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-30",
+    "latest_version": "2.9.0-nightly-2026-09-30-02",
     "needs_attention": false,
     "versions": [
       {
@@ -8002,6 +8002,16 @@
         "filename": "2.9.0-nightly-2026-09-30.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/599859309",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-30/2.9.0-nightly-2026-09-30.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-09-30-02",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-09-30T17:37:19+00:00",
+        "filename": "2.9.0-nightly-2026-09-30-02.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/601461482",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-30-02/2.9.0-nightly-2026-09-30-02.zip",
         "extra_assets": []
       }
     ],
@@ -18923,7 +18933,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1076-GTNH",
+      "latest_version": "rv3-beta-1077-GTNH",
       "private": false,
       "versions": [
         {
@@ -28274,6 +28284,16 @@
           "filename": "appliedenergistics2-rv3-beta-1076-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/597534414",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1076-GTNH/appliedenergistics2-rv3-beta-1076-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1077-GTNH",
+          "changelog": "## What's Changed\n* Fix conflicting reshuffle access defaults by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1669\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1076-GTNH...rv3-beta-1077-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T10:14:49+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1077-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/600616377",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1077-GTNH/appliedenergistics2-rv3-beta-1077-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -67606,7 +67626,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.190",
+      "latest_version": "5.09.54.191",
       "private": false,
       "versions": [
         {
@@ -94528,6 +94548,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/599926400",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.190/gregtech-5.09.54.190.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.191",
+          "changelog": "## What's Changed\n* give FBID automatic flushing functionality with redstone by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8269\n* Revert generics fix, update buildscript and AE2 by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8275\n* Fix GT FluidDisplay NBT by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8276\n* NEI FluidStack migration by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8217\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.190...5.09.54.191\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:38:17+00:00",
+          "filename": "gregtech-5.09.54.191.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/601463071",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.191/gregtech-5.09.54.191.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -120635,7 +120665,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.53",
+      "latest_version": "1.6.57",
       "private": false,
       "versions": [
         {
@@ -121448,6 +121478,46 @@
           "filename": "littletiles-1.6.53.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/573346692",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.53/littletiles-1.6.53.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.54",
+          "changelog": "## What's Changed\n* Hardening by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/171\n* Allow chisel two hit mode to select and move corners with marked hit by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/178\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.53...1.6.54\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:37:06+00:00",
+          "filename": "littletiles-1.6.54.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601461167",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/untagged-832818d5f433231c7be8/littletiles-1.6.54.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.55",
+          "changelog": "## What's Changed\n* Add smooth lighting for cutouts if Angelica is present by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/175\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.54...1.6.55\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:44:16+00:00",
+          "filename": "littletiles-1.6.55.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601473457",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/untagged-93f6f76d7dfca054d9f4/littletiles-1.6.55.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.56",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.55...1.6.56\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:58:20+00:00",
+          "filename": "littletiles-1.6.56.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601498213",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/untagged-b646f5b0572798d26b35/littletiles-1.6.56.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.57",
+          "changelog": "## What's Changed\n* Hardening by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/171\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.53...1.6.57\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T18:21:01+00:00",
+          "filename": "littletiles-1.6.57.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601534017",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.57/littletiles-1.6.57.jar",
           "extra_assets": []
         }
       ],
@@ -157093,7 +157163,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.12.63-GTNH",
+      "latest_version": "1.12.64-GTNH",
       "private": false,
       "versions": [
         {
@@ -158784,6 +158854,16 @@
           "filename": "OpenComputers-1.12.63-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/596255191",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.63-GTNH/OpenComputers-1.12.63-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.64-GTNH",
+          "changelog": "## What's Changed\n* Raise default max signal queue size to 1024 by @shironakoushi in https://github.com/GTNewHorizons/OpenComputers/pull/226\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.63-GTNH...1.12.64-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:38:05+00:00",
+          "filename": "OpenComputers-1.12.64-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/601462726",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.64-GTNH/OpenComputers-1.12.64-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -179273,7 +179353,7 @@
     },
     {
       "name": "ThaumicHorizons",
-      "latest_version": "1.8.25",
+      "latest_version": "1.8.26",
       "private": false,
       "versions": [
         {
@@ -180025,6 +180105,16 @@
           "filename": "ThaumicHorizons-1.8.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicHorizons/releases/assets/571286354",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.8.25/ThaumicHorizons-1.8.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.26",
+          "changelog": "## What's Changed\n* Fix Synthskin draining Nutrition while the hunger bar is full by @micvog in https://github.com/GTNewHorizons/ThaumicHorizons/pull/148\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/148\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.8.25...1.8.26\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:37:14+00:00",
+          "filename": "ThaumicHorizons-1.8.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicHorizons/releases/assets/601461378",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.8.26/ThaumicHorizons-1.8.26.jar",
           "extra_assets": []
         }
       ],
@@ -181699,7 +181789,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.14.117-GTNH",
+      "latest_version": "1.14.118-GTNH",
       "private": false,
       "versions": [
         {
@@ -184580,6 +184670,16 @@
           "filename": "TConstruct-1.14.117-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/599843224",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.117-GTNH/TConstruct-1.14.117-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.118-GTNH",
+          "changelog": "## What's Changed\n* Backport the Width++ and Height++ expanders from TiC2 by @Aintripin in https://github.com/GTNewHorizons/TinkersConstruct/pull/341\n\n## New Contributors\n* @Aintripin made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/341\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.117-GTNH...1.14.118-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T17:37:30+00:00",
+          "filename": "TConstruct-1.14.118-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/601461747",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.118-GTNH/TConstruct-1.14.118-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -193992,6 +194092,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 762,
-  "latest_successful_daily": 762
+  "latest_daily": 765,
+  "latest_successful_daily": 765
 }
