@@ -13,11 +13,14 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.24
+# Updated - Angelica - 2.2.10 --> 2.2.25
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.24
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.25
 
 ## What's Changed:
+>* Fix async atlas with KaizPatchX by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2175 (2.2.25)
+>* Fix shadow pass receiving a full-bright lightmap constant and misreporting terrain renderStage by @zerosignal0101 in https://github.com/GTNewHorizons/Angelica/pull/2170 (2.2.25)
+>* Dark mode text recoloring with resource packs configs by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/2118 (2.2.25)
 >* Various font improvements and fixes by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/2165 (2.2.24)
 >* Fix held and dropped blocks rendering off-center (snow golem pumpkin) by @micvog in https://github.com/GTNewHorizons/Angelica/pull/2164 (2.2.24)
 >* Parallelize atlas loading and fix SDL-GPU mip-level targets by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2167 (2.2.24)
@@ -192,10 +195,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix Screen Lighting by @slprime in https://github.com/GTNewHorizons/Binnie/pull/120 (2.6.48)
 
-# Updated - BlockRenderer6343 - 1.4.21 --> 1.4.23
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.21...1.4.23
+# Updated - BlockRenderer6343 - 1.4.21 --> 1.4.24
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.21...1.4.24
 
 ## What's Changed:
+>* Fix incorrect PCB Factory hatch highlight by @DreamYao520 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/66 (1.4.24)
 >* Change methods to static in ConstructableData by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/65 (1.4.23)
 >* use new gt api by @danyadev in https://github.com/GTNewHorizons/BlockRenderer6343/pull/64 (1.4.22)
 >* expose some variables for access for guidenh by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/63 (1.4.22)
@@ -341,10 +345,16 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.191
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.191
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.192
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.192
 
 ## What's Changed:
+>* Fix NAC power routing issues on non-laser hatches by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8274 (5.09.54.192)
+>* Name the Rock Breaker free item from a lang key on display by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8258 (5.09.54.192)
+>* Name wildcard blocks through one lang key instead of GTLanguageManager by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8252 (5.09.54.192)
+>* show recipe stackstace on hover by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8212 (5.09.54.192)
+>* Fix NAC color separation not working properly by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8271 (5.09.54.192)
+>* Fix NAC calibration saving issues by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8280 (5.09.54.192)
 >* give FBID automatic flushing functionality with redstone by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8269 (5.09.54.191)
 >* Revert generics fix, update buildscript and AE2 by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8275 (5.09.54.191)
 >* Fix GT FluidDisplay NBT by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8276 (5.09.54.191)
@@ -718,10 +728,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Block opening a backpack another player already has open by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/38 (2.6.18-GTNH)
 
-# Updated - ModularUI2 - 2.3.88-1.7.10 --> 2.3.91-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.88-1.7.10...2.3.91-1.7.10
+# Updated - ModularUI2 - 2.3.88-1.7.10 --> 2.3.92-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.88-1.7.10...2.3.92-1.7.10
 
 ## What's Changed:
+>* give slider widgets the ability to scroll to change values by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/167 (2.3.92-1.7.10)
 >* Disable visual debugging by default by @Worive in https://github.com/GTNewHorizons/ModularUI2/pull/163 (2.3.90-1.7.10)
 >* Fix overlay text input and tooltip rendering by @Pxx500 in https://github.com/GTNewHorizons/ModularUI2/pull/158 (2.3.89-1.7.10)
 
@@ -737,10 +748,12 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.81
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.81
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.82
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.82
 
 ## What's Changed:
+>* Remove furnace charcoal recipes for Fether and Extra Trees logs by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1982 (2.9.82)
+>* Fix/futurum stripped logs to planks by @vakus in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1952 (2.9.82)
 >* Fix UEV circuit recycling drops by @Worive in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1979 (2.9.81)
 >* Fix bookshelf assembler recipes for modded planks by using oredict and adding circuit by @Ressed in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1977 (2.9.81)
 >* Remove Lootbag Upgrade Assembler Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1978 (2.9.80)
@@ -1012,4 +1025,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @s-yh-china, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @YannickMG, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @s-yh-china, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @YannickMG, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

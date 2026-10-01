@@ -15950,7 +15950,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.24",
+      "latest_version": "2.2.25",
       "private": false,
       "versions": [
         {
@@ -18391,6 +18391,16 @@
           "filename": "angelica-2.2.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/600176519",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.24/angelica-2.2.24.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.25",
+          "changelog": "## What's Changed\n* Fix async atlas with KaizPatchX by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2175\n* Fix shadow pass receiving a full-bright lightmap constant and misreporting terrain renderStage by @zerosignal0101 in https://github.com/GTNewHorizons/Angelica/pull/2170\n* Dark mode text recoloring with resource packs configs by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/2118\n\n## New Contributors\n* @zerosignal0101 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/2170\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.24...2.2.25\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T04:27:51+00:00",
+          "filename": "angelica-2.2.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/602431878",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.25/angelica-2.2.25.jar",
           "extra_assets": []
         }
       ],
@@ -37916,7 +37926,7 @@
     },
     {
       "name": "BlockRenderer6343",
-      "latest_version": "1.4.23",
+      "latest_version": "1.4.24",
       "private": false,
       "versions": [
         {
@@ -38728,6 +38738,16 @@
           "filename": "blockrenderer6343-1.4.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/578165958",
           "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.4.23/blockrenderer6343-1.4.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.24",
+          "changelog": "## What's Changed\n* Fix incorrect PCB Factory hatch highlight by @DreamYao520 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/66\n\n## New Contributors\n* @DreamYao520 made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/66\n\n**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.23...1.4.24\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T01:37:21+00:00",
+          "filename": "blockrenderer6343-1.4.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/602187375",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.4.24/blockrenderer6343-1.4.24.jar",
           "extra_assets": []
         }
       ],
@@ -67626,7 +67646,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.191",
+      "latest_version": "5.09.54.192",
       "private": false,
       "versions": [
         {
@@ -94557,6 +94577,16 @@
           "filename": "gregtech-5.09.54.191.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/601463071",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.191/gregtech-5.09.54.191.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.192",
+          "changelog": "## What's Changed\n* Fix NAC power routing issues on non-laser hatches by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8274\n* Name the Rock Breaker free item from a lang key on display by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8258\n* Name wildcard blocks through one lang key instead of GTLanguageManager by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8252\n* show recipe stackstace on hover by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8212\n* Fix NAC color separation not working properly by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8271\n* Fix NAC calibration saving issues by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8280\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.191...5.09.54.192\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-30T23:22:47+00:00",
+          "filename": "gregtech-5.09.54.192.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/601995893",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.192/gregtech-5.09.54.192.jar",
           "extra_assets": []
         }
       ],
@@ -132394,7 +132424,7 @@
     },
     {
       "name": "ModularUI2",
-      "latest_version": "2.3.91-1.7.10",
+      "latest_version": "2.3.92-1.7.10",
       "private": false,
       "versions": [
         {
@@ -133807,6 +133837,16 @@
           "filename": "modularui2-2.3.91-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/571255967",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.91-1.7.10/modularui2-2.3.91-1.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.92-1.7.10",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.92-1.7.10 -->\n\n## What's Changed\n* give slider widgets the ability to scroll to change values by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/167\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.91-1.7.10...2.3.92-1.7.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T01:16:04+00:00",
+          "filename": "modularui2-2.3.92-1.7.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/602144828",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.92-1.7.10/modularui2-2.3.92-1.7.10.jar",
           "extra_assets": []
         }
       ],
@@ -136902,7 +136942,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.81",
+      "latest_version": "2.9.82",
       "private": false,
       "versions": [
         {
@@ -149273,6 +149313,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.81.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/599870424",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.81/GTNewHorizonsCoreMod-2.9.81.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.82",
+          "changelog": "## What's Changed\n* Remove furnace charcoal recipes for Fether and Extra Trees logs by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1982\n* Fix/futurum stripped logs to planks by @vakus in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1952\n\n## New Contributors\n* @vakus made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1952\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.81...2.9.82\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T01:40:49+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.82.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/602192733",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.82/GTNewHorizonsCoreMod-2.9.82.jar",
           "extra_assets": []
         }
       ],
@@ -194092,6 +194142,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 765,
-  "latest_successful_daily": 765
+  "latest_daily": 766,
+  "latest_successful_daily": 766
 }
