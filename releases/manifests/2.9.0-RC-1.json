@@ -1,8 +1,8 @@
 {
-  "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-10-01T10:19:27.389551+00:00",
-  "config": "2.9.0-nightly-2026-09-30-02",
+  "version": "2.9.0-RC-1",
+  "last_version": "2.8.4",
+  "last_updated": "2026-09-24T22:54:30.021311+00:00",
+  "config": "2.9.0-RC-1",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -25,11 +25,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1077-GTNH",
+      "version": "rv3-beta-1073-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.18",
+      "version": "1.12.17",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.4.8",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.14",
+      "version": "1.9.13",
       "side": "BOTH"
     },
     "Botania": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.48",
+      "version": "2.10.46",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.4.7",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.143-GTNH",
+      "version": "1.1.142-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.192",
+      "version": "5.09.54.183",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.52",
+      "version": "0.11.51",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.212",
+      "version": "2.7.211",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.57",
+      "version": "1.6.53",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.18-GTNH",
+      "version": "2.6.17-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.82",
+      "version": "2.9.76",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.153-GTNH",
+      "version": "2.8.145-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.64-GTNH",
+      "version": "1.12.62-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.46-GTNH",
+      "version": "4.12.44-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.7.8",
+      "version": "3.7.7",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -489,11 +489,11 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.61-GTNH",
+      "version": "1.7.60-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.26",
+      "version": "1.8.25",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -509,7 +509,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.118-GTNH",
+      "version": "1.14.115-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.43",
+      "version": "2.7.42",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -589,7 +589,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.24",
+      "version": "1.4.23",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.25",
+      "version": "2.2.19",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.2.7",
+      "version": "1.2.6",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.61-GTNH",
+      "version": "0.1.59-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.16",
+      "version": "1.8.15",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.101",
+      "version": "0.4.100",
       "side": "BOTH"
     },
     "Freecam": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.134",
+      "version": "2.0.129",
       "side": "BOTH"
     },
     "Fether": {
@@ -813,7 +813,7 @@
       "side": "CLIENT"
     },
     "ThaumicMachina": {
-      "version": "0.2.6-GTNH",
+      "version": "0.2.5-GTNH",
       "side": "BOTH"
     },
     "JarJar": {
@@ -825,11 +825,11 @@
       "side": "BOTH"
     },
     "GTNHExtLib": {
-      "version": "1.0.5",
+      "version": "1.0.4",
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.40",
+      "version": "1.3.36",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
@@ -837,7 +837,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.92-1.7.10",
+      "version": "2.3.91-1.7.10",
       "side": "BOTH"
     },
     "Navigator": {
