@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-09-30-02",
+    "latest_version": "2.9.0-nightly-2026-10-01",
     "needs_attention": false,
     "versions": [
       {
@@ -8013,6 +8013,16 @@
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/601461482",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-09-30-02/2.9.0-nightly-2026-09-30-02.zip",
         "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-01",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-01T20:02:57+00:00",
+        "filename": "2.9.0-nightly-2026-10-01.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/604035751",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-01/2.9.0-nightly-2026-10-01.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
@@ -9212,7 +9222,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.5.110-gtnh",
+      "latest_version": "1.5.111-gtnh",
       "private": false,
       "versions": [
         {
@@ -14044,6 +14054,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/573290381",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.5.110-gtnh/ae2fc-1.5.110-gtnh.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.111-gtnh",
+          "changelog": "## What's Changed\n* Rename (fluid) Encoded Pattern to Fluid Processing Pattern by @shironakoushi in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/473\n\n## New Contributors\n* @shironakoushi made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/473\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.110-gtnh...1.5.111-gtnh\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T19:59:05+00:00",
+          "filename": "ae2fc-1.5.111-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/604029582",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.5.111-gtnh/ae2fc-1.5.111-gtnh.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -15950,7 +15970,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.25",
+      "latest_version": "2.2.26",
       "private": false,
       "versions": [
         {
@@ -18402,6 +18422,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/602431878",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.25/angelica-2.2.25.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.26",
+          "changelog": "## What's Changed\n* Improve biome blending and improve compat by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2180\n* Internal format fix by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/2179\n* Add more targets for darkmode transformer by @Ranzuu in https://github.com/GTNewHorizons/Angelica/pull/2178\n* Improve shader support for custom block rendering by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2176\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.25...2.2.26\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-02T05:44:23+00:00",
+          "filename": "angelica-2.2.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/604907505",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.26/angelica-2.2.26.jar",
+          "extra_assets": []
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -18943,7 +18973,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1077-GTNH",
+      "latest_version": "rv3-beta-1078-GTNH",
       "private": false,
       "versions": [
         {
@@ -28304,6 +28334,16 @@
           "filename": "appliedenergistics2-rv3-beta-1077-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/600616377",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1077-GTNH/appliedenergistics2-rv3-beta-1077-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1078-GTNH",
+          "changelog": "## What's Changed\n* Copy terminal type filters with memory cards by @DreamYao520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1670\n* Fix Advanced Network Tool slots overflowing in Inscriber and Crystal Growth Chamber by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1640\n* Open the crafting amount screen for out-of-stock pick-block items by @Jesse-njx in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1661\n* Restore replacing block with cable parts by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1654\n* Fix NEI search overlays rendering on hidden slots by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1674\n* perf(crafting): reduce repeated dispatch overhead by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1671\n* Rename pattern items to match the Pattern Terminal by @shironakoushi in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1678\n* Fix pattern terminal focus by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1673\n* Allow configuring reshuffler access on ME storage buses by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1659\n* Fix Advanced Inscriber crash with IC2 by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1677\n* Fix NEI recipe transfer for wildcard metadata ingredients by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1676\n* Skip EnderIO conduits and GT pipes when naming interfaces by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1668\n\n## New Contributors\n* @Jesse-njx made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1661\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1077-GTNH...rv3-beta-1078-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T19:59:54+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1078-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/604031062",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1078-GTNH/appliedenergistics2-rv3-beta-1078-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -42512,7 +42552,7 @@
     },
     {
       "name": "BuildCraft",
-      "latest_version": "7.1.63",
+      "latest_version": "7.1.64",
       "private": false,
       "versions": [
         {
@@ -42914,6 +42954,16 @@
           "filename": "buildcraft-7.1.63.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/495934178",
           "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.63/buildcraft-7.1.63.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "7.1.64",
+          "changelog": "## What's Changed\n* expose some variables for access for guidenh by @ABKQPO in https://github.com/GTNewHorizons/BuildCraft/pull/36\n\n## New Contributors\n* @ABKQPO made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/36\n\n**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.63...7.1.64\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-02T03:50:11+00:00",
+          "filename": "buildcraft-7.1.64.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/604747422",
+          "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.64/buildcraft-7.1.64.jar",
           "extra_assets": []
         }
       ],
@@ -67646,7 +67696,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.192",
+      "latest_version": "5.09.54.195",
       "private": false,
       "versions": [
         {
@@ -94588,6 +94638,36 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/601995893",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.192/gregtech-5.09.54.192.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.193",
+          "changelog": "## What's Changed\n* Void miner tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8265\n* aal cal assline tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8264\n* Keep the configured batch mode default when placing a multiblock with item NBT by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8281\n* Move remaining creative tab, enchantment, fluid and comb names into the asset lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8254\n* Add a cooldown to NAC module running on changing ratio by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8282\n* remove kubatech locale mixin by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8209\n* Make Warded Glass EV-tier by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8277\n* add scroll option to nac power slider by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8290\n* Use latin Bio Vat culture names and drop the unused latin tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8279\n* Remove unused world-aware getIcon overrides from casing blocks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8289\n* Add configurable refresh time to ME output hatches and buses by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8106\n* Translate structure subchannel names by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8286\n* Fusion tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8242\n* Translate multiblock tooltip labels per builder instead of once at class load by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8285\n* [BEC] Fix BEC entangle apparatus's EU consumption & change its logic by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7992\n* Add direct electrolysis for liquid calcium fluoride by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8199\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.192...5.09.54.193\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T20:02:53+00:00",
+          "filename": "gregtech-5.09.54.193.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/604035598",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.193/gregtech-5.09.54.193.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.194",
+          "changelog": "## What's Changed\n* add ability to use data stick / mm to copy foundry data by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8291\n* improve the eoh tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8216\n* Improve Godforge info panel by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8294\n* [BEC] Casing Recipe Adjustments by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8182\n* Fix IsaMill front texture missing on casings around the controller by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.193...5.09.54.194\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-02T02:56:04+00:00",
+          "filename": "gregtech-5.09.54.194.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/604670930",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.194/gregtech-5.09.54.194.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.195",
+          "changelog": "## What's Changed\n* Add TooltipHelper.anyCasingText and use it in markdown multiblocks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8292\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.194...5.09.54.195\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-02T07:02:17+00:00",
+          "filename": "gregtech-5.09.54.195.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/605026293",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.195/gregtech-5.09.54.195.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -120695,7 +120775,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.57",
+      "latest_version": "1.6.58",
       "private": false,
       "versions": [
         {
@@ -121548,6 +121628,16 @@
           "filename": "littletiles-1.6.57.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601534017",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.57/littletiles-1.6.57.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.58",
+          "changelog": "## What's Changed\n* Deformable boxes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/169\n* Fix raytrace to allow placing tiles against shapes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/184\n* Add undo/redo keys by @S4mpsa in https://github.com/GTNewHorizons/LittleTiles/pull/141\n* Allow chisel two hit mode to select and move corners with marked hit - #178 by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/185\n* Threadsafety fixes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/159\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.57...1.6.58\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T19:59:28+00:00",
+          "filename": "littletiles-1.6.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/604030288",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.58/littletiles-1.6.58.jar",
           "extra_assets": []
         }
       ],
@@ -135616,7 +135706,7 @@
     },
     {
       "name": "nei-custom-diagram",
-      "latest_version": "1.8.35",
+      "latest_version": "1.8.36",
       "private": false,
       "versions": [
         {
@@ -136439,6 +136529,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/nei-custom-diagram/releases/assets/562822464",
           "browser_download_url": "https://github.com/GTNewHorizons/nei-custom-diagram/releases/download/1.8.35/NEICustomDiagram-1.8.35.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.36",
+          "changelog": "## What's Changed\n* Fixed search for GT fluids by @slprime in https://github.com/GTNewHorizons/nei-custom-diagram/pull/82\n* expose some variables for access for guidenh by @ABKQPO in https://github.com/GTNewHorizons/nei-custom-diagram/pull/81\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.8.35...1.8.36\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-02T02:53:21+00:00",
+          "filename": "NEICustomDiagram-1.8.36.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/nei-custom-diagram/releases/assets/604667372",
+          "browser_download_url": "https://github.com/GTNewHorizons/nei-custom-diagram/releases/download/1.8.36/NEICustomDiagram-1.8.36.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -136942,7 +137042,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.82",
+      "latest_version": "2.9.83",
       "private": false,
       "versions": [
         {
@@ -149324,6 +149424,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/602192733",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.82/GTNewHorizonsCoreMod-2.9.82.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.83",
+          "changelog": "## What's Changed\n* Add illumar buttons to assembler by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1983\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.82...2.9.83\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T19:58:34+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.83.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/604028836",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.83/GTNewHorizonsCoreMod-2.9.83.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -150646,7 +150756,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.153-GTNH",
+      "latest_version": "2.8.155-GTNH",
       "private": false,
       "versions": [
         {
@@ -155538,6 +155648,26 @@
           "filename": "NotEnoughItems-2.8.153-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/599804592",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.153-GTNH/NotEnoughItems-2.8.153-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.154-GTNH",
+          "changelog": "## What's Changed\n* Fix Subset Width Calculation by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1058\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.153-GTNH...2.8.154-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T20:33:24+00:00",
+          "filename": "NotEnoughItems-2.8.154-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/604084847",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.154-GTNH/NotEnoughItems-2.8.154-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.155-GTNH",
+          "changelog": "## What's Changed\n* Add Custom Renderer API for Fluids by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1059\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.154-GTNH...2.8.155-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-02T02:42:19+00:00",
+          "filename": "NotEnoughItems-2.8.155-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/604652271",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.155-GTNH/NotEnoughItems-2.8.155-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -176095,7 +176225,7 @@
     },
     {
       "name": "Thaumic_Exploration",
-      "latest_version": "1.5.28-GTNH",
+      "latest_version": "1.5.29-GTNH",
       "private": false,
       "versions": [
         {
@@ -176777,6 +176907,16 @@
           "filename": "Thaumic-Exploration-1.5.28-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Thaumic_Exploration/releases/assets/537294197",
           "browser_download_url": "https://github.com/GTNewHorizons/Thaumic_Exploration/releases/download/1.5.28-GTNH/Thaumic-Exploration-1.5.28-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.29-GTNH",
+          "changelog": "## What's Changed\n* Fix Everburn Urn tank capacity and remove broken WAILA lava line by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/65\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.5.28-GTNH...1.5.29-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-01T19:57:54+00:00",
+          "filename": "Thaumic-Exploration-1.5.29-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Thaumic_Exploration/releases/assets/604027554",
+          "browser_download_url": "https://github.com/GTNewHorizons/Thaumic_Exploration/releases/download/1.5.29-GTNH/Thaumic-Exploration-1.5.29-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -194142,6 +194282,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 766,
-  "latest_successful_daily": 766
+  "latest_daily": 767,
+  "latest_successful_daily": 767
 }
