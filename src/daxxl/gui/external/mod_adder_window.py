@@ -175,9 +175,6 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):
         except ValueError:
             pass
 
-        if download_url.startswith("http://") or download_url.startswith("https://"):
-            check_results["download_url"] = True
-
         return check_results
 
     async def add_mod_and_version(self) -> None:
