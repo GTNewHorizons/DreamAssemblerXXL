@@ -67704,7 +67704,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.199",
+      "latest_version": "5.09.54.201",
       "private": false,
       "versions": [
         {
@@ -94716,6 +94716,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/607430076",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.199/gregtech-5.09.54.199.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.200",
+          "changelog": "## What's Changed\n* Sync the Russian IMS tooltip with the merged English text by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8305\n* Unify: Give the Circuit Assembler the standard tier names by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8268\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.199...5.09.54.200\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-03T09:21:13+00:00",
+          "filename": "gregtech-5.09.54.200.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/607521723",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.200/gregtech-5.09.54.200.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.201",
+          "changelog": "## What's Changed\n* Unify circuit tooltips to match their tiers by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8307\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.200...5.09.54.201\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-03T10:54:15+00:00",
+          "filename": "gregtech-5.09.54.201.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/607651329",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.201/gregtech-5.09.54.201.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -106848,7 +106868,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.212",
+      "latest_version": "2.7.213",
       "private": false,
       "versions": [
         {
@@ -113109,6 +113129,16 @@
           "filename": "hodgepodge-2.7.212.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/591413307",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.212/hodgepodge-2.7.212.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.213",
+          "changelog": "## What's Changed\n* Fix chunks loading outdated data while their save is being written by @micvog in https://github.com/GTNewHorizons/Hodgepodge/pull/1018\n* Fix bed height overflow on multiplayer by @DreamYao520 in https://github.com/GTNewHorizons/Hodgepodge/pull/1016\n* fix reactor crash by @MarloGr in https://github.com/GTNewHorizons/Hodgepodge/pull/1022\n* Fix BOP generating vanilla emerald ore regardless of config by @Ressed in https://github.com/GTNewHorizons/Hodgepodge/pull/1014\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/1018\n* @DreamYao520 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/1016\n* @MarloGr made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/1022\n* @Ressed made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/1014\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.212...2.7.213\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-03T10:52:51+00:00",
+          "filename": "hodgepodge-2.7.213.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/607649620",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.213/hodgepodge-2.7.213.jar",
           "extra_assets": []
         }
       ],
@@ -178645,7 +178675,7 @@
     },
     {
       "name": "ThaumicEnergistics",
-      "latest_version": "1.7.62-GTNH",
+      "latest_version": "1.7.63-GTNH",
       "private": false,
       "versions": [
         {
@@ -179908,6 +179938,16 @@
           "filename": "thaumicenergistics-1.7.62-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/606362090",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.7.62-GTNH/thaumicenergistics-1.7.62-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.63-GTNH",
+          "changelog": "## What's Changed\n* Fix Arcane Assembler dividing by zero on patterns with a zero-size ingredient (Warded Glass) by @micvog in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/144\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/144\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.62-GTNH...1.7.63-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-03T10:52:40+00:00",
+          "filename": "thaumicenergistics-1.7.63-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/607649393",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.7.63-GTNH/thaumicenergistics-1.7.63-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -194656,6 +194696,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 769,
-  "latest_successful_daily": 769
+  "latest_daily": 771,
+  "latest_successful_daily": 771
 }

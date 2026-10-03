@@ -1,3 +1,6 @@
+# New Mods: 
+> * Nei-Recipe-Panels
+> * TaskNH
 # Updated - AE2FluidCraft-Rework - 1.5.106-gtnh --> 1.5.111-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.5.106-gtnh...1.5.111-gtnh
 
@@ -384,10 +387,13 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.199
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.199
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.201
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.201
 
 ## What's Changed:
+>* Unify circuit tooltips to match their tiers by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8307 (5.09.54.201)
+>* Sync the Russian IMS tooltip with the merged English text by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8305 (5.09.54.200)
+>* Unify: Give the Circuit Assembler the standard tier names by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8268 (5.09.54.200)
 >* improve pgs tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8201 (5.09.54.199)
 >* Industrial Maceration Stack: show controller tier and localize the tooltip by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8283 (5.09.54.199)
 >* Beam Crafter - Allow particle buffering with no active recipe by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8303 (5.09.54.199)
@@ -705,10 +711,14 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix baby Enderman item duplication by @Worive in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/49 (1.12.28-GTNH)
 
-# Updated - Hodgepodge - 2.7.196 --> 2.7.212
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.212
+# Updated - Hodgepodge - 2.7.196 --> 2.7.213
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.213
 
 ## What's Changed:
+>* Fix chunks loading outdated data while their save is being written by @micvog in https://github.com/GTNewHorizons/Hodgepodge/pull/1018 (2.7.213)
+>* Fix bed height overflow on multiplayer by @DreamYao520 in https://github.com/GTNewHorizons/Hodgepodge/pull/1016 (2.7.213)
+>* fix reactor crash by @MarloGr in https://github.com/GTNewHorizons/Hodgepodge/pull/1022 (2.7.213)
+>* Fix BOP generating vanilla emerald ore regardless of config by @Ressed in https://github.com/GTNewHorizons/Hodgepodge/pull/1014 (2.7.213)
 >* Fix Flatworld Customization NPE by @Eclipse-Sol in https://github.com/GTNewHorizons/Hodgepodge/pull/956 (2.7.212)
 >* Override the player inventory layout with moved crafting grid and new texture by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/1009 (2.7.211)
 >* Skip unchanged forced chunk saves by @Algent in https://github.com/GTNewHorizons/Hodgepodge/pull/1008 (2.7.210)
@@ -827,6 +837,13 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# New Mod - Nei-Recipe-Panels:0.3.0
+**Full Changelog**: https://github.com/GTNewHorizons/Nei-Recipe-Panels/commits/0.3.0/compare/0.3.0...0.3.0
+
+## What's Changed:
+>* sync with main repo by @K44tz in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/1 (0.3.0)
+>* chore(build): remove unused starter files by @Worive in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/2 (0.3.0)
+
 # Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.83
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.83
 
@@ -998,10 +1015,69 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ThaumicEnergistics - 1.7.60-GTNH --> 1.7.62-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.60-GTNH...1.7.62-GTNH
+# New Mod - TaskNH:0.14.0
+**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.5.0...0.14.0
 
 ## What's Changed:
+>* Rename checklist items by double-clicking their title by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/52 (0.14.0)
+>* Ask how many multiblocks to plan when adding one from NEI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/53 (0.14.0)
+>* Fit task titles in the list to the row width instead of 21 characters by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/54 (0.14.0)
+>* Fix NEI recipe screen crash with NEI 2.8.150 by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/48 (0.13.1)
+>* Fix new and moved tasks showing at the wrong spot in the list by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/49 (0.13.1)
+>* Move tasks closed by /tasknh done or auto-complete to the end of Done by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/50 (0.13.1)
+>* Declare TaskNH dependencies so FML reports missing or outdated mods by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/51 (0.13.1)
+>* Show subtasks on the HUD and hide done tasks from it by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/47 (0.13.0)
+>* Keep the parent's scroll position when returning from a subtask by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/38 (0.12.0)
+>* Show a hint to invite players when you are alone in your team by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/40 (0.12.0)
+>* Show tracked item icons and counts on the HUD by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/39 (0.12.0)
+>* Accept math expressions in the tracked item count field by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/41 (0.12.0)
+>* Add a Create Task button to the new task form by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/42 (0.12.0)
+>* Hide Assignees in closed singleplayer worlds by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/43 (0.12.0)
+>* update by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/44 (0.12.0)
+>* Add multiblocks to TaskNH from the NEI structure preview by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/45 (0.12.0)
+>* Update the README for recent changes by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/46 (0.12.0)
+>* Add Auto-done: complete a task once its checklist is fully checked by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/36 (0.11.0)
+>* Track items on checklist items and carry quest items into them by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/37 (0.11.0)
+>* Fold all subtasks or only done ones from one button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/32 (0.10.0)
+>* Clear the task list when leaving a server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/33 (0.10.0)
+>* Keep pins and folds separate per world by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/34 (0.10.0)
+>* Show pinned tasks on the HUD in the task list order by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/35 (0.10.0)
+>* Fix reorder showing one reopen late by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/31 (0.9.2)
+>* Fix server crash on join with item tracking by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/29 (0.9.1)
+>* Fix player head rendering in the Task GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/18 (0.9.0)
+>* Add manual task ordering with drag and drop by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/20 (0.9.0)
+>* Open task icon recipes in NEI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/23 (0.9.0)
+>* Hide done subtasks in the task list by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/25 (0.9.0)
+>* Complete a task by tracked item count by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/26 (0.9.0)
+>* Keep item NBT on task icons and tracking by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/28 (0.9.0)
+>* Support line breaks in tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/21 (0.8.5)
+>* Block assignee selection until the task has a title by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/19 (0.8.5)
+>* Make the remind cooldown configurable by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/24 (0.8.4)
+>* Fix server crash when changing dimension with item tracking by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/22 (0.8.4)
+>* Quiet down the task GUI logging by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/27 (0.8.3)
+>* Fix search field losing focus after each typed character by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/15 (0.8.2)
+>* Fix ColorUtils class by @Ranzuu in https://github.com/GTNewHorizons/TaskNH/pull/17 (0.8.2)
+>* Reload the open task GUI on /reloadThemes by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/16 (0.8.2)
+>* Limit text field length in the Task GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/14 (0.8.1)
+>* Add item tracking to auto-complete tasks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/11 (0.8.0)
+>* Fix jumping rows and lost focus when editing a task by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/12 (0.8.0)
+>* Add one level of subtasks under a task by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/13 (0.8.0)
+>* Preserve list scroll position across GUI rebuilds by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/10 (0.7.1)
+>* Update Navigator integration with JourneyMap 6 support by @Algent in https://github.com/GTNewHorizons/TaskNH/pull/8 (0.7.0)
+>* Bq optional dependency by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/9 (0.7.0)
+>* Rename mod from Foreman to TaskNH by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/6 (0.6.0)
+>* Migrate task and HUD data from pre-rename storage keys by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/7 (0.6.0)
+>* Add subtasks with Enter by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/4 (0.5.4)
+>* Hint that the icon slot accepts NEI items by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/5 (0.5.4)
+>* Per-subcommand permissions with ServerUtilities soft-dep by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/2 (0.5.3)
+>* use SUN/MOON icons for theme toggle button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/3 (0.5.2)
+>* Add ColorUtils using GTNHLib ColorResource by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/1 (0.5.1)
+
+# Updated - ThaumicEnergistics - 1.7.60-GTNH --> 1.7.63-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.60-GTNH...1.7.63-GTNH
+
+## What's Changed:
+>* Fix Arcane Assembler dividing by zero on patterns with a zero-size ingredient (Warded Glass) by @micvog in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/144 (1.7.63-GTNH)
 >* Show vis interface links in Waila by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/142 (1.7.62-GTNH)
 >* Fix: set worked flag for essential import bus by @Ressed in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/143 (1.7.61-GTNH)
 
@@ -1117,4 +1193,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @s-yh-china, @S4mpsa, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @YannickMG, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Eldrinn-Elantey, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @ham-corp, @hensmth, @hinyb, @hxync, @JamesOBrien2, @Jarnexis, @Jesse-njx, @JustRomanBZK, @K44tz, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Nana-Sakura, @Naos65, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @s-yh-china, @S4mpsa, @serenibyss, @ShadowReaper420, @shironakoushi, @slprime, @Spaghetti-OberNub, @StaffiX, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @YannickMG, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
