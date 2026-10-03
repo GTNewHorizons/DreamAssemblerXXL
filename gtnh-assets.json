@@ -14081,38 +14081,6 @@
       "side": "BOTH"
     },
     {
-      "name": "AE2NoUltimatePatterns",
-      "latest_version": "1.0.1",
-      "private": false,
-      "versions": [
-        {
-          "version_tag": "1.0.0",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2NoUltimatePatterns/commits/1.0.0\n",
-          "prerelease": false,
-          "tagged_at": "2025-06-21T08:34:18+00:00",
-          "filename": "ae2noultimatepatterns-1.0.0.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2NoUltimatePatterns/releases/assets/265972972",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2NoUltimatePatterns/releases/download/1.0.0/ae2noultimatepatterns-1.0.0.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/AE2NoUltimatePatterns/1.0.0/AE2NoUltimatePatterns-1.0.0.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.0.1",
-          "changelog": "## What's Changed\n* Give a package to the mod instead of having everything sitting at root by @Alexdoru in https://github.com/GTNewHorizons/AE2NoUltimatePatterns/pull/1\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2NoUltimatePatterns/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2NoUltimatePatterns/compare/1.0.0...1.0.1\n",
-          "prerelease": false,
-          "tagged_at": "2025-08-13T16:01:41+00:00",
-          "filename": "ae2noultimatepatterns-1.0.1.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2NoUltimatePatterns/releases/assets/282196539",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2NoUltimatePatterns/releases/download/1.0.1/ae2noultimatepatterns-1.0.1.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/AE2NoUltimatePatterns/1.0.1/AE2NoUltimatePatterns-1.0.1.jar",
-          "extra_assets": []
-        }
-      ],
-      "license": "MIT",
-      "repo_url": "https://github.com/GTNewHorizons/AE2NoUltimatePatterns",
-      "side": "NONE"
-    },
-    {
       "name": "ae2stuff",
       "latest_version": "0.10.19-GTNH",
       "private": false,
@@ -136828,6 +136796,15 @@
       "side": "BOTH"
     },
     {
+      "name": "nei-recipe-panels",
+      "latest_version": "<unknown>",
+      "private": false,
+      "versions": [],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/nei-recipe-panels",
+      "side": "BOTH"
+    },
+    {
       "name": "NEI-Utilities",
       "latest_version": "0.1.10",
       "private": false,
@@ -136845,7 +136822,7 @@
       ],
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/NEI-Utilities",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "neiaddons",
@@ -164017,6 +163994,31 @@
       "side": "BOTH"
     },
     {
+      "name": "Salis Arcana",
+      "latest_version": "2.7.0",
+      "versions": [
+        {
+          "version_tag": "2.7.0",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-10-03T11:13:43.046564",
+          "filename": "salisarcana-v2.7.0.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/8926/401/salisarcana-v2.7.0.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/salis-arcana/files/8926401",
+          "curse_file": {
+            "project_no": "1162488",
+            "file_no": "8926401"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/salis-arcana/",
+      "project_id": "1162488",
+      "disabled": false
+    },
+    {
       "name": "Salis-Arcana",
       "latest_version": "1.1.71-GTNH",
       "private": false,
@@ -164714,7 +164716,7 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Salis-Arcana",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "SC2",
@@ -172232,6 +172234,246 @@
       ],
       "license": "CC-BY-NC-ND-4.0",
       "repo_url": "https://github.com/GTNewHorizons/Tainted-Magic",
+      "side": "BOTH"
+    },
+    {
+      "name": "TaskNH",
+      "latest_version": "0.14.0",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "0.5.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Foreman/compare/0.4.4...0.5.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-06-06T15:06:26+00:00",
+          "filename": "foreman-0.5.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/440253796",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.5.0/foreman-0.5.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.1",
+          "changelog": "## What's Changed\n* Add ColorUtils using GTNHLib ColorResource by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/1\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/Foreman/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/Foreman/compare/0.5.0...0.5.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-06-13T15:44:56+00:00",
+          "filename": "foreman-0.5.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/446650589",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.5.1/foreman-0.5.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.2",
+          "changelog": "## What's Changed\n* use SUN/MOON icons for theme toggle button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Foreman/compare/0.5.1...0.5.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-06-24T06:53:58+00:00",
+          "filename": "foreman-0.5.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/456367447",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.5.2/foreman-0.5.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.3",
+          "changelog": "## What's Changed\n* Per-subcommand permissions with ServerUtilities soft-dep by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/2\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Foreman/compare/0.5.2...0.5.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-06-25T05:44:27+00:00",
+          "filename": "foreman-0.5.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/457339648",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.5.3/foreman-0.5.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.4",
+          "changelog": "## What's Changed\n* Add subtasks with Enter by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/4\n* Hint that the icon slot accepts NEI items by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Foreman/pull/5\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Foreman/compare/0.5.3...0.5.4\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-05T15:31:16+00:00",
+          "filename": "foreman-0.5.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/467235515",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.5.4/foreman-0.5.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.0",
+          "changelog": "## What's Changed\n* Rename mod from Foreman to TaskNH by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/6\n* Migrate task and HUD data from pre-rename storage keys by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/7\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.5.4...0.6.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-07-09T04:22:27+00:00",
+          "filename": "tasknh-0.6.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/470993289",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.6.0/tasknh-0.6.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.0",
+          "changelog": "## What's Changed\n* Update Navigator integration with JourneyMap 6 support by @Algent in https://github.com/GTNewHorizons/TaskNH/pull/8\n* Bq optional dependency by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/9\n\n## New Contributors\n* @Algent made their first contribution in https://github.com/GTNewHorizons/TaskNH/pull/8\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.6.0...0.7.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-08-29T21:37:34+00:00",
+          "filename": "tasknh-0.7.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/535766988",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.7.0/tasknh-0.7.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.1",
+          "changelog": "## What's Changed\n* Preserve list scroll position across GUI rebuilds by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/10\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.7.0...0.7.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-02T11:56:41+00:00",
+          "filename": "tasknh-0.7.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/541110576",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.7.1/tasknh-0.7.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.0",
+          "changelog": "## What's Changed\n* Add item tracking to auto-complete tasks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/11\n* Fix jumping rows and lost focus when editing a task by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/12\n* Add one level of subtasks under a task by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.7.1...0.8.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-02T19:40:16+00:00",
+          "filename": "tasknh-0.8.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/541665430",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.8.0/tasknh-0.8.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.1",
+          "changelog": "## What's Changed\n* Limit text field length in the Task GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/14\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.8.0...0.8.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-04T16:52:48+00:00",
+          "filename": "tasknh-0.8.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/544628868",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.8.1/tasknh-0.8.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.2",
+          "changelog": "## What's Changed\n* Fix search field losing focus after each typed character by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/15\n* Fix ColorUtils class by @Ranzuu in https://github.com/GTNewHorizons/TaskNH/pull/17\n* Reload the open task GUI on /reloadThemes by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/16\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/TaskNH/pull/17\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.8.1...0.8.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-05T16:38:06+00:00",
+          "filename": "tasknh-0.8.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/546042316",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.8.2/tasknh-0.8.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.3",
+          "changelog": "## What's Changed\n* Quiet down the task GUI logging by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/27\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.8.2...0.8.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-08T09:26:20+00:00",
+          "filename": "tasknh-0.8.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/550216464",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.8.3/tasknh-0.8.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.4",
+          "changelog": "## What's Changed\n* Make the remind cooldown configurable by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/24\n* Fix server crash when changing dimension with item tracking by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/22\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.8.3...0.8.4\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-08T10:24:17+00:00",
+          "filename": "tasknh-0.8.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/550293725",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.8.4/tasknh-0.8.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.5",
+          "changelog": "## What's Changed\n* Support line breaks in tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/21\n* Block assignee selection until the task has a title by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/19\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.8.4...0.8.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-08T11:09:58+00:00",
+          "filename": "tasknh-0.8.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/550351904",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.8.5/tasknh-0.8.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.0",
+          "changelog": "## What's Changed\n* Fix player head rendering in the Task GUI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/18\n* Add manual task ordering with drag and drop by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/20\n* Open task icon recipes in NEI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/23\n* Hide done subtasks in the task list by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/25\n* Complete a task by tracked item count by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/26\n* Keep item NBT on task icons and tracking by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.8.5...0.9.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-09T14:42:28+00:00",
+          "filename": "tasknh-0.9.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/552956793",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.9.0/tasknh-0.9.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.1",
+          "changelog": "## What's Changed\n* Fix server crash on join with item tracking by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.9.0...0.9.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-09T21:36:17+00:00",
+          "filename": "tasknh-0.9.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/553622388",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.9.1/tasknh-0.9.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.2",
+          "changelog": "## What's Changed\n* Fix reorder showing one reopen late by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/31\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.9.1...0.9.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-10T21:59:08+00:00",
+          "filename": "tasknh-0.9.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/555903125",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.9.2/tasknh-0.9.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.10.0",
+          "changelog": "## What's Changed\n* Fold all subtasks or only done ones from one button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/32\n* Clear the task list when leaving a server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/33\n* Keep pins and folds separate per world by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/34\n* Show pinned tasks on the HUD in the task list order by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/35\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.9.2...0.10.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-14T15:58:33+00:00",
+          "filename": "tasknh-0.10.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/563721797",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.10.0/tasknh-0.10.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.0",
+          "changelog": "## What's Changed\n* Add Auto-done: complete a task once its checklist is fully checked by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/36\n* Track items on checklist items and carry quest items into them by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/37\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.10.0...0.11.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-19T08:53:42+00:00",
+          "filename": "tasknh-0.11.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/574428204",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.11.0/tasknh-0.11.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.12.0",
+          "changelog": "## What's Changed\n* Keep the parent's scroll position when returning from a subtask by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/38\n* Show a hint to invite players when you are alone in your team by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/40\n* Show tracked item icons and counts on the HUD by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/39\n* Accept math expressions in the tracked item count field by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/41\n* Add a Create Task button to the new task form by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/42\n* Hide Assignees in closed singleplayer worlds by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/43\n* update by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/44\n* Add multiblocks to TaskNH from the NEI structure preview by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/45\n* Update the README for recent changes by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.11.0...0.12.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-25T14:08:05+00:00",
+          "filename": "tasknh-0.12.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/588495431",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.12.0/tasknh-0.12.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.13.0",
+          "changelog": "## What's Changed\n* Show subtasks on the HUD and hide done tasks from it by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/47\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.12.0...0.13.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-27T05:04:52+00:00",
+          "filename": "tasknh-0.13.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/592182954",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.13.0/tasknh-0.13.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.13.1",
+          "changelog": "> [!WARNING]\r\n> TaskNH now needs NotEnoughItems 2.8.150-GTNH or newer if NEI is installed. With an older NEI the game stops at the Forge missing mods screen on startup. GTNHLib 0.11.51 and ModularUI2 2.3.91 are also checked on startup now. Without NEI TaskNH runs as before.\r\n\r\n## What's Changed\r\n* Fix NEI recipe screen crash with NEI 2.8.150 by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/48\r\n* Fix new and moved tasks showing at the wrong spot in the list by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/49\r\n* Move tasks closed by /tasknh done or auto-complete to the end of Done by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/50\r\n* Declare TaskNH dependencies so FML reports missing or outdated mods by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/51\r\n\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.13.0...0.13.1\r\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-27T14:55:27+00:00",
+          "filename": "tasknh-0.13.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/593137742",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.13.1/tasknh-0.13.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.14.0",
+          "changelog": "## What's Changed\n* Rename checklist items by double-clicking their title by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/52\n* Ask how many multiblocks to plan when adding one from NEI by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/53\n* Fit task titles in the list to the row width instead of 21 characters by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/54\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.13.1...0.14.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-29T00:12:37+00:00",
+          "filename": "tasknh-0.14.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/596749104",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.14.0/tasknh-0.14.0.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/TaskNH",
       "side": "BOTH"
     },
     {
