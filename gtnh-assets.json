@@ -136796,12 +136796,23 @@
       "side": "BOTH"
     },
     {
-      "name": "nei-recipe-panels",
-      "latest_version": "<unknown>",
+      "name": "Nei-Recipe-Panels",
+      "latest_version": "0.3.0",
       "private": false,
-      "versions": [],
+      "versions": [
+        {
+          "version_tag": "0.3.0",
+          "changelog": "## What's Changed\n* sync with main repo by @K44tz in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/1\n* chore(build): remove unused starter files by @Worive in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/2\n\n## New Contributors\n* @K44tz made their first contribution in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/1\n* @Worive made their first contribution in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nei-Recipe-Panels/commits/0.3.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-03T10:57:25+00:00",
+          "filename": "neirecipepanels-0.3.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nei-Recipe-Panels/releases/assets/607655372",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nei-Recipe-Panels/releases/download/0.3.0/neirecipepanels-0.3.0.jar",
+          "extra_assets": []
+        }
+      ],
       "license": "MIT License",
-      "repo_url": "https://github.com/GTNewHorizons/nei-recipe-panels",
+      "repo_url": "https://github.com/GTNewHorizons/Nei-Recipe-Panels",
       "side": "BOTH"
     },
     {
@@ -136822,7 +136833,7 @@
       ],
       "license": "MIT",
       "repo_url": "https://github.com/GTNewHorizons/NEI-Utilities",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "neiaddons",
