@@ -112,7 +112,7 @@ Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.4.7...1.4.8
 
 ## What's Changed:
->* Fix NullPointerException when right-clicking a sound p2p with advanceâ€¦ by @GreatBrandon in https://github.com/GTNewHorizons/BetterP2P/pull/47 (1.4.8)
+>* Fix NullPointerException when right-clicking a sound p2p with advance… by @GreatBrandon in https://github.com/GTNewHorizons/BetterP2P/pull/47 (1.4.8)
 
 # Updated - BetterQuesting - 3.8.87-GTNH --> 3.8.89-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.87-GTNH...3.8.89-GTNH
