@@ -32255,7 +32255,7 @@
     },
     {
       "name": "Baubles-Expanded",
-      "latest_version": "2.2.24-GTNH",
+      "latest_version": "2.2.25-GTNH",
       "private": false,
       "versions": [
         {
@@ -32696,6 +32696,16 @@
           "filename": "BaublesExpanded-2.2.24-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Baubles-Expanded/releases/assets/571056781",
           "browser_download_url": "https://github.com/GTNewHorizons/Baubles-Expanded/releases/download/2.2.24-GTNH/BaublesExpanded-2.2.24-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.25-GTNH",
+          "changelog": "## What's Changed\n* Fixed problem with large PlayerId crashing the client. by @Lainiel in https://github.com/GTNewHorizons/Baubles-Expanded/pull/36\n\n## New Contributors\n* @Lainiel made their first contribution in https://github.com/GTNewHorizons/Baubles-Expanded/pull/36\n\n**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.2.24-GTNH...2.2.25-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-04T11:25:59+00:00",
+          "filename": "BaublesExpanded-2.2.25-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Baubles-Expanded/releases/assets/609713040",
+          "browser_download_url": "https://github.com/GTNewHorizons/Baubles-Expanded/releases/download/2.2.25-GTNH/BaublesExpanded-2.2.25-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -67834,7 +67844,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.204",
+      "latest_version": "5.09.54.205",
       "private": false,
       "versions": [
         {
@@ -94895,6 +94905,16 @@
           "filename": "gregtech-5.09.54.204.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/609549060",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.204/gregtech-5.09.54.204.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.205",
+          "changelog": "## What's Changed\n* increase detector hatch amount from 20 to 41 by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8324\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.204...5.09.54.205\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-04T13:30:00+00:00",
+          "filename": "gregtech-5.09.54.205.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/609902807",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.205/gregtech-5.09.54.205.jar",
           "extra_assets": []
         }
       ],
