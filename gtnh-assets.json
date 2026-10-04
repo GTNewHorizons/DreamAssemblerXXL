@@ -4595,6 +4595,16 @@
         "extra_assets": []
       },
       {
+        "version_tag": "2.9.0-RC-2",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-04T13:46:58+00:00",
+        "filename": "2.9.0-RC-2.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/609928816",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-RC-2/2.9.0-RC-2.zip",
+        "extra_assets": []
+      },
+      {
         "version_tag": "2.9.0-daily-2025-10-01",
         "changelog": "",
         "prerelease": false,
