@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-10-03
+Version daily is out 2026-10-04
 
 ## What is GT New Horizons?
 
@@ -262,16 +262,16 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.4.26-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.5.111-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.5.113-gtnh |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.2-GTNH |
 | [AkashicTome](https://github.com/GTNewHorizons/AkashicTome) | 1.2.7 |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.3.2-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.4.10 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.8.14 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.27 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.28 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.0.7 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.13 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-1079-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-1080-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.8.0 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.12.18 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.7.2 |
@@ -289,7 +289,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.4.7-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.7.18-GTNH |
 | [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.4.8 |
-| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.8.88-GTNH |
+| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.8.89-GTNH |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
@@ -300,7 +300,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.4.24 |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.5.12 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.9.14 |
-| [Botania](https://github.com/GTNewHorizons/Botania) | 1.13.36-GTNH |
+| [Botania](https://github.com/GTNewHorizons/Botania) | 1.13.37-GTNH |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.12.10-GTNH |
 | [Bug-Torch](https://github.com/jss2a98aj/BugTorch) | 1.3.1 |
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.64 |
@@ -308,7 +308,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.1.3 |
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.7.3-GTNH |
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.4.2-GTNH |
-| [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.17.33-GTNH |
+| [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.17.34-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.2.0-GTNH |
 | [ChromaticTooltips](https://github.com/GTNewHorizons/ChromaticTooltips) | 1.0.36-GTNH |
 | [ChromaticTooltipsCompat](https://github.com/GTNewHorizons/ChromaticTooltipsCompat) | 1.0.38-GTNH |
@@ -339,7 +339,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.3.6 |
 | [EndlessIDs](https://www.curseforge.com/minecraft/mc-mods/endlessids/) | 1.7.4 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.3.5 |
-| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.59-GTNH |
+| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.60-GTNH |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.4.3 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
 | [Extreme Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy) | 1.1.1 |
@@ -348,30 +348,30 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.7 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.5.6 |
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.9.17-GTNH |
-| [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.11.38 |
+| [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.11.39 |
 | [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 2.0.3-GTNH |
-| [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.7.15 |
+| [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.7.16 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.3.7 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.2.0 |
 | [Freecam](https://github.com/GTNewHorizons/Freecam) | 1.0.12 |
-| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.5.16 |
+| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.5.17 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.4.34-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.143-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.13-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.16 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.54.201 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.54.204 |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.3.3 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.14 |
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.0.5 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.11.52 |
-| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.3.40 |
+| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.3.41 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.28-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.15-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.2 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.213 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.215 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.17-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.25 |
@@ -393,7 +393,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.5.36-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.14 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
-| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 3.0.36 |
+| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 3.0.37 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.10.12-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.19.11-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.4 |
@@ -412,15 +412,14 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Navigator](https://github.com/GTNewHorizons/Navigator) | 1.1.10 |
 | [nei-custom-diagram](https://github.com/GTNewHorizons/nei-custom-diagram) | 1.8.36 |
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.5.3 |
-| [Nei-Recipe-Panels](https://github.com/GTNewHorizons/Nei-Recipe-Panels) | 0.3.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.18.6 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.4.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.9.83 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.9.84 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.4-GTNH |
 | [NoHotbarNeeded](https://github.com/GTNewHorizons/NoHotbarNeeded) | 0.0.6 |
-| [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.45 |
+| [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.46 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.155-GTNH |
-| [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.7.14 |
+| [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.7.16 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 1.0.1 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.4-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.6.9-GTNH |
@@ -435,8 +434,8 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.41 |
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.5.0 |
 | [Postea](https://github.com/GTNewHorizons/Postea) | 1.2.7 |
-| [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.10-GTNH |
-| [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.12.46-GTNH |
+| [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.11-GTNH |
+| [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.12.47-GTNH |
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.17.31 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.7.11 |
 | [RandomBoubles](https://github.com/GTNewHorizons/RandomBoubles) | 1.1.7 |
@@ -446,7 +445,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Salis Arcana](https://www.curseforge.com/minecraft/mc-mods/salis-arcana/) | 2.7.0 |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.3.15 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.12.6-GTNH |
-| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.4.13 |
+| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.4.14 |
 | [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.4.13-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.1.11 |
 | [SimpleSkinBackport](https://github.com/GTNewHorizons/SimpleSkinBackport) | 1.0.3-GTNH |
@@ -461,7 +460,6 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.5.6 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.5 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.7.8-GTNH |
-| [TaskNH](https://github.com/GTNewHorizons/TaskNH) | 0.14.0 |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.47 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.4.6 |
 | [thaumcraft-research-tweaks](https://github.com/GTNewHorizons/thaumcraft-research-tweaks) | 1.4.1 |
@@ -470,8 +468,8 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.5.29-GTNH |
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.9.19 |
 | [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 1.5.13 |
-| [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.7.63-GTNH |
-| [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.8.26 |
+| [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.7.64-GTNH |
+| [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.8.27 |
 | [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.4.1 |
 | [ThaumicMachina](https://github.com/GTNewHorizons/ThaumicMachina) | 0.2.6-GTNH |
 | [ThaumicTinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.12.33 |
@@ -483,7 +481,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.3.0-GTNH |
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.2.3 |
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.4.5 |
-| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.7.43 |
+| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.7.44 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.9.1 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.2.1 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.3.1 |
