@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-06-02",
+    "latest_version": "2.9.0-nightly-2026-10-06-03",
     "needs_attention": false,
     "versions": [
       {
@@ -8092,6 +8092,16 @@
         "filename": "2.9.0-nightly-2026-10-06-02.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/615999663",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-06-02/2.9.0-nightly-2026-10-06-02.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-06-03",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-06T19:42:58+00:00",
+        "filename": "2.9.0-nightly-2026-10-06-03.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/616482682",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-06-03/2.9.0-nightly-2026-10-06-03.zip",
         "extra_assets": []
       }
     ],
@@ -19061,7 +19071,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1081-GTNH",
+      "latest_version": "rv3-beta-1082-GTNH",
       "private": false,
       "versions": [
         {
@@ -28462,6 +28472,16 @@
           "filename": "appliedenergistics2-rv3-beta-1081-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/610453110",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1081-GTNH/appliedenergistics2-rv3-beta-1081-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1082-GTNH",
+          "changelog": "## What's Changed\n* Fix wireless crafting terminal losing stack count changes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1692\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1081-GTNH...rv3-beta-1082-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T19:27:00+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1082-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/616446755",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1082-GTNH/appliedenergistics2-rv3-beta-1082-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -195437,6 +195457,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 776,
-  "latest_successful_daily": 776
+  "latest_daily": 777,
+  "latest_successful_daily": 777
 }
