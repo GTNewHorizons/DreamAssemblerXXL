@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-05",
+    "latest_version": "2.9.0-nightly-2026-10-06",
     "needs_attention": false,
     "versions": [
       {
@@ -8072,6 +8072,16 @@
         "filename": "2.9.0-nightly-2026-10-05.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/611543824",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-05/2.9.0-nightly-2026-10-05.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-06",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-06T07:34:44+00:00",
+        "filename": "2.9.0-nightly-2026-10-06.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/614837642",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-06/2.9.0-nightly-2026-10-06.zip",
         "extra_assets": []
       }
     ],
@@ -67914,7 +67924,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.207",
+      "latest_version": "5.09.54.211",
       "private": false,
       "versions": [
         {
@@ -95006,6 +95016,46 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/611548123",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.207/gregtech-5.09.54.207.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.208",
+          "changelog": "## What's Changed\n* Skip description generation for markdown tooltip multis by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8332\n* Localize the GUI of the debug structure writer, the text of some NEI recipes, and the module selection of exo foundry by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8334\n* thtr tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8191\n* remove lies by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8330\n* downtier wireless charger by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8296\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.207...5.09.54.208\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-05T18:14:00+00:00",
+          "filename": "gregtech-5.09.54.208.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/613320773",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.208/gregtech-5.09.54.208.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.209",
+          "changelog": "## What's Changed\n* Exxon tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8193\n* airfilter tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8311\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.208...5.09.54.209\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-05T20:10:00+00:00",
+          "filename": "gregtech-5.09.54.209.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/613536580",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.209/gregtech-5.09.54.209.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.210",
+          "changelog": "## What's Changed\n* more tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8315\n* allow vc hatch nei interactions to preserve display name by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8346\n* Reword tooltip info by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8331\n* Deprecate Transmission Components by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8322\n* Fix spray can opening GUIs when used with an offhand item by @micvog in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8197\n* Fix MABS not having coil subchannel by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8341\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8197\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.209...5.09.54.210\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T07:53:26+00:00",
+          "filename": "gregtech-5.09.54.210.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/614875613",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.210/gregtech-5.09.54.210.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.211",
+          "changelog": "## What's Changed\n* Mixer face lift by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8336\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.210...5.09.54.211\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T08:47:56+00:00",
+          "filename": "gregtech-5.09.54.211.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/614989244",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.211/gregtech-5.09.54.211.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -107158,7 +107208,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.7.215",
+      "latest_version": "2.7.216",
       "private": false,
       "versions": [
         {
@@ -113449,6 +113499,16 @@
           "filename": "hodgepodge-2.7.215.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/609357836",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.215/hodgepodge-2.7.215.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.216",
+          "changelog": "## What's Changed\n* Async logging and avoid double sound init by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/1017\n* Modernize anvil gui by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/1021\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.215...2.7.216\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-05T18:12:39+00:00",
+          "filename": "hodgepodge-2.7.216.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/613317833",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.216/hodgepodge-2.7.216.jar",
           "extra_assets": []
         }
       ],
@@ -134430,7 +134490,7 @@
     },
     {
       "name": "MouseTweaks",
-      "latest_version": "2.5.3-GTNH",
+      "latest_version": "2.5.4-GTNH",
       "private": false,
       "versions": [
         {
@@ -134621,6 +134681,16 @@
           "filename": "MouseTweaks-2.5.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MouseTweaks/releases/assets/555870456",
           "browser_download_url": "https://github.com/GTNewHorizons/MouseTweaks/releases/download/2.5.3-GTNH/MouseTweaks-2.5.3-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.5.4-GTNH",
+          "changelog": "## What's Changed\n* Fix item moving on creative invientory by @Ranzuu in https://github.com/GTNewHorizons/MouseTweaks/pull/19\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/19\n\n**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.5.3-GTNH...2.5.4-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T10:29:19+00:00",
+          "filename": "MouseTweaks-2.5.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MouseTweaks/releases/assets/615192878",
+          "browser_download_url": "https://github.com/GTNewHorizons/MouseTweaks/releases/download/2.5.4-GTNH/MouseTweaks-2.5.4-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -137178,7 +137248,7 @@
     },
     {
       "name": "Nei-Recipe-Panels",
-      "latest_version": "1.0.0",
+      "latest_version": "1.0.1",
       "private": false,
       "versions": [
         {
@@ -137199,6 +137269,16 @@
           "filename": "nei-recipe-panels-1.0.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nei-Recipe-Panels/releases/assets/610204515",
           "browser_download_url": "https://github.com/GTNewHorizons/Nei-Recipe-Panels/releases/download/1.0.0/nei-recipe-panels-1.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.1",
+          "changelog": "## What's Changed\n* Stop hacky reflection into Angelica for attrib stack depths by @mitchej123 in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/4\n\n## New Contributors\n* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/4\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nei-Recipe-Panels/compare/1.0.0...1.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-05T18:13:04+00:00",
+          "filename": "nei-recipe-panels-1.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nei-Recipe-Panels/releases/assets/613318588",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nei-Recipe-Panels/releases/download/1.0.1/nei-recipe-panels-1.0.1.jar",
           "extra_assets": []
         }
       ],
@@ -151266,7 +151346,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.156-GTNH",
+      "latest_version": "2.8.157-GTNH",
       "private": false,
       "versions": [
         {
@@ -156188,6 +156268,16 @@
           "filename": "NotEnoughItems-2.8.156-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/610623850",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.156-GTNH/NotEnoughItems-2.8.156-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.157-GTNH",
+          "changelog": "## What's Changed\n* Fix crash while dragging bookmark group to another grid by @Ressed in https://github.com/GTNewHorizons/NotEnoughItems/pull/1062\n\n## New Contributors\n* @Ressed made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/1062\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.156-GTNH...2.8.157-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-05T18:13:12+00:00",
+          "filename": "NotEnoughItems-2.8.157-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/613318892",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.157-GTNH/NotEnoughItems-2.8.157-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -162313,7 +162403,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.17.31",
+      "latest_version": "9.17.32",
       "private": false,
       "versions": [
         {
@@ -163465,6 +163555,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/509138213",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.31/Railcraft-9.17.31.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "9.17.32",
+          "changelog": "## What's Changed\n* Add auto-output info to steel tank valve tooltip by @sny1411 in https://github.com/GTNewHorizons/Railcraft/pull/126\n* Add Deprecated Tooltip to Coke Oven by @UltraProdigy in https://github.com/GTNewHorizons/Railcraft/pull/127\n\n## New Contributors\n* @sny1411 made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/126\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.31...9.17.32\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T07:35:53+00:00",
+          "filename": "Railcraft-9.17.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/614839834",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.32/Railcraft-9.17.32.jar",
+          "extra_assets": []
         }
       ],
       "license": "Explicit Permission",
@@ -164105,7 +164205,7 @@
     },
     {
       "name": "RemoteIO",
-      "latest_version": "2.7.10",
+      "latest_version": "2.7.11",
       "private": false,
       "versions": [
         {
@@ -164357,6 +164457,16 @@
           "filename": "RemoteIO-2.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/RemoteIO/releases/assets/467064862",
           "browser_download_url": "https://github.com/GTNewHorizons/RemoteIO/releases/download/2.7.10/RemoteIO-2.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.11",
+          "changelog": "## What's Changed\n* Localize the category names in the PDA by @Discreater in https://github.com/GTNewHorizons/RemoteIO/pull/32\n\n## New Contributors\n* @Discreater made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/32\n\n**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.10...2.7.11\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-05T18:13:18+00:00",
+          "filename": "RemoteIO-2.7.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/RemoteIO/releases/assets/613319354",
+          "browser_download_url": "https://github.com/GTNewHorizons/RemoteIO/releases/download/2.7.11/RemoteIO-2.7.11.jar",
           "extra_assets": []
         }
       ],
@@ -165735,7 +165845,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.14",
+      "latest_version": "2.4.15",
       "private": false,
       "versions": [
         {
@@ -167897,6 +168007,16 @@
           "filename": "ServerUtilities-2.4.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/609367025",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.14/ServerUtilities-2.4.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.15",
+          "changelog": "## What's Changed\n* Add opt-out to file snapshot during backup by @ImaMapleTree in https://github.com/GTNewHorizons/ServerUtilities/pull/350\n\n## New Contributors\n* @ImaMapleTree made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/350\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.14...2.4.15\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T07:36:18+00:00",
+          "filename": "ServerUtilities-2.4.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/614841114",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.15/ServerUtilities-2.4.15.jar",
           "extra_assets": []
         }
       ],
@@ -177761,7 +177881,7 @@
     },
     {
       "name": "ThaumicBases",
-      "latest_version": "1.9.19",
+      "latest_version": "1.9.20",
       "private": false,
       "versions": [
         {
@@ -178414,6 +178534,16 @@
           "filename": "Thaumic-Based-1.9.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/493473305",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.9.19/Thaumic-Based-1.9.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.20",
+          "changelog": "## What's Changed\n* Fix tainted research by @MarloGr in https://github.com/GTNewHorizons/ThaumicBases/pull/69\n\n## New Contributors\n* @MarloGr made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/69\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.9.19...1.9.20\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T07:35:42+00:00",
+          "filename": "Thaumic-Based-1.9.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/614839465",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.9.20/Thaumic-Based-1.9.20.jar",
           "extra_assets": []
         }
       ],
@@ -193657,7 +193787,7 @@
     },
     {
       "name": "WitchingGadgets",
-      "latest_version": "1.8.51-GTNH",
+      "latest_version": "1.8.52-GTNH",
       "private": false,
       "versions": [
         {
@@ -195039,6 +195169,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/534660086",
           "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.51-GTNH/WitchingGadgets-1.8.51-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.52-GTNH",
+          "changelog": "## What's Changed\n* Fix Primordial_Gauntlet key binding retrieval by @rabbitfujian in https://github.com/GTNewHorizons/WitchingGadgets/pull/140\n* Unconditional nightvision by @MarloGr in https://github.com/GTNewHorizons/WitchingGadgets/pull/141\n\n## New Contributors\n* @rabbitfujian made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/140\n* @MarloGr made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/141\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.51-GTNH...1.8.52-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T07:36:00+00:00",
+          "filename": "WitchingGadgets-1.8.52-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/614840168",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.52-GTNH/WitchingGadgets-1.8.52-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -195167,6 +195307,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 774,
-  "latest_successful_daily": 774
+  "latest_daily": 775,
+  "latest_successful_daily": 775
 }
