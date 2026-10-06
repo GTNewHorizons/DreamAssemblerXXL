@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-06",
+    "latest_version": "2.9.0-nightly-2026-10-06-02",
     "needs_attention": false,
     "versions": [
       {
@@ -8082,6 +8082,16 @@
         "filename": "2.9.0-nightly-2026-10-06.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/614837642",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-06/2.9.0-nightly-2026-10-06.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-06-02",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-06T16:10:22+00:00",
+        "filename": "2.9.0-nightly-2026-10-06-02.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/615999663",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-06-02/2.9.0-nightly-2026-10-06-02.zip",
         "extra_assets": []
       }
     ],
@@ -53840,7 +53850,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.10.48",
+      "latest_version": "2.10.49",
       "private": false,
       "versions": [
         {
@@ -55892,6 +55902,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/593734413",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.48/EnderIO-2.10.48.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.49",
+          "changelog": "## What's Changed\n* Add redstone signal support for item conduit. by @Fib4ik in https://github.com/GTNewHorizons/EnderIO/pull/265\n\n## New Contributors\n* @Fib4ik made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/265\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.48...2.10.49\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T17:25:22+00:00",
+          "filename": "EnderIO-2.10.49.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/616171267",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.49/EnderIO-2.10.49.jar",
+          "extra_assets": []
         }
       ],
       "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
@@ -56816,7 +56836,7 @@
     },
     {
       "name": "Et-Futurum-Requiem",
-      "latest_version": "2.6.60-GTNH",
+      "latest_version": "2.6.61-GTNH",
       "private": false,
       "versions": [
         {
@@ -57667,6 +57687,16 @@
           "filename": "etfuturum-2.6.60-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/609370467",
           "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.60-GTNH/etfuturum-2.6.60-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.61-GTNH",
+          "changelog": "## What's Changed\n* Fix enchanting table tooltip not showing the enchantment hint by @micvog in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/127\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/127\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.60-GTNH...2.6.61-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T16:09:36+00:00",
+          "filename": "etfuturum-2.6.61-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/615998103",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.61-GTNH/etfuturum-2.6.61-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -67924,7 +67954,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.211",
+      "latest_version": "5.09.54.212",
       "private": false,
       "versions": [
         {
@@ -95056,6 +95086,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/614989244",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.211/gregtech-5.09.54.211.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.212",
+          "changelog": "## What's Changed\n* Fix NAC wrong overclock by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8349\n* Format the Tesla Tower GUI Chart Inputs as Integers by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8352\n* Rework the Drone Center camera to be actuall mui2 by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8323\n* Fix the small and tiny lithium dust fuel values by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8350\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.211...5.09.54.212\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T16:13:05+00:00",
+          "filename": "gregtech-5.09.54.212.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/616005570",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.212/gregtech-5.09.54.212.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -105878,7 +105918,7 @@
     },
     {
       "name": "GuideNH",
-      "latest_version": "1.3.42",
+      "latest_version": "1.3.43",
       "private": false,
       "versions": [
         {
@@ -106279,6 +106319,16 @@
           "filename": "guidenh-1.3.42.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/610786861",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.42/guidenh-1.3.42.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.43",
+          "changelog": "## What's Changed\n* Improve nei recipe rendering and site export performance by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/96\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.42...1.3.43\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T17:25:08+00:00",
+          "filename": "guidenh-1.3.43.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/616170702",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.43/guidenh-1.3.43.jar",
           "extra_assets": []
         }
       ],
@@ -121223,7 +121273,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.59",
+      "latest_version": "1.6.60",
       "private": false,
       "versions": [
         {
@@ -122096,6 +122146,16 @@
           "filename": "littletiles-1.6.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/606378126",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.59/littletiles-1.6.59.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.60",
+          "changelog": "## What's Changed\n* Fix item forgery in LittleTiles placement packets by @jhhgiyv in https://github.com/GTNewHorizons/LittleTiles/pull/192\n\n## New Contributors\n* @jhhgiyv made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/192\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.59...1.6.60\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T16:09:11+00:00",
+          "filename": "littletiles-1.6.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/615997206",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.60/littletiles-1.6.60.jar",
           "extra_assets": []
         }
       ],
@@ -150203,7 +150263,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.7.46",
+      "latest_version": "1.7.47",
       "private": false,
       "versions": [
         {
@@ -151037,6 +151097,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/609361949",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.46/NotEnoughEnergistics-1.7.46.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.47",
+          "changelog": "## What's Changed\n* Improve NEE's integration with fluids by @rieverholic in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/89\n\n## New Contributors\n* @rieverholic made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/89\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.46...1.7.47\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T16:08:50+00:00",
+          "filename": "NotEnoughEnergistics-1.7.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/615996442",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.7.47/NotEnoughEnergistics-1.7.47.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT",
@@ -151346,7 +151416,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.157-GTNH",
+      "latest_version": "2.8.158-GTNH",
       "private": false,
       "versions": [
         {
@@ -156278,6 +156348,16 @@
           "filename": "NotEnoughItems-2.8.157-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/613318892",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.157-GTNH/NotEnoughItems-2.8.157-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.158-GTNH",
+          "changelog": "## What's Changed\n* Fix crash when returning to the crafting tree after its bookmark group was removed by @micvog in https://github.com/GTNewHorizons/NotEnoughItems/pull/1063\n* Fix Crafting Tree NPE by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1064\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/1063\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.157-GTNH...2.8.158-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T17:24:08+00:00",
+          "filename": "NotEnoughItems-2.8.158-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/616168582",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.158-GTNH/NotEnoughItems-2.8.158-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -162403,7 +162483,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.17.32",
+      "latest_version": "9.17.33",
       "private": false,
       "versions": [
         {
@@ -163564,6 +163644,16 @@
           "filename": "Railcraft-9.17.32.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/614839834",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.32/Railcraft-9.17.32.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "9.17.33",
+          "changelog": "## What's Changed\n* Modernize anvil gui by @Ranzuu in https://github.com/GTNewHorizons/Railcraft/pull/128\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.32...9.17.33\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T12:42:39+00:00",
+          "filename": "Railcraft-9.17.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/615491945",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.33/Railcraft-9.17.33.jar",
           "extra_assets": []
         }
       ],
@@ -165845,7 +165935,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.15",
+      "latest_version": "2.4.16",
       "private": false,
       "versions": [
         {
@@ -168017,6 +168107,16 @@
           "filename": "ServerUtilities-2.4.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/614841114",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.15/ServerUtilities-2.4.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.16",
+          "changelog": "## What's Changed\n* Drop lang keys with no implementation and fix mis-keyed entries by @sivaDog in https://github.com/GTNewHorizons/ServerUtilities/pull/349\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.15...2.4.16\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T16:08:38+00:00",
+          "filename": "ServerUtilities-2.4.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/615996016",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.16/ServerUtilities-2.4.16.jar",
           "extra_assets": []
         }
       ],
@@ -177881,7 +177981,7 @@
     },
     {
       "name": "ThaumicBases",
-      "latest_version": "1.9.20",
+      "latest_version": "1.9.22",
       "private": false,
       "versions": [
         {
@@ -178544,6 +178644,26 @@
           "filename": "Thaumic-Based-1.9.20.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/614839465",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.9.20/Thaumic-Based-1.9.20.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.21",
+          "changelog": "## What's Changed\n* Modernize anvil gui by @Ranzuu in https://github.com/GTNewHorizons/ThaumicBases/pull/70\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/70\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.9.20...1.9.21\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T12:43:29+00:00",
+          "filename": "Thaumic-Based-1.9.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/615493794",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.9.21/Thaumic-Based-1.9.21.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.22",
+          "changelog": "## What's Changed\n* Make revolver upgrade \"Tainted\" spelling consistent with other upgrades by @Sanduhr32 in https://github.com/GTNewHorizons/ThaumicBases/pull/71\n\n## New Contributors\n* @Sanduhr32 made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/71\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.9.21...1.9.22\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T17:23:18+00:00",
+          "filename": "Thaumic-Based-1.9.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/616166768",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.9.22/Thaumic-Based-1.9.22.jar",
           "extra_assets": []
         }
       ],
@@ -182984,7 +183104,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.14.118-GTNH",
+      "latest_version": "1.14.119-GTNH",
       "private": false,
       "versions": [
         {
@@ -185875,6 +185995,16 @@
           "filename": "TConstruct-1.14.118-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/601461747",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.118-GTNH/TConstruct-1.14.118-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.119-GTNH",
+          "changelog": "## What's Changed\n* Fix GT gases being invisible in seared tanks by @micvog in https://github.com/GTNewHorizons/TinkersConstruct/pull/348\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/348\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.118-GTNH...1.14.119-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-06T16:08:21+00:00",
+          "filename": "TConstruct-1.14.119-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/615995476",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.119-GTNH/TConstruct-1.14.119-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -195307,6 +195437,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 775,
-  "latest_successful_daily": 775
+  "latest_daily": 776,
+  "latest_successful_daily": 776
 }
