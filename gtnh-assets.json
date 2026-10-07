@@ -48598,7 +48598,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.135",
+      "latest_version": "2.0.136",
       "private": false,
       "versions": [
         {
@@ -49959,6 +49959,16 @@
           "filename": "cropsnh-2.0.135.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/617949752",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.135/cropsnh-2.0.135.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.136",
+          "changelog": "## What's Changed\n* Enriched fertilizer recipe change by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.135...2.0.136\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-07T17:56:32+00:00",
+          "filename": "cropsnh-2.0.136.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/619394156",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.136/cropsnh-2.0.136.jar",
           "extra_assets": []
         }
       ],
@@ -67984,7 +67994,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.214",
+      "latest_version": "5.09.54.216",
       "private": false,
       "versions": [
         {
@@ -95145,6 +95155,26 @@
           "filename": "gregtech-5.09.54.214.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/618158788",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.214/gregtech-5.09.54.214.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.215",
+          "changelog": "## What's Changed\n* add alias extension to materials and add it to mhdcsm by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8360\n* LHC power draw/cycle count desync fix by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8361\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.214...5.09.54.215\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-07T16:06:19+00:00",
+          "filename": "gregtech-5.09.54.215.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/619153340",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.215/gregtech-5.09.54.215.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.216",
+          "changelog": "## What's Changed\n* rename ppa in game oops by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8365\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.215...5.09.54.216\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-07T17:58:52+00:00",
+          "filename": "gregtech-5.09.54.216.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/619399420",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.216/gregtech-5.09.54.216.jar",
           "extra_assets": []
         }
       ],
@@ -165985,7 +166015,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.17",
+      "latest_version": "2.4.18",
       "private": false,
       "versions": [
         {
@@ -168177,6 +168207,16 @@
           "filename": "ServerUtilities-2.4.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/617952231",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.17/ServerUtilities-2.4.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.18",
+          "changelog": "## What's Changed\n* InvSee: Fix row and column order of modded inventories by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/336\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.17...2.4.18\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-07T17:57:05+00:00",
+          "filename": "ServerUtilities-2.4.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/619395500",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.18/ServerUtilities-2.4.18.jar",
           "extra_assets": []
         }
       ],
@@ -195497,6 +195537,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 778,
-  "latest_successful_daily": 778
+  "latest_daily": 779,
+  "latest_successful_daily": 779
 }

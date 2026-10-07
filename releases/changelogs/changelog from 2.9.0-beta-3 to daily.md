@@ -328,10 +328,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.135
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.135
+# Updated - CropsNH - 2.0.114 --> 2.0.136
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.136
 
 ## What's Changed:
+>* Enriched fertilizer recipe change by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/288 (2.0.136)
 >* Add the Knightmetal Block from Twilight Forest as viable sub-soil for knightly berry by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/287 (2.0.135)
 >* Nerf early stating by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/284 (2.0.135)
 >* Final crop output balance tweaks by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/285 (2.0.135)
@@ -426,10 +427,13 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.214
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.214
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.216
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.216
 
 ## What's Changed:
+>* rename ppa in game oops by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8365 (5.09.54.216)
+>* add alias extension to materials and add it to mhdcsm by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8360 (5.09.54.215)
+>* LHC power draw/cycle count desync fix by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8361 (5.09.54.215)
 >* Fix missing permission and destination checks in teleport packets by @jhhgiyv in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8338 (5.09.54.214)
 >* change fluid board device to modify recipe duration instead of recipe eu by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8355 (5.09.54.213)
 >* [MUI2] Fixed multiblock power panel displaying incorrect parallel amount by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8356 (5.09.54.213)
@@ -1095,10 +1099,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Localize the category names in the PDA by @Discreater in https://github.com/GTNewHorizons/RemoteIO/pull/32 (2.7.11)
 
-# Updated - ServerUtilities - 2.4.9 --> 2.4.17
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.17
+# Updated - ServerUtilities - 2.4.9 --> 2.4.18
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.18
 
 ## What's Changed:
+>* InvSee: Fix row and column order of modded inventories by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/336 (2.4.18)
 >* Add feature to exclude files from backups by @DarkShadow44 in https://github.com/GTNewHorizons/ServerUtilities/pull/346 (2.4.17)
 >* Drop lang keys with no implementation and fix mis-keyed entries by @sivaDog in https://github.com/GTNewHorizons/ServerUtilities/pull/349 (2.4.16)
 >* Add opt-out to file snapshot during backup by @ImaMapleTree in https://github.com/GTNewHorizons/ServerUtilities/pull/350 (2.4.15)
