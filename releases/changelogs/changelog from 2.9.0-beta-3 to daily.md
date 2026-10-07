@@ -328,10 +328,13 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.134
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.134
+# Updated - CropsNH - 2.0.114 --> 2.0.135
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.135
 
 ## What's Changed:
+>* Add the Knightmetal Block from Twilight Forest as viable sub-soil for knightly berry by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/287 (2.0.135)
+>* Nerf early stating by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/284 (2.0.135)
+>* Final crop output balance tweaks by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/285 (2.0.135)
 >* Watering can fix for good this time by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/282 (2.0.134)
 >* Default the seed amount to one when planting or harvesting seeds. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/276 (2.0.133)
 >* Cleanup fertilizer recipes declarations by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/275 (2.0.132)
@@ -423,10 +426,14 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.212
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.212
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.214
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.214
 
 ## What's Changed:
+>* Fix missing permission and destination checks in teleport packets by @jhhgiyv in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8338 (5.09.54.214)
+>* change fluid board device to modify recipe duration instead of recipe eu by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8355 (5.09.54.213)
+>* [MUI2] Fixed multiblock power panel displaying incorrect parallel amount by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8356 (5.09.54.213)
+>* move glass tier info to structure tooltip by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8354 (5.09.54.213)
 >* Fix NAC wrong overclock by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8349 (5.09.54.212)
 >* Format the Tesla Tower GUI Chart Inputs as Integers by @Angry3vilbot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8352 (5.09.54.212)
 >* Rework the Drone Center camera to be actuall mui2 by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8323 (5.09.54.212)
@@ -1088,10 +1095,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Localize the category names in the PDA by @Discreater in https://github.com/GTNewHorizons/RemoteIO/pull/32 (2.7.11)
 
-# Updated - ServerUtilities - 2.4.9 --> 2.4.16
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.16
+# Updated - ServerUtilities - 2.4.9 --> 2.4.17
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.17
 
 ## What's Changed:
+>* Add feature to exclude files from backups by @DarkShadow44 in https://github.com/GTNewHorizons/ServerUtilities/pull/346 (2.4.17)
 >* Drop lang keys with no implementation and fix mis-keyed entries by @sivaDog in https://github.com/GTNewHorizons/ServerUtilities/pull/349 (2.4.16)
 >* Add opt-out to file snapshot during backup by @ImaMapleTree in https://github.com/GTNewHorizons/ServerUtilities/pull/350 (2.4.15)
 >* Handle perm check on incomplete profiles by @Niki4tap in https://github.com/GTNewHorizons/ServerUtilities/pull/342 (2.4.14)
@@ -1274,4 +1282,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
