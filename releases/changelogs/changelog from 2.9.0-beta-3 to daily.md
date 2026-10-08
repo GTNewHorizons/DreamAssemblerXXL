@@ -16,11 +16,19 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.29
+# Updated - Angelica - 2.2.10 --> 2.2.30
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.29
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.30
 
 ## What's Changed:
+>* SDL Vertex Replay + Dragon API by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2224 (2.2.30)
+>* Run image atomics natively on Metal where the runtime allows by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2226 (2.2.30)
+>* Fix world client leak in CloudRenderer by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/2227 (2.2.30)
+>* Modern Font Sheets by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2225 (2.2.30)
+>* Marginal improvements by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/2222 (2.2.30)
+>* Fix server thread leak in ThreadedBlockData by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/2230 (2.2.30)
+>* Add Darkmode Transformer target by @Ranzuu in https://github.com/GTNewHorizons/Angelica/pull/2221 (2.2.30)
+>* Fix NaNs on EP by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2231 (2.2.30)
 >* Answer legacy stack and client state queries from GLSM by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2211 (2.2.29)
 >* Fix terrain disappearing at screen edges with compute culling by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2212 (2.2.29)
 >* Narrow overly broad transformer exclusions for PowerConverters by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2214 (2.2.29)
@@ -207,6 +215,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - Avaritia - 1.99 --> 1.100
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.99...1.100
+
+## What's Changed:
+>* Change InfinitySword execution & damage behavior by @Sanduhr32 in https://github.com/GTNewHorizons/Avaritia/pull/87 (1.100)
+
 # Updated - Backhand - 1.8.14 --> 1.8.16
 **Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.8.14...1.8.16
 
@@ -389,10 +403,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fixed gui texture beeing cut by @Ranzuu in https://github.com/GTNewHorizons/EnhancedLootBags/pull/22 (1.3.5)
 
-# Updated - Et-Futurum-Requiem - 2.6.58-GTNH --> 2.6.61-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.58-GTNH...2.6.61-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.58-GTNH --> 2.6.62-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.58-GTNH...2.6.62-GTNH
 
 ## What's Changed:
+>* Fix transparency issue by @Ranzuu in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/128 (2.6.62-GTNH)
 >* Fix enchanting table tooltip not showing the enchantment hint by @micvog in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/127 (2.6.61-GTNH)
 >* Prevent dead armor stands from dropping twice by @Chitak985 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/125 (2.6.60-GTNH)
 >* backport modern wither spawning behavior by @Nana-Sakura in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/124 (2.6.59-GTNH)
@@ -427,10 +442,13 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.216
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.216
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.217
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.217
 
 ## What's Changed:
+>* Buff BEC Entanglement a bit by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8339 (5.09.54.217)
+>* CI: Fail on duplicate keys in asset lang files by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8367 (5.09.54.217)
+>* Add omni movement to strider augments by @uku3lig in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8359 (5.09.54.217)
 >* rename ppa in game oops by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8365 (5.09.54.216)
 >* add alias extension to materials and add it to mhdcsm by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8360 (5.09.54.215)
 >* LHC power draw/cycle count desync fix by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8361 (5.09.54.215)
@@ -769,10 +787,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Make clouds respect client's render distance by @Eclipse-Sol in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/157 (1.1.143-GTNH)
 
-# Updated - GuideNH - 1.3.29 --> 1.3.43
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.43
+# Updated - GuideNH - 1.3.29 --> 1.3.44
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.44
 
 ## What's Changed:
+>* Navigation fix by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/97 (1.3.44)
 >* Improve nei recipe rendering and site export performance by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/96 (1.3.43)
 >* Fix numeric parsing issues by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/95 (1.3.42)
 >* remove all unnecessary feature integration mixins by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/94 (1.3.41)
@@ -939,10 +958,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.84
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.84
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.85
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.85
 
 ## What's Changed:
+>* Add duplicate lang key CI check and fix GLYPHSTONE pages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1988 (2.9.85)
 >* Unify wooden door assembler recipes by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1981 (2.9.84)
 >* remove lumipod sapling from infused seed drop table by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1985 (2.9.84)
 >* Add illumar buttons to assembler by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1983 (2.9.83)
@@ -1099,10 +1119,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Localize the category names in the PDA by @Discreater in https://github.com/GTNewHorizons/RemoteIO/pull/32 (2.7.11)
 
-# Updated - ServerUtilities - 2.4.9 --> 2.4.18
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.18
+# Updated - ServerUtilities - 2.4.9 --> 2.4.19
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.19
 
 ## What's Changed:
+>* InvSee: Resize the gui to fit wide inventories by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/353 (2.4.19)
+>* Keep number formatting on the player's locale by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/340 (2.4.19)
 >* InvSee: Fix row and column order of modded inventories by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/336 (2.4.18)
 >* Add feature to exclude files from backups by @DarkShadow44 in https://github.com/GTNewHorizons/ServerUtilities/pull/346 (2.4.17)
 >* Drop lang keys with no implementation and fix mis-keyed entries by @sivaDog in https://github.com/GTNewHorizons/ServerUtilities/pull/349 (2.4.16)
@@ -1287,4 +1309,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
