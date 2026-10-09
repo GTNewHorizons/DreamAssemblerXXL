@@ -102,7 +102,6 @@ class Window(ThemedTk, Tk):
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
-            generate_intermediate_cf_files=lambda: asyncio.ensure_future(self.generate_intermediate_cf_files()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(self.add_gtnh_version(release_name, previous_version)),
@@ -222,20 +221,6 @@ class Window(ThemedTk, Tk):
         """
         self.trigger_toggle()
         await self.controller.generate_changelog()
-        self.trigger_toggle()
-
-    @with_error_dialog(
-        title="An error occurred during the generation of the intermediate curseforge files",
-        message="An error occurred during the generation of the intermediate curseforge files.\nPlease check the logs for more information.",
-    )
-    async def generate_intermediate_cf_files(self) -> None:
-        """
-        Callback used to generate curseforge intermediate files.
-
-        :return: None
-        """
-        self.trigger_toggle()
-        await self.controller.generate_intermediate_cf_files(self.modpack_list_frame.action_frame.progress_bar_current_task)
         self.trigger_toggle()
 
     @with_error_dialog(
