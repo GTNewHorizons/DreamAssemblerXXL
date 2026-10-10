@@ -48648,7 +48648,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.0.136",
+      "latest_version": "2.0.137",
       "private": false,
       "versions": [
         {
@@ -50019,6 +50019,16 @@
           "filename": "cropsnh-2.0.136.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/619394156",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.136/cropsnh-2.0.136.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.137",
+          "changelog": "## What's Changed\n* Show crop tier in the seed tooltip by @micvog in https://github.com/GTNewHorizons/CropsNH/pull/290\n\n## New Contributors\n* @micvog made their first contribution in https://github.com/GTNewHorizons/CropsNH/pull/290\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.136...2.0.137\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-10T02:03:14+00:00",
+          "filename": "cropsnh-2.0.137.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/626738902",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.137/cropsnh-2.0.137.jar",
           "extra_assets": []
         }
       ],
@@ -68054,7 +68064,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.219",
+      "latest_version": "5.09.54.220",
       "private": false,
       "versions": [
         {
@@ -95265,6 +95275,16 @@
           "filename": "gregtech-5.09.54.219.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/624237366",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.219/gregtech-5.09.54.219.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.220",
+          "changelog": "## What's Changed\n* More \"Tier\" uncapitalized fixes and more by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8376\n* Localize hardcoded machine types in markdown tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8381\n* Fix markdown tooltip machines dumping descriptions into GregTech.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8380\n* Fix barnarda bee's breeding dimension requirement from Kuiper Belt to Barnard E by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8383\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.219...5.09.54.220\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-09T12:43:26+00:00",
+          "filename": "gregtech-5.09.54.220.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/624947640",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.220/gregtech-5.09.54.220.jar",
           "extra_assets": []
         }
       ],
@@ -137872,7 +137892,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.86",
+      "latest_version": "2.9.87",
       "private": false,
       "versions": [
         {
@@ -150293,6 +150313,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.86.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/622808759",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.86/GTNewHorizonsCoreMod-2.9.86.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.87",
+          "changelog": "## What's Changed\n* Fix recipe of stencil table by @Ressed in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1990\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.86...2.9.87\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-09T12:42:32+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.87.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/624945851",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.87/GTNewHorizonsCoreMod-2.9.87.jar",
           "extra_assets": []
         }
       ],
@@ -166155,7 +166185,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.4.20",
+      "latest_version": "2.4.21",
       "private": false,
       "versions": [
         {
@@ -168378,6 +168408,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/622807554",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.20/ServerUtilities-2.4.20.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.21",
+          "changelog": "## What's Changed\n* Add age based backup retention and safer backup rotation by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/352\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.20...2.4.21\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-09T15:32:39+00:00",
+          "filename": "ServerUtilities-2.4.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/625372872",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.21/ServerUtilities-2.4.21.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -168949,7 +168989,7 @@
     },
     {
       "name": "SpecialMobs",
-      "latest_version": "3.7.8",
+      "latest_version": "3.7.9",
       "private": false,
       "versions": [
         {
@@ -169261,6 +169301,16 @@
           "filename": "SpecialMobs-3.7.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpecialMobs/releases/assets/594991793",
           "browser_download_url": "https://github.com/GTNewHorizons/SpecialMobs/releases/download/3.7.8/SpecialMobs-3.7.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.7.9",
+          "changelog": "## What's Changed\n* Don't replace mob if it's already dead (fix runaway Silverfish spawning) by @wlhlm in https://github.com/GTNewHorizons/SpecialMobs/pull/36\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.7.8...3.7.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-09T16:15:19+00:00",
+          "filename": "SpecialMobs-3.7.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SpecialMobs/releases/assets/625483631",
+          "browser_download_url": "https://github.com/GTNewHorizons/SpecialMobs/releases/download/3.7.9/SpecialMobs-3.7.9.jar",
           "extra_assets": []
         }
       ],
@@ -195697,6 +195747,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 781,
-  "latest_successful_daily": 781
+  "latest_daily": 782,
+  "latest_successful_daily": 782
 }

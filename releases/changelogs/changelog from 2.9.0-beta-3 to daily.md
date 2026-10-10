@@ -343,10 +343,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Allow skulls in head slots by @Algent in https://github.com/GTNewHorizons/CosmeticArmorReworked/pull/8 (1.0.7-GTNH)
 
-# Updated - CropsNH - 2.0.114 --> 2.0.136
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.136
+# Updated - CropsNH - 2.0.114 --> 2.0.137
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.114...2.0.137
 
 ## What's Changed:
+>* Show crop tier in the seed tooltip by @micvog in https://github.com/GTNewHorizons/CropsNH/pull/290 (2.0.137)
 >* Enriched fertilizer recipe change by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/288 (2.0.136)
 >* Add the Knightmetal Block from Twilight Forest as viable sub-soil for knightly berry by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/287 (2.0.135)
 >* Nerf early stating by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/284 (2.0.135)
@@ -443,10 +444,14 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.219
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.219
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.220
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.220
 
 ## What's Changed:
+>* More "Tier" uncapitalized fixes and more by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8376 (5.09.54.220)
+>* Localize hardcoded machine types in markdown tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8381 (5.09.54.220)
+>* Fix markdown tooltip machines dumping descriptions into GregTech.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8380 (5.09.54.220)
+>* Fix barnarda bee's breeding dimension requirement from Kuiper Belt to Barnard E by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8383 (5.09.54.220)
 >* Add Naqfuel refinery coil tier channel for MSHP by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8192 (5.09.54.219)
 >* Changed onRightClick Handling by @PierceC7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8204 (5.09.54.219)
 >* move fusion tooltip to base classes by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8378 (5.09.54.219)
@@ -969,10 +974,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.86
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.86
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.87
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.87
 
 ## What's Changed:
+>* Fix recipe of stencil table by @Ressed in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1990 (2.9.87)
 >* Reorder fluids in obsidian plate recipe by @TotallyNotOndre in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1989 (2.9.86)
 >* Add duplicate lang key CI check and fix GLYPHSTONE pages by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1988 (2.9.85)
 >* Unify wooden door assembler recipes by @DreamYao520 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1981 (2.9.84)
@@ -1131,10 +1137,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Localize the category names in the PDA by @Discreater in https://github.com/GTNewHorizons/RemoteIO/pull/32 (2.7.11)
 
-# Updated - ServerUtilities - 2.4.9 --> 2.4.20
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.20
+# Updated - ServerUtilities - 2.4.9 --> 2.4.21
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.9...2.4.21
 
 ## What's Changed:
+>* Add age based backup retention and safer backup rotation by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/352 (2.4.21)
 >* Add command for listing backups and their dates by @ImaMapleTree in https://github.com/GTNewHorizons/ServerUtilities/pull/354 (2.4.20)
 >* InvSee: Resize the gui to fit wide inventories by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/353 (2.4.19)
 >* Keep number formatting on the player's locale by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/340 (2.4.19)
@@ -1148,10 +1155,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix backup save lifecycle, snapshot consistency, and restore safety by @Algent in https://github.com/GTNewHorizons/ServerUtilities/pull/343 (2.4.12)
 >* Fix world progress loss from backups in singleplayer by @hensmth in https://github.com/GTNewHorizons/ServerUtilities/pull/341 (2.4.10)
 
-# Updated - SpecialMobs - 3.7.5 --> 3.7.8
-**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.7.5...3.7.8
+# Updated - SpecialMobs - 3.7.5 --> 3.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.7.5...3.7.9
 
 ## What's Changed:
+>* Don't replace mob if it's already dead (fix runaway Silverfish spawning) by @wlhlm in https://github.com/GTNewHorizons/SpecialMobs/pull/36 (3.7.9)
 >* Prevent Witch Cave Spider infinite projectile duplication by @Ressed in https://github.com/GTNewHorizons/SpecialMobs/pull/35 (3.7.8)
 >* Fix hungry mob crash when eating items from lunchbags that dont extend ItemFood by @GDCloudstrike in https://github.com/GTNewHorizons/SpecialMobs/pull/34 (3.7.7)
 >* Hungry mob variant behaviour change/fix by @GDCloudstrike in https://github.com/GTNewHorizons/SpecialMobs/pull/33 (3.7.6)
