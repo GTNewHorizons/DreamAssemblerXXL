@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-09",
+    "latest_version": "2.9.0-nightly-2026-10-11",
     "needs_attention": false,
     "versions": [
       {
@@ -8123,6 +8123,16 @@
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/624228833",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-09/2.9.0-nightly-2026-10-09.zip",
         "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-11",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-11T00:24:26+00:00",
+        "filename": "2.9.0-nightly-2026-10-11.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/629344968",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-11/2.9.0-nightly-2026-10-11.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
@@ -16058,7 +16068,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.30",
+      "latest_version": "2.2.31",
       "private": false,
       "versions": [
         {
@@ -18559,6 +18569,16 @@
           "filename": "angelica-2.2.30.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/619972945",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.30/angelica-2.2.30.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.31",
+          "changelog": "## What's Changed\n* Fix Little Tiles rendering issues by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/2238\n* Fix interop with Serene Seasons and other similar mods by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2240\n* Fix dark AE2 cables when shaders enabled by @AncalagonX in https://github.com/GTNewHorizons/Angelica/pull/2223\n* Reject non 3.3 core with a more clear message by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2243\n* Bug Cleanup after 2.9RC2 by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2239\n* Make API functions for enderstorage to use by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2244\n* Fix shaders that redefine a GLSL built-in failing on SDL-GPU and GLES by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2245\n* Answer legacy GL queries from tracked state by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2247\n* Fix MixinRendererLivingEntity_GlintClock expected count by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/2248\n\n## New Contributors\n* @AncalagonX made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/2223\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.30...2.2.31\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T01:15:46+00:00",
+          "filename": "angelica-2.2.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/629437978",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.31/angelica-2.2.31.jar",
           "extra_assets": []
         }
       ],
@@ -40737,7 +40757,7 @@
     },
     {
       "name": "Botania",
-      "latest_version": "1.13.37-GTNH",
+      "latest_version": "1.13.38-GTNH",
       "private": false,
       "versions": [
         {
@@ -41868,6 +41888,16 @@
           "filename": "Botania-1.13.37-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/609354931",
           "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.13.37-GTNH/Botania-1.13.37-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.13.38-GTNH",
+          "changelog": "## What's Changed\n* Fix NPE in NEI brewery handler when brew can't fill a container by @slprime in https://github.com/GTNewHorizons/Botania/pull/159\n\n## New Contributors\n* @slprime made their first contribution in https://github.com/GTNewHorizons/Botania/pull/159\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.37-GTNH...1.13.38-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T00:22:41+00:00",
+          "filename": "Botania-1.13.38-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/629342054",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.13.38-GTNH/Botania-1.13.38-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -56936,7 +56966,7 @@
     },
     {
       "name": "Et-Futurum-Requiem",
-      "latest_version": "2.6.62-GTNH",
+      "latest_version": "2.6.63-GTNH",
       "private": false,
       "versions": [
         {
@@ -57807,6 +57837,16 @@
           "filename": "etfuturum-2.6.62-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/620508977",
           "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.62-GTNH/etfuturum-2.6.62-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.63-GTNH",
+          "changelog": "## What's Changed\n* Fix jukebox durations in GTNH by @Exterminate5573 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/131\n\n## New Contributors\n* @Exterminate5573 made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/131\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.62-GTNH...2.6.63-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T09:13:34+00:00",
+          "filename": "etfuturum-2.6.63-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/630302725",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.63-GTNH/etfuturum-2.6.63-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -68064,7 +68104,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.220",
+      "latest_version": "5.09.54.221",
       "private": false,
       "versions": [
         {
@@ -95285,6 +95325,16 @@
           "filename": "gregtech-5.09.54.220.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/624947640",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.220/gregtech-5.09.54.220.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.221",
+          "changelog": "## What's Changed\n* remove old arc furnace casing recipe by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8384\n* Fix Tree Growth Simulator NEI tooltips not showing and translate them on display by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8287\n* Clear powerfail on TT machines after break/move by @MarloGr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8390\n* Clear fully consumed controller slot stack after recipe check by @Algent in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8391\n* Fix bacterial vat recipe locking multipliers by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8389\n* Steam multiblocks: localize tooltips and move info text to markdown by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8368\n* Keep solidifier hatch fluids isolated from input buses by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8327\n* Show singleblock energy buffer after power failure by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8395\n* Use fluid display icons for HoloInventory pattern outputs by @DreamYao520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8364\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.220...5.09.54.221\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T00:23:52+00:00",
+          "filename": "gregtech-5.09.54.221.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/629344012",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.221/gregtech-5.09.54.221.jar",
           "extra_assets": []
         }
       ],
@@ -128862,7 +128912,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.63-GTNH",
+      "latest_version": "0.1.64-GTNH",
       "private": false,
       "versions": [
         {
@@ -129904,6 +129954,16 @@
           "filename": "matter-manipulator-0.1.63-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/624232284",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.63-GTNH/matter-manipulator-0.1.63-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.64-GTNH",
+          "changelog": "## What's Changed\n* Fix AE part dupe with dense covered cable and split Auto-P2P into two settings by @Luca-Guettinger in https://github.com/GTNewHorizons/MatterManipulator/pull/95\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.63-GTNH...0.1.64-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T09:14:21+00:00",
+          "filename": "matter-manipulator-0.1.64-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/630304086",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.64-GTNH/matter-manipulator-0.1.64-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -137892,7 +137952,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.87",
+      "latest_version": "2.9.88",
       "private": false,
       "versions": [
         {
@@ -150324,6 +150384,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/624945851",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.87/GTNewHorizonsCoreMod-2.9.87.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.88",
+          "changelog": "## What's Changed\n* EBF makes gt reinforced metal by @MarloGr in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1986\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.87...2.9.88\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T00:23:39+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.88.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/629343635",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.88/GTNewHorizonsCoreMod-2.9.88.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -151666,7 +151736,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.8.158-GTNH",
+      "latest_version": "2.8.159-GTNH",
       "private": false,
       "versions": [
         {
@@ -156609,6 +156679,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/616168582",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.158-GTNH/NotEnoughItems-2.8.158-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.159-GTNH",
+          "changelog": "## What's Changed\n* Add recipe cycle freeze option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1067\n* Add options for vertical line count in chain tooltips by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1068\n* ItemZoom: Add side priority option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1070\n* Fix -@mod and !@mod search syntax in Extended mode by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1071\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.158-GTNH...2.8.159-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T00:22:00+00:00",
+          "filename": "NotEnoughItems-2.8.159-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/629341013",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.159-GTNH/NotEnoughItems-2.8.159-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -156617,7 +156697,7 @@
     },
     {
       "name": "Nuclear-Control",
-      "latest_version": "2.7.16",
+      "latest_version": "2.7.17",
       "private": false,
       "versions": [
         {
@@ -157150,6 +157230,16 @@
           "filename": "IC2NuclearControl-2.7.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nuclear-Control/releases/assets/609370322",
           "browser_download_url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.7.16/IC2NuclearControl-2.7.16.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.17",
+          "changelog": "## What's Changed\n* Fix disconnect when a panel holds a Vanilla Machine Card by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Nuclear-Control/pull/53\n* Fix last line of Advanced Information Panel settings being unreachable by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Nuclear-Control/pull/54\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/53\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.7.16...2.7.17\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T09:12:33+00:00",
+          "filename": "IC2NuclearControl-2.7.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nuclear-Control/releases/assets/630300700",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.7.17/IC2NuclearControl-2.7.17.jar",
           "extra_assets": []
         }
       ],
@@ -179676,7 +179766,7 @@
     },
     {
       "name": "ThaumicEnergistics",
-      "latest_version": "1.7.64-GTNH",
+      "latest_version": "1.7.65-GTNH",
       "private": false,
       "versions": [
         {
@@ -180959,6 +181049,16 @@
           "filename": "thaumicenergistics-1.7.64-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/608559459",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.7.64-GTNH/thaumicenergistics-1.7.64-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.65-GTNH",
+          "changelog": "## What's Changed\n* Fix knowledge inscriber can't save recipes which are neither ShapedArcaneRecipe nor ShapelessArcaneRecipe by @Ressed in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/146\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.64-GTNH...1.7.65-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-11T00:22:48+00:00",
+          "filename": "thaumicenergistics-1.7.65-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/629342229",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.7.65-GTNH/thaumicenergistics-1.7.65-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -195747,6 +195847,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 782,
-  "latest_successful_daily": 782
+  "latest_daily": 783,
+  "latest_successful_daily": 783
 }
