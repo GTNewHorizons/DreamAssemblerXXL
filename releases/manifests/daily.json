@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-10-11T10:11:59.565026+00:00",
+  "last_updated": "2026-10-12T11:08:41.599652+00:00",
   "config": "2.9.0-nightly-2026-10-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -57,7 +57,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.7.18-GTNH",
+      "version": "1.7.19-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "Default-Configs": {
-      "version": "1.3.2",
+      "version": "1.3.3",
       "side": "CLIENT"
     },
     "ThaumicBoots": {
