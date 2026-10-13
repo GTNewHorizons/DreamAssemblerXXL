@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-10-13T10:49:35.417169+00:00",
-  "config": "2.9.0-nightly-2026-10-12",
+  "last_updated": "2026-10-13T13:00:13.698537+00:00",
+  "config": "2.9.0-nightly-2026-10-13",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.10-GTNH",
+      "version": "1.9.12-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.222",
+      "version": "5.09.54.223",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.37",
+      "version": "3.0.38",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.65-GTNH",
+      "version": "0.1.66-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.2.10-carrot",
+      "version": "2.2.11-carrot",
       "side": "BOTH"
     }
   },

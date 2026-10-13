@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-12",
+    "latest_version": "2.9.0-nightly-2026-10-13",
     "needs_attention": false,
     "versions": [
       {
@@ -8142,6 +8142,16 @@
         "filename": "2.9.0-nightly-2026-10-12.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/634769968",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-12/2.9.0-nightly-2026-10-12.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-13",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-13T12:14:26+00:00",
+        "filename": "2.9.0-nightly-2026-10-13.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/636933715",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-13/2.9.0-nightly-2026-10-13.zip",
         "extra_assets": []
       }
     ],
@@ -46012,7 +46022,7 @@
     },
     {
       "name": "Computronics",
-      "latest_version": "1.9.10-GTNH",
+      "latest_version": "1.9.12-GTNH",
       "private": false,
       "versions": [
         {
@@ -46344,6 +46354,26 @@
           "filename": "Computronics-1.9.10-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/527764790",
           "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.10-GTNH/Computronics-1.9.10-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.11-GTNH",
+          "changelog": "## What's Changed\n* Fix rare crash on world load where getName would look up the machine … by @Xela10001 in https://github.com/GTNewHorizons/Computronics/pull/45\n\n## New Contributors\n* @Xela10001 made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/45\n\n**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.10-GTNH...1.9.11-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-13T12:46:12+00:00",
+          "filename": "Computronics-1.9.11-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/637013782",
+          "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.11-GTNH/Computronics-1.9.11-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.12-GTNH",
+          "changelog": "## What's Changed\n* Fix and update bs+deps+gradle by @Dream-Master in https://github.com/GTNewHorizons/Computronics/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.11-GTNH...1.9.12-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-13T12:50:10+00:00",
+          "filename": "Computronics-1.9.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/637023789",
+          "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.12-GTNH/Computronics-1.9.12-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -68254,7 +68284,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.222",
+      "latest_version": "5.09.54.223",
       "private": false,
       "versions": [
         {
@@ -95495,6 +95525,16 @@
           "filename": "gregtech-5.09.54.222.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/634764357",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.222/gregtech-5.09.54.222.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.223",
+          "changelog": "## What's Changed\n* add holo goggles support to vc hatches by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8425\n* Fixes Grammar Can not --> Cannot by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8426\n* Use the practical voltage for the Void Miners by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8362\n* Fixed NPE when scanning Tinkers Construct blocks by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8421\n* Set Inudustrial Wire Factory base speed to 100% by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8402\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.222...5.09.54.223\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-13T12:15:49+00:00",
+          "filename": "gregtech-5.09.54.223.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/636937368",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.223/gregtech-5.09.54.223.jar",
           "extra_assets": []
         }
       ],
@@ -124338,7 +124378,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "3.0.37",
+      "latest_version": "3.0.38",
       "private": false,
       "versions": [
         {
@@ -127910,6 +127950,27 @@
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.37/lwjgl3ify-3.0.37-multimc.zip"
             }
           ]
+        },
+        {
+          "version_tag": "3.0.38",
+          "changelog": "## What's Changed\n* Fix Keyboard.getKeyName deadlock by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/373\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.37...3.0.38\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-13T12:07:49+00:00",
+          "filename": "lwjgl3ify-3.0.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/636918774",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.38/lwjgl3ify-3.0.38.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-3.0.38-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/636918736",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.38/lwjgl3ify-3.0.38-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-3.0.38-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/636918787",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.38/lwjgl3ify-3.0.38-multimc.zip"
+            }
+          ]
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -129072,7 +129133,7 @@
     },
     {
       "name": "MatterManipulator",
-      "latest_version": "0.1.65-GTNH",
+      "latest_version": "0.1.66-GTNH",
       "private": false,
       "versions": [
         {
@@ -130134,6 +130195,16 @@
           "filename": "matter-manipulator-0.1.65-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/634763107",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.65-GTNH/matter-manipulator-0.1.65-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.66-GTNH",
+          "changelog": "## What's Changed\n* Matter manipulator now carries over laser cable color by @Xela10001 in https://github.com/GTNewHorizons/MatterManipulator/pull/96\n\n## New Contributors\n* @Xela10001 made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/96\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.65-GTNH...0.1.66-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-13T12:26:13+00:00",
+          "filename": "matter-manipulator-0.1.66-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/636961974",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.66-GTNH/matter-manipulator-0.1.66-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -169620,7 +169691,7 @@
     },
     {
       "name": "SpiceOfLife",
-      "latest_version": "2.2.10-carrot",
+      "latest_version": "2.2.11-carrot",
       "private": false,
       "versions": [
         {
@@ -170003,6 +170074,16 @@
           "filename": "SpiceOfLife-2.2.10-carrot.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/446648831",
           "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.10-carrot/SpiceOfLife-2.2.10-carrot.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.11-carrot",
+          "changelog": "## What's Changed\n* Make Command Output Localizable by @Discreater in https://github.com/GTNewHorizons/SpiceOfLife/pull/58\n\n## New Contributors\n* @Discreater made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/58\n\n**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.10-carrot...2.2.11-carrot\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-13T12:11:34+00:00",
+          "filename": "SpiceOfLife-2.2.11-carrot.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/636927560",
+          "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.11-carrot/SpiceOfLife-2.2.11-carrot.jar",
           "extra_assets": []
         }
       ],
@@ -196057,6 +196138,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 785,
-  "latest_successful_daily": 785
+  "latest_daily": 786,
+  "latest_successful_daily": 786
 }

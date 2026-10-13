@@ -360,6 +360,13 @@ Mod is client-side only.
 >* Fixing silly read write issue by @Cardinalstars in https://github.com/GTNewHorizons/CodeChickenCore/pull/56 (1.4.20)
 >* Fix missing colour tint on block particles by @Algent in https://github.com/GTNewHorizons/CodeChickenCore/pull/57 (1.4.20)
 
+# Updated - Computronics - 1.9.10-GTNH --> 1.9.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.10-GTNH...1.9.12-GTNH
+
+## What's Changed:
+>* Fix and update bs+deps+gradle by @Dream-Master in https://github.com/GTNewHorizons/Computronics/pull/46 (1.9.12-GTNH)
+>* Fix rare crash on world load where getName would look up the machine … by @Xela10001 in https://github.com/GTNewHorizons/Computronics/pull/45 (1.9.11-GTNH)
+
 # Updated - CookingForBlockheads - 1.4.13-GTNH --> 1.4.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.13-GTNH...1.4.14-GTNH
 
@@ -477,10 +484,15 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.222
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.222
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.223
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.223
 
 ## What's Changed:
+>* add holo goggles support to vc hatches by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8425 (5.09.54.223)
+>* Fixes Grammar Can not --> Cannot by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8426 (5.09.54.223)
+>* Use the practical voltage for the Void Miners by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8362 (5.09.54.223)
+>* Fixed NPE when scanning Tinkers Construct blocks by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8421 (5.09.54.223)
+>* Set Inudustrial Wire Factory base speed to 100% by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8402 (5.09.54.223)
 >* rework extruder structure  by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7713 (5.09.54.222)
 >* Optimising images contained in extruder for #7776 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8398 (5.09.54.222)
 >* tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8345 (5.09.54.222)
@@ -1005,10 +1017,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix up rendering related bugs by @Eclipse-Sol in https://github.com/GTNewHorizons/MalisisDoors/pull/36 (1.19.12-GTNH)
 
-# Updated - MatterManipulator - 0.1.55-GTNH --> 0.1.65-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.55-GTNH...0.1.65-GTNH
+# Updated - MatterManipulator - 0.1.55-GTNH --> 0.1.66-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.55-GTNH...0.1.66-GTNH
 
 ## What's Changed:
+>* Matter manipulator now carries over laser cable color by @Xela10001 in https://github.com/GTNewHorizons/MatterManipulator/pull/96 (0.1.66-GTNH)
 >* Styling changes by @Ranzuu in https://github.com/GTNewHorizons/MatterManipulator/pull/100 (0.1.65-GTNH)
 >* Fix Matter Manipulator breaking wireless hub/connector links when moving by @micvog in https://github.com/GTNewHorizons/MatterManipulator/pull/89 (0.1.65-GTNH)
 >* Fix planning and copying OpenComputers microcontrollers by @micvog in https://github.com/GTNewHorizons/MatterManipulator/pull/94 (0.1.65-GTNH)
@@ -1251,6 +1264,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix hungry mob crash when eating items from lunchbags that dont extend ItemFood by @GDCloudstrike in https://github.com/GTNewHorizons/SpecialMobs/pull/34 (3.7.7)
 >* Hungry mob variant behaviour change/fix by @GDCloudstrike in https://github.com/GTNewHorizons/SpecialMobs/pull/33 (3.7.6)
 
+# Updated - SpiceOfLife - 2.2.10-carrot --> 2.2.11-carrot
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.10-carrot...2.2.11-carrot
+
+## What's Changed:
+>* Make Command Output Localizable by @Discreater in https://github.com/GTNewHorizons/SpiceOfLife/pull/58 (2.2.11-carrot)
+
 # Updated - StorageDrawers - 2.2.29-GTNH --> 2.2.31-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.2.29-GTNH...2.2.31-GTNH
 
@@ -1378,10 +1397,11 @@ Mod is client-side only.
 ## What's Changed:
 >* use FishingHooks by @0hwx in https://github.com/GTNewHorizons/harvestcraft/pull/77 (1.3.15-GTNH)
 
-# Updated - lwjgl3ify - 3.0.31 --> 3.0.37
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.31...3.0.37
+# Updated - lwjgl3ify - 3.0.31 --> 3.0.38
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.31...3.0.38
 
 ## What's Changed:
+>* Fix Keyboard.getKeyName deadlock by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/373 (3.0.38)
 >* Fix applying incorrect delta on cursor grab by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/374 (3.0.37)
 >* Fix Windows taskbar showing the Java icon instead of the window icon by @Eldrinn-Elantey in https://github.com/GTNewHorizons/lwjgl3ify/pull/375 (3.0.36)
 >* fix hang on context destroy by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/369 (3.0.33)
@@ -1419,4 +1439,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @AncalagonX, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Exterminate5573, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @github-actions[bot], @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @jude123412, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @Pilzinsel64, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @toenailsin, @TotallyNotOndre, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @AncalagonX, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @Dream-Master, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Exterminate5573, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @GDCloudstrike, @GhostCoder6969, @github-actions[bot], @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @jude123412, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @Pilzinsel64, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @toenailsin, @TotallyNotOndre, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
