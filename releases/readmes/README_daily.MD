@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-10-13
+Version daily is out 2026-10-14
 
 ## What is GT New Horizons?
 
@@ -262,7 +262,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.4.26-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.5.113-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.5.114-gtnh |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.2-GTNH |
 | [AkashicTome](https://github.com/GTNewHorizons/AkashicTome) | 1.2.7 |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.3.2-GTNH |
@@ -344,7 +344,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
 | [Extreme Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy) | 1.1.1 |
 | [FalsepatternLib](https://www.curseforge.com/minecraft/mc-mods/fplib) | 1.12.2 |
-| [Fether](https://github.com/GTNewHorizons/Fether) | 2.0.7 |
+| [Fether](https://github.com/GTNewHorizons/Fether) | 2.0.8 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.7 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.5.6 |
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.9.17-GTNH |
@@ -361,18 +361,18 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.16 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.54.223 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.54.225 |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.3.3 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.14 |
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.0.5 |
-| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.11.52 |
-| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.3.45 |
+| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.11.54 |
+| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.3.46 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.28-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.15-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.2 |
 | [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.216 |
-| [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.17-GTNH |
+| [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.18-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.25 |
 | [IFU](https://github.com/GTNewHorizons/IFU) | 1.12.4 |
