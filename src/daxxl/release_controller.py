@@ -23,7 +23,7 @@ FULL_RELEASE_ARCHIVES: list[tuple[Side, Archive]] = [
     (Side.CLIENT, Archive.ZIP),
     (Side.CLIENT, Archive.PRISM),
     (Side.CLIENT, Archive.TECHNIC),
-    (Side.CLIENT, Archive.CURSEFORGE),
+    (Side.CLIENT_JAVA9, Archive.CURSEFORGE),
     (Side.CLIENT, Archive.MODRINTH),
     (Side.CLIENT_JAVA9, Archive.MOBILE),
     (Side.CLIENT_JAVA9, Archive.PRISM),

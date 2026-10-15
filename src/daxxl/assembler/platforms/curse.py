@@ -1,7 +1,8 @@
 from collections.abc import Callable
-from json import dumps
-from pathlib import Path
-from zipfile import ZIP_DEFLATED, ZipFile
+from json import dumps, loads
+from pathlib import Path, PurePosixPath
+from typing import Any
+from zipfile import ZIP_DEFLATED, BadZipFile, ZipFile
 
 from colorama import Fore
 
@@ -77,13 +78,56 @@ class CurseAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_CURSE_DIR / f"GT_New_Horizons_{self.release.version}.zip"
 
+    def load_lwjgl3ify_files(self, side: Side) -> tuple[dict[str, Any], dict[str, bytes]]:
+        """Read the selected version's CurseForge artifact before replacing an existing pack archive."""
+        lwjgl3ify = next(((mod, version) for mod, version in self.get_mods(side) if mod.name == "lwjgl3ify"), None)
+        if lwjgl3ify is None:
+            raise ValueError(f"Cannot assemble CurseForge archive: release {self.release.version} has no client lwjgl3ify mod.")
+
+        mod, version = lwjgl3ify
+        try:
+            artifact_path = get_asset_version_cache_location(mod, version, "-curse.zip")
+        except FileNotFoundError as error:
+            raise ValueError(f"Cannot assemble CurseForge archive: lwjgl3ify {version.version_tag} has no CurseForge artifact (*-curse.zip).") from error
+        if not artifact_path.is_file():
+            raise FileNotFoundError(f"Cannot assemble CurseForge archive: {artifact_path.name} is missing from the cache. Download the release assets first.")
+
+        try:
+            with ZipFile(artifact_path) as artifact:
+                additions = loads(artifact.read("manifest-additions.json"))
+                minecraft = additions.get("minecraft") if isinstance(additions, dict) else None
+                if not isinstance(minecraft, dict) or not isinstance(minecraft.get("javaVersion"), int) or not isinstance(minecraft.get("patches"), list):
+                    raise ValueError("manifest-additions.json must define minecraft.javaVersion and minecraft.patches")
+
+                overrides: dict[str, bytes] = {}
+                for entry in artifact.infolist():
+                    if entry.is_dir() or not entry.filename.startswith("overrides/"):
+                        continue
+                    path = PurePosixPath(entry.filename)
+                    if ".." in path.parts or "\\" in entry.filename or ":" in entry.filename or path.as_posix() != entry.filename:
+                        raise ValueError(f"Invalid override path: {entry.filename}")
+                    if entry.filename in overrides:
+                        raise ValueError(f"Duplicate override path: {entry.filename}")
+                    overrides[entry.filename] = artifact.read(entry)
+
+                for patch in minecraft["patches"]:
+                    if not isinstance(patch, str) or f"overrides/{patch}" not in overrides:
+                        raise ValueError(f"Missing patch in artifact: {patch}")
+        except (BadZipFile, OSError, KeyError, ValueError) as error:
+            raise ValueError(f"Cannot assemble CurseForge archive: invalid {artifact_path.name}: {error}") from error
+
+        return minecraft, overrides
+
     async def assemble(self, side: Side, verbose: bool = False) -> None:
-        if side not in {Side.CLIENT}:
-            raise Exception("Can only assemble release for CLIENT")
+        if side != Side.CLIENT_JAVA9:
+            raise ValueError("Can only assemble CurseForge releases for CLIENT_JAVA9")
+
+        minecraft_additions, lwjgl_overrides = self.load_lwjgl3ify_files(side)
 
         # +2 override pictures, +1 manifest.json and an optional changelog
         self.delta_progress = 100 / (
             len(self.get_override_mods(side))
+            + len(lwjgl_overrides)
             + 2
             + self.get_amount_of_files_in_config(side)
             + self.get_amount_of_files_in_locales()
@@ -105,12 +149,18 @@ class CurseAssembler(GenericAssembler):
             await self.add_config(side, self.get_config(), archive, verbose=verbose)
             await self.yield_to_event_loop()
             log.info("Adding manifest.json to the archive")
-            self.generate_meta_data(side, archive)
+            self.generate_meta_data(side, archive, minecraft_additions)
             await self.yield_to_event_loop()
             log.info("Adding overrides to the archive")
             await self.add_overrides(side, archive)
+            log.info("Adding lwjgl3ify CurseForge files to the archive")
+            for name, data in lwjgl_overrides.items():
+                archive.writestr(name, data)
+                if self.task_progress_callback is not None:
+                    self.task_progress_callback(self.delta_progress, f"adding {name} to the archive")
+                await self.yield_to_event_loop()
             log.info("Adding locales to the archive")
-            await self.add_localisation_files(archive, str(self.overrides_folder))
+            await self.add_localisation_files(archive, self.overrides_folder.as_posix())
             await self.yield_to_event_loop()
             await normalize_archive_permissions(archive)
             log.info("Archive created successfully!")
@@ -145,20 +195,22 @@ class CurseAssembler(GenericAssembler):
     def config_root(self) -> Path | None:
         return self.overrides_folder
 
-    def generate_meta_data(self, side: Side, archive: ZipFile) -> None:
+    def generate_meta_data(self, side: Side, archive: ZipFile, minecraft_additions: dict[str, Any]) -> None:
         """
         Generates the manifest.json and places it in the archive.
 
         :param side: the side of the pack
         :param archive: the zipfile
+        :param minecraft_additions: fields supplied by the selected lwjgl3ify CurseForge artifact
         :return: None
         """
 
-        metadata: dict[
-            str,
-            dict[str, str | list[dict[str, str | bool | int]]] | list[dict[str, str | bool | int]] | str | int,
-        ] = {
-            "minecraft": {"version": "1.7.10", "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}]},
+        metadata: dict[str, Any] = {
+            "minecraft": {
+                "version": "1.7.10",
+                "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}],
+                **minecraft_additions,
+            },
             "manifestType": "minecraftModpack",
             "manifestVersion": 1,
             "name": "GT New Horizons",

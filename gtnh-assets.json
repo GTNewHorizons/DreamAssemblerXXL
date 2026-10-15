@@ -128172,6 +128172,11 @@
           "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.39/lwjgl3ify-3.0.39.jar",
           "extra_assets": [
             {
+              "filename": "lwjgl3ify-3.0.39-curse.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/640935085",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.39/lwjgl3ify-3.0.39-curse.zip"
+            },
+            {
               "filename": "lwjgl3ify-3.0.39-forgePatches.jar",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/640935031",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.39/lwjgl3ify-3.0.39-forgePatches.jar"
