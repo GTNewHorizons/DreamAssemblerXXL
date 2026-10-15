@@ -152,10 +152,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1084-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1084-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1085-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1085-GTNH
 
 ## What's Changed:
+>* Disallow P2P interface -> dual interface transform by @rieverholic in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1702 (rv3-beta-1085-GTNH)
 >* Fix 0 crafting steps for fluid when requesting by @Azusfin in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1701 (rv3-beta-1084-GTNH)
 >* Fix crash when a crafting job completes with the crafting log enabled by @Aintripin in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1698 (rv3-beta-1083-GTNH)
 >* Fix wireless crafting terminal losing stack count changes by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1692 (rv3-beta-1082-GTNH)
@@ -299,10 +300,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix Screen Lighting by @slprime in https://github.com/GTNewHorizons/Binnie/pull/120 (2.6.48)
 
-# Updated - BlockRenderer6343 - 1.4.21 --> 1.4.24
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.21...1.4.24
+# Updated - BlockRenderer6343 - 1.4.21 --> 1.4.25
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.21...1.4.25
 
 ## What's Changed:
+>* Improve multiblock channel controls and preview scan performance by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/67 (1.4.25)
 >* Fix incorrect PCB Factory hatch highlight by @DreamYao520 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/66 (1.4.24)
 >* Change methods to static in ConstructableData by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/65 (1.4.23)
 >* use new gt api by @danyadev in https://github.com/GTNewHorizons/BlockRenderer6343/pull/64 (1.4.22)
@@ -492,10 +494,13 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.228
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.228
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.229
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.229
 
 ## What's Changed:
+>* Fix Density^2 crafting recipe to match assembler recipe by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8448 (5.09.54.229)
+>* Add Energy Hatch to ExxonMobil Chemical Plant Definition by @KyleAvalani in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8451 (5.09.54.229)
+>* Fix combustion booster calls by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8452 (5.09.54.229)
 >* minor manifold texture changes by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8449 (5.09.54.228)
 >* Unify: Give the Monster Repellator the standard tier names by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8445 (5.09.54.227)
 >* Unify: Give the Printer the standard tier names by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8443 (5.09.54.227)
@@ -1343,10 +1348,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Modernize anvil gui by @Ranzuu in https://github.com/GTNewHorizons/ThaumicBases/pull/70 (1.9.21)
 >* Fix tainted research by @MarloGr in https://github.com/GTNewHorizons/ThaumicBases/pull/69 (1.9.20)
 
-# Updated - ThaumicEnergistics - 1.7.60-GTNH --> 1.7.65-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.60-GTNH...1.7.65-GTNH
+# Updated - ThaumicEnergistics - 1.7.60-GTNH --> 1.7.66-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.60-GTNH...1.7.66-GTNH
 
 ## What's Changed:
+>* Fix NPE in the Essentia Export Bus when using a crafting card with an empty inventory slot by @Angry3vilbot in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/147 (1.7.66-GTNH)
 >* Fix knowledge inscriber can't save recipes which are neither ShapedArcaneRecipe nor ShapelessArcaneRecipe by @Ressed in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/146 (1.7.65-GTNH)
 >* fix: refresh provider connections when changing color by @Worive in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/145 (1.7.64-GTNH)
 >* Fix Arcane Assembler dividing by zero on patterns with a zero-size ingredient (Warded Glass) by @micvog in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/144 (1.7.63-GTNH)
@@ -1468,10 +1474,11 @@ Mod is client-side only.
 >* Add Forestry mutation requirement slots by @ABKQPO in https://github.com/GTNewHorizons/neiaddons/pull/19 (1.18.7)
 >* fix duplicate jubilance tooltips by @MarloGr in https://github.com/GTNewHorizons/neiaddons/pull/20 (1.18.6)
 
-# Updated - twilightforest - 2.7.40 --> 2.7.44
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.44
+# Updated - twilightforest - 2.7.40 --> 2.7.45
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.40...2.7.45
 
 ## What's Changed:
+>* Fix miswritten mod id for Baubles by @Ressed in https://github.com/GTNewHorizons/twilightforest/pull/166 (2.7.45)
 >* Fix some saplings never grow on modded soils by @Ressed in https://github.com/GTNewHorizons/twilightforest/pull/163 (2.7.44)
 >* Optimize sorting tree logic by @fehling135 in https://github.com/GTNewHorizons/twilightforest/pull/164 (2.7.43)
 >* Fix Silk Touch for special magic logs by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/162 (2.7.42)

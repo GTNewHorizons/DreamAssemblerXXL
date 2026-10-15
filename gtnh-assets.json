@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-13",
+    "latest_version": "2.9.0-nightly-2026-10-15",
     "needs_attention": false,
     "versions": [
       {
@@ -8152,6 +8152,16 @@
         "filename": "2.9.0-nightly-2026-10-13.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/636933715",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-13/2.9.0-nightly-2026-10-13.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-15",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-15T11:03:57+00:00",
+        "filename": "2.9.0-nightly-2026-10-15.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/643586606",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-15/2.9.0-nightly-2026-10-15.zip",
         "extra_assets": []
       }
     ],
@@ -19171,7 +19181,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1084-GTNH",
+      "latest_version": "rv3-beta-1085-GTNH",
       "private": false,
       "versions": [
         {
@@ -28602,6 +28612,16 @@
           "filename": "appliedenergistics2-rv3-beta-1084-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/640151715",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1084-GTNH/appliedenergistics2-rv3-beta-1084-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1085-GTNH",
+          "changelog": "## What's Changed\n* Disallow P2P interface -> dual interface transform by @rieverholic in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1702\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1084-GTNH...rv3-beta-1085-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T10:52:22+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1085-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/643555630",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1085-GTNH/appliedenergistics2-rv3-beta-1085-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -38324,7 +38344,7 @@
     },
     {
       "name": "BlockRenderer6343",
-      "latest_version": "1.4.24",
+      "latest_version": "1.4.25",
       "private": false,
       "versions": [
         {
@@ -39146,6 +39166,16 @@
           "filename": "blockrenderer6343-1.4.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/602187375",
           "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.4.24/blockrenderer6343-1.4.24.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.25",
+          "changelog": "## What's Changed\n* Improve multiblock channel controls and preview scan performance by @ABKQPO in https://github.com/GTNewHorizons/BlockRenderer6343/pull/67\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.4.24...1.4.25\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T10:57:47+00:00",
+          "filename": "blockrenderer6343-1.4.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/643569634",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.4.25/blockrenderer6343-1.4.25.jar",
           "extra_assets": []
         }
       ],
@@ -68344,7 +68374,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.228",
+      "latest_version": "5.09.54.229",
       "private": false,
       "versions": [
         {
@@ -95645,6 +95675,16 @@
           "filename": "gregtech-5.09.54.228.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/641637687",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.228/gregtech-5.09.54.228.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.229",
+          "changelog": "## What's Changed\n* Fix Density^2 crafting recipe to match assembler recipe by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8448\n* Add Energy Hatch to ExxonMobil Chemical Plant Definition by @KyleAvalani in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8451\n* Fix combustion booster calls by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8452\n\n## New Contributors\n* @KyleAvalani made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8451\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.228...5.09.54.229\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T10:52:44+00:00",
+          "filename": "gregtech-5.09.54.229.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/643556495",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.229/gregtech-5.09.54.229.jar",
           "extra_assets": []
         }
       ],
@@ -180278,7 +180318,7 @@
     },
     {
       "name": "ThaumicEnergistics",
-      "latest_version": "1.7.65-GTNH",
+      "latest_version": "1.7.66-GTNH",
       "private": false,
       "versions": [
         {
@@ -181571,6 +181611,16 @@
           "filename": "thaumicenergistics-1.7.65-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/629342229",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.7.65-GTNH/thaumicenergistics-1.7.65-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.66-GTNH",
+          "changelog": "## What's Changed\n* Fix NPE in the Essentia Export Bus when using a crafting card with an empty inventory slot by @Angry3vilbot in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/147\n\n## New Contributors\n* @Angry3vilbot made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/147\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.65-GTNH...1.7.66-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T10:56:47+00:00",
+          "filename": "thaumicenergistics-1.7.66-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/643566885",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.7.66-GTNH/thaumicenergistics-1.7.66-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -187600,7 +187650,7 @@
     },
     {
       "name": "twilightforest",
-      "latest_version": "2.7.44",
+      "latest_version": "2.7.45",
       "private": false,
       "versions": [
         {
@@ -188823,6 +188873,16 @@
           "filename": "TwilightForest-2.7.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/608559262",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.44/TwilightForest-2.7.44.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.45",
+          "changelog": "## What's Changed\n* Fix miswritten mod id for Baubles by @Ressed in https://github.com/GTNewHorizons/twilightforest/pull/166\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.44...2.7.45\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T11:00:34+00:00",
+          "filename": "TwilightForest-2.7.45.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/643577030",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.45/TwilightForest-2.7.45.jar",
           "extra_assets": []
         }
       ],
@@ -196359,6 +196419,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 788,
-  "latest_successful_daily": 788
+  "latest_daily": 789,
+  "latest_successful_daily": 789
 }
