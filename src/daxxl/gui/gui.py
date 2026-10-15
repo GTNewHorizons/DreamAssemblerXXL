@@ -95,14 +95,13 @@ class Window(ThemedTk, Tk):
             client_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
             server_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)),
             server_zip_j9=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)),
-            client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)),
+            client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.CURSEFORGE)),
             client_modrinth=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
             client_mobile=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.MOBILE)),
             client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
-            generate_intermediate_cf_files=lambda: asyncio.ensure_future(self.generate_intermediate_cf_files()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(self.add_gtnh_version(release_name, previous_version)),
@@ -222,20 +221,6 @@ class Window(ThemedTk, Tk):
         """
         self.trigger_toggle()
         await self.controller.generate_changelog()
-        self.trigger_toggle()
-
-    @with_error_dialog(
-        title="An error occurred during the generation of the intermediate curseforge files",
-        message="An error occurred during the generation of the intermediate curseforge files.\nPlease check the logs for more information.",
-    )
-    async def generate_intermediate_cf_files(self) -> None:
-        """
-        Callback used to generate curseforge intermediate files.
-
-        :return: None
-        """
-        self.trigger_toggle()
-        await self.controller.generate_intermediate_cf_files(self.modpack_list_frame.action_frame.progress_bar_current_task)
         self.trigger_toggle()
 
     @with_error_dialog(
