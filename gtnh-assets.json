@@ -8177,20 +8177,20 @@
         "version_tag": "de_DE-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T06:54:16+00:00",
-        "filename": "GTNH-de_DE-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642980837",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:46:28+00:00",
+        "filename": "GTNH-de_DE-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646428187",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
         "version_tag": "es_ES-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T06:38:22+00:00",
-        "filename": "GTNH-es_ES-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642942588",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:31:25+00:00",
+        "filename": "GTNH-es_ES-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646392876",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
@@ -8207,60 +8207,60 @@
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T06:12:35+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642883131",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:06:16+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646332497",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T06:19:12+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642897623",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:12:52+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646347610",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pl_PL-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T07:01:15+00:00",
-        "filename": "GTNH-pl_PL-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642996482",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:53:31+00:00",
+        "filename": "GTNH-pl_PL-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646443834",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pt_BR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T06:27:10+00:00",
-        "filename": "GTNH-pt_BR-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642916952",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:19:39+00:00",
+        "filename": "GTNH-pt_BR-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646364349",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ru_RU-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T07:08:12+00:00",
-        "filename": "GTNH-ru_RU-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/643015099",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T07:00:22+00:00",
+        "filename": "GTNH-ru_RU-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646458773",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
         "version_tag": "tr_TR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-10-15T06:47:01+00:00",
-        "filename": "GTNH-tr_TR-Translation-Daily-2026-10-15+490.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/642963182",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-10-15%2B490.zip",
+        "tagged_at": "2026-10-16T06:38:17+00:00",
+        "filename": "GTNH-tr_TR-Translation-Daily-2026-10-16+491.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/646408300",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-10-16%2B491.zip",
         "extra_assets": []
       },
       {
@@ -58861,7 +58861,7 @@
     },
     {
       "name": "Fether",
-      "latest_version": "2.0.8",
+      "latest_version": "2.0.9",
       "private": false,
       "versions": [
         {
@@ -59052,6 +59052,16 @@
           "filename": "fether-2.0.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Fether/releases/assets/638496886",
           "browser_download_url": "https://github.com/GTNewHorizons/Fether/releases/download/2.0.8/fether-2.0.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.9",
+          "changelog": "## What's Changed\n* Add German translation by @glowredman in https://github.com/GTNewHorizons/Fether/pull/14\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Fether/compare/2.0.8...2.0.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T21:20:16+00:00",
+          "filename": "fether-2.0.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Fether/releases/assets/645202838",
+          "browser_download_url": "https://github.com/GTNewHorizons/Fether/releases/download/2.0.9/fether-2.0.9.jar",
           "extra_assets": []
         }
       ],
@@ -121923,7 +121933,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.6.60",
+      "latest_version": "1.6.61",
       "private": false,
       "versions": [
         {
@@ -122806,6 +122816,16 @@
           "filename": "littletiles-1.6.60.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/615997206",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.60/littletiles-1.6.60.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.61",
+          "changelog": "## What's Changed\n* Fix overwriting mode bug by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/200\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.60...1.6.61\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T12:32:27+00:00",
+          "filename": "littletiles-1.6.61.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/643811306",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.61/littletiles-1.6.61.jar",
           "extra_assets": []
         }
       ],
@@ -189597,7 +189617,7 @@
     },
     {
       "name": "VendingMachine",
-      "latest_version": "0.4.101",
+      "latest_version": "0.4.102",
       "private": false,
       "versions": [
         {
@@ -190598,6 +190618,16 @@
           "filename": "vendingmachine-0.4.101.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/VendingMachine/releases/assets/599425636",
           "browser_download_url": "https://github.com/GTNewHorizons/VendingMachine/releases/download/0.4.101/vendingmachine-0.4.101.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.102",
+          "changelog": "## What's Changed\n* Remove the gtnhShared directory by @wlhlm in https://github.com/GTNewHorizons/VendingMachine/pull/171\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.101...0.4.102\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-15T12:40:02+00:00",
+          "filename": "vendingmachine-0.4.102.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VendingMachine/releases/assets/643829509",
+          "browser_download_url": "https://github.com/GTNewHorizons/VendingMachine/releases/download/0.4.102/vendingmachine-0.4.102.jar",
           "extra_assets": []
         }
       ],
@@ -196419,6 +196449,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 789,
-  "latest_successful_daily": 789
+  "latest_daily": 790,
+  "latest_successful_daily": 790
 }

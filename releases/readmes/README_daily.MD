@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-10-15
+Version daily is out 2026-10-16
 
 ## What is GT New Horizons?
 
@@ -344,7 +344,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
 | [Extreme Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy) | 1.1.1 |
 | [FalsepatternLib](https://www.curseforge.com/minecraft/mc-mods/fplib) | 1.12.2 |
-| [Fether](https://github.com/GTNewHorizons/Fether) | 2.0.8 |
+| [Fether](https://github.com/GTNewHorizons/Fether) | 2.0.9 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.7 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.5.6 |
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.9.17-GTNH |
@@ -389,7 +389,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [JarJar](https://github.com/GTNewHorizons/JarJar) | 0.3.7-beta |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.23-fairplay |
-| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.6.60 |
+| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.6.61 |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.5.36-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.14 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
@@ -486,7 +486,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.2.1 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.3.1 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.15.4 |
-| [VendingMachine](https://github.com/GTNewHorizons/VendingMachine) | 0.4.101 |
+| [VendingMachine](https://github.com/GTNewHorizons/VendingMachine) | 0.4.102 |
 | [VillageNames](https://github.com/GTNewHorizons/VillageNames) | 4.5.19-GTNH |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.5.41 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.19.34 |

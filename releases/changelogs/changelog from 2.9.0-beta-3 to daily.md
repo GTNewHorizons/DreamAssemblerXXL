@@ -462,10 +462,11 @@ Mod is client-side only.
 >* Prevent dead armor stands from dropping twice by @Chitak985 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/125 (2.6.60-GTNH)
 >* backport modern wither spawning behavior by @Nana-Sakura in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/124 (2.6.59-GTNH)
 
-# Updated - Fether - 2.0.5 --> 2.0.8
-**Full Changelog**: https://github.com/GTNewHorizons/Fether/compare/2.0.5...2.0.8
+# Updated - Fether - 2.0.5 --> 2.0.9
+**Full Changelog**: https://github.com/GTNewHorizons/Fether/compare/2.0.5...2.0.9
 
 ## What's Changed:
+>* Add German translation by @glowredman in https://github.com/GTNewHorizons/Fether/pull/14 (2.0.9)
 >* Rename Scrambled Weevil Egg -> Fried Weevil Egg by @glowredman in https://github.com/GTNewHorizons/Fether/pull/13 (2.0.8)
 >* Fix Nether Tree handling in other mods by @glowredman in https://github.com/GTNewHorizons/Fether/pull/11 (2.0.7)
 >* Add return statement to block removal method by @mattparksjr in https://github.com/GTNewHorizons/Fether/pull/10 (2.0.6)
@@ -1015,10 +1016,11 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - LittleTiles - 1.6.44 --> 1.6.60
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.44...1.6.60
+# Updated - LittleTiles - 1.6.44 --> 1.6.61
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.44...1.6.61
 
 ## What's Changed:
+>* Fix overwriting mode bug by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/200 (1.6.61)
 >* Fix item forgery in LittleTiles placement packets by @jhhgiyv in https://github.com/GTNewHorizons/LittleTiles/pull/192 (1.6.60)
 >* Refactor in preparation for a big update by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/187 (1.6.59)
 >* Improve dumping command by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/186 (1.6.59)
@@ -1408,10 +1410,11 @@ Mod is client-side only.
 >* add config option for classic crafting station layout by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/334 (1.14.110-GTNH)
 >* Bugfix blocking damage battlesign by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/331 (1.14.109-GTNH)
 
-# Updated - VendingMachine - 0.4.100 --> 0.4.101
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.100...0.4.101
+# Updated - VendingMachine - 0.4.100 --> 0.4.102
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.100...0.4.102
 
 ## What's Changed:
+>* Remove the gtnhShared directory by @wlhlm in https://github.com/GTNewHorizons/VendingMachine/pull/171 (0.4.102)
 >* Make category tabs and IO panel scrollable on small GUI scales by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/168 (0.4.101)
 >* Keep background music (silently) playing when not inside the GUI by @wlhlm in https://github.com/GTNewHorizons/VendingMachine/pull/169 (0.4.101)
 
