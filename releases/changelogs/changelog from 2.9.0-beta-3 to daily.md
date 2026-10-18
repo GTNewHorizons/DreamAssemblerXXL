@@ -157,10 +157,12 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1086-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1086-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1087-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1087-GTNH
 
 ## What's Changed:
+>* Show network amount in Level Emitter slots by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1707 (rv3-beta-1087-GTNH)
+>* Improve cable previews for grid proxyable hosts and formed multiblocks by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1646 (rv3-beta-1087-GTNH)
 >* Fix stale storage watchers after grid node removal by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1704 (rv3-beta-1086-GTNH)
 >* Disallow P2P interface -> dual interface transform by @rieverholic in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1702 (rv3-beta-1085-GTNH)
 >* Fix 0 crafting steps for fluid when requesting by @Azusfin in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1701 (rv3-beta-1084-GTNH)
@@ -502,10 +504,12 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.232
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.232
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.234
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.234
 
 ## What's Changed:
+>* remove mention of beamcrafter dura by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8478 (5.09.54.234)
+>* moc, nanoforge and nfr tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8475 (5.09.54.233)
 >* Let the Matter Manipulator copy Heat Sensor Hatch settings by @micvog in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8459 (5.09.54.232)
 >* Copy Thaumic Horizon's lens nbt on Mechanical Armor's save by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8392 (5.09.54.232)
 >* Fix setting cableMultiConnect not loaded from config by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8382 (5.09.54.232)
@@ -905,6 +909,13 @@ Mod is client-side only.
 >* fix: correctly distribute long fluid outputs in MDT by @hinyb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7953 (5.09.54.135)
 >* fix spinmatron not caring about fluid if the recipe tier is ulv by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7954 (5.09.54.134)
 
+# Updated - GTNH-Credits - 1.3.3 --> 1.4.0
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Credits/compare/1.3.3...1.4.0
+
+## What's Changed:
+>* Move credits content to modpack resources and add translation-aware editing by @Worive in https://github.com/GTNewHorizons/GTNH-Credits/pull/25 (1.4.0)
+
 # Updated - GTNHExtLib - 1.0.4 --> 1.0.5
 **Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.4...1.0.5
 
@@ -1134,10 +1145,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.92
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.92
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.93
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.93
 
 ## What's Changed:
+>* Thaumonomicon Candelabra typo Issue #27266 by @BranTheBuildor in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2003 (2.9.93)
 >* Add Assembler Recipe for Powderbarrel by @KyleAvalani in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1999 (2.9.92)
 >* [NAC] Update Programmer Art by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1995 (2.9.91)
 >* Adjust Density^2 assembler recipe by @Armisael5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1997 (2.9.90)
@@ -1525,4 +1537,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @AncalagonX, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @Dream-Master, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @eigenraven, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Exterminate5573, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @freemanovec, @GDCloudstrike, @GhostCoder6969, @github-actions[bot], @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @HariboApfel, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @jude123412, @june-dev-username, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @KyleAvalani, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @Pilzinsel64, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @Ruling-0, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @toenailsin, @TotallyNotOndre, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @AncalagonX, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @BranTheBuildor, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @Dream-Master, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @eigenraven, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Exterminate5573, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @freemanovec, @GDCloudstrike, @GhostCoder6969, @github-actions[bot], @Glease, @glowredman, @GreatBrandon, @HalfCooler, @ham-corp, @HariboApfel, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @jude123412, @june-dev-username, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @KyleAvalani, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @philipxjm, @PierceC7, @Pilzinsel64, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @Ruling-0, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @toenailsin, @TotallyNotOndre, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
