@@ -91,8 +91,11 @@ class ReleaseAssemblerController:
         assemblers: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = assemblers_client if side.is_client() else assemblers_server
 
         for platform, assembling in assemblers.items():
-            if side.is_java9() and platform in [Archive.TECHNIC, Archive.CURSEFORGE]:
-                # Java 9 is currently not supported on Technic and Curse
+            if side.is_java9() and platform == Archive.TECHNIC:
+                # Java 9 is currently not supported on Technic
+                continue
+            if not side.is_java9() and platform == Archive.CURSEFORGE:
+                # CurseForge is now exclusively on J9+
                 continue
 
             if self.current_task_reset_callback is not None:
@@ -101,9 +104,6 @@ class ReleaseAssemblerController:
             if self.callback:
                 self.callback(self.delta_progress, f"Assembling {side} {platform} archive")
             await assembling(side, verbose)
-
-        # TODO: Remove when the maven urls are calculated on add, instead of in curse
-        self.context.asset_service.save_assets()
 
     async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """

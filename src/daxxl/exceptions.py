@@ -18,10 +18,6 @@ class PackingInterruptException(Exception):
     pass
 
 
-class MissingModFileException(Exception):
-    pass
-
-
 class InvalidReleaseException(Exception):
     pass
 
