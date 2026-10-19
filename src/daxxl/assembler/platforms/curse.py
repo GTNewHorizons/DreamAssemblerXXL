@@ -78,6 +78,7 @@ class CurseAssembler(GenericAssembler):
 
         self.overrides_folder = Path("overrides")
         self.manifest_json = Path("manifest.json")
+        self.profile_image = Path("profileImage/636125694388807951.png")
         self.overrides = ROOT_DIR / "overrides.png"
         self.overrideslash = ROOT_DIR / "overrideslash.png"
 
@@ -130,14 +131,14 @@ class CurseAssembler(GenericAssembler):
 
         minecraft_additions, lwjgl_overrides = self.load_lwjgl3ify_files(side)
 
-        # +2 override pictures, +1 manifest.json and an optional changelog
+        # +2 override pictures, +2 manifest/profile image and an optional changelog
         self.delta_progress = 100 / (
             len(self.get_override_mods(side))
             + len(lwjgl_overrides)
             + 2
             + self.get_amount_of_files_in_config(side)
             + self.get_amount_of_files_in_locales()
-            + 1
+            + 2
             + int(self.changelog_path is not None)
         )
 
@@ -153,6 +154,10 @@ class CurseAssembler(GenericAssembler):
         with ZipFile(self.get_archive_path(side), "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding config to the archive")
             await self.add_config(side, self.get_config(), archive, verbose=verbose)
+            await self.yield_to_event_loop()
+            archive.write(ROOT_DIR / "icon.png", arcname=self.profile_image)
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(self.delta_progress, f"adding {self.profile_image} to the archive")
             await self.yield_to_event_loop()
             log.info("Adding manifest.json to the archive")
             self.generate_meta_data(side, archive, minecraft_additions)
@@ -215,14 +220,16 @@ class CurseAssembler(GenericAssembler):
             "minecraft": {
                 "version": "1.7.10",
                 "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}],
+                "recommendedRam": 4096,
                 **minecraft_additions,
             },
             "manifestType": "minecraftModpack",
             "manifestVersion": 1,
             "name": "GT New Horizons",
-            "version": f"{self.release.version}-1.7.10",
+            "version": self.release.version,
             "author": "DreamMasterXXL",
             "overrides": "overrides",
+            "image": self.profile_image.as_posix(),
         }
 
         mod: GTNHModInfo
@@ -237,6 +244,7 @@ class CurseAssembler(GenericAssembler):
                         "projectID": int(version.curse_file.project_no),
                         "fileID": int(version.curse_file.file_no),
                         "required": True,
+                        "isLocked": False,
                     }
                 )
 
