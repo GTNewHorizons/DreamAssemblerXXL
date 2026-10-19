@@ -9,7 +9,7 @@ from colorama import Fore
 from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
-from daxxl.defs import RELEASE_CURSE_DIR, ROOT_DIR, Side
+from daxxl.defs import RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
@@ -23,19 +23,25 @@ def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
     """
      Returns whether or not a given mod is a valid curse mod or not.
 
+     CurseForge-sourced mods must have valid IDs instead of falling back to overrides.
+
     :param mod: the given mod object
     :param version: its corresponding version
     :return: true if it is a valid curse mod
     """
-    # If we don't have curse file info, it's not a valid curse file
-    if version.curse_file is None:
-        return False
+    valid = False
+    if version.curse_file is not None:
+        try:
+            valid = int(version.curse_file.project_no) > 0 and int(version.curse_file.file_no) > 0
+        except ValueError:
+            pass
 
-    # If we don't have a file no, or a project no, it's not a valid curse file
-    if not version.curse_file.file_no or not version.curse_file.project_no:
-        return False
+    if mod.source == ModSource.curse and not valid:
+        raise ValueError(
+            f"Cannot assemble CurseForge archive: {mod.name} {version.version_tag} is catalogued as CurseForge but has missing or invalid projectID/fileID."
+        )
 
-    return True
+    return valid
 
 
 class CurseAssembler(GenericAssembler):
