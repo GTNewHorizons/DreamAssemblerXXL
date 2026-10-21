@@ -163,10 +163,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1090-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1090-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1091-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1091-GTNH
 
 ## What's Changed:
+>* Crafting CPU only drops items when broken by @Ruling-0 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1713 (rv3-beta-1091-GTNH)
 >* Fix/io port redstone card removal by @Elios5014 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1712 (rv3-beta-1090-GTNH)
 >* Reset crafting progress counters when a job is cancelled by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1711 (rv3-beta-1089-GTNH)
 >* Fix crafting using only one of several patterns with the same priority by @Aintripin in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1695 (rv3-beta-1088-GTNH)
@@ -523,10 +524,18 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.239
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.239
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.240
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.240
 
 ## What's Changed:
+>* Mega Apiary performance overhaul by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8493 (5.09.54.240)
+>* New tooltip commands by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8527 (5.09.54.240)
+>* fix incorrect colouring by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8528 (5.09.54.240)
+>* oil cracker, fluid drilling rigs and dtpf tooltips by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8488 (5.09.54.240)
+>* Optimize color text by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8529 (5.09.54.240)
+>* fix(LES): prevent incorrect fluid deduction when parallelism < amount / 1000 by @vcwdfca in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8519 (5.09.54.240)
+>* Port boiler and heat exchanger tooltips to markdown by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8518 (5.09.54.240)
+>* Port compressor multiblock tooltips to markdown by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8511 (5.09.54.240)
 >* Fix Clarifier filter break chance being 19% instead of 20% by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8507 (5.09.54.239)
 >* Update existing markdown tooltips after #8497 by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8498 (5.09.54.239)
 >* Add more standardized entries for tooltip colors by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8497 (5.09.54.238)
@@ -1141,10 +1150,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix recursive UIContainer component lookup by @Chitak985 in https://github.com/GTNewHorizons/MalisisDoors/pull/34 (1.19.13-GTNH)
 >* Fix up rendering related bugs by @Eclipse-Sol in https://github.com/GTNewHorizons/MalisisDoors/pull/36 (1.19.12-GTNH)
 
-# Updated - MatterManipulator - 0.1.55-GTNH --> 0.1.71-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.55-GTNH...0.1.71-GTNH
+# Updated - MatterManipulator - 0.1.55-GTNH --> 0.1.72-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.55-GTNH...0.1.72-GTNH
 
 ## What's Changed:
+>* Fixed spray can bug painting items behind placed cable by @Xela10001 in https://github.com/GTNewHorizons/MatterManipulator/pull/114 (0.1.72-GTNH)
 >* Laser hatches now get painted when using cable mode with painted laser pipes selected by @Xela10001 in https://github.com/GTNewHorizons/MatterManipulator/pull/108 (0.1.71-GTNH)
 >* Enhance crafting failure reporting by @Riggola in https://github.com/GTNewHorizons/MatterManipulator/pull/106 (0.1.71-GTNH)
 >* Remove the author credit from the uplink tooltip by @Worive in https://github.com/GTNewHorizons/MatterManipulator/pull/110 (0.1.70-GTNH)
@@ -1255,10 +1265,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Finally got GT6 fluids to work properly as far as I can test.  Can pu… by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84 (1.7.43)
 >* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83 (1.7.42)
 
-# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.163-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.163-GTNH
+# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.164-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.164-GTNH
 
 ## What's Changed:
+>* Autocrafting Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1084 (2.8.164-GTNH)
 >* Batch 9-slice quads in DrawableResource by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1082 (2.8.163-GTNH)
 >* Make StrictIdentifierFilter (<modid:name:meta>) resolve item on first match by @Ressed in https://github.com/GTNewHorizons/NotEnoughItems/pull/1080 (2.8.162-GTNH)
 >* Move 9-slice setup into DrawableBuilder by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1081 (2.8.162-GTNH)
@@ -1367,10 +1378,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add auto-output info to steel tank valve tooltip by @sny1411 in https://github.com/GTNewHorizons/Railcraft/pull/126 (9.17.32)
 >* Add Deprecated Tooltip to Coke Oven by @UltraProdigy in https://github.com/GTNewHorizons/Railcraft/pull/127 (9.17.32)
 
-# Updated - Random-Things - 2.7.9 --> 2.7.11
-**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.9...2.7.11
+# Updated - Random-Things - 2.7.9 --> 2.7.12
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.9...2.7.12
 
 ## What's Changed:
+>* Changed notification card size and layout to match vanilla achievement popup by @Ranzuu in https://github.com/GTNewHorizons/Random-Things/pull/27 (2.7.12)
 >* Fix blood moon client sync issues by @GDCloudstrike in https://github.com/GTNewHorizons/Random-Things/pull/25 (2.7.11)
 >* Allow blood moon in other dimensions by @GDCloudstrike in https://github.com/GTNewHorizons/Random-Things/pull/24 (2.7.10)
 
@@ -1427,10 +1439,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* feat(bogo): Add bogo compat to prevent sort on projector held/picked. by @vermz99 in https://github.com/GTNewHorizons/StructureCompat/pull/16 (0.7.5)
 
-# Updated - StructureLib - 1.4.42 --> 1.4.46
-**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.42...1.4.46
+# Updated - StructureLib - 1.4.42 --> 1.4.47
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.42...1.4.47
 
 ## What's Changed:
+>* Add debug hologram projector by @Armisael5 in https://github.com/GTNewHorizons/StructureLib/pull/79 (1.4.47)
 >* Add standalone structure channel definitions by @ABKQPO in https://github.com/GTNewHorizons/StructureLib/pull/76 (1.4.46)
 >* feat(middle-click): Add in GUI and in-world middle-click pick to set and reset channels by @vermz99 in https://github.com/GTNewHorizons/StructureLib/pull/74 (1.4.45)
 >* Clean up empty NBT when clearing projector channels by @Chitak985 in https://github.com/GTNewHorizons/StructureLib/pull/75 (1.4.44)

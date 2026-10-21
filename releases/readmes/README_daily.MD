@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-10-20
+Version daily is out 2026-10-21
 
 ## What is GT New Horizons?
 
@@ -271,7 +271,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.35 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.0.7 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.13 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-1090-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-1091-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.8.0 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.12.19 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.7.2 |
@@ -361,7 +361,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.16 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.54.239 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.54.240 |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.4.0 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.14 |
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.0.5 |
@@ -397,7 +397,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.10.12-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.19.13-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.4 |
-| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.1.71-GTNH |
+| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.1.72-GTNH |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.6.18-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.4 |
 | [Mobs Info](https://www.curseforge.com/minecraft/mc-mods/mobs-info/) | 0.6.0 |
@@ -418,7 +418,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.4-GTNH |
 | [NoHotbarNeeded](https://github.com/GTNewHorizons/NoHotbarNeeded) | 0.0.6 |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.48 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.163-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.164-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.7.17 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 1.0.1 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.4-GTNH |
@@ -437,7 +437,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.11-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.12.47-GTNH |
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.17.34 |
-| [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.7.11 |
+| [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.7.12 |
 | [RandomBoubles](https://github.com/GTNewHorizons/RandomBoubles) | 1.1.7 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.2 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.7.11 |
@@ -456,7 +456,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [StevesAddons](https://github.com/GTNewHorizons/StevesAddons) | 0.15.5 |
 | [StorageDrawers](https://github.com/GTNewHorizons/StorageDrawers) | 2.2.31-GTNH |
 | [StructureCompat](https://github.com/GTNewHorizons/StructureCompat) | 0.7.5 |
-| [StructureLib](https://github.com/GTNewHorizons/StructureLib) | 1.4.46 |
+| [StructureLib](https://github.com/GTNewHorizons/StructureLib) | 1.4.47 |
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.5.6 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.5 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.7.8-GTNH |
