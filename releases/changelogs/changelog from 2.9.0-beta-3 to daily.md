@@ -18,11 +18,20 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.35
+# Updated - Angelica - 2.2.10 --> 2.2.36
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.35
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.36
 
 ## What's Changed:
+>* Instance animated TESRs and let mods register shaders for batched TESRs by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2275 (2.2.36)
+>* Reduce test duplication by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2276 (2.2.36)
+>* Fix tests & SDL-GPU framebuffers losing attachments on resize or texture delete by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2282 (2.2.36)
+>* Update to Celeritas 2.5.13-GTNH by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2283 (2.2.36)
+>* why min 16 by @brandyyn in https://github.com/GTNewHorizons/Angelica/pull/2278 (2.2.36)
+>* Read only the mcmeta in the interpolated icon check by @VortexSo4 in https://github.com/GTNewHorizons/Angelica/pull/2284 (2.2.36)
+>* Stop capping mailbox present mode to the refresh rate by @wackypocket in https://github.com/GTNewHorizons/Angelica/pull/2279 (2.2.36)
+>* Fence the instance ring once per frame by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2285 (2.2.36)
+>* Stop stalls on some GPUs when closing the questbook by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2286 (2.2.36)
 >* Expand SDL-GPU's GLSM redirector to GLSM and remove unredirected GL workarounds and move action back to master by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2268 (2.2.35)
 >* Implement metadata checking into the NBT path of block.properties parsing by @gorbit99 in https://github.com/GTNewHorizons/Angelica/pull/2267 (2.2.35)
 >* Fix birch and spruce leaves showing the oak biome color with fancy biome blending by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2273 (2.2.35)
@@ -524,10 +533,14 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.240
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.240
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.241
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.241
 
 ## What's Changed:
+>* Distinguish circuit imprints and sliced circuits by circuit type as circuit wraps  by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8525 (5.09.54.241)
+>* Distinguish battery buffer names by slots by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8524 (5.09.54.241)
+>* Fix chat messages being translated server-side by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8494 (5.09.54.241)
+>* Fix Calcium Carbide Oredict Typo by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8535 (5.09.54.241)
 >* Mega Apiary performance overhaul by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8493 (5.09.54.240)
 >* New tooltip commands by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8527 (5.09.54.240)
 >* fix incorrect colouring by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8528 (5.09.54.240)
@@ -1002,10 +1015,11 @@ Mod is client-side only.
 >* fix nei recipe handler by @ABKQPO in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/158 (1.1.144-GTNH)
 >* Make clouds respect client's render distance by @Eclipse-Sol in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/157 (1.1.143-GTNH)
 
-# Updated - GuideNH - 1.3.29 --> 1.3.49
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.49
+# Updated - GuideNH - 1.3.29 --> 1.3.50
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.50
 
 ## What's Changed:
+>* fix gamescene and numeric list by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/110 (1.3.50)
 >* Add extended Markdown table support by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/107 (1.3.49)
 >* fix the gui not closing properly by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/105 (1.3.48)
 >* fix recipe label by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/103 (1.3.47)
@@ -1609,4 +1623,4 @@ Mod is client-side only.
 >* Describe Timewood Clock controls by @DreamYao520 in https://github.com/GTNewHorizons/twilightforest/pull/160 (2.7.41)
 
 # Credits
-Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @AncalagonX, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @BranTheBuildor, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @Dream-Master, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @eigenraven, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Exterminate5573, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @freemanovec, @GDCloudstrike, @GhostCoder6969, @github-actions[bot], @Glease, @glowredman, @gorbit99, @GreatBrandon, @HalfCooler, @ham-corp, @HariboApfel, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @jude123412, @june-dev-username, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @KyleAvalani, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Moraquui, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @Paul-Christopher271, @philipxjm, @PierceC7, @Pilzinsel64, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @Riggola, @Ruling-0, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @toenailsin, @TotallyNotOndre, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Vlamonster, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @5-Esania, @ABKQPO, @Ableytner, @ah-OOG-ah, @Aintripin, @Alexdoru, @AlexSocol, @Algent, @alppp, @AncalagonX, @Angry3vilbot, @AnsonYeung, @Antaresque, @Armisael5, @Auynonymous, @Azusfin, @boubou19, @brandyyn, @BranTheBuildor, @C0bra5, @Caedis, @Cardinalstars, @chazzybearr, @Chitak985, @chrombread, @Connor-Colenso, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @Discreater, @Dream-Master, @DreamYao520, @DylanTaylor1, @Eclipse-Sol, @Edgaru089, @eigenraven, @Eldrinn-Elantey, @Elios5014, @Elyspio, @EnderProyects, @Exterminate5573, @Faotik, @fehling135, @Fib4ik, @flamingowrangler2869, @FourIsTheNumber, @freemanovec, @GDCloudstrike, @GhostCoder6969, @github-actions[bot], @Glease, @glowredman, @gorbit99, @GreatBrandon, @HalfCooler, @ham-corp, @HariboApfel, @hensmth, @hinyb, @hxync, @ImaMapleTree, @JamesOBrien2, @Jarnexis, @Jesse-njx, @jhhgiyv, @jude123412, @june-dev-username, @JustRomanBZK, @KAMKEEL, @kevinrudde, @kin-fuyuki, @KleinGrrmpf, @Kogepan229, @Kokekabe-Madoha, @koolkrafter5, @Kremnari, @kuba6000, @kurrycat2004, @KyleAvalani, @Lainiel, @LazyFlesh, @lfpraca, @loenaaaa, @Luca-Guettinger, @Lumarin, @luoyangyuli2001, @mak8427, @MarloGr, @mattiasploesch-cpu, @mattparksjr, @metalcupcake5, @micvog, @mitchej123, @MLGfruitshoot, @Moraquui, @mvanhorn, @Nana-Sakura, @Naos65, @Niki4tap, @Nikolay-Sitnikov, @Oondanomala, @OvermindDL1, @Paul-Christopher271, @philipxjm, @PierceC7, @Pilzinsel64, @PLASMAchicken, @playfuldoggo, @Pxx500, @rabbitfujian, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ressed, @rieverholic, @Riggola, @Ruling-0, @s-yh-china, @S4mpsa, @Sanduhr32, @serenibyss, @ShadowReaper420, @shironakoushi, @sivaDog, @slprime, @sny1411, @Spaghetti-OberNub, @StaffiX, @SuperficialCake, @TheYoingLad, @toenailsin, @TotallyNotOndre, @uku3lig, @UltraProdigy, @vakus, @vcwdfca, @vermz99, @Viptunbeqwfwew, @Vlamonster, @VortexSo4, @wackypocket, @wlhlm, @Wokafishh, @Worive, @wufe8, @Xela10001, @YannickMG, @Yoshy2002, @zerosignal0101, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

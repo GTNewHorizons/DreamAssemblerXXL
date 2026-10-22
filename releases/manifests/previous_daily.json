@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-10-20T08:42:53.526644+00:00",
+  "last_updated": "2026-10-21T08:43:55.333646+00:00",
   "config": "2.9.0-nightly-2026-10-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1090-GTNH",
+      "version": "rv3-beta-1091-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.239",
+      "version": "5.09.54.240",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.163-GTNH",
+      "version": "2.8.164-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -457,7 +457,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.46",
+      "version": "1.4.47",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.7.11",
+      "version": "2.7.12",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.71-GTNH",
+      "version": "0.1.72-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
