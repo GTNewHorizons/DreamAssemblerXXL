@@ -172,10 +172,12 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1091-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1091-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1050-GTNH --> rv3-beta-1092-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1050-GTNH...rv3-beta-1092-GTNH
 
 ## What's Changed:
+>* Emit block update immediately for redstone p2p by @AnsonYeung in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1696 (rv3-beta-1092-GTNH)
+>* Optimize Interface Terminal rendering and pattern decoding by @Riggola in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1715 (rv3-beta-1092-GTNH)
 >* Crafting CPU only drops items when broken by @Ruling-0 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1713 (rv3-beta-1091-GTNH)
 >* Fix/io port redstone card removal by @Elios5014 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1712 (rv3-beta-1090-GTNH)
 >* Reset crafting progress counters when a job is cancelled by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1711 (rv3-beta-1089-GTNH)
@@ -534,10 +536,17 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.243
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.243
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.244
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.244
 
 ## What's Changed:
+>* Make Charcoal Pile Igniter check recipe per 20 ticks by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8551 (5.09.54.244)
+>* Allow wrench flip without machine shutdown by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8553 (5.09.54.244)
+>* Fix item output overflow when amount exceed int limit by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8549 (5.09.54.244)
+>* Store Ender Fluid Link channel in the cover itself by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8545 (5.09.54.244)
+>* Fix Electric Prospector's Scanner tooltip range to match scan by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8522 (5.09.54.244)
+>* Move defaultCapacity property to hatch by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8568 (5.09.54.244)
+>* Pass the AE2 crafting icon owner outside MTEMultiBlockBase by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8306 (5.09.54.244)
 >* Add Markdown Line Processors, Comments, and if def commands by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8547 (5.09.54.243)
 >* Add conditional and plurality commands for markdown tooltips by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8539 (5.09.54.242)
 >* Make Reservoir and Air Intake hatches fill cells by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8542 (5.09.54.242)
@@ -1025,10 +1034,11 @@ Mod is client-side only.
 >* fix nei recipe handler by @ABKQPO in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/158 (1.1.144-GTNH)
 >* Make clouds respect client's render distance by @Eclipse-Sol in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/157 (1.1.143-GTNH)
 
-# Updated - GuideNH - 1.3.29 --> 1.3.50
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.50
+# Updated - GuideNH - 1.3.29 --> 1.3.51
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.29...1.3.51
 
 ## What's Changed:
+>* fix ponder text annotation by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/113 (1.3.51)
 >* fix gamescene and numeric list by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/110 (1.3.50)
 >* Add extended Markdown table support by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/107 (1.3.49)
 >* fix the gui not closing properly by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/105 (1.3.48)
@@ -1229,10 +1239,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.96
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.96
+# Updated - NewHorizonsCoreMod - 2.9.61 --> 2.9.97
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.61...2.9.97
 
 ## What's Changed:
+>* Add EFR Concrete Powder Crafting Recipe and Concrete Mixer Recipe by @KyleAvalani in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2010 (2.9.97)
 >* Add Postea Migration from VillageNames Concrete to EFR by @KyleAvalani in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2008 (2.9.96)
 >* [IC2 Deprecation] basic machine casing migrated in recipe scripts by @hussain-najeb in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1992 (2.9.95)
 >* Insert rice maceration recipe into flour by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1987 (2.9.95)
@@ -1296,10 +1307,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Finally got GT6 fluids to work properly as far as I can test.  Can pu… by @OvermindDL1 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/84 (1.7.43)
 >* Add NEI Fluids Support by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/83 (1.7.42)
 
-# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.165-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.165-GTNH
+# Updated - NotEnoughItems - 2.8.130-GTNH --> 2.8.166-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.130-GTNH...2.8.166-GTNH
 
 ## What's Changed:
+>* Fill crafting grid with one recipe when Ctrl is held by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1089 (2.8.166-GTNH)
+>* Fix group drag between bookmark namespaces by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1090 (2.8.166-GTNH)
 >* Fix NPE in BookmarksGridSlot when dragging a group across namespaces by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1086 (2.8.165-GTNH)
 >* Update tree camera and scrollbar dragging every frame by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1087 (2.8.165-GTNH)
 >* Autocrafting Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1084 (2.8.164-GTNH)
@@ -1375,6 +1388,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fluid Interface 1-indexed API by @Azusfin in https://github.com/GTNewHorizons/OpenComputers/pull/225 (1.12.63-GTNH)
 >* Add APIs for Stocking Input Bus/Hatch by @hxync in https://github.com/GTNewHorizons/OpenComputers/pull/222 (1.12.62-GTNH)
 
+# Updated - OpenModsLib - 0.10.14 --> 0.10.15
+**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.14...0.10.15
+
+## What's Changed:
+>* fix fluid intake limits by @Pxx500 in https://github.com/GTNewHorizons/OpenModsLib/pull/11 (0.10.15)
+
 # Updated - PersonalSpace - 1.0.40 --> 1.0.41
 **Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.40...1.0.41
 
@@ -1412,10 +1431,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add auto-output info to steel tank valve tooltip by @sny1411 in https://github.com/GTNewHorizons/Railcraft/pull/126 (9.17.32)
 >* Add Deprecated Tooltip to Coke Oven by @UltraProdigy in https://github.com/GTNewHorizons/Railcraft/pull/127 (9.17.32)
 
-# Updated - Random-Things - 2.7.9 --> 2.7.12
-**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.9...2.7.12
+# Updated - Random-Things - 2.7.9 --> 2.7.13
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.9...2.7.13
 
 ## What's Changed:
+>* fix player interface armor slot mapping with Backhand by @Pxx500 in https://github.com/GTNewHorizons/Random-Things/pull/26 (2.7.13)
 >* Changed notification card size and layout to match vanilla achievement popup by @Ranzuu in https://github.com/GTNewHorizons/Random-Things/pull/27 (2.7.12)
 >* Fix blood moon client sync issues by @GDCloudstrike in https://github.com/GTNewHorizons/Random-Things/pull/25 (2.7.11)
 >* Allow blood moon in other dimensions by @GDCloudstrike in https://github.com/GTNewHorizons/Random-Things/pull/24 (2.7.10)
@@ -1497,10 +1517,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Modernize anvil gui by @Ranzuu in https://github.com/GTNewHorizons/ThaumicBases/pull/70 (1.9.21)
 >* Fix tainted research by @MarloGr in https://github.com/GTNewHorizons/ThaumicBases/pull/69 (1.9.20)
 
-# Updated - ThaumicEnergistics - 1.7.60-GTNH --> 1.7.66-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.60-GTNH...1.7.66-GTNH
+# Updated - ThaumicEnergistics - 1.7.60-GTNH --> 1.7.67-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.60-GTNH...1.7.67-GTNH
 
 ## What's Changed:
+>* Fix arcane crafting terminal voiding bug by @Armisael5 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/148 (1.7.67-GTNH)
 >* Fix NPE in the Essentia Export Bus when using a crafting card with an empty inventory slot by @Angry3vilbot in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/147 (1.7.66-GTNH)
 >* Fix knowledge inscriber can't save recipes which are neither ShapedArcaneRecipe nor ShapelessArcaneRecipe by @Ressed in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/146 (1.7.65-GTNH)
 >* fix: refresh provider connections when changing color by @Worive in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/145 (1.7.64-GTNH)
@@ -1567,10 +1588,11 @@ Mod is client-side only.
 >* Make category tabs and IO panel scrollable on small GUI scales by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/168 (0.4.101)
 >* Keep background music (silently) playing when not inside the GUI by @wlhlm in https://github.com/GTNewHorizons/VendingMachine/pull/169 (0.4.101)
 
-# Updated - VillageNames - 4.5.17-GTNH --> 4.5.20-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.17-GTNH...4.5.20-GTNH
+# Updated - VillageNames - 4.5.17-GTNH --> 4.5.21-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.17-GTNH...4.5.21-GTNH
 
 ## What's Changed:
+>* Fix illegal random choice of rootname_syllable_inserts when renaming mobs by @Ressed in https://github.com/GTNewHorizons/VillageNames/pull/18 (4.5.21-GTNH)
 >* Don't register Concrete and Terracotta when EFR is Present by @KyleAvalani in https://github.com/GTNewHorizons/VillageNames/pull/17 (4.5.20-GTNH)
 >* fix persistance for named mobs by @LazyFlesh in https://github.com/GTNewHorizons/VillageNames/pull/16 (4.5.19-GTNH)
 >* Fix EntityMonitorHandler refactoring by @kurrycat2004 in https://github.com/GTNewHorizons/VillageNames/pull/15 (4.5.18-GTNH)
