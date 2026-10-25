@@ -18,11 +18,15 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.36
+# Updated - Angelica - 2.2.10 --> 2.2.37
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.36
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.37
 
 ## What's Changed:
+>* Keep armor and held-item glint materials separate by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2289 (2.2.37)
+>* Use the current frame's camera for shadow-pass entities by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2291 (2.2.37)
+>* Record the GL state a render block leaves behind by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2292 (2.2.37)
+>* Entity Shadow Replay by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/2294 (2.2.37)
 >* Instance animated TESRs and let mods register shaders for batched TESRs by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2275 (2.2.36)
 >* Reduce test duplication by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2276 (2.2.36)
 >* Fix tests & SDL-GPU framebuffers losing attachments on resize or texture delete by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2282 (2.2.36)
@@ -536,10 +540,19 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.244
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.244
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.246
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.246
 
 ## What's Changed:
+>* Add Supermassive Black Hole Seed by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8504 (5.09.54.246)
+>* Fix T8 water scanner message by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8567 (5.09.54.245)
+>* Fix language specific recipe by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8569 (5.09.54.245)
+>* Fix colored fluid hatches not processing w/ input separation by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8564 (5.09.54.245)
+>* Fix WPP GUI crash bug when linked unit is broken by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8565 (5.09.54.245)
+>* Fix the Coke Oven brick count in its structure tooltip by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8563 (5.09.54.245)
+>* Simplify Electric Prospector's Scanner scan loop bounds by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8566 (5.09.54.245)
+>* Restore the single argument updateCraftingIcon by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8571 (5.09.54.245)
+>* Make Prospector's Scanner chat messages translatable on the client by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8523 (5.09.54.245)
 >* Make Charcoal Pile Igniter check recipe per 20 ticks by @Ressed in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8551 (5.09.54.244)
 >* Allow wrench flip without machine shutdown by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8553 (5.09.54.244)
 >* Fix item output overflow when amount exceed int limit by @AnsonYeung in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8549 (5.09.54.244)
@@ -1186,10 +1199,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix recursive UIContainer component lookup by @Chitak985 in https://github.com/GTNewHorizons/MalisisDoors/pull/34 (1.19.13-GTNH)
 >* Fix up rendering related bugs by @Eclipse-Sol in https://github.com/GTNewHorizons/MalisisDoors/pull/36 (1.19.12-GTNH)
 
-# Updated - MatterManipulator - 0.1.55-GTNH --> 0.1.72-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.55-GTNH...0.1.72-GTNH
+# Updated - MatterManipulator - 0.1.55-GTNH --> 0.1.73-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.55-GTNH...0.1.73-GTNH
 
 ## What's Changed:
+>* Fix update crafting icon compat by @Azusfin in https://github.com/GTNewHorizons/MatterManipulator/pull/118 (0.1.73-GTNH)
 >* Fixed spray can bug painting items behind placed cable by @Xela10001 in https://github.com/GTNewHorizons/MatterManipulator/pull/114 (0.1.72-GTNH)
 >* Laser hatches now get painted when using cable mode with painted laser pipes selected by @Xela10001 in https://github.com/GTNewHorizons/MatterManipulator/pull/108 (0.1.71-GTNH)
 >* Enhance crafting failure reporting by @Riggola in https://github.com/GTNewHorizons/MatterManipulator/pull/106 (0.1.71-GTNH)
@@ -1218,10 +1232,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Block opening a backpack another player already has open by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/38 (2.6.18-GTNH)
 
-# Updated - ModularUI2 - 2.3.88-1.7.10 --> 2.3.92-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.88-1.7.10...2.3.92-1.7.10
+# Updated - ModularUI2 - 2.3.88-1.7.10 --> 2.3.93-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.88-1.7.10...2.3.93-1.7.10
 
 ## What's Changed:
+>* Treat invalid (size <= 0) stacks as empty in slot clicks by @Algent in https://github.com/GTNewHorizons/ModularUI2/pull/169 (2.3.93-1.7.10)
 >* give slider widgets the ability to scroll to change values by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/167 (2.3.92-1.7.10)
 >* Disable visual debugging by default by @Worive in https://github.com/GTNewHorizons/ModularUI2/pull/163 (2.3.90-1.7.10)
 >* Fix overlay text input and tooltip rendering by @Pxx500 in https://github.com/GTNewHorizons/ModularUI2/pull/158 (2.3.89-1.7.10)
@@ -1422,10 +1437,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix flipped comparator sign rendering by @Algent in https://github.com/GTNewHorizons/ProjectRed/pull/97 (4.12.45-GTNH)
 >* Allow spray cans to recolor insulated wires by @DreamYao520 in https://github.com/GTNewHorizons/ProjectRed/pull/96 (4.12.44-GTNH)
 
-# Updated - Railcraft - 9.17.31 --> 9.17.34
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.31...9.17.34
+# Updated - Railcraft - 9.17.31 --> 9.17.35
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.31...9.17.35
 
 ## What's Changed:
+>* Fix StackOverflowError from switch and track neighbor update loops by @Algent in https://github.com/GTNewHorizons/Railcraft/pull/131 (9.17.35)
 >* Fix lamp rendering when handled off thread (angelica/beddium, etc) by @mitchej123 in https://github.com/GTNewHorizons/Railcraft/pull/129 (9.17.34)
 >* Modernize anvil gui by @Ranzuu in https://github.com/GTNewHorizons/Railcraft/pull/128 (9.17.33)
 >* Add auto-output info to steel tank valve tooltip by @sny1411 in https://github.com/GTNewHorizons/Railcraft/pull/126 (9.17.32)
@@ -1579,6 +1595,13 @@ Mod is client-side only.
 >* Clarify undead soil heals undead that walk over it by @LazyFlesh in https://github.com/GTNewHorizons/TinkersConstruct/pull/336 (1.14.111-GTNH)
 >* add config option for classic crafting station layout by @Pxx500 in https://github.com/GTNewHorizons/TinkersConstruct/pull/334 (1.14.110-GTNH)
 >* Bugfix blocking damage battlesign by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/331 (1.14.109-GTNH)
+
+# Updated - ToroHealth - 1.2.3 --> 1.2.4
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.2.3...1.2.4
+
+## What's Changed:
+>* Fix a bug where numbers could render as black by @Eclipse-Sol in https://github.com/GTNewHorizons/ToroHealth/pull/8 (1.2.4)
 
 # Updated - VendingMachine - 0.4.100 --> 0.4.102
 **Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.100...0.4.102
