@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-10-24T08:16:34.475321+00:00",
-  "config": "2.9.0-nightly-2026-10-24",
+  "last_updated": "2026-10-25T08:34:42.163574+00:00",
+  "config": "2.9.0-nightly-2026-10-24-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.26-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.244",
+      "version": "5.09.54.246",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.34",
+      "version": "9.17.35",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -521,7 +521,7 @@
       "side": "BOTH"
     },
     "ToroHealth": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "side": "CLIENT"
     },
     "Translocators": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.36",
+      "version": "2.2.37",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.72-GTNH",
+      "version": "0.1.73-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.92-1.7.10",
+      "version": "2.3.93-1.7.10",
       "side": "BOTH"
     },
     "Navigator": {
