@@ -8611,7 +8611,11 @@
           "tagged_at": "2020-02-21T02:31:00",
           "filename": "AdvancedSolarPanel-1.7.10-3.5.1.jar",
           "download_url": "https://mediafilez.forgecdn.net/files/2885/953/AdvancedSolarPanel_1.7.10_Edition.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels/files"
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels/files/2885953",
+          "curse_file": {
+            "project_no": "362768",
+            "file_no": "2885953"
+          }
         }
       ],
       "license": "ARR",
@@ -58768,7 +58772,7 @@
           "download_url": "https://mediafilez.forgecdn.net/files/2264/383/extrautilities-1.2.12.jar",
           "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities/download/2264383",
           "curse_file": {
-            "project_no": "",
+            "project_no": "225561",
             "file_no": "2264383"
           }
         },
@@ -108643,7 +108647,7 @@
           "download_url": "https://mediafilez.forgecdn.net/files/4367/893/Healer-1.2.1.jar",
           "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/healer/download/4367893",
           "curse_file": {
-            "project_no": "",
+            "project_no": "554840",
             "file_no": "4367893"
           }
         }
@@ -129111,6 +129115,11 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/640935067",
           "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.39/lwjgl3ify-3.0.39.jar",
           "extra_assets": [
+            {
+              "filename": "lwjgl3ify-3.0.39-curse.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/640935085",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.39/lwjgl3ify-3.0.39-curse.zip"
+            },
             {
               "filename": "lwjgl3ify-3.0.39-forgePatches.jar",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/640935031",
