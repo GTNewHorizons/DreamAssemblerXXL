@@ -1,7 +1,7 @@
 {
   "version": "2.9.0-RC-2-CF",
   "last_version": "2.9.0-RC-2",
-  "last_updated": "2026-10-15T17:16:36.478594+00:00",
+  "last_updated": "2026-10-26T22:14:01.396858+00:00",
   "config": "2.9.0-nightly-2026-10-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.39",
+      "version": "3.0.40",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
