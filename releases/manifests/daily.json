@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-10-30T23:28:21.907106+00:00",
+  "last_updated": "2026-10-30T23:33:40.754039+00:00",
   "config": "2.9.0-nightly-2026-10-30-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -425,7 +425,7 @@
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.13-GTNH",
+      "version": "1.4.14-GTNH",
       "side": "BOTH"
     },
     "Share-Where-I-am": {

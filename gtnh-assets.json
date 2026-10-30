@@ -170987,7 +170987,7 @@
     },
     {
       "name": "SGCraft",
-      "latest_version": "1.4.13-GTNH",
+      "latest_version": "1.4.14-GTNH",
       "private": false,
       "versions": [
         {
@@ -171139,6 +171139,16 @@
           "filename": "SGCraft-1.4.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/433979708",
           "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.4.13-GTNH/SGCraft-1.4.13-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.14-GTNH",
+          "changelog": "## What's Changed\n* Improve rendering perfomance with caching by @Simolater in https://github.com/GTNewHorizons/SGCraft/pull/29\n* Fix SGDimensionMap save file name being invalid on Windows by @Algent in https://github.com/GTNewHorizons/SGCraft/pull/30\n\n## New Contributors\n* @Simolater made their first contribution in https://github.com/GTNewHorizons/SGCraft/pull/29\n* @Algent made their first contribution in https://github.com/GTNewHorizons/SGCraft/pull/30\n\n**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.13-GTNH...1.4.14-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T23:28:00+00:00",
+          "filename": "SGCraft-1.4.14-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/693743997",
+          "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.4.14-GTNH/SGCraft-1.4.14-GTNH.jar",
           "extra_assets": []
         }
       ],
