@@ -28985,7 +28985,7 @@
     },
     {
       "name": "Archaicfix",
-      "latest_version": "0.8.0",
+      "latest_version": "0.8.2",
       "needs_attention": false,
       "versions": [
         {
@@ -29082,13 +29082,26 @@
           "version_tag": "0.8.0",
           "changelog": "",
           "prerelease": false,
-          "tagged_at": "2026-09-19T14:55:09.180759",
+          "tagged_at": "2026-10-30T21:53:45.153642",
           "filename": "archaicfix-0.8.0.jar",
           "download_url": "https://mediafilez.forgecdn.net/files/8125/364/archaicfix-0.8.0.jar",
           "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/archaicfix/files/8125364",
           "curse_file": {
             "project_no": "677782",
             "file_no": "8125364"
+          }
+        },
+        {
+          "version_tag": "0.8.2",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T21:55:25.894695",
+          "filename": "archaicfix-0.8.2.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/9300/534/archaicfix-0.8.2.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/archaicfix/download/9300534",
+          "curse_file": {
+            "project_no": "677782",
+            "file_no": "9300534"
           }
         }
       ],
@@ -132667,7 +132680,8 @@
     },
     {
       "name": "Mobs Info",
-      "latest_version": "0.6.0",
+      "latest_version": "0.6.2",
+      "needs_attention": false,
       "versions": [
         {
           "version_tag": "0.6.0",
@@ -132680,6 +132694,19 @@
           "curse_file": {
             "project_no": "879914",
             "file_no": "8861046"
+          }
+        },
+        {
+          "version_tag": "0.6.2",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T22:05:42.748681",
+          "filename": "mobsinfo-0.6.2.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/9376/153/mobsinfo-0.6.2.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mobs-info/download/9376153",
+          "curse_file": {
+            "project_no": "879914",
+            "file_no": "9376153"
           }
         }
       ],
@@ -166866,6 +166893,26 @@
       "side": "BOTH"
     },
     {
+      "name": "Realistic-World-Gen-2",
+      "latest_version": "2.0.0",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "2.0.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/commits/2.0.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T18:49:51+00:00",
+          "filename": "rwg2-2.0.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/693077921",
+          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.0.0/rwg2-2.0.0.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "GNU General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2",
+      "side": "BOTH"
+    },
+    {
       "name": "RemoteIO",
       "latest_version": "2.7.11",
       "private": false,
@@ -175912,7 +175959,7 @@
     },
     {
       "name": "TC-4-Tweaks",
-      "latest_version": "1.5.47",
+      "latest_version": "1.5.48",
       "needs_attention": false,
       "versions": [
         {
@@ -176563,6 +176610,19 @@
           "curse_file": {
             "project_no": "431297",
             "file_no": "8668688"
+          }
+        },
+        {
+          "version_tag": "1.5.48",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T22:08:45.495223",
+          "filename": "Thaumcraft4Tweaks-1.5.48.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/9115/276/Thaumcraft4Tweaks-1.5.48.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/download/9115276",
+          "curse_file": {
+            "project_no": "431297",
+            "file_no": "9115276"
           }
         }
       ],
@@ -185785,7 +185845,7 @@
     },
     {
       "name": "Tinkers-Gregworks",
-      "latest_version": "1.0.33",
+      "latest_version": "1.0.34",
       "needs_attention": false,
       "versions": [
         {
@@ -185886,6 +185946,15 @@
           "filename": "TGregworks-1.7.10-GTNH-1.0.33.jar",
           "download_url": "https://files.vexatos.com/TGregworks/TGregworks-1.7.10-GTNH-1.0.33.jar",
           "browser_download_url": "https://files.vexatos.com/TGregworks/"
+        },
+        {
+          "version_tag": "1.0.34",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T22:11:37.367620",
+          "filename": "TGregworks-1.7.10-GTNH-1.0.34.jar",
+          "download_url": "https://files.vexatos.com/TGregworks/TGregworks-1.7.10-GTNH-1.0.34.jar",
+          "browser_download_url": "https://files.vexatos.com/TGregworks"
         }
       ],
       "license": "Calclavia's Educational Public License",
