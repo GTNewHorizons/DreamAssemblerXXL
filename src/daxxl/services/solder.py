@@ -83,7 +83,11 @@ class SolderAPI:
     """Sequential API calls; only explicit 429 rejections are retried, never ambiguous writes."""
 
     def __init__(
-        self, client: httpx.AsyncClient, url: str, token: str, progress: Callable[[str], None],
+        self,
+        client: httpx.AsyncClient,
+        url: str,
+        token: str,
+        progress: Callable[[str], None],
         requests_per_minute: int = DEFAULT_REQUESTS_PER_MINUTE,
     ):
         if type(requests_per_minute) is not int or requests_per_minute <= 0:
@@ -112,9 +116,7 @@ class SolderAPI:
                     follow_redirects=False,
                 )
             except httpx.RequestError:
-                raise RuntimeError(
-                    f"Solder {method} {path}: connection failed. The outcome may be unknown; inspect the build before retrying."
-                ) from None
+                raise RuntimeError(f"Solder {method} {path}: connection failed. The outcome may be unknown; inspect the build before retrying.") from None
             if response.status_code == 429 and attempt < 3:
                 try:
                     delay = max(1, int(response.headers.get("Retry-After", "60")))
@@ -135,9 +137,7 @@ class SolderAPI:
         raise AssertionError("Unreachable")
 
 
-async def _verify_mirror(
-    client: httpx.AsyncClient, url: str, package: SolderPackage, progress_callback: Callable[[int, int], None] | None = None
-) -> None:
+async def _verify_mirror(client: httpx.AsyncClient, url: str, package: SolderPackage, progress_callback: Callable[[int, int], None] | None = None) -> None:
     _http_url(url)
     digest = hashlib.md5(usedforsecurity=False)
     size = 0
@@ -237,13 +237,12 @@ async def publish_solder(
         raise ValueError(f"Select the full GT_New_Horizons_{version}_(technic).zip archive, not a partial update or another release.")
     begin_task("Reading full Technic archive")
     loop = asyncio.get_running_loop()
+
     # Hashing runs in a worker; marshal progress back to the Tk/asyncio thread.
     def read_progress(done: int, total: int, name: str) -> None:
         loop.call_soon_threadsafe(advance, done, total, f"Reading {name}")
 
-    packages = await asyncio.to_thread(
-        read_technic_packages, archive, read_progress if task_progress_callback or global_progress_callback else None
-    )
+    packages = await asyncio.to_thread(read_technic_packages, archive, read_progress if task_progress_callback or global_progress_callback else None)
     advance(1, 1, "Technic archive read")
     required_name, required_version = TECHNIC_REQUIRED_MOD
     desired_versions = {package.name: package.version for package in packages}
@@ -300,7 +299,9 @@ async def publish_solder(
                 progress(f"Verifying new ZIP: {package.name}/{package.version}")
                 download_url = mirror + package.path
                 await _verify_mirror(
-                    mirror_client, download_url, package,
+                    mirror_client,
+                    download_url,
+                    package,
                     progress_callback=lambda done, total: advance(
                         checked_offset + index - 1 + done / total, check_count, f"Verifying {package.name}: {done}/{total} bytes"
                     ),
@@ -388,7 +389,11 @@ async def publish_solder(
                 if remote["url"] != expected_urls[package.name]:
                     raise ValueError(f"Published manifest differs for {package.name}; build remains private.")
             for field, setting in (
-                ("minecraft", "minecraft"), ("java", "min_java"), ("java_runtime", "java_runtime"), ("memory", "min_memory"), ("forge", "forge")
+                ("minecraft", "minecraft"),
+                ("java", "min_java"),
+                ("java_runtime", "java_runtime"),
+                ("memory", "min_memory"),
+                ("forge", "forge"),
             ):
                 if manifest.get(field) != build_settings[setting]:
                     raise ValueError(f"Build setting {field} differs from the requested value; build remains private.")

@@ -253,14 +253,16 @@ class TechnicAssembler(GenericAssembler):
         # Bound CPU work and temporary disk usage to four packages; only one writer touches the outer ZIP.
         with TemporaryDirectory() as staging_dir:
             for start in range(0, len(mods), 4):
-                batch = mods[start:start + 4]
+                batch = mods[start : start + 4]
                 paths = [Path(staging_dir) / f"{index}.zip" for index in range(len(batch))]
                 if self._reuse_archive is None:
                     sources = [get_asset_version_cache_location(mod, version) for mod, version in batch]
-                    results = await _wait_for_zip_io(asyncio.gather(
-                        *(asyncio.to_thread(_build_mod_zip, source, path) for source, path in zip(sources, paths)),
-                        return_exceptions=True,
-                    ))
+                    results = await _wait_for_zip_io(
+                        asyncio.gather(
+                            *(asyncio.to_thread(_build_mod_zip, source, path) for source, path in zip(sources, paths)),
+                            return_exceptions=True,
+                        )
+                    )
                     for result in results:
                         if isinstance(result, BaseException):
                             raise result
