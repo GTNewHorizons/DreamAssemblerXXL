@@ -28,11 +28,13 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Angelica - 2.2.10 --> 2.2.41
+# Updated - Angelica - 2.2.10 --> 2.2.42
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.41
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.10...2.2.42
 
 ## What's Changed:
+>* Cut terrain rebuilds and draw-buffer churn by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2312 (2.2.42)
+>* Free chunk-meshing memory when leaving a world by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2313 (2.2.42)
 >* Only animate PBR textures that are visible by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2310 (2.2.41)
 >* Split up GLStateManager and add public GLState API by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2305 (2.2.40)
 >* Move deferred chunk meshing back off the main thread by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2306 (2.2.40)
@@ -586,10 +588,11 @@ Mod is client-side only.
 >* avoid callbacks to parts transferred to another tile by @Pxx500 in https://github.com/GTNewHorizons/ForgeMultipart/pull/58 (1.7.14)
 >* Additional ISBRH compat + JSONModel Compat from GTNHLib by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/54 (1.7.13)
 
-# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.256
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.256
+# Updated - GT5-Unofficial - 5.09.54.133 --> 5.09.54.257
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.133...5.09.54.257
 
 ## What's Changed:
+>* Assembler Machine Casing Texture by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8611 (5.09.54.257)
 >* Fix dimension name for Saturn bee by @Elios5014 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8605 (5.09.54.256)
 >* Fix Network Analyzer crash in spectator mode by @micvog in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8607 (5.09.54.256)
 >* BEC Diode Tooltip Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8602 (5.09.54.256)
@@ -1173,10 +1176,11 @@ Mod is client-side only.
 >* Create the hee directory when it's not exist by @Ressed in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/50 (1.12.29-GTNH)
 >* Fix baby Enderman item duplication by @Worive in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/49 (1.12.28-GTNH)
 
-# Updated - Hodgepodge - 2.7.196 --> 2.7.219
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.219
+# Updated - Hodgepodge - 2.7.196 --> 2.7.220
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.196...2.7.220
 
 ## What's Changed:
+>* Simulation Distance: Implement better way to track which chunks should not be simulated by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/1028 (2.7.220)
 >* Fix simdulation distance with Distant Horizons by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/1015 (2.7.219)
 >* Fix condition to check absolute value in toRomanLimited by @FreezePhoenix in https://github.com/GTNewHorizons/Hodgepodge/pull/917 (2.7.219)
 >* Fix Forge GL xp leak by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/1025 (2.7.218)
@@ -1772,6 +1776,12 @@ Mod is client-side only.
 >* Stop edge chunks from replacing known ore veins, and add debug modes repair commands by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/110 (1.5.42)
 >* Protect prospecting data from unverified oregen patterns by @Algent in https://github.com/GTNewHorizons/VisualProspecting/pull/108 (1.5.41)
 >* Update Default Minimum Zoom Levels by @DylanTaylor1 in https://github.com/GTNewHorizons/VisualProspecting/pull/106 (1.5.40)
+
+# Updated - WAWLA - 1.3.3-GTNH --> 1.3.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WAWLA/compare/1.3.3-GTNH...1.3.4-GTNH
+
+## What's Changed:
+>* Update dependencies by @Chitak985 in https://github.com/GTNewHorizons/WAWLA/pull/12 (1.3.4-GTNH)
 
 # Updated - WirelessCraftingTerminal - 1.12.16 --> 1.12.17
 **Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.12.16...1.12.17
