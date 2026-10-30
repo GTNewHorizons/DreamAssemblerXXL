@@ -24,6 +24,7 @@ class ButtonArrayCallback:
     client_modrinth: Callable[[], Task[None]]
     client_mobile: Callable[[], Task[None]]
     client_technic: Callable[[], Task[None]]
+    publish_solder: Callable[[], Task[None]]
     update_all: Callable[[], Task[None]]
     update_beta: Callable[[], Task[None]]
     generate_changelog: Callable[[], Task[None]]
@@ -71,6 +72,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
 
         self.btn_client_cf: CustomButton = CustomButton(self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed)
         self.btn_client_technic: CustomButton = CustomButton(self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed)
+        self.btn_publish_solder: CustomButton = CustomButton(self.frame_btn, text="Publish Solder build", command=callbacks.publish_solder, themed=self.themed)
         self.btn_client_prism: CustomButton = CustomButton(self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed)
         self.btn_client_prism_j9: CustomButton = CustomButton(
             self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_prism_j9, themed=self.themed
@@ -107,6 +109,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.widgets: list[CustomWidget] = [
             self.btn_client_cf,
             self.btn_client_technic,
+            self.btn_publish_solder,
             self.btn_client_modrinth,
             self.btn_client_mobile,
             self.btn_client_prism,
@@ -168,6 +171,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.btn_client_prism.grid(row=1, column=1)
         self.btn_client_prism_j9.grid(row=2, column=1)
         self.btn_client_technic.grid(row=3, column=1)
+        self.btn_publish_solder.grid(row=5, column=1)
 
         # column 2: server we control + mod market places
         self.btn_server_zip.grid(row=0, column=2)

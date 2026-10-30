@@ -9,7 +9,7 @@ from typing import Any
 from async_tkinter_loop import async_mainloop
 from ttkthemes import ThemedTk
 
-from daxxl.defs import Archive, DevRelease, Position, Side
+from daxxl.defs import RELEASE_TECHNIC_DIR, ROOT_DIR, Archive, DevRelease, Position, Side
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
@@ -20,6 +20,8 @@ from daxxl.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.release_controller import ReleaseController
+from daxxl.services.solder import publish_solder
+from daxxl.services.solder_config import load_solder_config
 
 logger = get_logger(__name__)
 
@@ -99,6 +101,7 @@ class Window(ThemedTk, Tk):
             client_modrinth=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
             client_mobile=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.MOBILE)),
             client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
+            publish_solder=lambda: asyncio.ensure_future(self.publish_solder()),
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
@@ -204,6 +207,47 @@ class Window(ThemedTk, Tk):
             if len(widget.winfo_children()) > 0:
                 for child in widget.winfo_children():
                     self.toggle(child)
+
+    @with_error_dialog(title="Solder publication failed", message="Publication stopped. Check the server state before retrying.")
+    async def publish_solder(self) -> None:
+        settings = load_solder_config()
+        if any(not settings[key].strip() for key in ("url", "pack", "token")):
+            raise ValueError(f"Fill in url, pack and token in {ROOT_DIR / 'solder.json'}, then click Publish Solder build again.")
+        build_options: dict[str, Any] = {key: settings[key] for key in ("minecraft", "forge", "min_java", "java_runtime") if settings.get(key)}
+        for key in ("min_memory", "requests_per_minute"):
+            if settings.get(key):
+                try:
+                    build_options[key] = int(settings[key])
+                    if build_options[key] <= 0:
+                        raise ValueError
+                except ValueError:
+                    raise ValueError(f"{key} in solder.json must be a positive integer.") from None
+        version = self.controller.version
+        if not version:
+            raise ValueError("Load a release before publishing to Solder.")
+        archive = RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{version}_(technic).zip"
+        if not archive.is_file():
+            raise ValueError(f"Generate the full Technic archive first: {archive}")
+        self.trigger_toggle()
+        self.current_task_reset_callback()
+        self.global_reset_callback()
+        try:
+            await publish_solder(
+                archive=archive,
+                version=version,
+                url=settings["url"],
+                pack=settings["pack"],
+                token=settings["token"],
+                **build_options,
+                progress=lambda message: self.progress_callback(0, message),
+                task_progress_callback=self.progress_callback,
+                global_progress_callback=self.global_callback,
+                current_task_reset_callback=self.current_task_reset_callback,
+            )
+            self.global_callback(0, "Solder publication complete")
+        finally:
+            settings["token"] = ""
+            self.trigger_toggle()
 
     @with_error_dialog(
         title="An error occurred during the generation of the changelog",

@@ -27,6 +27,7 @@ A replacement for DreamMasterXXL, minus the nerfs.
 
 ### GUI
 * [gui.py](src/daxxl/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
+* Technic/Solder publication is an operator-run GUI task: [setup and usage](usage.md#publish-a-new-version-to-technic-solder).
 
 # Note to contributors
 Code PRs should always be done against the master branch.

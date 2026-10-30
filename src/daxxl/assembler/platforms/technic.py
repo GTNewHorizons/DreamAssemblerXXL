@@ -1,26 +1,61 @@
+import asyncio
+import io
+import json
 import os
 import re
-from collections.abc import Callable
+import shlex
+import shutil
+from collections.abc import Awaitable, Callable
+from copy import copy
 from enum import Enum
 from pathlib import Path
 from tempfile import TemporaryDirectory
-from zipfile import ZIP_DEFLATED, ZipFile
+from typing import Any
+from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile, ZipInfo
 
 from colorama import Fore
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.downloader import get_asset_version_cache_location
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
-from daxxl.defs import RELEASE_TECHNIC_DIR, Side
+from daxxl.defs import RELEASE_TECHNIC_DIR, SERVER_ASSETS_DIR, TECHNIC_JAVA_RUNTIME, TECHNIC_JAVA_VERSION, Side
 from daxxl.exceptions import ReleaseNotFoundException
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
-from daxxl.utils import normalize_archive_permissions
+from daxxl.utils import normalize_archive_entry_permissions, normalize_archive_permissions
 
 log = get_logger("technic process")
+
+TECHNIC_JVM_PATCH_PATH = "patches/gtnh-jvm.json"
+
+
+def build_java_args_package(args_text: str, version_json: bytes) -> bytes:
+    """Bundle the selected lwjgl3ify profile and Java 25 arguments with deterministic ZIP metadata."""
+    arguments = shlex.split(args_text, comments=True)
+    if not arguments:
+        raise ValueError("java9args.txt contains no JVM arguments.")
+    arguments = [arg for arg in arguments if arg not in {"-XX:+UseCompactObjectHeaders", "-XX:-UseCompactObjectHeaders"}]
+    arguments.append("-XX:+UseCompactObjectHeaders")
+    patch = {
+        "formatVersion": 1,
+        "uid": "gtnh.jvm",
+        "name": f"GTNH Java {TECHNIC_JAVA_VERSION} arguments",
+        "version": str(TECHNIC_JAVA_VERSION),
+        "order": 1000,
+        "javaVersion": {"component": TECHNIC_JAVA_RUNTIME, "majorVersion": TECHNIC_JAVA_VERSION},
+        "+jvmArgs": arguments,
+    }
+    with io.BytesIO() as buffer:
+        with ZipFile(buffer, "w") as archive:
+            for name, data in ((TECHNIC_JVM_PATCH_PATH, json.dumps(patch, indent=2) + "\n"), ("bin/version.json", version_json)):
+                entry = ZipInfo(name)  # Fixed timestamp keeps identical inputs byte-identical.
+                entry.compress_type = ZIP_DEFLATED
+                normalize_archive_entry_permissions(entry)
+                archive.writestr(entry, data)
+        return buffer.getvalue()
 
 
 class DifferentialUpdateMode(str, Enum):
@@ -42,6 +77,30 @@ def technify(string: str) -> str:
     formatted_string = re.sub(pattern_strip, "", formatted_string)
 
     return formatted_string
+
+
+def _build_mod_zip(source: Path, destination: Path) -> None:
+    with ZipFile(destination, "w", compression=ZIP_DEFLATED) as archive:
+        archive.write(source, arcname=Path("mods") / source.name)
+        for entry in archive.infolist():
+            normalize_archive_entry_permissions(entry)
+
+
+def _copy_package(source: ZipFile, destination: ZipFile, name: str) -> None:
+    entry = copy(source.getinfo(name))
+    entry.compress_type = ZIP_STORED
+    with source.open(name) as reader, destination.open(entry, "w") as writer:
+        shutil.copyfileobj(reader, writer, length=1024 * 1024)
+
+
+async def _wait_for_zip_io(operation: Awaitable[Any]) -> Any:
+    """Keep ZIP handles and temporary files alive until workers finish, even on cancellation."""
+    task = asyncio.ensure_future(operation)
+    try:
+        return await asyncio.shield(task)
+    except asyncio.CancelledError:
+        await asyncio.gather(task, return_exceptions=True)
+        raise
 
 
 class TechnicAssembler(GenericAssembler):
@@ -76,6 +135,12 @@ class TechnicAssembler(GenericAssembler):
             changelog_path=changelog_path,
             current_task_reset_callback=current_task_reset_callback,
         )
+        self._reuse_archive: ZipFile | None = None
+        self._java_args_name: str | None = None
+
+    def get_mods(self, side: Side) -> list[tuple[GTNHModInfo, GTNHVersion]]:
+        """Technic includes client/both mods for both Java 8 and Java 9+."""
+        return super().get_mods(Side.CLIENT_JAVA9 if side == Side.CLIENT else side)
 
     async def partial_assemble(self, side: Side, verbose: bool = False) -> None:
         """
@@ -162,18 +227,13 @@ class TechnicAssembler(GenericAssembler):
 
         process_release: GTNHRelease = last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
 
-        valid_sides: set[Side] = side.valid_mod_sides()
-        j9_sides: set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
+        valid_sides: set[Side] = (Side.CLIENT_JAVA9 if side == Side.CLIENT else side).valid_mod_sides()
 
         github_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides, release=process_release)
         github_mods_names = [x[0].name for x in github_mods]
-        github_mods_j9: list[tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(j9_sides, release=process_release)
-        github_mods_names_j9 = [x[0].name for x in github_mods_j9]
 
         external_mods: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides, release=process_release)
         external_mods_names = [x[0].name for x in external_mods]
-        external_mods_j9: list[tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(j9_sides, release=process_release)
-        external_mods_names_j9 = [x[0].name for x in external_mods_j9]
 
         mods: list[tuple[GTNHModInfo, GTNHVersion]] = []
         for mod_name in update_source(self.release, last_release):
@@ -184,42 +244,53 @@ class TechnicAssembler(GenericAssembler):
                 mod_index = external_mods_names.index(mod_name)
                 mods.append(external_mods[mod_index])
             else:
-                if side == Side.CLIENT and (mod_name in github_mods_names_j9 or mod_name in external_mods_names_j9):
-                    log.warn(f"Mod {mod_name} is a java 9+ mod but currently packing only java 8 mods. Skipping it.")
-                else:
-                    log.warn(f"Mod {mod_name} was detected as an updated mod, but is not a github mod nor an external one")
+                log.warn(f"Mod {mod_name} changed but is not included in the Technic {side.value} mod selection")
 
         return mods
 
     async def add_mods(self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False) -> None:
 
-        # technic wants every mod as its own nested zip, staged one at a time
+        # Bound CPU work and temporary disk usage to four packages; only one writer touches the outer ZIP.
         with TemporaryDirectory() as staging_dir:
-            temp_zip_path: Path = Path(staging_dir) / "temp.zip"
-
-            for mod, version in mods:
-                source_file: Path = get_asset_version_cache_location(mod, version)
-                archive_path: Path = Path("mods") / source_file.name
-
-                # set up temp zip
-                with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
-                    temp_zip.write(source_file, arcname=archive_path)
-                    await normalize_archive_permissions(temp_zip)
-
-                archive.write(
-                    temp_zip_path,
-                    arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}-{technify(version.version_tag)}.zip"),
-                )
-
-                if self.task_progress_callback is not None:
-                    self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
-                await self.yield_to_event_loop()
+            for start in range(0, len(mods), 4):
+                batch = mods[start : start + 4]
+                paths = [Path(staging_dir) / f"{index}.zip" for index in range(len(batch))]
+                if self._reuse_archive is None:
+                    sources = [get_asset_version_cache_location(mod, version) for mod, version in batch]
+                    results = await _wait_for_zip_io(
+                        asyncio.gather(
+                            *(asyncio.to_thread(_build_mod_zip, source, path) for source, path in zip(sources, paths)),
+                            return_exceptions=True,
+                        )
+                    )
+                    for result in results:
+                        if isinstance(result, BaseException):
+                            raise result
+                for (mod, version), path in zip(batch, paths):
+                    name = f"mods/{technify(mod.name)}/{technify(mod.name)}-{technify(version.version_tag)}.zip"
+                    if self._reuse_archive is not None:
+                        await _wait_for_zip_io(asyncio.to_thread(_copy_package, self._reuse_archive, archive, name))
+                    else:
+                        await _wait_for_zip_io(asyncio.to_thread(archive.write, path, arcname=name, compress_type=ZIP_STORED))
+                        path.unlink()
+                    if self.task_progress_callback is not None:
+                        self.task_progress_callback(self.delta_progress, f"adding mod {mod.name} : version {version.version_tag} to the archive")
+                    await self.yield_to_event_loop()
 
     async def add_config(self, side: Side, config: tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False) -> None:
 
         modpack_config: GTNHConfig
         config_version: GTNHVersion | None
         modpack_config, config_version = config
+
+        name = f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}-{technify(config_version.version_tag)}.zip"
+        if self._reuse_archive is not None:
+            await _wait_for_zip_io(asyncio.to_thread(_copy_package, self._reuse_archive, archive, name))
+            if self.task_progress_callback is not None:
+                steps = self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1
+                self.task_progress_callback(self.delta_progress * steps, "Reusing config package from full Technic archive")
+            await self.add_java_args(archive)
+            return
 
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
@@ -238,10 +309,46 @@ class TechnicAssembler(GenericAssembler):
                 await normalize_archive_permissions(temp_zip)
 
             # writing the config zip in the technic archive
-            archive.write(
-                temp_zip_path,
-                arcname=(f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}-{technify(config_version.version_tag)}.zip"),
+            await _wait_for_zip_io(asyncio.to_thread(archive.write, temp_zip_path, arcname=name, compress_type=ZIP_STORED))
+        await self.add_java_args(archive)
+
+    async def load_lwjgl3ify_version_json(self) -> bytes:
+        selected = next(((mod, version) for mod, version in self.get_mods(Side.CLIENT) if mod.name == "lwjgl3ify"), None)
+        if selected is None:
+            raise ValueError(f"Cannot assemble Technic archive: release {self.release.version} has no client lwjgl3ify mod.")
+        mod, version = selected
+        path = await self.context.downloader.download_version_json(mod, version)
+        data = path.read_bytes()
+        try:
+            profile = json.loads(data)
+        except (ValueError, UnicodeError):
+            raise ValueError(f"lwjgl3ify {version.version_tag} has an invalid release asset version.json.") from None
+        if (
+            not isinstance(profile, dict)
+            or not isinstance(profile.get("id"), str)
+            or not profile["id"].endswith(f"-lwjgl3ify-{version.version_tag}")
+            or not isinstance(profile.get("libraries"), list)
+            or not isinstance(profile.get("mainClass"), str)
+            or not profile["mainClass"]
+        ):
+            raise ValueError(f"lwjgl3ify {version.version_tag} has an incomplete or mismatched release asset version.json.")
+        return data
+
+    async def add_java_args(self, archive: ZipFile) -> None:
+        if self._reuse_archive is not None:
+            if self._java_args_name is None:
+                raise ValueError("The current full Technic archive has no generated JVM argument package.")
+            await _wait_for_zip_io(asyncio.to_thread(_copy_package, self._reuse_archive, archive, self._java_args_name))
+        else:
+            data = build_java_args_package(
+                (SERVER_ASSETS_DIR / "forge" / "java9args.txt").read_text(encoding="utf-8-sig"),
+                await self.load_lwjgl3ify_version_json(),
             )
+            version = technify(self.release.version)
+            self._java_args_name = f"mods/gtnh-java-args/gtnh-java-args-{version}.zip"
+            archive.writestr(self._java_args_name, data, compress_type=ZIP_STORED)
+        if self.task_progress_callback is not None:
+            self.task_progress_callback(self.delta_progress, f"Adding Java {TECHNIC_JAVA_VERSION} JVM argument package")
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"
@@ -263,8 +370,9 @@ class TechnicAssembler(GenericAssembler):
     ) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
+        await self.load_lwjgl3ify_version_json()  # Fail before replacing existing archives if the required profile is unavailable.
         log.info(f"packing technic launcher release for {self.release.version}")
-        self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1)
+        self.delta_progress = 100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 2)
         await GenericAssembler.assemble(self, side, verbose)
 
         log.info(f"packing partial technic launcher release for {self.release.version}")
@@ -276,7 +384,13 @@ class TechnicAssembler(GenericAssembler):
             len(self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS))
             + self.get_amount_of_files_in_config(side)
             + self.get_amount_of_files_in_locales()
-            + 1  # changelog
+            + 2  # changelog and JVM argument package
             + len(self.differential_update(side, DifferentialUpdateMode.NEW_MODS))
         )
-        await self.partial_assemble(side, verbose)
+        # Reuse only the full archive just built in this run, never a stale archive from disk.
+        with ZipFile(self.get_archive_path(side)) as full_archive:
+            self._reuse_archive = full_archive
+            try:
+                await self.partial_assemble(side, verbose)
+            finally:
+                self._reuse_archive = None

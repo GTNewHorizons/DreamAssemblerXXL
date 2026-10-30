@@ -98,6 +98,9 @@ def get_asset(release: AttributeDict, versionable_type: VersionableType) -> tupl
             asset_name = asset_name.replace("-dev", "", 1)
 
         if versionable_type == VersionableType.mod:
+            if asset_name == "version.json":
+                extra_assets.append(asset)
+                continue
             if asset_name.endswith("forgePatches.jar"):
                 extra_assets.append(asset)
                 continue
