@@ -5,7 +5,7 @@ import json
 import threading
 from pathlib import Path
 from types import SimpleNamespace
-from unittest.mock import AsyncMock
+from unittest.mock import AsyncMock, create_autospec
 from zipfile import ZipFile
 
 import httpx
@@ -81,12 +81,17 @@ def test_gui_publication_uses_config_and_restores_progress_on_failure(tmp_path, 
         kwargs["task_progress_callback"](70, "Done")
         kwargs["global_progress_callback"](75, "Done")
 
+    def unexpected_popup(*args, **kwargs):
+        raise AssertionError("Unexpected popup")
+
     publisher = AsyncMock(side_effect=simulate)
     monkeypatch.setattr(gui, "publish_solder", publisher)
-    monkeypatch.setattr(gui, "showinfo", lambda *args, **kwargs: pytest.fail("Unexpected popup"))
+    monkeypatch.setattr(gui, "showinfo", unexpected_popup)
     errors = []
     monkeypatch.setattr("daxxl.gui.lib.decorators.showerror", lambda *args: errors.append(args))
-    window = SimpleNamespace(
+    window = create_autospec(
+        gui.Window,
+        instance=True,
         controller=SimpleNamespace(version="2"),
         toggled=True,
         current_task_reset_callback=lambda: values.update(task=0),
@@ -220,6 +225,7 @@ class SolderServer:
             self.mods = {}
             self.existing_builds = [version for version in self.existing_builds if version != "2"]
             return httpx.Response(200, json={"success": "Build deleted"})
+        assert isinstance(data, dict), "Write requests must have a JSON object body"
         if method == "POST" and path == "/api/modpack/pack/build":
             assert "clone_from" not in data and "clone_from_modpack" not in data
             if self.build is not None:
@@ -247,9 +253,11 @@ class SolderServer:
             self.mods[name] = self.versions[name, data["mod_version"]]
             return httpx.Response(200, json={"success": "OK"})
         if method == "PUT" and path == "/api/modpack/pack/2":
+            assert self.build is not None
             self.build.update(data)
             return httpx.Response(200, json=self.build)
         if method == "PUT" and path == "/api/modpack/pack":
+            assert self.build is not None
             assert self.build["is_published"] and not self.build["private"]
             self.pointers.update(data)
             return httpx.Response(200, json=self.pointers)

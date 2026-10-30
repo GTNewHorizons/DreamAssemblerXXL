@@ -65,6 +65,7 @@ def test_indexed_profile_uses_normal_asset_download_and_shared_versioned_cache(t
         ],
     )
     primary, extras = get_asset(release, VersionableType.mod)
+    assert primary is not None
     assert primary.name == version.filename
     version.extra_assets = [ExtraAsset(filename=item.name, download_url=item.url) for item in extras]
     asset = GTNHModInfo(name="lwjgl3ify", latest_version="3.0.37", versions=[version])

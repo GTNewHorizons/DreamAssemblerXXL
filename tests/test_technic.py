@@ -5,11 +5,12 @@ import shlex
 import threading
 import time
 from types import SimpleNamespace
-from unittest.mock import AsyncMock
+from unittest.mock import AsyncMock, create_autospec
 from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
 import pytest
 
+from daxxl.app_context import AppContext
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
 from daxxl.assembler.platforms.technic import DifferentialUpdateMode, TechnicAssembler, build_java_args_package
 from daxxl.defs import SERVER_ASSETS_DIR, ModSource, Side
@@ -100,7 +101,9 @@ def technic():
     previous.version = "1"
     previous.github_mods["lwjgl3ify"].version = "3.0.36"
     previous.external_mods["external-java9"].version = "0.9"
-    context = SimpleNamespace(
+    context = create_autospec(
+        AppContext,
+        instance=True,
         assets=assets,
         mod_pack=SimpleNamespace(
             client_exclusions=[],
