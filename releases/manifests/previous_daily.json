@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
-  "last_version": "2.9.0-RC-2",
-  "last_updated": "2026-10-30T21:11:53.476175+00:00",
+  "last_version": "previous_daily",
+  "last_updated": "2026-10-30T21:14:12.961878+00:00",
   "config": "2.9.0-nightly-2026-10-30-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.64",
+      "version": "7.1.65",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -137,7 +137,7 @@
       "side": "CLIENT"
     },
     "DefaultWorldGenerator": {
-      "version": "0.4.0",
+      "version": "0.5.0",
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.260",
+      "version": "5.09.54.263",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.23",
+      "version": "1.5.24",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.98",
+      "version": "2.9.99",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.66-GTNH",
+      "version": "1.12.67-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.40",
+      "version": "3.0.42",
       "side": "BOTH_JAVA9"
     },
     "amunra": {

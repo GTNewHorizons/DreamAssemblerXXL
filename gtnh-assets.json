@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.9.0-nightly-2026-10-30-2",
+    "latest_version": "2.9.0-nightly-2026-10-30-3",
     "needs_attention": false,
     "versions": [
       {
@@ -8282,6 +8282,16 @@
         "filename": "2.9.0-nightly-2026-10-30-2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/692653577",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-30-2/2.9.0-nightly-2026-10-30-2.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.9.0-nightly-2026-10-30-3",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-10-30T21:22:30+00:00",
+        "filename": "2.9.0-nightly-2026-10-30-3.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/693459182",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.0-nightly-2026-10-30-3/2.9.0-nightly-2026-10-30-3.zip",
         "extra_assets": []
       }
     ],
@@ -69061,7 +69071,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.263",
+      "latest_version": "5.09.54.264",
       "private": false,
       "versions": [
         {
@@ -96712,6 +96722,16 @@
           "filename": "gregtech-5.09.54.263.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/693391784",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.263/gregtech-5.09.54.263.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.264",
+          "changelog": "## What's Changed\n* Fix SB Pumps removing any flowing liquid by @MarloGr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8343\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.263...5.09.54.264\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T21:33:36+00:00",
+          "filename": "gregtech-5.09.54.264.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/693484042",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.264/gregtech-5.09.54.264.jar",
           "extra_assets": []
         }
       ],
@@ -167036,7 +167056,7 @@
     },
     {
       "name": "Realistic-World-Gen-2",
-      "latest_version": "2.0.0",
+      "latest_version": "2.0.1",
       "private": false,
       "versions": [
         {
@@ -167047,6 +167067,16 @@
           "filename": "rwg2-2.0.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/693077921",
           "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.0.0/rwg2-2.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.1",
+          "changelog": "## What's Changed\n* rename worldgen to RWG2 Smooth by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/1\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.0.0...2.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T21:29:40+00:00",
+          "filename": "rwg2-2.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/693476212",
+          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.0.1/rwg2-2.0.1.jar",
           "extra_assets": []
         }
       ],
