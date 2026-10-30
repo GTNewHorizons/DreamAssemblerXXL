@@ -11,3 +11,4 @@ releases/mobile/
 releases/modrinth/
 .inplace_mod_exclusions
 .inplace_pinned_mods
+/solder.json

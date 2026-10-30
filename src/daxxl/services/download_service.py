@@ -2,6 +2,7 @@ import asyncio
 import os
 from collections.abc import Callable
 from pathlib import Path
+from urllib.parse import urljoin, urlsplit
 
 from colorama import Fore
 from httpx import AsyncClient, HTTPStatusError, TransportError
@@ -12,6 +13,7 @@ from daxxl.exceptions import NoModAssetFound
 from daxxl.gtnh_logger import get_logger
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_release import GTNHRelease
+from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.versionable import Versionable
 from daxxl.utils import get_github_token
 
@@ -38,6 +40,25 @@ class DownloadService:
     def __init__(self, client: AsyncClient, assets: AvailableAssets) -> None:
         self.client = client
         self.assets = assets
+
+    async def download_version_json(self, asset: Versionable, version: GTNHVersion) -> Path:
+        """Fetch the selected release's published profile, including with an older asset catalog."""
+        destination = get_asset_version_cache_location(asset, version, "version.json")
+        if destination.is_file():
+            return destination
+        extra = next((item for item in version.extra_assets if item.filename == "version.json"), None)
+        url = (extra.download_url or extra.browser_download_url) if extra is not None else None
+        if url is None and version.browser_download_url:
+            # Older catalogs omitted JSON assets. This is the same tagged release, never latest.
+            url = urljoin(version.browser_download_url, "version.json")
+        if url is None:
+            raise NoModAssetFound(f"No release URL for {asset.name} {version.version_tag} version.json. Refresh the asset catalog.")
+        headers = {"Accept": "application/octet-stream"}
+        if urlsplit(url).hostname == "api.github.com":
+            headers["Authorization"] = f"token {get_github_token()}"
+        log.info(f"Downloading {asset.name} {version.version_tag} release asset version.json")
+        await self._download_file(url, destination, headers)
+        return destination
 
     async def _download_file(self, download_url: str, destination: Path, headers: dict[str, str]) -> None:
         """
