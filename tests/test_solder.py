@@ -57,9 +57,16 @@ def test_gui_publication_uses_config_and_restores_progress_on_failure(tmp_path, 
     archive = tmp_path / "GT_New_Horizons_2_(technic).zip"
     archive.write_bytes(b"archive checked by publisher")
     monkeypatch.setattr(gui, "RELEASE_TECHNIC_DIR", tmp_path)
-    monkeypatch.setattr(gui, "load_solder_config", lambda: {
-        "url": "https://solder.test", "pack": "pack", "token": "test-token", "requests_per_minute": "600",
-    })
+    monkeypatch.setattr(
+        gui,
+        "load_solder_config",
+        lambda: {
+            "url": "https://solder.test",
+            "pack": "pack",
+            "token": "test-token",
+            "requests_per_minute": "600",
+        },
+    )
     values = {"task": 50, "global": 75}
 
     async def simulate(**kwargs):
@@ -80,7 +87,8 @@ def test_gui_publication_uses_config_and_restores_progress_on_failure(tmp_path, 
     errors = []
     monkeypatch.setattr("daxxl.gui.lib.decorators.showerror", lambda *args: errors.append(args))
     window = SimpleNamespace(
-        controller=SimpleNamespace(version="2"), toggled=True,
+        controller=SimpleNamespace(version="2"),
+        toggled=True,
         current_task_reset_callback=lambda: values.update(task=0),
         global_reset_callback=lambda: values.update({"global": 0}),
         progress_callback=lambda amount, message: values.update(task=values["task"] + amount),
@@ -155,7 +163,10 @@ class SolderServer:
     @staticmethod
     def mod(name, version, content):
         return {
-            "name": name, "version": version, "md5": hashlib.md5(content).hexdigest(), "filesize": len(content),
+            "name": name,
+            "version": version,
+            "md5": hashlib.md5(content).hexdigest(),
+            "filesize": len(content),
             "url": f"https://mirror.test/mods/{name}/{name}-{version}.zip",
         }
 
@@ -184,11 +195,17 @@ class SolderServer:
             if path == "/api/modpack/pack/2" and self.build and self.build["is_published"]:
                 assert self.build["private"] is True
                 assert not any(method == "PUT" and path == "/api/modpack/pack" for method, path, _ in self.calls)
-                return httpx.Response(200, json={
-                    "minecraft": self.build["minecraft"], "java": self.build["min_java"], "memory": self.build["min_memory"],
-                    "java_runtime": self.build["java_runtime"], "forge": self.build["forge"],
-                    "mods": [] if self.bad_manifest else list(self.mods.values()),
-                })
+                return httpx.Response(
+                    200,
+                    json={
+                        "minecraft": self.build["minecraft"],
+                        "java": self.build["min_java"],
+                        "memory": self.build["min_memory"],
+                        "java_runtime": self.build["java_runtime"],
+                        "forge": self.build["forge"],
+                        "mods": [] if self.bad_manifest else list(self.mods.values()),
+                    },
+                )
             if path == "/api/mod":
                 return httpx.Response(200, json={"mods": {name: name for name in self.mod_names}})
             if path.startswith("/api/mod/"):
@@ -336,11 +353,14 @@ def test_preflight_collects_errors_preserves_old_build_and_rechecks_failed_files
     assert server.pointers["latest"] == "2"
 
 
-@pytest.mark.parametrize("method,path,failure", [
-    ("DELETE", "/api/modpack/pack/2", 403),
-    ("DELETE", "/api/modpack/pack/2", "timeout"),
-    ("POST", "/api/modpack/pack/2/mod", "timeout"),
-])
+@pytest.mark.parametrize(
+    "method,path,failure",
+    [
+        ("DELETE", "/api/modpack/pack/2", 403),
+        ("DELETE", "/api/modpack/pack/2", "timeout"),
+        ("POST", "/api/modpack/pack/2/mod", "timeout"),
+    ],
+)
 def test_failed_writes_are_not_retried_or_followed_by_publication(publication, method, path, failure):
     archive, server = publication
     old = {"version": "2", "is_published": True}

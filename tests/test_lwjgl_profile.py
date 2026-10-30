@@ -56,11 +56,14 @@ def test_indexed_profile_uses_normal_asset_download_and_shared_versioned_cache(t
     monkeypatch.setattr("daxxl.services.download_service.get_github_token", lambda: "test-token")
     version = version_info("3.0.37")
     profile_url = "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/200"
-    release = AttributeDict(tag_name="3.0.37", assets=[
-        {"name": "version.json", "url": profile_url},
-        {"name": version.filename, "url": version.download_url},
-        {"name": "lwjgl3ify-3.0.37-sources.jar"},
-    ])
+    release = AttributeDict(
+        tag_name="3.0.37",
+        assets=[
+            {"name": "version.json", "url": profile_url},
+            {"name": version.filename, "url": version.download_url},
+            {"name": "lwjgl3ify-3.0.37-sources.jar"},
+        ],
+    )
     primary, extras = get_asset(release, VersionableType.mod)
     assert primary.name == version.filename
     version.extra_assets = [ExtraAsset(filename=item.name, download_url=item.url) for item in extras]

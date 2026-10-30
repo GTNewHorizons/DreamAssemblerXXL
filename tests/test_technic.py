@@ -23,16 +23,19 @@ from daxxl.utils import normalize_archive_permissions
 
 
 def lwjgl_profile(version="3.0.37"):
-    return json.dumps({
-        "id": f"1.7.10-forge-lwjgl3ify-{version}",
-        "mainClass": "com.gtnewhorizons.retrofuturabootstrap.MainStartOnFirstThread",
-        "libraries": [{"name": f"com.github.GTNewHorizons:lwjgl3ify:{version}:forgePatches"}],
-        "arguments": {"game": ["--tweakClass", "cpw.mods.fml.common.launcher.FMLTweaker"], "jvm": ["-Dfrom.lwjgl3ify=true"]},
-    }, indent=2).encode()
+    return json.dumps(
+        {
+            "id": f"1.7.10-forge-lwjgl3ify-{version}",
+            "mainClass": "com.gtnewhorizons.retrofuturabootstrap.MainStartOnFirstThread",
+            "libraries": [{"name": f"com.github.GTNewHorizons:lwjgl3ify:{version}:forgePatches"}],
+            "arguments": {"game": ["--tweakClass", "cpw.mods.fml.common.launcher.FMLTweaker"], "jvm": ["-Dfrom.lwjgl3ify=true"]},
+        },
+        indent=2,
+    ).encode()
 
 
 def test_java_patch_preserves_repeated_options_and_selects_java25():
-    text = '# Comment\n-Dfile.encoding=UTF-8\n--add-opens\njava.base/java.io=ALL-UNNAMED\n--add-opens java.base/java.lang=ALL-UNNAMED\n'
+    text = "# Comment\n-Dfile.encoding=UTF-8\n--add-opens\njava.base/java.io=ALL-UNNAMED\n--add-opens java.base/java.lang=ALL-UNNAMED\n"
     text += '"-Dmessage=two words"\n-XX:-UseCompactObjectHeaders\n-XX:+UseCompactObjectHeaders\n'
     content = build_java_args_package(text, lwjgl_profile())
     assert build_java_args_package(text, lwjgl_profile()) == content
@@ -45,31 +48,48 @@ def test_java_patch_preserves_repeated_options_and_selects_java25():
     assert patch["javaVersion"] == {"component": "java-runtime-epsilon", "majorVersion": 25}
     assert patch["formatVersion"] == 1
     assert patch["+jvmArgs"] == [
-        "-Dfile.encoding=UTF-8", "--add-opens", "java.base/java.io=ALL-UNNAMED",
-        "--add-opens", "java.base/java.lang=ALL-UNNAMED", "-Dmessage=two words", "-XX:+UseCompactObjectHeaders",
+        "-Dfile.encoding=UTF-8",
+        "--add-opens",
+        "java.base/java.io=ALL-UNNAMED",
+        "--add-opens",
+        "java.base/java.lang=ALL-UNNAMED",
+        "-Dmessage=two words",
+        "-XX:+UseCompactObjectHeaders",
     ]
     assert build_java_args_package(text + "\n-Dextra=true", lwjgl_profile()) != content
 
 
 @pytest.fixture
 def technic():
-    assets = AvailableAssets.construct(mods=[
-        GTNHModInfo(name="regular", latest_version="1", side=Side.BOTH, versions=[GTNHVersion(version_tag="1", filename="regular-1.jar")]),
-        GTNHModInfo(
-            name="lwjgl3ify", latest_version="3.0.40", side=Side.BOTH_JAVA9,
-            versions=[GTNHVersion(version_tag=version, filename=f"lwjgl3ify-{version}.jar") for version in ("3.0.36", "3.0.37", "3.0.40")],
-        ),
-        GTNHModInfo(
-            name="other-java9", latest_version="1", side=Side.CLIENT_JAVA9,
-            versions=[GTNHVersion(version_tag="1", filename="other-java9-1.jar")],
-        ),
-        GTNHModInfo(
-            name="external-java9", latest_version="1", side=Side.BOTH_JAVA9, source=ModSource.other,
-            versions=[GTNHVersion(version_tag=version, filename=f"external-java9-{version}.jar") for version in ("0.9", "1")],
-        ),
-    ])
+    assets = AvailableAssets.construct(
+        mods=[
+            GTNHModInfo(name="regular", latest_version="1", side=Side.BOTH, versions=[GTNHVersion(version_tag="1", filename="regular-1.jar")]),
+            GTNHModInfo(
+                name="lwjgl3ify",
+                latest_version="3.0.40",
+                side=Side.BOTH_JAVA9,
+                versions=[GTNHVersion(version_tag=version, filename=f"lwjgl3ify-{version}.jar") for version in ("3.0.36", "3.0.37", "3.0.40")],
+            ),
+            GTNHModInfo(
+                name="other-java9",
+                latest_version="1",
+                side=Side.CLIENT_JAVA9,
+                versions=[GTNHVersion(version_tag="1", filename="other-java9-1.jar")],
+            ),
+            GTNHModInfo(
+                name="external-java9",
+                latest_version="1",
+                side=Side.BOTH_JAVA9,
+                source=ModSource.other,
+                versions=[GTNHVersion(version_tag=version, filename=f"external-java9-{version}.jar") for version in ("0.9", "1")],
+            ),
+        ]
+    )
     release = GTNHRelease(
-        version="2", last_version="1", config="1", external_mods={"external-java9": ModVersionInfo(version="1")},
+        version="2",
+        last_version="1",
+        config="1",
+        external_mods={"external-java9": ModVersionInfo(version="1")},
         github_mods={
             "regular": ModVersionInfo(version="1"),
             "lwjgl3ify": ModVersionInfo(version="3.0.37", side=Side.BOTH_JAVA9),
@@ -83,8 +103,12 @@ def technic():
     context = SimpleNamespace(
         assets=assets,
         mod_pack=SimpleNamespace(
-            client_exclusions=[], client_java8_exclusions=[], client_java9_exclusions=[],
-            server_exclusions=[], server_java8_exclusions=[], server_java9_exclusions=[],
+            client_exclusions=[],
+            client_java8_exclusions=[],
+            client_java9_exclusions=[],
+            server_exclusions=[],
+            server_java8_exclusions=[],
+            server_java9_exclusions=[],
         ),
         release_service=SimpleNamespace(get_release=lambda version: previous if version == "1" else None),
         comparison=SimpleNamespace(
@@ -101,9 +125,7 @@ def test_technic_profile_errors_preserve_existing_full_archive(technic, tmp_path
     existing = tmp_path / "full.zip"
     existing.write_bytes(b"previous archive")
     monkeypatch.setattr(technic, "get_archive_path", lambda side: existing)
-    monkeypatch.setattr(
-        "daxxl.assembler.platforms.technic.get_asset_version_cache_location", lambda mod, version: tmp_path / version.filename
-    )
+    monkeypatch.setattr("daxxl.assembler.platforms.technic.get_asset_version_cache_location", lambda mod, version: tmp_path / version.filename)
     profile_path = tmp_path / "lwjgl3ify-3.0.37-version.json"
     technic.context.downloader = SimpleNamespace(download_version_json=AsyncMock(return_value=profile_path))
     if problem == "missing-profile":
@@ -322,8 +344,14 @@ def test_technic_filters_mixed_github_and_external_mods_with_release_side_overri
     technic.release.external_mods["external-client_java9"].side = Side.NONE
     technic.context.comparison.get_new_mods = lambda current, old: set(current.github_mods) | set(current.external_mods)
     expected = {
-        "github-client", "github-both", "github-client_java9", "github-both_java9", "github-server",
-        "external-client", "external-both", "external-both_java9",
+        "github-client",
+        "github-both",
+        "github-client_java9",
+        "github-both_java9",
+        "github-server",
+        "external-client",
+        "external-both",
+        "external-both_java9",
     }
     assert {mod.name for mod, _ in technic.get_mods(Side.CLIENT)} == expected
     assert {mod.name for mod, _ in technic.differential_update(Side.CLIENT, DifferentialUpdateMode.NEW_MODS)} == expected
@@ -335,5 +363,7 @@ def test_technic_differential_selects_java9_mods_from_correct_release(technic, m
     expected_version = "3.0.36" if mode == DifferentialUpdateMode.REMOVED_MODS else "3.0.37"
     external_version = "0.9" if mode == DifferentialUpdateMode.REMOVED_MODS else "1"
     assert {(mod.name, version.version_tag) for mod, version in mods} == {
-        ("lwjgl3ify", expected_version), ("other-java9", "1"), ("external-java9", external_version)
+        ("lwjgl3ify", expected_version),
+        ("other-java9", "1"),
+        ("external-java9", external_version),
     }
