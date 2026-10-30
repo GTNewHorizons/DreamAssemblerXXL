@@ -167056,7 +167056,7 @@
     },
     {
       "name": "Realistic-World-Gen-2",
-      "latest_version": "2.0.1",
+      "latest_version": "2.0.2",
       "private": false,
       "versions": [
         {
@@ -167077,6 +167077,16 @@
           "filename": "rwg2-2.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/693476212",
           "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.0.1/rwg2-2.0.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.2",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.0.1...2.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T23:19:55+00:00",
+          "filename": "rwg2-2.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/693726416",
+          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.0.2/rwg2-2.0.2.jar",
           "extra_assets": []
         }
       ],
