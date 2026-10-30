@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-10-30T10:14:55.717700+00:00",
-  "config": "2.9.0-nightly-2026-10-29",
+  "last_version": "2.9.0-RC-2",
+  "last_updated": "2026-10-30T21:11:53.476175+00:00",
+  "config": "2.9.0-nightly-2026-10-30-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.28-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1094-GTNH",
+      "version": "rv3-beta-1095-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.50",
+      "version": "2.6.51",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.41-GTNH",
+      "version": "1.13.42-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.12-GTNH",
+      "version": "1.9.13-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.17-GTNH",
+      "version": "0.9.18-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.35-GTNH",
+      "version": "3.4.37-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.257",
+      "version": "5.09.54.260",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.220",
+      "version": "2.7.221",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.25",
+      "version": "1.4.26",
       "side": "BOTH"
     },
     "IFU": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.170-GTNH",
+      "version": "2.8.171-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.65-GTNH",
+      "version": "1.12.66-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.17",
+      "version": "1.8.18",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.53",
+      "version": "1.3.54",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.93-1.7.10",
+      "version": "2.3.94-1.7.10",
       "side": "BOTH"
     },
     "Navigator": {
@@ -841,11 +841,15 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.4.21",
+      "version": "2.4.22",
       "side": "BOTH"
     },
     "SpiceOfLife": {
       "version": "2.2.12-carrot",
+      "side": "BOTH"
+    },
+    "Realistic-World-Gen-2": {
+      "version": "2.0.0",
       "side": "BOTH"
     }
   },
@@ -907,7 +911,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.47",
+      "version": "1.5.48",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
@@ -927,7 +931,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.8.0",
+      "version": "0.8.2",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
@@ -959,7 +963,7 @@
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
-      "version": "1.0.33",
+      "version": "1.0.34",
       "side": "BOTH"
     },
     "JourneyMap": {
@@ -967,7 +971,7 @@
       "side": "CLIENT"
     },
     "Mobs Info": {
-      "version": "0.6.0",
+      "version": "0.6.2",
       "side": "BOTH"
     },
     "Salis Arcana": {

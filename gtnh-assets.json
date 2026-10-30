@@ -43477,7 +43477,7 @@
     },
     {
       "name": "BuildCraft",
-      "latest_version": "7.1.64",
+      "latest_version": "7.1.65",
       "private": false,
       "versions": [
         {
@@ -43889,6 +43889,16 @@
           "filename": "buildcraft-7.1.64.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/604747422",
           "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.64/buildcraft-7.1.64.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "7.1.65",
+          "changelog": "## What's Changed\n* Fix for dolly placing tanks above one another without checking for liquid type (BuildCraft side) by @BoringDolphin312 in https://github.com/GTNewHorizons/BuildCraft/pull/37\n\n## New Contributors\n* @BoringDolphin312 made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/37\n\n**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.64...7.1.65\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T19:38:24+00:00",
+          "filename": "buildcraft-7.1.65.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/693205090",
+          "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.65/buildcraft-7.1.65.jar",
           "extra_assets": []
         }
       ],
@@ -51379,7 +51389,7 @@
     },
     {
       "name": "DefaultWorldGenerator",
-      "latest_version": "0.4.0",
+      "latest_version": "0.5.0",
       "private": false,
       "versions": [
         {
@@ -51421,6 +51431,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/DefaultWorldGenerator/releases/assets/257573766",
           "browser_download_url": "https://github.com/GTNewHorizons/DefaultWorldGenerator/releases/download/0.4.0/defaultworldgenerator-0.4.0.jar",
           "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/DefaultWorldGenerator/0.4.0/DefaultWorldGenerator-0.4.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.0",
+          "changelog": "## What's Changed\n* add whitelist support for worlgens by @boubou19 in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/5\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/DefaultWorldGenerator/compare/0.4.0...0.5.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T18:24:48+00:00",
+          "filename": "defaultworldgenerator-0.5.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DefaultWorldGenerator/releases/assets/693012975",
+          "browser_download_url": "https://github.com/GTNewHorizons/DefaultWorldGenerator/releases/download/0.5.0/defaultworldgenerator-0.5.0.jar",
           "extra_assets": []
         }
       ],
@@ -69041,7 +69061,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.54.260",
+      "latest_version": "5.09.54.263",
       "private": false,
       "versions": [
         {
@@ -96663,6 +96683,36 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/692737720",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.260/gregtech-5.09.54.260.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.261",
+          "changelog": "## What's Changed\n* Remove IC2 Casing recipes by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8624\n* Fix huge item pipe thickness by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8623\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.260...5.09.54.261\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T17:22:20+00:00",
+          "filename": "gregtech-5.09.54.261.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/692849536",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.261/gregtech-5.09.54.261.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.262",
+          "changelog": "## What's Changed\n* Fix BEC Entanglement Overflow Issue by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8335\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.261...5.09.54.262\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T19:21:49+00:00",
+          "filename": "gregtech-5.09.54.262.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/693161972",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.262/gregtech-5.09.54.262.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.263",
+          "changelog": "## What's Changed\n* Port turbine tooltips to markdown by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8615\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.262...5.09.54.263\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T20:53:16+00:00",
+          "filename": "gregtech-5.09.54.263.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/693391784",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.263/gregtech-5.09.54.263.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -120219,7 +120269,7 @@
     },
     {
       "name": "Jabba",
-      "latest_version": "1.5.23",
+      "latest_version": "1.5.24",
       "private": false,
       "versions": [
         {
@@ -120741,6 +120791,16 @@
           "filename": "JABBA-1.5.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/509461850",
           "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.23/JABBA-1.5.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.24",
+          "changelog": "## What's Changed\n* Fix for dolly placing tanks above one another without checking for liquid type by @BoringDolphin312 in https://github.com/GTNewHorizons/Jabba/pull/55\n\n## New Contributors\n* @BoringDolphin312 made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/55\n\n**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.23...1.5.24\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T18:06:19+00:00",
+          "filename": "JABBA-1.5.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/692964245",
+          "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.24/JABBA-1.5.24.jar",
           "extra_assets": []
         }
       ],
@@ -125815,7 +125875,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "3.0.40",
+      "latest_version": "3.0.42",
       "private": false,
       "versions": [
         {
@@ -129453,6 +129513,68 @@
               "filename": "lwjgl3ify-3.0.40-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/679192683",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.40/lwjgl3ify-3.0.40-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "3.0.41",
+          "changelog": "## What's Changed\n* Make borderless fullscreen work on Windows again by @zTotto in https://github.com/GTNewHorizons/lwjgl3ify/pull/382\n* Map SDL_SCANCODE_NONUSBACKSLASH to LWJGL2 key code 0x56 by @joncol in https://github.com/GTNewHorizons/lwjgl3ify/pull/389\n\n## New Contributors\n* @zTotto made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/382\n* @joncol made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/389\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.40...3.0.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T18:50:33+00:00",
+          "filename": "lwjgl3ify-3.0.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693080253",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.41/lwjgl3ify-3.0.41.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-3.0.41-curse.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693080266",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.41/lwjgl3ify-3.0.41-curse.zip"
+            },
+            {
+              "filename": "lwjgl3ify-3.0.41-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693080224",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.41/lwjgl3ify-3.0.41-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-3.0.41-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693080296",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.41/lwjgl3ify-3.0.41-multimc.zip"
+            },
+            {
+              "filename": "version.json",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693080269",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.41/version.json"
+            }
+          ]
+        },
+        {
+          "version_tag": "3.0.42",
+          "changelog": "## What's Changed\n* [Bug Fix] Fixed Xaero's Minimap `onClose` mixin failing to inject by @glektarssza in https://github.com/GTNewHorizons/lwjgl3ify/pull/367\n* fix Chinese IME support for BetterQuesting, BiblioCraft, StevesFactory, LogisticsPipes by @paulzzh in https://github.com/GTNewHorizons/lwjgl3ify/pull/385\n* Merge queued mouse motion events so button events aren't evicted by @Algent in https://github.com/GTNewHorizons/lwjgl3ify/pull/379\n\n## New Contributors\n* @glektarssza made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/367\n* @paulzzh made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/385\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/3.0.41...3.0.42\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T19:02:43+00:00",
+          "filename": "lwjgl3ify-3.0.42.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693113447",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.42/lwjgl3ify-3.0.42.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-3.0.42-curse.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693113469",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.42/lwjgl3ify-3.0.42-curse.zip"
+            },
+            {
+              "filename": "lwjgl3ify-3.0.42-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693113418",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.42/lwjgl3ify-3.0.42-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-3.0.42-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693113474",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.42/lwjgl3ify-3.0.42-multimc.zip"
+            },
+            {
+              "filename": "version.json",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/693113466",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.42/version.json"
             }
           ]
         }
@@ -139841,7 +139963,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.98",
+      "latest_version": "2.9.99",
       "private": false,
       "versions": [
         {
@@ -152383,6 +152505,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/674599137",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.98/GTNewHorizonsCoreMod-2.9.98.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.99",
+          "changelog": "## What's Changed\n* Increase planetary gas siphon casing recipe yield to eight by @Elios5014 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2016\n\n## New Contributors\n* @Elios5014 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2016\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.98...2.9.99\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T17:20:08+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.99.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/692843214",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.99/GTNewHorizonsCoreMod-2.9.99.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -160532,7 +160664,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.12.66-GTNH",
+      "latest_version": "1.12.67-GTNH",
       "private": false,
       "versions": [
         {
@@ -162253,6 +162385,16 @@
           "filename": "OpenComputers-1.12.66-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/692735159",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.66-GTNH/OpenComputers-1.12.66-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.67-GTNH",
+          "changelog": "## What's Changed\n* Fix Inventories not Marked Dirty after Change by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/234\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.66-GTNH...1.12.67-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-30T17:21:13+00:00",
+          "filename": "OpenComputers-1.12.67-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/692846351",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.67-GTNH/OpenComputers-1.12.67-GTNH.jar",
           "extra_assets": []
         }
       ],
