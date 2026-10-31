@@ -17,10 +17,22 @@ Mod is client-side only.
 ## What's Changed:
 >* latex rasterized by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/121 (1.3.55)
 
-# Updated - Realistic-World-Gen-2 - 2.0.3 --> 2.0.4
-**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.0.3...2.0.4
+# Updated - OpenComputers - 1.12.67-GTNH --> 1.12.68-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.67-GTNH...1.12.68-GTNH
+
+## What's Changed:
+>* Fix Driver for Interface Terminal Allowing Transfers to Locked Slots by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/235 (1.12.68-GTNH)
+
+# Updated - Realistic-World-Gen-2 - 2.0.3 --> 2.0.6
+**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.0.3...2.0.6
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - WitchingGadgets - 1.8.52-GTNH --> 1.8.53-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.52-GTNH...1.8.53-GTNH
+
+## What's Changed:
+>* Make spinning wheel constant accessible from outside by @sbancuz in https://github.com/GTNewHorizons/WitchingGadgets/pull/144 (1.8.53-GTNH)
+
 # Credits
-Special thanks to @ABKQPO, @mitchej123, @UltraProdigy, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @mitchej123, @sbancuz, @UltraProdigy, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
