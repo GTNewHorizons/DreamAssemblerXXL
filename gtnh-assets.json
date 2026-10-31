@@ -197170,7 +197170,7 @@
     },
     {
       "name": "WitchingGadgets",
-      "latest_version": "1.8.52-GTNH",
+      "latest_version": "1.8.53-GTNH",
       "private": false,
       "versions": [
         {
@@ -198561,6 +198561,16 @@
           "filename": "WitchingGadgets-1.8.52-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/614840168",
           "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.52-GTNH/WitchingGadgets-1.8.52-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.53-GTNH",
+          "changelog": "## What's Changed\n* Make spinning wheel constant accessible from outside by @sbancuz in https://github.com/GTNewHorizons/WitchingGadgets/pull/144\n\n## New Contributors\n* @sbancuz made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/144\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.52-GTNH...1.8.53-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-10-31T10:06:26+00:00",
+          "filename": "WitchingGadgets-1.8.53-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/695023014",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.53-GTNH/WitchingGadgets-1.8.53-GTNH.jar",
           "extra_assets": []
         }
       ],
