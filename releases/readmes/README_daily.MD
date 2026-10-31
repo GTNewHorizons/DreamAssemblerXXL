@@ -439,7 +439,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.17.36 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.7.13 |
 | [RandomBoubles](https://github.com/GTNewHorizons/RandomBoubles) | 1.1.7 |
-| [Realistic-World-Gen-2](https://github.com/GTNewHorizons/Realistic-World-Gen-2) | 2.0.4 |
+| [Realistic-World-Gen-2](https://github.com/GTNewHorizons/Realistic-World-Gen-2) | 2.0.5 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.3 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.7.11 |
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.6.6-GTNH |
@@ -500,7 +500,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.7.12 |
 | [Witchery](https://www.curseforge.com/minecraft/mc-mods/witchery) | 0.24.1 |
 | [WitcheryExtras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.4.20 |
-| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.52-GTNH |
+| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.53-GTNH |
 | [Yamcl](https://github.com/GTNewHorizons/Yamcl) | 0.7.5 |
 | [Ztones](https://www.curseforge.com/minecraft/mc-mods/ztones) | 2.2.2 |
 
