@@ -26,7 +26,7 @@ def with_error_dialog(title: DialogText, message: DialogText) -> Callable[[F], F
             except Exception as e:
                 resolved_title = title if isinstance(title, str) else title(self, *args, **kwargs)
                 resolved_message = message if isinstance(message, str) else message(self, *args, **kwargs)
-                showerror(resolved_title, resolved_message)
+                showerror(resolved_title, f"{resolved_message}\n\n{e}")
                 self.current_task_reset_callback()
                 self.global_reset_callback()
                 if not self.toggled:

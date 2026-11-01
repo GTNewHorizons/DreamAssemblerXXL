@@ -4,7 +4,7 @@ import stat
 from functools import cache
 from pathlib import Path
 from typing import Any
-from zipfile import ZipFile
+from zipfile import ZipFile, ZipInfo
 
 
 class AttributeDict(dict):
@@ -35,6 +35,16 @@ def _get_token(token_name: str, token_env: str, token_path: str) -> str:
     return os.getenv(token_env, "<unset>")
 
 
+def normalize_archive_entry_permissions(zinfo: ZipInfo) -> None:
+    """Apply canonical Unix permissions to one entry, including in ZIP worker threads."""
+    source_perm = (zinfo.external_attr >> 16) & 0o777
+    if zinfo.is_dir():
+        zinfo.external_attr = ((stat.S_IFDIR | 0o755) << 16) | 0x10
+    else:
+        perm = 0o755 if source_perm & 0o111 else 0o644
+        zinfo.external_attr = (stat.S_IFREG | perm) << 16
+
+
 async def normalize_archive_permissions(archive: ZipFile) -> None:
     """
     Normalize a ZipFile with canonical unix permissions.
@@ -45,12 +55,7 @@ async def normalize_archive_permissions(archive: ZipFile) -> None:
     :return: None
     """
     for zinfo in archive.infolist():
-        source_perm = (zinfo.external_attr >> 16) & 0o777
-        if zinfo.is_dir():
-            zinfo.external_attr = ((stat.S_IFDIR | 0o755) << 16) | 0x10
-        else:
-            perm = 0o755 if source_perm & 0o111 else 0o644
-            zinfo.external_attr = (stat.S_IFREG | perm) << 16
+        normalize_archive_entry_permissions(zinfo)
         await asyncio.sleep(0)
 
 

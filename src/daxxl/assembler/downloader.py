@@ -33,6 +33,10 @@ def ensure_cache_dir(asset: Versionable | None = None) -> Path:
 
 def get_asset_version_cache_location(asset: Versionable, version: GTNHVersion, extra_asset_suffix: str | None = None) -> Path:
     cache_dir = ensure_cache_dir(asset)
+    if extra_asset_suffix == "version.json":
+        # Every release publishes this same filename; never share it between versions.
+        filename = sanitize(f"{asset.name}-{version.version_tag}-version.json")
+        return cache_dir / sanitize(asset.versionable_type.value) / sanitize(asset.name) / filename
 
     subasset: GTNHVersion | ExtraAsset = version
     if extra_asset_suffix is not None:

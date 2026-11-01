@@ -7,7 +7,6 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
-CURSEFORGE_CACHE_DIR = CACHE_DIR / "curseforge"
 TECHNIC_CACHE_DIR = CACHE_DIR / "technic"
 CONFIG_CACHE_DIR = CACHE_DIR / "config"
 WORKING_DIR = ROOT_DIR / "working"
@@ -151,6 +150,8 @@ spawn-protection=1
 motd=GT:New Horizons {0}"""
 
 JAVA_9_ARCHIVE_SUFFIX = "Java_17-26"
+TECHNIC_JAVA_VERSION = 25
+TECHNIC_JAVA_RUNTIME = "java-runtime-epsilon"
 GTNH_DEV_CYCLE = "2.9.x"
 NHCORE_CONFIG_VERSION_ENTRY = "S:ModPackVersion="
 NHCOREMOD_WINDOW_VERSION_ENTRY = "displayedModpackVersion="
