@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-01T10:39:31.136102+00:00",
-  "config": "2.9.0-nightly-2026-10-30-3",
+  "last_updated": "2026-11-02T11:27:42.835630+00:00",
+  "config": "2.9.0-nightly-2026-11-01",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.28-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-1095-GTNH",
+      "version": "rv3-beta-1096-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -37,7 +37,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.100",
+      "version": "1.101",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -81,11 +81,11 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.9.16",
+      "version": "1.9.17",
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.42-GTNH",
+      "version": "1.13.43-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.22",
+      "version": "1.4.23",
       "side": "BOTH"
     },
     "Computronics": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.52",
+      "version": "2.10.53",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.18-GTNH",
+      "version": "0.9.19-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.17",
+      "version": "1.5.18",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.265",
+      "version": "5.09.54.270",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.11.54",
+      "version": "0.11.55",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.63",
+      "version": "1.6.65",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.13-GTNH",
+      "version": "2.10.14-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.100",
+      "version": "2.9.102",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.171-GTNH",
+      "version": "2.8.173-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.69-GTNH",
+      "version": "1.12.70-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.8-GTNH",
+      "version": "1.5.9-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.2.7",
+      "version": "1.2.8",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.140",
+      "version": "2.0.141",
       "side": "BOTH"
     },
     "Fether": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "ChromaticTooltips": {
-      "version": "1.0.36-GTNH",
+      "version": "1.0.37-GTNH",
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.3.55",
+      "version": "1.3.56",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "Realistic-World-Gen-2": {
-      "version": "2.0.6",
+      "version": "2.0.8",
       "side": "BOTH"
     }
   },

@@ -8327,20 +8327,20 @@
         "version_tag": "de_DE-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:44:36+00:00",
-        "filename": "GTNH-de_DE-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/701089197",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T09:00:01+00:00",
+        "filename": "GTNH-de_DE-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704961895",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "es_ES-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:29:11+00:00",
-        "filename": "GTNH-es_ES-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/701048612",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T08:43:24+00:00",
+        "filename": "GTNH-es_ES-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704920409",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
@@ -8357,70 +8357,70 @@
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:00:11+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/700976164",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T08:13:51+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704841772",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:09:10+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/700999456",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T08:21:57+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704864040",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pl_PL-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:53:45+00:00",
-        "filename": "GTNH-pl_PL-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/701112382",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T09:09:19+00:00",
+        "filename": "GTNH-pl_PL-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704985908",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pt_BR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:16:07+00:00",
-        "filename": "GTNH-pt_BR-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/701016645",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T08:31:29+00:00",
+        "filename": "GTNH-pt_BR-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704889988",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ru_RU-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T09:01:09+00:00",
-        "filename": "GTNH-ru_RU-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/701129858",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T09:16:22+00:00",
+        "filename": "GTNH-ru_RU-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/705002587",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "tr_TR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T08:37:03+00:00",
-        "filename": "GTNH-tr_TR-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/701068462",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T08:51:49+00:00",
+        "filename": "GTNH-tr_TR-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704942914",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       },
       {
         "version_tag": "zh_CN-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-02T07:52:45+00:00",
-        "filename": "GTNH-zh_CN-Translation-Daily-2026-11-02+509.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/700957760",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-11-02%2B509.zip",
+        "tagged_at": "2026-11-03T08:05:45+00:00",
+        "filename": "GTNH-zh_CN-Translation-Daily-2026-11-03+510.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/704818772",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-11-03%2B510.zip",
         "extra_assets": []
       }
     ],
@@ -16312,7 +16312,7 @@
     },
     {
       "name": "Angelica",
-      "latest_version": "2.2.43",
+      "latest_version": "2.2.44",
       "private": false,
       "versions": [
         {
@@ -18943,6 +18943,16 @@
           "filename": "angelica-2.2.43.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/694217677",
           "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.43/angelica-2.2.43.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.44",
+          "changelog": "## What's Changed\n* fix thaum mirror render corruption by @kurrycat2004 in https://github.com/GTNewHorizons/Angelica/pull/2324\n* Update Polish translation by @Radk6 in https://github.com/GTNewHorizons/Angelica/pull/2321\n* Fix black patches covering the world by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2325\n* Add Tracy frame images by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2326\n\n## New Contributors\n* @Radk6 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/2321\n\n**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.43...2.2.44\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-02T16:20:41+00:00",
+          "filename": "angelica-2.2.44.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Angelica/releases/assets/702374051",
+          "browser_download_url": "https://github.com/GTNewHorizons/Angelica/releases/download/2.2.44/angelica-2.2.44.jar",
           "extra_assets": []
         }
       ],
@@ -99845,7 +99855,7 @@
     },
     {
       "name": "GTNHLib",
-      "latest_version": "0.11.55",
+      "latest_version": "0.11.56",
       "private": false,
       "versions": [
         {
@@ -102866,6 +102876,16 @@
           "filename": "gtnhlib-0.11.55.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/698201936",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.55/gtnhlib-0.11.55.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.56",
+          "changelog": "## What's Changed\n* Accounting for Face Texture Rotation in Models by @Cardinalstars in https://github.com/GTNewHorizons/GTNHLib/pull/458\n\n## New Contributors\n* @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/458\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.55...0.11.56\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-02T12:01:46+00:00",
+          "filename": "gtnhlib-0.11.56.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/701614336",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.56/gtnhlib-0.11.56.jar",
           "extra_assets": []
         }
       ],
@@ -140283,7 +140303,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.9.102",
+      "latest_version": "2.9.103",
       "private": false,
       "versions": [
         {
@@ -152864,6 +152884,16 @@
           "filename": "GTNewHorizonsCoreMod-2.9.102.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/701090467",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.102/GTNewHorizonsCoreMod-2.9.102.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.103",
+          "changelog": "## What's Changed\n* Allow all HV circuits when crafting Data Orb by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2020\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.102...2.9.103\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-02T12:02:00+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.103.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/701614981",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.103/GTNewHorizonsCoreMod-2.9.103.jar",
           "extra_assets": []
         }
       ],
@@ -199100,6 +199130,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 813,
-  "latest_successful_daily": 813
+  "latest_daily": 814,
+  "latest_successful_daily": 814
 }

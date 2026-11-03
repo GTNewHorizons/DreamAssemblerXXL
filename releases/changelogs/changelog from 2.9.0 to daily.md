@@ -4,6 +4,16 @@
 ## What's Changed:
 >* Fix AEFluidInterfaceHandler to correctly work with Fluid P2P and Dual Interface by @rieverholic in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/477 (1.5.117-gtnh)
 
+# Updated - Angelica - 2.2.43 --> 2.2.44
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/2.2.43...2.2.44
+
+## What's Changed:
+>* fix thaum mirror render corruption by @kurrycat2004 in https://github.com/GTNewHorizons/Angelica/pull/2324 (2.2.44)
+>* Update Polish translation by @Radk6 in https://github.com/GTNewHorizons/Angelica/pull/2321 (2.2.44)
+>* Fix black patches covering the world by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2325 (2.2.44)
+>* Add Tracy frame images by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2326 (2.2.44)
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-1095-GTNH --> rv3-beta-1096-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1095-GTNH...rv3-beta-1096-GTNH
 
@@ -71,10 +81,11 @@ Mod is client-side only.
 >* New particles and recipe changes for LHC by @fehling135 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7720 (5.09.54.267)
 >* Reserve a singleblock ID for variable horizons by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8628 (5.09.54.266)
 
-# Updated - GTNHLib - 0.11.54 --> 0.11.55
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.11.55
+# Updated - GTNHLib - 0.11.54 --> 0.11.56
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.11.56
 
 ## What's Changed:
+>* Accounting for Face Texture Rotation in Models by @Cardinalstars in https://github.com/GTNewHorizons/GTNHLib/pull/458 (0.11.56)
 >* Add `ChatComponentBlockName` by @Discreater in https://github.com/GTNewHorizons/GTNHLib/pull/488 (0.11.55)
 
 # Updated - Gadomancy - 1.5.17 --> 1.5.18
@@ -122,10 +133,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix Sound muffing when copying GT blocks by @tomasz-brak in https://github.com/GTNewHorizons/MatterManipulator/pull/120 (0.1.76-GTNH)
 
-# Updated - NewHorizonsCoreMod - 2.9.99 --> 2.9.102
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.99...2.9.102
+# Updated - NewHorizonsCoreMod - 2.9.99 --> 2.9.103
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.99...2.9.103
 
 ## What's Changed:
+>* Allow all HV circuits when crafting Data Orb by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2020 (2.9.103)
 >* [IC2 Deprecated] Removed IC2 plutonium by @hussain-najeb in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2015 (2.9.102)
 >* [IC2 Deprecation] Replace IC2 Industrial Credits with GT Copper Credits by @hussain-najeb in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2009 (2.9.102)
 >* Update GT5-Unofficial dependency version by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2019 (2.9.101)
@@ -176,4 +188,4 @@ Mod is client-side only.
 >* Translate chat messages on the client instead of the server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WarpTheory/pull/52 (1.5.9-GTNH)
 
 # Credits
-Special thanks to @abdelhadi703, @ABKQPO, @Algent, @Armisael5, @C0bra5, @DarkShadow44, @Discreater, @Dream-Master, @Eldrinn-Elantey, @fehling135, @GDCloudstrike, @ham-corp, @hussain-najeb, @hxync, @koolkrafter5, @Nikolay-Sitnikov, @OneEyeMaker, @Ranzuu, @RecursivePineapple, @rieverholic, @Sanduhr32, @ShinySilver, @shironakoushi, @slprime, @tomasz-brak, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @abdelhadi703, @ABKQPO, @Ableytner, @Algent, @Armisael5, @C0bra5, @Cardinalstars, @DarkShadow44, @Discreater, @Dream-Master, @Eldrinn-Elantey, @fehling135, @GDCloudstrike, @ham-corp, @hussain-najeb, @hxync, @koolkrafter5, @kurrycat2004, @mitchej123, @Nikolay-Sitnikov, @OneEyeMaker, @Radk6, @Ranzuu, @RecursivePineapple, @rieverholic, @Sanduhr32, @ShinySilver, @shironakoushi, @slprime, @tomasz-brak, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
