@@ -851,6 +851,10 @@
     "Realistic-World-Gen-2": {
       "version": "2.0.8",
       "side": "BOTH"
+    },
+    "Dashboard": {
+      "version": "1.0.15",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
