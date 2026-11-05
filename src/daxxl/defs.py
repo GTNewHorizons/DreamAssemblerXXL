@@ -152,7 +152,7 @@ motd=GT:New Horizons {0}"""
 JAVA_9_ARCHIVE_SUFFIX = "Java_17-26"
 TECHNIC_JAVA_VERSION = 25
 TECHNIC_JAVA_RUNTIME = "java-runtime-epsilon"
-GTNH_DEV_CYCLE = "2.9.x"
+GTNH_DEV_CYCLE = "2.10.x"
 NHCORE_CONFIG_VERSION_ENTRY = "S:ModPackVersion="
 NHCOREMOD_WINDOW_VERSION_ENTRY = "displayedModpackVersion="
 LWJGL3IFY_SHARED_CONTEXT_ENTRY = "B:sharedContext="
