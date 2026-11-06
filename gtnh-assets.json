@@ -141794,7 +141794,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.10.2",
+      "latest_version": "2.10.3",
       "private": false,
       "versions": [
         {
@@ -154415,6 +154415,16 @@
           "filename": "GTNewHorizonsCoreMod-2.10.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/717835348",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.10.2/GTNewHorizonsCoreMod-2.10.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.3",
+          "changelog": "## What's Changed\n* Fix call NEI in server by @slprime in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2026\n\n## New Contributors\n* @slprime made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2026\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.10.2...2.10.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-06T20:07:43+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.10.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/718405262",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.10.3/GTNewHorizonsCoreMod-2.10.3.jar",
           "extra_assets": []
         }
       ],
@@ -201471,6 +201481,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 815,
-  "latest_successful_daily": 815
+  "latest_daily": 820,
+  "latest_successful_daily": 820
 }
