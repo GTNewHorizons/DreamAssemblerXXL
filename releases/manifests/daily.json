@@ -831,6 +831,10 @@
     "Applied-Energistics-2-NH": {
       "version": "1.0.1",
       "side": "BOTH"
+    },
+    "Dashboard": {
+      "version": "1.0.15",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
