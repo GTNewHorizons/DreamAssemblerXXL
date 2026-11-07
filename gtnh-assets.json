@@ -19615,7 +19615,7 @@
     },
     {
       "name": "Applied-Energistics-2-NH",
-      "latest_version": "1.0.0",
+      "latest_version": "1.0.1",
       "private": false,
       "versions": [
         {
@@ -19626,6 +19626,16 @@
           "filename": "appliedenergistics2-1.0.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/717732170",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.0/appliedenergistics2-1.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.1",
+          "changelog": "## What's Changed\n* Show vis interface links in the Network Visualization Tool by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/14\n* fix cell restriction types being greater than cell type limits (#1727) by @Sanduhr32 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/17\n* Fix Ctrl+scroll on NEI bookmarks in Interface Terminal by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/16\n* Replace javax/JetBrains nullability annotations with JSpecify by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/18\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/14\n* @Sanduhr32 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/17\n* @slprime made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.0...1.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-07T09:35:16+00:00",
+          "filename": "appliedenergistics2-1.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/720245687",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.1/appliedenergistics2-1.0.1.jar",
           "extra_assets": []
         }
       ],
@@ -66007,7 +66017,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.145-GTNH",
+      "latest_version": "1.1.146-GTNH",
       "private": true,
       "versions": [
         {
@@ -66750,6 +66760,16 @@
           "filename": "GalaxySpace-1.1.145-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/718161419",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.145-GTNH/GalaxySpace-1.1.145-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.146-GTNH",
+          "changelog": "## What's Changed\n* Revert \"Make Minor Version Bumps Legal (#161)\" by @UltraProdigy in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/162\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.145-GTNH...1.1.146-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-07T09:35:22+00:00",
+          "filename": "GalaxySpace-1.1.146-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/720245943",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.146-GTNH/GalaxySpace-1.1.146-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -155848,7 +155868,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.9.1-GTNH",
+      "latest_version": "2.9.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -160960,6 +160980,16 @@
           "filename": "NotEnoughItems-2.9.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/714857619",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.9.1-GTNH/NotEnoughItems-2.9.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.2-GTNH",
+          "changelog": "## What's Changed\n* Rollback fluent setters in PositionedStack added in #1106 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1110\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.9.1-GTNH...2.9.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-06T20:28:52+00:00",
+          "filename": "NotEnoughItems-2.9.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/718459928",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.9.2-GTNH/NotEnoughItems-2.9.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -201501,6 +201531,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 820,
-  "latest_successful_daily": 820
+  "latest_daily": 822,
+  "latest_successful_daily": 822
 }

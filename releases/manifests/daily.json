@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-06T20:10:46.924784+00:00",
+  "last_updated": "2026-11-07T10:28:34.383183+00:00",
   "config": "2.10.0-nightly-2026-11-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.145-GTNH",
+      "version": "1.1.146-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -329,7 +329,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.1-GTNH",
+      "version": "2.9.2-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -829,7 +829,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-NH": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "side": "BOTH"
     },
     "Dashboard": {

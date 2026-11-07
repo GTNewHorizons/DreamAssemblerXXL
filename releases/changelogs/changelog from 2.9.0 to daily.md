@@ -57,10 +57,14 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - Applied-Energistics-2-NH:1.0.0
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/commits/1.0.0/compare/1.0.0...1.0.0
+# New Mod - Applied-Energistics-2-NH:1.0.1
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.0...1.0.1
 
 ## What's Changed:
+>* Show vis interface links in the Network Visualization Tool by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/14 (1.0.1)
+>* fix cell restriction types being greater than cell type limits (#1727) by @Sanduhr32 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/17 (1.0.1)
+>* Fix Ctrl+scroll on NEI bookmarks in Interface Terminal by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/16 (1.0.1)
+>* Replace javax/JetBrains nullability annotations with JSpecify by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/18 (1.0.1)
 >* Update readme and outdated files by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/4 (1.0.0)
 >* Update project name by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/6 (1.0.0)
 >* Merge AE2FluidCraft-Rework by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/7 (1.0.0)
@@ -548,10 +552,11 @@ Mod is client-side only.
 ## What's Changed:
 >* reduce player model rendering overhead by @Pxx500 in https://github.com/GTNewHorizons/Galacticraft/pull/153 (3.5.0-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.144-GTNH --> 1.1.145-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.144-GTNH...1.1.145-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.144-GTNH --> 1.1.146-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.144-GTNH...1.1.146-GTNH
 
 ## What's Changed:
+>* Revert "Make Minor Version Bumps Legal (#161)" by @UltraProdigy in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/162 (1.1.146-GTNH)
 >* Make Minor Version Bumps Legal by @UltraProdigy in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/161 (1.1.145-GTNH)
 
 # Updated - Gravitation-Suite-Neo - 1.3.16 --> 1.4.0
@@ -834,10 +839,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Revert BM Dep by @UltraProdigy in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/14 (1.4.0-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/15 (1.4.0-GTNH)
 
-# Updated - NotEnoughItems - 2.8.171-GTNH --> 2.9.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.171-GTNH...2.9.1-GTNH
+# Updated - NotEnoughItems - 2.8.171-GTNH --> 2.9.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.171-GTNH...2.9.2-GTNH
 
 ## What's Changed:
+>* Rollback fluent setters in PositionedStack added in #1106 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1110 (2.9.2-GTNH)
 >* Fix NPE in StackInfo.getItemStackWithMinimumDamage for unregistered items by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1109 (2.9.1-GTNH)
 >* Remove per-world config override by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1094 (2.9.0-GTNH)
 >* Fix ConcurrentModificationException when iterating the crafting recipe list by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1103 (2.9.0-GTNH)
