@@ -51825,6 +51825,26 @@
       "side": "BOTH"
     },
     {
+      "name": "Dashboard",
+      "latest_version": "1.0.15",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.0.15",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Dashboard/compare/1.0.14...1.0.15\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-04T09:56:53+00:00",
+          "filename": "dashboard-1.0.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Dashboard/releases/assets/709033461",
+          "browser_download_url": "https://github.com/GTNewHorizons/Dashboard/releases/download/1.0.15/dashboard-1.0.15.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/Dashboard",
+      "side": "CLIENT"
+    },
+    {
       "name": "Default-Configs",
       "latest_version": "1.4.0",
       "private": false,
