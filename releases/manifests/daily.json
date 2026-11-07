@@ -835,6 +835,10 @@
     "Dashboard": {
       "version": "1.0.15",
       "side": "CLIENT"
+    },
+    "TaskNH": {
+      "version": "0.15.1",
+      "side": "BOTH"
     }
   },
   "external_mods": {
