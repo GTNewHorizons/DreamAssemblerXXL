@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-11-07
+Version daily is out 2026-11-08
 
 ## What is GT New Horizons?
 
@@ -267,7 +267,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.4.0-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.5.0 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.9.0 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.44 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.45 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.1.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.4.0 |
 | [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.1 |
@@ -324,13 +324,14 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [CropsNH](https://github.com/GTNewHorizons/CropsNH) | 2.1.0 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.15.0 |
 | [Darkerer](https://github.com/GTNewHorizons/Darkerer) | 1.2.0 |
+| [Dashboard](https://github.com/GTNewHorizons/Dashboard) | 1.0.19 |
 | [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.4.0 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.8.0 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.6.0 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.6.0-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.22.0 |
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.5.0 |
-| [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.8.0 |
+| [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.8.1 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.6.0 |
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.11.0 |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.9.0 |
@@ -349,7 +350,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.12.0 |
 | [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 2.1.0-GTNH |
 | [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.8.0 |
-| [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.4.0 |
+| [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.4.1 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.3.0 |
 | [Freecam](https://github.com/GTNewHorizons/Freecam) | 1.1.0 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.6.0 |
@@ -383,7 +384,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [IronChestMinecarts](https://github.com/GTNewHorizons/IronChestMinecarts) | 1.3.0 |
 | [IronTankMinecarts](https://github.com/GTNewHorizons/IronTankMinecarts) | 1.1.0 |
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.5.0 |
-| [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.6.0 |
+| [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.6.1 |
 | [JarJar](https://github.com/GTNewHorizons/JarJar) | 0.4.0-beta |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.23-fairplay |
@@ -412,7 +413,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.6.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.19.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.5.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.10.3 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.10.4 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.4.0-GTNH |
 | [NoHotbarNeeded](https://github.com/GTNewHorizons/NoHotbarNeeded) | 0.1.0 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.9.2-GTNH |
@@ -448,7 +449,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.2.0 |
 | [SimpleSkinBackport](https://github.com/GTNewHorizons/SimpleSkinBackport) | 1.1.0-GTNH |
 | [SleepingBags](https://github.com/GTNewHorizons/SleepingBags) | 0.4.0 |
-| [SpecialMobs](https://github.com/GTNewHorizons/SpecialMobs) | 3.8.0 |
+| [SpecialMobs](https://github.com/GTNewHorizons/SpecialMobs) | 3.8.1 |
 | [SpiceOfLife](https://github.com/GTNewHorizons/SpiceOfLife) | 2.3.0-carrot |
 | [Steve-s-Factory-Manager](https://github.com/GTNewHorizons/Steve-s-Factory-Manager) | 1.4.0-GTNH |
 | [StevesAddons](https://github.com/GTNewHorizons/StevesAddons) | 0.16.0 |
@@ -458,6 +459,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.6.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.2.0 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.8.0-GTNH |
+| [TaskNH](https://github.com/GTNewHorizons/TaskNH) | 0.15.1 |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.48 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.5.0 |
 | [thaumcraft-research-tweaks](https://github.com/GTNewHorizons/thaumcraft-research-tweaks) | 1.5.0 |
@@ -475,7 +477,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.34 |
 | [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.15.0-GTNH |
 | [TinkersMechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.5.0 |
-| [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.4.0-GTNH |
+| [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.5.0-GTNH |
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.3.0 |
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.5.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.8.0 |

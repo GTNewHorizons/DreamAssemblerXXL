@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-07T09:44:28.539422+00:00",
+  "last_updated": "2026-11-07T10:28:34.383183+00:00",
   "config": "2.10.0-nightly-2026-11-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -830,6 +830,14 @@
     },
     "Applied-Energistics-2-NH": {
       "version": "1.0.1",
+      "side": "BOTH"
+    },
+    "Dashboard": {
+      "version": "1.0.15",
+      "side": "CLIENT"
+    },
+    "TaskNH": {
+      "version": "0.15.1",
       "side": "BOTH"
     }
   },
