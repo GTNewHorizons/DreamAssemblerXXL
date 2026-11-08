@@ -839,6 +839,10 @@
     "TaskNH": {
       "version": "0.15.1",
       "side": "BOTH"
+    },
+    "PlanNH": {
+      "version": "0.2.3",
+      "side": "CLIENT"
     }
   },
   "external_mods": {

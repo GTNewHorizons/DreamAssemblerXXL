@@ -165890,6 +165890,26 @@
       "side": "BOTH"
     },
     {
+      "name": "PlanNH",
+      "latest_version": "0.2.3",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "0.2.3",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/PlanNH/compare/0.2.2...0.2.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T13:37:50+00:00",
+          "filename": "plannh-0.2.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PlanNH/releases/assets/724047041",
+          "browser_download_url": "https://github.com/GTNewHorizons/PlanNH/releases/download/0.2.3/plannh-0.2.3.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/PlanNH",
+      "side": "CLIENT"
+    },
+    {
       "name": "Player-API",
       "latest_version": "1.6.0",
       "private": false,
