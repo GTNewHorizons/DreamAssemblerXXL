@@ -50145,7 +50145,7 @@
     },
     {
       "name": "CropsNH",
-      "latest_version": "2.1.0",
+      "latest_version": "2.1.1",
       "private": false,
       "versions": [
         {
@@ -51577,6 +51577,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/710311073",
           "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.1.0/cropsnh-2.1.0.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.1",
+          "changelog": "## What's Changed\n* Add Basic prefix to the lowest tier Crop Gene Extractor and Crop Synthesizer by @shironakoushi in https://github.com/GTNewHorizons/CropsNH/pull/304\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.141...2.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T18:33:03+00:00",
+          "filename": "cropsnh-2.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/724829796",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.1.1/cropsnh-2.1.1.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -51836,7 +51846,7 @@
     },
     {
       "name": "Dashboard",
-      "latest_version": "1.0.19",
+      "latest_version": "1.0.20",
       "private": false,
       "versions": [
         {
@@ -51887,6 +51897,16 @@
           "filename": "dashboard-1.0.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Dashboard/releases/assets/723659120",
           "browser_download_url": "https://github.com/GTNewHorizons/Dashboard/releases/download/1.0.19/dashboard-1.0.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.20",
+          "changelog": "## What's Changed\n* Add TaskNH, Akashic Tome and LootGames element names by @Ranzuu in https://github.com/GTNewHorizons/Dashboard/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Dashboard/compare/1.0.19...1.0.20\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T15:41:23+00:00",
+          "filename": "dashboard-1.0.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Dashboard/releases/assets/724378875",
+          "browser_download_url": "https://github.com/GTNewHorizons/Dashboard/releases/download/1.0.20/dashboard-1.0.20.jar",
           "extra_assets": []
         }
       ],
@@ -70281,7 +70301,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.55.2",
+      "latest_version": "5.09.55.3",
       "private": false,
       "versions": [
         {
@@ -98033,6 +98053,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/717927557",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.2/gregtech-5.09.55.2.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.55.3",
+          "changelog": "## What's Changed\n* Port processing and mining multiblock tooltips to markdown by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8666\n* [MUI2] Ported MTEQuantumComputer by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8516\n* Make maintenance info of multiblock localizable. by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8671\n* [MUI2] Minor MTEFrothFlotationCell GUI Improvements by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8479\n* [MUI2] Ported MTENetworkSwitchAdv by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8515\n* Fix the super/quantum chest tooltip having a visible newline character by @ZnxTech in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8663\n\n## New Contributors\n* @ZnxTech made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8663\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.55.2...5.09.55.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T18:33:42+00:00",
+          "filename": "gregtech-5.09.55.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/724831395",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.3/gregtech-5.09.55.3.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -124810,7 +124840,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.7.0",
+      "latest_version": "1.7.1",
       "private": false,
       "versions": [
         {
@@ -125753,6 +125783,16 @@
           "filename": "littletiles-1.7.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/710352905",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.7.0/littletiles-1.7.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.1",
+          "changelog": "## What's Changed\n* Add optional sweeping tests by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/195\n* Cleanup: Remove dead code, plan already rejects if it can't place by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/199\n* Make sure plans always can be applied by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/201\n* Add little bag recipe & capacity logic by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/198\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.64...1.7.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T18:32:53+00:00",
+          "filename": "littletiles-1.7.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/724829329",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.7.1/littletiles-1.7.1.jar",
           "extra_assets": []
         }
       ],
@@ -155958,7 +155998,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.9.2-GTNH",
+      "latest_version": "2.9.3-GTNH",
       "private": false,
       "versions": [
         {
@@ -161080,6 +161120,16 @@
           "filename": "NotEnoughItems-2.9.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/718459928",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.9.2-GTNH/NotEnoughItems-2.9.2-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.3-GTNH",
+          "changelog": "## What's Changed\n* Add API.addCollapsibleGroup for registering collapsible item groups by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1113\n* Make name optional in API.addCollapsibleGroup by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1114\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.9.2-GTNH...2.9.3-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T18:32:55+00:00",
+          "filename": "NotEnoughItems-2.9.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/724829453",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.9.3-GTNH/NotEnoughItems-2.9.3-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -169427,7 +169477,7 @@
     },
     {
       "name": "Realistic-World-Gen-2",
-      "latest_version": "2.1.0",
+      "latest_version": "2.1.1",
       "private": false,
       "versions": [
         {
@@ -169528,6 +169578,16 @@
           "filename": "rwg2-2.1.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/710393958",
           "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.1.0/rwg2-2.1.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.1",
+          "changelog": "## What's Changed\n* Fix lava cave vent and DecoBigTree issues by @Algent in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/14\n* feat: add optional climate bands by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/20\n* Add per-continent Tainted Land placement by @Algent in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/21\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.1.0...2.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-08T18:32:43+00:00",
+          "filename": "rwg2-2.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/724828938",
+          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.1.1/rwg2-2.1.1.jar",
           "extra_assets": []
         }
       ],
@@ -201661,6 +201721,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 823,
-  "latest_successful_daily": 823
+  "latest_daily": 824,
+  "latest_successful_daily": 824
 }
