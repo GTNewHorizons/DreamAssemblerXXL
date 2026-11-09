@@ -257,10 +257,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* remove logs from unused compat in NH by @boubou19 in https://github.com/GTNewHorizons/Catwalks-2/pull/19 (2.5.0-GTNH)
 
-# Updated - Chisel - 2.17.34-GTNH --> 2.18.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.34-GTNH...2.18.0-GTNH
+# Updated - Chisel - 2.17.34-GTNH --> 2.18.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.34-GTNH...2.18.1-GTNH
 
 ## What's Changed:
+>* Little Tiles support by @DarkShadow44 in https://github.com/GTNewHorizons/Chisel/pull/107 (2.18.1-GTNH)
 >* Fix Matter Manipulator copying chiseled glowstone by @DreamYao520 in https://github.com/GTNewHorizons/Chisel/pull/106 (2.18.0-GTNH)
 
 # Updated - ChiselTones - 1.2.0-GTNH --> 1.3.0-GTNH

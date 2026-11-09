@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-11-08
+Version daily is out 2026-11-09
 
 ## What is GT New Horizons?
 
@@ -306,7 +306,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.2.0 |
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.8.0-GTNH |
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.5.0-GTNH |
-| [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.18.0-GTNH |
+| [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.18.1-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.3.0-GTNH |
 | [ChromaticTooltips](https://github.com/GTNewHorizons/ChromaticTooltips) | 1.1.0-GTNH |
 | [ChromaticTooltipsCompat](https://github.com/GTNewHorizons/ChromaticTooltipsCompat) | 1.1.1-GTNH |
