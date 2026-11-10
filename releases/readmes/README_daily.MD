@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-11-09
+Version daily is out 2026-11-10
 
 ## What is GT New Horizons?
 
@@ -388,7 +388,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [JarJar](https://github.com/GTNewHorizons/JarJar) | 0.4.0-beta |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.23-fairplay |
-| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.7.1 |
+| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.7.2 |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.6.1-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.3.0 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.3.0-GTNH |

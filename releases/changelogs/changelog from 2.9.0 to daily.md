@@ -710,10 +710,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Ensure API owners are added to the classpath before mods that repackage other mods APIs by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/27 (0.4.0-beta)
 
-# Updated - LittleTiles - 1.6.63 --> 1.7.1
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.1
+# Updated - LittleTiles - 1.6.63 --> 1.7.2
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.2
 
 ## What's Changed:
+>* Breaking/picking a block of tiles at once by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/205 (1.7.2)
+>* Add concave inner/outer slopes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/217 (1.7.2)
+>* Fix a few duplication issues by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/204 (1.7.2)
+>* Allow dumping boxes too by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/211 (1.7.2)
+>* Add support for Chisel connected texture by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/197 (1.7.2)
 >* Add optional sweeping tests by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/195 (1.7.1)
 >* Cleanup: Remove dead code, plan already rejects if it can't place by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/199 (1.7.1)
 >* Make sure plans always can be applied by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/201 (1.7.1)
