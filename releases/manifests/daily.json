@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-10T11:26:10.637852+00:00",
-  "config": "2.10.0-nightly-2026-11-06",
+  "last_updated": "2026-11-11T11:14:00.902933+00:00",
+  "config": "2.10.0-nightly-2026-11-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.5.0-GTNH",
@@ -53,7 +53,7 @@
       "side": "CLIENT"
     },
     "BetterQuesting": {
-      "version": "3.9.0-GTNH",
+      "version": "3.9.1-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.2.0",
+      "version": "7.2.1",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -129,11 +129,11 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.6.0-GTNH",
+      "version": "1.6.1-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.8.1",
+      "version": "1.8.2",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.3",
+      "version": "5.09.55.5",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -205,11 +205,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.12.0",
+      "version": "0.12.1",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.14.0-GTNH",
+      "version": "1.14.1-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.7.2",
+      "version": "1.7.8",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -329,7 +329,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.3-GTNH",
+      "version": "2.9.4-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -345,11 +345,11 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.13.0-GTNH",
+      "version": "1.13.1-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.13.0-GTNH",
+      "version": "1.13.1-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -481,7 +481,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.13.0",
+      "version": "2.13.1",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.2.0-GTNH",
+      "version": "0.2.1-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -733,11 +733,11 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.5.0",
+      "version": "0.5.1",
       "side": "BOTH"
     },
     "Freecam": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "side": "BOTH"
     },
     "MouseTweaks": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.5.0",
+      "version": "2.5.1",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Dashboard": {
-      "version": "1.0.20",
+      "version": "1.0.21",
       "side": "CLIENT"
     },
     "TaskNH": {
