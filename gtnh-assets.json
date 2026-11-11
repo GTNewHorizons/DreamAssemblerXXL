@@ -183020,6 +183020,36 @@
       "side": "NONE"
     },
     {
+      "name": "Tempora",
+      "latest_version": "1.0.1",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.0.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Tempora/commits/1.0.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-09T20:06:53+00:00",
+          "filename": "tempora-1.0.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Tempora/releases/assets/728806244",
+          "browser_download_url": "https://github.com/GTNewHorizons/Tempora/releases/download/1.0.0/tempora-1.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Tempora/compare/1.0.0...1.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-10T20:48:22+00:00",
+          "filename": "tempora-1.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Tempora/releases/assets/732896498",
+          "browser_download_url": "https://github.com/GTNewHorizons/Tempora/releases/download/1.0.1/tempora-1.0.1.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/Tempora",
+      "side": "BOTH"
+    },
+    {
       "name": "Thaumcraft",
       "latest_version": "4.2.3.5",
       "needs_attention": false,
