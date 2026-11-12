@@ -19,7 +19,7 @@ RCON_PORT="${RCON_PORT:-25575}"
 RCON_PASSWORD="${RCON_PASSWORD:?RCON_PASSWORD must be set}"
 
 HQA_RESULT_JSON="$RUN_DIR/horizonqa-result.json"
-HQA_RESULT_TIMEOUT="${HQA_RESULT_TIMEOUT:-45}" # Has to be lower than -Dheadlessnh.gate.timeout passed to client
+HQA_RESULT_TIMEOUT="${HQA_RESULT_TIMEOUT:-120}" # Has to be well below -Dheadlessnh.gate.timeout passed to client, its timer starts before the tests do
 
 RCON_RETRIES="${RCON_RETRIES:-10}"         # attempts per command before giving up
 

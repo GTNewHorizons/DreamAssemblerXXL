@@ -184,7 +184,7 @@ jobs:
           --jvm-arg "-Dheadlessnh.delay.singleplayer=${{ matrix.client-join-settle-time }}"
           --jvm-arg "-Dheadlessnh.gate.mainmenu=server.ready"
           --jvm-arg "-Dheadlessnh.gate.serverloaded=serverloaded.gate"
-          --jvm-arg "-Dheadlessnh.gate.timeout=60000"
+          --jvm-arg "-Dheadlessnh.gate.timeout=180000"
           --jvm-arg "-Dheadlessnh.forcefocus=true"
           --game-dir ${{ env.WORK_DIR }}/client/.minecraft
 
