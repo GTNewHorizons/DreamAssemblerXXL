@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # don't forget to accept the EULA or it won't boot
 # add this argument behind the other "-Dfml..." to silently migrate your world during startup, a backup will be created: -Dfml.queryResult=confirm
