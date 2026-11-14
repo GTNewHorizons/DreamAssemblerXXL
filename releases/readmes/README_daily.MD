@@ -270,7 +270,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.46 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.1.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.4.0 |
-| [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.1 |
+| [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.2 |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.8.2 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.13.0 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.8.0 |
@@ -360,11 +360,11 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.4.0 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.1.0 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.55.13 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.55.14 |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.5.0 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.5.0 |
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.1.0 |
-| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.12.3 |
+| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.12.4 |
 | [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.4.4 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.14.1-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.4.0-GTNH |
@@ -388,12 +388,12 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [JarJar](https://github.com/GTNewHorizons/JarJar) | 0.4.0-beta |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.23-fairplay |
-| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.7.12 |
+| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.7.13 |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.6.1-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.3.0 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.3.0-GTNH |
 | [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 3.1.0 |
-| [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.11.0-GTNH |
+| [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.11.1-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.20.0-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.6.0 |
 | [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.2.2-GTNH |

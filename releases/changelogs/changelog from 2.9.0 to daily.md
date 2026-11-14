@@ -74,10 +74,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - Applied-Energistics-2-NH:1.0.1
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.0...1.0.1
+# New Mod - Applied-Energistics-2-NH:1.0.2
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.0...1.0.2
 
 ## What's Changed:
+>* Add Shift+Left Click swapping for ME cables by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/33 (1.0.2)
 >* Show vis interface links in the Network Visualization Tool by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/14 (1.0.1)
 >* fix cell restriction types being greater than cell type limits (#1727) by @Sanduhr32 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/17 (1.0.1)
 >* Fix Ctrl+scroll on NEI bookmarks in Interface Terminal by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/16 (1.0.1)
@@ -544,10 +545,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix(mixins): use ModifyExpressionValue for fullbright gamma by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/23 (1.1.0)
 >* fix(camera): Disable movement if game is paused by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/24 (1.1.0)
 
-# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.55.13
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.55.13
+# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.55.14
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.55.14
 
 ## What's Changed:
+>* reduce conveyor allocation overhead and enforce inventory capacity by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8699 (5.09.55.14)
 >* Make Zyngen tooltip accurate by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8725 (5.09.55.13)
 >* Fix: block-update on redstone updates to strongly-powered casing neighbors by @mgomezch in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8729 (5.09.55.12)
 >* Fixes two crashes with toolbox with unusual data by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8681 (5.09.55.12)
@@ -622,10 +624,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Delegate JVM to the child class loader by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/9 (1.1.0)
 
-# Updated - GTNHLib - 0.11.54 --> 0.12.3
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.12.3
+# Updated - GTNHLib - 0.11.54 --> 0.12.4
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.12.4
 
 ## What's Changed:
+>* avoid item transfer work for full inventories by @Pxx500 in https://github.com/GTNewHorizons/GTNHLib/pull/506 (0.12.4)
 >* Fix resource pack updater reading the real modpack version by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/501 (0.12.3)
 >* Fix slash prefixed brigadier commands on Thermos by @Algent in https://github.com/GTNewHorizons/GTNHLib/pull/507 (0.12.3)
 >* Fix inverted (==) meta comparison in GENERIC_ITEM_META_NBT_STRATEGY by @fluffle in https://github.com/GTNewHorizons/GTNHLib/pull/504 (0.12.2)
@@ -782,10 +785,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Ensure API owners are added to the classpath before mods that repackage other mods APIs by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/27 (0.4.0-beta)
 
-# Updated - LittleTiles - 1.6.63 --> 1.7.12
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.12
+# Updated - LittleTiles - 1.6.63 --> 1.7.13
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.13
 
 ## What's Changed:
+>* Fix shift placement for single tiles by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/242 (1.7.13)
+>* Fix ray selection rounding error by snapping into grid by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/240 (1.7.13)
 >* Stencil improvements by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/241 (1.7.12)
 >* Handle "turn into box" and shrink also when splitting tile by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/239 (1.7.12)
 >* Fix recipe preview allocating too much by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/236 (1.7.11)
@@ -840,10 +845,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - MagicBees - 2.10.13-GTNH --> 2.11.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.13-GTNH...2.11.0-GTNH
+# Updated - MagicBees - 2.10.13-GTNH --> 2.11.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.13-GTNH...2.11.1-GTNH
 
 ## What's Changed:
+>* Protect some calls that lead to loadChunk with blockExists by @Georggi in https://github.com/GTNewHorizons/MagicBees/pull/53 (2.11.1-GTNH)
 >* Fix apiary crash by @Armisael5 in https://github.com/GTNewHorizons/MagicBees/pull/70 (2.11.0-GTNH)
 >* Fix apiary crash by @Armisael5 in https://github.com/GTNewHorizons/MagicBees/pull/70 (2.10.14-GTNH)
 
