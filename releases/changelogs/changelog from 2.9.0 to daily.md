@@ -545,10 +545,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix(mixins): use ModifyExpressionValue for fullbright gamma by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/23 (1.1.0)
 >* fix(camera): Disable movement if game is paused by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/24 (1.1.0)
 
-# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.55.14
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.55.14
+# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.55.15
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.55.15
 
 ## What's Changed:
+>* remove eig mode system by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8674 (5.09.55.15)
 >* reduce conveyor allocation overhead and enforce inventory capacity by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8699 (5.09.55.14)
 >* Make Zyngen tooltip accurate by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8725 (5.09.55.13)
 >* Fix: block-update on redstone updates to strongly-powered casing neighbors by @mgomezch in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8729 (5.09.55.12)
@@ -785,10 +786,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Ensure API owners are added to the classpath before mods that repackage other mods APIs by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/27 (0.4.0-beta)
 
-# Updated - LittleTiles - 1.6.63 --> 1.7.13
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.13
+# Updated - LittleTiles - 1.6.63 --> 1.7.14
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.14
 
 ## What's Changed:
+>* Add modes/alignment to tiles/recipe as well by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/243 (1.7.14)
+>* Performance optimizations for antimeshes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/244 (1.7.14)
 >* Fix shift placement for single tiles by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/242 (1.7.13)
 >* Fix ray selection rounding error by snapping into grid by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/240 (1.7.13)
 >* Stencil improvements by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/241 (1.7.12)
