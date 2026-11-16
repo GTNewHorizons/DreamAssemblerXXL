@@ -270,7 +270,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.46 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.1.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.4.0 |
-| [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.3 |
+| [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.4 |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.8.2 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.13.0 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.8.0 |
@@ -287,6 +287,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [BetterBuildersWands](https://github.com/GTNewHorizons/BetterBuildersWands) | 0.14.0-GTNH |
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.5.0-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.8.0-GTNH |
+| [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.5.0 |
 | [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.9.2-GTNH |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
@@ -338,7 +339,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.4.0 |
 | [EndlessIDs](https://www.curseforge.com/minecraft/mc-mods/endlessids/) | 1.7.4 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.4.0 |
-| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.7.1-GTNH |
+| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.7.2-GTNH |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.5.0 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
 | [Extreme Sound Muffler](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler-legacy) | 1.1.1 |
@@ -360,7 +361,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.4.0 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.1.0 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.55.17 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.55.18 |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.5.0 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.5.0 |
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.1.0 |
@@ -416,7 +417,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.10.8 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.4.0-GTNH |
 | [NoHotbarNeeded](https://github.com/GTNewHorizons/NoHotbarNeeded) | 0.1.0 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.9.8-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.9.9-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.8.1 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 1.1.1 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.4.0-GTNH |
@@ -445,7 +446,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Salis Arcana](https://www.curseforge.com/minecraft/mc-mods/salis-arcana/) | 2.7.0 |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.4.0 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.13.0-GTNH |
-| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.5.3 |
+| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.5.4 |
 | [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.5.0-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.2.0 |
 | [SimpleSkinBackport](https://github.com/GTNewHorizons/SimpleSkinBackport) | 1.1.1-GTNH |

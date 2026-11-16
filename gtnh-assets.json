@@ -19705,7 +19705,7 @@
     },
     {
       "name": "Applied-Energistics-2-NH",
-      "latest_version": "1.0.3",
+      "latest_version": "1.0.4",
       "private": false,
       "versions": [
         {
@@ -19746,6 +19746,16 @@
           "filename": "appliedenergistics2-1.0.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/753914626",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.3/appliedenergistics2-1.0.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.4",
+          "changelog": "## What's Changed\n* Feature/interface terminal upgrades by @Elios5014 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/15\n* Update README license and bundled addons by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/46\n\n## New Contributors\n* @Elios5014 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.3...1.0.4\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-16T17:49:59+00:00",
+          "filename": "appliedenergistics2-1.0.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/755836484",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.4/appliedenergistics2-1.0.4.jar",
           "extra_assets": []
         }
       ],
@@ -59083,7 +59093,7 @@
     },
     {
       "name": "Et-Futurum-Requiem",
-      "latest_version": "2.7.1-GTNH",
+      "latest_version": "2.7.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -60004,6 +60014,16 @@
           "filename": "etfuturum-2.7.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/742731588",
           "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.7.1-GTNH/etfuturum-2.7.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.2-GTNH",
+          "changelog": "## What's Changed\n* Compat: LiquidLogged waterlogging for EFR blocks and structures by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/147\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.7.1-GTNH...2.7.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-16T17:50:01+00:00",
+          "filename": "etfuturum-2.7.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/755836552",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.7.2-GTNH/etfuturum-2.7.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -70621,7 +70641,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.55.17",
+      "latest_version": "5.09.55.18",
       "private": false,
       "versions": [
         {
@@ -98522,6 +98542,16 @@
           "filename": "gregtech-5.09.55.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/754471077",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.17/gregtech-5.09.55.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.55.18",
+          "changelog": "## What's Changed\n* Add CosmeticArmorReworked to the Mods enum by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8742\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.55.17...5.09.55.18\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-16T17:51:21+00:00",
+          "filename": "gregtech-5.09.55.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/755840260",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.18/gregtech-5.09.55.18.jar",
           "extra_assets": []
         }
       ],
@@ -156828,7 +156858,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.9.8-GTNH",
+      "latest_version": "2.9.9-GTNH",
       "private": false,
       "versions": [
         {
@@ -162010,6 +162040,16 @@
           "filename": "NotEnoughItems-2.9.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/753914513",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.9.8-GTNH/NotEnoughItems-2.9.8-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.9.9-GTNH",
+          "changelog": "## What's Changed\n* Add NEI mob spawn overlay variants by @OrderedSet86 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1111\n\n## New Contributors\n* @OrderedSet86 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/1111\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.9.8-GTNH...2.9.9-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-16T18:14:56+00:00",
+          "filename": "NotEnoughItems-2.9.9-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/755912464",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.9.9-GTNH/NotEnoughItems-2.9.9-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -172267,7 +172307,7 @@
     },
     {
       "name": "ServerUtilities",
-      "latest_version": "2.5.3",
+      "latest_version": "2.5.4",
       "private": false,
       "versions": [
         {
@@ -174549,6 +174589,16 @@
           "filename": "ServerUtilities-2.5.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/753915325",
           "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.5.3/ServerUtilities-2.5.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.5.4",
+          "changelog": "## What's Changed\n* feat(tp): preserve orientation for home and warp commands by @x3zvawq in https://github.com/GTNewHorizons/ServerUtilities/pull/374\n\n## New Contributors\n* @x3zvawq made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/374\n\n**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.5.3...2.5.4\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-16T12:16:24+00:00",
+          "filename": "ServerUtilities-2.5.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ServerUtilities/releases/assets/754735618",
+          "browser_download_url": "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.5.4/ServerUtilities-2.5.4.jar",
           "extra_assets": []
         }
       ],
@@ -202881,6 +202931,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 836,
-  "latest_successful_daily": 836
+  "latest_daily": 838,
+  "latest_successful_daily": 838
 }
