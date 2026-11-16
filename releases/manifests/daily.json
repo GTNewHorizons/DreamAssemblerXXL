@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-11-16T11:46:20.195718+00:00",
+  "last_version": "2.9.0",
+  "last_updated": "2026-11-16T17:47:20.621367+00:00",
   "config": "2.10.0-nightly-2026-11-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -846,6 +846,10 @@
     },
     "Tempora": {
       "version": "1.0.3",
+      "side": "BOTH"
+    },
+    "BetterP2P": {
+      "version": "1.5.0",
       "side": "BOTH"
     }
   },
