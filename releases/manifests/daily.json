@@ -108,6 +108,10 @@
       "version": "1.5.1",
       "side": "BOTH"
     },
+    "CompactKineticGenerators": {
+      "version": "1.0.2-GTNH",
+      "side": "BOTH"
+    },
     "Computronics": {
       "version": "1.10.0-GTNH",
       "side": "BOTH"
@@ -912,10 +916,6 @@
     },
     "TC-4-Tweaks": {
       "version": "1.5.48",
-      "side": "BOTH"
-    },
-    "Compact Kinetic Generators": {
-      "version": "1.0",
       "side": "BOTH"
     },
     "Craft-Presence": {
