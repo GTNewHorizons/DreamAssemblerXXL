@@ -125519,6 +125519,66 @@
       "side": "NONE"
     },
     {
+      "name": "LiquidLogged",
+      "latest_version": "0.2.3",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "0.1.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LiquidLogged/commits/0.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-10T13:40:56+00:00",
+          "filename": "liquidlogged-0.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/731583918",
+          "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.1.1/liquidlogged-0.1.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LiquidLogged/compare/0.1.1...0.2.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-10T17:00:55+00:00",
+          "filename": "liquidlogged-0.2.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/732231430",
+          "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.2.0/liquidlogged-0.2.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.1",
+          "changelog": "## What's Changed\n* Don't crash when another mod overwrites BlockPistonBase methods by @Eldrinn-Elantey in https://github.com/GTNewHorizons/LiquidLogged/pull/1\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/LiquidLogged/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/LiquidLogged/compare/0.2.0...0.2.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-10T17:41:45+00:00",
+          "filename": "liquidlogged-0.2.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/732355940",
+          "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.2.1/liquidlogged-0.2.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.2",
+          "changelog": "## What's Changed\n* Remove piston fluid carrying to match vanilla and fix EFR crash by @Eldrinn-Elantey in https://github.com/GTNewHorizons/LiquidLogged/pull/2\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LiquidLogged/compare/0.2.1...0.2.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-10T18:02:21+00:00",
+          "filename": "liquidlogged-0.2.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/732413973",
+          "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.2.2/liquidlogged-0.2.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.3",
+          "changelog": "## What's Changed\n* Show stored fluid inside modded leaves and transparent blocks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/LiquidLogged/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LiquidLogged/compare/0.2.2...0.2.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-10T22:27:46+00:00",
+          "filename": "liquidlogged-0.2.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/733201634",
+          "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.2.3/liquidlogged-0.2.3.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/LiquidLogged",
+      "side": "BOTH"
+    },
+    {
       "name": "LittleTiles",
       "latest_version": "1.7.15",
       "private": false,
