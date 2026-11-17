@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-11-17T10:49:34.568037+00:00",
+  "last_version": "2.9.0",
+  "last_updated": "2026-11-17T11:41:08.305808+00:00",
   "config": "2.10.0-nightly-2026-11-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -854,6 +854,10 @@
     },
     "BetterP2P": {
       "version": "1.5.0",
+      "side": "BOTH"
+    },
+    "Nei-Recipe-Panels": {
+      "version": "1.0.1",
       "side": "BOTH"
     }
   },
