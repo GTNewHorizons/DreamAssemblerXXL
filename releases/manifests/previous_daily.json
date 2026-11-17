@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
-  "last_version": "2.9.0",
-  "last_updated": "2026-11-16T17:47:20.621367+00:00",
+  "last_version": "previous_daily",
+  "last_updated": "2026-11-16T18:42:55.743024+00:00",
   "config": "2.10.0-nightly-2026-11-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -108,6 +108,10 @@
       "version": "1.5.1",
       "side": "BOTH"
     },
+    "CompactKineticGenerators": {
+      "version": "1.0.2-GTNH",
+      "side": "BOTH"
+    },
     "Computronics": {
       "version": "1.10.0-GTNH",
       "side": "BOTH"
@@ -197,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.17",
+      "version": "5.09.55.18",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -329,7 +333,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.8-GTNH",
+      "version": "2.9.9-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -705,7 +709,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.7.1-GTNH",
+      "version": "2.7.2-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -817,7 +821,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.5.3",
+      "version": "2.5.4",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -829,7 +833,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-NH": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "side": "BOTH"
     },
     "Dashboard": {
@@ -912,10 +916,6 @@
     },
     "TC-4-Tweaks": {
       "version": "1.5.48",
-      "side": "BOTH"
-    },
-    "Compact Kinetic Generators": {
-      "version": "1.0",
       "side": "BOTH"
     },
     "Craft-Presence": {
