@@ -47518,6 +47518,26 @@
       "external_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/"
     },
     {
+      "name": "CompactKineticGenerators",
+      "latest_version": "1.0.2-GTNH",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.0.2-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/CompactKineticGenerators/commits/1.0.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-17T01:35:21+00:00",
+          "filename": "compactkineticgenerators-1.0.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CompactKineticGenerators/releases/assets/757165450",
+          "browser_download_url": "https://github.com/GTNewHorizons/CompactKineticGenerators/releases/download/1.0.2-GTNH/compactkineticgenerators-1.0.2-GTNH.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/CompactKineticGenerators",
+      "side": "BOTH"
+    },
+    {
       "name": "Computronics",
       "latest_version": "1.10.0-GTNH",
       "private": false,
