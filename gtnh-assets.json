@@ -48552,7 +48552,7 @@
     },
     {
       "name": "CoreTweaks",
-      "latest_version": "0.3.6.0-GTNH",
+      "latest_version": "0.3.6.1-GTNH",
       "private": false,
       "versions": [
         {
@@ -48714,6 +48714,16 @@
           "filename": "coretweaks-0.3.6.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CoreTweaks/releases/assets/758972377",
           "browser_download_url": "https://github.com/GTNewHorizons/CoreTweaks/releases/download/0.3.6.0-GTNH/coretweaks-0.3.6.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.3.6.1-GTNH",
+          "changelog": "## What's Changed\n* Fix missing @Final annotation on Minecraft logger shadow by @Chitak985 in https://github.com/GTNewHorizons/CoreTweaks/pull/19\n\n## New Contributors\n* @Chitak985 made their first contribution in https://github.com/GTNewHorizons/CoreTweaks/pull/19\n\n**Full Changelog**: https://github.com/GTNewHorizons/CoreTweaks/compare/0.3.6.0-GTNH...0.3.6.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T12:19:28+00:00",
+          "filename": "coretweaks-0.3.6.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CoreTweaks/releases/assets/763296148",
+          "browser_download_url": "https://github.com/GTNewHorizons/CoreTweaks/releases/download/0.3.6.1-GTNH/coretweaks-0.3.6.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -52930,7 +52940,7 @@
     },
     {
       "name": "Draconic-Evolution",
-      "latest_version": "1.6.1-GTNH",
+      "latest_version": "1.6.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -54003,6 +54013,16 @@
           "filename": "Draconic-Evolution-1.6.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/732802839",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.6.1-GTNH/Draconic-Evolution-1.6.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.2-GTNH",
+          "changelog": "## What's Changed\n* prevent dedicated server crash in Ender Resurrection when no players are nearby by @shinyashen in https://github.com/GTNewHorizons/Draconic-Evolution/pull/115\n\n## New Contributors\n* @shinyashen made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/115\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.6.1-GTNH...1.6.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T16:48:58+00:00",
+          "filename": "Draconic-Evolution-1.6.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/764186744",
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.6.2-GTNH/Draconic-Evolution-1.6.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -59213,7 +59233,7 @@
     },
     {
       "name": "Et-Futurum-Requiem",
-      "latest_version": "2.7.2-GTNH",
+      "latest_version": "2.7.3-GTNH",
       "private": false,
       "versions": [
         {
@@ -60144,6 +60164,16 @@
           "filename": "etfuturum-2.7.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/755836552",
           "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.7.2-GTNH/etfuturum-2.7.2-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.3-GTNH",
+          "changelog": "## What's Changed\n* Clean up comments and unused variable in WorldGenShipwreck by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/144\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.7.2-GTNH...2.7.3-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T17:59:28+00:00",
+          "filename": "etfuturum-2.7.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/764411595",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.7.3-GTNH/etfuturum-2.7.3-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -70771,7 +70801,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.55.23",
+      "latest_version": "5.09.55.25",
       "private": false,
       "versions": [
         {
@@ -98733,6 +98763,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/763031515",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.23/gregtech-5.09.55.23.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.55.24",
+          "changelog": "## What's Changed\n* Move GTPP Debug chest to GT by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8397\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.55.23...5.09.55.24\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T13:54:03+00:00",
+          "filename": "gregtech-5.09.55.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/763596748",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.24/gregtech-5.09.55.24.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.55.25",
+          "changelog": "## What's Changed\n* feat(frames): climbable frame boxes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8746\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.55.24...5.09.55.25\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T16:50:08+00:00",
+          "filename": "gregtech-5.09.55.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/764190784",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.25/gregtech-5.09.55.25.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -101585,7 +101635,7 @@
     },
     {
       "name": "GTNHExtLib",
-      "latest_version": "1.1.0",
+      "latest_version": "1.1.1",
       "private": false,
       "versions": [
         {
@@ -101657,6 +101707,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHExtLib/releases/assets/710349010",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHExtLib/releases/download/1.1.0/gtnhextlib-1.1.0.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.1",
+          "changelog": "## What's Changed\n* add DFU by @0hwx in https://github.com/GTNewHorizons/GTNHExtLib/pull/7\n\n## New Contributors\n* @0hwx made their first contribution in https://github.com/GTNewHorizons/GTNHExtLib/pull/7\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.5...1.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T13:54:56+00:00",
+          "filename": "gtnhextlib-1.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHExtLib/releases/assets/763599743",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHExtLib/releases/download/1.1.1/gtnhextlib-1.1.1.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -101665,7 +101725,7 @@
     },
     {
       "name": "GTNHLib",
-      "latest_version": "0.12.5",
+      "latest_version": "0.12.8",
       "private": false,
       "versions": [
         {
@@ -104756,6 +104816,36 @@
           "filename": "gtnhlib-0.12.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/762270299",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.5/gtnhlib-0.12.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.12.6",
+          "changelog": "## What's Changed\n* DataFixerUpper by @0hwx in https://github.com/GTNewHorizons/GTNHLib/pull/477\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.12.5...0.12.6\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T13:56:10+00:00",
+          "filename": "gtnhlib-0.12.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/763603558",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.6/gtnhlib-0.12.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.12.7",
+          "changelog": "## What's Changed\n* feat(api): climbable block from side like a ladder by @leagris in https://github.com/GTNewHorizons/GTNHLib/pull/510\n\n## New Contributors\n* @leagris made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/510\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.12.6...0.12.7\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T15:00:31+00:00",
+          "filename": "gtnhlib-0.12.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/763818985",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.7/gtnhlib-0.12.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.12.8",
+          "changelog": "## What's Changed\n* Fix indices in numeric config tooltip range by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/511\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.12.7...0.12.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T16:49:23+00:00",
+          "filename": "gtnhlib-0.12.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/764188130",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.8/gtnhlib-0.12.8.jar",
           "extra_assets": []
         }
       ],
@@ -143074,7 +143164,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.10.11",
+      "latest_version": "2.10.12",
       "private": false,
       "versions": [
         {
@@ -155785,6 +155875,16 @@
           "filename": "GTNewHorizonsCoreMod-2.10.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/763028841",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.10.11/GTNewHorizonsCoreMod-2.10.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.12",
+          "changelog": "## What's Changed\n* ForestryHoney->Sugar Recipe Quick Fix by @N0t-Brian in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2022\n\n## New Contributors\n* @N0t-Brian made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2022\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.10.11...2.10.12\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-18T12:21:46+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.10.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/763302992",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.10.12/GTNewHorizonsCoreMod-2.10.12.jar",
           "extra_assets": []
         }
       ],
@@ -203361,6 +203461,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 842,
-  "latest_successful_daily": 842
+  "latest_daily": 843,
+  "latest_successful_daily": 843
 }
