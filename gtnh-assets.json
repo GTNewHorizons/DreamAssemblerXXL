@@ -64590,6 +64590,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.3.8",
+          "changelog": "## What's Changed\n* Prevent unbreakable blocks from being moved by ProjectRed motors (#14) by @boubou19 in https://github.com/GTNewHorizons/ForgeRelocation/pull/15\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.3.7...0.3.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:35:56+00:00",
+          "filename": "ForgeRelocation-0.3.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocation/releases/assets/766231632",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.3.8/ForgeRelocation-0.3.8.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.4.0",
           "changelog": "## What's Changed\n* Remove render allocations by @boubou19 in https://github.com/GTNewHorizons/ForgeRelocation/pull/13\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/ForgeRelocation/pull/13\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.3.6...0.4.0\n",
           "prerelease": false,
