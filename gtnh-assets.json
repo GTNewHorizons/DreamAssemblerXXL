@@ -66722,6 +66722,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "3.4.38-GTNH",
+          "changelog": "## What's Changed\n* Various exploit fixes (#156) by @boubou19 in https://github.com/GTNewHorizons/Galacticraft/pull/157\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/157\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.37-GTNH...3.4.38-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:10:20+00:00",
+          "filename": "Galacticraft-3.4.38-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/766167525",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.4.38-GTNH/Galacticraft-3.4.38-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "3.5.0-GTNH",
           "changelog": "## What's Changed\n* reduce player model rendering overhead by @Pxx500 in https://github.com/GTNewHorizons/Galacticraft/pull/153\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.36-GTNH...3.5.0-GTNH\n",
           "prerelease": false,
