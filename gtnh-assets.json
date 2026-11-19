@@ -134609,7 +134609,6 @@
           "filename": "matter-manipulator-0.0.51-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/305852587",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.0.51-GTNH/matter-manipulator-0.0.51-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/MatterManipulator/0.0.51-GTNH/MatterManipulator-0.0.51-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -135380,6 +135379,16 @@
           "filename": "matter-manipulator-0.1.76-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/696681489",
           "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.76-GTNH/matter-manipulator-0.1.76-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.1.77-GTNH",
+          "changelog": "## What's Changed\n* Reduce Matter Manipulator lag (#123) by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/129\n* Ports several fixes from my WorldEdit PR that apply here too (#126) by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/130\n* Cache sort key (#125) by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/131\n* Greatly optimized Matter Manipulator's hint/preview rendering (#112) by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/132\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.1.76-GTNH...0.1.77-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T06:29:16+00:00",
+          "filename": "matter-manipulator-0.1.77-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MatterManipulator/releases/assets/766532172",
+          "browser_download_url": "https://github.com/GTNewHorizons/MatterManipulator/releases/download/0.1.77-GTNH/matter-manipulator-0.1.77-GTNH.jar",
           "extra_assets": []
         },
         {
