@@ -31719,7 +31719,6 @@
           "filename": "Avaritiaddons-1.9.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritiaddons/releases/assets/265850697",
           "browser_download_url": "https://github.com/GTNewHorizons/Avaritiaddons/releases/download/1.9.0-GTNH/Avaritiaddons-1.9.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Avaritiaddons/1.9.0-GTNH/Avaritiaddons-1.9.0-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31730,7 +31729,6 @@
           "filename": "Avaritiaddons-1.9.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritiaddons/releases/assets/279097251",
           "browser_download_url": "https://github.com/GTNewHorizons/Avaritiaddons/releases/download/1.9.1-GTNH/Avaritiaddons-1.9.1-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Avaritiaddons/1.9.1-GTNH/Avaritiaddons-1.9.1-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31784,6 +31782,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.9.7-GTNH",
+          "changelog": "## What's Changed\n* Keep Infinity Chest state synchronization clientbound (#27) by @boubou19 in https://github.com/GTNewHorizons/Avaritiaddons/pull/28\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Avaritiaddons/pull/28\n\n**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.10.0-GTNH...1.9.7-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T02:06:21+00:00",
+          "filename": "Avaritiaddons-1.9.7-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritiaddons/releases/assets/765836978",
+          "browser_download_url": "https://github.com/GTNewHorizons/Avaritiaddons/releases/download/1.9.7-GTNH/Avaritiaddons-1.9.7-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.10.0-GTNH",
           "changelog": "## What's Changed\n* Fix singularity CPU not comsumable in dire autocrafting recipes by @fehling135 in https://github.com/GTNewHorizons/Avaritiaddons/pull/23\n\n## New Contributors\n* @fehling135 made their first contribution in https://github.com/GTNewHorizons/Avaritiaddons/pull/23\n\n**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.9.5-GTNH...1.10.0-GTNH\n",
           "prerelease": false,
@@ -31795,7 +31803,7 @@
         },
         {
           "version_tag": "1.10.1-GTNH",
-          "changelog": "## What's Changed\n* Keep Infinity Chest state synchronization clientbound by @Worive in https://github.com/GTNewHorizons/Avaritiaddons/pull/27\n\n## New Contributors\n* @Worive made their first contribution in https://github.com/GTNewHorizons/Avaritiaddons/pull/27\n\n**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.10.0-GTNH...1.10.1-GTNH\n",
+          "changelog": "## What's Changed\r\n* Keep Infinity Chest state synchronization clientbound by @Worive in https://github.com/GTNewHorizons/Avaritiaddons/pull/27\r\n\r\n## New Contributors\r\n* @Worive made their first contribution in https://github.com/GTNewHorizons/Avaritiaddons/pull/27\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.10.0-GTNH...1.10.1-GTNH\r\n",
           "prerelease": false,
           "tagged_at": "2026-11-13T17:21:16+00:00",
           "filename": "Avaritiaddons-1.10.1-GTNH.jar",
@@ -31804,7 +31812,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MPL-2.0",
+      "license": "Mozilla Public License 2.0",
       "repo_url": "https://github.com/GTNewHorizons/Avaritiaddons",
       "side": "BOTH"
     },
