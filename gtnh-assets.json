@@ -64832,7 +64832,6 @@
           "filename": "ForgeRelocationFMP-0.2.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocationFMP/releases/assets/176560998",
           "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.2.0/ForgeRelocationFMP-0.2.0.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ForgeRelocationFMP/0.2.0/ForgeRelocationFMP-0.2.0.jar",
           "extra_assets": []
         },
         {
@@ -201250,7 +201249,6 @@
           "filename": "Wawla-1.3.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/262012819",
           "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.3.1-GTNH/Wawla-1.3.1-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/WAWLA/1.3.1-GTNH/WAWLA-1.3.1-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -201281,6 +201279,16 @@
           "filename": "Wawla-1.3.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/688517365",
           "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.3.4-GTNH/Wawla-1.3.4-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.5-GTNH",
+          "changelog": "## What's Changed\n* Add null checks to AddonDeveloperEntities (#11) by @boubou19 in https://github.com/GTNewHorizons/WAWLA/pull/16\n* Add a large amount of null checks to Utilities (#10) by @boubou19 in https://github.com/GTNewHorizons/WAWLA/pull/17\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/WAWLA/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/WAWLA/compare/1.3.4-GTNH...1.3.5-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T17:42:44+00:00",
+          "filename": "Wawla-1.3.5-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/768643328",
+          "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.3.5-GTNH/Wawla-1.3.5-GTNH.jar",
           "extra_assets": []
         },
         {
