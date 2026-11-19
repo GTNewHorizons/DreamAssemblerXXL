@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T05:20:54.255407+00:00",
+  "last_updated": "2026-11-19T06:06:39.693487+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.51",
+      "version": "2.10.54",
       "side": "BOTH"
     },
     "EnderStorage": {

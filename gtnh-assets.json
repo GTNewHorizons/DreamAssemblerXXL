@@ -58414,6 +58414,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.10.54",
+          "changelog": "## What's Changed\n* Fix the inventory name display issue (#283) by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/288\n* Make target Travel Anchor selection snap angle configurable and don't override empty selection server-side (#230) by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/289\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.53...2.10.54\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T06:01:47+00:00",
+          "filename": "EnderIO-2.10.54.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/766456880",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.54/EnderIO-2.10.54.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.11.0",
           "changelog": "## What's Changed\n* Translate chat messages on the client instead of the server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderIO/pull/275\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.52...2.11.0\n",
           "prerelease": false,
