@@ -64718,6 +64718,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.0.13",
+          "changelog": "## What's Changed\n* Fix mouse-bound Freecam movement controls (#32) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/34\n* Fix stuck player view after teleporting with Freecam (#30) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/35\n* Stop freecam movement while chat or a GUI is open (#31) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/36\n* fix keybind detection when freecam key is unbound (#33) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/37\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Freecam/pull/34\n\n**Full Changelog**: https://github.com/GTNewHorizons/Freecam/compare/1.0.12...1.0.13\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T02:32:37+00:00",
+          "filename": "freecam-gtnh-1.0.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Freecam/releases/assets/765904467",
+          "browser_download_url": "https://github.com/GTNewHorizons/Freecam/releases/download/1.0.13/freecam-gtnh-1.0.13.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.1.0",
           "changelog": "## What's Changed\n* fix(mixins): use ModifyExpressionValue for fullbright gamma by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/23\n* fix(camera): Disable movement if game is paused by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/24\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Freecam/compare/1.0.11...1.1.0\n",
           "prerelease": false,
