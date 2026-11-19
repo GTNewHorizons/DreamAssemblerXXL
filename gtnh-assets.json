@@ -197096,6 +197096,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.4.14-pre",
+          "changelog": "## What's Changed\n* Refactor coin display sync by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.12...0.4.14-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-10-17T11:30:29+00:00",
+          "filename": "vendingmachine-0.4.14-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VendingMachine/releases/assets/305439535",
+          "browser_download_url": "https://github.com/GTNewHorizons/VendingMachine/releases/download/0.4.14-pre/vendingmachine-0.4.14-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.4.15",
           "changelog": "## What's Changed\n* Update GT package to reference new location of MTEMultiBlockBaseGui by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/31\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.13...0.4.15\n",
           "prerelease": false,
@@ -197656,6 +197666,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.4.70-pre",
+          "changelog": "## What's Changed\n* Optimising images contained in wallet-button-icons-2 for #107 by @github-actions[bot] in https://github.com/GTNewHorizons/VendingMachine/pull/108\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.69...0.4.70-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-16T21:00:50+00:00",
+          "filename": "vendingmachine-0.4.70-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VendingMachine/releases/assets/422052339",
+          "browser_download_url": "https://github.com/GTNewHorizons/VendingMachine/releases/download/0.4.70-pre/vendingmachine-0.4.70-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.4.70",
           "changelog": "## What's Changed\n* Updated wallet button icons by @tiffit in https://github.com/GTNewHorizons/VendingMachine/pull/107\n* Scroll to top when searchbar changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/106\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.69...0.4.70\n",
           "prerelease": false,
@@ -197996,6 +198016,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.4.104",
+          "changelog": "## What's Changed\n* Fix the missing lang key of the Vending Machine NEI recipe title (#173) by @boubou19 in https://github.com/GTNewHorizons/VendingMachine/pull/177\n* Fix ME stack matching logic for damageable items (#175) by @boubou19 in https://github.com/GTNewHorizons/VendingMachine/pull/178\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.103...0.4.104\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T23:38:43+00:00",
+          "filename": "vendingmachine-0.4.104.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VendingMachine/releases/assets/769698068",
+          "browser_download_url": "https://github.com/GTNewHorizons/VendingMachine/releases/download/0.4.104/vendingmachine-0.4.104.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.5.0",
           "changelog": "## What's Changed\n* Fix update crafting icon by @Azusfin in https://github.com/GTNewHorizons/VendingMachine/pull/172\n\n## New Contributors\n* @Azusfin made their first contribution in https://github.com/GTNewHorizons/VendingMachine/pull/172\n\n**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.102...0.5.0\n",
           "prerelease": false,
@@ -198016,7 +198046,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/VendingMachine",
       "side": "BOTH"
     },
