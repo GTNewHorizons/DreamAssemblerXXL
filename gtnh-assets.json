@@ -102025,6 +102025,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.0.6",
+          "changelog": "## What's Changed\n* add DFU (#7) by @boubou19 in https://github.com/GTNewHorizons/GTNHExtLib/pull/10\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNHExtLib/pull/10\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.5...1.0.6\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:47:47+00:00",
+          "filename": "gtnhextlib-1.0.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHExtLib/releases/assets/766110229",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHExtLib/releases/download/1.0.6/gtnhextlib-1.0.6.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.1.0",
           "changelog": "## What's Changed\n* Delegate JVM to the child class loader by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHExtLib/compare/1.0.4...1.1.0\n",
           "prerelease": false,
