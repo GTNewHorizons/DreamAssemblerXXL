@@ -43394,6 +43394,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.13.44-GTNH",
+          "changelog": "## What's Changed\n* fix spark mana transfer check (#130) by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/168\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.43-GTNH...1.13.44-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:51:31+00:00",
+          "filename": "Botania-1.13.44-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/766271607",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.13.44-GTNH/Botania-1.13.44-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.14.0-GTNH",
           "changelog": "## What's Changed\n* Add missed lang item of key binding ringofLokiMirror by @Discreater in https://github.com/GTNewHorizons/Botania/pull/164\n\n## New Contributors\n* @Discreater made their first contribution in https://github.com/GTNewHorizons/Botania/pull/164\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.13.42-GTNH...1.14.0-GTNH\n",
           "prerelease": false,
