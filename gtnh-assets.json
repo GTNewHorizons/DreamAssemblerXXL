@@ -126158,7 +126158,6 @@
           "filename": "littletiles-1.5.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/253957860",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.5.11-GTNH/littletiles-1.5.11-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/LittleTiles/1.5.11-GTNH/LittleTiles-1.5.11-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -126189,7 +126188,6 @@
           "filename": "littletiles-1.5.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/292807590",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.5.14-GTNH/littletiles-1.5.14-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/LittleTiles/1.5.14-GTNH/LittleTiles-1.5.14-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -126733,36 +126731,6 @@
           "extra_assets": []
         },
         {
-          "version_tag": "1.6.54",
-          "changelog": "## What's Changed\n* Hardening by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/171\n* Allow chisel two hit mode to select and move corners with marked hit by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/178\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.53...1.6.54\n",
-          "prerelease": false,
-          "tagged_at": "2026-09-30T17:37:06+00:00",
-          "filename": "littletiles-1.6.54.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601461167",
-          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/untagged-832818d5f433231c7be8/littletiles-1.6.54.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.6.55",
-          "changelog": "## What's Changed\n* Add smooth lighting for cutouts if Angelica is present by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/175\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.54...1.6.55\n",
-          "prerelease": false,
-          "tagged_at": "2026-09-30T17:44:16+00:00",
-          "filename": "littletiles-1.6.55.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601473457",
-          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/untagged-93f6f76d7dfca054d9f4/littletiles-1.6.55.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.6.56",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.55...1.6.56\n",
-          "prerelease": false,
-          "tagged_at": "2026-09-30T17:58:20+00:00",
-          "filename": "littletiles-1.6.56.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/601498213",
-          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/untagged-b646f5b0572798d26b35/littletiles-1.6.56.jar",
-          "extra_assets": []
-        },
-        {
           "version_tag": "1.6.57",
           "changelog": "## What's Changed\n* Hardening by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/171\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.53...1.6.57\n",
           "prerelease": false,
@@ -126850,6 +126818,16 @@
           "filename": "littletiles-1.6.65.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/698200249",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.65/littletiles-1.6.65.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.66",
+          "changelog": "## What's Changed\n* Revert \"Better concept for extra utitilies block lighting\" (#209) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/247\n* Postea compat (#208) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/248\n* Add optional sweeping tests (#195) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/249\n* Cleanup: Remove dead code, plan already rejects if it can't place (#199) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/250\n* Make sure plans always can be applied (#201) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/251\n* Add little bag recipe & capacity logic (#198) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/252\n* Breaking/picking a block of tiles at once (#205) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/253\n* Add concave inner/outer slopes (#217) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/254\n* Fix a few duplication issues (#204) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/255\n* Allow dumping boxes too (#211) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/256\n* Add support for Chisel connected texture (#197) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/257\n* Rework Part 1: Cleanup (#212) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/258\n* Rework Part 2: Don't include mesh parts only touching the box (#213) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/259\n* Rework Part 3: Rewrite Mesh cutting (#214) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/260\n* Add tool to toggle connected textures for tiles (#221) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/261\n* Validate more for invalid blocks (#219) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/262\n* Textured preview (#224) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/263\n* Raise the block break event before destroying a tile (#225) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/264\n* Rework 4: Collide tiles by the volume they share (#220) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/265\n* Improve big recipe performance (#226) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/266\n* Rework 5: Fix deformed box winding (#227) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/267\n* Add limits to chisel / recipe size (#228) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/268\n* Rework 6: Cull faces by the planes of the faces they come from (#232) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/269\n* Rework recipes (#229) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/270\n* Rework 7: Rework templates as sum of complex polygons (#233) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/271\n* Rework 8: Mesh fixes (#234) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/272\n* Set postea version (#237) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/273\n* Implement antimesh mode (#235) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/274\n* Fix recipe preview allocating too much (#236) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/275\n* Stencil improvements (#241) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/276\n* Handle \"turn into box\" and shrink also when splitting tile (#239) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/277\n* Fix shift placement for single tiles (#242) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/278\n* Fix ray selection rounding error by snapping into grid (#240) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/279\n* Add modes/alignment to tiles/recipe as well (#243) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/280\n* Performance optimizations for antimeshes (#244) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/281\n* Refactor: Remove loadedTile and try/catch blocks (#245) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/282\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/247\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.6.66\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T02:38:44+00:00",
+          "filename": "littletiles-1.6.66.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/765921303",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.66/littletiles-1.6.66.jar",
           "extra_assets": []
         },
         {
