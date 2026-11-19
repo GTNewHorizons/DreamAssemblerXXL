@@ -63437,7 +63437,6 @@
           "filename": "Forestry-4.10.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/275175788",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.10.16/Forestry-4.10.16.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ForestryMC/4.10.16/ForestryMC-4.10.16.jar",
           "extra_assets": []
         },
         {
@@ -63448,7 +63447,16 @@
           "filename": "Forestry-4.10.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/280680712",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.10.17/Forestry-4.10.17.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ForestryMC/4.10.17/ForestryMC-4.10.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.10.18-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.17...4.10.18-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-10-25T12:48:33+00:00",
+          "filename": "Forestry-4.10.18-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/308569649",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.10.18-pre/Forestry-4.10.18-pre.jar",
           "extra_assets": []
         },
         {
@@ -63459,6 +63467,16 @@
           "filename": "Forestry-4.11.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/308580119",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.0/Forestry-4.11.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.11.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.0...4.11.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-11-04T11:05:13+00:00",
+          "filename": "Forestry-4.11.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/312359374",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.1-pre/Forestry-4.11.1-pre.jar",
           "extra_assets": []
         },
         {
@@ -63692,6 +63710,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "4.11.25-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.24-pre...4.11.25-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-24T10:26:30+00:00",
+          "filename": "Forestry-4.11.25-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/428492385",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.25-pre/Forestry-4.11.25-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "4.11.26",
           "changelog": "## What's Changed\n* added ability to open backpacks enabled by NoHotbarNeeded by @Erixonich in https://github.com/GTNewHorizons/ForestryMC/pull/105\n\n## New Contributors\n* @Erixonich made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/105\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.23...4.11.26\n",
           "prerelease": false,
@@ -63839,6 +63867,16 @@
           "filename": "Forestry-4.11.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/675799969",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.40/Forestry-4.11.40.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.11.41",
+          "changelog": "## What's Changed\n* fix(render): glinting bee item (#141) by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/144\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.11.40...4.11.41\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:56:12+00:00",
+          "filename": "Forestry-4.11.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/766132381",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.11.41/Forestry-4.11.41.jar",
           "extra_assets": []
         },
         {
