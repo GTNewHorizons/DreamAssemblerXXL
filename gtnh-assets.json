@@ -194600,6 +194600,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "4.3.1-GTNH",
+          "changelog": "## What's Changed\n* Fix custom chest loot loading and improve loot commands (#6) by @boubou19 in https://github.com/GTNewHorizons/TooMuchLoot/pull/7\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/TooMuchLoot/pull/7\n\n**Full Changelog**: https://github.com/GTNewHorizons/TooMuchLoot/compare/4.4.0-GTNH...4.3.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:26:44+00:00",
+          "filename": "TooMuchLoot-4.3.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TooMuchLoot/releases/assets/766209000",
+          "browser_download_url": "https://github.com/GTNewHorizons/TooMuchLoot/releases/download/4.3.1-GTNH/TooMuchLoot-4.3.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "4.4.0-GTNH",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TooMuchLoot/compare/4.3.0-GTNH...4.4.0-GTNH\n",
           "prerelease": false,
