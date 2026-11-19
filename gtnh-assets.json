@@ -41820,7 +41820,6 @@
           "filename": "BloodMagic-1.7.52.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/306195086",
           "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.7.52/BloodMagic-1.7.52.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BloodMagic/1.7.52/BloodMagic-1.7.52.jar",
           "extra_assets": []
         },
         {
@@ -42191,6 +42190,16 @@
           "filename": "BloodMagic-1.9.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/701088893",
           "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.9.17/BloodMagic-1.9.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.18",
+          "changelog": "## What's Changed\n* Make bound tools truly ignore durability damage rather than just repairing the damage when held for free (#150) by @boubou19 in https://github.com/GTNewHorizons/BloodMagic/pull/156\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.9.16...1.9.18\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T05:00:09+00:00",
+          "filename": "BloodMagic-1.9.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/766293560",
+          "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.9.18/BloodMagic-1.9.18.jar",
           "extra_assets": []
         },
         {
