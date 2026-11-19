@@ -166085,7 +166085,7 @@
     },
     {
       "name": "OpenModsLib",
-      "latest_version": "0.11.0",
+      "latest_version": "0.10.15",
       "private": false,
       "versions": [
         {
@@ -166226,16 +166226,6 @@
           "filename": "OpenModsLibs-0.10.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenModsLib/releases/assets/671576426",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.15/OpenModsLibs-0.10.15.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "0.11.0",
-          "changelog": "## What's Changed\n* fix fluid intake limits by @Pxx500 in https://github.com/GTNewHorizons/OpenModsLib/pull/11\n\n## New Contributors\n* @Pxx500 made their first contribution in https://github.com/GTNewHorizons/OpenModsLib/pull/11\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.14...0.11.0\n",
-          "prerelease": false,
-          "tagged_at": "2026-11-04T17:51:39+00:00",
-          "filename": "OpenModsLibs-0.11.0.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenModsLib/releases/assets/710378295",
-          "browser_download_url": "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.11.0/OpenModsLibs-0.11.0.jar",
           "extra_assets": []
         }
       ],
