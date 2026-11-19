@@ -193558,6 +193558,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.14.59-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.58-GTNH...1.14.59-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-04-27T11:46:58+00:00",
+          "filename": "TConstruct-1.14.59-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/406550401",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.59-GTNH-pre/TConstruct-1.14.59-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.14.60-GTNH",
           "changelog": "## What's Changed\n* Dump button, dumps the grid to linked inventory by @ChromaPIE in https://github.com/GTNewHorizons/TinkersConstruct/pull/228\n* Fixes the smeltry temperature texture by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/277\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.58-GTNH...1.14.60-GTNH\n",
           "prerelease": false,
@@ -193605,6 +193615,16 @@
           "filename": "TConstruct-1.14.64-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/413240947",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.64-GTNH/TConstruct-1.14.64-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.65-GTNH-pre",
+          "changelog": "## What's Changed\n* Optimising images contained in Ranzu/TinkerBaubles for #279 by @github-actions[bot] in https://github.com/GTNewHorizons/TinkersConstruct/pull/282\n* add null check to prevent crashing by @MCTBL in https://github.com/GTNewHorizons/TinkersConstruct/pull/280\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.63-GTNH-pre...1.14.65-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-07T17:43:57+00:00",
+          "filename": "TConstruct-1.14.65-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/414591912",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.65-GTNH-pre/TConstruct-1.14.65-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -193715,6 +193735,16 @@
           "filename": "TConstruct-1.14.76-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/431400955",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.76-GTNH-pre/TConstruct-1.14.76-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.77-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.76-GTNH-pre...1.14.77-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-30T10:33:22+00:00",
+          "filename": "TConstruct-1.14.77-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/433734683",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.77-GTNH-pre/TConstruct-1.14.77-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -194175,6 +194205,16 @@
           "filename": "TConstruct-1.14.123-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/684554362",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.123-GTNH/TConstruct-1.14.123-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.124-GTNH",
+          "changelog": "## What's Changed\n* Fixed unknown soundEvent warnings, and made the barricade use the Wood sound type (#361) by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/363\n* Use NEI fluid stacks in recipe handlers (#346) by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/364\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.14.123-GTNH...1.14.124-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T23:40:47+00:00",
+          "filename": "TConstruct-1.14.124-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/769703243",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.14.124-GTNH/TConstruct-1.14.124-GTNH.jar",
           "extra_assets": []
         },
         {
