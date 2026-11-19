@@ -171506,7 +171506,6 @@
           "filename": "RemoteIO-2.7.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/RemoteIO/releases/assets/265849935",
           "browser_download_url": "https://github.com/GTNewHorizons/RemoteIO/releases/download/2.7.6/RemoteIO-2.7.6.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/RemoteIO/2.7.6/RemoteIO-2.7.6.jar",
           "extra_assets": []
         },
         {
@@ -171560,6 +171559,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.7.12",
+          "changelog": "## What's Changed\n* Remove unused remote GUI request (#33) by @boubou19 in https://github.com/GTNewHorizons/RemoteIO/pull/34\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/34\n\n**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.11...2.7.12\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:16:33+00:00",
+          "filename": "RemoteIO-2.7.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/RemoteIO/releases/assets/766183777",
+          "browser_download_url": "https://github.com/GTNewHorizons/RemoteIO/releases/download/2.7.12/RemoteIO-2.7.12.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.8.0",
           "changelog": "## What's Changed\n* Localize the category names in the PDA by @Discreater in https://github.com/GTNewHorizons/RemoteIO/pull/32\n\n## New Contributors\n* @Discreater made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/32\n\n**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.10...2.8.0\n",
           "prerelease": false,
@@ -171580,7 +171589,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/RemoteIO",
       "side": "BOTH"
     },
