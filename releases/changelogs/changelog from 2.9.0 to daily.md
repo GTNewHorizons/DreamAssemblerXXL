@@ -75,10 +75,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - Applied-Energistics-2-NH:1.0.6
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.0...1.0.6
+# New Mod - Applied-Energistics-2-NH:1.0.7
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.0...1.0.7
 
 ## What's Changed:
+>* Fix cable placement preview disappearing under water by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/51 (1.0.7)
 >* Don't create auto-craft requests for non-craftable pinned items by @gorbit99 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/52 (1.0.6)
 >* Add new save search string mode by @Yoshy2002 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/31 (1.0.5)
 >* Feature/interface terminal upgrades by @Elios5014 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/15 (1.0.4)
@@ -574,10 +575,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix(mixins): use ModifyExpressionValue for fullbright gamma by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/23 (1.1.0)
 >* fix(camera): Disable movement if game is paused by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/24 (1.1.0)
 
-# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.55.25
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.55.25
+# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.55.26
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.55.26
 
 ## What's Changed:
+>* Fix Hint Blocks for Industrial Extrusion Machine by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8741 (5.09.55.26)
 >* feat(frames): climbable frame boxes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8746 (5.09.55.25)
 >* Move GTPP Debug chest to GT by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8397 (5.09.55.24)
 >* [MUI2] Ported MTEMicrowave by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8509 (5.09.55.23)
@@ -690,10 +692,11 @@ Mod is client-side only.
 >* add DFU by @0hwx in https://github.com/GTNewHorizons/GTNHExtLib/pull/7 (1.1.1)
 >* Delegate JVM to the child class loader by @mitchej123 in https://github.com/GTNewHorizons/GTNHExtLib/pull/9 (1.1.0)
 
-# Updated - GTNHLib - 0.11.54 --> 0.12.8
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.12.8
+# Updated - GTNHLib - 0.11.54 --> 0.12.9
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.12.9
 
 ## What's Changed:
+>* Support translucent render_type and fix multipart blockstates by @Armisael5 in https://github.com/GTNewHorizons/GTNHLib/pull/494 (0.12.9)
 >* Fix indices in numeric config tooltip range by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/511 (0.12.8)
 >* feat(api): climbable block from side like a ladder by @leagris in https://github.com/GTNewHorizons/GTNHLib/pull/510 (0.12.7)
 >* DataFixerUpper by @0hwx in https://github.com/GTNewHorizons/GTNHLib/pull/477 (0.12.6)
@@ -742,10 +745,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Optimize Images and Workflow by @UltraProdigy in https://github.com/GTNewHorizons/GregoryTweaksForCrafting/pull/4 (1.1.0)
 
-# Updated - GuideNH - 1.3.55 --> 1.4.7
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.4.7
+# Updated - GuideNH - 1.3.55 --> 1.4.8
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.4.8
 
 ## What's Changed:
+>* Migrate to ForgeMultipart Java API by @Algent in https://github.com/GTNewHorizons/GuideNH/pull/143 (1.4.8)
 >* fix gamescene gt pipe connections by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/142 (1.4.7)
 >* Add native fluid support by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/139 (1.4.6)
 >* Wrap long file tree entries in narrow guides by @Aspy1 in https://github.com/GTNewHorizons/GuideNH/pull/138 (1.4.5)
@@ -1144,10 +1148,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: use renderViewEntity for camera math by @Caedis in https://github.com/GTNewHorizons/OCGlasses/pull/26 (1.7.0-GTNH)
 
-# Updated - OpenBlocks - 1.12.22-GTNH --> 1.13.3-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.22-GTNH...1.13.3-GTNH
+# Updated - OpenBlocks - 1.12.22-GTNH --> 1.13.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.22-GTNH...1.13.4-GTNH
 
 ## What's Changed:
+>* Make Elevators more consistent w/ high jump-boost by @N0t-Brian in https://github.com/GTNewHorizons/OpenBlocks/pull/71 (1.13.4-GTNH)
 >* Protect some calls that lead to loadChunk with blockExists by @Georggi in https://github.com/GTNewHorizons/OpenBlocks/pull/30 (1.13.3-GTNH)
 >* Fix hang glider rendering black under a ceiling by @micvog in https://github.com/GTNewHorizons/OpenBlocks/pull/69 (1.13.2-GTNH)
 >* fix: keep Builder Guide and Cannon animations client-side by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/70 (1.13.1-GTNH)
@@ -1162,12 +1167,6 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add more APIs to the parts of AE2 and its addons. by @hxync in https://github.com/GTNewHorizons/OpenComputers/pull/223 (1.12.70-GTNH)
 >* Align fluid regulator tier and speed in transposer names by @shironakoushi in https://github.com/GTNewHorizons/OpenComputers/pull/224 (1.12.69-GTNH)
 >* Fix Crafting Upgrade Handling of GT Tools Breaking by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/233 (1.12.69-GTNH)
-
-# Updated - OpenModsLib - 0.10.15 --> 0.11.0
-**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.15...0.11.0
-
-## What's Changed:
->* fix fluid intake limits by @Pxx500 in https://github.com/GTNewHorizons/OpenModsLib/pull/11 (0.11.0)
 
 # Updated - OpenModularTurrets - 2.4.8 --> 2.5.0
 **Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.4.8...2.5.0
@@ -1416,10 +1415,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Remove spacesuit from fortress armor and voidmetal goggles by @FourIsTheNumber in https://github.com/GTNewHorizons/Tainted-Magic/pull/48 (7.8.0-GTNH)
 
-# New Mod - TaskNH:0.15.1
-**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.5.0...0.15.1
+# New Mod - TaskNH:0.15.2
+**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.5.0...0.15.2
 
 ## What's Changed:
+>* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/TaskNH/pull/60 (0.15.2)
+>* unset key by default by @Yoshy2002 in https://github.com/GTNewHorizons/TaskNH/pull/61 (0.15.2)
+>* Skip done tasks in the new-task chat notification on login by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/63 (0.15.2)
 >* Hide assignees in the task GUI until the team has a second member by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/58 (0.15.1)
 >* Nest a task under another by dragging, unnest from right-click menu by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/56 (0.15.0)
 >* Delete tasks from the right-click menu with a confirmation click by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/57 (0.15.0)

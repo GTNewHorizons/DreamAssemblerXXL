@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-11-18
+Version daily is out 2026-11-19
 
 ## What is GT New Horizons?
 
@@ -270,7 +270,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.2.46 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.1.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.4.0 |
-| [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.6 |
+| [Applied-Energistics-2-NH](https://github.com/GTNewHorizons/Applied-Energistics-2-NH) | 1.0.7 |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.8.2 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.13.0 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.8.0 |
@@ -361,12 +361,12 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.4.0 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.1.0 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.55.25 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.55.26 |
 | [GTNH-Credits](https://github.com/GTNewHorizons/GTNH-Credits) | 1.5.0 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.5.0 |
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.1.1 |
-| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.12.8 |
-| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.4.7 |
+| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.12.9 |
+| [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.4.8 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.14.1-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.4.0-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
@@ -424,9 +424,9 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 1.1.1 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.4.0-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.7.0-GTNH |
-| [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.13.3-GTNH |
+| [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.13.4-GTNH |
 | [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.13.1-GTNH |
-| [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.11.0 |
+| [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.15 |
 | [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.5.0 |
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.4.0-GTNH |
 | [OpenSecurity](https://github.com/GTNewHorizons/OpenSecurity) | 1.3.0-GTNH |
@@ -463,7 +463,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.6.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.2.0 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.8.0-GTNH |
-| [TaskNH](https://github.com/GTNewHorizons/TaskNH) | 0.15.1 |
+| [TaskNH](https://github.com/GTNewHorizons/TaskNH) | 0.15.2 |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.48 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.5.0 |
 | [Tempora](https://github.com/GTNewHorizons/Tempora) | 1.0.3 |
