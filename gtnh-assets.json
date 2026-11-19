@@ -44664,7 +44664,6 @@
           "filename": "buildcraft-7.1.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/268136441",
           "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.44/buildcraft-7.1.44.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BuildCraft/7.1.44/BuildCraft-7.1.44.jar",
           "extra_assets": []
         },
         {
@@ -44875,6 +44874,16 @@
           "filename": "buildcraft-7.1.65.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/693205090",
           "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.65/buildcraft-7.1.65.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "7.1.66",
+          "changelog": "## What's Changed\n* Fail fast on tank placement (#38) by @Azusfin in https://github.com/GTNewHorizons/BuildCraft/pull/39\n* Fix zone map saving and tie it to world saves (#40) by @boubou19 in https://github.com/GTNewHorizons/BuildCraft/pull/41\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/41\n\n**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.65...7.1.66\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:50:04+00:00",
+          "filename": "buildcraft-7.1.66.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/766268711",
+          "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.66/buildcraft-7.1.66.jar",
           "extra_assets": []
         },
         {

@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T04:53:07.287742+00:00",
+  "last_updated": "2026-11-19T04:54:22.564003+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.65",
+      "version": "7.1.66",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
