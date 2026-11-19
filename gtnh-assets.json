@@ -170457,6 +170457,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "9.17.37",
+          "changelog": "## What's Changed\n* Fixed Tank Cart Uncrafting Recipe (#133) by @boubou19 in https://github.com/GTNewHorizons/Railcraft/pull/134\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.36...9.17.37\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:27:27+00:00",
+          "filename": "Railcraft-9.17.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/766210664",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.17.37/Railcraft-9.17.37.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "9.18.0",
           "changelog": "## What's Changed\n* Fix English word order for Woven backpack names by @Yucheng-0909 in https://github.com/GTNewHorizons/Railcraft/pull/132\n\n## New Contributors\n* @Yucheng-0909 made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/132\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.17.35...9.18.0\n",
           "prerelease": false,
