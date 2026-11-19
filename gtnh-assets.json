@@ -167188,7 +167188,6 @@
           "filename": "overloadedarmorbar-1.1.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OverloadedArmorBar/releases/assets/145298232",
           "browser_download_url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.1.0/overloadedarmorbar-1.1.0.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OverloadedArmorBar/1.1.0/OverloadedArmorBar-1.1.0.jar",
           "extra_assets": []
         },
         {
@@ -167202,6 +167201,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.1.2",
+          "changelog": "## What's Changed\n* Lower armor bar priority so it can be moved (#4) by @boubou19 in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/5\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.1.1...1.1.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:49:33+00:00",
+          "filename": "overloadedarmorbar-1.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OverloadedArmorBar/releases/assets/766267239",
+          "browser_download_url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.1.2/overloadedarmorbar-1.1.2.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.2.0",
           "changelog": "## What's Changed\n* Lower armor bar priority so it can be moved by @Ranzuu in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/4\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/4\n\n**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.1.1...1.2.0\n",
           "prerelease": false,
@@ -167212,7 +167221,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
       "side": "CLIENT"
     },
