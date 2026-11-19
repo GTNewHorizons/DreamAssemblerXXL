@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T23:19:50.868432+00:00",
+  "last_updated": "2026-11-19T23:36:49.189169+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -569,7 +569,7 @@
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
-      "version": "1.7.12",
+      "version": "1.7.13",
       "side": "BOTH"
     },
     "WitcheryExtras": {

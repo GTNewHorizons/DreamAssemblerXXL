@@ -202450,7 +202450,6 @@
           "filename": "WR-CBE-1.7.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/262020225",
           "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.7.1/WR-CBE-1.7.1.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/WirelessRedstone-CBE/1.7.1/WirelessRedstone-CBE-1.7.1.jar",
           "extra_assets": []
         },
         {
@@ -202564,6 +202563,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.7.13",
+          "changelog": "## What's Changed\n* Fix small sector file truncation in removeTrailingSectors (#26) by @boubou19 in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/28\n* Cull wireless bolts before building their render cache (#27) by @boubou19 in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.12...1.7.13\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T23:29:15+00:00",
+          "filename": "WR-CBE-1.7.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/769671733",
+          "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.7.13/WR-CBE-1.7.13.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.8.0",
           "changelog": "## What's Changed\n* Fix uninitialized wireless ether crash by @ABKQPO in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/25\n\n## New Contributors\n* @ABKQPO made their first contribution in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/25\n\n**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.11...1.8.0\n",
           "prerelease": false,
@@ -202594,7 +202603,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE",
       "side": "BOTH"
     },
