@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T17:49:33.724066+00:00",
+  "last_updated": "2026-11-19T18:55:21.977057+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -849,7 +849,7 @@
       "side": "BOTH"
     },
     "Realistic-World-Gen-2": {
-      "version": "2.0.6",
+      "version": "2.0.9",
       "side": "BOTH"
     }
   },
