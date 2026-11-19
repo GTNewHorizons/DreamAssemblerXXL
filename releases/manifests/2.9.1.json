@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T03:25:50.302613+00:00",
+  "last_updated": "2026-11-19T03:38:15.646429+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BlockLimiter": {
-      "version": "0.7.0",
+      "version": "0.7.1",
       "side": "BOTH"
     },
     "BloodArsenal": {
