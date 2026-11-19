@@ -37238,7 +37238,6 @@
           "filename": "BetterQuesting-3.7.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/306198328",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.7.15-GTNH/BetterQuesting-3.7.15-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BetterQuesting/3.7.15-GTNH/BetterQuesting-3.7.15-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -37409,16 +37408,6 @@
           "filename": "BetterQuesting-3.8.16-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/335505781",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.16-GTNH-pre/BetterQuesting-3.8.16-GTNH-pre.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "3.8.17",
-          "changelog": "## What's Changed\n* Add copy quest description button by @Faotik in https://github.com/GTNewHorizons/BetterQuesting/pull/181\n\n## New Contributors\n* @Faotik made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/181\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.14-GTNH...3.8.17\n",
-          "prerelease": false,
-          "tagged_at": "2026-01-08T02:27:09+00:00",
-          "filename": "BetterQuesting-3.8.17.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/337687781",
-          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.17/BetterQuesting-3.8.17.jar",
           "extra_assets": []
         },
         {
@@ -37759,6 +37748,16 @@
           "filename": "BetterQuesting-3.8.50-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/421811679",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.50-GTNH/BetterQuesting-3.8.50-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.8.51-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.50-GTNH...3.8.51-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-16T12:34:34+00:00",
+          "filename": "BetterQuesting-3.8.51-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/421812024",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.51-GTNH-pre/BetterQuesting-3.8.51-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -38162,6 +38161,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "3.8.93-GTNH",
+          "changelog": "## What's Changed\n* Skip block break handling without task instances (#275) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/280\n* Quest text: show localized item and fluid names (#256) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/281\n* Prefix NEI quest placeholder names with \"Quest -\" (#273) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/282\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.91-GTNH...3.8.93-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T02:24:58+00:00",
+          "filename": "BetterQuesting-3.8.93-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/765883034",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.93-GTNH/BetterQuesting-3.8.93-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "3.9.0-GTNH",
           "changelog": "## What's Changed\n* Move notification config options into their own category by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/267\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.90-GTNH...3.9.0-GTNH\n",
           "prerelease": false,
@@ -38212,7 +38221,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/BetterQuesting",
       "side": "BOTH"
     },
