@@ -199795,7 +199795,6 @@
           "filename": "Waila-1.8.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/306201092",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.8.15/Waila-1.8.15.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/waila/1.8.15/waila-1.8.15.jar",
           "extra_assets": []
         },
         {
@@ -199969,6 +199968,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.19.18-pre",
+          "changelog": "## What's Changed\n* Add small icon variant for TTRenderStack by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/58\n\n## New Contributors\n* @evgengoldwar made their first contribution in https://github.com/GTNewHorizons/waila/pull/58\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.9.15...1.19.18-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-20T09:16:12+00:00",
+          "filename": "Waila-1.19.18-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/343197315",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.19.18-pre/Waila-1.19.18-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.19.19",
           "changelog": "## What's Changed\n* Add small icon variant for TTRenderStack by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/58\n\n## New Contributors\n* @evgengoldwar made their first contribution in https://github.com/GTNewHorizons/waila/pull/58\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.9.15...1.19.19\n",
           "prerelease": false,
@@ -200126,6 +200135,16 @@
           "filename": "Waila-1.19.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/526445906",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.19.34/Waila-1.19.34.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.19.35",
+          "changelog": "## What's Changed\n* Add 3D entity icon to tooltip (#80) by @boubou19 in https://github.com/GTNewHorizons/waila/pull/83\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/waila/pull/83\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.19.34...1.19.35\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:33:05+00:00",
+          "filename": "Waila-1.19.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/766069371",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.19.35/Waila-1.19.35.jar",
           "extra_assets": []
         },
         {
