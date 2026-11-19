@@ -123459,7 +123459,6 @@
           "filename": "JABBA-1.5.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/268548758",
           "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.10/JABBA-1.5.10.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Jabba/1.5.10/Jabba-1.5.10.jar",
           "extra_assets": []
         },
         {
@@ -123500,6 +123499,16 @@
           "filename": "JABBA-1.5.14-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/313884212",
           "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.14-pre/JABBA-1.5.14-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.15-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.13...1.5.15-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-11-14T20:20:48+00:00",
+          "filename": "JABBA-1.5.15-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/316523203",
+          "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.15-pre/JABBA-1.5.15-pre.jar",
           "extra_assets": []
         },
         {
@@ -133114,7 +133123,6 @@
           "filename": "magicbees-2.9.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/217394186",
           "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.9.0-GTNH/magicbees-2.9.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/MagicBees/2.9.0-GTNH/MagicBees-2.9.0-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -133155,7 +133163,6 @@
           "filename": "magicbees-2.9.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/262012840",
           "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.9.4-GTNH/magicbees-2.9.4-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/MagicBees/2.9.4-GTNH/MagicBees-2.9.4-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -133306,6 +133313,16 @@
           "filename": "magicbees-2.10.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/698433924",
           "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.10.14-GTNH/magicbees-2.10.14-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.15-GTNH",
+          "changelog": "## What's Changed\n* Protect some calls that lead to loadChunk with blockExists (#53) by @boubou19 in https://github.com/GTNewHorizons/MagicBees/pull/72\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.10.14-GTNH...2.10.15-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:14:04+00:00",
+          "filename": "magicbees-2.10.15-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/766177178",
+          "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.10.15-GTNH/magicbees-2.10.15-GTNH.jar",
           "extra_assets": []
         },
         {
