@@ -103656,16 +103656,6 @@
           "extra_assets": []
         },
         {
-          "version_tag": "0.9.20-pre",
-          "changelog": "## What's Changed\n* remap readFromNBT/writeToNBT injections in TileInFusionMatrix mixin by @danyadev in https://github.com/GTNewHorizons/GTNHLib/pull/274\n* Add a method to automaticall make and register an EIR by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GTNHLib/pull/275\n\n## New Contributors\n* @danyadev made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/274\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.9.18-pre...0.9.20-pre\n",
-          "prerelease": false,
-          "tagged_at": "2026-02-14T22:52:57+00:00",
-          "filename": "gtnhlib-0.9.20-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/356005048",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/untagged-448e6b649732046c5095/gtnhlib-0.9.20-pre.jar",
-          "extra_assets": []
-        },
-        {
           "version_tag": "0.9.20",
           "changelog": "## What's Changed\n* Add a method to automaticall make and register an EIR by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GTNHLib/pull/275\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.9.19...0.9.20\n",
           "prerelease": false,
@@ -103743,6 +103733,16 @@
           "filename": "gtnhlib-0.9.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/360138427",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.9.27/gtnhlib-0.9.27.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.28-pre",
+          "changelog": "## What's Changed\n* Prevent resizing the ClassConstantPoolParser during runtime by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.9.27...0.9.28-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-24T20:32:37+00:00",
+          "filename": "gtnhlib-0.9.28-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/361658635",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.9.28-pre/gtnhlib-0.9.28-pre.jar",
           "extra_assets": []
         },
         {
@@ -104823,6 +104823,16 @@
           "filename": "gtnhlib-0.11.56.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/701614336",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.56/gtnhlib-0.11.56.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.57",
+          "changelog": "## What's Changed\n* Add `ChatComponentBlockName` (#488) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/519\n* Accounting for Face Texture Rotation in Models (#458) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/520\n* Improve brigadier command error reporting (#493) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/521\n* Use Angelica/Celeritas AO when Angelica is present (#440) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/522\n* Fix dev crash due to flower pot mixin (#498) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/523\n* Fix inverted (==) meta comparison in GENERIC_ITEM_META_NBT_STRATEGY (#504) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/524\n* Fix issues with mapped blockstates values containing quotes (#491) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/525\n* Fix resource pack updater reading the real modpack version (#501) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/526\n* Fix slash prefixed brigadier commands on Thermos (#507) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/527\n* avoid item transfer work for full inventories (#506) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/528\n* Add API for custom block outlines (#492) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/529\n* DataFixerUpper (#477) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/530\n* feat(api): climbable block from side like a ladder (#510) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/531\n* Fix indices in numeric config tooltip range (#511) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/532\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.54...0.11.57\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T02:48:42+00:00",
+          "filename": "gtnhlib-0.11.57.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/765947467",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.57/gtnhlib-0.11.57.jar",
           "extra_assets": []
         },
         {
