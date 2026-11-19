@@ -120584,7 +120584,6 @@
           "filename": "InGameInfoXML-2.8.30.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/306147216",
           "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.30/InGameInfoXML-2.8.30.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/InGame-Info-XML/2.8.30/InGame-Info-XML-2.8.30.jar",
           "extra_assets": []
         },
         {
@@ -120678,6 +120677,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.9.9",
+          "changelog": "## What's Changed\n* Fix nextrain Off-Thread Warning (#47) by @boubou19 in https://github.com/GTNewHorizons/InGame-Info-XML/pull/49\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/49\n\n**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.10.0...2.9.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:10:51+00:00",
+          "filename": "InGameInfoXML-2.9.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/766168750",
+          "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.9.9/InGameInfoXML-2.9.9.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.10.0",
           "changelog": "## What's Changed\n* No Storm Countdown in Personal Dimensions w/ No Weather by @KyleAvalani in https://github.com/GTNewHorizons/InGame-Info-XML/pull/45\n\n## New Contributors\n* @KyleAvalani made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/45\n\n**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.9.7...2.10.0\n",
           "prerelease": false,
@@ -120698,7 +120707,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/InGame-Info-XML",
       "side": "BOTH"
     },
