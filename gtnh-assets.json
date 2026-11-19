@@ -65005,6 +65005,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.2.1",
+          "changelog": "## What's Changed\n* Update BS, Deps & CCC Compat (#4) by @boubou19 in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/6\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/6\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/compare/0.2.0...0.2.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T17:49:05+00:00",
+          "filename": "ForgeRelocationFMP-0.2.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocationFMP/releases/assets/768662516",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.2.1/ForgeRelocationFMP-0.2.1.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.3.0",
           "changelog": "## What's Changed\n* Update BS, Deps & CCC Compat by @UltraProdigy in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/4\n\n## New Contributors\n* @UltraProdigy made their first contribution in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/4\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/compare/0.2.0...0.3.0\n",
           "prerelease": false,
