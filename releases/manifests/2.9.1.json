@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T02:25:45.439785+00:00",
+  "last_updated": "2026-11-19T02:33:08.998332+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Freecam": {
-      "version": "1.0.12",
+      "version": "1.0.13",
       "side": "BOTH"
     },
     "MouseTweaks": {
