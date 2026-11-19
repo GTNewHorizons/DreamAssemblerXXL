@@ -33974,6 +33974,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.2.28-GTNH",
+          "changelog": "## What's Changed\n* Fix crash when unequipping non-Bauble item (#48) by @boubou19 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/59\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Baubles-Expanded/pull/59\n\n**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.2.27-GTNH...2.2.28-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T02:23:13+00:00",
+          "filename": "BaublesExpanded-2.2.28-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Baubles-Expanded/releases/assets/765878666",
+          "browser_download_url": "https://github.com/GTNewHorizons/Baubles-Expanded/releases/download/2.2.28-GTNH/BaublesExpanded-2.2.28-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.3.0-GTNH",
           "changelog": "## What's Changed\n* Fix crash when unequipping non-Bauble item by @wlhlm in https://github.com/GTNewHorizons/Baubles-Expanded/pull/48\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/Baubles-Expanded/pull/48\n\n**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.2.27-GTNH...2.3.0-GTNH\n",
           "prerelease": false,
