@@ -47549,6 +47549,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.4.24",
+          "changelog": "## What's Changed\n* Bound compressed packet decoding (#58) by @boubou19 in https://github.com/GTNewHorizons/CodeChickenCore/pull/59\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.23...1.4.24\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:24:13+00:00",
+          "filename": "CodeChickenCore-1.4.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/766042761",
+          "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.4.24/CodeChickenCore-1.4.24.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.5.0",
           "changelog": "## What's Changed\n* Deprecate index-based field selection by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/CodeChickenCore/pull/52\n\n## New Contributors\n* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/CodeChickenCore/pull/52\n\n**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.22...1.5.0\n",
           "prerelease": false,
@@ -47569,7 +47579,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/CodeChickenCore",
       "side": "BOTH"
     },
