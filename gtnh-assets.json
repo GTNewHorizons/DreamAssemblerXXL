@@ -171999,6 +171999,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.0.9",
+          "changelog": "## What's Changed\n* Add config option for biome size scaling (#3) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/24\n* Reduce tainted biome prevalence (#6) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/25\n* Revert \"Reduce tainted biome prevalence\" (#8) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/26\n* Changes to TF portal gen (#7) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/27\n* Port config to GTNHLib annotated config (#16) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/28\n* Fix some gradle commands being broken on windows (#17) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/29\n* [skip ci] docs: expand readme with features and world types (#19) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/30\n* Fix crashes without LootGames or with upstream Et Futurum (#15) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/31\n* Fix lava cave vent and DecoBigTree issues (#14) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/32\n* feat: add optional climate bands (#20) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/33\n* Add per-continent Tainted Land placement (#21) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/34\n* Keep one landmark per river junction and improve runPreview (#23) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/35\n* adjust rwg_data.dat filename to avoid conflict with RWG1 (#22) by @boubou19 in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/36\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.0.6...2.0.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T18:49:52+00:00",
+          "filename": "rwg2-2.0.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen-2/releases/assets/768853121",
+          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen-2/releases/download/2.0.9/rwg2-2.0.9.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.1.0",
           "changelog": "## What's Changed\n* Port config to GTNHLib annotated config by @Algent in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/16\n* Fix some gradle commands being broken on windows by @Algent in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/17\n* [skip ci] docs: expand readme with features and world types by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/19\n* Fix crashes without LootGames or with upstream Et Futurum by @Algent in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/15\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/Realistic-World-Gen-2/pull/19\n\n**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen-2/compare/2.0.8...2.1.0\n",
           "prerelease": false,
