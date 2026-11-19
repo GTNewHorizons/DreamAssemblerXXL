@@ -53774,7 +53774,6 @@
           "filename": "Draconic-Evolution-1.4.24-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/273792026",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.4.24-GTNH/Draconic-Evolution-1.4.24-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Draconic-Evolution/1.4.24-GTNH/Draconic-Evolution-1.4.24-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -53805,7 +53804,6 @@
           "filename": "Draconic-Evolution-1.4.27-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/295383884",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.4.27-GTNH/Draconic-Evolution-1.4.27-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Draconic-Evolution/1.4.27-GTNH/Draconic-Evolution-1.4.27-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -54166,6 +54164,16 @@
           "filename": "Draconic-Evolution-1.5.35-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/674599922",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.5.35-GTNH/Draconic-Evolution-1.5.35-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.36-GTNH",
+          "changelog": "## What's Changed\n* unset place item key by default (#118) by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/119\n* prevent dedicated server crash in Ender Resurrection when no players are nearby (#115) by @boubou19 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/120\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.5.35-GTNH...1.5.36-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T05:59:28+00:00",
+          "filename": "Draconic-Evolution-1.5.36-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/766450691",
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.5.36-GTNH/Draconic-Evolution-1.5.36-GTNH.jar",
           "extra_assets": []
         },
         {
