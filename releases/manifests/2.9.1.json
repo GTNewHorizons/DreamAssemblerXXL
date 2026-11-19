@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T04:01:55.481814+00:00",
+  "last_updated": "2026-11-19T04:16:50.020974+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.17",
+      "version": "1.5.19",
       "side": "BOTH"
     },
     "Galacticraft": {
