@@ -39668,7 +39668,16 @@
           "filename": "BlockLimiter-0.7.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockLimiter/releases/assets/176546516",
           "browser_download_url": "https://github.com/GTNewHorizons/BlockLimiter/releases/download/0.7.0/BlockLimiter-0.7.0.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/BlockLimiter/0.7.0/BlockLimiter-0.7.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.1",
+          "changelog": "## What's Changed\n* Avoid repeated debug formatting (#8) by @boubou19 in https://github.com/GTNewHorizons/BlockLimiter/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.7.0...0.7.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:32:32+00:00",
+          "filename": "BlockLimiter-0.7.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockLimiter/releases/assets/766067887",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockLimiter/releases/download/0.7.1/BlockLimiter-0.7.1.jar",
           "extra_assets": []
         },
         {
