@@ -123902,6 +123902,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.5.25",
+          "changelog": "## What's Changed\n* fix(render): ItemBlock lighting on barrel face (#56) by @boubou19 in https://github.com/GTNewHorizons/Jabba/pull/58\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.24...1.5.25\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:26:52+00:00",
+          "filename": "JABBA-1.5.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/766209312",
+          "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.5.25/JABBA-1.5.25.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.6.0",
           "changelog": "## What's Changed\n* Fix for dolly placing tanks above one another without checking for liquid type by @BoringDolphin312 in https://github.com/GTNewHorizons/Jabba/pull/55\n\n## New Contributors\n* @BoringDolphin312 made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/55\n\n**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.23...1.6.0\n",
           "prerelease": false,
