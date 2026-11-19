@@ -177409,7 +177409,6 @@
           "filename": "SpiceOfLife-2.2.2-carrot.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/274373885",
           "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.2-carrot/SpiceOfLife-2.2.2-carrot.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/SpiceOfLife/2.2.2-carrot/SpiceOfLife-2.2.2-carrot.jar",
           "extra_assets": []
         },
         {
@@ -177420,7 +177419,6 @@
           "filename": "SpiceOfLife-2.2.3-carrot.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/296697202",
           "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.3-carrot/SpiceOfLife-2.2.3-carrot.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/SpiceOfLife/2.2.3-carrot/SpiceOfLife-2.2.3-carrot.jar",
           "extra_assets": []
         },
         {
@@ -177501,6 +177499,16 @@
           "filename": "SpiceOfLife-2.2.12-carrot.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/653249217",
           "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.12-carrot/SpiceOfLife-2.2.12-carrot.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.13-carrot",
+          "changelog": "## What's Changed\n* Clear NEI tooltip cache when food tooltips switch at eaten threshold (#62) by @boubou19 in https://github.com/GTNewHorizons/SpiceOfLife/pull/63\n* Restrict config synchronization to clients (#60) by @boubou19 in https://github.com/GTNewHorizons/SpiceOfLife/pull/64\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.12-carrot...2.2.13-carrot\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T23:52:52+00:00",
+          "filename": "SpiceOfLife-2.2.13-carrot.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/769732665",
+          "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.2.13-carrot/SpiceOfLife-2.2.13-carrot.jar",
           "extra_assets": []
         },
         {

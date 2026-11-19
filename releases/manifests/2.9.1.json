@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T23:51:56.547842+00:00",
+  "last_updated": "2026-11-19T23:54:51.372362+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.2.12-carrot",
+      "version": "2.2.13-carrot",
       "side": "BOTH"
     },
     "Realistic-World-Gen-2": {
