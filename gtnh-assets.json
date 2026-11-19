@@ -163766,7 +163766,6 @@
           "filename": "nutrition-0.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/161698855",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.10/nutrition-0.0.10.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Nutrition/0.0.10/Nutrition-0.0.10.jar",
           "extra_assets": []
         },
         {
@@ -163777,7 +163776,6 @@
           "filename": "nutrition-0.0.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/195549891",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.11/nutrition-0.0.11.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Nutrition/0.0.11/Nutrition-0.0.11.jar",
           "extra_assets": []
         },
         {
@@ -163788,7 +163786,6 @@
           "filename": "nutrition-0.0.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/196476316",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.12/nutrition-0.0.12.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Nutrition/0.0.12/Nutrition-0.0.12.jar",
           "extra_assets": []
         },
         {
@@ -163799,7 +163796,6 @@
           "filename": "nutrition-0.0.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/206961988",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.0.13/nutrition-0.0.13.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Nutrition/0.0.13/Nutrition-0.0.13.jar",
           "extra_assets": []
         },
         {
@@ -163840,7 +163836,6 @@
           "filename": "nutrition-0.1.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/265842928",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/0.1.3/nutrition-0.1.3.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Nutrition/0.1.3/Nutrition-0.1.3.jar",
           "extra_assets": []
         },
         {
@@ -163931,6 +163926,16 @@
           "filename": "nutrition-1.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/498012573",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/1.0.1/nutrition-1.0.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.2",
+          "changelog": "## What's Changed\n* Render custom potion icons outside of GUI screens (#42) by @boubou19 in https://github.com/GTNewHorizons/Nutrition/pull/43\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/43\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/1.0.1...1.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:15:31+00:00",
+          "filename": "nutrition-1.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/766181190",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/1.0.2/nutrition-1.0.2.jar",
           "extra_assets": []
         },
         {
