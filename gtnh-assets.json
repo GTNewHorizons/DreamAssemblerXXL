@@ -194443,7 +194443,6 @@
           "filename": "TooMuchLoot-4.3.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TooMuchLoot/releases/assets/265842662",
           "browser_download_url": "https://github.com/GTNewHorizons/TooMuchLoot/releases/download/4.3.0-GTNH/TooMuchLoot-4.3.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/TooMuchLoot/4.3.0-GTNH/TooMuchLoot-4.3.0-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -194467,7 +194466,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/TooMuchLoot",
       "side": "BOTH"
     },
@@ -195746,7 +195745,6 @@
           "filename": "TwilightForest-2.7.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/265988889",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.8/TwilightForest-2.7.8.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/twilightforest/2.7.8/twilightforest-2.7.8.jar",
           "extra_assets": []
         },
         {
@@ -195757,6 +195755,16 @@
           "filename": "TwilightForest-2.7.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/281521136",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.9/TwilightForest-2.7.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.10-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.9...2.7.10-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-08-13T08:28:00+00:00",
+          "filename": "TwilightForest-2.7.10-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/282074885",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.10-pre/TwilightForest-2.7.10-pre.jar",
           "extra_assets": []
         },
         {
@@ -195787,7 +195795,6 @@
           "filename": "TwilightForest-2.7.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/295389090",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.13/TwilightForest-2.7.13.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/twilightforest/2.7.13/twilightforest-2.7.13.jar",
           "extra_assets": []
         },
         {
@@ -195828,6 +195835,16 @@
           "filename": "TwilightForest-2.7.17-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/349084834",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.17-pre/TwilightForest-2.7.17-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.18-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.17-pre...2.7.18-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-06T20:14:48+00:00",
+          "filename": "TwilightForest-2.7.18-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/351854964",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.18-pre/TwilightForest-2.7.18-pre.jar",
           "extra_assets": []
         },
         {
@@ -196098,6 +196115,16 @@
           "filename": "TwilightForest-2.7.45.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/643577030",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.45/TwilightForest-2.7.45.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.46",
+          "changelog": "## What's Changed\n* Fix allocation spam caused by ItemTFMagicMap#updateMapData (#167) by @Alexdoru in https://github.com/GTNewHorizons/twilightforest/pull/168\n* Add OreDict tags on TF wood slabs, stairs, doors, trapdoors (#26620) (#161) by @boubou19 in https://github.com/GTNewHorizons/twilightforest/pull/170\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.45...2.7.46\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:38:55+00:00",
+          "filename": "TwilightForest-2.7.46.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/766084588",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.46/TwilightForest-2.7.46.jar",
           "extra_assets": []
         },
         {

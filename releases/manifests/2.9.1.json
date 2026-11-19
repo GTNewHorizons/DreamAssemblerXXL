@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T03:40:42.942303+00:00",
+  "last_updated": "2026-11-19T03:41:43.014545+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.45",
+      "version": "2.7.46",
       "side": "BOTH"
     },
     "Universal-Singularities": {
