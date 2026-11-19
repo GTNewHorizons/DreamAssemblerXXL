@@ -52125,6 +52125,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.0.142",
+          "changelog": "## What's Changed\n* Cherrypick #304 into 2.9.x release by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/305\n* Fix out-of-pack BetterBuildersWand compat loading (#297) by @boubou19 in https://github.com/GTNewHorizons/CropsNH/pull/308\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.140...2.0.142\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:53:06+00:00",
+          "filename": "cropsnh-2.0.142.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CropsNH/releases/assets/766124809",
+          "browser_download_url": "https://github.com/GTNewHorizons/CropsNH/releases/download/2.0.142/cropsnh-2.0.142.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.1.0",
           "changelog": "## What's Changed\n* Fix out-of-pack BetterBuildersWand compat loading by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/297\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.140...2.1.0\n",
           "prerelease": false,
