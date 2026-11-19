@@ -116534,7 +116534,7 @@
         },
         {
           "version_tag": "2.7.26-pre",
-          "changelog": "## What's Changed\n* [Client Only/2.8.x] Add F3+Q and F3+D and F3+C; fix /cofh tpx logic by @SST-03 in https://github.com/GTNewHorizons/Hodgepodge/pull/670\n* Remove entities with invalid locations (#648) for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/Hodgepodge/pull/685\n* Port FalseTweak's fast item physics by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/631\n* fix CoFH world leak in main mod class by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/695\n\n## New Contributors\n* @UltraProdigy made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/685\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.24-pre...2.7.26-pre\n",
+          "changelog": "## What's Changed\r\n* [Client Only/2.8.x] Add F3+Q and F3+D and F3+C; fix /cofh tpx logic by @SST-03 in https://github.com/GTNewHorizons/Hodgepodge/pull/670\r\n* Remove entities with invalid locations (#648) for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/Hodgepodge/pull/685\r\n* Port FalseTweak's fast item physics by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/631\r\n* fix CoFH world leak in main mod class by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/695\r\n\r\n## New Contributors\r\n* @UltraProdigy made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/685\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.24-pre...2.7.26-pre\r\n",
           "prerelease": false,
           "tagged_at": "2025-12-11T20:18:16+00:00",
           "filename": "hodgepodge-2.7.26-pre.jar",
@@ -116580,6 +116580,16 @@
           "filename": "hodgepodge-2.7.30-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/332479087",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.30-pre/hodgepodge-2.7.30-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.31-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.30-pre...2.7.31-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-12-24T21:58:59+00:00",
+          "filename": "hodgepodge-2.7.31-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/332620819",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.31-pre/hodgepodge-2.7.31-pre.jar",
           "extra_assets": []
         },
         {
@@ -116753,6 +116763,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.7.50-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.49...2.7.50-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-24T18:51:04+00:00",
+          "filename": "hodgepodge-2.7.50-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/345335942",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.50-pre/hodgepodge-2.7.50-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.7.51",
           "changelog": "## What's Changed\n* fix NoSuchFileException during first server boot by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/716\n* AsyncNBTParser and PooledGzipInputStream by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/722\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.49...2.7.51\n",
           "prerelease": false,
@@ -116790,6 +116810,16 @@
           "filename": "hodgepodge-2.7.54.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/345649200",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.54/hodgepodge-2.7.54.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.55-pre",
+          "changelog": "## What's Changed\n* Disable lotr languagehelper by default by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/721\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.53-pre...2.7.55-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-25T13:51:18+00:00",
+          "filename": "hodgepodge-2.7.55-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/345649276",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.55-pre/hodgepodge-2.7.55-pre.jar",
           "extra_assets": []
         },
         {
@@ -116840,6 +116870,16 @@
           "filename": "hodgepodge-2.7.60.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/355347549",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.60/hodgepodge-2.7.60.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.61-pre",
+          "changelog": "## What's Changed\n* Localize Forge \"Mod Options...\" pause-menu button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Hodgepodge/pull/732\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/732\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.59-pre...2.7.61-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-13T13:19:49+00:00",
+          "filename": "hodgepodge-2.7.61-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/355357409",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.61-pre/hodgepodge-2.7.61-pre.jar",
           "extra_assets": []
         },
         {
@@ -117250,6 +117290,16 @@
           "filename": "hodgepodge-2.7.102.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/374031199",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.102/hodgepodge-2.7.102.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.103-pre",
+          "changelog": "## What's Changed\n* Add budget-based chunk generation scheduler with deferred population pipeline by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/784\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.101-pre...2.7.103-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-03-15T12:36:34+00:00",
+          "filename": "hodgepodge-2.7.103-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/374307685",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.103-pre/hodgepodge-2.7.103-pre.jar",
           "extra_assets": []
         },
         {
@@ -118263,6 +118313,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.7.205-pre",
+          "changelog": "## What's Changed\n* Add a packetstats command by @kurrycat2004 in https://github.com/GTNewHorizons/Hodgepodge/pull/1003\n* Add option to limit received packet processing by time by @kurrycat2004 in https://github.com/GTNewHorizons/Hodgepodge/pull/1004\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.203...2.7.205-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-09-12T21:09:57+00:00",
+          "filename": "hodgepodge-2.7.205-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/559962042",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.205-pre/hodgepodge-2.7.205-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.7.206",
           "changelog": "## What's Changed\n* Mark the Bibliocraft Armor Stand as dirty when the inventory changes by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/1005\n* Fix Furnace doesn't save current item burn time to NBT by @Faotik in https://github.com/GTNewHorizons/Hodgepodge/pull/1001\n\n## New Contributors\n* @Faotik made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/1001\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.204...2.7.206\n",
           "prerelease": false,
@@ -118430,6 +118490,16 @@
           "filename": "hodgepodge-2.7.222.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/696681740",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.222/hodgepodge-2.7.222.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.223",
+          "changelog": "## What's Changed\n* Fix WorldServer leak - Enable MixinBlockRedstoneTorch with BugTorch (#1042) by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/1054\n* Disable ThreadedFileIOBase sleep optimization on Thermos/Crucible. by @paulzzh in https://github.com/GTNewHorizons/Hodgepodge/pull/1059\n* Fix end transition leaving a ghost player (#1027) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1063\n* Fix structures and trees cut off at chunk edges during chunk gen throttling (#1040) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1064\n* Fix log test temp dir cleanup on Windows (#1050) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1065\n* Fix division sigil activation ritual on Thermos/Crucible (#1029) by @paulzzh in https://github.com/GTNewHorizons/Hodgepodge/pull/1058\n* Fix EntityArrow forgetting its owner upon owner reloading (#1045) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1066\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.221...2.7.223\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T06:20:33+00:00",
+          "filename": "hodgepodge-2.7.223.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/766507667",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.223/hodgepodge-2.7.223.jar",
           "extra_assets": []
         },
         {
