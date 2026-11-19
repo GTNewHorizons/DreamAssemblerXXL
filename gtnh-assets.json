@@ -67851,7 +67851,6 @@
           "filename": "gendustry-1.9.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/gendustry/releases/assets/273911163",
           "browser_download_url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.9.4-GTNH/gendustry-1.9.4-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/gendustry/1.9.4-GTNH/gendustry-1.9.4-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -67942,6 +67941,16 @@
           "filename": "gendustry-1.9.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/gendustry/releases/assets/522333689",
           "browser_download_url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.9.13-GTNH/gendustry-1.9.13-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.14-GTNH",
+          "changelog": "## What's Changed\n* Edit lifespan changes health too (#27) by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.9.13-GTNH...1.9.14-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:10:17+00:00",
+          "filename": "gendustry-1.9.14-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/gendustry/releases/assets/766167458",
+          "browser_download_url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.9.14-GTNH/gendustry-1.9.14-GTNH.jar",
           "extra_assets": []
         },
         {
