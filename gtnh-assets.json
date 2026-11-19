@@ -48659,7 +48659,6 @@
           "filename": "coretweaks-0.3.3.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CoreTweaks/releases/assets/268389431",
           "browser_download_url": "https://github.com/GTNewHorizons/CoreTweaks/releases/download/0.3.3.6-GTNH/coretweaks-0.3.3.6-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/CoreTweaks/0.3.3.6-GTNH/CoreTweaks-0.3.3.6-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -48763,6 +48762,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.3.4.8-GTNH",
+          "changelog": "## What's Changed\n* Intern strings of the JarDiscovery cache (#16) by @boubou19 in https://github.com/GTNewHorizons/CoreTweaks/pull/20\n* Fix missing @Final annotation on Minecraft logger shadow (#19) by @boubou19 in https://github.com/GTNewHorizons/CoreTweaks/pull/21\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/CoreTweaks/pull/20\n\n**Full Changelog**: https://github.com/GTNewHorizons/CoreTweaks/compare/0.3.5.0-GTNH...0.3.4.8-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:29:50+00:00",
+          "filename": "coretweaks-0.3.4.8-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CoreTweaks/releases/assets/766216572",
+          "browser_download_url": "https://github.com/GTNewHorizons/CoreTweaks/releases/download/0.3.4.8-GTNH/coretweaks-0.3.4.8-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.3.5.0-GTNH",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/CoreTweaks/compare/0.3.4.7-GTNH...0.3.5.0-GTNH\n",
           "prerelease": false,
@@ -48793,7 +48802,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/CoreTweaks",
       "side": "BOTH"
     },
