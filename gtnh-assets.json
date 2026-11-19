@@ -111079,6 +111079,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.12.30-GTNH",
+          "changelog": "## What's Changed\n* unset key by default (#54) by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/57\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.29-GTNH...1.12.30-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:12:34+00:00",
+          "filename": "HardcoreEnderExpansion-1.12.30-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/766173302",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.12.30-GTNH/HardcoreEnderExpansion-1.12.30-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.14.0-GTNH",
           "changelog": "## What's Changed\n* Create the hee directory when it's not exist by @Ressed in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/50\n\n## New Contributors\n* @Ressed made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/50\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.28-GTNH...1.14.0-GTNH\n",
           "prerelease": false,
