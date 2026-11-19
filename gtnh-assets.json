@@ -161736,7 +161736,6 @@
           "filename": "NotEnoughItems-2.8.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/305855351",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.19-GTNH/NotEnoughItems-2.8.19-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/NotEnoughItems/2.8.19-GTNH/NotEnoughItems-2.8.19-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -161840,6 +161839,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.8.30-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.29-GTNH-pre...2.8.30-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-11-04T21:40:14+00:00",
+          "filename": "NotEnoughItems-2.8.30-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/312562358",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.30-GTNH-pre/NotEnoughItems-2.8.30-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.8.31-GTNH",
           "changelog": "## What's Changed\n* Change item slot size in GuiRecipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/789\n* Fixed small mouse movement while double-clicking causing drop all items by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/793\n* Fix favorite state refresh by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/787\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.26-GTNH...2.8.31-GTNH\n",
           "prerelease": false,
@@ -161867,6 +161876,16 @@
           "filename": "NotEnoughItems-2.8.33-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/313804229",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.33-GTNH/NotEnoughItems-2.8.33-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.34-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.33-GTNH...2.8.34-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-11-07T17:39:41+00:00",
+          "filename": "NotEnoughItems-2.8.34-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/313805196",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.34-GTNH-pre/NotEnoughItems-2.8.34-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -162150,6 +162169,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.8.64-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.63-GTNH...2.8.64-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-08T21:36:20+00:00",
+          "filename": "NotEnoughItems-2.8.64-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/352748031",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.64-GTNH-pre/NotEnoughItems-2.8.64-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.8.65-GTNH",
           "changelog": "## What's Changed\n* Align panels from center to edges by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/856\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.63-GTNH...2.8.65-GTNH\n",
           "prerelease": false,
@@ -162157,6 +162186,16 @@
           "filename": "NotEnoughItems-2.8.65-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/353245087",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.65-GTNH/NotEnoughItems-2.8.65-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.66-GTNH-pre",
+          "changelog": "## What's Changed\n* Align panels from center to edges by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/856\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.64-GTNH-pre...2.8.66-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-09T21:20:53+00:00",
+          "filename": "NotEnoughItems-2.8.66-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/353245235",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.66-GTNH-pre/NotEnoughItems-2.8.66-GTNH-pre.jar",
           "extra_assets": []
         },
         {
