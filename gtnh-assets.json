@@ -204136,6 +204136,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.8.15-GTNH-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch patch-LabelLibrary for #105 by @github-actions[bot] in https://github.com/GTNewHorizons/WitchingGadgets/pull/106\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.14-GTNH...1.8.15-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-12-28T17:22:31+00:00",
+          "filename": "WitchingGadgets-1.8.15-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/333807507",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.15-GTNH-pre/WitchingGadgets-1.8.15-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.8.16-GTNH",
           "changelog": "## What's Changed\n* TileEntityLabelLibrary add proper isItemValidForSlot check by @PLASMAchicken in https://github.com/GTNewHorizons/WitchingGadgets/pull/105\n\n## New Contributors\n* @PLASMAchicken made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/105\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.14-GTNH...1.8.16-GTNH\n",
           "prerelease": false,
@@ -204293,6 +204303,16 @@
           "filename": "WitchingGadgets-1.8.31-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/353571365",
           "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.31-GTNH-pre/WitchingGadgets-1.8.31-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.32-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.31-GTNH-pre...1.8.32-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-13T13:50:12+00:00",
+          "filename": "WitchingGadgets-1.8.32-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/355369602",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.32-GTNH-pre/WitchingGadgets-1.8.32-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -204503,6 +204523,16 @@
           "filename": "WitchingGadgets-1.8.53-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/695023014",
           "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.53-GTNH/WitchingGadgets-1.8.53-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.54-GTNH",
+          "changelog": "## What's Changed\n* Make primordial armor unbreakable (#146) by @boubou19 in https://github.com/GTNewHorizons/WitchingGadgets/pull/147\n* Simplify Hungry Bag event handler (#145) by @boubou19 in https://github.com/GTNewHorizons/WitchingGadgets/pull/148\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.8.53-GTNH...1.8.54-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T21:44:44+00:00",
+          "filename": "WitchingGadgets-1.8.54-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/769380241",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.8.54-GTNH/WitchingGadgets-1.8.54-GTNH.jar",
           "extra_assets": []
         },
         {
