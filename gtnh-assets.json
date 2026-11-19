@@ -61977,7 +61977,6 @@
           "filename": "Forbidden.Magic-0.8.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/306197143",
           "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.8.4-GTNH/Forbidden.Magic-0.8.4-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ForbiddenMagic/0.8.4-GTNH/ForbiddenMagic-0.8.4-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -62178,6 +62177,16 @@
           "filename": "Forbidden.Magic-0.9.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/701088495",
           "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.9.19-GTNH/Forbidden.Magic-0.9.19-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.20-GTNH",
+          "changelog": "## What's Changed\n* Cincture of Consumption (#30) by @boubou19 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/34\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/34\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.9.18-GTNH...0.9.20-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T03:56:05+00:00",
+          "filename": "Forbidden.Magic-0.9.20-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/766132129",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.9.20-GTNH/Forbidden.Magic-0.9.20-GTNH.jar",
           "extra_assets": []
         },
         {
