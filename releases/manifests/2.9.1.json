@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T04:51:34.849045+00:00",
+  "last_updated": "2026-11-19T04:53:07.287742+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "side": "CLIENT"
     },
     "PersonalSpace": {
