@@ -55569,7 +55569,6 @@
           "filename": "EMT-1.6.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/306200060",
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.6.18/EMT-1.6.18.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/Electro-Magic-Tools/1.6.18/Electro-Magic-Tools-1.6.18.jar",
           "extra_assets": []
         },
         {
@@ -55590,6 +55589,26 @@
           "filename": "EMT-1.7.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/310517447",
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.1/EMT-1.7.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.2-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.0...1.7.2-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-10-30T12:50:14+00:00",
+          "filename": "EMT-1.7.2-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/310517572",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.2-pre/EMT-1.7.2-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.3-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.2-pre...1.7.3-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-10-31T12:55:11+00:00",
+          "filename": "EMT-1.7.3-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/310934880",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.3-pre/EMT-1.7.3-pre.jar",
           "extra_assets": []
         },
         {
@@ -55663,6 +55682,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.7.11-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.10-pre...1.7.11-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-05T18:05:04+00:00",
+          "filename": "EMT-1.7.11-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/336639713",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.11-pre/EMT-1.7.11-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.7.12",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.8...1.7.12\n",
           "prerelease": false,
@@ -55670,6 +55699,16 @@
           "filename": "EMT-1.7.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/336669639",
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.12/EMT-1.7.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.13-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.11-pre...1.7.13-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-05T19:52:03+00:00",
+          "filename": "EMT-1.7.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/336669937",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.13-pre/EMT-1.7.13-pre.jar",
           "extra_assets": []
         },
         {
@@ -55790,6 +55829,16 @@
           "filename": "EMT-1.7.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/509146032",
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.25/EMT-1.7.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.26",
+          "changelog": "## What's Changed\n* Fix wrong keys in lang file (#126) by @boubou19 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/127\n* Remove inert EMTDungeonChestGenerator (#123) by @boubou19 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/128\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.7.25...1.7.26\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T06:02:17+00:00",
+          "filename": "EMT-1.7.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/766457970",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.7.26/EMT-1.7.26.jar",
           "extra_assets": []
         },
         {
