@@ -110606,6 +110606,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.3.57",
+          "changelog": "## What's Changed\n* fix numeric list markdown by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/124\n* fix text annotation conditions by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/127\n* fix template parameters in html tables by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/131\n* fix gamescene gt pipe connections by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/141\n* move bq integration methods (#122) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/144\n* Mermaid flowchart fixes for nodecontents (#132) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/145\n* Add guide button to ServerUtilities Sidebar (#133) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/146\n* Add rainbow annotations (#135) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/147\n* Wrap long file tree entries in narrow guides (#138) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/148\n* Show hover value guides and pie inset tooltips in charts (#136) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/149\n* Add reference lines and sparse grid to charts (#137) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/150\n* Add native fluid support (#139) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/151\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.3.57\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T05:17:10+00:00",
+          "filename": "guidenh-1.3.57.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/766337823",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.57/guidenh-1.3.57.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.4.0",
           "changelog": "## What's Changed\n* move bq integration methods by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/122\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.4.0\n",
           "prerelease": false,
