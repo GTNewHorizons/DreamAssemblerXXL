@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-19T04:29:48.020633+00:00",
+  "last_updated": "2026-11-19T04:30:23.085289+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.36",
+      "version": "9.17.37",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
