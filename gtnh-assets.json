@@ -39609,6 +39609,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.6.52",
+          "changelog": "## What's Changed\n* Edit lifespan changes health too (#122) by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/127\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.51...2.6.52\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T04:53:17+00:00",
+          "filename": "binnie-mods-2.6.52.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/766275406",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.6.52/binnie-mods-2.6.52.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.7.0",
           "changelog": "## What's Changed\n* Edit lifespan changes health too by @MarloGr in https://github.com/GTNewHorizons/Binnie/pull/122\n\n## New Contributors\n* @MarloGr made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/122\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.6.51...2.7.0\n",
           "prerelease": false,
