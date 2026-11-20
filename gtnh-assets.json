@@ -143676,7 +143676,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.10.12",
+      "latest_version": "2.10.13",
       "private": false,
       "versions": [
         {
@@ -156270,6 +156270,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.9.104",
+          "changelog": "## What's Changed\n* Align transposer fluid regulator tiers with pump covers (#1974) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2035\n* Fix Bioware Assembly Using Wrong WIres (#2018) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2036\n* ZPIC recipe change to use glueball (#1897) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2037\n* [IC2 Deprecated] Removed IC2 plutonium (#2015) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2038\n* [IC2 Deprecation] Replace IC2 Industrial Credits with GT Copper Credits (#2009) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2039\n* Allow all HV circuits when crafting Data Orb (#2020) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2040\n* Fix ZPIC particle usage (#2023) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2041\n* [IC2 Deprecation] removed uranium leftovers (#2025) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2042\n* Fix call NEI in server (#2026) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2043\n* remove g8 water from magmatter frame box NAC recipes (#2027) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2044\n* Fix Powderbarrel & Fuse Assembler Recipe Conflict (#2029) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2045\n* Fix/27211 tank cart uncrafting recipe (#2028) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2046\n* Remove redundant MV assembler recipe for Crafting Co-Processing Unit (#2030) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2047\n* Fix burn damage bypass in cosmetic armor slots (#2032) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2048\n* Cache the cosmetic armor mod check (#2033) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2049\n* Remove duplicate BartWorks bio-name translations (#2017) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2050\n* Allow charged SpaceSuit armor pieces in Infinity Armor recipes (#2021) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2051\n* Recipes for GT5-Unofficial#6429 (#1714) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2052\n* Quantum Anomaly Recipe Adjust (#2002) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2053\n* ForestryHoney->Sugar Recipe Quick Fix (#2022) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2054\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.99...2.9.104\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T18:40:55+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.104.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/772927382",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.104/GTNewHorizonsCoreMod-2.9.104.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.10.0",
           "changelog": "## What's Changed\n* Allow all HV circuits when crafting Data Orb by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2020\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.102...2.10.0\n",
           "prerelease": false,
@@ -156397,6 +156407,16 @@
           "filename": "GTNewHorizonsCoreMod-2.10.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/763302992",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.10.12/GTNewHorizonsCoreMod-2.10.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.13",
+          "changelog": "## What's Changed\n* adapt to quad-cell plasma collider changes by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1937\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.10.12...2.10.13\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:37:02+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.10.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/772543144",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.10.13/GTNewHorizonsCoreMod-2.10.13.jar",
           "extra_assets": []
         }
       ],
