@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-20T18:46:29.214868+00:00",
+  "last_updated": "2026-11-20T18:49:23.862609+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -805,7 +805,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.0.40-GTNH",
+      "version": "1.0.41-GTNH",
       "side": "CLIENT"
     },
     "ThaumicMachina": {
