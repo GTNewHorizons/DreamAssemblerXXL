@@ -165070,6 +165070,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.12.24-GTNH",
+          "changelog": "## What's Changed\n* Make Elevators more consistent w/ high jump-boost (#71) by @N0t-Brian in https://github.com/GTNewHorizons/OpenBlocks/pull/76\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.23-GTNH...1.12.24-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T21:26:45+00:00",
+          "filename": "OpenBlocks-1.12.24-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/773400163",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.24-GTNH/OpenBlocks-1.12.24-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.13.0-GTNH",
           "changelog": "## What's Changed\n* Ignore grave interactions from a dead player by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/66\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.21-GTNH...1.13.0-GTNH\n",
           "prerelease": false,
