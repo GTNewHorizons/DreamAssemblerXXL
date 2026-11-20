@@ -1,11 +1,11 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-19T12:47:36.092602+00:00",
-  "config": "2.10.0-nightly-2026-11-19",
+  "last_updated": "2026-11-20T16:51:10.947351+00:00",
+  "config": "2.10.0-nightly-2026-11-19-02",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.5.0-GTNH",
+      "version": "1.5.1-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.26",
+      "version": "5.09.55.30",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.12.9",
+      "version": "0.12.10",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.10.1",
+      "version": "2.10.2",
       "side": "BOTH"
     },
     "ironchest": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.11.1-GTNH",
+      "version": "2.11.2-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.10.12",
+      "version": "2.10.13",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.10-GTNH",
+      "version": "2.9.12-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -409,7 +409,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.13.0-GTNH",
+      "version": "1.13.1-GTNH",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.8.2",
+      "version": "2.8.3",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.20.1",
+      "version": "1.20.2",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.6.1-GTNH",
+      "version": "1.6.2-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.8.0",
+      "version": "2.8.1",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -785,7 +785,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.1.4-GTNH",
+      "version": "1.1.5-GTNH",
       "side": "CLIENT"
     },
     "ThaumicMachina": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "JarJar": {
-      "version": "0.4.0-beta",
+      "version": "0.4.1-beta",
       "side": "BOTH"
     },
     "NoHotbarNeeded": {
@@ -833,11 +833,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-NH": {
-      "version": "1.0.7",
+      "version": "1.0.9",
       "side": "BOTH"
     },
     "Dashboard": {
-      "version": "1.0.22",
+      "version": "1.0.23",
       "side": "CLIENT"
     },
     "TaskNH": {
@@ -849,7 +849,7 @@
       "side": "CLIENT"
     },
     "Tempora": {
-      "version": "1.0.3",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "BetterP2P": {
@@ -857,11 +857,11 @@
       "side": "BOTH"
     },
     "Nei-Recipe-Panels": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "side": "BOTH"
     },
     "LiquidLogged": {
-      "version": "0.2.4",
+      "version": "0.2.5",
       "side": "BOTH"
     }
   },

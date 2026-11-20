@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-18T18:49:03.002354+00:00",
-  "config": "2.10.0-nightly-2026-11-18-02",
+  "last_updated": "2026-11-19T12:47:36.092602+00:00",
+  "config": "2.10.0-nightly-2026-11-19",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.5.0-GTNH",
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.25",
+      "version": "5.09.55.26",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.12.8",
+      "version": "0.12.9",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.13.3-GTNH",
+      "version": "1.13.4-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.4.7",
+      "version": "1.4.8",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-NH": {
-      "version": "1.0.6",
+      "version": "1.0.7",
       "side": "BOTH"
     },
     "Dashboard": {
@@ -841,7 +841,7 @@
       "side": "CLIENT"
     },
     "TaskNH": {
-      "version": "0.15.1",
+      "version": "0.15.2",
       "side": "BOTH"
     },
     "PlanNH": {
