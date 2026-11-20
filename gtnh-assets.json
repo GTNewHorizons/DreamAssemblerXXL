@@ -45417,6 +45417,7 @@
     {
       "name": "Chisel",
       "latest_version": "2.18.1-GTNH",
+      "needs_attention": false,
       "private": false,
       "versions": [
         {
@@ -46347,6 +46348,16 @@
           "filename": "chisel-2.17.35-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/766286232",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.17.35-GTNH/chisel-2.17.35-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.17.36-GTNH",
+          "changelog": "## What's Changed\n* lots of building blocks + a large backport of architect's palette content (#95) by @boubou19 in https://github.com/GTNewHorizons/Chisel/pull/112\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.35-GTNH...2.17.36-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T21:23:59+00:00",
+          "filename": "chisel-2.17.36-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/773393003",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.17.36-GTNH/chisel-2.17.36-GTNH.jar",
           "extra_assets": []
         },
         {
