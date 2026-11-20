@@ -195345,7 +195345,7 @@
     },
     {
       "name": "twilightforest",
-      "latest_version": "2.8.2",
+      "latest_version": "2.8.3",
       "private": false,
       "versions": [
         {
@@ -196609,6 +196609,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.7.47",
+          "changelog": "## What's Changed\n* Speed up progression weather and render it instanced with Angelica (#169) by @boubou19 in https://github.com/GTNewHorizons/twilightforest/pull/171\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.46...2.7.47\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:25:37+00:00",
+          "filename": "TwilightForest-2.7.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/773713819",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.7.47/TwilightForest-2.7.47.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.8.0",
           "changelog": "## What's Changed\n* Fix miswritten mod id for Baubles by @Ressed in https://github.com/GTNewHorizons/twilightforest/pull/166\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.44...2.8.0\n",
           "prerelease": false,
@@ -196636,6 +196646,16 @@
           "filename": "TwilightForest-2.8.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/762270600",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.8.2/TwilightForest-2.8.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.3",
+          "changelog": "## What's Changed\n* Speed up progression weather and render it instanced with Angelica by @mitchej123 in https://github.com/GTNewHorizons/twilightforest/pull/169\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.8.2...2.8.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:38:16+00:00",
+          "filename": "TwilightForest-2.8.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/772547373",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.8.3/TwilightForest-2.8.3.jar",
           "extra_assets": []
         }
       ],
