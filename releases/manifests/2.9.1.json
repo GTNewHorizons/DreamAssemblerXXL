@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-20T23:54:35.266600+00:00",
+  "last_updated": "2026-11-20T23:55:20.428322+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -109,7 +109,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.36-GTNH",
+      "version": "2.17.37-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {

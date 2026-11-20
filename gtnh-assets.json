@@ -46361,6 +46361,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.17.37-GTNH",
+          "changelog": "## What's Changed\n* fix world client leak in TileEntityAutoChisel (#110) by @boubou19 in https://github.com/GTNewHorizons/Chisel/pull/113\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.36-GTNH...2.17.37-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:39:19+00:00",
+          "filename": "chisel-2.17.37-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/773746393",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.17.37-GTNH/chisel-2.17.37-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.18.0-GTNH",
           "changelog": "## What's Changed\n* Fix Matter Manipulator copying chiseled glowstone by @DreamYao520 in https://github.com/GTNewHorizons/Chisel/pull/106\n\n## New Contributors\n* @DreamYao520 made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/106\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.33-GTNH...2.18.0-GTNH\n",
           "prerelease": false,
