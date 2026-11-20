@@ -164460,7 +164460,6 @@
           "filename": "OpenBlocks-1.9.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/145297750",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.9.1-GTNH/OpenBlocks-1.9.1-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OpenBlocks/1.9.1-GTNH/OpenBlocks-1.9.1-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -164471,7 +164470,6 @@
           "filename": "OpenBlocks-1.10.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/176563946",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.10.0-GTNH/OpenBlocks-1.10.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OpenBlocks/1.10.0-GTNH/OpenBlocks-1.10.0-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -164482,7 +164480,6 @@
           "filename": "OpenBlocks-1.10.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/189191391",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.10.1-GTNH/OpenBlocks-1.10.1-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OpenBlocks/1.10.1-GTNH/OpenBlocks-1.10.1-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -164493,7 +164490,6 @@
           "filename": "OpenBlocks-1.10.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/196476405",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.10.2-GTNH/OpenBlocks-1.10.2-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OpenBlocks/1.10.2-GTNH/OpenBlocks-1.10.2-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -164504,7 +164500,6 @@
           "filename": "OpenBlocks-1.11.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/217393035",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.11.0-GTNH/OpenBlocks-1.11.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OpenBlocks/1.11.0-GTNH/OpenBlocks-1.11.0-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -164575,7 +164570,6 @@
           "filename": "OpenBlocks-1.11.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/273910882",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.11.7-GTNH/OpenBlocks-1.11.7-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/OpenBlocks/1.11.7-GTNH/OpenBlocks-1.11.7-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -164596,6 +164590,16 @@
           "filename": "OpenBlocks-1.12.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/308582200",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.1-GTNH/OpenBlocks-1.12.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.2-GTNH-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch fix-cme-glider for #35 by @github-actions[bot] in https://github.com/GTNewHorizons/OpenBlocks/pull/36\n* Spotless apply for branch fix-cme-glider for #35 by @github-actions[bot] in https://github.com/GTNewHorizons/OpenBlocks/pull/37\n\n## New Contributors\n* @github-actions[bot] made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/36\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.1-GTNH...1.12.2-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2025-10-25T14:50:19+00:00",
+          "filename": "OpenBlocks-1.12.2-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/308587934",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.2-GTNH-pre/OpenBlocks-1.12.2-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -164799,6 +164803,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.12.23-GTNH",
+          "changelog": "## What's Changed\n* fix: keep Builder Guide and Cannon animations client-side (#70) by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/73\n* Fix hang glider rendering black under a ceiling (#69) by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/74\n* Protect some calls that lead to loadChunk with blockExists (#30) by @boubou19 in https://github.com/GTNewHorizons/OpenBlocks/pull/75\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.22-GTNH...1.12.23-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T00:08:25+00:00",
+          "filename": "OpenBlocks-1.12.23-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/769770778",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.12.23-GTNH/OpenBlocks-1.12.23-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.13.0-GTNH",
           "changelog": "## What's Changed\n* Ignore grave interactions from a dead player by @Eldrinn-Elantey in https://github.com/GTNewHorizons/OpenBlocks/pull/66\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.12.21-GTNH...1.13.0-GTNH\n",
           "prerelease": false,
@@ -164849,7 +164863,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/OpenBlocks",
       "side": "BOTH"
     },
