@@ -102239,7 +102239,7 @@
     },
     {
       "name": "GTNHLib",
-      "latest_version": "0.12.8",
+      "latest_version": "0.12.10",
       "private": false,
       "versions": [
         {
@@ -105283,6 +105283,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.11.58",
+          "changelog": "## What's Changed\n* Support translucent render_type and fix multipart blockstates (#494) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/535\n* Reset scroll when switching views (#421) by @boubou19 in https://github.com/GTNewHorizons/GTNHLib/pull/536\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.57...0.11.58\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T21:25:15+00:00",
+          "filename": "gtnhlib-0.11.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/773396197",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.11.58/gtnhlib-0.11.58.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.12.0",
           "changelog": "## What's Changed\n* Improve brigadier command error reporting by @Algent in https://github.com/GTNewHorizons/GTNHLib/pull/493\n* Use Angelica/Celeritas AO when Angelica is present by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/440\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.11.56...0.12.0\n",
           "prerelease": false,
@@ -105370,6 +105380,26 @@
           "filename": "gtnhlib-0.12.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/764188130",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.8/gtnhlib-0.12.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.12.9",
+          "changelog": "## What's Changed\n* Support translucent render_type and fix multipart blockstates by @Armisael5 in https://github.com/GTNewHorizons/GTNHLib/pull/494\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.12.8...0.12.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T08:29:18+00:00",
+          "filename": "gtnhlib-0.12.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/766870599",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.9/gtnhlib-0.12.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.12.10",
+          "changelog": "## What's Changed\n* Reset scroll when switching views by @cubefury in https://github.com/GTNewHorizons/GTNHLib/pull/421\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.12.9...0.12.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:37:15+00:00",
+          "filename": "gtnhlib-0.12.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/772543852",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.12.10/gtnhlib-0.12.10.jar",
           "extra_assets": []
         }
       ],
