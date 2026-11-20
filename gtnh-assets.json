@@ -118592,6 +118592,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.7.224",
+          "changelog": "## What's Changed\n* Fix world client leak in extra utilities block renderers (#1056) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1068\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.223...2.7.224\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:38:41+00:00",
+          "filename": "hodgepodge-2.7.224.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/773744659",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.224/hodgepodge-2.7.224.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.8.0",
           "changelog": "## What's Changed\n* Fix structures and trees cut off at chunk edges during chunk gen throttling by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/1040\n* Fix WorldServer leak - Enable MixinBlockRedstoneTorch with BugTorch by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/1042\n* Fix F3+Q crash by @Armisael5 in https://github.com/GTNewHorizons/Hodgepodge/pull/1046\n* Include Release Branches in Build and Test Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Hodgepodge/pull/1049\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.222...2.8.0\n",
           "prerelease": false,
