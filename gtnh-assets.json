@@ -156491,6 +156491,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.9.105",
+          "changelog": "## What's Changed\n* Add assembler recipes for the new ender fluid conduit tiers (#1973) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2055\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.104...2.9.105\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:25:16+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.105.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/773713055",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.105/GTNewHorizonsCoreMod-2.9.105.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.10.0",
           "changelog": "## What's Changed\n* Allow all HV circuits when crafting Data Orb by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2020\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.102...2.10.0\n",
           "prerelease": false,
