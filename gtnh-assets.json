@@ -169032,7 +169032,6 @@
           "filename": "ProjectBlue-1.2.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/145298698",
           "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.2.0-GTNH/ProjectBlue-1.2.0-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ProjectBlue/1.2.0-GTNH/ProjectBlue-1.2.0-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -169043,7 +169042,6 @@
           "filename": "ProjectBlue-1.2.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/295386285",
           "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.2.1-GTNH/ProjectBlue-1.2.1-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ProjectBlue/1.2.1-GTNH/ProjectBlue-1.2.1-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -169134,6 +169132,16 @@
           "filename": "ProjectBlue-1.2.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/609361355",
           "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.2.11-GTNH/ProjectBlue-1.2.11-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.12-GTNH",
+          "changelog": "## What's Changed\n* fix world client leaks in ControlPanelRenderer (#11) by @boubou19 in https://github.com/GTNewHorizons/ProjectBlue/pull/13\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/ProjectBlue/pull/13\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.2.11-GTNH...1.2.12-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:41:37+00:00",
+          "filename": "ProjectBlue-1.2.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/773752006",
+          "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.2.12-GTNH/ProjectBlue-1.2.12-GTNH.jar",
           "extra_assets": []
         },
         {

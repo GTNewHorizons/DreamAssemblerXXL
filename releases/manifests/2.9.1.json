@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-20T23:56:26.124260+00:00",
+  "last_updated": "2026-11-20T23:56:59.862046+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "ProjectBlue": {
-      "version": "1.2.11-GTNH",
+      "version": "1.2.12-GTNH",
       "side": "BOTH"
     },
     "ProjectRed": {
