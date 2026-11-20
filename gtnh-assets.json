@@ -163394,6 +163394,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.8.175-GTNH",
+          "changelog": "## What's Changed\n* Change layout recalculation order (#1125) by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1147\n* Less hacky fix for light opacity 0 blocks (#1124) by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1148\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.174-GTNH...2.8.175-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T21:26:03+00:00",
+          "filename": "NotEnoughItems-2.8.175-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/773398104",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.175-GTNH/NotEnoughItems-2.8.175-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.9.0-GTNH",
           "changelog": "## What's Changed\n* Remove per-world config override by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1094\n* Fix ConcurrentModificationException when iterating the crafting recipe list by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1103\n* Stop auto-creating NEI config files, add export buttons instead by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1104\n* Add getResultStacks/getAuxiliaryStacks to IRecipeHandler by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1105\n* Move RecipeTransferRectHandler out of TemplateRecipeHandler and tidy up PositionedStack by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1106\n* Remove creative tab style option for recipe tabs by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1107\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.173-GTNH...2.9.0-GTNH\n",
           "prerelease": false,
