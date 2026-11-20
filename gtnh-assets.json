@@ -111642,6 +111642,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.12.31-GTNH",
+          "changelog": "## What's Changed\n* Fix world client leak in RenderTileEssenceAltar by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/55\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.14.1-GTNH...1.12.31-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:42:54+00:00",
+          "filename": "HardcoreEnderExpansion-1.12.31-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/773755288",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.12.31-GTNH/HardcoreEnderExpansion-1.12.31-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.14.0-GTNH",
           "changelog": "## What's Changed\n* Create the hee directory when it's not exist by @Ressed in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/50\n\n## New Contributors\n* @Ressed made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/50\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.28-GTNH...1.14.0-GTNH\n",
           "prerelease": false,

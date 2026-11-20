@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-20T23:56:59.862046+00:00",
+  "last_updated": "2026-11-20T23:57:58.329549+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.30-GTNH",
+      "version": "1.12.31-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
