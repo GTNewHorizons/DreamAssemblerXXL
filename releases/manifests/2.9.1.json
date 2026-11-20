@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-20T23:55:20.428322+00:00",
+  "last_updated": "2026-11-20T23:56:26.124260+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -425,7 +425,7 @@
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.14-GTNH",
+      "version": "1.4.15-GTNH",
       "side": "BOTH"
     },
     "Share-Where-I-am": {
