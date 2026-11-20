@@ -199962,7 +199962,7 @@
     },
     {
       "name": "waila",
-      "latest_version": "1.20.1",
+      "latest_version": "1.20.2",
       "private": false,
       "versions": [
         {
@@ -200726,6 +200726,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.19.36",
+          "changelog": "## What's Changed\n* Use the correct event to render the HUD to benefit from HUD Caching (#25) by @boubou19 in https://github.com/GTNewHorizons/waila/pull/84\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.19.35...1.19.36\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:37:35+00:00",
+          "filename": "Waila-1.19.36.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/773741584",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.19.36/Waila-1.19.36.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.20.0",
           "changelog": "## What's Changed\n* Fix TTRenderStack by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/75\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.19.33...1.20.0\n",
           "prerelease": false,
@@ -200743,6 +200753,16 @@
           "filename": "Waila-1.20.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/758652447",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.20.1/Waila-1.20.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.20.2",
+          "changelog": "## What's Changed\n* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/waila/pull/81\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.20.1...1.20.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T12:52:45+00:00",
+          "filename": "Waila-1.20.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/771821628",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.20.2/Waila-1.20.2.jar",
           "extra_assets": []
         }
       ],
