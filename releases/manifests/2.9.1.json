@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-20T00:47:49.537418+00:00",
+  "last_updated": "2026-11-20T00:57:16.294683+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.94-1.7.10",
+      "version": "2.3.95-1.7.10",
       "side": "BOTH"
     },
     "Navigator": {

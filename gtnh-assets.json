@@ -139733,7 +139733,6 @@
           "filename": "modularui2-2.2.16-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/272781020",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.2.16-1.7.10/modularui2-2.2.16-1.7.10.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ModularUI2/2.2.16-1.7.10/ModularUI2-2.2.16-1.7.10.jar",
           "extra_assets": []
         },
         {
@@ -139754,16 +139753,15 @@
           "filename": "modularui2-2.2.18-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/290028662",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.2.18-1.7.10/modularui2-2.2.18-1.7.10.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ModularUI2/2.2.18-1.7.10/ModularUI2-2.2.18-1.7.10.jar",
           "extra_assets": []
         },
         {
           "version_tag": "2.2.19-1.7.10",
           "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.2.19-1.7.10 -->\n\n## What's Changed\n* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.2.19-1.7.10\n",
           "prerelease": false,
-          "tagged_at": "2025-10-01T23:23:45+00:00",
+          "tagged_at": "2025-10-02T10:33:12+00:00",
           "filename": "modularui2-2.2.19-1.7.10.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/299491610",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/299682105",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.2.19-1.7.10/modularui2-2.2.19-1.7.10.jar",
           "extra_assets": []
         },
@@ -139845,16 +139843,6 @@
           "filename": "modularui2-2.3.6-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/314149116",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.6-1.7.10/modularui2-2.3.6-1.7.10.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "2.3.7-1.7.10",
-          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.7-1.7.10 -->\n\n## What's Changed\n* Add nonOpaque option to UITexture.builder() by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/57\n* add tooltip overriding to TextFieldWidget by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/56\n* Allow Flow's to reverse the order children get read in by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/58\n\n## New Contributors\n* @serenibyss made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/57\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.5-1.7.10...2.3.7-1.7.10\n",
-          "prerelease": false,
-          "tagged_at": "2025-11-08T21:38:01+00:00",
-          "filename": "modularui2-2.3.7-1.7.10.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/314157303",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.7-1.7.10/modularui2-2.3.7-1.7.10.jar",
           "extra_assets": []
         },
         {
@@ -140118,6 +140106,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.3.34-1.7.10-pre",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.34-1.7.10-pre -->\n\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.33-1.7.10...2.3.34-1.7.10-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-05T10:41:40+00:00",
+          "filename": "modularui2-2.3.34-1.7.10-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/351085007",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.34-1.7.10-pre/modularui2-2.3.34-1.7.10-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.3.35-1.7.10",
           "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.35-1.7.10 -->\n\n## What's Changed\n* Sync upstream Christmas edition by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/86\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.33-1.7.10...2.3.35-1.7.10\n",
           "prerelease": false,
@@ -140125,6 +140123,16 @@
           "filename": "modularui2-2.3.35-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/351370735",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.35-1.7.10/modularui2-2.3.35-1.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.36-1.7.10-pre",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.36-1.7.10-pre -->\n\n## What's Changed\n* Show tooltip about filling when you can fill the slot, not drain it by @danyadev in https://github.com/GTNewHorizons/ModularUI2/pull/92\n* Sync upstream Christmas edition by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/86\n\n## New Contributors\n* @danyadev made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/92\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.31-1.7.10...2.3.36-1.7.10-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-06T19:07:17+00:00",
+          "filename": "modularui2-2.3.36-1.7.10-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/351833136",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.36-1.7.10-pre/modularui2-2.3.36-1.7.10-pre.jar",
           "extra_assets": []
         },
         {
@@ -140175,6 +140183,16 @@
           "filename": "modularui2-2.3.41-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/354701838",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.41-1.7.10/modularui2-2.3.41-1.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.42-1.7.10-pre",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.42-1.7.10-pre -->\n\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.41-1.7.10...2.3.42-1.7.10-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-13T21:18:43+00:00",
+          "filename": "modularui2-2.3.42-1.7.10-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/355542587",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.42-1.7.10-pre/modularui2-2.3.42-1.7.10-pre.jar",
           "extra_assets": []
         },
         {
@@ -140695,6 +140713,16 @@
           "filename": "modularui2-2.3.94-1.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/692454603",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.94-1.7.10/modularui2-2.3.94-1.7.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.95-1.7.10",
+          "changelog": "<!-- Release notes generated using configuration in .github/release.yml at 2.3.95-1.7.10 -->\n\n## What's Changed\n* fix GUI state being cleared by server dimension unloads (#176) by @boubou19 in https://github.com/GTNewHorizons/ModularUI2/pull/177\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/177\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.94-1.7.10...2.3.95-1.7.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T00:51:15+00:00",
+          "filename": "modularui2-2.3.95-1.7.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI2/releases/assets/769885337",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI2/releases/download/2.3.95-1.7.10/modularui2-2.3.95-1.7.10.jar",
           "extra_assets": []
         },
         {
