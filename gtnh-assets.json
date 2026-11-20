@@ -191080,7 +191080,6 @@
           "filename": "ThaumicTinkerer-2.11.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/305825145",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.11.27/ThaumicTinkerer-2.11.27.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/ThaumicTinkerer/2.11.27/ThaumicTinkerer-2.11.27.jar",
           "extra_assets": []
         },
         {
@@ -191191,6 +191190,16 @@
           "filename": "ThaumicTinkerer-2.12.10-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/355998999",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.12.10-pre/ThaumicTinkerer-2.12.10-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.12.11-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.10-pre...2.12.11-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-22T01:21:21+00:00",
+          "filename": "ThaumicTinkerer-2.12.11-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/359942344",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.12.11-pre/ThaumicTinkerer-2.12.11-pre.jar",
           "extra_assets": []
         },
         {
@@ -191421,6 +191430,16 @@
           "filename": "ThaumicTinkerer-2.12.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/665581542",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.12.34/ThaumicTinkerer-2.12.34.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.12.35",
+          "changelog": "## What's Changed\n* Fix talisman of remedium deleting other baubles (#113) by @boubou19 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/116\n* Fix packets (#114) by @boubou19 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/117\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.12.34...2.12.35\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T01:11:01+00:00",
+          "filename": "ThaumicTinkerer-2.12.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/769935300",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.12.35/ThaumicTinkerer-2.12.35.jar",
           "extra_assets": []
         },
         {
