@@ -124001,7 +124001,7 @@
     },
     {
       "name": "JarJar",
-      "latest_version": "0.4.0-beta",
+      "latest_version": "0.4.1-beta",
       "private": false,
       "versions": [
         {
@@ -124172,6 +124172,16 @@
           "filename": "jarjar-0.4.0-beta.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/JarJar/releases/assets/710375953",
           "browser_download_url": "https://github.com/GTNewHorizons/JarJar/releases/download/0.4.0-beta/jarjar-0.4.0-beta.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.1-beta",
+          "changelog": "## What's Changed\n* Don't add to the parent class loader by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/26\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/JarJar/compare/0.3.7-beta...0.4.1-beta\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:37:32+00:00",
+          "filename": "jarjar-0.4.1-beta.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/JarJar/releases/assets/772544947",
+          "browser_download_url": "https://github.com/GTNewHorizons/JarJar/releases/download/0.4.1-beta/jarjar-0.4.1-beta.jar",
           "extra_assets": []
         }
       ],
