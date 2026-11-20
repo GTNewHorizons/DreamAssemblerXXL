@@ -56378,7 +56378,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.11.1",
+      "latest_version": "2.11.2",
       "private": false,
       "versions": [
         {
@@ -58492,6 +58492,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.10.55",
+          "changelog": "## What's Changed\n* Add New Ender Fluid Conduits for Late Game (#272) by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/290\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.54...2.10.55\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T21:24:36+00:00",
+          "filename": "EnderIO-2.10.55.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/773394626",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.10.55/EnderIO-2.10.55.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.11.0",
           "changelog": "## What's Changed\n* Translate chat messages on the client instead of the server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderIO/pull/275\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.10.52...2.11.0\n",
           "prerelease": false,
@@ -58509,6 +58519,16 @@
           "filename": "EnderIO-2.11.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/737133160",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.11.1/EnderIO-2.11.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.11.2",
+          "changelog": "## What's Changed\n* Add New Ender Fluid Conduits for Late Game by @shironakoushi in https://github.com/GTNewHorizons/EnderIO/pull/272\n\n## New Contributors\n* @shironakoushi made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/272\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.11.1...2.11.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T19:17:12+00:00",
+          "filename": "EnderIO-2.11.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/773035472",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.11.2/EnderIO-2.11.2.jar",
           "extra_assets": []
         }
       ],
