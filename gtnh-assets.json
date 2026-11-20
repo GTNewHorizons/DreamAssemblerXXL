@@ -169559,6 +169559,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "4.12.16-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.15-GTNH-pre...4.12.16-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-25T15:23:01+00:00",
+          "filename": "ProjRed-4.12.16-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectRed/releases/assets/345670655",
+          "browser_download_url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.12.16-GTNH-pre/ProjRed-4.12.16-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "4.12.17-GTNH",
           "changelog": "## What's Changed\n* Fix Auto Crafter able to craft items with different NBT by @Worive in https://github.com/GTNewHorizons/ProjectRed/pull/60\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.14-GTNH...4.12.17-GTNH\n",
           "prerelease": false,
@@ -169899,6 +169909,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "4.12.51-GTNH",
+          "changelog": "## What's Changed\n* Preserve GUI actions with restricted client tile packets (#103) by @boubou19 in https://github.com/GTNewHorizons/ProjectRed/pull/107\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.50-GTNH...4.12.51-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T00:39:48+00:00",
+          "filename": "ProjRed-4.12.51-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectRed/releases/assets/769854031",
+          "browser_download_url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.12.51-GTNH/ProjRed-4.12.51-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "4.13.0-GTNH",
           "changelog": "## What's Changed\n* Fix a bunch of bugs in Project Red by @boubou19 in https://github.com/GTNewHorizons/ProjectRed/pull/100\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.49-GTNH...4.13.0-GTNH\n",
           "prerelease": false,
@@ -169919,7 +169939,7 @@
           "extra_assets": []
         }
       ],
-      "license": "Custom license allowing NH to compile and redistribute",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/ProjectRed",
       "side": "BOTH"
     },
