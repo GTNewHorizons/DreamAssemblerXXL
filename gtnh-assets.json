@@ -176096,7 +176096,6 @@
           "filename": "SGCraft-1.4.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/274449310",
           "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.4.5-GTNH/SGCraft-1.4.5-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/SGCraft/1.4.5-GTNH/SGCraft-1.4.5-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -176180,6 +176179,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.4.15-GTNH",
+          "changelog": "## What's Changed\n* Fix word leaks in BaseRenderingUtils and NaquadahOreWorldGen (#31) by @boubou19 in https://github.com/GTNewHorizons/SGCraft/pull/32\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.14-GTNH...1.4.15-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:53:24+00:00",
+          "filename": "SGCraft-1.4.15-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/773782494",
+          "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.4.15-GTNH/SGCraft-1.4.15-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.5.0-GTNH",
           "changelog": "## What's Changed\n* Improve rendering perfomance with caching by @Simolater in https://github.com/GTNewHorizons/SGCraft/pull/29\n* Fix SGDimensionMap save file name being invalid on Windows by @Algent in https://github.com/GTNewHorizons/SGCraft/pull/30\n\n## New Contributors\n* @Simolater made their first contribution in https://github.com/GTNewHorizons/SGCraft/pull/29\n* @Algent made their first contribution in https://github.com/GTNewHorizons/SGCraft/pull/30\n\n**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.13-GTNH...1.5.0-GTNH\n",
           "prerelease": false,
@@ -176190,7 +176199,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/SGCraft",
       "side": "BOTH"
     },
