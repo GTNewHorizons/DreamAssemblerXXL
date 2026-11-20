@@ -166563,6 +166563,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.12.25-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.24-GTNH...1.12.25-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-04-05T09:56:54+00:00",
+          "filename": "OpenComputers-1.12.25-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/389282948",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.25-GTNH-pre/OpenComputers-1.12.25-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.12.26-GTNH",
           "changelog": "## What's Changed\n* fix(gregtech): resolve incorrect value for LSC by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/179\n* feat(lwjgl3ify): add drop_file event by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/178\n* GeolyzerEvent.Analyze getMetaTileEntity metadata fix by @MarkinoTeck in https://github.com/GTNewHorizons/OpenComputers/pull/175\n\n## New Contributors\n* @MarkinoTeck made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/175\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.24-GTNH...1.12.26-GTNH\n",
           "prerelease": false,
@@ -167010,6 +167020,16 @@
           "filename": "OpenComputers-1.12.70-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/698193276",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.70-GTNH/OpenComputers-1.12.70-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.71-GTNH",
+          "changelog": "## What's Changed\n* Fix client world and memory leaks (#238) by @Alexdoru in https://github.com/GTNewHorizons/OpenComputers/pull/240\n* Align fluid regulator tier and speed in transposer names (#224) by @boubou19 in https://github.com/GTNewHorizons/OpenComputers/pull/242\n* Fix Crafting Upgrade Handling of GT Tools Breaking (#233) by @boubou19 in https://github.com/GTNewHorizons/OpenComputers/pull/243\n* Add more APIs to the parts of AE2 and its addons. (#223) by @boubou19 in https://github.com/GTNewHorizons/OpenComputers/pull/244\n* Add support for Pattern Repeater in Interface Terminal driver (#227) by @boubou19 in https://github.com/GTNewHorizons/OpenComputers/pull/245\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.12.68-GTNH...1.12.71-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T00:16:06+00:00",
+          "filename": "OpenComputers-1.12.71-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/769790141",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.12.71-GTNH/OpenComputers-1.12.71-GTNH.jar",
           "extra_assets": []
         },
         {
