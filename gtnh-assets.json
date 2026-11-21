@@ -127723,6 +127723,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.6.67",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.66...1.6.67\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T00:52:05+00:00",
+          "filename": "littletiles-1.6.67.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/773926863",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.6.67/littletiles-1.6.67.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.7.0",
           "changelog": "## What's Changed\n* Revert \"Better concept for extra utitilies block lighting\" by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/209\n* Postea compat by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/208\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.7.0\n",
           "prerelease": false,
@@ -127874,7 +127884,7 @@
         },
         {
           "version_tag": "1.7.15",
-          "changelog": "## What's Changed\n* Refactor: Remove loadedTile and try/catch blocks by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/245\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.7.14...1.7.15\n",
+          "changelog": "## What's Changed\r\n* Refactor: Remove loadedTile and try/catch blocks by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/245\r\n\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.7.14...1.7.15\r\n",
           "prerelease": false,
           "tagged_at": "2026-11-16T07:33:58+00:00",
           "filename": "littletiles-1.7.15.jar",
