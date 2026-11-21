@@ -8315,6 +8315,16 @@
         "extra_assets": []
       },
       {
+        "version_tag": "2.9.1",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-11-21T00:14:17+00:00",
+        "filename": "2.9.1.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/773839038",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.1/2.9.1.zip",
+        "extra_assets": []
+      },
+      {
         "version_tag": "2.10.0-nightly-2026-11-04",
         "changelog": "",
         "prerelease": false,
