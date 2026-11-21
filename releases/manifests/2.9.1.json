@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-21T00:02:27.240352+00:00",
+  "last_updated": "2026-11-21T00:06:06.421515+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.144-GTNH",
+      "version": "1.1.144.1-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
