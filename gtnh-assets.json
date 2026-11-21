@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.10.0-nightly-2026-11-20-2",
+    "latest_version": "2.10.0-nightly-2026-11-21",
     "needs_attention": false,
     "versions": [
       {
@@ -8483,6 +8483,16 @@
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/774345102",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-20-2/2.10.0-nightly-2026-11-20-2.zip",
         "extra_assets": []
+      },
+      {
+        "version_tag": "2.10.0-nightly-2026-11-21",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-11-21T11:41:44+00:00",
+        "filename": "2.10.0-nightly-2026-11-21.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/775390495",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-21/2.10.0-nightly-2026-11-21.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
@@ -15208,7 +15218,7 @@
     },
     {
       "name": "AkashicTome",
-      "latest_version": "1.3.0",
+      "latest_version": "1.3.1",
       "private": false,
       "versions": [
         {
@@ -15430,6 +15440,16 @@
           "filename": "akashictome-1.3.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AkashicTome/releases/assets/710269105",
           "browser_download_url": "https://github.com/GTNewHorizons/AkashicTome/releases/download/1.3.0/akashictome-1.3.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.1",
+          "changelog": "## What's Changed\n* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/AkashicTome/pull/22\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/AkashicTome/pull/22\n\n**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.7...1.3.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:04+00:00",
+          "filename": "akashictome-1.3.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AkashicTome/releases/assets/775391254",
+          "browser_download_url": "https://github.com/GTNewHorizons/AkashicTome/releases/download/1.3.1/akashictome-1.3.1.jar",
           "extra_assets": []
         }
       ],
@@ -19785,7 +19805,7 @@
     },
     {
       "name": "Applied-Energistics-2-NH",
-      "latest_version": "1.0.9",
+      "latest_version": "1.0.11",
       "private": false,
       "versions": [
         {
@@ -19887,6 +19907,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/772542130",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.9/appliedenergistics2-1.0.9.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.10",
+          "changelog": "## What's Changed\n* Migrate to ForgeMultipart Java API by @Algent in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/55\n* Optimising images contained in merge-betterp2p for #60 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/61\n* Merge BetterP2P by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/60\n* Rename BetterP2P Kotlin sources to .java by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/62\n* Rewrite betterp2p java by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/64\n\n## New Contributors\n* @Algent made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/55\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.9...1.0.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:06+00:00",
+          "filename": "appliedenergistics2-1.0.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/775391306",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.10/appliedenergistics2-1.0.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.11",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.10...1.0.11\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T13:09:44+00:00",
+          "filename": "appliedenergistics2-1.0.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/775623351",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.11/appliedenergistics2-1.0.11.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -19895,7 +19935,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1103-GTNH",
+      "latest_version": "rv3-beta-1104-GTNH",
       "private": false,
       "versions": [
         {
@@ -29517,6 +29557,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/762804228",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1103-GTNH/appliedenergistics2-rv3-beta-1103-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1104-GTNH",
+          "changelog": "## What's Changed\n* Increase Ex pattern terminal input and output pages from 2 to 4 by @shironakoushi in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1734\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1103-GTNH...rv3-beta-1104-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:47+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1104-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/775393100",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1104-GTNH/appliedenergistics2-rv3-beta-1104-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -35929,7 +35979,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.9.3-GTNH",
+      "latest_version": "3.9.4-GTNH",
       "private": false,
       "versions": [
         {
@@ -38131,6 +38181,16 @@
           "filename": "BetterQuesting-3.9.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/758652954",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.9.3-GTNH/BetterQuesting-3.9.3-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.9.4-GTNH",
+          "changelog": "## What's Changed\n* Fix the missing lang key of the BetterQuesting NEI recipe title by @shironakoushi in https://github.com/GTNewHorizons/BetterQuesting/pull/274\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.9.3-GTNH...3.9.4-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:19+00:00",
+          "filename": "BetterQuesting-3.9.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/775391842",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.9.4-GTNH/BetterQuesting-3.9.4-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -45392,7 +45452,7 @@
     },
     {
       "name": "Chisel",
-      "latest_version": "2.18.1-GTNH",
+      "latest_version": "2.18.3-GTNH",
       "private": false,
       "versions": [
         {
@@ -46333,6 +46393,16 @@
           "filename": "chisel-2.18.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/727273678",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.18.1-GTNH/chisel-2.18.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.18.3-GTNH",
+          "changelog": "## What's Changed\n* fix world client leak in TileEntityAutoChisel by @Alexdoru in https://github.com/GTNewHorizons/Chisel/pull/110\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.18.2-GTNH...2.18.3-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:16+00:00",
+          "filename": "chisel-2.18.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/775391701",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.18.3-GTNH/chisel-2.18.3-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -65557,7 +65627,7 @@
     },
     {
       "name": "Galacticraft",
-      "latest_version": "3.5.1-GTNH",
+      "latest_version": "3.5.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -66718,6 +66788,16 @@
           "filename": "Galacticraft-3.5.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/753914900",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.5.1-GTNH/Galacticraft-3.5.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.5.2-GTNH",
+          "changelog": "## What's Changed\n* Give NASA Workbench schematics distinct names by @shironakoushi in https://github.com/GTNewHorizons/Galacticraft/pull/155\n\n## New Contributors\n* @shironakoushi made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/155\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.5.1-GTNH...3.5.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:23+00:00",
+          "filename": "Galacticraft-3.5.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/775392008",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.5.2-GTNH/Galacticraft-3.5.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -70921,7 +71001,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.55.31",
+      "latest_version": "5.09.55.32",
       "private": false,
       "versions": [
         {
@@ -98963,6 +99043,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/772852066",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.31/gregtech-5.09.55.31.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.55.32",
+          "changelog": "## What's Changed\n* [GTNHLib] teams wireless energy, fragment of #7374 by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8756\n* Add Parallel Control to IO Node controller hatch by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8657\n* Long-Fluid Support by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/7384\n* fix new particles needing beam hatch re-placement in world by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8801\n* Align dimension display tiers of names and add them in tooltips by @shironakoushi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8635\n* Fix MSHP in building tiered components of Chem Plant by @rieverholic in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8862\n* Fix Assemblyline recipe construction w/ circuits by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8722\n* deprecate lesu by @MLGfruitshoot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8854\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.55.31...5.09.55.32\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:22+00:00",
+          "filename": "gregtech-5.09.55.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/775394532",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.55.32/gregtech-5.09.55.32.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -109985,7 +110075,7 @@
     },
     {
       "name": "GuideNH",
-      "latest_version": "1.4.9",
+      "latest_version": "1.4.10",
       "private": false,
       "versions": [
         {
@@ -110627,6 +110717,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/772746574",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.4.9/guidenh-1.4.9.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.10",
+          "changelog": "## What's Changed\n* remove bw te by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/140\n* Add NEI action links to guide pages and editor previews by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/154\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.4.9...1.4.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:07+00:00",
+          "filename": "guidenh-1.4.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/775393804",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.4.10/guidenh-1.4.10.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -110635,7 +110735,7 @@
     },
     {
       "name": "Hardcore-Ender-Expansion",
-      "latest_version": "1.14.1-GTNH",
+      "latest_version": "1.14.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -111106,6 +111206,16 @@
           "filename": "HardcoreEnderExpansion-1.14.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/732802774",
           "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.14.1-GTNH/HardcoreEnderExpansion-1.14.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.2-GTNH",
+          "changelog": "## What's Changed\n* Fix world client leak in RenderTileEssenceAltar by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/55\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.14.1-GTNH...1.14.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:59+00:00",
+          "filename": "HardcoreEnderExpansion-1.14.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/775393524",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.14.2-GTNH/HardcoreEnderExpansion-1.14.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -111605,7 +111715,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.8.4",
+      "latest_version": "2.8.5",
       "private": false,
       "versions": [
         {
@@ -118016,6 +118126,16 @@
           "filename": "hodgepodge-2.8.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/762704819",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.8.4/hodgepodge-2.8.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.5",
+          "changelog": "## What's Changed\n* Fix world client leak in extra utilities block renderers by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/1056\n* return held stack by @MarloGr in https://github.com/GTNewHorizons/Hodgepodge/pull/1023\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.8.4...2.8.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:21+00:00",
+          "filename": "hodgepodge-2.8.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/775391926",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.8.5/hodgepodge-2.8.5.jar",
           "extra_assets": []
         }
       ],
@@ -163371,7 +163491,7 @@
     },
     {
       "name": "Nutrition",
-      "latest_version": "1.1.1",
+      "latest_version": "1.1.2",
       "private": false,
       "versions": [
         {
@@ -163657,6 +163777,16 @@
           "filename": "nutrition-1.1.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/737119156",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/1.1.1/nutrition-1.1.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.2",
+          "changelog": "## What's Changed\n* fix world client leak in NutritionManager by @Alexdoru in https://github.com/GTNewHorizons/Nutrition/pull/41\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/1.1.1...1.1.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:29+00:00",
+          "filename": "nutrition-1.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/775392217",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/1.1.2/nutrition-1.1.2.jar",
           "extra_assets": []
         }
       ],
@@ -168103,7 +168233,7 @@
     },
     {
       "name": "ProjectBlue",
-      "latest_version": "1.3.0-GTNH",
+      "latest_version": "1.3.1-GTNH",
       "private": false,
       "versions": [
         {
@@ -168286,6 +168416,16 @@
           "filename": "ProjectBlue-1.3.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/710394093",
           "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.3.0-GTNH/ProjectBlue-1.3.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.1-GTNH",
+          "changelog": "## What's Changed\n* fix world client leaks in ControlPanelRenderer by @Alexdoru in https://github.com/GTNewHorizons/ProjectBlue/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.2.11-GTNH...1.3.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:02+00:00",
+          "filename": "ProjectBlue-1.3.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/775391156",
+          "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.3.1-GTNH/ProjectBlue-1.3.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -172756,7 +172896,7 @@
     },
     {
       "name": "Schematica",
-      "latest_version": "1.13.1-GTNH",
+      "latest_version": "1.13.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -173058,6 +173198,16 @@
           "filename": "Schematica-1.13.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/772547933",
           "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.13.1-GTNH/Schematica-1.13.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.13.2-GTNH",
+          "changelog": "## What's Changed\n* Support block ids above 4096 in schematics by @vVvDAPPA in https://github.com/GTNewHorizons/Schematica/pull/29\n\n## New Contributors\n* @vVvDAPPA made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/29\n\n**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.7-GTNH...1.13.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:59+00:00",
+          "filename": "Schematica-1.13.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/775393516",
+          "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.13.2-GTNH/Schematica-1.13.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -175368,7 +175518,7 @@
     },
     {
       "name": "SGCraft",
-      "latest_version": "1.5.0-GTNH",
+      "latest_version": "1.5.1-GTNH",
       "private": false,
       "versions": [
         {
@@ -175540,6 +175690,16 @@
           "filename": "SGCraft-1.5.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/710390370",
           "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.5.0-GTNH/SGCraft-1.5.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.1-GTNH",
+          "changelog": "## What's Changed\n* Fix word leaks in BaseRenderingUtils and NaquadahOreWorldGen by @Alexdoru in https://github.com/GTNewHorizons/SGCraft/pull/31\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.14-GTNH...1.5.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:03+00:00",
+          "filename": "SGCraft-1.5.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/775393659",
+          "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.5.1-GTNH/SGCraft-1.5.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -199171,7 +199331,7 @@
     },
     {
       "name": "waila",
-      "latest_version": "1.20.2",
+      "latest_version": "1.20.3",
       "private": false,
       "versions": [
         {
@@ -199944,6 +200104,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/771821628",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.20.2/Waila-1.20.2.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.20.3",
+          "changelog": "## What's Changed\n* Use the correct event to render the HUD to benefit from HUD Caching by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.20.2...1.20.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:33+00:00",
+          "filename": "Waila-1.20.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/775395313",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.20.3/Waila-1.20.3.jar",
+          "extra_assets": []
         }
       ],
       "license": "CC-BY-NC-SA-4.0",
@@ -200385,7 +200555,7 @@
     },
     {
       "name": "WarpTheory",
-      "latest_version": "1.6.2-GTNH",
+      "latest_version": "1.6.3-GTNH",
       "private": false,
       "versions": [
         {
@@ -200837,6 +201007,16 @@
           "filename": "WarpTheory-1.6.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WarpTheory/releases/assets/772542233",
           "browser_download_url": "https://github.com/GTNewHorizons/WarpTheory/releases/download/1.6.2-GTNH/WarpTheory-1.6.2-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.3-GTNH",
+          "changelog": "## What's Changed\n* Spring Cleaning by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/WarpTheory/pull/56\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.6.2-GTNH...1.6.3-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:41+00:00",
+          "filename": "WarpTheory-1.6.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WarpTheory/releases/assets/775395627",
+          "browser_download_url": "https://github.com/GTNewHorizons/WarpTheory/releases/download/1.6.3-GTNH/WarpTheory-1.6.3-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -203831,6 +204011,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 848,
-  "latest_successful_daily": 848
+  "latest_daily": 849,
+  "latest_successful_daily": 849
 }
