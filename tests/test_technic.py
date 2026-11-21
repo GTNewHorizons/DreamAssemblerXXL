@@ -9,6 +9,7 @@ from types import SimpleNamespace
 from unittest.mock import AsyncMock, create_autospec
 from zipfile import ZIP_DEFLATED, ZIP_STORED, ZipFile
 
+import httpx
 import pytest
 
 from daxxl.app_context import AppContext
@@ -19,10 +20,11 @@ from daxxl.exceptions import ReleaseNotFoundException
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_config import GTNHConfig
 from daxxl.models.gtnh_release import GTNHRelease
-from daxxl.models.gtnh_version import GTNHVersion
+from daxxl.models.gtnh_version import ExtraAsset, GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
 from daxxl.release_controller import ReleaseController
+from daxxl.services.download_service import DownloadService
 from daxxl.services.solder import read_technic_packages
 from daxxl.utils import normalize_archive_permissions
 
@@ -373,6 +375,50 @@ def test_technic_rejects_a_missing_previous_release(technic):
     technic.release.last_version = "missing"
     with pytest.raises(ReleaseNotFoundException, match="previous release 'missing'"):
         asyncio.run(technic.assemble(Side.CLIENT))
+
+
+def test_regenerating_refreshes_lwjgl_profile_at_the_same_tag(technic, tmp_path, monkeypatch):
+    previous = technic.context.release_service.get_release("1")
+    previous.github_mods = technic.release.github_mods
+    previous.external_mods = technic.release.external_mods
+    path = tmp_path / "update.zip"
+    monkeypatch.setattr(technic, "get_archive_path", lambda side: path)
+    monkeypatch.setattr("daxxl.assembler.downloader.CACHE_DIR", tmp_path / "cache")
+    version = technic.context.assets.get_mod("lwjgl3ify").get_version("3.0.37")
+    assert version is not None
+    release_url = "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.37/"
+    version.browser_download_url = release_url + "lwjgl3ify-3.0.37.jar"
+    version.extra_assets = [ExtraAsset(filename="version.json", download_url="https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/200")]
+    original = lwjgl_profile()
+    corrected = original.replace(b"-Dfrom.lwjgl3ify=true", b"-Dfrom.lwjgl3ify=corrected")
+    profiles = iter((original, None, corrected))
+
+    def handle(request):
+        assert str(request.url) == release_url + "version.json"
+        assert request.headers["Cache-Control"] == "no-cache"
+        profile = next(profiles)
+        return httpx.Response(404) if profile is None else httpx.Response(200, content=profile)
+
+    async def run():
+        async with httpx.AsyncClient(transport=httpx.MockTransport(handle)) as client:
+            technic.context.downloader = DownloadService(client, technic.context.assets)
+            await technic.assemble(Side.CLIENT)
+            selection, packages = read_technic_packages(path)
+            first_version = packages["gtnh-java-args"].version
+            first_zip = path.read_bytes()
+            with pytest.raises(httpx.HTTPStatusError):
+                await technic.assemble(Side.CLIENT)
+            assert path.read_bytes() == first_zip
+
+            await technic.assemble(Side.CLIENT)
+            updated_selection, packages = read_technic_packages(path)
+            assert updated_selection == selection
+            java = packages["gtnh-java-args"]
+            assert java.version != first_version
+            with ZipFile(path) as update, ZipFile(io.BytesIO(update.read(java.path))) as nested:
+                assert nested.read("bin/version.json") == corrected
+
+    asyncio.run(run())
 
 
 def test_assembly_cache_tracks_release_edits_and_resets_progress(monkeypatch):

@@ -125,11 +125,11 @@ included ZIPs before publishing; Solder registers and assigns them normally.
 
 Assembly generates a `gtnh-java-args` package containing `patches/gtnh-jvm.json` and
 `bin/version.json`. The latter is the **published `version.json` release asset** of the
-selected lwjgl3ify version, copied unchanged. It is downloaded through the existing download
-service and cached as `cache/mod/lwjgl3ify/lwjgl3ify-<version>-version.json`, so releases
-cannot overwrite each other's profile. Older asset catalogs are supported by fetching
-`version.json` beside the selected release's JAR download URL. There is no extraction from
-the JAR and no fallback to a latest release. A missing, invalid or mismatched profile stops
+selected lwjgl3ify version, copied unchanged. Each Technic assembly fetches it again from
+the selected tag, even when the local cache already contains a profile. The tagged URL
+still works when the asset is replaced under that tag. The downloaded profile is stored
+as `cache/mod/lwjgl3ify/lwjgl3ify-<version>-version.json`. There is no fallback to an old
+cached copy, the JAR or the latest release. A missing, invalid or mismatched profile stops
 assembly before replacing an existing update ZIP. The JVM patch's
 `+jvmArgs` list preserves the arguments from `server_assets/forge/java9args.txt`, including
 repeated `--add-opens` option/value pairs, and enables `-XX:+UseCompactObjectHeaders` once.
@@ -171,6 +171,11 @@ that the target build already exists, including an unpublished draft, the GUI as
 whether to replace it. Declining leaves it untouched. Confirming deletes and recreates
 only the target build and its associations; the shared mod/version library is retained.
 If preflight or the deletion fails, publication stops.
+
+The Technic Launcher does not offer an update when the build number stays the same.
+New installations get the corrected build; players who already installed it need to
+reinstall manually. To deliver the fix through the launcher's normal update flow,
+publish a new build number and point the relevant channel at it.
 
 Publication creates a new unpublished private build, registers missing mods/versions, and
 adds every package selected by the release. Versions already in the global mod library

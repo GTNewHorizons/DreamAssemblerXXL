@@ -279,7 +279,9 @@ class SolderServer:
 @pytest.fixture
 def publication(tmp_path, monkeypatch):
     archive = tmp_path / "GT_New_Horizons_2_(updated mods).zip"
-    files = {f"mods/{name}/{name}-{version}.zip": zip_bytes(f"mods/{name}.jar", name.encode()) for name, version in (("changed", "2"), ("new", "1"))}
+    files: dict[str, bytes] = {
+        f"mods/{name}/{name}-{version}.zip": zip_bytes(f"mods/{name}.jar", name.encode()) for name, version in (("changed", "2"), ("new", "1"))
+    }
     profile = b'{"id":"1.7.10-lwjgl3ify-3.0.37","mainClass":"example.Main","libraries":[]}'
     payload = build_java_args_package("-Dfile.encoding=UTF-8", profile)
     java_version = java_args_version("2", hashlib.md5(payload).hexdigest())
