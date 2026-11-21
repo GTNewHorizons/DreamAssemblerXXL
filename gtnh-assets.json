@@ -99128,6 +99128,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "5.09.54.273",
+          "changelog": "## What's Changed\n* Spotless apply for branch perf/bec-obs-2.9.x for #8762 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8836\n* Fix Hint Blocks for Industrial Extrusion Machine (#8741) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8856\n* Port MTEMassFabricator to MTEExtendedPowerMultiBlockBase (#8744) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8857\n* Port MTEIndustrialDehydrator to MTEExtendedPowerMultiBlockBase (#8738) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8858\n* Add Russian inflection templates for material item names (#6618) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8859\n* remove BWTileEntityMetaGenerated (#8745) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8860\n* Fix Eye of Harmony output amounts change between launches (#8849) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8861\n* fix: pass isRecipeCheck in machines with custom ejection to prevent item voiding by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8851\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.272...5.09.54.273\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:54:37+00:00",
+          "filename": "gregtech-5.09.54.273.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/773785761",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.273/gregtech-5.09.54.273.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "5.09.55.0",
           "changelog": "## What's Changed\n* Fix control circuit recipe conflict with the IV wireless charger by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8636\n* Rename empty Packager Schematic to blank by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8642\n* use cheese proof module setting with structure check by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8645\n* Make after:etfuturum dependency on GT5 explicit by @mgomezch in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n* [IC2 Deprecation] Replace IC2 Uranium with GT one by @hussain-najeb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8610\n\n## New Contributors\n* @mgomezch made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.270...5.09.55.0\n",
           "prerelease": false,
