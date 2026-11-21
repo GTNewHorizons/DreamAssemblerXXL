@@ -201949,6 +201949,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.5.10-GTNH",
+          "changelog": "## What's Changed\n* Cherry-pick of #53 for 2.9.x release by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/WarpTheory/pull/54\n* Replace `IHealable` & `IHurtable` with clean overrides. (#55) by @boubou19 in https://github.com/GTNewHorizons/WarpTheory/pull/58\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/WarpTheory/pull/58\n\n**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.9-GTNH...1.5.10-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:26:39+00:00",
+          "filename": "WarpTheory-1.5.10-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WarpTheory/releases/assets/773716066",
+          "browser_download_url": "https://github.com/GTNewHorizons/WarpTheory/releases/download/1.5.10-GTNH/WarpTheory-1.5.10-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.6.0-GTNH",
           "changelog": "## What's Changed\n* Translate chat messages on the client instead of the server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WarpTheory/pull/52\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/WarpTheory/pull/52\n\n**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.8-GTNH...1.6.0-GTNH\n",
           "prerelease": false,
