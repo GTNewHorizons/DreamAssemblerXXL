@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-21T16:57:10.777548+00:00",
+  "last_updated": "2026-11-21T17:25:39.293502+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.225",
+      "version": "2.7.226",
       "side": "BOTH"
     },
     "HoloInventory": {
