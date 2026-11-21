@@ -217,8 +217,8 @@ Mod is client-side only.
 >* Stop freecam movement while chat or a GUI is open (#31) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/36 (1.0.13)
 >* fix keybind detection when freecam key is unbound (#33) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/37 (1.0.13)
 
-# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.54.273
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.54.273
+# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.54.274
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.54.274
 
 ## What's Changed:
 >* Spotless apply for branch perf/bec-obs-2.9.x for #8762 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8836 (5.09.54.273)
@@ -418,8 +418,8 @@ Mod is client-side only.
 >* Don't add to the parent class loader by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/26 (0.4.1-beta)
 >* Ensure API owners are added to the classpath before mods that repackage other mods APIs by @mitchej123 in https://github.com/GTNewHorizons/JarJar/pull/27 (0.4.0-beta)
 
-# Updated - LittleTiles - 1.6.63 --> 1.6.66
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.6.66
+# Updated - LittleTiles - 1.6.63 --> 1.6.67
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.6.63...1.6.67
 
 ## What's Changed:
 >* Revert "Better concept for extra utitilies block lighting" (#209) by @boubou19 in https://github.com/GTNewHorizons/LittleTiles/pull/247 (1.6.66)

@@ -38211,6 +38211,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "3.8.94-GTNH",
+          "changelog": "## What's Changed\n* Fix the missing lang key of the BetterQuesting NEI recipe title (#274) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/283\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.93-GTNH...3.8.94-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T15:07:59+00:00",
+          "filename": "BetterQuesting-3.8.94-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/775942810",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.8.94-GTNH/BetterQuesting-3.8.94-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "3.9.0-GTNH",
           "changelog": "## What's Changed\n* Move notification config options into their own category by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/267\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.90-GTNH...3.9.0-GTNH\n",
           "prerelease": false,
