@@ -99216,6 +99216,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "5.09.54.275",
+          "changelog": "## What's Changed\n* Fix MSHP in building tiered components of Chem Plant (#8862) by @rieverholic in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8863\n* Add Parallel Control to IO Node controller hatch (#8657) by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8865\n* fix new particles needing beam hatch re-placement in world (#8801) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8870\n* Align dimension display tiers of names and add them in tooltips (#8635) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8871\n* Fix Assemblyline recipe construction w/ circuits 2.9 by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8723\n* deprecate lesu (#8854) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8872\n* [2.9.x Bug Fix] Update GT++Ore Dust Recipe Gen (#8737) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8873\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.274...5.09.54.275\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T16:54:11+00:00",
+          "filename": "gregtech-5.09.54.275.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/776226566",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.275/gregtech-5.09.54.275.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "5.09.55.0",
           "changelog": "## What's Changed\n* Fix control circuit recipe conflict with the IV wireless charger by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8636\n* Rename empty Packager Schematic to blank by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8642\n* use cheese proof module setting with structure check by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8645\n* Make after:etfuturum dependency on GT5 explicit by @mgomezch in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n* [IC2 Deprecation] Replace IC2 Uranium with GT one by @hussain-najeb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8610\n\n## New Contributors\n* @mgomezch made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.270...5.09.55.0\n",
           "prerelease": false,
@@ -111147,6 +111157,16 @@
           "filename": "guidenh-1.3.57.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/766337823",
           "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.57/guidenh-1.3.57.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.58",
+          "changelog": "## What's Changed\n* Add unified quest and Thaumcraft research bindings and improve guide editing (#152) by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/153\n* Add NEI action links to guide pages and editor previews (#154) by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/155\n* remove bw te (#140) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/156\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.57...1.3.58\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T15:47:54+00:00",
+          "filename": "guidenh-1.3.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/776051388",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.58/guidenh-1.3.58.jar",
           "extra_assets": []
         },
         {
@@ -164551,6 +164571,16 @@
           "filename": "nutrition-1.0.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/766181190",
           "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/1.0.2/nutrition-1.0.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.3",
+          "changelog": "## What's Changed\n* Fix world client leak in NutritionManager (#41) by @Alexdoru in https://github.com/GTNewHorizons/Nutrition/pull/44\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/1.0.2...1.0.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T15:48:29+00:00",
+          "filename": "nutrition-1.0.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nutrition/releases/assets/776052732",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nutrition/releases/download/1.0.3/nutrition-1.0.3.jar",
           "extra_assets": []
         },
         {
