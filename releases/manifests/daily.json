@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-20T16:51:10.947351+00:00",
-  "config": "2.10.0-nightly-2026-11-19-02",
+  "last_updated": "2026-11-21T11:26:24.546990+00:00",
+  "config": "2.10.0-nightly-2026-11-20-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.5.1-GTNH",
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.11.1",
+      "version": "2.11.2",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.12.1",
+      "version": "4.12.2",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.30",
+      "version": "5.09.55.31",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "GuideNH": {
-      "version": "1.4.8",
+      "version": "1.4.9",
       "side": "BOTH"
     },
     "Automagy-GTNH": {
