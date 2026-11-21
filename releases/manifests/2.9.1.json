@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-21T16:03:39.609311+00:00",
+  "last_updated": "2026-11-21T16:46:26.516311+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -197,11 +197,11 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.38-GTNH",
+      "version": "3.4.39-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.144.1-GTNH",
+      "version": "1.1.144.3-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.224",
+      "version": "2.7.225",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.12.6-GTNH",
+      "version": "1.12.8-GTNH",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.10-GTNH",
+      "version": "1.5.11-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.95-1.7.10",
+      "version": "2.3.96-1.7.10",
       "side": "BOTH"
     },
     "Navigator": {
