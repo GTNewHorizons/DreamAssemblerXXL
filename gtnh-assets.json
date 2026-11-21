@@ -60537,6 +60537,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.6.66-GTNH",
+          "changelog": "## What's Changed\n* Add ruined portal generation in the overworld (#145) by @boubou19 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/148\n* Clean up comments and unused variable in WorldGenShipwreck (#144) by @boubou19 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/149\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.65-GTNH...2.6.66-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T01:29:32+00:00",
+          "filename": "etfuturum-2.6.66-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Et-Futurum-Requiem/releases/assets/769982915",
+          "browser_download_url": "https://github.com/GTNewHorizons/Et-Futurum-Requiem/releases/download/2.6.66-GTNH/etfuturum-2.6.66-GTNH.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.7.0-GTNH",
           "changelog": "## What's Changed\n* Fix boats sinking into the ground when rejoining by @micvog in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/126\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.64-GTNH...2.7.0-GTNH\n",
           "prerelease": false,
