@@ -181725,6 +181725,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "0.14.2",
+          "changelog": "## What's Changed\n* unset key by default (#61) by @boubou19 in https://github.com/GTNewHorizons/TaskNH/pull/64\n* Skip done tasks in the new-task chat notification on login (#63) by @boubou19 in https://github.com/GTNewHorizons/TaskNH/pull/65\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/TaskNH/pull/64\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.15.0...0.14.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T23:54:34+00:00",
+          "filename": "tasknh-0.14.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/773785534",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.14.2/tasknh-0.14.2.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "0.15.0",
           "changelog": "## What's Changed\n* Nest a task under another by dragging, unnest from right-click menu by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/56\n* Delete tasks from the right-click menu with a confirmation click by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/57\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.14.1...0.15.0\n",
           "prerelease": false,
