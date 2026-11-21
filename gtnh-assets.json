@@ -99057,6 +99057,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "5.09.54.274",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.273...5.09.54.274\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T00:57:42+00:00",
+          "filename": "gregtech-5.09.54.274.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/773940433",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.274/gregtech-5.09.54.274.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "5.09.55.0",
           "changelog": "## What's Changed\n* Fix control circuit recipe conflict with the IV wireless charger by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8636\n* Rename empty Packager Schematic to blank by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8642\n* use cheese proof module setting with structure check by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8645\n* Make after:etfuturum dependency on GT5 explicit by @mgomezch in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n* [IC2 Deprecation] Replace IC2 Uranium with GT one by @hussain-najeb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8610\n\n## New Contributors\n* @mgomezch made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.270...5.09.55.0\n",
           "prerelease": false,
