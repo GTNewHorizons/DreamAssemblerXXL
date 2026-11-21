@@ -1,7 +1,7 @@
 {
   "version": "2.9.1",
   "last_version": "2.9.0",
-  "last_updated": "2026-11-21T00:16:00.426964+00:00",
+  "last_updated": "2026-11-21T00:55:57.509132+00:00",
   "config": "2.9.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.66",
+      "version": "1.6.67",
       "side": "BOTH"
     },
     "LogisticsPipes": {
