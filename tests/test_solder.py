@@ -12,6 +12,7 @@ import httpx
 import pytest
 from structlog.testing import capture_logs
 
+from daxxl.assembler.platforms.technic import TECHNIC_SELECTION_PATH, build_java_args_package, java_args_version
 from daxxl.services.solder import SolderAPI, publish_solder, read_technic_packages
 from daxxl.services.solder_config import load_solder_config
 
@@ -21,6 +22,13 @@ def zip_bytes(filename, content):
     with ZipFile(buffer, "w") as archive:
         archive.writestr(filename, content)
     return buffer.getvalue()
+
+
+def write_update(path, selection, files):
+    with ZipFile(path, "w") as archive:
+        archive.writestr(TECHNIC_SELECTION_PATH, json.dumps(selection))
+        for name, data in files.items():
+            archive.writestr(name, data)
 
 
 def test_gui_config_is_generated_blank_then_read_without_overwriting(tmp_path, monkeypatch):
@@ -80,6 +88,7 @@ def test_gui_publication_uses_config_and_restores_progress_on_failure(tmp_path, 
             raise RuntimeError("Publication failed")
         kwargs["task_progress_callback"](70, "Done")
         kwargs["global_progress_callback"](75, "Done")
+        return True
 
     def unexpected_popup(*args, **kwargs):
         raise AssertionError("Unexpected popup")
@@ -145,14 +154,14 @@ class SolderServer:
     """Protocol double: drafts are unreadable, existing versions are global, old build reads are forbidden."""
 
     def __init__(self, archive: Path):
-        self.packages = read_technic_packages(archive)
-        self.desired_versions = {"same": "1", "changed": "2", "new": "1"}
+        self.desired_versions, self.packages = read_technic_packages(archive)
         with ZipFile(archive) as file:
-            self.files = {name: file.read(name) for name in file.namelist()}
+            self.files = {package.path: file.read(package.path) for package in self.packages.values()}
         self.versions = {
             ("same", "1"): self.mod("same", "1", b"existing version"),
             ("changed", "1"): self.mod("changed", "1", b"old"),
             ("removed", "1"): self.mod("removed", "1", b"removed"),
+            ("lwjgl3ify", "3.0.37"): self.mod("lwjgl3ify", "3.0.37", b"existing lwjgl3ify"),
             ("modpack", "1.7.10-10.13.4.1614-version-less"): self.mod("modpack", "1.7.10-10.13.4.1614-version-less", b"loader"),
         }
         self.mod_names = {name for name, _ in self.versions}
@@ -232,7 +241,7 @@ class SolderServer:
         if method == "POST" and path == "/api/modpack/pack/build":
             assert "clone_from" not in data and "clone_from_modpack" not in data
             if self.build is not None:
-                return httpx.Response(422, json={"error": "Build version already exists"})
+                return httpx.Response(422, json={"error": "Build version already exists for this modpack."})
             self.build = data
             self.mods = {}
             return httpx.Response(201, json=data)
@@ -270,9 +279,12 @@ class SolderServer:
 @pytest.fixture
 def publication(tmp_path, monkeypatch):
     archive = tmp_path / "GT_New_Horizons_2_(updated mods).zip"
-    with ZipFile(archive, "w") as file:
-        for name, version in (("changed", "2"), ("new", "1")):
-            file.writestr(f"mods/{name}/{name}-{version}.zip", zip_bytes(f"mods/{name}.jar", name.encode()))
+    files = {f"mods/{name}/{name}-{version}.zip": zip_bytes(f"mods/{name}.jar", name.encode()) for name, version in (("changed", "2"), ("new", "1"))}
+    profile = b'{"id":"1.7.10-lwjgl3ify-3.0.37","mainClass":"example.Main","libraries":[]}'
+    payload = build_java_args_package("-Dfile.encoding=UTF-8", profile)
+    java_version = java_args_version("2", hashlib.md5(payload).hexdigest())
+    files[f"mods/gtnh-java-args/gtnh-java-args-{java_version}.zip"] = payload
+    write_update(archive, {"same": "1", "changed": "2", "new": "1", "lwjgl3ify": "3.0.37"}, files)
     server = SolderServer(archive)
     client = httpx.AsyncClient
     monkeypatch.setattr(httpx, "AsyncClient", lambda **kwargs: client(transport=httpx.MockTransport(server.handle), **kwargs))
@@ -286,50 +298,72 @@ def publication(tmp_path, monkeypatch):
 
 def publish(archive, server, **kwargs):
     kwargs.setdefault("progress", lambda _: None)
-    asyncio.run(publish_solder(archive, "2", "https://solder.test/api/", "test-secret", "pack", desired_versions=server.desired_versions, **kwargs))
+    return asyncio.run(publish_solder(archive, "2", "https://solder.test/api/", "test-secret", "pack", desired_versions=server.desired_versions, **kwargs))
 
 
 @pytest.mark.parametrize("replace_draft", [False, True])
 def test_publication_creates_or_replaces_build_and_registers_only_missing_versions(publication, replace_draft):
-    from daxxl.assembler.platforms.technic import build_java_args_package
-
     archive, server = publication
-    profile = b'{"id":"1.7.10-lwjgl3ify-3.0.37","mainClass":"example.Main","libraries":[]}'
-    payload = build_java_args_package("-Dfile.encoding=UTF-8", profile)
-    path = "mods/gtnh-java-args/gtnh-java-args-2.zip"
-    with ZipFile(archive, "a") as file:
-        file.writestr(path, payload)
-    server.files[path] = payload
-    server.desired_versions["gtnh-java-args"] = "2"
+    java = server.packages["gtnh-java-args"]
     old = {"version": "2", "minecraft": "old", "is_published": False}
     server.existing_builds = []  # No visible source build, including when an unreadable draft exists.
     server.pointers = {"latest": None, "recommended": None}
     if replace_draft:
         server.build = old
         server.mods = {"removed": server.versions["removed", "1"]}
+    confirmed = []
+
+    def confirm():
+        confirmed.append(True)
+        return True
+
     with capture_logs() as logs:
-        publish(archive, server)
+        assert publish(archive, server, confirm_replace=confirm)
+    assert confirmed == ([True] if replace_draft else [])
     assert server.deleted_builds == ([old] if replace_draft else [])
     assert server.build is not old and server.build["is_published"] and not server.build["private"]
     assert server.build["minecraft"] == "1.7.10" and server.build["min_java"] == "25"
     assert server.build["java_runtime"] == "java-runtime-epsilon"
-    assert set(server.mods) == {"same", "changed", "new", "modpack", "gtnh-java-args"}
+    assert set(server.mods) == {"same", "changed", "new", "modpack", "gtnh-java-args", "lwjgl3ify"}
     assert server.mods["changed"]["version"] == "2"
     assert server.mods["modpack"]["version"] == "1.7.10-10.13.4.1614-version-less"
-    assert server.mods["gtnh-java-args"]["version"] == "2"
-    assert server.mods["gtnh-java-args"]["md5"] == hashlib.md5(payload).hexdigest()
+    assert server.mods["gtnh-java-args"]["version"] == java.version
+    assert server.mods["gtnh-java-args"]["md5"] == java.md5
     assert {data["name"] for method, path, data in server.calls if (method, path) == ("POST", "/api/mod")} == {"new", "gtnh-java-args"}
     assert {path for method, path, _ in server.calls if method == "GET" and path.startswith("/mods/")} == {f"/{path}" for path in server.files}
     assert not any(method == "PUT" and path.startswith("/api/mod/") for method, path, _ in server.calls)
     assert ("removed", "1") in server.versions
     assert 7 in server.waits  # Retry-After is honored; an explicit 429 rejection may be retried.
     assert sum(call[:2] == ("POST", "/api/mod/changed/version") for call in server.calls) == 2
-    delete_index = server.calls.index(("DELETE", "/api/modpack/pack/2", None))
-    assert all(method == "GET" for method, _, _ in server.calls[:delete_index])
-    assert server.calls[delete_index + 1][:2] == ("POST", "/api/modpack/pack/build")
+    writes = [(method, path) for method, path, _ in server.calls if method != "GET"]
+    create = ("POST", "/api/modpack/pack/build")
+    if replace_draft:
+        assert writes[:3] == [create, ("DELETE", "/api/modpack/pack/2"), create]
+    else:
+        assert writes[0] == create
     assert server.pointers == {"latest": "2", "recommended": None}
     warnings = [entry["event"] for entry in logs if entry["log_level"] == "warning"]
     assert warnings == (["Deleted existing Solder build pack/2; republishing from scratch."] if replace_draft else [])
+
+
+def test_declining_replacement_preserves_existing_build_and_versions(publication):
+    archive, server = publication
+    original = server.build = {"version": "2", "is_published": True}
+    versions = server.versions.copy()
+    assert publish(archive, server, confirm_replace=lambda: False) is False
+    assert server.build is original and server.deleted_builds == []
+    assert server.versions == versions
+    assert [(method, path) for method, path, _ in server.calls if method != "GET"] == [("POST", "/api/modpack/pack/build")]
+
+
+def test_build_validation_error_does_not_offer_replacement(publication):
+    archive, server = publication
+    server.reject = ("POST", "/api/modpack/pack/build", 422)
+    confirm = create_autospec(lambda: True)
+    with pytest.raises(RuntimeError, match="HTTP 422"):
+        publish(archive, server, confirm_replace=confirm)
+    confirm.assert_not_called()
+    assert server.deleted_builds == []
 
 
 def test_preflight_collects_errors_preserves_old_build_and_rechecks_failed_files(publication):
@@ -340,16 +374,15 @@ def test_preflight_collects_errors_preserves_old_build_and_rechecks_failed_files
     # Also check an empty mod record: it must not count as an existing version.
     empty_path = "mods/empty/empty-1.zip"
     server.files[empty_path] = zip_bytes("mods/empty.jar", b"empty mod's first version")
-    with ZipFile(archive, "a") as file:
-        file.writestr(empty_path, server.files[empty_path])
     server.mod_names.add("empty")
     server.desired_versions["empty"] = "1"
+    write_update(archive, server.desired_versions, server.files)
     original_mods, original_versions = server.mod_names.copy(), server.versions.copy()
     originals = {path: server.files[path] for path in ("mods/changed/changed-2.zip", "mods/new/new-1.zip")}
     server.files.update(dict.fromkeys(originals, b"bad ZIP"))
     server.reject = ("GET", "/api/mod/same/1", 500)
     for _ in range(2):
-        with capture_logs() as logs, pytest.raises(ValueError, match="failed for 3/5 packages") as error:
+        with capture_logs() as logs, pytest.raises(ValueError, match="failed for 3/7 packages") as error:
             publish(archive, server)
         assert all(name in str(error.value) for name in ("same/1", "changed-2.zip", "new-1.zip"))
         assert "test-secret" not in str(error.value)
@@ -360,7 +393,7 @@ def test_preflight_collects_errors_preserves_old_build_and_rechecks_failed_files
     assert all(method == "GET" for method, _, _ in server.calls)
     server.files.update(originals)
     server.reject = None
-    publish(archive, server)
+    publish(archive, server, confirm_replace=lambda: True)
     for path in originals:
         assert server.calls.count(("GET", "/" + path, None)) == 3
     assert ("new", "1") in server.versions and ("changed", "2") in server.versions
@@ -382,20 +415,20 @@ def test_failed_writes_are_not_retried_or_followed_by_publication(publication, m
     server.build = old
     server.reject = (method, path, failure)
     with pytest.raises(RuntimeError, match="HTTP 403|outcome may be unknown"):
-        publish(archive, server)
+        publish(archive, server, confirm_replace=lambda: True)
     assert server.calls[-1][:2] == (method, path)
     assert sum(call[:2] == (method, path) for call in server.calls) == 1
     assert server.pointers == {"latest": "1", "recommended": "1"}
     if method == "DELETE":
         assert server.build is old
-        assert not any(method in {"POST", "PUT"} for method, _, _ in server.calls)
+        assert all(method == "GET" or path in {"/api/modpack/pack/build", "/api/modpack/pack/2"} for method, path, _ in server.calls)
     else:
         assert not server.build["is_published"] and server.build["private"]
 
 
 def test_registered_versions_skip_checks_and_both_progress_bars_complete_on_gui_thread(publication):
     archive, server = publication
-    for package in server.packages:
+    for package in server.packages.values():
         server.versions[package.name, package.version] = server.mod(package.name, package.version, server.files[package.path])
         server.mod_names.add(package.name)
     server.versions["same", "1"].update(md5="0" * 32, filesize=None)
@@ -485,6 +518,60 @@ def test_stale_update_with_an_unselected_mod_is_rejected_before_network(publicat
     assert server.calls == []
 
 
+def test_stale_java_profile_is_rejected_even_when_lwjgl3ify_is_not_in_the_update(publication):
+    archive, server = publication
+    assert "lwjgl3ify" not in server.packages
+    server.desired_versions["lwjgl3ify"] = "3.0.40"
+    server.versions["lwjgl3ify", "3.0.40"] = server.mod("lwjgl3ify", "3.0.40", b"already in Solder")
+    with pytest.raises(ValueError, match="no longer matches"):
+        publish(archive, server)
+    assert server.calls == []
+
+
+def test_registered_java_package_with_wrong_hash_stops_before_writes(publication):
+    archive, server = publication
+    java = server.packages["gtnh-java-args"]
+    server.mod_names.add(java.name)
+    server.versions[java.name, java.version] = server.mod(java.name, java.version, b"wrong profile")
+    with pytest.raises(ValueError, match="already has different bytes for gtnh-java-args"):
+        publish(archive, server)
+    assert all(method == "GET" for method, _, _ in server.calls)
+    assert not any(path == "/" + java.path for _, path, _ in server.calls)
+
+
+def test_corrected_java_profile_replaces_build_without_overwriting_old_package(publication):
+    archive, server = publication
+    assert publish(archive, server)
+    old_java = server.mods["gtnh-java-args"]
+    server.calls.clear()
+
+    version = "3.0.40"
+    server.desired_versions["lwjgl3ify"] = version
+    server.versions["lwjgl3ify", version] = server.mod("lwjgl3ify", version, b"existing lwjgl3ify")
+    profile = b'{"id":"1.7.10-lwjgl3ify-3.0.40","mainClass":"example.Main","libraries":[]}'
+    payload = build_java_args_package("-Dfile.encoding=UTF-8", profile)
+    java_version = java_args_version("2", hashlib.md5(payload).hexdigest())
+    path = f"mods/gtnh-java-args/gtnh-java-args-{java_version}.zip"
+    server.files = {path: payload}
+    write_update(archive, server.desired_versions, server.files)
+
+    assert publish(archive, server, confirm_replace=lambda: True)
+    assert server.mods["lwjgl3ify"]["version"] == version
+    assert server.mods["gtnh-java-args"]["version"] == java_version != old_java["version"]
+    assert server.versions["gtnh-java-args", old_java["version"]] == old_java
+    assert [url for method, url, _ in server.calls if method == "GET" and url.startswith("/mods/")] == [f"/{path}"]
+
+
+def test_old_update_without_saved_selection_is_rejected_before_network(publication):
+    archive, server = publication
+    with ZipFile(archive, "w") as file:
+        for path, data in server.files.items():
+            file.writestr(path, data)
+    with pytest.raises(ValueError, match="no usable saved selection"):
+        publish(archive, server)
+    assert server.calls == []
+
+
 @pytest.mark.parametrize("missing_local_package", [False, True])
 def test_missing_required_zip_leaves_existing_build_intact(publication, missing_local_package):
     archive, server = publication
@@ -503,7 +590,6 @@ def test_missing_required_zip_leaves_existing_build_intact(publication, missing_
 
 def test_invalid_package_path_is_rejected(tmp_path):
     archive = tmp_path / "bad.zip"
-    with ZipFile(archive, "w") as file:
-        file.writestr("mods/../x.zip", zip_bytes("mods/foo.jar", b"mod"))
+    write_update(archive, {}, {"mods/../x.zip": zip_bytes("mods/foo.jar", b"mod")})
     with pytest.raises(ValueError, match="Not a Technic package path"):
         read_technic_packages(archive)

@@ -55,11 +55,13 @@ to the target pack. The Technic Platform linking key is not a bearer token.
    `releases/technic/GT_New_Horizons_<release>_(updated mods).zip`.
 2. Extract and upload the individual ZIPs not already registered in Solder to the
    configured mirror. Keep `mods/{name}/{name}-{version}.zip` relative to the mirror
-   root. Do not upload the outer ZIP, unpack the individual ZIPs, or overwrite existing
-   versions. Keep the mirror URL's trailing slash.
+   root. The `technic-selection.json` file stays in the local update ZIP. Do not upload
+   the outer ZIP, unpack the individual ZIPs, or overwrite existing versions.
+   Keep the mirror URL's trailing slash.
 3. Once the upload is done, click **Publish Solder build**. The button does not upload
-   any files. It uses the loaded release and checks the required ZIPs on the mirror
-   before making any writes.
+   any files. It checks the loaded release against the selection saved in the update ZIP,
+   then checks the required ZIPs on the mirror before making any writes. If the selection
+   changed or an older ZIP has no saved selection, regenerate it and upload the changes.
 
 ### GUI configuration file
 
@@ -103,8 +105,8 @@ server). This configures client pacing; it does not change the server's limit.
 
 ### Published packages
 
-The loaded release supplies the complete desired package list, including configuration
-and `gtnh-java-args`. All selected versions are assigned to the new empty build.
+The loaded release supplies the complete desired mod and configuration list.
+The update ZIP also supplies `gtnh-java-args`. All selected versions are assigned to the new empty build.
 Removed mods remain in Solder's shared library but are not assigned to the build.
 Every build also includes the mandatory hardcoded mod **`modpack`**, version
 **`1.7.10-10.13.4.1614-version-less`**, even when absent from the archive. This exact version must already
@@ -135,13 +137,12 @@ The patch declares Java major version `25` and runtime component `java-runtime-e
 Compact object headers are a product feature in Java 25, so no additional
 `-XX:+UnlockExperimentalVMOptions` flag is needed ([JEP 519](https://openjdk.org/jeps/519)).
 
-This small ZIP is separate from the existing configuration package. Its version follows
-the release, normalized like other Technic versions: release `2.9.0-RC-2` produces
-`mods/gtnh-java-args/gtnh-java-args-2.9.0-rc-2.zip`, registered as version `2.9.0-rc-2`.
-Its ZIP timestamp is fixed so unchanged inputs remain byte-identical. As with other mods,
-an already registered version is trusted and reused; changing published JVM arguments or
-the launcher profile requires a new release version. The package is included in the
-update ZIP. Upload it under `mods/gtnh-java-args/`, then publish.
+This small ZIP is separate from the existing configuration package. Its version is the
+normalized release name followed by the first 12 characters of the ZIP's MD5:
+`mods/gtnh-java-args/gtnh-java-args-2.9.0-rc-2-<hash>.zip`, for example. Its ZIP timestamp
+is fixed so unchanged inputs remain byte-identical. Corrected arguments or a corrected
+launcher profile get a new package version without overwriting the old one. Upload it
+under `mods/gtnh-java-args/`, then publish.
 
 Use a Technic Launcher version supporting version patches. Automatic Java 25 selection
 uses the launcher's **Use Mojang Java runtimes** option; with that option disabled, select
@@ -149,10 +150,10 @@ a Java 25 installation manually. The bundled `version.json` supplies lwjgl3ify's
 and main class; the JVM patch adds the requested arguments and selects Java 25. The mandatory
 Java 25 `modpack` package is still distributed separately.
 
-An exact mod/version already registered in Solder is trusted: its mirror ZIP is not
-downloaded and its MD5/size are not compared with the local ZIP. The API lookup only
-determines whether that version exists. An existing mod entry alone does not qualify:
-each new version must still pass verification.
+An exact mod/version already registered in Solder is reused without downloading its
+mirror ZIP. For `gtnh-java-args`, publication also checks the stored MD5 and size against
+the local ZIP. An existing mod entry alone does not qualify: each new version must
+still pass verification.
 
 For a version not yet registered, the update ZIP must contain its package. The publisher
 downloads the mirror ZIP and verifies its size and MD5 against that package. No mod or
@@ -165,11 +166,11 @@ mirror download fails, the error is reported and checks continue with the next p
 After processing all packages, any failures are listed together and publication stops before
 any server writes. Fix the reported files/metadata, then rerun publication.
 
-After successful preflight, an existing build with the same pack slug and release version
-is deleted, a **warning** is logged, and the build is recreated from scratch. This also
-replaces unpublished drafts, without reading the old build. Only the target build and its
-associations are deleted; the shared mod/version library is retained. If preflight fails,
-the old build is left intact. A failed DELETE stops publication before creation.
+After successful preflight, publication tries to create the build. If Solder reports
+that the target build already exists, including an unpublished draft, the GUI asks
+whether to replace it. Declining leaves it untouched. Confirming deletes and recreates
+only the target build and its associations; the shared mod/version library is retained.
+If preflight or the deletion fails, publication stops.
 
 Publication creates a new unpublished private build, registers missing mods/versions, and
 adds every package selected by the release. Versions already in the global mod library
@@ -184,6 +185,6 @@ described above; errors during shared setup or writes stop immediately.
 Publication is not atomic: a replaced version is unavailable between deletion and completed
 publication. On failure, the old build may already be gone and the replacement may be absent,
 a draft, a private published build, or a public build whose pointer update failed. Fix the
-reported error and rerun: after preflight, any remaining target build is deleted and recreated;
-registered mod versions are reused. A network timeout leaves the request outcome uncertain,
-so inspect the server state before rerunning.
+reported error and rerun: after preflight, confirm replacement if the target build still
+exists. Registered mod versions are reused. A network timeout leaves the request outcome
+uncertain, so inspect the server state before rerunning.

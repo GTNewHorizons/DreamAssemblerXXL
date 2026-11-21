@@ -3,7 +3,7 @@ import sys
 from collections.abc import Callable
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
-from tkinter.messagebox import showerror, showinfo, showwarning
+from tkinter.messagebox import askyesno, showerror, showinfo, showwarning
 from typing import Any
 
 from async_tkinter_loop import async_mainloop
@@ -232,20 +232,26 @@ class Window(ThemedTk, Tk):
         self.current_task_reset_callback()
         self.global_reset_callback()
         try:
-            await publish_solder(
+            published = await publish_solder(
                 archive=archive,
                 version=version,
                 url=settings["url"],
                 pack=settings["pack"],
                 token=settings["token"],
                 desired_versions=await self.controller.technic_package_versions(),
+                confirm_replace=lambda: askyesno(
+                    "Replace Solder build?",
+                    f"Solder build {settings['pack']}/{version} already exists. Delete it and publish this build in its place?",
+                    default="no",
+                ),
                 **build_options,
                 progress=lambda message: self.progress_callback(0, message),
                 task_progress_callback=self.progress_callback,
                 global_progress_callback=self.global_callback,
                 current_task_reset_callback=self.current_task_reset_callback,
             )
-            self.global_callback(0, "Solder publication complete")
+            if published:
+                self.global_callback(0, "Solder publication complete")
         finally:
             settings["token"] = ""
             self.trigger_toggle()

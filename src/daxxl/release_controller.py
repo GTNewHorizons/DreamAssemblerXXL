@@ -558,7 +558,7 @@ class ReleaseController:
             github_mods=self.github_mods,
             external_mods=self.external_mods,
             last_version=self.last_version,
-        )
+        ).copy(deep=True)
 
     async def technic_package_versions(self) -> dict[str, str]:
         context = await self.get_context()
@@ -572,17 +572,16 @@ class ReleaseController:
 
         :return: the ReleaseAssembler object constructed
         """
-        if self._assembler_controller is not None:
-            return self._assembler_controller
-
-        context: AppContext = await self.get_context()
         release = self._current_release()
-        logger.info(f"version: {self.version}")
-
-        # clean the previous state of the progress bars
         self.global_reset_callback()
         self.current_task_reset_callback()
+        cached = self._assembler_controller
+        if cached is not None and cached.release.dict(exclude={"last_updated"}) == release.dict(exclude={"last_updated"}):
+            self.global_callback(self.delta_progress, "Using cached assets")
+            return cached
 
+        context: AppContext = await self.get_context()
+        logger.info(f"version: {self.version}")
         self.global_callback(self.delta_progress, "Downloading assets")
         await context.downloader.download_release(release, download_callback=self.delta_progress_callback)
         self.current_task_reset_callback()

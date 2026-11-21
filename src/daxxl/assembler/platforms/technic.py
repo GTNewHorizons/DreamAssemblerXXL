@@ -1,4 +1,5 @@
 import asyncio
+import hashlib
 import io
 import json
 import re
@@ -26,6 +27,7 @@ log = get_logger("technic process")
 
 TECHNIC_JVM_PATCH_PATH = "patches/gtnh-jvm.json"
 JAVA_ARGS_PACKAGE = "gtnh-java-args"
+TECHNIC_SELECTION_PATH = "technic-selection.json"
 
 
 def build_java_args_package(args_text: str, version_json: bytes) -> bytes:
@@ -74,6 +76,11 @@ def _package_path(name: str, version: str) -> str:
     return f"mods/{slug}/{slug}-{technify(version)}.zip"
 
 
+def java_args_version(release: str, md5: str) -> str:
+    # Corrected args can be registered without overwriting the version used by another build.
+    return f"{technify(release)}-{md5[:12]}"
+
+
 def _build_mod_zip(source: Path, destination: Path) -> None:
     with ZipFile(destination, "w", compression=ZIP_DEFLATED) as archive:
         archive.write(source, arcname=Path("mods") / source.name)
@@ -99,14 +106,14 @@ class TechnicAssembler(GenericAssembler):
         return super().get_mods(Side.CLIENT_JAVA9 if side == Side.CLIENT else side)
 
     def get_package_versions(self, side: Side) -> dict[str, str]:
-        """Complete Technic selection, including generated packages, without opening ZIPs."""
+        """Select Technic mod and config versions without opening ZIPs."""
         config, config_version = self.get_config()
         packages = [(mod.name, version.version_tag) for mod, version in self.get_mods(side)]
-        packages.extend(((config.name, config_version.version_tag), (JAVA_ARGS_PACKAGE, self.release.version)))
+        packages.append((config.name, config_version.version_tag))
         versions: dict[str, str] = {}
         for name, tag in packages:
             slug = technify(name)
-            if slug in versions:
+            if slug == JAVA_ARGS_PACKAGE or slug in versions:
                 raise ValueError(f"Duplicate Technic package: {slug}")
             versions[slug] = technify(tag)
         return versions
@@ -195,7 +202,7 @@ class TechnicAssembler(GenericAssembler):
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
-        self.get_package_versions(side)  # Reject normalized name collisions before building ZIPs.
+        selection = self.get_package_versions(side)
         previous = self._previous_release()
         previous_versions = {}
         if previous is not None:
@@ -208,6 +215,7 @@ class TechnicAssembler(GenericAssembler):
             (SERVER_ASSETS_DIR / "forge" / "java9args.txt").read_text(encoding="utf-8-sig"),
             await self.load_lwjgl3ify_version_json(),
         )
+        java_version = java_args_version(self.release.version, hashlib.md5(java_args, usedforsecurity=False).hexdigest())
         steps = len(mods) + 1  # JVM argument package
         if config_changed:
             steps += self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + (self.changelog_path is not None)
@@ -221,7 +229,8 @@ class TechnicAssembler(GenericAssembler):
                 await self.add_mods(side, mods, archive, verbose)
                 if config_changed:
                     await self.add_config(side, self.get_config(), archive, verbose)
-                archive.writestr(_package_path(JAVA_ARGS_PACKAGE, self.release.version), java_args, compress_type=ZIP_STORED)
+                archive.writestr(_package_path(JAVA_ARGS_PACKAGE, java_version), java_args, compress_type=ZIP_STORED)
+                archive.writestr(TECHNIC_SELECTION_PATH, json.dumps(selection, sort_keys=True))
                 if self.task_progress_callback is not None:
                     self.task_progress_callback(self.delta_progress, f"Adding Java {TECHNIC_JAVA_VERSION} JVM argument package")
                 await normalize_archive_permissions(archive)

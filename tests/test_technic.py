@@ -1,4 +1,5 @@
 import asyncio
+import hashlib
 import io
 import json
 import shlex
@@ -12,8 +13,8 @@ import pytest
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.platforms.generic_assembler import GenericAssembler
-from daxxl.assembler.platforms.technic import TechnicAssembler, build_java_args_package
-from daxxl.defs import SERVER_ASSETS_DIR, ModSource, Side
+from daxxl.assembler.platforms.technic import TechnicAssembler, build_java_args_package, java_args_version
+from daxxl.defs import SERVER_ASSETS_DIR, Archive, ModSource, Side
 from daxxl.exceptions import ReleaseNotFoundException
 from daxxl.models.available_assets import AvailableAssets
 from daxxl.models.gtnh_config import GTNHConfig
@@ -21,6 +22,7 @@ from daxxl.models.gtnh_release import GTNHRelease
 from daxxl.models.gtnh_version import GTNHVersion
 from daxxl.models.mod_info import GTNHModInfo
 from daxxl.models.mod_version_info import ModVersionInfo
+from daxxl.release_controller import ReleaseController
 from daxxl.services.solder import read_technic_packages
 from daxxl.utils import normalize_archive_permissions
 
@@ -60,6 +62,8 @@ def test_java_patch_preserves_repeated_options_and_selects_java25():
         "-XX:+UseCompactObjectHeaders",
     ]
     assert build_java_args_package(text + "\n-Dextra=true", lwjgl_profile()) != content
+    new_content = build_java_args_package(text, lwjgl_profile("3.0.40"))
+    assert java_args_version("2", hashlib.md5(new_content).hexdigest()) != java_args_version("2", hashlib.md5(content).hexdigest())
 
 
 @pytest.fixture
@@ -268,7 +272,7 @@ def test_single_update_archive_contains_only_new_or_changed_packages(technic, tm
     expected = {("regular", "1"), ("lwjgl3ify", "3.0.37"), ("other-java9", "1"), ("external-java9", "1")}
     assert {(mod.name, version.version_tag) for mod, version in mods} == expected
     assert [mod.name for mod, _ in GenericAssembler(technic.context, technic.release).get_mods(Side.CLIENT)] == ["regular"]
-    desired = expected | {("config", "1"), ("gtnh-java-args", "2.9.0-rc-2")}
+    desired = expected | {("config", "1")}
     assert technic.get_package_versions(Side.CLIENT) == dict(desired)
     updates = desired.copy()
     if baseline != "first_release":
@@ -277,7 +281,7 @@ def test_single_update_archive_contains_only_new_or_changed_packages(technic, tm
     if not config_changed:
         updates.remove(("config", "1"))
     if baseline == "java_args_only":
-        updates = {("gtnh-java-args", "2.9.0-rc-2")}
+        updates = set()
     original_packages = {}
     for mod, version in mods:
         if (mod.name, version.version_tag) not in updates:
@@ -312,7 +316,11 @@ def test_single_update_archive_contains_only_new_or_changed_packages(technic, tm
     download = technic.context.downloader.download_version_json
     download.assert_awaited_once()
     assert download.await_args.args[1].version_tag == "3.0.37"
-    assert {(package.name, package.version) for package in read_technic_packages(path)} == updates
+    selection, packages = read_technic_packages(path)
+    assert selection == dict(desired)
+    java = packages.pop("gtnh-java-args")
+    assert java.version == f"2.9.0-rc-2-{java.md5[:12]}"
+    assert {(package.name, package.version) for package in packages.values()} == updates
     with ZipFile(path) as archive:
         for name, version in updates & expected:
             entry = f"mods/{name}/{name}-{version}.zip"
@@ -322,7 +330,7 @@ def test_single_update_archive_contains_only_new_or_changed_packages(technic, tm
             with ZipFile(io.BytesIO(archive.read("mods/config/config-1.zip"))) as nested:
                 assert nested.read("config/test.cfg") == b"some config"
                 assert nested.read("changes.md") == b"changes"
-        data = archive.read("mods/gtnh-java-args/gtnh-java-args-2.9.0-rc-2.zip")
+        data = archive.read(java.path)
         with ZipFile(io.BytesIO(data)) as nested:
             assert nested.read("bin/version.json") == lwjgl_profile()
             patch = json.loads(nested.read("patches/gtnh-jvm.json"))
@@ -358,10 +366,54 @@ def test_technic_filters_mixed_github_and_external_mods_with_release_side_overri
         "external-both_java9",
     }
     assert {mod.name for mod, _ in technic.get_mods(Side.CLIENT)} == expected
-    assert technic.get_package_versions(Side.CLIENT).keys() == {name.replace("_", "-") for name in expected} | {"config", "gtnh-java-args"}
+    assert technic.get_package_versions(Side.CLIENT).keys() == {name.replace("_", "-") for name in expected} | {"config"}
 
 
 def test_technic_rejects_a_missing_previous_release(technic):
     technic.release.last_version = "missing"
     with pytest.raises(ReleaseNotFoundException, match="previous release 'missing'"):
         asyncio.run(technic.assemble(Side.CLIENT))
+
+
+def test_assembly_cache_tracks_release_edits_and_resets_progress(monkeypatch):
+    progress = {"task": 0, "global": 0}
+
+    def advance(bar, amount):
+        progress[bar] += amount
+
+    controller = ReleaseController(
+        lambda amount, _: advance("task", amount),
+        lambda amount, _: advance("global", amount),
+        lambda: progress.update({"global": 0}),
+        lambda: progress.update(task=0),
+    )
+    controller.version = "2"
+    controller.gtnh_config = "first"
+    controller.github_mods = {"lwjgl3ify": ModVersionInfo(version="3.0.37")}
+    download = AsyncMock()
+    monkeypatch.setattr(controller, "get_context", AsyncMock(return_value=SimpleNamespace(downloader=SimpleNamespace(download_release=download))))
+    assembled = []
+
+    class TestAssembler:
+        def __init__(self, context, release, **kwargs):
+            self.release = release
+            self.assemble_zip = self.assemble_prism = self.assemble_modrinth = self.assemble_curse = self.assemble_mobile = None
+
+        async def assemble_technic(self, side, verbose):
+            assembled.append((self.release.config, self.release.github_mods["lwjgl3ify"].version))
+            advance("task", 100)
+
+    monkeypatch.setattr("daxxl.release_controller.ReleaseAssemblerController", TestAssembler)
+
+    async def run():
+        await controller.pre_assembling()  # A preceding changelog action cached the first selection.
+        controller.set_modpack_version("second")
+        await controller.assemble_release(Side.CLIENT, Archive.TECHNIC)
+        controller.set_github_mod_version("lwjgl3ify", "3.0.40")
+        await controller.assemble_release(Side.CLIENT, Archive.TECHNIC)
+        await controller.assemble_release(Side.CLIENT, Archive.TECHNIC)
+
+    asyncio.run(run())
+    assert assembled == [("second", "3.0.37"), ("second", "3.0.40"), ("second", "3.0.40")]
+    assert download.await_count == 3  # Only the identical last run can reuse the cached inputs.
+    assert progress == {"task": 100, "global": 100}
