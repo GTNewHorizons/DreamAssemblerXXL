@@ -9,7 +9,7 @@ from typing import Any
 from async_tkinter_loop import async_mainloop
 from ttkthemes import ThemedTk
 
-from daxxl.defs import RELEASE_TECHNIC_DIR, ROOT_DIR, Archive, DevRelease, Position, Side
+from daxxl.defs import RELEASE_TECHNIC_DIR, ROOT_DIR, Archive, DevRelease, Position, Side, technic_archive_name
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
 from daxxl.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
@@ -225,9 +225,9 @@ class Window(ThemedTk, Tk):
         version = self.controller.version
         if not version:
             raise ValueError("Load a release before publishing to Solder.")
-        archive = RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{version}_(technic).zip"
+        archive = RELEASE_TECHNIC_DIR / technic_archive_name(version)
         if not archive.is_file():
-            raise ValueError(f"Generate the full Technic archive first: {archive}")
+            raise ValueError(f"Generate the Technic update ZIP first: {archive}")
         self.trigger_toggle()
         self.current_task_reset_callback()
         self.global_reset_callback()
@@ -238,6 +238,7 @@ class Window(ThemedTk, Tk):
                 url=settings["url"],
                 pack=settings["pack"],
                 token=settings["token"],
+                desired_versions=await self.controller.technic_package_versions(),
                 **build_options,
                 progress=lambda message: self.progress_callback(0, message),
                 task_progress_callback=self.progress_callback,

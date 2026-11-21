@@ -1,4 +1,4 @@
-"""Publish an existing Technic archive after its ZIPs have been uploaded to the mirror."""
+"""Publish a Technic release after the operator uploads its changed ZIPs to the mirror."""
 
 import asyncio
 import hashlib
@@ -12,7 +12,7 @@ from zipfile import ZipFile
 
 import httpx
 
-from daxxl.defs import TECHNIC_JAVA_RUNTIME, TECHNIC_JAVA_VERSION
+from daxxl.defs import TECHNIC_JAVA_RUNTIME, TECHNIC_JAVA_VERSION, technic_archive_name
 from daxxl.gtnh_logger import get_logger
 
 log = get_logger(__name__)
@@ -170,6 +170,7 @@ async def publish_solder(
     token: str,
     pack: str,
     *,
+    desired_versions: dict[str, str],
     minecraft: str = "1.7.10",
     forge: str | None = "10.13.4.1614",
     min_java: str = str(TECHNIC_JAVA_VERSION),
@@ -183,9 +184,9 @@ async def publish_solder(
     global_progress_callback: Callable[[float, str], None] | None = None,
     current_task_reset_callback: Callable[[], None] | None = None,
 ) -> None:
-    """Create a new build from the full package set, verify privately, then promote.
+    """Create a build from the release selection, verify privately, then promote.
 
-    The full Technic archive supplies packages, plus the mandatory pinned Technic loader.
+    The update ZIP supplies the bytes for versions that still need to be registered.
     Replace the target build only after preflight succeeds; leave failed writes for inspection.
     Numeric callbacks receive percentage increments, with the task bar reset for each phase.
     """
@@ -233,23 +234,29 @@ async def publish_solder(
         "java_runtime": java_runtime or None,
         "min_memory": min_memory,
     }
-    if archive.name != f"GT_New_Horizons_{version}_(technic).zip":
-        raise ValueError(f"Select the full GT_New_Horizons_{version}_(technic).zip archive, not a partial update or another release.")
-    begin_task("Reading full Technic archive")
+    if archive.name != technic_archive_name(version):
+        raise ValueError(f"Select the Technic update ZIP for this release: {technic_archive_name(version)}.")
+    required_name, required_version = TECHNIC_REQUIRED_MOD
+    if desired_versions.get(required_name, required_version) != required_version:
+        raise ValueError(f"Technic requires {required_name}/{required_version}; the release selects a different version.")
+    desired_versions = desired_versions | {required_name: required_version}
+    for name, mod_version in desired_versions.items():
+        _identifier(name)
+        _identifier(mod_version)
+
+    begin_task("Reading Technic update ZIP")
     loop = asyncio.get_running_loop()
 
     # Hashing runs in a worker; marshal progress back to the Tk/asyncio thread.
     def read_progress(done: int, total: int, name: str) -> None:
         loop.call_soon_threadsafe(advance, done, total, f"Reading {name}")
 
-    packages = await asyncio.to_thread(read_technic_packages, archive, read_progress if task_progress_callback or global_progress_callback else None)
-    advance(1, 1, "Technic archive read")
-    required_name, required_version = TECHNIC_REQUIRED_MOD
-    desired_versions = {package.name: package.version for package in packages}
-    if required_name in desired_versions and desired_versions[required_name] != required_version:
-        raise ValueError(f"Technic requires {required_name}/{required_version}; the archive contains a different version.")
-    required_in_archive = required_name in desired_versions
-    desired_versions[required_name] = required_version
+    updates = await asyncio.to_thread(read_technic_packages, archive, read_progress if task_progress_callback or global_progress_callback else None)
+    packages = {package.name: package for package in updates}
+    for package in updates:
+        if desired_versions.get(package.name) != package.version:
+            raise ValueError(f"Package not selected for release {version}: {package.path}. Regenerate the Technic update ZIP.")
+    advance(1, 1, "Technic update ZIP read")
     # Separate clients keep credentials/cookies away from the download mirror.
     async with httpx.AsyncClient(timeout=60) as api_client, httpx.AsyncClient(timeout=60) as mirror_client:
         begin_task("Connecting to Solder")
@@ -269,53 +276,37 @@ async def publish_solder(
         # Trust exact versions already registered; verify every new ZIP before any server writes.
         begin_task("Checking packages and mirror files")
         check_count = len(desired_versions)
-        checked_offset = int(not required_in_archive)
         new_versions: list[SolderPackage] = []
-        existing_versions: set[str] = set()
-        expected_urls: dict[str, str] = {}
         verification_errors: list[str] = []
-        if not required_in_archive:
-            progress(f"Looking up mandatory Technic mod: {required_name}/{required_version}")
-            try:
-                required = await api.request("GET", f"mod/{required_name}/{required_version}", missing_ok=True)
-                if required is None:
-                    raise ValueError("Register this version in Solder or include its ZIP in the full Technic archive before publishing.")
-            except Exception as error:
-                detail = str(error).replace(api.token, "[redacted]")
-                message = f"Required Technic mod {required_name}/{required_version}: {detail}"
-                verification_errors.append(message)
-                progress(f"Verification failed; continuing: {message}")
-            advance(1, check_count, f"Processed mandatory mod {required_name}")
-        for index, package in enumerate(packages, 1):
-            progress(f"Looking up version {index}/{len(packages)}: {package.name}/{package.version}")
+        for index, (name, mod_version) in enumerate(desired_versions.items(), 1):
+            label = f"{name}/{mod_version}"
+            package = packages.get(name)
+            progress(f"Looking up version {index}/{check_count}: {label}")
             try:
                 remote = None
-                if package.name in known_mods:
-                    remote = await api.request("GET", f"mod/{package.name}/{package.version}", missing_ok=True)
+                if name in known_mods:
+                    remote = await api.request("GET", f"mod/{_identifier(name)}/{_identifier(mod_version)}", missing_ok=True)
                 if remote is not None:
-                    existing_versions.add(package.name)
-                    progress(f"Already registered; skipping verification: {package.name}/{package.version}")
+                    progress(f"Already registered; skipping verification: {label}")
                     continue
+                if package is None:
+                    raise ValueError("Version missing from Solder and the Technic update ZIP. Register it before publishing.")
                 progress(f"Verifying new ZIP: {package.name}/{package.version}")
-                download_url = mirror + package.path
                 await _verify_mirror(
                     mirror_client,
-                    download_url,
+                    mirror + package.path,
                     package,
-                    progress_callback=lambda done, total: advance(
-                        checked_offset + index - 1 + done / total, check_count, f"Verifying {package.name}: {done}/{total} bytes"
-                    ),
+                    progress_callback=lambda done, total: advance(index - 1 + done / total, check_count, f"Verifying {name}: {done}/{total} bytes"),
                 )
             except Exception as error:
                 detail = str(error).replace(api.token, "[redacted]")
-                message = f"{package.path}: {type(error).__name__}: {detail}"
+                message = f"{package.path if package else label}: {type(error).__name__}: {detail}"
                 verification_errors.append(message)
                 progress(f"Verification failed; continuing: {message}")
                 continue
             finally:
-                advance(checked_offset + index, check_count, f"Processed {checked_offset + index}/{check_count}: {package.name}")
+                advance(index, check_count, f"Processed {index}/{check_count}: {label}")
             new_versions.append(package)
-            expected_urls[package.name] = download_url
 
         if verification_errors:
             raise ValueError(
@@ -381,12 +372,10 @@ async def publish_solder(
             for name, mod_version in desired_versions.items():
                 if actual[name]["version"] != mod_version:
                     raise ValueError(f"Published manifest has the wrong version of {name}; build remains private.")
-            for package in packages:
+            for package in new_versions:
                 remote = actual[package.name]
-                if package.name in existing_versions:
-                    continue
                 _check_version(package, remote)
-                if remote["url"] != expected_urls[package.name]:
+                if remote["url"] != mirror + package.path:
                     raise ValueError(f"Published manifest differs for {package.name}; build remains private.")
             for field, setting in (
                 ("minecraft", "minecraft"),
