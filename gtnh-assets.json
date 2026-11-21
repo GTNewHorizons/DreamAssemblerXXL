@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.10.0-nightly-2026-11-20",
+    "latest_version": "2.10.0-nightly-2026-11-21",
     "needs_attention": false,
     "versions": [
       {
@@ -8318,9 +8318,9 @@
         "version_tag": "2.9.1",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T00:14:17+00:00",
+        "tagged_at": "2026-11-21T17:37:00+00:00",
         "filename": "2.9.1.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/773839038",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/776344843",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.1/2.9.1.zip",
         "extra_assets": []
       },
@@ -8483,6 +8483,26 @@
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/773033535",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-20/2.10.0-nightly-2026-11-20.zip",
         "extra_assets": []
+      },
+      {
+        "version_tag": "2.10.0-nightly-2026-11-20-2",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-11-21T03:58:19+00:00",
+        "filename": "2.10.0-nightly-2026-11-20-2.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/774345102",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-20-2/2.10.0-nightly-2026-11-20-2.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.10.0-nightly-2026-11-21",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-11-21T11:41:44+00:00",
+        "filename": "2.10.0-nightly-2026-11-21.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/775390495",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-21/2.10.0-nightly-2026-11-21.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
@@ -8497,20 +8517,20 @@
         "version_tag": "de_DE-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:41:05+00:00",
-        "filename": "GTNH-de_DE-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771251220",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T09:26:04+00:00",
+        "filename": "GTNH-de_DE-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775056180",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "es_ES-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:22:51+00:00",
-        "filename": "GTNH-es_ES-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771198469",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T09:08:43+00:00",
+        "filename": "GTNH-es_ES-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775018753",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
@@ -8527,70 +8547,70 @@
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T08:52:13+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771112121",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T08:38:34+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774952793",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:00:26+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771134582",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T08:47:55+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774973937",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pl_PL-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:50:28+00:00",
-        "filename": "GTNH-pl_PL-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771278122",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T09:35:05+00:00",
+        "filename": "GTNH-pl_PL-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775075965",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pt_BR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:09:20+00:00",
-        "filename": "GTNH-pt_BR-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771160304",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T08:56:12+00:00",
+        "filename": "GTNH-pt_BR-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774992242",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ru_RU-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:58:04+00:00",
-        "filename": "GTNH-ru_RU-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771301393",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T09:42:36+00:00",
+        "filename": "GTNH-ru_RU-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775093287",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "tr_TR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T09:32:19+00:00",
-        "filename": "GTNH-tr_TR-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771226840",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T09:17:26+00:00",
+        "filename": "GTNH-tr_TR-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775037054",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       },
       {
         "version_tag": "zh_CN-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-20T08:43:59+00:00",
-        "filename": "GTNH-zh_CN-Translation-Daily-2026-11-20+528.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/771090562",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-11-20%2B528.zip",
+        "tagged_at": "2026-11-21T08:30:28+00:00",
+        "filename": "GTNH-zh_CN-Translation-Daily-2026-11-21+529.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774934655",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-11-21%2B529.zip",
         "extra_assets": []
       }
     ],
@@ -19885,7 +19905,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-1103-GTNH",
+      "latest_version": "rv3-beta-1104-GTNH",
       "private": false,
       "versions": [
         {
@@ -26569,16 +26589,6 @@
           "extra_assets": []
         },
         {
-          "version_tag": "rv3-beta-797-GTNH-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-797-GTNH...rv3-beta-797-GTNH-pre\n",
-          "prerelease": false,
-          "tagged_at": "2026-01-25T09:58:37+00:00",
-          "filename": "appliedenergistics2-rv3-beta-797-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/345594307",
-          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/untagged-800a01ee285a52e09b04/appliedenergistics2-rv3-beta-797-GTNH-pre.jar",
-          "extra_assets": []
-        },
-        {
           "version_tag": "rv3-beta-797-GTNH",
           "changelog": "## What's Changed\n* Rename interface from interface terminal by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1041\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-796-GTNH...rv3-beta-797-GTNH\n",
           "prerelease": false,
@@ -26596,6 +26606,16 @@
           "filename": "appliedenergistics2-rv3-beta-798-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/345629466",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-798-GTNH-pre/appliedenergistics2-rv3-beta-798-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-799-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-798-GTNH-pre...rv3-beta-799-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-01-25T13:13:49+00:00",
+          "filename": "appliedenergistics2-rv3-beta-799-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/345639245",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-799-GTNH-pre/appliedenergistics2-rv3-beta-799-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -26739,6 +26759,26 @@
           "extra_assets": []
         },
         {
+          "version_tag": "rv3-beta-815-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-814-GTNH-pre...rv3-beta-815-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-07T17:50:48+00:00",
+          "filename": "appliedenergistics2-rv3-beta-815-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/352258784",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-815-GTNH-pre/appliedenergistics2-rv3-beta-815-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-816-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-815-GTNH-pre...rv3-beta-816-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-07T18:13:25+00:00",
+          "filename": "appliedenergistics2-rv3-beta-816-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/352264292",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-816-GTNH-pre/appliedenergistics2-rv3-beta-816-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "rv3-beta-817-GTNH",
           "changelog": "## What's Changed\n* Stack Type API by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/958\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-812-GTNH...rv3-beta-817-GTNH\n",
           "prerelease": false,
@@ -26746,6 +26786,16 @@
           "filename": "appliedenergistics2-rv3-beta-817-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/352274704",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-817-GTNH/appliedenergistics2-rv3-beta-817-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-818-GTNH-pre",
+          "changelog": "## What's Changed\n* Stack Type API by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/958\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-816-GTNH-pre...rv3-beta-818-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-07T18:48:58+00:00",
+          "filename": "appliedenergistics2-rv3-beta-818-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/352274849",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-818-GTNH-pre/appliedenergistics2-rv3-beta-818-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -26836,6 +26886,16 @@
           "filename": "appliedenergistics2-rv3-beta-827-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/355168500",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-827-GTNH/appliedenergistics2-rv3-beta-827-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-828-GTNH-pre",
+          "changelog": "## What's Changed\n* Optimising images contained in spatial-🪐🪐🪐🪐 for #1035 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1067\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-827-GTNH...rv3-beta-828-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-13T13:44:40+00:00",
+          "filename": "appliedenergistics2-rv3-beta-828-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/355367365",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-828-GTNH-pre/appliedenergistics2-rv3-beta-828-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -26946,6 +27006,16 @@
           "filename": "appliedenergistics2-rv3-beta-839-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/359776188",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-839-GTNH/appliedenergistics2-rv3-beta-839-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-840-GTNH-pre",
+          "changelog": "## What's Changed\n* Optimising images contained in spatial-🪐🪐🪐🪐 for #1035 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1067\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-839-GTNH...rv3-beta-840-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-02-21T19:40:33+00:00",
+          "filename": "appliedenergistics2-rv3-beta-840-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/359813178",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-840-GTNH-pre/appliedenergistics2-rv3-beta-840-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -27196,6 +27266,26 @@
           "filename": "appliedenergistics2-rv3-beta-865-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/374110737",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-865-GTNH/appliedenergistics2-rv3-beta-865-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-866-GTNH-pre",
+          "changelog": "## What's Changed\n* Fix smart partition works with different versions of storage bus by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1129\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-864-GTNH-pre...rv3-beta-866-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-03-15T13:27:34+00:00",
+          "filename": "appliedenergistics2-rv3-beta-866-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/374324677",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-866-GTNH-pre/appliedenergistics2-rv3-beta-866-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-867-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-866-GTNH-pre...rv3-beta-867-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-03-15T14:27:24+00:00",
+          "filename": "appliedenergistics2-rv3-beta-867-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/374347014",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-867-GTNH-pre/appliedenergistics2-rv3-beta-867-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -27939,6 +28029,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "rv3-beta-942-GTNH-pre",
+          "changelog": "## What's Changed\n* Optimising images contained in wireless_network_manager for #1268 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1269\n* Spotless apply for branch wireless_network_manager for #1268 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1270\n* Spotless apply for branch wireless_network_manager for #1268 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1298\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-941-GTNH...rv3-beta-942-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-20T08:39:31+00:00",
+          "filename": "appliedenergistics2-rv3-beta-942-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/425018241",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-942-GTNH-pre/appliedenergistics2-rv3-beta-942-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "rv3-beta-943-GTNH",
           "changelog": "## What's Changed\n* Fix NPE in getAdaptor by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1303\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-941-GTNH...rv3-beta-943-GTNH\n",
           "prerelease": false,
@@ -28119,6 +28219,26 @@
           "extra_assets": []
         },
         {
+          "version_tag": "rv3-beta-962-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-961-GTNH-pre...rv3-beta-962-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-28T15:37:41+00:00",
+          "filename": "appliedenergistics2-rv3-beta-962-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/432207237",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-962-GTNH-pre/appliedenergistics2-rv3-beta-962-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-963-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-962-GTNH-pre...rv3-beta-963-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-28T15:47:04+00:00",
+          "filename": "appliedenergistics2-rv3-beta-963-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/432214373",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-963-GTNH-pre/appliedenergistics2-rv3-beta-963-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "rv3-beta-964-GTNH",
           "changelog": "## What's Changed\n* Add Wireless Terminal Network Manager by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1268\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-960-GTNH...rv3-beta-964-GTNH\n",
           "prerelease": false,
@@ -28126,6 +28246,16 @@
           "filename": "appliedenergistics2-rv3-beta-964-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/433732484",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-964-GTNH/appliedenergistics2-rv3-beta-964-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-965-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-964-GTNH...rv3-beta-965-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2026-05-30T10:29:38+00:00",
+          "filename": "appliedenergistics2-rv3-beta-965-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/433733056",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-965-GTNH-pre/appliedenergistics2-rv3-beta-965-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -29506,6 +29636,16 @@
           "filename": "appliedenergistics2-rv3-beta-1103-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/762804228",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1103-GTNH/appliedenergistics2-rv3-beta-1103-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-1104-GTNH",
+          "changelog": "## What's Changed\n* Increase Ex pattern terminal input and output pages from 2 to 4 by @shironakoushi in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1734\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1103-GTNH...rv3-beta-1104-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:47+00:00",
+          "filename": "appliedenergistics2-rv3-beta-1104-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/775393100",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-1104-GTNH/appliedenergistics2-rv3-beta-1104-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -129669,16 +129809,15 @@
           "version_tag": "1.2.1-GTNH",
           "changelog": "## What's Changed\n* fix slime chunks algorithm by @asquared31415 in https://github.com/GTNewHorizons/LunatriusCore/pull/8\n\n## New Contributors\n* @asquared31415 made their first contribution in https://github.com/GTNewHorizons/LunatriusCore/pull/8\n\n**Full Changelog**: https://github.com/GTNewHorizons/LunatriusCore/compare/1.2.0-GTNH...1.2.1-GTNH\n",
           "prerelease": false,
-          "tagged_at": "2024-11-16T14:49:59+00:00",
+          "tagged_at": "2026-11-21T16:34:13+00:00",
           "filename": "LunatriusCore-1.2.1-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/LunatriusCore/releases/assets/206961848",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LunatriusCore/releases/assets/776172643",
           "browser_download_url": "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.2.1-GTNH/LunatriusCore-1.2.1-GTNH.jar",
-          "maven_url": "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/LunatriusCore/1.2.1-GTNH/LunatriusCore-1.2.1-GTNH.jar",
           "extra_assets": []
         },
         {
           "version_tag": "1.3.0-GTNH",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LunatriusCore/compare/1.2.1-GTNH...1.3.0-GTNH\n",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LunatriusCore/compare/1.2.1-GTNH...1.3.0-GTNH\r\n",
           "prerelease": false,
           "tagged_at": "2026-11-05T18:39:49+00:00",
           "filename": "LunatriusCore-1.3.0-GTNH.jar",
@@ -129687,7 +129826,7 @@
           "extra_assets": []
         }
       ],
-      "license": "MIT",
+      "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/LunatriusCore",
       "side": "BOTH"
     },

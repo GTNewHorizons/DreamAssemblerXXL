@@ -30,10 +30,11 @@ Mod is client-side only.
 >* Fix black patches covering the world by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2325 (2.2.44)
 >* Add Tracy frame images by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/2326 (2.2.44)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1095-GTNH --> rv3-beta-1103-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1095-GTNH...rv3-beta-1103-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-1095-GTNH --> rv3-beta-1104-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-1095-GTNH...rv3-beta-1104-GTNH
 
 ## What's Changed:
+>* Increase Ex pattern terminal input and output pages from 2 to 4 by @shironakoushi in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1734 (rv3-beta-1104-GTNH)
 >* Prevent inactive P2Ps from working by @rieverholic in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1743 (rv3-beta-1103-GTNH)
 >* Fix getGTMachineHash() by @rieverholic in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1738 (rv3-beta-1102-GTNH)
 >* fix stale inventory access in storage buses by @Pxx500 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1737 (rv3-beta-1102-GTNH)
@@ -62,10 +63,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix NullPointerException when right-clicking a sound p2p with advance… by @GreatBrandon in https://github.com/GTNewHorizons/BetterP2P/pull/47 (1.5.0)
 
-# Updated - BetterQuesting - 3.8.92-GTNH --> 3.8.93-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.92-GTNH...3.8.93-GTNH
+# Updated - BetterQuesting - 3.8.92-GTNH --> 3.8.94-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.8.92-GTNH...3.8.94-GTNH
 
 ## What's Changed:
+>* Fix the missing lang key of the BetterQuesting NEI recipe title (#274) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/283 (3.8.94-GTNH)
 >* Skip block break handling without task instances (#275) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/280 (3.8.93-GTNH)
 >* Quest text: show localized item and fluid names (#256) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/281 (3.8.93-GTNH)
 >* Prefix NEI quest placeholder names with "Quest -" (#273) by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/282 (3.8.93-GTNH)
@@ -217,10 +219,17 @@ Mod is client-side only.
 >* Stop freecam movement while chat or a GUI is open (#31) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/36 (1.0.13)
 >* fix keybind detection when freecam key is unbound (#33) by @boubou19 in https://github.com/GTNewHorizons/Freecam/pull/37 (1.0.13)
 
-# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.54.274
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.54.274
+# Updated - GT5-Unofficial - 5.09.54.265 --> 5.09.54.275
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.265...5.09.54.275
 
 ## What's Changed:
+>* Fix MSHP in building tiered components of Chem Plant (#8862) by @rieverholic in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8863 (5.09.54.275)
+>* Add Parallel Control to IO Node controller hatch (#8657) by @Azusfin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8865 (5.09.54.275)
+>* fix new particles needing beam hatch re-placement in world (#8801) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8870 (5.09.54.275)
+>* Align dimension display tiers of names and add them in tooltips (#8635) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8871 (5.09.54.275)
+>* Fix Assemblyline recipe construction w/ circuits 2.9 by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8723 (5.09.54.275)
+>* deprecate lesu (#8854) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8872 (5.09.54.275)
+>* [2.9.x Bug Fix] Update GT++Ore Dust Recipe Gen (#8737) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8873 (5.09.54.275)
 >* Spotless apply for branch perf/bec-obs-2.9.x for #8762 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8836 (5.09.54.273)
 >* Fix Hint Blocks for Industrial Extrusion Machine (#8741) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8856 (5.09.54.273)
 >* Port MTEMassFabricator to MTEExtendedPowerMultiBlockBase (#8744) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8857 (5.09.54.273)
@@ -354,22 +363,29 @@ Mod is client-side only.
 >* Fix "essential gas" typo in the Enervation Field Emitter research page (#63) by @boubou19 in https://github.com/GTNewHorizons/Gadomancy/pull/65 (1.5.19)
 >* Fix "essential gas" typo in the Enervation Field Emitter research page by @abdelhadi703 in https://github.com/GTNewHorizons/Gadomancy/pull/63 (1.5.18)
 
-# Updated - Galacticraft - 3.4.37-GTNH --> 3.4.38-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.37-GTNH...3.4.38-GTNH
+# Updated - Galacticraft - 3.4.37-GTNH --> 3.4.39-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.4.37-GTNH...3.4.39-GTNH
 
 ## What's Changed:
+>* Give NASA Workbench schematics distinct names (#155) by @boubou19 in https://github.com/GTNewHorizons/Galacticraft/pull/158 (3.4.39-GTNH)
 >* Various exploit fixes (#156) by @boubou19 in https://github.com/GTNewHorizons/Galacticraft/pull/157 (3.4.38-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.144-GTNH --> 1.1.144.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.144-GTNH...1.1.144.1-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.144-GTNH --> 1.1.144.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.144-GTNH...1.1.144.3-GTNH
 
 ## What's Changed:
+>* Distinguish NASA Workbench schematic names (#160) by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/165 (1.1.144.3-GTNH)
+>* Skip crater generation when crater probability is 0 by @Algent in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/163 (1.1.144.2-GTNH)
+>* Distinguish NASA Workbench schematic names by @shironakoushi in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/160 (1.1.144.2-GTNH)
 >* Skip crater generation when crater probability is 0 (#163) by @boubou19 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/164 (1.1.144.1-GTNH)
 
-# Updated - GuideNH - 1.3.55 --> 1.3.57
-**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.3.57
+# Updated - GuideNH - 1.3.55 --> 1.3.58
+**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.3.58
 
 ## What's Changed:
+>* Add unified quest and Thaumcraft research bindings and improve guide editing (#152) by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/153 (1.3.58)
+>* Add NEI action links to guide pages and editor previews (#154) by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/155 (1.3.58)
+>* remove bw te (#140) by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/156 (1.3.58)
 >* fix numeric list markdown by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/124 (1.3.57)
 >* fix text annotation conditions by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/127 (1.3.57)
 >* fix template parameters in html tables by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/131 (1.3.57)
@@ -391,10 +407,12 @@ Mod is client-side only.
 >* Fix world client leak in RenderTileEssenceAltar by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/55 (1.12.31-GTNH)
 >* unset key by default (#54) by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/57 (1.12.30-GTNH)
 
-# Updated - Hodgepodge - 2.7.221 --> 2.7.224
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.221...2.7.224
+# Updated - Hodgepodge - 2.7.221 --> 2.7.226
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.221...2.7.226
 
 ## What's Changed:
+>* Fixed mouse wheel handling (#1031) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1071 (2.7.226)
+>* return held stack (#1023) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1069 (2.7.225)
 >* Fix world client leak in extra utilities block renderers (#1056) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1068 (2.7.224)
 >* Fix WorldServer leak - Enable MixinBlockRedstoneTorch with BugTorch (#1042) by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/1054 (2.7.223)
 >* Disable ThreadedFileIOBase sleep optimization on Thermos/Crucible. by @paulzzh in https://github.com/GTNewHorizons/Hodgepodge/pull/1059 (2.7.223)
@@ -480,10 +498,11 @@ Mod is client-side only.
 >* Greatly optimized Matter Manipulator's hint/preview rendering (#112) by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/132 (0.1.77-GTNH)
 >* Fix Sound muffing when copying GT blocks by @tomasz-brak in https://github.com/GTNewHorizons/MatterManipulator/pull/120 (0.1.76-GTNH)
 
-# Updated - ModularUI2 - 2.3.94-1.7.10 --> 2.3.95-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.94-1.7.10...2.3.95-1.7.10
+# Updated - ModularUI2 - 2.3.94-1.7.10 --> 2.3.96-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.3.94-1.7.10...2.3.96-1.7.10
 
 ## What's Changed:
+>* Fix memory leak caused by LocatedWidget#STACK by @Alexdoru in https://github.com/GTNewHorizons/ModularUI2/pull/178 (2.3.96-1.7.10)
 >* fix GUI state being cleared by server dimension unloads (#176) by @boubou19 in https://github.com/GTNewHorizons/ModularUI2/pull/177 (2.3.95-1.7.10)
 
 # Updated - MrTJPCore - 1.3.7 --> 1.3.8
@@ -540,10 +559,11 @@ Mod is client-side only.
 >* Remove hardcoded vanilla block name overrides by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1102 (2.8.173-GTNH)
 >* Add NEI Recipe Exporting by @Armisael5 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1100 (2.8.172-GTNH)
 
-# Updated - Nutrition - 1.0.1 --> 1.0.2
-**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/1.0.1...1.0.2
+# Updated - Nutrition - 1.0.1 --> 1.0.3
+**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/1.0.1...1.0.3
 
 ## What's Changed:
+>* Fix world client leak in NutritionManager (#41) by @Alexdoru in https://github.com/GTNewHorizons/Nutrition/pull/44 (1.0.3)
 >* Render custom potion icons outside of GUI screens (#42) by @boubou19 in https://github.com/GTNewHorizons/Nutrition/pull/43 (1.0.2)
 
 # Updated - OpenBlocks - 1.12.22-GTNH --> 1.12.24-GTNH
@@ -633,6 +653,14 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Fix word leaks in BaseRenderingUtils and NaquadahOreWorldGen (#31) by @boubou19 in https://github.com/GTNewHorizons/SGCraft/pull/32 (1.4.15-GTNH)
+
+# Updated - Schematica - 1.12.6-GTNH --> 1.12.8-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.6-GTNH...1.12.8-GTNH
+
+## What's Changed:
+>* Support block ids above 4096 in schematics (#29) by @boubou19 in https://github.com/GTNewHorizons/Schematica/pull/32 (1.12.8-GTNH)
+>* Update LunatriusCore dependency version to 1.3.0 by @Armisael5 in https://github.com/GTNewHorizons/Schematica/pull/30 (1.12.7-GTNH)
 
 # Updated - ServerUtilities - 2.4.22 --> 2.5.4
 **Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.4.22...2.5.4
@@ -769,10 +797,11 @@ Mod is client-side only.
 >* Add null checks to AddonDeveloperEntities (#11) by @boubou19 in https://github.com/GTNewHorizons/WAWLA/pull/16 (1.3.5-GTNH)
 >* Add a large amount of null checks to Utilities (#10) by @boubou19 in https://github.com/GTNewHorizons/WAWLA/pull/17 (1.3.5-GTNH)
 
-# Updated - WarpTheory - 1.5.8-GTNH --> 1.5.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.8-GTNH...1.5.10-GTNH
+# Updated - WarpTheory - 1.5.8-GTNH --> 1.5.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.8-GTNH...1.5.11-GTNH
 
 ## What's Changed:
+>* Spring Cleaning (#56) by @boubou19 in https://github.com/GTNewHorizons/WarpTheory/pull/61 (1.5.11-GTNH)
 >* Cherry-pick of #53 for 2.9.x release by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/WarpTheory/pull/54 (1.5.10-GTNH)
 >* Replace `IHealable` & `IHurtable` with clean overrides. (#55) by @boubou19 in https://github.com/GTNewHorizons/WarpTheory/pull/58 (1.5.10-GTNH)
 >* Translate chat messages on the client instead of the server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WarpTheory/pull/52 (1.5.9-GTNH)
