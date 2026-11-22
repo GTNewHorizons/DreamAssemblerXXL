@@ -42,18 +42,18 @@ class DownloadService:
         self.assets = assets
 
     async def download_version_json(self, asset: Versionable, version: GTNHVersion) -> Path:
-        """Fetch the selected release's published profile, including with an older asset catalog."""
+        """Refresh the selected release's profile, even when its tag has not changed."""
         destination = get_asset_version_cache_location(asset, version, "version.json")
-        if destination.is_file():
-            return destination
         extra = next((item for item in version.extra_assets if item.filename == "version.json"), None)
-        url = (extra.download_url or extra.browser_download_url) if extra is not None else None
-        if url is None and version.browser_download_url:
-            # Older catalogs omitted JSON assets. This is the same tagged release, never latest.
-            url = urljoin(version.browser_download_url, "version.json")
+        api_url = extra.download_url if extra is not None else None
+        browser_url = extra.browser_download_url if extra is not None else None
+        if not browser_url and version.browser_download_url:
+            browser_url = urljoin(version.browser_download_url, "version.json")
+        # The tagged URL survives replacement of a GitHub asset with a new ID.
+        url = (api_url or browser_url) if asset.private else (browser_url or api_url)
         if url is None:
             raise NoModAssetFound(f"No release URL for {asset.name} {version.version_tag} version.json. Refresh the asset catalog.")
-        headers = {"Accept": "application/octet-stream"}
+        headers = {"Accept": "application/octet-stream", "Cache-Control": "no-cache"}
         if urlsplit(url).hostname == "api.github.com":
             headers["Authorization"] = f"token {get_github_token()}"
         log.info(f"Downloading {asset.name} {version.version_tag} release asset version.json")
@@ -128,7 +128,8 @@ class DownloadService:
 
         files_to_download = [(get_asset_version_cache_location(asset, version), version.download_url)]
         for extra_asset in version.extra_assets:
-            if extra_asset.download_url is not None:
+            # Technic fetches the profile separately from the tag, not from a potentially stale asset ID.
+            if extra_asset.download_url is not None and not (asset.name == "lwjgl3ify" and extra_asset.filename == "version.json"):
                 files_to_download.append((get_asset_version_cache_location(asset, version, extra_asset.filename), extra_asset.download_url))
 
         headers = {"Accept": "application/octet-stream"}

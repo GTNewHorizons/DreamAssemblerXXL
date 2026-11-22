@@ -22,7 +22,7 @@ def version_info(tag):
     )
 
 
-def test_old_catalog_downloads_exact_tag_and_keeps_versions_separate(tmp_path, monkeypatch):
+def test_old_catalog_refreshes_exact_tag_and_keeps_versions_separate(tmp_path, monkeypatch):
     monkeypatch.setattr("daxxl.assembler.downloader.CACHE_DIR", tmp_path)
     versions = [version_info(tag) for tag in ("3.0.37", "3.0.40")]
     asset = GTNHModInfo(name="lwjgl3ify", latest_version="3.0.40", versions=versions)
@@ -48,14 +48,15 @@ def test_old_catalog_downloads_exact_tag_and_keeps_versions_separate(tmp_path, m
             assert not old.with_suffix(".json.part").exists()
 
     asyncio.run(run())
-    assert requests == [f"https://github.com/GTNewHorizons/lwjgl3ify/releases/download/{tag}/version.json" for tag in ("3.0.37", "3.0.40")]
+    assert requests == [f"https://github.com/GTNewHorizons/lwjgl3ify/releases/download/{tag}/version.json" for tag in ("3.0.37", "3.0.40", "3.0.37")]
 
 
-def test_indexed_profile_uses_normal_asset_download_and_shared_versioned_cache(tmp_path, monkeypatch):
+def test_normal_asset_download_does_not_request_stale_lwjgl_profile_id(tmp_path, monkeypatch):
     monkeypatch.setattr("daxxl.assembler.downloader.CACHE_DIR", tmp_path)
     monkeypatch.setattr("daxxl.services.download_service.get_github_token", lambda: "test-token")
     version = version_info("3.0.37")
     profile_url = "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/200"
+    tagged_url = "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/3.0.37/version.json"
     release = AttributeDict(
         tag_name="3.0.37",
         assets=[
@@ -67,14 +68,18 @@ def test_indexed_profile_uses_normal_asset_download_and_shared_versioned_cache(t
     primary, extras = get_asset(release, VersionableType.mod)
     assert primary is not None
     assert primary.name == version.filename
-    version.extra_assets = [ExtraAsset(filename=item.name, download_url=item.url) for item in extras]
+    version.extra_assets = [ExtraAsset(filename=item.name, download_url=item.url, browser_download_url=tagged_url) for item in extras]
     asset = GTNHModInfo(name="lwjgl3ify", latest_version="3.0.37", versions=[version])
     requests = []
 
     def handle(request):
-        assert request.headers["Authorization"] == "token test-token"
         requests.append(str(request.url))
-        return httpx.Response(200, content=b'{"id":"release-profile"}' if str(request.url) == profile_url else b"main jar")
+        if str(request.url) == tagged_url:
+            assert "authorization" not in request.headers
+            return httpx.Response(200, content=b'{"id":"release-profile"}')
+        assert request.headers["Authorization"] == "token test-token"
+        assert str(request.url) == version.download_url
+        return httpx.Response(200, content=b"main jar")
 
     async def run():
         async with httpx.AsyncClient(transport=httpx.MockTransport(handle)) as client:
@@ -85,7 +90,7 @@ def test_indexed_profile_uses_normal_asset_download_and_shared_versioned_cache(t
             assert path.read_bytes() == b'{"id":"release-profile"}'
 
     asyncio.run(run())
-    assert requests == [version.download_url, profile_url]
+    assert requests == [version.download_url, tagged_url]
 
 
 def test_missing_release_asset_fails_without_leaving_a_cached_profile(tmp_path, monkeypatch):

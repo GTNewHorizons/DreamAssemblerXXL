@@ -242,3 +242,7 @@ class ServerBrand(str, Enum):
 class DevRelease(str, Enum):
     DAILY = "daily"
     EXPERIMENTAL = "experimental"
+
+
+def technic_archive_name(version: str) -> str:
+    return f"GT_New_Horizons_{version}_(updated mods).zip"
