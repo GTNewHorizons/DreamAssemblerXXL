@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-11-21
+Version daily is out 2026-11-22
 
 ## What is GT New Horizons?
 
@@ -326,7 +326,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Darkerer](https://github.com/GTNewHorizons/Darkerer) | 1.2.0 |
 | [Dashboard](https://github.com/GTNewHorizons/Dashboard) | 1.0.23 |
 | [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.4.0 |
-| [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.8.0 |
+| [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.8.1 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.6.0 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.6.2-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.22.0 |
@@ -385,7 +385,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [IronTankMinecarts](https://github.com/GTNewHorizons/IronTankMinecarts) | 1.1.0 |
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.5.0 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.6.1 |
-| [JarJar](https://github.com/GTNewHorizons/JarJar) | 0.4.1-beta |
+| [JarJar](https://github.com/GTNewHorizons/JarJar) | 0.4.2-beta |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.23-fairplay |
 | [LiquidLogged](https://github.com/GTNewHorizons/LiquidLogged) | 0.2.5 |
@@ -432,7 +432,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Opis](https://github.com/GTNewHorizons/Opis) | 1.5.0-mapless |
 | [OverloadedArmorBar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.2.0 |
 | [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.1.0 |
-| [PlanNH](https://github.com/GTNewHorizons/PlanNH) | 0.2.4 |
+| [PlanNH](https://github.com/GTNewHorizons/PlanNH) | 0.2.5 |
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.6.0 |
 | [Postea](https://github.com/GTNewHorizons/Postea) | 1.3.0 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.3.1-GTNH |
@@ -462,7 +462,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.6.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.2.0 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.8.0-GTNH |
-| [TaskNH](https://github.com/GTNewHorizons/TaskNH) | 0.15.2 |
+| [TaskNH](https://github.com/GTNewHorizons/TaskNH) | 0.15.3 |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.48 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.5.0 |
 | [Tempora](https://github.com/GTNewHorizons/Tempora) | 1.1.0 |

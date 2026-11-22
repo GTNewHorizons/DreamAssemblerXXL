@@ -8517,20 +8517,20 @@
         "version_tag": "de_DE-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T09:26:04+00:00",
-        "filename": "GTNH-de_DE-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775056180",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T09:10:53+00:00",
+        "filename": "GTNH-de_DE-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778492754",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/de_DE-latest/GTNH-de_DE-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "es_ES-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T09:08:43+00:00",
-        "filename": "GTNH-es_ES-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775018753",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T08:53:36+00:00",
+        "filename": "GTNH-es_ES-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778453461",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/es_ES-latest/GTNH-es_ES-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
@@ -8547,70 +8547,70 @@
         "version_tag": "ja_JP-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T08:38:34+00:00",
-        "filename": "GTNH-ja_JP-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774952793",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T08:19:28+00:00",
+        "filename": "GTNH-ja_JP-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778373903",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ja_JP-latest/GTNH-ja_JP-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ko_KR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T08:47:55+00:00",
-        "filename": "GTNH-ko_KR-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774973937",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T08:29:12+00:00",
+        "filename": "GTNH-ko_KR-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778397989",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ko_KR-latest/GTNH-ko_KR-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pl_PL-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T09:35:05+00:00",
-        "filename": "GTNH-pl_PL-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775075965",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T09:19:51+00:00",
+        "filename": "GTNH-pl_PL-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778511960",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pl_PL-latest/GTNH-pl_PL-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "pt_BR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T08:56:12+00:00",
-        "filename": "GTNH-pt_BR-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774992242",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T08:40:57+00:00",
+        "filename": "GTNH-pt_BR-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778425237",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/pt_BR-latest/GTNH-pt_BR-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "ru_RU-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T09:42:36+00:00",
-        "filename": "GTNH-ru_RU-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775093287",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T09:28:41+00:00",
+        "filename": "GTNH-ru_RU-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778532668",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/ru_RU-latest/GTNH-ru_RU-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "tr_TR-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T09:17:26+00:00",
-        "filename": "GTNH-tr_TR-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/775037054",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T09:01:59+00:00",
+        "filename": "GTNH-tr_TR-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778472217",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/tr_TR-latest/GTNH-tr_TR-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       },
       {
         "version_tag": "zh_CN-latest",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2026-11-21T08:30:28+00:00",
-        "filename": "GTNH-zh_CN-Translation-Daily-2026-11-21+529.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/774934655",
-        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-11-21%2B529.zip",
+        "tagged_at": "2026-11-22T08:11:38+00:00",
+        "filename": "GTNH-zh_CN-Translation-Daily-2026-11-22+530.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Translations/releases/assets/778356350",
+        "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Translations/releases/download/zh_CN-latest/GTNH-zh_CN-Translation-Daily-2026-11-22%2B530.zip",
         "extra_assets": []
       }
     ],
@@ -8996,7 +8996,7 @@
     },
     {
       "name": "AdventureBackpack2",
-      "latest_version": "1.5.0-GTNH",
+      "latest_version": "1.5.1-GTNH",
       "private": false,
       "versions": [
         {
@@ -9727,6 +9727,16 @@
           "filename": "adventurebackpack-1.5.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/710200793",
           "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.5.0-GTNH/adventurebackpack-1.5.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.1-GTNH",
+          "changelog": "## What's Changed\n* Use single instance of model for adventurer's hat by @OneEyeMaker in https://github.com/GTNewHorizons/AdventureBackpack2/pull/71\n* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/AdventureBackpack2/pull/68\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/68\n\n**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.4.28-GTNH...1.5.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:14+00:00",
+          "filename": "adventurebackpack-1.5.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/772540518",
+          "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.5.1-GTNH/adventurebackpack-1.5.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -15218,7 +15228,7 @@
     },
     {
       "name": "AkashicTome",
-      "latest_version": "1.3.0",
+      "latest_version": "1.3.1",
       "private": false,
       "versions": [
         {
@@ -15440,6 +15450,16 @@
           "filename": "akashictome-1.3.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AkashicTome/releases/assets/710269105",
           "browser_download_url": "https://github.com/GTNewHorizons/AkashicTome/releases/download/1.3.0/akashictome-1.3.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.1",
+          "changelog": "## What's Changed\n* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/AkashicTome/pull/22\n\n## New Contributors\n* @Ranzuu made their first contribution in https://github.com/GTNewHorizons/AkashicTome/pull/22\n\n**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.7...1.3.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:04+00:00",
+          "filename": "akashictome-1.3.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AkashicTome/releases/assets/775391254",
+          "browser_download_url": "https://github.com/GTNewHorizons/AkashicTome/releases/download/1.3.1/akashictome-1.3.1.jar",
           "extra_assets": []
         }
       ],
@@ -19825,7 +19845,7 @@
     },
     {
       "name": "Applied-Energistics-2-NH",
-      "latest_version": "1.0.6",
+      "latest_version": "1.0.11",
       "private": false,
       "versions": [
         {
@@ -19896,6 +19916,56 @@
           "filename": "appliedenergistics2-1.0.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/762270579",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.6/appliedenergistics2-1.0.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.7",
+          "changelog": "## What's Changed\n* Fix cable placement preview disappearing under water by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/51\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.6...1.0.7\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T08:29:11+00:00",
+          "filename": "appliedenergistics2-1.0.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/766870000",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.7/appliedenergistics2-1.0.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.8",
+          "changelog": "## What's Changed\n* Fix creative inventory crash when Thaumcraft is not installed by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/58\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.7...1.0.8\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-19T15:58:49+00:00",
+          "filename": "appliedenergistics2-1.0.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/768311025",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.8/appliedenergistics2-1.0.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.9",
+          "changelog": "## What's Changed\n* Draw the placement preview as one merged outline by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/56\n* Add LiquidLogged support for ME cables, stairs, slabs and Sky Chests by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/50\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.8...1.0.9\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:46+00:00",
+          "filename": "appliedenergistics2-1.0.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/772542130",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.9/appliedenergistics2-1.0.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.10",
+          "changelog": "## What's Changed\n* Migrate to ForgeMultipart Java API by @Algent in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/55\n* Optimising images contained in merge-betterp2p for #60 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/61\n* Merge BetterP2P by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/60\n* Rename BetterP2P Kotlin sources to .java by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/62\n* Rewrite betterp2p java by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/64\n\n## New Contributors\n* @Algent made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-NH/pull/55\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.9...1.0.10\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:06+00:00",
+          "filename": "appliedenergistics2-1.0.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/775391306",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.10/appliedenergistics2-1.0.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.11",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-NH/compare/1.0.10...1.0.11\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T13:09:44+00:00",
+          "filename": "appliedenergistics2-1.0.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-NH/releases/assets/775623351",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-NH/releases/download/1.0.11/appliedenergistics2-1.0.11.jar",
           "extra_assets": []
         }
       ],
@@ -45616,7 +45686,7 @@
     },
     {
       "name": "Chisel",
-      "latest_version": "2.18.1-GTNH",
+      "latest_version": "2.18.3-GTNH",
       "needs_attention": false,
       "private": false,
       "versions": [
@@ -46588,6 +46658,16 @@
           "filename": "chisel-2.18.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/727273678",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.18.1-GTNH/chisel-2.18.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.18.3-GTNH",
+          "changelog": "## What's Changed\n* fix world client leak in TileEntityAutoChisel by @Alexdoru in https://github.com/GTNewHorizons/Chisel/pull/110\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.18.2-GTNH...2.18.3-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:16+00:00",
+          "filename": "chisel-2.18.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/775391701",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.18.3-GTNH/chisel-2.18.3-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -52600,7 +52680,7 @@
     },
     {
       "name": "Dashboard",
-      "latest_version": "1.0.22",
+      "latest_version": "1.0.23",
       "private": false,
       "versions": [
         {
@@ -52681,6 +52761,16 @@
           "filename": "dashboard-1.0.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Dashboard/releases/assets/737119978",
           "browser_download_url": "https://github.com/GTNewHorizons/Dashboard/releases/download/1.0.22/dashboard-1.0.22.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.23",
+          "changelog": "## What's Changed\n* Avoid Overlap: elements make room for each other by @Ranzuu in https://github.com/GTNewHorizons/Dashboard/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Dashboard/compare/1.0.22...1.0.23\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:42+00:00",
+          "filename": "dashboard-1.0.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Dashboard/releases/assets/772541940",
+          "browser_download_url": "https://github.com/GTNewHorizons/Dashboard/releases/download/1.0.23/dashboard-1.0.23.jar",
           "extra_assets": []
         }
       ],
@@ -52851,7 +52941,7 @@
     },
     {
       "name": "DefaultServerList",
-      "latest_version": "1.8.0",
+      "latest_version": "1.8.1",
       "private": false,
       "versions": [
         {
@@ -53044,6 +53134,16 @@
           "filename": "defaultserverlist-1.8.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/DefaultServerList/releases/assets/710317608",
           "browser_download_url": "https://github.com/GTNewHorizons/DefaultServerList/releases/download/1.8.0/defaultserverlist-1.8.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.7.4...1.8.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T19:59:19+00:00",
+          "filename": "defaultserverlist-1.8.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DefaultServerList/releases/assets/776709791",
+          "browser_download_url": "https://github.com/GTNewHorizons/DefaultServerList/releases/download/1.8.1/defaultserverlist-1.8.1.jar",
           "extra_assets": []
         }
       ],
@@ -62701,7 +62801,7 @@
     },
     {
       "name": "ForestryMC",
-      "latest_version": "4.12.1",
+      "latest_version": "4.12.2",
       "private": false,
       "versions": [
         {
@@ -64172,6 +64272,16 @@
           "filename": "Forestry-4.12.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/735472846",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.12.1/Forestry-4.12.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.12.2",
+          "changelog": "## What's Changed\n* [2.9.x Bug Fix] Updated Beverage container handling. by @N0t-Brian in https://github.com/GTNewHorizons/ForestryMC/pull/143\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.12.1...4.12.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T19:17:18+00:00",
+          "filename": "Forestry-4.12.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/773035692",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.12.2/Forestry-4.12.2.jar",
           "extra_assets": []
         }
       ],
@@ -111337,7 +111447,7 @@
     },
     {
       "name": "Hardcore-Ender-Expansion",
-      "latest_version": "1.14.1-GTNH",
+      "latest_version": "1.14.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -111828,6 +111938,16 @@
           "filename": "HardcoreEnderExpansion-1.14.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/732802774",
           "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.14.1-GTNH/HardcoreEnderExpansion-1.14.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.14.2-GTNH",
+          "changelog": "## What's Changed\n* Fix world client leak in RenderTileEssenceAltar by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/55\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.14.1-GTNH...1.14.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:59+00:00",
+          "filename": "HardcoreEnderExpansion-1.14.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/775393524",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.14.2-GTNH/HardcoreEnderExpansion-1.14.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -121015,7 +121135,7 @@
     },
     {
       "name": "InGame-Info-XML",
-      "latest_version": "2.10.1",
+      "latest_version": "2.10.2",
       "private": false,
       "versions": [
         {
@@ -121546,6 +121666,16 @@
           "filename": "InGameInfoXML-2.10.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/744767253",
           "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.10.1/InGameInfoXML-2.10.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.10.2",
+          "changelog": "## What's Changed\n* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/InGame-Info-XML/pull/48\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.10.1...2.10.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:44+00:00",
+          "filename": "InGameInfoXML-2.10.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/772542029",
+          "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.10.2/InGameInfoXML-2.10.2.jar",
           "extra_assets": []
         }
       ],
@@ -124470,7 +124600,7 @@
     },
     {
       "name": "JarJar",
-      "latest_version": "0.4.1-beta",
+      "latest_version": "0.4.2-beta",
       "private": false,
       "versions": [
         {
@@ -124651,6 +124781,16 @@
           "filename": "jarjar-0.4.1-beta.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/JarJar/releases/assets/772544947",
           "browser_download_url": "https://github.com/GTNewHorizons/JarJar/releases/download/0.4.1-beta/jarjar-0.4.1-beta.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.2-beta",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/JarJar/compare/0.4.1-beta...0.4.2-beta\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T19:48:57+00:00",
+          "filename": "jarjar-0.4.2-beta.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/JarJar/releases/assets/776685376",
+          "browser_download_url": "https://github.com/GTNewHorizons/JarJar/releases/download/0.4.2-beta/jarjar-0.4.2-beta.jar",
           "extra_assets": []
         }
       ],
@@ -126850,7 +126990,7 @@
     },
     {
       "name": "LiquidLogged",
-      "latest_version": "0.2.4",
+      "latest_version": "0.2.5",
       "private": false,
       "versions": [
         {
@@ -126911,6 +127051,16 @@
           "filename": "liquidlogged-0.2.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/762269400",
           "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.2.4/liquidlogged-0.2.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.5",
+          "changelog": "## What's Changed\n* Fix water bucket filling the next cell with CoFH Core installed by @Eldrinn-Elantey in https://github.com/GTNewHorizons/LiquidLogged/pull/5\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/LiquidLogged/compare/0.2.4...0.2.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:45+00:00",
+          "filename": "liquidlogged-0.2.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LiquidLogged/releases/assets/772542079",
+          "browser_download_url": "https://github.com/GTNewHorizons/LiquidLogged/releases/download/0.2.5/liquidlogged-0.2.5.jar",
           "extra_assets": []
         }
       ],
@@ -133573,7 +133723,7 @@
     },
     {
       "name": "MagicBees",
-      "latest_version": "2.11.1-GTNH",
+      "latest_version": "2.11.2-GTNH",
       "private": false,
       "versions": [
         {
@@ -134204,6 +134354,16 @@
           "filename": "magicbees-2.11.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/748717802",
           "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.11.1-GTNH/magicbees-2.11.1-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.11.2-GTNH",
+          "changelog": "## What's Changed\n* Fix empowering bee not seeing nodes correctly by @Armisael5 in https://github.com/GTNewHorizons/MagicBees/pull/71\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.11.1-GTNH...2.11.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:31+00:00",
+          "filename": "magicbees-2.11.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/772541360",
+          "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.11.2-GTNH/magicbees-2.11.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -143900,7 +144060,7 @@
     },
     {
       "name": "Nei-Recipe-Panels",
-      "latest_version": "1.0.1",
+      "latest_version": "1.0.2",
       "private": false,
       "versions": [
         {
@@ -143931,6 +144091,16 @@
           "filename": "nei-recipe-panels-1.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Nei-Recipe-Panels/releases/assets/613318588",
           "browser_download_url": "https://github.com/GTNewHorizons/Nei-Recipe-Panels/releases/download/1.0.1/nei-recipe-panels-1.0.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.2",
+          "changelog": "## What's Changed\n* Fix panel rendering, capacity and recipe lookup issues by @Algent in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/5\n\n## New Contributors\n* @Algent made their first contribution in https://github.com/GTNewHorizons/Nei-Recipe-Panels/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/Nei-Recipe-Panels/compare/1.0.1...1.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T01:25:43+00:00",
+          "filename": "nei-recipe-panels-1.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Nei-Recipe-Panels/releases/assets/769973571",
+          "browser_download_url": "https://github.com/GTNewHorizons/Nei-Recipe-Panels/releases/download/1.0.2/nei-recipe-panels-1.0.2.jar",
           "extra_assets": []
         }
       ],
@@ -168678,7 +168848,7 @@
     },
     {
       "name": "PlanNH",
-      "latest_version": "0.2.4",
+      "latest_version": "0.2.5",
       "private": false,
       "versions": [
         {
@@ -168699,6 +168869,16 @@
           "filename": "plannh-0.2.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/PlanNH/releases/assets/742732761",
           "browser_download_url": "https://github.com/GTNewHorizons/PlanNH/releases/download/0.2.4/plannh-0.2.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.5",
+          "changelog": "## What's Changed\n* Update dependencies for 2.9.0 by @sbancuz in https://github.com/GTNewHorizons/PlanNH/pull/74\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/PlanNH/compare/0.2.4...0.2.5\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T15:14:59+00:00",
+          "filename": "plannh-0.2.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PlanNH/releases/assets/775960993",
+          "browser_download_url": "https://github.com/GTNewHorizons/PlanNH/releases/download/0.2.5/plannh-0.2.5.jar",
           "extra_assets": []
         }
       ],
@@ -169129,7 +169309,7 @@
     },
     {
       "name": "ProjectBlue",
-      "latest_version": "1.3.0-GTNH",
+      "latest_version": "1.3.1-GTNH",
       "private": false,
       "versions": [
         {
@@ -169320,6 +169500,16 @@
           "filename": "ProjectBlue-1.3.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/710394093",
           "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.3.0-GTNH/ProjectBlue-1.3.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.1-GTNH",
+          "changelog": "## What's Changed\n* fix world client leaks in ControlPanelRenderer by @Alexdoru in https://github.com/GTNewHorizons/ProjectBlue/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.2.11-GTNH...1.3.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:42:02+00:00",
+          "filename": "ProjectBlue-1.3.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/775391156",
+          "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.3.1-GTNH/ProjectBlue-1.3.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -171599,7 +171789,7 @@
     },
     {
       "name": "Random-Things",
-      "latest_version": "2.8.0",
+      "latest_version": "2.8.1",
       "private": false,
       "versions": [
         {
@@ -171931,6 +172121,16 @@
           "filename": "RandomThings-2.8.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Random-Things/releases/assets/710393612",
           "browser_download_url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.8.0/RandomThings-2.8.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.1",
+          "changelog": "## What's Changed\n* Dashboard HUD support by @Ranzuu in https://github.com/GTNewHorizons/Random-Things/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.7.13...2.8.1\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T16:36:08+00:00",
+          "filename": "RandomThings-2.8.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Random-Things/releases/assets/772540197",
+          "browser_download_url": "https://github.com/GTNewHorizons/Random-Things/releases/download/2.8.1/RandomThings-2.8.1.jar",
           "extra_assets": []
         }
       ],
@@ -176479,7 +176679,7 @@
     },
     {
       "name": "SGCraft",
-      "latest_version": "1.5.0-GTNH",
+      "latest_version": "1.5.1-GTNH",
       "private": false,
       "versions": [
         {
@@ -176660,6 +176860,16 @@
           "filename": "SGCraft-1.5.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/710390370",
           "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.5.0-GTNH/SGCraft-1.5.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.5.1-GTNH",
+          "changelog": "## What's Changed\n* Fix word leaks in BaseRenderingUtils and NaquadahOreWorldGen by @Alexdoru in https://github.com/GTNewHorizons/SGCraft/pull/31\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.14-GTNH...1.5.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:03+00:00",
+          "filename": "SGCraft-1.5.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/775393659",
+          "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.5.1-GTNH/SGCraft-1.5.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -181600,7 +181810,7 @@
     },
     {
       "name": "TaskNH",
-      "latest_version": "0.15.2",
+      "latest_version": "0.15.3",
       "private": false,
       "versions": [
         {
@@ -181881,6 +182091,16 @@
           "filename": "tasknh-0.15.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/767634688",
           "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.15.2/tasknh-0.15.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.15.3",
+          "changelog": "## What's Changed\n* QoL: Snap the HUD to screen edges and center, nudge with arrows by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TaskNH/pull/62\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TaskNH/compare/0.15.2...0.15.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T16:02:35+00:00",
+          "filename": "tasknh-0.15.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TaskNH/releases/assets/776088702",
+          "browser_download_url": "https://github.com/GTNewHorizons/TaskNH/releases/download/0.15.3/tasknh-0.15.3.jar",
           "extra_assets": []
         }
       ],
@@ -185789,7 +186009,7 @@
     },
     {
       "name": "Tempora",
-      "latest_version": "1.0.3",
+      "latest_version": "1.1.0",
       "private": false,
       "versions": [
         {
@@ -185830,6 +186050,16 @@
           "filename": "tempora-1.0.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Tempora/releases/assets/737494860",
           "browser_download_url": "https://github.com/GTNewHorizons/Tempora/releases/download/1.0.3/tempora-1.0.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Tempora/compare/1.0.3...1.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-20T15:11:55+00:00",
+          "filename": "tempora-1.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Tempora/releases/assets/772265610",
+          "browser_download_url": "https://github.com/GTNewHorizons/Tempora/releases/download/1.1.0/tempora-1.1.0.jar",
           "extra_assets": []
         }
       ],
@@ -200475,7 +200705,7 @@
     },
     {
       "name": "waila",
-      "latest_version": "1.20.2",
+      "latest_version": "1.20.3",
       "private": false,
       "versions": [
         {
@@ -201276,6 +201506,16 @@
           "filename": "Waila-1.20.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/771821628",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.20.2/Waila-1.20.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.20.3",
+          "changelog": "## What's Changed\n* Use the correct event to render the HUD to benefit from HUD Caching by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.20.2...1.20.3\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-21T11:43:33+00:00",
+          "filename": "Waila-1.20.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/775395313",
+          "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.20.3/Waila-1.20.3.jar",
           "extra_assets": []
         }
       ],
@@ -205241,6 +205481,6 @@
   ],
   "latest_experimental": 141,
   "latest_successful_experimental": 141,
-  "latest_daily": 843,
-  "latest_successful_daily": 843
+  "latest_daily": 850,
+  "latest_successful_daily": 850
 }
