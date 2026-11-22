@@ -7,7 +7,8 @@ on:
 
 concurrency:
   group: ${{ github.workflow }}
-  cancel-in-progress: true
+  cancel-in-progress: false
+  queue: max
 
 env:
   RELEASE_REPOSITORY: GTNewHorizons/GTNH-Daily-Builds
@@ -18,6 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     outputs:
+      unchanged: ${{ steps.release-changes.outputs.unchanged }}
       today: ${{ steps.date.outputs.today }}
       daily_non_daily_changelog_file: ${{ steps.release-info.outputs.daily_non_daily_changelog_file }}
       changelog_name: ${{ steps.changelog-name.outputs.changelog_name }}
@@ -46,8 +48,36 @@ jobs:
           echo "today=$(date --iso-8601)+${{ github.run_number }}" >> "$GITHUB_OUTPUT"
           echo "cachedate=$(date '+%G-w%V')" >> "$GITHUB_OUTPUT"
 
+      - name: Generate daily manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+        run: uv run python -m daxxl.cli.generate_daily --id "${{ github.run_number }}" --update-available
+
+      - name: Check for new release tags
+        id: release-changes
+        if: github.event_name == 'schedule'
+        shell: python
+        run: |
+          import json
+          import os
+          from pathlib import Path
+
+          def release_versions(name):
+              manifest = json.loads(Path(f"releases/manifests/{name}.json").read_text(encoding="utf-8"))
+              return (
+                  manifest["config"],
+                  {mod: info["version"] for mod, info in manifest["github_mods"].items()},
+                  {mod: info["version"] for mod, info in manifest["external_mods"].items()},
+              )
+
+          # Generation moves the checked-in daily manifest to previous_daily.
+          if release_versions("daily") == release_versions("previous_daily"):
+              with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+                  print("unchanged=true", file=output)
+
       - name: Load cached mod zips
         id: load_mod_cache
+        if: steps.release-changes.outputs.unchanged != 'true'
         uses: actions/cache/restore@v5
         with:
           path: cache
@@ -56,22 +86,22 @@ jobs:
             daxxl-daily-${{ runner.os }}-
 
       - name: Build modpack archives
+        if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
-        run: |
-          uv run python -m daxxl.cli.generate_daily --id "${{ github.run_number }}" --update-available
-          uv run python -m daxxl.cli.assemble_daily
+        run: uv run python -m daxxl.cli.assemble_daily
 
       - name: Save cached mod zips
         uses: actions/cache/save@v5
-        if: steps.load_mod_cache.outputs.cache-hit != 'true'
+        if: steps.release-changes.outputs.unchanged != 'true' && steps.load_mod_cache.outputs.cache-hit != 'true'
         with:
           path: cache
           key: daxxl-daily-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
 
       - name: Retrieve last non-daily release name
         id: release-info
+        if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         run: |
           last_non_daily_release_name=$(jq -r '
@@ -92,6 +122,7 @@ jobs:
           echo "daily_non_daily_changelog_file=${changelog_file}" >> "$GITHUB_OUTPUT"
 
       - name: Generate changelog between daily and last non-daily release
+        if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
@@ -100,7 +131,7 @@ jobs:
 
       - name: Upload manifest job summary
         shell: bash
-        if: success() || failure()
+        if: (success() || failure()) && steps.release-changes.outputs.unchanged != 'true'
         continue-on-error: true
         run: |
           echo "## GTNH Daily build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
@@ -124,6 +155,7 @@ jobs:
           echo "</details>" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Relocate built zips
+        if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         run: |
           mv releases/zip/GT_New_Horizons_daily_Server_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-server-java8.zip"
@@ -135,6 +167,7 @@ jobs:
       # so we can use it in the commit
       - name: Retrieve Changelog Name
         id: changelog-name
+        if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         run: |
           changelog_name=$(./scripts/newest_changelog.sh './releases/changelogs/daily builds')
@@ -142,6 +175,7 @@ jobs:
 
       # Bundle everything the test/upload jobs need into a single internal artifact
       - name: Upload build bundle for downstream jobs
+        if: steps.release-changes.outputs.unchanged != 'true'
         uses: actions/upload-artifact@v7
         with:
           name: daily-build-bundle
@@ -160,8 +194,28 @@ jobs:
           retention-days: 1
 
 
+  cancel-unchanged:
+    needs: build
+    if: needs.build.outputs.unchanged == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    permissions:
+      actions: write
+    steps:
+      - name: Cancel scheduled run with no new release tags
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "No new mod or config release tags since the previous daily."
+          gh run cancel "$GITHUB_RUN_ID" --repo "$GITHUB_REPOSITORY"
+          # Keep the run active until GitHub applies the cancellation request.
+          sleep infinity
+
+
   test:
     needs: build
+    if: needs.build.outputs.unchanged != 'true'
     permissions:
       contents: write # publish release
     secrets: inherit
@@ -177,7 +231,7 @@ jobs:
 
   notify-status:
     needs: [build, test, upload]
-    if: ${{ always() }}
+    if: ${{ always() && needs.build.outputs.unchanged != 'true' }}
     runs-on: ubuntu-24.04
     steps:
       - name: Send Discord webhook with build status
