@@ -71,7 +71,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):
         self.callbacks: ButtonArrayCallback = callbacks
 
         self.btn_client_cf: CustomButton = CustomButton(self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed)
-        self.btn_client_technic: CustomButton = CustomButton(self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed)
+        self.btn_client_technic: CustomButton = CustomButton(self.frame_btn, text="Technic update ZIP", command=callbacks.client_technic, themed=self.themed)
         self.btn_publish_solder: CustomButton = CustomButton(self.frame_btn, text="Publish Solder build", command=callbacks.publish_solder, themed=self.themed)
         self.btn_client_prism: CustomButton = CustomButton(self.frame_btn, text=" Java 8 Prism archive", command=callbacks.client_prism, themed=self.themed)
         self.btn_client_prism_j9: CustomButton = CustomButton(

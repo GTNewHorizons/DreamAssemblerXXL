@@ -35,34 +35,33 @@ uses each outer ZIP at a time. Temporary packages are bounded to the current bat
 The outer archive stores the already-compressed packages without recompressing them;
 the nested ZIP format, compression and permissions remain the same.
 
-During one complete assembly, the updated/new-mod archives reuse package bytes from
-the full archive just generated, including its configuration package. They do not recompress
-the mods or rebuild the configuration a second time. Reuse is limited to the current run,
-so an old release archive on disk is never used as a cache. Worker completion is awaited
-before closing ZIPs or deleting temporary files, including on failure/cancellation.
-
-Measured locally on four cached JARs (100,349,788 input bytes, median of three runs):
-mod packaging dropped from 4.612 s to 1.854 s; reusing those packages took 0.095 s.
-Nested package bytes were identical. These are sample measurements, not whole-release
-timings; gains depend on disk, CPU, mod sizes and configuration contents.
+Technic produces one `updated mods` ZIP. It contains new or updated client packages
+compared with the previous release, configuration if its version changed, and
+`gtnh-java-args` for the target release. It does not package unchanged or removed mods.
+When the release has no previous release, all selected packages are included. If a
+previous release is specified but cannot be loaded, assembly stops.
 
 ### Solder publication
 
 Publication is performed manually by an operator through the GUI using `solder.json`.
 
 Requires Solder 1.5.0 and an existing pack. Every publication creates a new build from
-the full Technic archive; no previous build is read or cloned. This also supports the
-first build of a pack. Create a bearer token from the Solder
+the loaded release's complete mod selection; no previous Solder build is read or cloned.
+Create a bearer token from the Solder
 user profile; the account needs `mods_create`, `mods_manage`, `modpacks_manage` and access
 to the target pack. The Technic Platform linking key is not a bearer token.
 
-1. Generate the **full Technic archive** using the existing `Technic archive` action.
-2. Manually extract/upload its nested ZIPs to the mirror configured in Solder, keeping
-   `mods/{name}/{name}-{version}.zip` relative to the mirror root. Upload the nested ZIPs
-   themselves, not their contents. Keep the mirror URL's trailing slash.
-3. Click **Publish Solder build**. The GUI uses the loaded
-   release's full archive `GT_New_Horizons_<release>_(technic).zip` in `releases/technic/`;
-   partial update archives are not accepted.
+1. Click **Technic update ZIP**. It creates
+   `releases/technic/GT_New_Horizons_<release>_(updated mods).zip`.
+2. Extract and upload the individual ZIPs not already registered in Solder to the
+   configured mirror. Keep `mods/{name}/{name}-{version}.zip` relative to the mirror
+   root. The `technic-selection.json` file stays in the local update ZIP. Do not upload
+   the outer ZIP, unpack the individual ZIPs, or overwrite existing versions.
+   Keep the mirror URL's trailing slash.
+3. Once the upload is done, click **Publish Solder build**. The button does not upload
+   any files. It checks the loaded release against the selection saved in the update ZIP,
+   then checks the required ZIPs on the mirror before making any writes. If the selection
+   changed or an older ZIP has no saved selection, regenerate it and upload the changes.
 
 ### GUI configuration file
 
@@ -73,7 +72,7 @@ never written into the generated file. An existing file is never overwritten.
 
 Fill in the Solder installation URL, existing pack slug and complete bearer token in
 that file, then click **Publish Solder build** again. No settings form opens: publication
-uses the config, loaded release version and its full Technic archive directly. The GUI
+uses the config, loaded release and its Technic update ZIP directly. The GUI
 publishes publicly and updates `latest`, leaving `recommended` unchanged.
 Progress and completion are shown in the main window. Missing configuration or archive
 produces an error before publication. The file is reread on each click; no restart is needed.
@@ -106,45 +105,44 @@ server). This configures client pacing; it does not change the server's limit.
 
 ### Published packages
 
-The archive supplies the desired package list, including configuration. All its packages
-are assigned to the new empty build; no previous build contributes packages.
+The loaded release supplies the complete desired mod and configuration list.
+The update ZIP also supplies `gtnh-java-args`. All selected versions are assigned to the new empty build.
+Removed mods remain in Solder's shared library but are not assigned to the build.
 Every build also includes the mandatory hardcoded mod **`modpack`**, version
 **`1.7.10-10.13.4.1614-version-less`**, even when absent from the archive. This exact version must already
-be registered in Solder, or its ZIP must be included in the full archive and uploaded to
-the mirror for normal verification/registration. It is assigned only once. An archive
-containing a different `modpack` version is rejected. The final manifest must contain the
+be registered in Solder, or its ZIP must be included in the update ZIP and uploaded to
+the mirror for normal verification/registration. It is assigned only once. A release
+selecting a different `modpack` version is rejected. The final manifest must contain the
 mandatory version before the build can be made public or promoted.
-Ensure any other loader/runtime packages are included in the full archive before publishing.
 Technic includes all release-selected client/both mods, for Java 8 and Java 9+:
 `CLIENT`, `BOTH`, `CLIENT_JAVA9`, `BOTH_JAVA9`. This applies to GitHub and external mods,
-in full and differential archives. `SERVER`, `SERVER_JAVA9` and `NONE` are excluded.
+for both assembly and publication. `SERVER`, `SERVER_JAVA9` and `NONE` are excluded.
 Each version comes from the release manifest, not the latest asset version. There is no
-special selection rule for `lwjgl3ify`. Regenerate the Technic archive and upload the newly
+special selection rule for `lwjgl3ify`. Regenerate the update ZIP and upload the newly
 included ZIPs before publishing; Solder registers and assigns them normally.
 
 ### Java arguments and Java 25
 
 Assembly generates a `gtnh-java-args` package containing `patches/gtnh-jvm.json` and
 `bin/version.json`. The latter is the **published `version.json` release asset** of the
-selected lwjgl3ify version, copied unchanged. It is downloaded through the existing download
-service and cached as `cache/mod/lwjgl3ify/lwjgl3ify-<version>-version.json`, so releases
-cannot overwrite each other's profile. Older asset catalogs are supported by fetching
-`version.json` beside the selected release's JAR download URL. There is no extraction from
-the JAR and no fallback to a latest release. A missing, invalid or mismatched profile stops
-assembly before replacing existing archives. The JVM patch's
+selected lwjgl3ify version, copied unchanged. Each Technic assembly fetches it again from
+the selected tag, even when the local cache already contains a profile. The tagged URL
+still works when the asset is replaced under that tag. The downloaded profile is stored
+as `cache/mod/lwjgl3ify/lwjgl3ify-<version>-version.json`. There is no fallback to an old
+cached copy, the JAR or the latest release. A missing, invalid or mismatched profile stops
+assembly before replacing an existing update ZIP. The JVM patch's
 `+jvmArgs` list preserves the arguments from `server_assets/forge/java9args.txt`, including
 repeated `--add-opens` option/value pairs, and enables `-XX:+UseCompactObjectHeaders` once.
 The patch declares Java major version `25` and runtime component `java-runtime-epsilon`.
 Compact object headers are a product feature in Java 25, so no additional
 `-XX:+UnlockExperimentalVMOptions` flag is needed ([JEP 519](https://openjdk.org/jeps/519)).
 
-This small ZIP is separate from the existing configuration package. Its version follows
-the release, normalized like other Technic versions: release `2.9.0-RC-2` produces
-`mods/gtnh-java-args/gtnh-java-args-2.9.0-rc-2.zip`, registered as version `2.9.0-rc-2`.
-Its ZIP timestamp is fixed so unchanged inputs remain byte-identical. As with other mods,
-an already registered version is trusted and reused; changing published JVM arguments or
-the launcher profile requires a new release version. The full and updated-mod archives contain the same package bytes.
-Regenerate the Technic archive, upload the new ZIP under `mods/gtnh-java-args/`, then publish.
+This small ZIP is separate from the existing configuration package. Its version is the
+normalized release name followed by the first 12 characters of the ZIP's MD5:
+`mods/gtnh-java-args/gtnh-java-args-2.9.0-rc-2-<hash>.zip`, for example. Its ZIP timestamp
+is fixed so unchanged inputs remain byte-identical. Corrected arguments or a corrected
+launcher profile get a new package version without overwriting the old one. Upload it
+under `mods/gtnh-java-args/`, then publish.
 
 Use a Technic Launcher version supporting version patches. Automatic Java 25 selection
 uses the launcher's **Use Mojang Java runtimes** option; with that option disabled, select
@@ -152,31 +150,35 @@ a Java 25 installation manually. The bundled `version.json` supplies lwjgl3ify's
 and main class; the JVM patch adds the requested arguments and selects Java 25. The mandatory
 Java 25 `modpack` package is still distributed separately.
 
-An exact mod/version already registered in Solder is trusted: its mirror ZIP is not
-downloaded and its MD5/size are not compared with the local archive. The API lookup only
-determines whether that version exists. An existing mod entry alone does not qualify:
-each new version must still pass verification.
+An exact mod/version already registered in Solder is reused without downloading its
+mirror ZIP. For `gtnh-java-args`, publication also checks the stored MD5 and size against
+the local ZIP. An existing mod entry alone does not qualify: each new version must
+still pass verification.
 
-For a version not yet registered, the publisher downloads the mirror ZIP and verifies
-its size and MD5 against the nested ZIP in the local archive. Only successfully verified
-new versions are queued for registration. No mod or version is created until all preflight
-checks have finished successfully. A rejected ZIP therefore leaves no new database record
-that could be mistakenly trusted on the next run. Existing versions are never overwritten;
-changed files must use a new package version.
+For a version not yet registered, the update ZIP must contain its package. The publisher
+downloads the mirror ZIP and verifies its size and MD5 against that package. No mod or
+version is created until all preflight checks have finished successfully. Solder stores
+the supplied MD5 and size; publication never requests a server-side rehash. Existing
+versions are never overwritten; changed files must use a new package version.
 
 Each package is processed independently. If its version lookup or new ZIP verification or
 mirror download fails, the error is reported and checks continue with the next package.
 After processing all packages, any failures are listed together and publication stops before
 any server writes. Fix the reported files/metadata, then rerun publication.
 
-After successful preflight, an existing build with the same pack slug and release version
-is deleted, a **warning** is logged, and the build is recreated from scratch. This also
-replaces unpublished drafts, without reading the old build. Only the target build and its
-associations are deleted; the shared mod/version library is retained. If preflight fails,
-the old build is left intact. A failed DELETE stops publication before creation.
+After successful preflight, publication tries to create the build. If Solder reports
+that the target build already exists, including an unpublished draft, the GUI asks
+whether to replace it. Declining leaves it untouched. Confirming deletes and recreates
+only the target build and its associations; the shared mod/version library is retained.
+If preflight or the deletion fails, publication stops.
+
+The Technic Launcher does not offer an update when the build number stays the same.
+New installations get the corrected build; players who already installed it need to
+reinstall manually. To deliver the fix through the launcher's normal update flow,
+publish a new build number and point the relevant channel at it.
 
 Publication creates a new unpublished private build, registers missing mods/versions, and
-adds every package in the archive. Versions already in the global mod library
+adds every package selected by the release. Versions already in the global mod library
 are reused, without consulting any previous build. It then publishes privately to read back and verify the
 manifest (Solder cannot read unpublished builds), makes it public, and finally updates
 `latest`. A hidden/private pack stays hidden/private.
@@ -188,6 +190,6 @@ described above; errors during shared setup or writes stop immediately.
 Publication is not atomic: a replaced version is unavailable between deletion and completed
 publication. On failure, the old build may already be gone and the replacement may be absent,
 a draft, a private published build, or a public build whose pointer update failed. Fix the
-reported error and rerun: after preflight, any remaining target build is deleted and recreated;
-registered mod versions are reused. A network timeout leaves the request outcome uncertain,
-so inspect the server state before rerunning.
+reported error and rerun: after preflight, confirm replacement if the target build still
+exists. Registered mod versions are reused. A network timeout leaves the request outcome
+uncertain, so inspect the server state before rerunning.

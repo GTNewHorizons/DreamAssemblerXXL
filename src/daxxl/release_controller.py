@@ -7,6 +7,7 @@ from colorama import Fore
 
 from daxxl.app_context import AppContext
 from daxxl.assembler.assembler_controller import ReleaseAssemblerController
+from daxxl.assembler.platforms.technic import TechnicAssembler
 from daxxl.defs import Archive, DevRelease, ModSource, Side
 from daxxl.exceptions import ReleaseNotFoundException, SideAlreadySetException
 from daxxl.gtnh_logger import get_logger
@@ -550,29 +551,37 @@ class ReleaseController:
 
         return [mod for mod in context.assets.mods if mod.needs_attention], update_errors
 
+    def _current_release(self) -> GTNHRelease:
+        return GTNHRelease(
+            version=self.version,
+            config=self.gtnh_config,
+            github_mods=self.github_mods,
+            external_mods=self.external_mods,
+            last_version=self.last_version,
+        ).copy(deep=True)
+
+    async def technic_package_versions(self) -> dict[str, str]:
+        context = await self.get_context()
+        release = self._current_release()
+        release.validate_release(context.assets)
+        return TechnicAssembler(context, release).get_package_versions(Side.CLIENT)
+
     async def pre_assembling(self) -> ReleaseAssemblerController:
         """
         Method to downloads the mods before constructing the ReleaseAssembler object.
 
         :return: the ReleaseAssembler object constructed
         """
-        if self._assembler_controller is not None:
-            return self._assembler_controller
-
-        context: AppContext = await self.get_context()
-        release: GTNHRelease = GTNHRelease(
-            version=self.version,
-            config=self.gtnh_config,
-            github_mods=self.github_mods,
-            external_mods=self.external_mods,
-            last_version=self.last_version,
-        )
-        logger.info(f"version: {self.version}")
-
-        # clean the previous state of the progress bars
+        release = self._current_release()
         self.global_reset_callback()
         self.current_task_reset_callback()
+        cached = self._assembler_controller
+        if cached is not None and cached.release.dict(exclude={"last_updated"}) == release.dict(exclude={"last_updated"}):
+            self.global_callback(self.delta_progress, "Using cached assets")
+            return cached
 
+        context: AppContext = await self.get_context()
+        logger.info(f"version: {self.version}")
         self.global_callback(self.delta_progress, "Downloading assets")
         await context.downloader.download_release(release, download_callback=self.delta_progress_callback)
         self.current_task_reset_callback()
@@ -603,27 +612,20 @@ class ReleaseController:
 
         :return: None
         """
-        phase_count: int = 3 if archive_type == Archive.TECHNIC else 2
-        self.delta_progress = 100 / phase_count
+        self.delta_progress = 50
         release_assembler: ReleaseAssemblerController = await self.pre_assembling()
 
         self.global_callback(self.delta_progress, f"Assembling {side.value} {archive_type.value} archive")
 
-        if archive_type == Archive.TECHNIC:
-            await release_assembler.assemble_technic(
-                side=side,
-                verbose=True,
-                global_step_callback=lambda msg: self.global_callback(self.delta_progress, msg),
-            )
-        else:
-            assembler_dict: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
-                Archive.ZIP: release_assembler.assemble_zip,
-                Archive.PRISM: release_assembler.assemble_prism,
-                Archive.MODRINTH: release_assembler.assemble_modrinth,
-                Archive.CURSEFORGE: release_assembler.assemble_curse,
-                Archive.MOBILE: release_assembler.assemble_mobile,
-            }
-            await assembler_dict[archive_type](side, True)
+        assembler_dict: dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
+            Archive.ZIP: release_assembler.assemble_zip,
+            Archive.PRISM: release_assembler.assemble_prism,
+            Archive.TECHNIC: release_assembler.assemble_technic,
+            Archive.MODRINTH: release_assembler.assemble_modrinth,
+            Archive.CURSEFORGE: release_assembler.assemble_curse,
+            Archive.MOBILE: release_assembler.assemble_mobile,
+        }
+        await assembler_dict[archive_type](side, True)
 
     async def _assemble_archives(self, archives: list[tuple[Side, Archive]]) -> None:
         """
