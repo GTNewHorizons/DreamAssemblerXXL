@@ -2,6 +2,11 @@ name: Daily modpack build
 
 on:
   workflow_dispatch:
+    inputs:
+      force_new_build:
+        description: Force new build
+        type: boolean
+        default: false
   schedule:
     - cron: '20 3 * * *' # 3:20am UTC every day
 
@@ -55,7 +60,7 @@ jobs:
 
       - name: Check for new release tags
         id: release-changes
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || !inputs.force_new_build
         shell: python
         run: |
           import json
@@ -202,7 +207,7 @@ jobs:
     permissions:
       actions: write
     steps:
-      - name: Cancel scheduled run with no new release tags
+      - name: Cancel run with no new release tags
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
