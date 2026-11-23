@@ -168,15 +168,20 @@ jobs:
           mv releases/multi_poly/GT_New_Horizons_daily_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
           mv releases/multi_poly/GT_New_Horizons_daily_Java_17-26.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip"
           mv releases/mobile/GT_New_Horizons_daily.mrpack "GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack"
-      # Pulls the newest changelog filename and stores it in an env variable
-      # so we can use it in the commit
+      # Match the changelog to the current daily build number
       - name: Retrieve Changelog Name
         id: changelog-name
         if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         run: |
-          changelog_name=$(./scripts/newest_changelog.sh './releases/changelogs/daily builds')
-          echo "changelog_name=${changelog_name}" >> "$GITHUB_OUTPUT"
+          shopt -s nullglob
+          changelogs=("releases/changelogs/daily builds/"*" to ${GITHUB_RUN_NUMBER}.md")
+          if (( ${#changelogs[@]} != 1 )); then
+            echo "Expected one changelog for daily $GITHUB_RUN_NUMBER, found ${#changelogs[@]}" >&2
+            exit 1
+          fi
+          changelog_name=${changelogs[0]##*/}
+          echo "changelog_name=${changelog_name%.md}" >> "$GITHUB_OUTPUT"
 
       # Bundle everything the test/upload jobs need into a single internal artifact
       - name: Upload build bundle for downstream jobs
