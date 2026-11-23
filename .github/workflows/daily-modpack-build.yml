@@ -27,7 +27,7 @@ jobs:
       unchanged: ${{ steps.release-changes.outputs.unchanged }}
       today: ${{ steps.date.outputs.today }}
       daily_non_daily_changelog_file: ${{ steps.release-info.outputs.daily_non_daily_changelog_file }}
-      changelog_name: ${{ steps.changelog-name.outputs.changelog_name }}
+      changelog_name: ${{ steps.assemble.outputs.changelog_name }}
     steps:
       #  check-out repo and set-up python
       - name: Check out repository
@@ -91,11 +91,21 @@ jobs:
             daxxl-daily-${{ runner.os }}-
 
       - name: Build modpack archives
+        id: assemble
         if: steps.release-changes.outputs.unchanged != 'true'
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
-        run: uv run python -m daxxl.cli.assemble_daily
+        run: |
+          # Assembly advances the last successful daily counter
+          previous_daily=$(jq -er '.latest_successful_daily' gtnh-assets.json)
+          uv run python -m daxxl.cli.assemble_daily
+          changelog_name="changelog from daily $previous_daily to $GITHUB_RUN_NUMBER"
+          if [[ ! -f "releases/changelogs/daily builds/$changelog_name.md" ]]; then
+            echo "Missing $changelog_name.md" >&2
+            exit 1
+          fi
+          echo "changelog_name=$changelog_name" >> "$GITHUB_OUTPUT"
 
       - name: Save cached mod zips
         uses: actions/cache/save@v5
@@ -168,20 +178,6 @@ jobs:
           mv releases/multi_poly/GT_New_Horizons_daily_Java_8.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
           mv releases/multi_poly/GT_New_Horizons_daily_Java_17-26.zip "GTNH-daily-${{ steps.date.outputs.today }}-mmcprism-java17-26.zip"
           mv releases/mobile/GT_New_Horizons_daily.mrpack "GTNH-daily-${{ steps.date.outputs.today }}-android-java17-26.mrpack"
-      # Match the changelog to the current daily build number
-      - name: Retrieve Changelog Name
-        id: changelog-name
-        if: steps.release-changes.outputs.unchanged != 'true'
-        shell: bash
-        run: |
-          shopt -s nullglob
-          changelogs=("releases/changelogs/daily builds/"*" to ${GITHUB_RUN_NUMBER}.md")
-          if (( ${#changelogs[@]} != 1 )); then
-            echo "Expected one changelog for daily $GITHUB_RUN_NUMBER, found ${#changelogs[@]}" >&2
-            exit 1
-          fi
-          changelog_name=${changelogs[0]##*/}
-          echo "changelog_name=${changelog_name%.md}" >> "$GITHUB_OUTPUT"
 
       # Bundle everything the test/upload jobs need into a single internal artifact
       - name: Upload build bundle for downstream jobs
