@@ -173512,7 +173512,8 @@
     },
     {
       "name": "Salis Arcana",
-      "latest_version": "2.7.0",
+      "latest_version": "2.10.0",
+      "needs_attention": false,
       "versions": [
         {
           "version_tag": "2.7.0",
@@ -173525,6 +173526,19 @@
           "curse_file": {
             "project_no": "1162488",
             "file_no": "8926401"
+          }
+        },
+        {
+          "version_tag": "2.10.0",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2026-11-24T18:11:02.506196",
+          "filename": "salisarcana-v2.10.0.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/9402/623/salisarcana-v2.10.0.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/salis-arcana/download/9402623",
+          "curse_file": {
+            "project_no": "1162488",
+            "file_no": "9402623"
           }
         }
       ],

@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-11-24T13:58:55.412252+00:00",
+  "last_version": "2.9.1",
+  "last_updated": "2026-11-24T17:11:46.230580+00:00",
   "config": "2.10.0-nightly-2026-11-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -979,7 +979,7 @@
       "side": "BOTH"
     },
     "Salis Arcana": {
-      "version": "2.7.0",
+      "version": "2.10.0",
       "side": "BOTH"
     }
   }
