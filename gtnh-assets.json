@@ -99816,6 +99816,26 @@
           "extra_assets": []
         },
         {
+          "version_tag": "5.09.54.276",
+          "changelog": "## What's Changed\n* Fix VN crash (#8896) by @Armisael5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8897\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.275...5.09.54.276\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-22T21:36:52+00:00",
+          "filename": "gregtech-5.09.54.276.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/780539712",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.276/gregtech-5.09.54.276.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.54.277",
+          "changelog": "## What's Changed\n* [2.9.x Bug Fix] Fix Electric Wirecutter Recipes (#8716) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8919\n* Remove GT++ Iodine Items (except for Plasma) (#7483) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8920\n* Move Russian inflection data out of the bundled lang file (#8875) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8921\n* [2.9.x Bug Fix] Fix Advanced Boiler WAILA (#8775) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8922\n* re-organize & dedupe tooltip markdown files where possible (#8882) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8923\n* dedupe space assembler tooltip (#8883) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8924\n* Localize Assembly Line data stick tooltips (#8888) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8925\n* fix: can grind bones in steam macerator (#8902) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8926\n* Don't auto open covers after shift-right-click open (#8757) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8927\n* added mech armor augment overlay and cores (#8718) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8928\n* Add Simple Stirling Water Pump Recycling  (#8910) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8929\n* Add null guard to Filtered Beam Hatch NBT save (#8907) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8930\n* IC2 Deprecation - Replace Cells & Coolant Cells (#8908) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8931\n* [2.9.x Bug Fix] Skip heat damage for entities with Fire Resistance (#8899) by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8932\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.276...5.09.54.277\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-24T21:10:43+00:00",
+          "filename": "gregtech-5.09.54.277.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/788870595",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.54.277/gregtech-5.09.54.277.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "5.09.55.0",
           "changelog": "## What's Changed\n* Fix control circuit recipe conflict with the IV wireless charger by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8636\n* Rename empty Packager Schematic to blank by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8642\n* use cheese proof module setting with structure check by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8645\n* Make after:etfuturum dependency on GT5 explicit by @mgomezch in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n* [IC2 Deprecation] Replace IC2 Uranium with GT one by @hussain-najeb in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8610\n\n## New Contributors\n* @mgomezch made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/8643\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.54.270...5.09.55.0\n",
           "prerelease": false,
@@ -119417,6 +119437,16 @@
           "filename": "hodgepodge-2.7.226.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/776308477",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.226/hodgepodge-2.7.226.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.7.227",
+          "changelog": "## What's Changed\n* fix WorldClient leak in ScrollListInput (#1074) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1077\n* fix players disappearing after long teleports (#1073) by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/1076\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.226...2.7.227\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-24T21:19:28+00:00",
+          "filename": "hodgepodge-2.7.227.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/788897267",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.227/hodgepodge-2.7.227.jar",
           "extra_assets": []
         },
         {
@@ -157734,6 +157764,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "2.9.106",
+          "changelog": "## What's Changed\n* Fix Arcane Assembler recipes in NEI and Thaumonomicon (#2056) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2062\n* [2.9.x] Add Modern Diamond/Gold Blocks (#2057) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2063\n* IC2 Deprecation - Replace Cells & Coolant Cells (#2059) by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2064\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.105...2.9.106\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-24T21:17:23+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.9.106.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/788890850",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.9.106/GTNewHorizonsCoreMod-2.9.106.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "2.10.0",
           "changelog": "## What's Changed\n* Allow all HV circuits when crafting Data Orb by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/2020\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.9.102...2.10.0\n",
           "prerelease": false,
@@ -164445,6 +164485,16 @@
           "filename": "NotEnoughItems-2.8.175-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/773398104",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.175-GTNH/NotEnoughItems-2.8.175-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.8.176-GTNH",
+          "changelog": "## What's Changed\n* Clear bookmark group tooltip when pulling items or changing quantities (#1152) by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1161\n* Rebuild recipe catalysts only when something changes (#1157) by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1162\n* Move shared button and scrollbar textures to UIWidgetTexture (#1158) by @boubou19 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1163\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.175-GTNH...2.8.176-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-24T21:10:38+00:00",
+          "filename": "NotEnoughItems-2.8.176-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/788870324",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.8.176-GTNH/NotEnoughItems-2.8.176-GTNH.jar",
           "extra_assets": []
         },
         {

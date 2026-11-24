@@ -1,7 +1,7 @@
 {
   "version": "2.9.2",
   "last_version": "2.9.1",
-  "last_updated": "2026-11-24T20:54:01.058239+00:00",
+  "last_updated": "2026-11-24T21:26:02.060826+00:00",
   "config": "2.9.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.54.275",
+      "version": "5.09.54.277",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.226",
+      "version": "2.7.227",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.9.105",
+      "version": "2.9.106",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.175-GTNH",
+      "version": "2.8.176-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
