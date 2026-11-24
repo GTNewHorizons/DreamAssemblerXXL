@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-11-23T19:23:19.650244+00:00",
-  "config": "2.10.0-nightly-2026-11-22",
+  "last_version": "2.9.1",
+  "last_updated": "2026-11-24T17:11:46.230580+00:00",
+  "config": "2.10.0-nightly-2026-11-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.5.1-GTNH",
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.13.0",
+      "version": "1.13.1",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -109,7 +109,7 @@
       "side": "BOTH"
     },
     "CompactKineticGenerators": {
-      "version": "1.0.2-GTNH",
+      "version": "1.0.3-GTNH",
       "side": "BOTH"
     },
     "Computronics": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.34",
+      "version": "5.09.55.35",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.8.6",
+      "version": "2.8.7",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.13-GTNH",
+      "version": "2.9.14-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.13.2-GTNH",
+      "version": "4.13.3-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -609,7 +609,7 @@
       "side": "BOTH"
     },
     "Controlling": {
-      "version": "2.2.0",
+      "version": "2.2.1",
       "side": "CLIENT"
     },
     "BuildCraftOilTweak": {
@@ -653,7 +653,7 @@
       "side": "CLIENT"
     },
     "AlchemyGrate": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "Nutrition": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.2.46",
+      "version": "2.2.47",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -689,7 +689,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.3.0-GTNH",
+      "version": "2.3.1-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -757,11 +757,11 @@
       "side": "BOTH"
     },
     "Fether": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "side": "BOTH"
     },
     "GTNH-Credits": {
@@ -785,7 +785,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.1.6-GTNH",
+      "version": "1.1.7-GTNH",
       "side": "CLIENT"
     },
     "ThaumicMachina": {
@@ -821,7 +821,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.5.5",
+      "version": "2.5.6",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -833,11 +833,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-NH": {
-      "version": "1.0.12",
+      "version": "1.0.13",
       "side": "BOTH"
     },
     "Dashboard": {
-      "version": "1.0.24",
+      "version": "1.0.25",
       "side": "CLIENT"
     },
     "TaskNH": {
@@ -979,7 +979,7 @@
       "side": "BOTH"
     },
     "Salis Arcana": {
-      "version": "2.7.0",
+      "version": "2.10.0",
       "side": "BOTH"
     }
   }
