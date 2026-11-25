@@ -111820,6 +111820,26 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.3.59",
+          "changelog": "## What's Changed\n* Fix guide hotkey crashes when opening resource links (#158) by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/159\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.58...1.3.59\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-22T14:42:10+00:00",
+          "filename": "guidenh-1.3.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/779366224",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.59/guidenh-1.3.59.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.60",
+          "changelog": "## What's Changed\n* harden GuideNH client inputs by @boubou19 in https://github.com/GTNewHorizons/GuideNH/pull/163\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.59...1.3.60\n",
+          "prerelease": false,
+          "tagged_at": "2026-11-24T23:28:29+00:00",
+          "filename": "guidenh-1.3.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GuideNH/releases/assets/789272734",
+          "browser_download_url": "https://github.com/GTNewHorizons/GuideNH/releases/download/1.3.60/guidenh-1.3.60.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.4.0",
           "changelog": "## What's Changed\n* move bq integration methods by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/122\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GuideNH/compare/1.3.55...1.4.0\n",
           "prerelease": false,
