@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.10.0-nightly-2026-11-24",
+    "latest_version": "2.10.0-nightly-2026-11-24-02",
     "needs_attention": false,
     "versions": [
       {
@@ -8325,6 +8325,16 @@
         "extra_assets": []
       },
       {
+        "version_tag": "2.9.2",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-11-25T01:29:06+00:00",
+        "filename": "2.9.2.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/789584796",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.9.2/2.9.2.zip",
+        "extra_assets": []
+      },
+      {
         "version_tag": "2.10.0-nightly-2026-11-04",
         "changelog": "",
         "prerelease": false,
@@ -8532,6 +8542,16 @@
         "filename": "2.10.0-nightly-2026-11-24.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/788170598",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-24/2.10.0-nightly-2026-11-24.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.10.0-nightly-2026-11-24-02",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2026-11-24T22:20:35+00:00",
+        "filename": "2.10.0-nightly-2026-11-24-02.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/789080063",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.10.0-nightly-2026-11-24-02/2.10.0-nightly-2026-11-24-02.zip",
         "extra_assets": []
       }
     ],
@@ -46801,11 +46821,11 @@
         },
         {
           "version_tag": "2.17.38-GTNH",
-          "changelog": "## What's Changed\n* Localize the NEI recipe handler title by @shironakoushi in https://github.com/GTNewHorizons/Chisel/pull/115\n\n## New Contributors\n* @shironakoushi made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/115\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.18.4-GTNH...2.17.38-GTNH\n",
+          "changelog": "## What's Changed\n* Localize the NEI recipe handler title (#115) by @boubou19 in https://github.com/GTNewHorizons/Chisel/pull/116\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.17.37-GTNH...2.17.38-GTNH\n",
           "prerelease": false,
-          "tagged_at": "2026-11-24T20:43:47+00:00",
+          "tagged_at": "2026-11-25T01:54:21+00:00",
           "filename": "chisel-2.17.38-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/788788087",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/789646407",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.17.38-GTNH/chisel-2.17.38-GTNH.jar",
           "extra_assets": []
         },
