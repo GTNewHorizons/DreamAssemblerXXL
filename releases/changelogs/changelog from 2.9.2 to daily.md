@@ -313,11 +313,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Little Tiles support by @DarkShadow44 in https://github.com/GTNewHorizons/Chisel/pull/107 (2.18.1-GTNH)
 >* Fix Matter Manipulator copying chiseled glowstone by @DreamYao520 in https://github.com/GTNewHorizons/Chisel/pull/106 (2.18.0-GTNH)
 
-# Updated - ChiselTones - 1.2.0-GTNH --> 1.3.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ChiselTones/compare/1.2.0-GTNH...1.3.0-GTNH
+# Updated - ChiselTones - 1.2.0-GTNH --> 1.3.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ChiselTones/compare/1.2.0-GTNH...1.3.1-GTNH
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* Make tinted glass chiselable by @Armisael5 in https://github.com/GTNewHorizons/ChiselTones/pull/4 (1.3.1-GTNH)
+
 # Updated - ChromaticTooltips - 1.0.38-GTNH --> 1.1.0-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/ChromaticTooltips/compare/1.0.38-GTNH...1.1.0-GTNH
@@ -355,11 +356,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add direct scheduler for GT machines by @Armisael5 in https://github.com/GTNewHorizons/Computronics/pull/48 (1.10.0-GTNH)
 
-# Updated - Controlling - 2.1.10 --> 2.2.1
+# Updated - Controlling - 2.1.10 --> 2.2.2
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/2.1.10...2.2.1
+**Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/2.1.10...2.2.2
 
 ## What's Changed:
+>* Add API to allow mod to disable modifiers on their keybindings by @Caedis in https://github.com/GTNewHorizons/Controlling/pull/42 (2.2.2)
 >* Update Label Test Workflows by @nh-labelbot[bot] in https://github.com/GTNewHorizons/Controlling/pull/41 (2.2.1)
 >* [chords 1/8] build(mixins): split mixin config into early and late by @Caedis in https://github.com/GTNewHorizons/Controlling/pull/24 (2.2.0)
 >* Update Label Test Workflows by @label-sync-bot-gtnh[bot] in https://github.com/GTNewHorizons/Controlling/pull/34 (2.2.0)
@@ -863,10 +865,11 @@ Mod is client-side only.
 >* fix numeric list markdown by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/125 (1.4.1)
 >* move bq integration methods by @ABKQPO in https://github.com/GTNewHorizons/GuideNH/pull/122 (1.4.0)
 
-# Updated - Hardcore-Ender-Expansion - 1.12.32-GTNH --> 1.14.3-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.32-GTNH...1.14.3-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.12.32-GTNH --> 1.14.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.32-GTNH...1.14.4-GTNH
 
 ## What's Changed:
+>* Fix EnderDragon dropping too much XP by @nimuck in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/62 (1.14.4-GTNH)
 >* Fix duplicate lang key for glowing obsidian by @sivaDog in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/60 (1.14.3-GTNH)
 >* Fix world client leak in RenderTileEssenceAltar by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/55 (1.14.2-GTNH)
 >* unset key by default by @Yoshy2002 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/54 (1.14.1-GTNH)
@@ -877,10 +880,15 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Hodgepodge - 2.7.227 --> 2.8.10
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.227...2.8.10
+# Updated - Hodgepodge - 2.7.227 --> 2.8.13
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.7.227...2.8.13
 
 ## What's Changed:
+>* Add ztones cycling keybind by @Armisael5 in https://github.com/GTNewHorizons/Hodgepodge/pull/1053 (2.8.13)
+>* Disable particle collision checks to save performance by @nimuck in https://github.com/GTNewHorizons/Hodgepodge/pull/1082 (2.8.12)
+>* Prevent Bibliocraft from crashing on invalid item metadata by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Hodgepodge/pull/1087 (2.8.11)
+>* Always drop a single xp orb by @nimuck in https://github.com/GTNewHorizons/Hodgepodge/pull/1081 (2.8.11)
+>* Localize the NEI recipe titles of IC2 and Extra Utilities by @shironakoushi in https://github.com/GTNewHorizons/Hodgepodge/pull/1072 (2.8.11)
 >* Add proper outline shapes and collision for some vanilla blocks by @Armisael5 in https://github.com/GTNewHorizons/Hodgepodge/pull/1038 (2.8.10)
 >* disable mixin making potion array larger with ENDLESSIDS by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/1083 (2.8.9)
 >* Sort the mess from the mixins/early/minecraft package in subpackages by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/1075 (2.8.9)
@@ -1222,10 +1230,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Revert BM Dep by @UltraProdigy in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/14 (1.4.0-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/15 (1.4.0-GTNH)
 
-# Updated - NotEnoughItems - 2.8.176-GTNH --> 2.9.17-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.176-GTNH...2.9.17-GTNH
+# Updated - NotEnoughItems - 2.8.176-GTNH --> 2.9.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.176-GTNH...2.9.18-GTNH
 
 ## What's Changed:
+>* FluidStack rendered text unification by @Connor-Colenso in https://github.com/GTNewHorizons/NotEnoughItems/pull/1169 (2.9.18-GTNH)
 >* Keep fluid amounts above the int limit from GT5-Unofficial Long-Fluid Support by @shironakoushi in https://github.com/GTNewHorizons/NotEnoughItems/pull/1167 (2.9.17-GTNH)
 >* Add option to hide fluid amount tooltip on tanks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/1168 (2.9.17-GTNH)
 >* Fix hotkeys with modifiers double firing when pressed at the same time by @gorbit99 in https://github.com/GTNewHorizons/NotEnoughItems/pull/1117 (2.9.16-GTNH)

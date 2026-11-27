@@ -307,7 +307,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.8.0-GTNH |
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.5.0-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.18.5-GTNH |
-| [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.3.0-GTNH |
+| [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.3.1-GTNH |
 | [ChromaticTooltips](https://github.com/GTNewHorizons/ChromaticTooltips) | 1.1.0-GTNH |
 | [ChromaticTooltipsCompat](https://github.com/GTNewHorizons/ChromaticTooltipsCompat) | 1.1.8-GTNH |
 | [Chunk API](https://www.curseforge.com/minecraft/mc-mods/chunkapi/) | 0.8.4 |
@@ -315,7 +315,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [CompactKineticGenerators](https://github.com/GTNewHorizons/CompactKineticGenerators) | 1.0.3-GTNH |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.10.0-GTNH |
-| [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.2.1 |
+| [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.2.2 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.5.0-GTNH |
 | [CoreTweaks](https://github.com/GTNewHorizons/CoreTweaks) | 0.3.6.1-GTNH |
 | [CosmeticArmorReworked](https://github.com/GTNewHorizons/CosmeticArmorReworked) | 1.1.0-GTNH |
@@ -366,11 +366,11 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [GTNHExtLib](https://github.com/GTNewHorizons/GTNHExtLib) | 1.1.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.12.11 |
 | [GuideNH](https://github.com/GTNewHorizons/GuideNH) | 1.4.12 |
-| [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.14.3-GTNH |
+| [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.14.4-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.4.0-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.4.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.8.10 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.8.13 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.6.0-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.5.1 |
@@ -418,7 +418,7 @@ Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try 
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.10.19 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.4.0-GTNH |
 | [NoHotbarNeeded](https://github.com/GTNewHorizons/NoHotbarNeeded) | 0.1.0 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.9.17-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.9.18-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.8.2 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 1.1.2 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.4.0-GTNH |

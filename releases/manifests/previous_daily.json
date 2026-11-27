@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-26T12:53:24.094229+00:00",
+  "last_updated": "2026-11-27T12:47:21.767163+00:00",
   "config": "2.10.0-nightly-2026-11-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.14.1-GTNH",
+      "version": "1.14.2-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "CompactKineticGenerators": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.38",
+      "version": "5.09.55.43",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.12.10",
+      "version": "0.12.11",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.8.8",
+      "version": "2.8.10",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.10.17",
+      "version": "2.10.19",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.16-GTNH",
+      "version": "2.9.17-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.13.5-GTNH",
+      "version": "1.13.6-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -409,7 +409,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.13.2-GTNH",
+      "version": "1.13.4-GTNH",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.2.4-GTNH",
+      "version": "0.2.5-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.7.5-GTNH",
+      "version": "2.7.6-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.7.0-backhand",
+      "version": "1.7.1-backhand",
       "side": "BOTH"
     },
     "Backhand": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.5.2",
+      "version": "0.5.4",
       "side": "BOTH"
     },
     "Freecam": {
@@ -821,7 +821,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.5.7",
+      "version": "2.5.8",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-NH": {
-      "version": "1.0.13",
+      "version": "1.0.14",
       "side": "BOTH"
     },
     "Dashboard": {
