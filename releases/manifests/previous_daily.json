@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-11-24T17:47:53.667298+00:00",
-  "config": "2.10.0-nightly-2026-11-24",
+  "last_updated": "2026-11-26T12:53:24.094229+00:00",
+  "config": "2.10.0-nightly-2026-11-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.5.1-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "2.0",
+      "version": "2.0.1",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.146-GTNH",
+      "version": "1.1.147-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.55.36",
+      "version": "5.09.55.38",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.8.7",
+      "version": "2.8.8",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.10.16",
+      "version": "2.10.17",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -333,7 +333,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.9.15-GTNH",
+      "version": "2.9.16-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.13.3",
+      "version": "2.13.4",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.6.3-GTNH",
+      "version": "1.6.4-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -637,7 +637,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.1.0",
+      "version": "3.1.1",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -689,7 +689,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.3.1-GTNH",
+      "version": "2.3.2-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.7.4-GTNH",
+      "version": "2.7.5-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -785,7 +785,7 @@
       "side": "CLIENT"
     },
     "ChromaticTooltipsCompat": {
-      "version": "1.1.7-GTNH",
+      "version": "1.1.8-GTNH",
       "side": "CLIENT"
     },
     "ThaumicMachina": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.4.3-1.7.10",
+      "version": "2.4.4-1.7.10",
       "side": "BOTH"
     },
     "Navigator": {
@@ -841,11 +841,11 @@
       "side": "CLIENT"
     },
     "TaskNH": {
-      "version": "0.15.3",
+      "version": "0.15.4",
       "side": "BOTH"
     },
     "PlanNH": {
-      "version": "0.3.2",
+      "version": "0.3.3",
       "side": "CLIENT"
     },
     "Tempora": {
